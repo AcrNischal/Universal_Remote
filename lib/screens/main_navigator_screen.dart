@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/remote_model.dart';
+import '../services/storage_service.dart';
 import 'home_tab.dart';
 import 'saved_remotes_tab.dart';
 import 'settings_tab.dart';
@@ -15,13 +16,31 @@ class MainNavigatorScreen extends StatefulWidget {
 
 class _MainNavigatorScreenState extends State<MainNavigatorScreen> {
   int _currentIndex = 0;
-  final List<RemoteConfig> _savedRemotes = [];
+  List<RemoteConfig> _savedRemotes = [];
+  bool _isLoading = true;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadSavedRemotes();
+  }
+
+  Future<void> _loadSavedRemotes() async {
+    final remotes = await StorageService.loadSavedRemotes();
+    if (mounted) {
+      setState(() {
+        _savedRemotes = remotes;
+        _isLoading = false;
+      });
+    }
+  }
 
   void _addRemote(RemoteConfig config) {
     if (!_savedRemotes.any((r) => r.filePath == config.filePath)) {
       setState(() {
         _savedRemotes.add(config);
       });
+      StorageService.saveSavedRemotes(_savedRemotes);
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Saved "${config.name}" to My Remotes!')),
       );
@@ -36,12 +55,14 @@ class _MainNavigatorScreenState extends State<MainNavigatorScreen> {
     setState(() {
       _savedRemotes.removeWhere((r) => r.filePath == config.filePath);
     });
+    StorageService.saveSavedRemotes(_savedRemotes);
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(content: Text('Removed "${config.name}" from My Remotes.')),
     );
   }
 
-  void _resetData() {
+  void _resetData() async {
+    await StorageService.clearAllData();
     setState(() {
       _savedRemotes.clear();
     });
@@ -49,6 +70,12 @@ class _MainNavigatorScreenState extends State<MainNavigatorScreen> {
 
   @override
   Widget build(BuildContext context) {
+    if (_isLoading) {
+      return const Scaffold(
+        body: Center(child: CircularProgressIndicator()),
+      );
+    }
+
     final List<Widget> tabs = [
       HomeTab(onRemoteSaved: _addRemote),
       SavedRemotesTab(savedRemotes: _savedRemotes, onRemoveRemote: _removeRemote),

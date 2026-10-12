@@ -146,7 +146,7 @@ class _RemoteExplorerScreenState extends State<RemoteExplorerScreen> {
                               return ListTile(
                                 contentPadding: const EdgeInsets.only(left: 32, right: 16),
                                 title: Text(model.name),
-                                subtitle: Text('Protocol: ${model.protocol} (${model.buttons.length} buttons)'),
+                                subtitle: Text('Protocol: ${model.protocol}'),
                                 trailing: ElevatedButton.icon(
                                   style: ElevatedButton.styleFrom(
                                     backgroundColor: Colors.green,

@@ -1,9 +1,52 @@
+import 'dart:convert';
 import 'package:flutter/services.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:xml/xml.dart';
 import '../models/remote_model.dart';
 
 class IrParserService {
+  static List<ManufacturerGroup>? _memoryCache;
+  static const String _parserCacheKey = 'all_parsed_remotes_cache_v2';
+
   static Future<List<ManufacturerGroup>> loadAllRemotes() async {
+    if (_memoryCache != null && _memoryCache!.isNotEmpty) {
+      return _memoryCache!;
+    }
+
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final cachedJson = prefs.getString(_parserCacheKey);
+      if (cachedJson != null) {
+        final List<dynamic> decoded = json.decode(cachedJson);
+        _memoryCache = decoded.map((group) {
+          final mfr = group['manufacturer'] as String;
+          final modelsList = (group['models'] as List<dynamic>).map((m) {
+            final buttonsList = (m['buttons'] as List<dynamic>).map((b) => RemoteButton(
+              label: b['label'],
+              code: b['code'],
+              type: b['type'],
+            )).toList();
+
+            return RemoteConfig(
+              manufacturer: mfr,
+              name: m['name'],
+              filePath: m['filePath'],
+              protocol: m['protocol'],
+              deviceCode: m['deviceCode'],
+              buttons: buttonsList,
+            );
+          }).toList();
+
+          return ManufacturerGroup(manufacturer: mfr, models: modelsList);
+        }).toList();
+
+        return _memoryCache!;
+      }
+    } catch (e) {
+      print('Cache load error: $e');
+    }
+
+    // Otherwise parse from assets
     try {
       final AssetManifest assetManifest = await AssetManifest.loadFromAssetBundle(rootBundle);
       final List<String> allAssets = assetManifest.listAssets();
@@ -22,13 +65,17 @@ class IrParserService {
 
           if (irplusElement != null) {
             final pathSegments = path.split('/');
-            // Use the exact folder name under assets/ircodes/ as the manufacturer/category group
-            // e.g. assets/ircodes/LG (TV)/Model.xml -> "LG (TV)"
             final folderManufacturer = pathSegments.length > 2 ? pathSegments[2] : 'Unknown';
 
             final deviceElement = irplusElement.findAllElements('device').firstOrNull;
+            final xmlManufacturer = deviceElement?.getAttribute('manufacturer') ?? irplusElement.getAttribute('manufacturer');
+            
+            final manufacturer = (xmlManufacturer != null && xmlManufacturer.isNotEmpty && xmlManufacturer != 'Unknown')
+                ? xmlManufacturer
+                : folderManufacturer;
+
             final fileName = pathSegments.last.replaceAll('.xml', '');
-            final xmlModel = deviceElement?.getAttribute('model') ?? irplusElement.getAttribute('name');
+            final xmlModel = deviceElement?.getAttribute('model') ?? irplusElement.findAllElements('name').firstOrNull?.text ?? irplusElement.getAttribute('name');
             final name = (xmlModel != null && xmlModel.isNotEmpty) ? xmlModel : fileName;
 
             final protocol = deviceElement?.getAttribute('format') ?? irplusElement.findAllElements('protocol').firstOrNull?.text ?? 'IR';
@@ -40,7 +87,7 @@ class IrParserService {
                 .toList();
 
             final remoteConfig = RemoteConfig(
-              manufacturer: folderManufacturer.toUpperCase(),
+              manufacturer: manufacturer.toUpperCase(),
               name: name,
               filePath: path,
               protocol: protocol,
@@ -48,7 +95,7 @@ class IrParserService {
               buttons: buttons,
             );
 
-            manufacturerMap.putIfAbsent(folderManufacturer.toUpperCase(), () => []).add(remoteConfig);
+            manufacturerMap.putIfAbsent(manufacturer.toUpperCase(), () => []).add(remoteConfig);
           }
         } catch (e) {
           // Skip malformed XML files
@@ -59,17 +106,21 @@ class IrParserService {
         manufacturerMap = _getFallbackRemotes();
       }
 
-      // Sort manufacturers/categories alphabetically
       final sortedKeys = manufacturerMap.keys.toList()..sort();
 
-      return sortedKeys
+      _memoryCache = sortedKeys
           .map((key) => ManufacturerGroup(
                 manufacturer: key,
                 models: manufacturerMap[key]!..sort((a, b) => a.name.compareTo(b.name)),
               ))
           .toList();
+
+      // Cache to SharedPreferences asynchronously
+      _saveCacheToPrefs(_memoryCache!);
+
+      return _memoryCache!;
     } catch (e) {
-      print('Error loading AssetManifest: $e');
+      print('Error parsing AssetManifest: $e');
       final fallback = _getFallbackRemotes();
       final sortedKeys = fallback.keys.toList()..sort();
       return sortedKeys
@@ -78,6 +129,26 @@ class IrParserService {
                 models: fallback[key]!,
               ))
           .toList();
+    }
+  }
+
+  static void _saveCacheToPrefs(List<ManufacturerGroup> groups) async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final jsonList = groups.map((g) => {
+        'manufacturer': g.manufacturer,
+        'models': g.models.map((m) => {
+          'manufacturer': m.manufacturer,
+          'name': m.name,
+          'filePath': m.filePath,
+          'protocol': m.protocol,
+          'deviceCode': m.deviceCode,
+          'buttons': m.buttons.map((b) => {'label': b.label, 'code': b.code, 'type': b.type}).toList(),
+        }).toList(),
+      }).toList();
+      await prefs.setString(_parserCacheKey, json.encode(jsonList));
+    } catch (e) {
+      print('Error saving parser cache: $e');
     }
   }
 
