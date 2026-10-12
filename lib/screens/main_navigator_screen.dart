@@ -23,11 +23,11 @@ class _MainNavigatorScreenState extends State<MainNavigatorScreen> {
         _savedRemotes.add(config);
       });
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Saved ${config.name} to My Remotes!')),
+        SnackBar(content: Text('Saved "${config.name}" to My Remotes!')),
       );
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('${config.name} is already saved.')),
+        SnackBar(content: Text('"${config.name}" is already saved.')),
       );
     }
   }
@@ -37,7 +37,7 @@ class _MainNavigatorScreenState extends State<MainNavigatorScreen> {
       _savedRemotes.removeWhere((r) => r.filePath == config.filePath);
     });
     ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text('Removed ${config.name} from My Remotes.')),
+      SnackBar(content: Text('Removed "${config.name}" from My Remotes.')),
     );
   }
 
@@ -46,7 +46,10 @@ class _MainNavigatorScreenState extends State<MainNavigatorScreen> {
     final List<Widget> tabs = [
       HomeTab(onRemoteSaved: _addRemote),
       SavedRemotesTab(savedRemotes: _savedRemotes, onRemoveRemote: _removeRemote),
-      SettingsTab(themeNotifier: widget.themeNotifier),
+      SettingsTab(
+        themeNotifier: widget.themeNotifier,
+        onRemoteImported: _addRemote,
+      ),
     ];
 
     return Scaffold(
