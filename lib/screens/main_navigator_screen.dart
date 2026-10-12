@@ -41,6 +41,12 @@ class _MainNavigatorScreenState extends State<MainNavigatorScreen> {
     );
   }
 
+  void _resetData() {
+    setState(() {
+      _savedRemotes.clear();
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     final List<Widget> tabs = [
@@ -49,6 +55,7 @@ class _MainNavigatorScreenState extends State<MainNavigatorScreen> {
       SettingsTab(
         themeNotifier: widget.themeNotifier,
         onRemoteImported: _addRemote,
+        onResetData: _resetData,
       ),
     ];
 

@@ -4,17 +4,27 @@ import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:xml/xml.dart';
 import '../models/remote_model.dart';
+import '../services/ir_blaster_service.dart';
+import 'remote_designer_screen.dart';
 
-class SettingsTab extends StatelessWidget {
+class SettingsTab extends StatefulWidget {
   final ValueNotifier<ThemeMode> themeNotifier;
   final Function(RemoteConfig) onRemoteImported;
+  final VoidCallback onResetData;
 
-  SettingsTab({
+  const SettingsTab({
     Key? key,
     required this.themeNotifier,
     required this.onRemoteImported,
+    required this.onResetData,
   }) : super(key: key);
 
+  @override
+  State<SettingsTab> createState() => _SettingsTabState();
+}
+
+class _SettingsTabState extends State<SettingsTab> {
+  double _blasterSpeedMs = 200.0;
   final TextEditingController _xmlController = TextEditingController();
 
   void _showSyntaxDialog(BuildContext context) {
@@ -117,7 +127,7 @@ class SettingsTab extends StatelessWidget {
                 );
                 return;
               }
-              Navigator.pop(context); // Close text dialog
+              Navigator.pop(context);
               _parseAndCustomizeXml(context, xmlText);
             },
             child: const Text('Next'),
@@ -199,7 +209,7 @@ class SettingsTab extends StatelessWidget {
                 buttons: initialConfig.buttons,
               );
 
-              onRemoteImported(customizedConfig);
+              widget.onRemoteImported(customizedConfig);
               Navigator.pop(context);
             },
             child: const Text('Save to My Remotes'),
@@ -209,9 +219,36 @@ class SettingsTab extends StatelessWidget {
     );
   }
 
+  void _showResetConfirmation(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Reset All Remotes & Settings?'),
+        content: const Text('This will clear all saved remotes and reset preferences to default.'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('Cancel'),
+          ),
+          ElevatedButton(
+            style: ElevatedButton.styleFrom(backgroundColor: Colors.red, foregroundColor: Colors.white),
+            onPressed: () {
+              widget.onResetData();
+              Navigator.pop(context);
+              ScaffoldMessenger.of(context).showSnackBar(
+                const SnackBar(content: Text('App data has been reset.')),
+              );
+            },
+            child: const Text('Reset'),
+          ),
+        ],
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
-    final isDarkMode = themeNotifier.value == ThemeMode.dark;
+    final isDarkMode = widget.themeNotifier.value == ThemeMode.dark;
 
     return Scaffold(
       appBar: AppBar(
@@ -221,7 +258,59 @@ class SettingsTab extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         children: [
           const Text(
-            'Custom Remote',
+            'Remote Designer',
+            style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold, color: Colors.grey),
+          ),
+          const SizedBox(height: 8),
+          Card(
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+            child: ListTile(
+              leading: const Icon(Icons.design_services, color: Colors.blueAccent),
+              title: const Text('Create Custom Remote', style: TextStyle(fontWeight: FontWeight.w600)),
+              subtitle: const Text('Design your own remote with custom buttons & IR codes'),
+              trailing: const Icon(Icons.arrow_forward_ios, size: 16),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => RemoteDesignerScreen(
+                      onRemoteCreated: widget.onRemoteImported,
+                    ),
+                  ),
+                );
+              },
+            ),
+          ),
+          const SizedBox(height: 24),
+          const Text(
+            'Transmission Mode',
+            style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold, color: Colors.grey),
+          ),
+          const SizedBox(height: 8),
+          Card(
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+            child: ValueListenableBuilder<TransmissionMode>(
+              valueListenable: TransmissionSettings.mode,
+              builder: (context, currentMode, child) {
+                final isAudioAux = currentMode == TransmissionMode.audioAux;
+                return SwitchListTile(
+                  secondary: Icon(
+                    isAudioAux ? Icons.headphones : Icons.settings_remote,
+                    color: Colors.blueAccent,
+                  ),
+                  title: const Text('Audio Jack / Aux Blaster', style: TextStyle(fontWeight: FontWeight.w600)),
+                  subtitle: Text(isAudioAux ? 'Transmitting via audio waveform' : 'Transmitting via built-in Hardware IR'),
+                  value: isAudioAux,
+                  onChanged: (value) {
+                    TransmissionSettings.mode.value = value ? TransmissionMode.audioAux : TransmissionMode.hardware;
+                  },
+                );
+              },
+            ),
+          ),
+          const SizedBox(height: 24),
+          const Text(
+            'Import Remotes',
             style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold, color: Colors.grey),
           ),
           const SizedBox(height: 8),
@@ -254,6 +343,40 @@ class SettingsTab extends StatelessWidget {
           ),
           const SizedBox(height: 24),
           const Text(
+            'Advanced Settings',
+            style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold, color: Colors.grey),
+          ),
+          const SizedBox(height: 8),
+          Card(
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+            child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      const Text('Blaster Transmission Speed', style: TextStyle(fontWeight: FontWeight.w600)),
+                      Text('${_blasterSpeedMs.toInt()} ms', style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.blueAccent)),
+                    ],
+                  ),
+                  const SizedBox(height: 4),
+                  const Text('Delay between transmissions or repeat gap', style: TextStyle(color: Colors.grey, fontSize: 12)),
+                  Slider(
+                    value: _blasterSpeedMs,
+                    min: 100,
+                    max: 3000,
+                    divisions: 29,
+                    label: '${_blasterSpeedMs.toInt()} ms',
+                    onChanged: (val) => setState(() => _blasterSpeedMs = val),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          const SizedBox(height: 24),
+          const Text(
             'Appearance',
             style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold, color: Colors.grey),
           ),
@@ -269,8 +392,23 @@ class SettingsTab extends StatelessWidget {
               subtitle: Text(isDarkMode ? 'Currently using Dark Mode' : 'Currently using Light Mode'),
               value: isDarkMode,
               onChanged: (value) {
-                themeNotifier.value = value ? ThemeMode.dark : ThemeMode.light;
+                widget.themeNotifier.value = value ? ThemeMode.dark : ThemeMode.light;
               },
+            ),
+          ),
+          const SizedBox(height: 24),
+          const Text(
+            'Data Management',
+            style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold, color: Colors.grey),
+          ),
+          const SizedBox(height: 8),
+          Card(
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+            child: ListTile(
+              leading: const Icon(Icons.restart_alt, color: Colors.red),
+              title: const Text('Reset All Data & Remotes', style: TextStyle(fontWeight: FontWeight.w600, color: Colors.red)),
+              subtitle: const Text('Clear saved remotes and reset app preferences'),
+              onTap: () => _showResetConfirmation(context),
             ),
           ),
           const SizedBox(height: 24),

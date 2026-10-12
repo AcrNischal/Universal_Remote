@@ -1,9 +1,20 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
+import 'audio_ir_service.dart';
+
+enum TransmissionMode { hardware, audioAux }
+
+class TransmissionSettings {
+  static ValueNotifier<TransmissionMode> mode = ValueNotifier(TransmissionMode.hardware);
+}
 
 class IrBlasterService {
   static const MethodChannel _channel = MethodChannel('com.universalremote.ir/blaster');
 
   static Future<bool> hasIrEmitter() async {
+    if (TransmissionSettings.mode.value == TransmissionMode.audioAux) {
+      return true;
+    }
     try {
       final bool result = await _channel.invokeMethod('hasIrEmitter');
       return result;
@@ -13,6 +24,11 @@ class IrBlasterService {
   }
 
   static Future<bool> transmitHex(String hexCode, {int frequency = 38000}) async {
+    if (TransmissionSettings.mode.value == TransmissionMode.audioAux) {
+      await AudioIrService.playIrAudioTone(hexCode);
+      return true;
+    }
+
     try {
       final pattern = _hexToNecPattern(hexCode);
       final bool result = await _channel.invokeMethod('transmit', {
@@ -21,8 +37,9 @@ class IrBlasterService {
       });
       return result;
     } on PlatformException catch (e) {
-      print('Failed to transmit IR: ${e.message}');
-      throw Exception(e.message ?? 'Device has no IR emitter or permission missing');
+      print('Hardware IR failed, falling back to audio aux: ${e.message}');
+      await AudioIrService.playIrAudioTone(hexCode);
+      return true;
     }
   }
 
@@ -38,13 +55,11 @@ class IrBlasterService {
     }
 
     List<int> pattern = [];
-    // NEC Header
     pattern.add(9000);
     pattern.add(4500);
 
-    // 32 bits
     for (int i = 31; i >= 0; i--) {
-      bool bit = ((valAt(code, i)) & 1) == 1;
+      bool bit = ((code >> i) & 1) == 1;
       pattern.add(560);
       if (bit) {
         pattern.add(1690);
@@ -53,12 +68,7 @@ class IrBlasterService {
       }
     }
 
-    // Stop bit
     pattern.add(560);
     return pattern;
-  }
-
-  static int valAt(int code, int i) {
-    return (code >> i) & 1;
   }
 }
