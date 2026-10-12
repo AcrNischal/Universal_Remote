@@ -1,0 +1,25 @@
+<irplus>
+    <device manufacturer="EXAMPLE" model="ImageRemote" columns="12" format="WINLIRC_NEC1">
+
+        <button label="Channel1" span="4">0x00FF 0x00FF</button>
+
+        <button label="Channel2" span="4">0x00FF 0x00FF</button>
+
+        <button label="Channel3" span="4">0x00FF 0x00FF</button>
+
+        <button label="Channel4" span="4">0x00FF 0x00FF</button>
+
+        <button bitmapHeight="48" bitmap="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"
+            label="Channel5" labelColor="FF000000" labelSize="0.0" span="4">0x00FF 0x00FF</button>
+
+        <button label="Channel6" span="4">0x00FF 0x00FF</button>
+
+        <button label="Channel7" span="4">0x00FF 0x00FF</button>
+
+        <button label="Channel8" span="4">0x00FF 0x00FF</button>
+
+        <button label="Channel9" span="4">0x00FF 0x00FF</button>
+
+    </device>
+</irplus>
+ 

@@ -1,0 +1,48 @@
+<irplus>
+	<device manufacturer="SVA" model="TV" columns="12" format="WINLIRC_NEC1" one-space="1552" one-pulse="679" zero-pulse="679" zero-space="443" header-pulse="9101" header-space="4386" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" backgroundColor="FFC84334" span="3">0x402 0x00FF</button>
+		<button label="TVVIDEO" span="3">0x402 0x20DF</button>
+		<button label="EXIT" span="3">0x402 0xD827</button>
+		<button label="ADDERASE" span="3">0x402 0xC23D</button>
+		
+		<button label="R" fillColor="FFC84334" span="3">0x402 0xF807</button>
+		<button label="G" fillColor="FF1E7854" span="3">0x402 0x22DD</button>
+		<button label="Y" fillColor="FFD6A81F" span="3">0x402 0x28D7</button>
+		<button label="B" fillColor="FF2A4C94" span="3">0x402 0xA857</button>
+		
+		<button label="VOL+" span="3">0x402 0x8877</button>
+		<button label="VOL-" span="3">0x402 0x48B7</button>
+		<button label="CH+" span="3">0x402 0x08F7</button>
+		<button label="CH-" span="3">0x402 0xC837</button>
+		
+		<button label="&#xFF581;" span="3">0x402 0xE817</button>
+		<button label="&#xf0e2;" alt="RECALL" span="3">0x402 0x42BD</button>
+		<button label="LIST" span="3">0x402 0xB04F</button>
+		<button label="CLOSCAP" span="3">0x402 0x28D7</button>
+		
+		<button label="DISPLAY" span="4">0x402 0x02FD</button>
+		<button label="MTS" span="4">0x402 0x827D</button>
+		<button label="SLEEP" span="4">0x402 0x10EF</button>
+		
+		<button label="PIPin" span="4">0x402 0x629D</button>
+		<button label="STILL" span="4">0x402 0x9867</button>
+		<button label="VChip" span="4">0x402 0xA857</button>
+		
+		<button label="1" span="4">0x402 0x807F</button>
+		<button label="2" span="4">0x402 0x40BF</button>
+		<button label="3" span="4">0x402 0xC03F</button>
+		
+		<button label="4" span="4">0x402 0xA05F</button>
+		<button label="5" span="4">0x402 0x609F</button>
+		<button label="6" span="4">0x402 0xE01F</button>
+		
+		<button label="7" span="4">0x402 0x906F</button>
+		<button label="8" span="4">0x402 0x50AF</button>
+		<button label="9" span="4">0x402 0xD02F</button>
+		
+		<button label="Bright+" span="4">0x402 0x30CF</button>
+		<button label="0" span="4">0x402 0x18E7</button>
+		<button label="100+" span="4">0x402 0xB04F</button>
+	</device>
+</irplus>

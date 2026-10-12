@@ -1,0 +1,50 @@
+<irplus>
+	<device manufacturer="ORION" model="82332TV" columns="12" format="WINLIRC_NEC1" one-space="1876" one-pulse="468"
+		zero-pulse="468" zero-space="590" header-pulse="8788" header-space="4644" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" backgroundColor="FFC84334" span="3">0x1C6 0xF00F</button>
+		<button label="INFO" span="3">0x1C6 0x08F7</button>
+		<button label="INPUT" span="3">0x1C6 0x48B7</button>
+		<button label="PICTURE" span="3">0x1C6 0x1AE5</button>
+		
+		<button label="1" span="3">0x1C6 0x00FF</button>
+		<button label="2" span="3">0x1C6 0x807F</button>
+		<button label="3" span="3">0x1C6 0x40BF</button>
+		<button label="CH SWITCH" span="3">0x1C6 0x8877</button>
+		
+		<button label="4" span="3">0x1C6 0xC03F</button>
+		<button label="5" span="3">0x1C6 0x20DF</button>
+		<button label="6" span="3">0x1C6 0xA05F</button>
+		<button label="AUDIO" span="3">0x1C6 0xA857</button>
+		
+		<button label="7" span="3">0x1C6 0x609F</button>
+		<button label="8" span="3">0x1C6 0xE01F</button>
+		<button label="9" span="3">0x1C6 0x10EF</button>
+		<button label="TTX RESP" span="3">0x1C6 0x7887</button>
+          
+		<button label="SLEEP" span="3">0x1C6 0xC837</button>
+		<button label="0" span="3">0x1C6 0x906F</button>
+		<button label="&#xFF581;" span="3">0x1C6 0x708F</button>
+		<button label="TTX ADAPT" span="3">0x1C6 0x6A95</button>
+
+		<button label="TTX" span="4">0x1C6 0xA25D</button>
+		<button label="CH+" span="4">0x1C6 0x01FE</button>
+		<button label="EXIT" span="4">0x1C6 0x09F6</button>
+		
+		<button label="VOL-" span="4">0x1C6 0x2AD5</button>
+		<button label="ENTER" span="4">0x1C6 0xAA55</button>
+		<button label="VOL+" span="4">0x1C6 0xCA35</button>
+		
+		<button label="FREEZE" span="4">0x1C6 0x02FD</button>
+		<button label="CH-" span="4">0x1C6 0x817E</button>
+		<button label="MENU" span="4">0x1C6 0x58A7</button>
+		
+		<button label="R" fillColor="FFC84334" span="3">0x1C6 0x52AD</button>
+		<button label="G" fillColor="FF1E7854" span="3">0x1C6 0xD22D</button>
+		<button label="Y" fillColor="FFD6A81F" span="3">0x1C6 0x32CD</button>
+		<button label="B" fillColor="FF2A4C94" span="3">0x1C6 0xB24D</button>
+
+	</device>
+</irplus>
+
+

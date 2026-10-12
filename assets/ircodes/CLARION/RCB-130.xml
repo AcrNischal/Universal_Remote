@@ -1,0 +1,29 @@
+<irplus>
+    <device manufacturer="CLARION" model="RCB-130" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16"
+        toggle-bit-pos="0" gap-pulse="641" gap-space="43082" one-pulse="641" one-space="1578" zero-pulse="641" zero-space="458" header-pulse="9061" header-space="4361">
+
+        <button label="FUNC" span="4">0x6106 0xC03F</button>
+        <button label="" span="4">0x6106 0xD827</button>
+        <space multiple="4"/>
+
+        <button label="" span="4">0x6106 0x6897</button>
+        <button label=" " span="4">0x6106 0x10EF</button>
+        <button label="" span="4">0x6106 0xE817</button>
+
+        <space multiple="4"/>
+        <button label="" span="4">0x6106 0xB847</button>
+        <button label="BAND" span="4">0x6106 0x50AF</button>
+
+        <button label="&#xFF581;" span="4">0x6106 0xA05F</button>
+        <button label="TA" span="4">0x6106 0x20DF</button>
+        <button label="DISP" span="4">0x6106 0x1CE3</button>
+
+        <button label="SCN" span="4">0x6106 0x8877</button>
+        <button label="RPT" span="4">0x6106 0x18E7</button>
+        <button label="PTY" span="4">0x6106 0x9867</button>
+
+        <button label="PS/AS" span="4" repeat="6">0x6106 0x8877</button>
+        <button label="BLS" span="4" repeat="6">0x6106 0x18E7</button>
+        <button label="DOLBY" span="4" repeat="6">0x6106 0x9867</button>
+    </device>
+</irplus>

@@ -1,0 +1,40 @@
+<irplus><!--HTR-5630RDS-->
+	<device manufacturer="YAMAHA" model="RAV16-WA61770" columns="12" format="WINLIRC_NEC1">
+		<button label="DVD" span="3">0x5EA1 0x837C</button>
+		<button label="DTV" span="3">0x5EA1 0x2AD5</button>
+		<button label="VCR" span="3">0x5EA1 0xF00F</button>
+		<button label="&#xf011;" backgroundColor="FFC84334" span="3">0x5EA1 0xF807</button>
+
+		<button label="CD" span="3">0x5EA1 0xA857</button>
+		<button label="MD" span="3">0x5EA1 0x936C</button>
+		<button label="AUX" span="3">0x5EA1 0xAA55</button>
+		<button label="6CH" span="3">0x5EA1 0xE11E</button>
+
+		<button label="TUNER" span="3">0x5EA1 0x6897</button>
+		<button label="ABCDE" span="3">0x5EA1 0x48B7</button>
+		<button label="PRE-" span="3">0x5EA1 0x8877</button>
+		<button label="PRE+" span="3">0x5EA1 0x08F7</button>
+
+		<button label="DTS" span="3">0x5EA1 0x09F6</button>
+		<button label="5.1" span="3">0x5EA1 0xE916</button>
+		<button label="NIGHT" span="3">0x5EA1 0xA956</button>
+		<button label="SLEEP" span="3">0x5EA1 0xEA15</button>
+
+		<button label="TEST" span="3">0x5EA1 0xA15E</button>
+		<button label="STEREO" span="3">0x5EA1 0x6A95</button>
+		<button label="LEVEL" span="3">0x5EA1 0x619E</button>
+		<button label="MENU" span="3">0x5EA1 0x39C6</button>
+
+		<button label="&#xf0d8;" span="4">0x5EA1 0x19E6</button>
+		<button label="&#xf0d8;" backgroundColor="FFAAAAAA" span="4">0x5EA1 0x58A7</button>
+		<button label="&#xf0d7;" span="4">0x5EA1 0x9966</button>
+
+		<button label="&#xf0d9;" backgroundColor="FFAAAAAA" span="4">0x5EA1 0x9A65</button>
+		<button label="&#xFF581;" backgroundColor="FFAAAAAA" span="4">0x5EA1 0x38C7</button>
+		<button label="&#xf0da;" backgroundColor="FFAAAAAA" span="4">0x5EA1 0x1AE5</button>
+
+		<button label="&#xf0d9;" span="4">0x5EA1 0xCA35</button>
+		<button label="&#xf0d7;" backgroundColor="FFAAAAAA" span="4">0x5EA1 0xD827</button>
+		<button label="&#xf0da;" span="4">0x5EA1 0x4AB5</button>
+	</device>
+</irplus>

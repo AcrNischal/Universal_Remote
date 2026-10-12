@@ -1,0 +1,23 @@
+<irplus>
+    <device manufacturer="SAMSUNG" model="Air Conditioner 1" columns="12" format="WINLIRC_SPACEENC" bits="8" pre-bits="12" repeatheader="true"
+        gap-pulse="604" gap-space="60170" one-pulse="604" one-space="1380" zero-pulse="604" zero-space="386" header-pulse="4581" header-space="4359" repeat="2">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x804 0xFC</button>
+        <button label="COOL" span="4">0x804 0x3C</button>
+        <button label="HEAT" span="4">0x804 0x5C</button>
+
+        <button label="TEMP-" span="6">0x804 0x8C</button>
+        <button label="TEMP+" span="6">0x804 0x4C</button>
+
+        <button label="FAN" span="3">0x804 0x9C</button>
+        <button label="FAN HI" span="3">0x804 0xEC</button>
+        <button label="FAN MED" span="3">0x804 0x6C</button>
+        <button label="FAN LOW" span="3">0x804 0xAC</button>
+
+        <button label="MODE" span="3">0x804 0xBC</button>
+        <button label="TURBO" span="3">0x804 0x34</button>
+        <button label="SLEEP" span="3">0x804 0xE4</button>
+        <button label="SWING" span="3">0x804 0x94</button>
+
+    </device>
+</irplus>

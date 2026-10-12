@@ -1,0 +1,21 @@
+<irplus>
+	<device manufacturer="VIRGIN" model="TIVO" frequency="36000"
+	    columns="12" format="WINLIRC_RC5" toggle-bit-pos="2" one-space="828" one-pulse="952" zero-pulse="952" zero-space="828" bits="5" pre-bits="8">
+		
+		<button label="&#xf011;" backgroundColor="FFC84334" span="12">0x94 0x0C</button>
+		
+		<button label="1" span="4">0x94 0x01</button>
+		<button label="2" span="4">0x94 0x02</button>
+		<button label="3" span="4">0x94 0x03</button>
+		
+		<button label="4" span="4">0x94 0x04</button>
+		<button label="5" span="4">0x94 0x05</button>
+		<button label="6" span="4">0x94 0x06</button>
+		
+		<button label="7" span="4">0x94 0x07</button>
+		<button label="8" span="4">0x94 0x08</button>
+		<button label="9" span="4">0x94 0x09</button>
+		
+		<button label="0" span="12">0x94 0x00</button>
+	</device>
+</irplus>

@@ -1,0 +1,44 @@
+<irplus>
+	<device manufacturer="MIVAR" model="X1" columns="4" format="WINLIRC_SPACEENC" bits="11" one-space="7303" one-pulse="259" zero-space="4772" zero-pulse="259">
+
+		<button label="0" labelColor="FF000000" backgroundColor="FF1E7854">0x00000000000005CE</button>
+		<button label="1" labelColor="FF000000" backgroundColor="FF1E7854">0x00000000000005C4</button>
+		<button label="2" labelColor="FF000000" backgroundColor="FF1E7854">0x00000000000007C2</button>
+		<button label="3" labelColor="FF000000" backgroundColor="FF1E7854">0x00000000000005C3</button>
+
+		<button label="4" labelColor="FF000000" backgroundColor="FF1E7854">0x00000000000007C5</button>
+		<button label="5" labelColor="FF000000" backgroundColor="FF1E7854">0x00000000000007C6</button>
+		<button label="6" labelColor="FF000000" backgroundColor="FF1E7854">0x00000000000005CC</button>
+		<button label="7" labelColor="FF000000" backgroundColor="FF1E7854">0x00000000000007CA</button>
+
+		<button label="8" labelColor="FF000000" backgroundColor="FF1E7854">0x00000000000005CB</button>
+		<button label="9" labelColor="FF000000" backgroundColor="FF1E7854">0x00000000000007CD</button>
+		<button label="Lum+" backgroundColor="FF2A4C94">0x00000000000005D5</button>
+		<button label="Col+" backgroundColor="FF2A4C94">0x00000000000005D6</button>
+
+		<button label="L1-L2">0x00000000000007E6</button>
+		<space/>
+		<button label="Lum-" backgroundColor="FF2A4C94">0x00000000000007DD</button>
+		<button label="Col-" backgroundColor="FF2A4C94">0x00000000000007DE</button>
+
+		<button label="V+">0x00000000000005D2</button>
+		<button label="V-M">0x00000000000005E2</button>
+		<button label="Muto">0x00000000000007E5</button>
+		<button label="P+">0x00000000000005D4</button>
+
+		<button label="V-">0x00000000000007DA</button>
+		<button label="All">0x00000000000007ED</button>
+		<button label="P/C">0x00000000000005E4</button>
+		<button label="P-">0x00000000000007DC</button>
+
+		<button label="Riv" labelColor="FF000000" backgroundColor="FFD6A81F">0x00000000000005EE</button>
+		<button label="Canc" labelColor="FF000000" backgroundColor="FFD6A81F">0x00000000000007EA</button>
+		<button label="&#xf04d;" alt="STOP" labelColor="FF000000" backgroundColor="FFD6A81F">0x00000000000005EC</button>
+		<button label="TV-TVD" labelColor="FF000000" backgroundColor="FFD6A81F">0x00000000000005EB</button>
+
+		<button label="Ora" backgroundColor="FF62430D">0x00000000000007F4</button>
+		<button label="Spento" labelColor="FFC84334" span="2">0x00000000000007F3</button>
+		<button label="AV" backgroundColor="FF62430D">0x00000000000005F6</button>
+
+	</device>
+</irplus>

@@ -1,0 +1,46 @@
+<irplus>
+    <device manufacturer="SONY" model="RMT-CS47AD" columns="12" format="WINLIRC_SPACEENC" bits="15" pre-bits="15"
+          gap-pulse="1" gap-space="44868" one-pulse="1283" one-space="513" zero-pulse="682" zero-space="513"
+        header-pulse="2480" header-space="511" repeat="3" repeatheader="true" frequency="40000">
+
+        <button label="OPEN" span="4">0x3426</button>
+        <button label="SLEEP" span="4">0x0322</button>
+        <button label="OPERATE" labelColor="FF73B49E" span="4">0x5422</button>
+
+        <button label="1" span="4">0x0026</button>
+        <button label="2" span="4">0x4026</button>
+        <button label="3" span="4">0x2026</button>
+
+        <button label="4" span="4">0x6026</button>
+        <button label="5" span="4">0x1026</button>
+        <button label="6" span="4">0x5026</button>
+
+        <button label="7" span="4">0x3026</button>
+        <button label="8" span="4">0x7026</button>
+        <button label="9" span="4">0x0826</button>
+
+        <button label="MODE" span="4">0x4422</button>
+        <button label="0/10" span="4">0x1826</button>
+        <button label=">10" span="4">0x5826</button>
+
+        <button label="BAND" labelColor="FF8DA8BA" span="4">0x7B26</button>
+        <button label="TUNE+" labelColor="FF8DA8BA" span="4">0x6726</button>
+        <button label="VOL+" span="4">0x2422</button>
+
+        <button label="FUNCTION" span="4">0x7122</button>
+        <button label="TUNE-" labelColor="FF8DA8BA" span="4">0x1726</button>
+        <button label="VOL-" span="4">0x6422</button>
+
+        <button label="&#xf04b;" alt="PLAY" span="4">0x2626</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x4E26</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x0E26</button>
+
+        <button label="LOOP" span="4">0x1626</button>
+        <button label="&#xf049;" span="4">0x0626</button>
+        <button label="&#xf050;" span="4">0x4626</button>
+
+        <button label="SOUND" span="6">0x0622</button>
+        <button label="BASSBOOST" span="6">0x7E22</button>
+
+    </device>
+</irplus>

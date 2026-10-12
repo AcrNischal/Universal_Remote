@@ -1,0 +1,60 @@
+<irplus>
+    <device manufacturer="TECHNICOLOR" model="DCI804HOT" columns="12" format="WINLIRC_NEC1">
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x0C0C 0x00ff</button>
+        <space multiple="4"/>
+        <space multiple="4"/>
+
+        <button label="1" span="4">0x0C0C 0x9867</button>
+        <button label="2" span="4">0x0C0C 0x58a7</button>
+        <button label="3" span="4">0x0C0C 0xd827</button>
+
+        <button label="4" span="4">0x0C0C 0x38c7</button>
+        <button label="5" span="4">0x0C0C 0xb847</button>
+        <button label="6" span="4">0x0C0C 0x7887</button>
+
+        <button label="7" span="4">0x0C0C 0xf807</button>
+        <button label="8" span="4">0x0C0C 0x04fb</button>
+        <button label="9" span="4">0x0C0C 0x847b</button>
+
+        <button label="DISPLAY" span="4">0x0C0C 0x50af</button>
+        <button label="0" span="4">0x0C0C 0x44bb</button>
+        <button label="&#xf0e2;" alt="RECALL" span="4">0x0C0C 0xb04f</button>
+
+        <button label="CH+" span="4">0x0C0C 0x10ef</button>
+        <button label="&#xf0d8;" span="4">0x0C0C 0xf00f</button>
+        <button label="EPG" span="4">0x0C0C 0x807f</button>
+
+        <button label="&#xf0d9;" span="4">0x0C0C 0x48b7</button>
+        <button label="SELECT" span="4">0x0C0C 0x28d7</button>
+        <button label="&#xf0da;" span="4">0x0C0C 0xc837</button>
+
+        <button label="CH-" span="4">0x0C0C 0x906f</button>
+        <button label="&#xf0d7;" span="4">0x0C0C 0x8877</button>
+        <button label="EXIT" span="4">0x0C0C 0x30cf</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x0C0C 0xa857</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x0C0C 0x6897</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x0C0C 0xe817</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x0C0C 0x18e7</button>
+
+        <button label="" span="3">0x0C0C 0x8e71</button>
+        <button label="&#xf04b;" alt="PLAY" span="3">0x0C0C 0x4eb1</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">0x0C0C 0xce31</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0x0C0C 0x2ed1</button>
+
+        <button label="&#xf04d;" alt="STOP" span="6">0x0C0C 0x0ef1</button>
+        <button label="&#xf111;" alt="REC" span="6">0x0C0C 0xae51</button>
+
+        <button label="HOT" span="4">0x0C0C 0x01fe</button>
+        <button label="HOT-ACTIVE" span="4">0x0C0C 0x20df</button>
+        <button label="LANGUAGE" span="4">0x0C0C 0x4cb3</button>
+
+        <button label="MAGIC" span="4">0x0C0C 0x827d</button>
+        <button label="MAIL" span="4">0x0C0C 0x02fd</button>
+        <button label="MUSIC" span="4">0x0C0C 0x42bd</button>
+
+        <button label="SERVICES" span="4">0x0C0C 0xc03f</button>
+        <button label="VOD" span="4">0x0C0C 0x708f</button>
+        <button label="VOD-MOVIES" span="4">0x0C0C 0x40bf</button>
+    </device>
+</irplus>

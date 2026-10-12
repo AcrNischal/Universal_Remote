@@ -1,0 +1,24 @@
+<irplus>
+    <device manufacturer="INSIGNIA" model="NS-SB" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xa1b7 0x10ef</button>
+        <button label="&#xFF581;" span="4">0xa1b7 0x56a9</button>
+        <button label="INPUT" span="4">0xa1b7 0x1ee1</button>
+
+        <button label="VOL-" span="6">0xa1b7 0x06f9</button>
+        <button label="VOL+" span="6">0xa1b7 0x8679</button>
+
+        <button label="OPTICAL" span="6">0xa1b7 0x9e61</button>
+        <button label="AUX" span="6">0xa1b7 0xb649</button>
+        
+        <button label="RCA" span="6">0xa1b7 0xee11</button>
+        <button label="&#xf294;" span="6">0xa1b7 0x2bd4</button>
+
+        <button label="NEWS" span="6">0xa1b7 0x45ba</button>
+        <button label="STANDARD" span="6">0xa1b7 0xc53a</button>
+
+        <button label="THEATER" span="6">0xa1b7 0x05fa</button>
+        <button label="BASS" span="6">0xa1b7 0x09f6</button>
+
+    </device>
+</irplus>

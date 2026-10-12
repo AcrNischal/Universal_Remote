@@ -1,0 +1,58 @@
+<irplus>
+    <device manufacturer="TECHNICS" model="EUR64713" columns="5" format="WINLIRC_SPACEENC" bits="17" pre-bits="5" gap-pulse="908" gap-space="109752" one-pulse="908" one-space="2750" zero-pulse="908" zero-space="920" header-pulse="3674" header-space="3666">
+
+        <button label="">0x6 0x0067F</button>
+        <space/>
+        <space/>
+        <button label="">0x6 0x0C667</button>
+        <button label="">0x6 0x0A66B</button>
+
+        <space/>
+        <button label="">0x6 0x04677</button>
+        <button label="">0x6 0x14657</button>
+        <button label="">0x6 0x0866F</button>
+        <button label="">0x6 0x1864F</button>
+
+        <button label="1">0x6 0x0167D</button>
+        <button label="2">0x6 0x1165D</button>
+        <button label="3">0x6 0x0966D</button>
+        <button label="4">0x6 0x1964D</button>
+        <button label="5">0x6 0x05675</button>
+
+        <button label="6">0x6 0x15655</button>
+        <button label="7">0x6 0x0D665</button>
+        <button label="8">0x6 0x1D645</button>
+        <button label="9">0x6 0x03679</button>
+        <button label="10">0x6 0x01E7C</button>
+
+        <button label="11">0x6 0x11E5C</button>
+        <button label="12">0x6 0x09E6C</button>
+        <button label="13">0x6 0x19E4C</button>
+        <button label="14">0x6 0x05E74</button>
+        <button label="15">0x6 0x15E54</button>
+
+        <button label="16">0x6 0x0DE64</button>
+        <button label="17">0x6 0x1DE44</button>
+        <button label="18">0x6 0x03E78</button>
+        <button label="19">0x6 0x13E58</button>
+        <button label="20">0x6 0x0BE68</button>
+
+        <button label="+10">0x6 0x0B669</button>
+        <button label="0">0x6 0x13659</button>
+        <button label="program">0x6 0x17651</button>
+        <button label="clear">0x6 0x1A64B</button>
+        <button label="recall">0x6 0x1265B</button>
+
+        <button label="A-B repeat">0x6 0x0267B</button>
+        <button label="repeat">0x6 0x1C647</button>
+        <space/>
+        <button label=" index">0x6 0x06673</button>
+        <button label=" skip">0x6 0x16653</button>
+
+        <button label="random">0x6 0x1F641</button>
+        <button label="music scan">0x6 0x1E643</button>
+        <button label="auto cue">0x6 0x18E4E</button>
+        <button label="display">0x6 0x1EE42</button>
+        <button label="time">0x6 0x12E5A</button>
+    </device>
+</irplus>

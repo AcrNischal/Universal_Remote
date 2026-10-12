@@ -1,0 +1,49 @@
+<irplus>
+    <device manufacturer="OKI" model="TV-Generic" columns="12" format="WINLIRC_RC5" bits="13" pre-bits="13"
+        toggle-bit-pos="2" gap-pulse="1" gap-space="90886" frequency="36000">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="3">0x100c</button>
+        <button label="INPUT" span="3">0x1038</button>
+        <button label="TV" span="3">0x103f</button>
+        <button label="&#xFF581;" span="3">0x100d</button>
+
+        <button label="AUDIO" span="3">0x1023</button>
+        <button label="TELETEXT" span="3">0x103c</button>
+        <button label="INFO" span="3">0x1012</button>
+        <button label="MENU" span="3">0x1030</button>
+
+        <button label="VOL" span="4">0x1010</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0x1014</button>
+        <button label="CH+" span="4">0x1020</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x1015</button>
+        <button label="OK" span="4">0x1035</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x1016</button>
+
+        <button label="VOL-" span="4">0x1011</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x1013</button>
+        <button label="CH-" span="4">0x1021</button>
+
+        <button label="1" span="4">0x1001</button>
+        <button label="2" span="4">0x1002</button>
+        <button label="3" span="4">0x1003</button>
+
+        <button label="4" span="4">0x1004</button>
+        <button label="5" span="4">0x1005</button>
+        <button label="6" span="4">0x1006</button>
+
+        <button label="7" span="4">0x1007</button>
+        <button label="8" span="4">0x1008</button>
+        <button label="9" span="4">0x1009</button>
+
+        <button label="GUIDE" span="4">0x102f</button>
+        <button label="0" span="4">0x1000</button>
+        <button label="RECALL" span="4">0x1022</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x1037</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x1036</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x1032</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x1034</button>
+
+    </device>
+</irplus>

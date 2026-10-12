@@ -1,0 +1,71 @@
+<irplus>
+    <device manufacturer="LG" model="DVD 6710CDAG02A" columns="12" format="WINLIRC_SPACEENC" toggle-bit-pos="0" one-pulse="547" one-space="1652"
+        zero-pulse="547" zero-space="525" header-pulse="4547" header-space="4473" gap-space="105780" gap-pulse="546" bits="16" pre-bits="16">
+
+        <button label="&#61457;" labelSize="25.0" span="3" backgroundColor="FF9E0000">0x808 0x7887</button>
+        <space multiple="9" />
+
+        <button label="1" labelSize="25.0" span="3">0x808 0x827D</button>
+        <button label="2" labelSize="25.0" span="3">0x808 0x42BD</button>
+        <button label="3" labelSize="25.0" span="3">0x808 0xC23D</button>
+        <button label="4" labelSize="25.0" span="3">0x808 0x22DD</button>
+
+        <button label="5" labelSize="25.0" span="3">0x808 0xA25D</button>
+        <button label="6" labelSize="25.0" span="3">0x808 0x629D</button>
+        <button label="7" labelSize="25.0" span="3">0x808 0xE21D</button>
+        <button label="8" labelSize="25.0" span="3">0x808 0x12ED</button>
+
+        <space multiple="3" />
+        <button label="9" labelSize="25.0" span="3">0x808 0x926D</button>
+        <button label="0" labelSize="25.0" span="3">0x808 0xD22D</button>
+        <space multiple="3" />
+
+        <button label="PROGRAM" labelSize="14.0" span="3">0x808 0xB24D</button>
+        <button label="CLEAR" labelSize="16.0" span="3">0x808 0x0DF2</button>
+        <button label="MENU" labelSize="18.0" span="3">0x808 0x25DA</button>
+        <button label="SHADOW" labelSize="15.0" span="3">0x808 0xEC13</button>
+
+        <button label="AUDIO / MALE" labelSize="15.0" span="3">0x808 0x05FA</button>
+        <button label="SOUND / FEMALE" labelSize="15.0" span="3">0x808 0x857A</button>
+        <space multiple="3" />
+        <button label="CHORUS" labelSize="16.0" span="3">0x808 0xFE01</button>
+
+        <space multiple="4" />
+        <button label="&#61656;" labelSize="25.0" span="4">0x808 0xE51A</button>
+        <space multiple="4" />
+
+        <button label="&#61657;" labelSize="25.0" span="4">0x808 0x15EA</button>
+        <button label="SELECT / ENTER" labelSize="18.0" span="4">0x808 0x55AA</button>
+        <button label="&#61658;" labelSize="25.0" span="4">0x808 0x956A</button>
+
+        <space multiple="4" />
+        <button label="&#61655;" labelSize="25.0" span="4">0x808 0x659A</button>
+        <space multiple="4" />
+
+        <button label="&#61513; / KEY CON. b" labelSize="10.0" span="3">0x808 0x609F</button>
+        <button label="&#61520; / KEY CON. #" labelSize="10.0" span="3">0x808 0xE01F</button>
+        <button label="&#61514; / TEMPO-" labelSize="12.0" span="3">0x808 0x8D72</button>
+        <button label="&#61518; / TEMPO+" labelSize="12.0" span="3">0x808 0x4DB2</button>
+
+        <button label="&#61515;" labelSize="25.0" span="3">0x808 0x20DF</button>
+        <button label="&#61516; / STEP" labelSize="16.0" span="3">0x808 0xF20D</button>
+        <button label="&#61517;" labelSize="25.0" span="3">0x808 0xA05F</button>
+        <space multiple="3" />
+
+        <button label="&#61559; ECHO" labelSize="14.0" span="3" labelColor="FF00FFFF" backgroundColor="FF424242">0x808 0x4AB5</button>
+        <button label="MIC VOL &#61559;" labelSize="14.0" span="3" labelColor="FFFFFF00" backgroundColor="FF424242">0x808 0xE817</button>
+        <button label="DISPLAY" labelSize="12.0" span="3">0x808 0xC53A</button>
+        <button label="SETUP" labelSize="18.0" span="3">0x808 0xA55A</button>
+
+        <button label="&#61560; ECHO" labelSize="14.0" span="3" labelColor="FF00FFFF" backgroundColor="FF424242">0x808 0xCA35</button>
+        <button label="MIC VOL &#61560;" labelSize="14.0" span="3" labelColor="FFFFFF00" backgroundColor="FF424242">0x808 0x6897</button>
+        <button label="SUBTITLE" labelSize="12.0" span="3">0x808 0xD52A</button>
+        <button label="TITLE" labelSize="18.0" span="3">0x808 0xF50A</button>
+
+        <space multiple="3" />
+        <button label="REPEAT" labelSize="18.0" span="3">0x808 0x728D</button>
+        <button label="REPEAT A-B" labelSize="12.0" span="3">0x808 0xB54A</button>
+        <button label="RETURN" labelSize="18.0" span="3">0x808 0x45BA</button>
+
+    </device>
+</irplus>

@@ -1,0 +1,60 @@
+<irplus>
+	<device manufacturer="GIGABLUE" model="QuadPlus" columns="12" format="WINLIRC_NEC1" one-space="1548" one-pulse="685"
+	     zero-pulse="685" zero-space="437" header-pulse="9106" header-space="4381" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xAF5 0x59A6</button>
+		<button label="MENU" span="4">0xAF5 0x48B7</button>
+		<button label="EXIT" span="4">0xAF5 0x20DF</button>
+		
+		<button label="&#xf0d9;" span="6">0xAF5 0xC23D</button>
+		<button label="&#xf0da;" span="6">0xAF5 0x58A7</button>
+		
+		<button label="INFO" span="6">0xAF5 0x28D7</button>
+		<button label="GUIDE" span="6">0xAF5 0x609F</button>
+		
+		<button label="R" fillColor="FFC84334" span="3">0xAF5 0x02FD</button>
+		<button label="G" fillColor="FF1E7854" span="3">0xAF5 0xC936</button>
+		<button label="Y" fillColor="FFD6A81F" span="3">0xAF5 0xC43B</button>
+		<button label="B" fillColor="FF2A4C94" span="3">0xAF5 0x38C7</button>
+		
+		<button label="VOL+" span="4">0xAF5 0x827D</button>
+		<button label="&#xf0d8;" span="4">0xAF5 0xB04F</button>
+		<button label="CH+" span="4">0xAF5 0xD827</button>
+		
+		<button label="&#xf0d9;" span="4">0xAF5 0xA05F</button>
+		<button label="OK" span="4">0xAF5 0x30CF</button>
+		<button label="&#xf0da;" span="4">0xAF5 0xC837</button>
+		
+		<button label="VOL-" span="4">0xAF5 0x42BD</button>
+		<button label="&#xf0d7;" span="4">0xAF5 0xD02F</button>
+		<button label="CH-" span="4">0xAF5 0x9867</button>
+		
+		<button label="&#xFF581;" span="4">0xAF5 0x44BB</button>
+		<button label="LIST" span="4">0xAF5 0x40BF</button>
+		<button label="FLIST" span="4">0xAF5 0xE01F</button>
+		
+		<button label="&#xf04a;" span="4">0xAF5 0x807F</button>
+		<button label="&#xf04b;" span="4">0xAF5 0x10EF</button>
+		<button label="&#xf04e;" span="4">0xAF5 0x6897</button>
+		
+		<button label="&#xf111;" span="4" labelColor="FFC84334">0xAF5 0xA857</button>
+		<button label="&#xf04c;" span="4">0xAF5 0x10EF</button>
+		<button label="&#xf04d;" span="4">0xAF5 0xF00F</button>
+		
+		<button label="1" span="4">0xAF5 0x19E6</button>
+		<button label="2" span="4">0xAF5 0xDA25</button>
+		<button label="3" span="4">0xAF5 0x04FB</button>
+		
+		<button label="4" span="4">0xAF5 0xE916</button>
+		<button label="5" span="4">0xAF5 0xCA35</button>
+		<button label="6" span="4">0xAF5 0xF807</button>
+		
+		<button label="7" span="4">0xAF5 0xA956</button>
+		<button label="8" span="4">0xAF5 0xA45B</button>
+		<button label="9" span="4">0xAF5 0x7887</button>
+		
+		<button label="OPTION" span="4">0xAF5 0x18E7</button>
+		<button label="0" span="4">0xAF5 0x24DB</button>
+		<button label="FAV" span="4">0xAF5 0x29D6</button>
+	</device>
+</irplus>

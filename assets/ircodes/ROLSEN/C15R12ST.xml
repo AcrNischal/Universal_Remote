@@ -1,0 +1,55 @@
+<irplus>
+    <device manufacturer="" model="Rolsen C15R12ST" columns="12" format="WINLIRC_RC5" one-pulse="898" one-space="779" zero-pulse="898" zero-space="779" bits="13">
+        <button label="POWER" span="4" backgroundColor="FFBC4242">0x000000000000100C</button>
+        <space multiple="4"/>
+        <button label="MUTE" span="4">0x000000000000100D</button>
+
+        <button label="1" span="4">0x0000000000001001</button>
+        <button label="2" span="4">0x0000000000001002</button>
+        <button label="3" span="4">0x0000000000001003</button>
+
+        <button label="4" span="4">0x0000000000001004</button>
+        <button label="5" span="4">0x0000000000001005</button>
+        <button label="6" span="4">0x0000000000001006</button>
+
+        <button label="7" span="4">0x0000000000001007</button>
+        <button label="8" span="4">0x0000000000001008</button>
+        <button label="9" span="4">0x0000000000001009</button>
+
+        <button label="MENU/INDEX" span="4">0x000000000000103B</button>
+        <button label="0" span="4">0x0000000000001000</button>
+        <button label="TV/AV" span="4">0x0000000000001038</button>
+
+        <button label="EYE/\*" span="3" backgroundColor="FFBA4242">0x0000000000001037</button>
+        <button label="I/II/\*" span="3" backgroundColor="FF164228">0x0000000000001036</button>
+        <button label="Q.VIEW" span="3" backgroundColor="FFB5A516">0x0000000000001032</button>
+        <button label="LIST" span="3" backgroundColor="FF42429E">0x0000000000001034</button>
+
+        <space multiple="4"/>
+        <button label="PR+" span="4">0x0000000000001020</button>
+        <space multiple="4"/>
+
+        <button label="VOL-" span="4">0x0000000000001011</button>
+        <button label="OK" span="4">0x0000000000001025</button>
+        <button label="VOL+" span="4">0x0000000000001010</button>
+
+        <space multiple="4"/>
+        <button label="PR-" span="4">0x0000000000001021</button>
+        <space multiple="4"/>
+
+        <button label="TEXT/MIX" span="3">0x000000000000103C</button>
+        <button label="SIZE" span="3">0x000000000000102B</button>
+        <button label="HOLD" span="3">0x0000000000001029</button>
+        <button label="SLEEP" span="3">0x000000000000103E</button>
+
+        <button label="UPDATE" span="3">0x000000000000102D</button>
+        <button label="TIME" span="3">0x000000000000102A</button>
+        <button label="REVEAL" span="3">0x000000000000102C</button>
+        <button label="PSM" span="3">0x000000000000100E</button>
+
+        <button label="SSM/\*" span="3">0x0000000000001016</button>
+        <button label="" span="3" backgroundColor="FF000000"> </button>
+        <button label="PICTURE" span="3">0x0000000000001013</button>
+        <button label="SOUND" span="3">0x0000000000001024</button>
+    </device>
+</irplus>

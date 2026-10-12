@@ -1,0 +1,48 @@
+<irplus>
+    <device manufacturer="MagicTV" model="5000D" columns="12" format="WINLIRC_NEC1"> <space multiple="8" />
+         <button label="&#1045541;" labelSize="25.0" span="4" backgroundColor="FFFF4242">0x1B54 0x8877</button>
+         <button label="Guide" labelSize="18.0" span="4" labelColor="FF3D3D3D" backgroundColor="FFFFFFFF">0x1B54 0x4CB3</button>
+         <button label="Menu" labelSize="18.0" span="4" labelColor="FF3D3D3D" backgroundColor="FFFFFFFF">0x1B54 0xF00F</button>
+         <button label="Text" labelSize="18.0" span="4" labelColor="FF3D3D3D" backgroundColor="FFFFFFFF">0x1B54 0xCC33</button>
+         <button label="Aspect" labelSize="18.0" span="4" labelColor="FF3D3D3D" backgroundColor="FFFFFFFF">0x1B54 0x2CD3</button>
+         <button label="Audio" labelSize="18.0" span="4" labelColor="FF3D3D3D" backgroundColor="FFFFFFFF">0x1B54 0x728D</button>
+         <button label="Sub" labelSize="18.0" span="4" labelColor="FF3D3D3D" backgroundColor="FFFFFFFF">0x1B54 0xF20D</button>
+         <button label="&#1045569;" labelSize="25.0" span="4">0x1B54 0xAC53</button>
+         <button label="&#1046326;" labelSize="25.0" span="4" labelColor="FF00FF00" backgroundColor="FF000000">0x1B54 0x50AF</button>
+         <button label="&#1046094;" labelSize="25.0" span="4">0x1B54 0x6C93</button>
+         <button label="&#1046320;" labelSize="25.0" span="4" labelColor="FF42FF42" backgroundColor="FF000000">0x1B54 0x30CF</button>
+         <button label="OK" labelSize="18.0" span="4" backgroundColor="FF00FF00">0x1B54 0x708F</button>
+         <button label="&#1046323;" labelSize="25.0" span="4" labelColor="FF00FF00" backgroundColor="FF000000">0x1B54 0xB04F</button>
+         <button label="&#1046364;" labelSize="25.0" span="4" labelColor="FF3D3D3D" backgroundColor="FFFFFFFF">0x1B54 0x28D7</button>
+         <button label="&#1046317;" labelSize="25.0" span="4" labelColor="FF00FF00" backgroundColor="FF000000">0x1B54 0xD02F</button>
+         <button label="Ch+" labelSize="18.0" span="4" labelColor="FF3D3D3D" backgroundColor="FFFFFFFF">0x1B54 0x6897</button>
+         <button label="&#1046365;" labelSize="25.0" span="4" labelColor="FF3D3D3D" backgroundColor="FFFFFFFF">0x1B54 0xA857</button>
+         <button label="&#1046366;" labelSize="25.0" span="4" labelColor="FF3D3D3D" backgroundColor="FFFFFFFF">0x1B54 0x18E7</button>
+         <button label="Ch-" labelSize="18.0" span="4" labelColor="FF3D3D3D" backgroundColor="FFFFFFFF">0x1B54 0xE817</button>
+         <button label="&#1045579;" labelSize="25.0" span="4" backgroundColor="FFFF4242">0x1B54 0x24DB</button>
+         <button label="&#1045476;" labelSize="25.0" span="4" labelColor="FF020000" backgroundColor="FFFFFF42">0x1B54 0x44BB</button>
+         <button label="&#1045723;" labelSize="25.0" span="4">0x1B54 0xC43B</button>
+         <button label="&#1045599;" labelSize="25.0" span="4">0x1B54 0xA45B</button>
+         <button label="&#1045514;" labelSize="25.0" span="4" labelColor="FF000000" backgroundColor="FFFFFF42">0x1B54 0x847B</button>
+         <button label="&#1045009;" labelSize="25.0" span="4">0x1B54 0x649B</button>
+         <button label="&#1045678;" labelSize="25.0" span="4">0x1B54 0xE41B</button>
+         <button label="Live" labelSize="18.0" span="4" labelColor="FF3D3D3D" backgroundColor="FFFFFFFF">0x1B54 0xEC13</button>
+         <button label="&#1045677;" labelSize="25.0" span="4">0x1B54 0x14EB</button>
+         <button label="1" labelSize="18.0" span="4" labelColor="FF3D3D3D" backgroundColor="FFFFFFFF">0x1B54 0x8679</button>
+         <button label="2" labelSize="18.0" span="4" labelColor="FF3D3D3D" backgroundColor="FFFFFFFF">0x1B54 0x46B9</button>
+         <button label="3" labelSize="18.0" span="4" labelColor="FF3D3D3D" backgroundColor="FFFFFFFF">0x1B54 0xC639</button>
+         <button label="4" labelSize="18.0" span="4" labelColor="FF3D3D3D" backgroundColor="FFFFFFFF">0x1B54 0x26D9</button>
+         <button label="5" labelSize="18.0" span="4" labelColor="FF3D3D3D" backgroundColor="FFFFFFFF">0x1B54 0xA659</button>
+         <button label="6" labelSize="18.0" span="4" labelColor="FF3D3D3D" backgroundColor="FFFFFFFF">0x1B54 0x6699</button>
+         <button label="7" labelSize="18.0" span="4" labelColor="FF424242" backgroundColor="FFFFFFFF">0x1B54 0xE619</button>
+         <button label="8" labelSize="18.0" span="4" labelColor="FF424242" backgroundColor="FFFFFFFF">0x1B54 0x16E9</button>
+         <button label="9" labelSize="18.0" span="4" labelColor="FF424242" backgroundColor="FFFFFFFF">0x1B54 0x9669</button>
+         <button label="X" labelSize="18.0" span="4">0x1B54 0x1CE3</button>
+         <button label="0" labelSize="18.0" span="4" labelColor="FF424242" backgroundColor="FFFFFFFF">0x1B54 0x06F9</button>
+         <button label="&#1044780;" labelSize="25.0" span="4">0x1B54 0x9C63</button>
+         <button label="R" labelSize="18.0" span="3" fillColor="FFFF0000">0x1B54 0x12ED</button>
+         <button label="G" labelSize="18.0" span="3" fillColor="FF00FF00">0x1B54 0xD22D</button>
+         <button label="Y" labelSize="18.0" span="3" fillColor="FFFFFF00">0x1B54 0x32CD</button>
+         <button label="B" labelSize="18.0" span="3" fillColor="FF0000FF">0x1B54 0xB24D</button>
+    </device>
+</irplus>

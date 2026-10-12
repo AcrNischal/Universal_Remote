@@ -1,0 +1,53 @@
+<irplus>
+	<device manufacturer="BLAUPUNKT" model="TV" columns="12" format="WINLIRC_NEC1" one-space="1602" one-pulse="630" zero-pulse="630" zero-space="492" 
+		header-pulse="9063" header-space="4436" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xFE 0x50AF</button>
+		<button label="SOURCE" span="4">0xFE 0xCA35</button>
+		<button label="MENU" span="4">0xFE 0xEA15</button>
+		
+		<button label="EXIT" span="4">0xFE 0x728D</button>
+		<button label="ASPECT" span="4">0xFE 0x8877</button>
+		<button label="SLEEP" span="4">0xFE 0xB24D</button>
+		
+		<button label="INFO" span="6">0xFE 0xD02F</button>
+		<button label="GUIDE" span="6">0xFE 0xA05F</button>
+		
+		<button label="R" fillColor="FFC84334" span="3">0xFE 0x926D</button>
+		<button label="G" fillColor="FF1E7854" span="3">0xFE 0x02FD</button>
+		<button label="Y" fillColor="FFD6A81F" span="3">0xFE 0x12ED</button>
+		<button label="B" fillColor="FF2A4C94" span="3">0xFE 0xBA45</button>
+		
+		<button label="VOL+" span="4">0xFE 0x7887</button>
+		<button label="&#xf0d8;" span="4">0xFE 0x7A85</button>
+		<button label="CH+" span="4">0xFE 0xF807</button>
+		
+		<button label="&#xf0d9;" span="4">0xFE 0xDA25</button>
+		<button label="OK" span="4">0xFE 0x5AA5</button>
+		<button label="&#xf0da;" span="4">0xFE 0x1AE5</button>
+		
+		<button label="VOL-" span="4">0xFE 0xFA05</button>
+		<button label="&#xf0d7;" span="4">0xFE 0x6A95</button>
+		<button label="CH-" span="4">0xFE 0x3AC5</button>
+		
+		<button label="&#xFF581;" span="4">0xFE 0x0AF5</button>
+		<button label="LIST" span="4">0xFE 0x28D7</button>
+		<button label="&#xf0e2;" alt="RECALL" span="4">0xFE 0xD827</button>
+		
+		<button label="1" span="4">0xFE 0x708F</button>
+		<button label="2" span="4">0xFE 0x609F</button>
+		<button label="3" span="4">0xFE 0xF00F</button>
+		
+		<button label="4" span="4">0xFE 0x48B7</button>
+		<button label="5" span="4">0xFE 0xE01F</button>
+		<button label="6" span="4">0xFE 0xC837</button>
+		
+		<button label="7" span="4">0xFE 0x6897</button>
+		<button label="8" span="4">0xFE 0x40BF</button>
+		<button label="9" span="4">0xFE 0xE817</button>
+		
+		<button label="USB" span="4">0xFE 0x10EF</button>
+		<button label="0" span="4">0xFE 0x58A7</button>
+		<button label="TTX" span="4">0xFE 0x9A65</button>
+	</device>
+</irplus>

@@ -1,0 +1,42 @@
+<irplus>
+    <device manufacturer="YAMAHA" model="CDX-570" columns="12" format="WINLIRC_NEC1" one-space="1650" one-pulse="600" zero-pulse="600" zero-space="550" header-pulse="9050" header-space="4500" bits="16" pre-bits="16">
+        
+        <button label="&#xf04b;" alt="PLAY" span="4">0x8679 0xFD02</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x8679 0xAA55</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x8679 0xA956</button>
+        
+        <button label="&#xf049;" alt="PREV" span="3">0x8679 0xFB04</button>
+        <button label="&#xf04a;" alt="REW" span="3">0x8679 0xFA05</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x8679 0xF906</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0x8679 0xF807</button>
+
+        <button label="&#xf052;" alt="EJECT" span="3">0x8679 0xFE01</button>
+        <button label="DIMMER" span="3">0x8679 0xE11E</button>
+        <button label="TIME" span="3">0x8679 0xF50A</button>
+        <button label="PROG" span="3">0x8679 0xF30C</button>
+
+        <button label="CLEAR" span="3">0x8679 0xF20D</button>
+        <button label="TAPE" span="3">0x8679 0xA857</button>
+        <button label="RANDOM" span="3">0x8679 0xE41B</button>
+        <button label="REPEAT" span="3">0x8679 0xF708</button>
+
+        <button label="VOL+" span="6">0x8679 0xE21D</button>
+        <button label="VOL-" span="6">0x8679 0xE31C</button>
+
+        <button label="1" span="4">0x8679 0xEE11</button>
+        <button label="2" span="4">0x8679 0xED12</button>
+        <button label="3" span="4">0x8679 0xEC13</button>
+
+        <button label="4" span="4">0x8679 0xEB14</button>
+        <button label="5" span="4">0x8679 0xEA15</button>
+        <button label="6" span="4">0x8679 0xE916</button>
+
+        <button label="7" span="4">0x8679 0xE817</button>
+        <button label="8" span="4">0x8679 0xE718</button>
+        <button label="9" span="4">0x8679 0xE619</button>
+
+        <button label="INDEX" span="4">0x8679 0xF40B</button>
+        <button label="0" span="4">0x8679 0xEF10</button>
+        <button label="+10" span="4">0x8679 0xE51A</button>
+    </device>
+</irplus>

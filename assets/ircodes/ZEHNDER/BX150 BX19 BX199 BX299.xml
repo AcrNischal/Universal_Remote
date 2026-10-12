@@ -1,0 +1,39 @@
+<irplus>
+<device manufacturer="ZEHNDER" model="BX-Series" columns="3" format="PWM_HEX" pre-bits="8" bits="8">
+	<button label="&#xf011;" backgroundColor="FFC84334">0xC0 0x60</button>
+	<space multiple="2"/>
+	
+	<button label="1">0xC0 0x30</button>
+	<button label="2">0xC0 0xa0</button>
+	<button label="3">0xC0 0x70</button>
+	
+	<button label="4">0xC0 0x28</button>
+	<button label="5">0xC0 0xb0</button>
+	<button label="6">0xC0 0x68</button>
+	
+	<button label="7">0xC0 0x38</button>
+	<button label="8">0xC0 0xa8</button>
+	<button label="9">0xC0 0x78</button>
+	
+	<button label="&#xFF581;">0xC0 0x20</button>
+	<button label="0">0xC0 0xb8</button>
+	<button label="TIMER">0xC0 0xe0</button>
+	
+	<button label="PROG">0xC0 0xF8</button>
+	<button label="AUD">0xC0 0xE8</button>
+	<button label="SYS">0xC0 0xF0</button>
+	
+	<button label="NEXT">0xC0 0x04</button>
+	<button label="&#xf0d8;">0xC0 0xC8</button>
+	<button label="INDEX">0xC0 0x80</button>
+	
+	<button label="-">0xC0 0xD8</button>
+	<button label="STORE">0xC0 0x84</button>
+	<button label="+">0xC0 0xC0</button>
+	
+	<button label="RADIO">0xC0 0x40</button>
+	<button label="&#xf0d7;">0xC0 0xD0</button>
+	<button label="FAV">0xC0 0x48</button>
+	
+</device>
+</irplus>

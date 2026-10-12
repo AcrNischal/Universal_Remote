@@ -1,0 +1,54 @@
+<irplus>
+    <device manufacturer="SONY" model="RM-D29M" columns="12" format="WINLIRC_SPACEENC" bits="12" pre-bits="12" frequency="40000"
+        gap-pulse="1" gap-space="45000" one-pulse="1200" one-space="600" zero-pulse="600" zero-space="600" header-pulse="2400" header-space="600" repeat="3">
+        
+        <button label="&#xf052;" alt="EJECT" span="6">0x69E</button>
+        <button label="&#xf011;" alt="POWER" backgroundColor="FF48A674" span="6">0xA9E</button>
+
+        <button label="MENU" span="4">0x57E</button>
+        <button label="YES" span="4">0xD7E</button>
+        <button label="CLEAR" span="4">0xF1E</button>
+
+        <button label="DISPLAY" span="4">0x19E</button>
+        <button label="SCROLL" span="4">0x99E</button>
+        <button label="FADER" span="4">0x97E</button>
+
+        <button label="NAME" span="4">0x87E</button>
+        <button label="CHAR" span="4">0xADE</button>
+        <button label="PLAY MODE" span="4">0xE9E</button>
+
+        <button label="1" span="4">0x01E</button>
+        <button label="2" span="4">0x81E</button>
+        <button label="3" span="4">0x41E</button>
+
+        <button label="4" span="4">0xC1E</button>
+        <button label="5" span="4">0x21E</button>
+        <button label="6" span="4">0xA1E</button>
+
+        <button label="7" span="4">0x61E</button>
+        <button label="8" span="4">0xE1E</button>
+        <button label="9" span="4">0x11E</button>
+
+        <button label=">10" span="4">0x51E</button>
+        <button label="10/0" span="4">0x91E</button>
+        <button label="MUSIC SYNC" span="4">0xFDE</button>
+
+        <button label="&#xf04b;" alt="PLAY" span="6">0x55E</button>
+        <button label="&#xf04c;" alt="PAUSE" span="6">0x95E</button>
+
+        <button label="&#xf111;" labelColor="FFC84334" alt="RECORD" span="4">0xB5E</button>
+        <button label="TREC" span="4">0x0DE</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x15E</button>
+
+        <button label="&#xf049;" alt="PREV" span="4">0x05E</button>
+        <button label="&#xf050;" alt="NEXT" span="4">0x85E</button>
+        <button label="LEVEL +" span="4">0x09E</button>
+
+        <button label="&#xf04a;" alt="REW" span="4">0xD5E</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0x35E</button>
+        <button label="LEVEL -" span="4">0x89E</button>
+
+        <button label="REPEAT" span="6">0x65E</button>
+        <button label="A-B" span="6">0xE5E</button>
+    </device>
+</irplus>

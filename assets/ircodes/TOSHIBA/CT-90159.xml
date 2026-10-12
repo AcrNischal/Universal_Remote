@@ -1,0 +1,60 @@
+<irplus>
+	<device manufacturer="TOSHIBA" model="CT-90159" columns="12" format="WINLIRC_NEC1" one-space="515" one-pulse="606" zero-pulse="606" zero-space="1643" header-pulse="9058" header-space="4441" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x02FD 0x48B7</button>
+		<button label="TV/VIDEO" span="4">0x02FD 0xF00F</button>
+		<button label="AGAIN" span="4">0x02FD 0x38C738</button>
+		
+		<button label="1" span="4">0x02FD 0x807F</button>
+		<button label="2" span="4">0x02FD 0x40BF</button>
+		<button label="3" span="4">0x02FD 0xC03F</button>
+		
+		<button label="4" span="4">0x02FD 0x20DF</button>
+		<button label="5" span="4">0x02FD 0xA05F</button>
+		<button label="6" span="4">0x02FD 0xC03F</button>
+		
+		<button label="7" span="4">0x02FD 0xE01F</button>
+		<button label="4" span="4">0x02FD 0x20DF</button>
+		<button label="5" span="4">0x02FD 0xA05F</button>
+		
+		<button label="6" span="4">0x02FD 0x609F</button>
+		<button label="8" span="4">0x02FD 0x10EF</button>
+		<button label="9" span="4">0x02FD 0x906F</button>
+		
+		<button label="100" span="4">0x02FD 0x50AF</button>
+		<button label="0" span="4">0x02FD 0x00FF</button>
+		<button label="ENT" span="4">0x02FD 0xE817</button>
+		
+		<button label="FAVORITES" span="6">0x02FD 0x09F6</button>
+		<button label="PIC SIZE" span="6">0x02FD 0x2AD5</button>
+
+		<button label="CH+" span="4">0x02FD 0xD827</button>
+		<button label="&#xf0d8;" span="4">0x02FD 0x41BE</button>
+		<button label="VOL+" span="4">0x02FD 0x58A7</button>
+		
+		<button label="&#xf0d9;" span="4">0x02FD 0xB847</button>
+		<button label="ENTER" span="4">0x02FD 0x916E</button>
+		<button label="&#xf0da;" span="4">0x02FD 0x9867</button>
+		
+		<button label="CH-" span="4">0x02FD 0xF807</button>
+		<button label="&#xf0d7;" span="4">0x02FD 0xC13E</button>
+		<button label="VOL-" span="4">0x02FD 0x7887</button>
+		
+		<button label="MENU" span="4">0x02FD 0x01FE</button>
+		<button label="EXIT" span="4">0x02FD 0x1AE5</button>
+		<button label="POP DIR" span="4">0x02FD 0x649B</button>
+		
+		<button label="&#xFF581;" span="6">0x02FD 0x08F7</button>
+		<button label="SLEEP" span="6">0x02FD 0xA857</button>
+
+		<button label="&#xf04c;" alt="PAUSE" span="4">0x02FD 0x32CD</button>
+		<button label="&#xf04d;" alt="STOP" span="4">0x02FD 0xF20D</button>
+		<button label="&#xf04b;" alt="PLAY" span="4">0x02FD 0x8A75</button>
+
+		<button label="&#xf049;" alt="PREV" span="3">0x02FD 0x8877</button>
+		<button label="&#xf04a;" alt="REW" span="3">0x02FD 0xD22D</button>
+		<button label="&#xf04e;" alt="FWD" span="3">0x02FD 0x52AD</button>
+		<button label="&#xf050;" alt="NEXT" span="3">0x02FD 0xCA35</button>
+
+	</device>
+</irplus>

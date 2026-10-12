@@ -1,0 +1,70 @@
+<irplus>
+    <device manufacturer="MEDION" model="MD81035" columns="12" format="WINLIRC_NEC1">
+
+        <button label="ONOFF" span="4">0xE896 0x708F</button>
+        <button label="SLEEP" span="4">0xE896 0x32CD</button>
+        <button label="OSD" span="4">0xE896 0x5AA5</button>
+
+        <button label="&#xf04a;" alt="REW" span="4">0xE896 0x4AB5</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0xE896 0xD827</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0xE896 0xCA35</button>
+
+        <button label="&#xf111;" alt="REC" labelColor="FFC84334" span="4">0xE896 0x40BF</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0xE896 0x9867</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0xE896 0x9A65</button>
+
+        <button label="EPG" span="4">0xE896 0x48B7</button>
+        <button label="&#xFF581;" span="4">0xE896 0x6897</button>
+        <button label="TV" span="4">0xE896 0xFF00</button>
+
+        <button label="VOL+" span="4">0xE896 0x926D</button>
+        <button label="&#xf0d8;" span="4">0xE896 0x22DD</button>
+        <button label="CH+" span="4">0xE896 0x8A75</button>
+
+        <button label="&#xf0d9;" span="4">0xE896 0x38C7</button>
+        <button label="OK" span="4">0xE896 0x3AC5</button>
+        <button label="&#xf0da;" span="4">0xE896 0x12ED</button>
+
+        <button label="VOL-" span="4">0xE896 0xC23D</button>
+        <button label="&#xf0d7;" span="4">0xE896 0xB847</button>
+        <button label="CH-" span="4">0xE896 0xB24D</button>
+
+        <button label="EXIT" span="4">0xE896 0x42BD</button>
+        <button label="MENU" span="4">0xE896 0x2AD5</button>
+        <button label="VIDTEXT" span="4">0xE896 0x20DF</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0xE896 0xE817</button>
+        <button label="G" fillColor="FF1E7854" span="3">0xE896 0xA857</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0xE896 0xAA55</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0xE896 0x18E7</button>
+
+        <button label="1" span="4">0xE896 0xC837</button>
+        <button label="2" span="4">0xE896 0x08F7</button>
+        <button label="3" span="4">0xE896 0x8877</button>
+
+        <button label="4" span="4">0xE896 0xF00F</button>
+        <button label="5" span="4">0xE896 0x30CF</button>
+        <button label="6" span="4">0xE896 0xB04F</button>
+
+        <button label="7" span="4">0xE896 0xD02F</button>
+        <button label="8" span="4">0xE896 0x10EF</button>
+        <button label="9" span="4">0xE896 0x906F</button>
+
+        <button label="0" span="4">0xE896 0xE21D</button>
+        <button label="AV" span="4">0xE896 0xF807</button>
+        <button label="-/--" span="4">0xE896 0x0AF5</button>
+
+        <button label="SPLITSCREEN" span="4">0xE896 0xC03F</button>
+        <button label="ZOOM" span="4">0xE896 0x28D7</button>
+        <button label="SH EXIT" span="4">0xE896 0xE01F</button>
+
+        <button label="SH AV" span="4">0xE896 0x1AE5</button>
+        <button label="SH -/--" span="4">0xE896 0xF20D</button>
+        <button label="SH SPLITSCREEN" span="4">0xE896 0x609F</button>
+
+        <button label="SH 1" span="4">0xE896 0xA05F</button>
+        <button label="SH 2" span="4">0xE896 0x00FF</button>
+        <button label="SH 0" span="4">0xE896 0x02FD</button>
+
+    </device>
+</irplus>

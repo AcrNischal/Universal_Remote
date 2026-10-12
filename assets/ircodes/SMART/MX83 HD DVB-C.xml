@@ -1,0 +1,64 @@
+<irplus>
+    <device manufacturer="SMART" model="MX83" columns="12" format="WINLIRC_RC5" bits="13" pre-bits="13" frequency="36000"
+        toggle-bit-pos="2" gap-pulse="1" gap-space="114271" one-pulse="898" one-space="885" zero-pulse="898" zero-space="885">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="6">0x13CC</button>
+        <button label="&#xFF581;" span="6">0x13CD</button>
+
+        <button label="1" span="4">0x13C1</button>
+        <button label="2" span="4">0x13C2</button>
+        <button label="3" span="4">0x13C3</button>
+
+        <button label="4" span="4">0x13C4</button>
+        <button label="5" span="4">0x13C5</button>
+        <button label="6" span="4">0x13C6</button>
+
+        <button label="7" span="4">0x13C7</button>
+        <button label="8" span="4">0x13C8</button>
+        <button label="9" span="4">0x13C9</button>
+
+        <button label="EPG" span="4">0x13EC</button>
+        <button label="0" span="4">0x13C0</button>
+        <button label="LIST" span="4">0x13EA</button>
+
+        <button label="INFO" span="4">0x13EF</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0x13E0</button>
+        <button label="MODE" span="4">0x03CE</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x13D1</button>
+        <button label="OK" span="4">0x03D7</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x13D0</button>
+
+        <button label="EXIT" span="4">0x13ED</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x13E1</button>
+        <button label="MENU" span="4">0x03D2</button>
+
+        <button label="TV/R" span="6">0x03C5</button>
+        <button label="SWAP" span="6">0x13E2</button>
+
+        <button label="CH+" span="3">0x13F0</button>
+        <button label="TEXT" span="3">0x13FC</button>
+        <button label="OPT" span="3">0x13E3</button>
+        <button label="VOL+" span="3">0x03C0</button>
+
+        <button label="CH-" span="3">0x13F1</button>
+        <button label="F1" span="3">0x13F8</button>
+        <button label="F2" span="3">0x13F9</button>
+        <button label="VOL-" span="3">0x03C1</button>
+
+        <button label="&#xf111;" alt="REC" labelColor="FFC84334" span="4">0x03D3</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0x03D5</button>
+        <button label="ARCHIVE" span="4">0x03C6</button>
+
+        <button label="&#xf04a;" alt="REW" span="3">0x03D4</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0x13F5</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">0x03D8</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x03D6</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x13F7</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x13F6</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x13F2</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x13F4</button>
+
+    </device>
+</irplus>

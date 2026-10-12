@@ -1,0 +1,22 @@
+<irplus>
+    <device manufacturer="LOGITECH" model="PureFiAnywhere2" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x40BF 0x906F</button>
+        <space multiple="8"/>
+
+        <button label="VOL+" span="4">0x40BF 0xB04F</button>
+        <button label="&#xf0d8;" span="4">0x40BF 0x44BB</button>
+        <button label="VOL-" span="4">0x40BF 0x708F</button>
+
+        <button label="MENU" span="6">0x40BF 0x04FB</button>
+        <button label="OK" span="6">0x40BF 0x847B</button>
+
+        <button label="&#xf04b;" alt="PLAY" span="4">0x40BF 0x30CF</button>
+        <button label="&#xf0d7;" span="4">0x40BF 0xC43B</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x40BF 0x30CF</button>
+
+        <button label="3DSTEREO" span="4">0x40BF 0x6897</button>
+        <button label="RANDOM" span="4">0x40BF 0x6699</button>
+        <button label="REPEAT" span="4">0x40BF 0x48B7</button>
+    </device>
+</irplus>

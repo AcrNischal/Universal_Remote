@@ -1,0 +1,59 @@
+<irplus>
+<device manufacturer="ZEHNDER" model="HX7110U" columns="12" format="WINLIRC_NEC1">
+
+	<button label="&#xf011;" backgroundColor="FFC84334" span="6">0x4040 0x50af</button>
+	<button label="&#xFF581;" span="6">0x4040 0x9867</button>
+
+	<button label="1" span="4">0x4040 0x807f</button>
+	<button label="2" span="4">0x4040 0x40bf</button>
+	<button label="3" span="4">0x4040 0xc03f</button>
+	<button label="4" span="4">0x4040 0x20df</button>
+	<button label="5" span="4">0x4040 0xa05f</button>
+	<button label="6" span="4">0x4040 0x609f</button>
+	<button label="7" span="4">0x4040 0xe01f</button>
+	<button label="8" span="4">0x4040 0x10ef</button>
+	<button label="9" span="4">0x4040 0x906f</button>
+
+	<button label="TV/RADIO" span="4">0x4040 0x38c7</button>
+	<button label="0" span="4">0x4040 0x00ff</button>
+	<button label="SAT" span="4">0x4040 0xb847</button>
+
+	<button label="EPG" span="4">0x4040 0xe817</button>
+	<button label="&#xf0d8;" span="4">0x4040 0xd02f</button>
+	<button label="MENU" span="4">0x4040 0x6897</button>
+
+	<button label="&#xf0d9;" span="4">0x4040 0x8877</button>
+	<button label="ENTER" span="4">0x4040 0xb04f</button>
+	<button label="&#xf0da;" span="4">0x4040 0x08f7</button>
+
+	<button label="FAV" span="4">0x4040 0x28d7</button>
+	<button label="&#xf0d7;" span="4">0x4040 0x708f</button>
+	<button label="EXIT" span="4">0x4040 0xf807</button>
+
+	<button label="AUDIO" backgroundColor="FFC84334" span="4">0x4040 0x02fd</button>
+	<button label="PAGE+" span="4">0x4040 0x7887</button>
+	<button label="FORMAT" backgroundColor="FF1E7854" span="4">0x4040 0x42bd</button>
+
+	<button label="HDMI" backgroundColor="FFD6A81F" span="4">0x4040 0xc23d</button>
+	<button label="PAGE-" span="4">0x4040 0xc837</button>
+	<button label="TIMER" backgroundColor="FF2A4C94" span="4">0x4040 0x827d</button>
+
+	<button label="" span="4">0x4040 0x48b7</button>
+	<button label="INFO" span="4">0x4040 0xd827</button>
+	<button label="GOTO" span="4">0x4040 0x629d</button>
+
+	<button label="SUBTITLE" span="6">0x4040 0xa25d</button>
+	<button label="TELETEXT" span="6">0x4040 0x22dd</button>
+
+	<button label="" span="3">0x4040 0x1ae5</button>
+	<button label="" span="3">0x4040 0x0af5</button>
+	<button label="PVR " span="3">0x4040 0x12ed</button>
+	<button label="USB " span="3">0x4040 0x2ad5</button>
+
+	<button label="" span="3">0x4040 0xda25</button>
+	<button label="" span="3">0x4040 0xca35</button>
+	<button label="" span="3">0x4040 0xd22d</button>
+	<button label="" span="3">0x4040 0xea15</button>
+
+</device>
+</irplus>

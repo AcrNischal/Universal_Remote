@@ -1,0 +1,24 @@
+<irplus>
+    <device manufacturer="NAKAMICHI" model="Soundbar" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" span="3">0x807f 0xe817</button>
+        <space multiple="6"/>
+        <button label="&#xFF581;" span="3">0x807f 0x807f</button>
+
+        <button label="OPT" span="3">0x807f 0xea15</button>
+        <button label="AUX" span="3">0x807f 0x1ae5</button>
+        <button label="COAX" span="3">0x807f 0x6a95</button>
+        <button label="&#xf294;" span="3">0x807f 0x9a65</button>
+
+        <button label="DTS" span="3">0x807f 0x1ae5</button>
+        <button label="MOVIE" span="3">0x807f 0x2ad5</button>
+        <button label="MUSIC" span="3">0x807f 0xaa55</button>
+        <button label="VOICE" span="3">0x807f 0x6a95</button>
+
+        <button label="SUB+" span="6">0x807f 0x18e7</button>
+        <button label="VOL+" span="6">0x807f 0xe01f</button>
+
+        <button label="SUB-" span="6">0x807f 0xf00f</button>
+        <button label="VOL-" span="6">0x807f 0x20df</button>
+    </device>
+</irplus>

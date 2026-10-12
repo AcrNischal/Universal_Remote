@@ -1,0 +1,22 @@
+<irplus>
+    <device manufacturer="EXAMPLE" model="Macro Buttons" columns="3" format="WINLIRC_NEC1">
+
+     <button label="89 (RTL)" macro="true">8;9</button>
+       <button label="22 (RAI1)" macro="true">2;2</button>
+       <button label="53 (BBC)" macro="true">5;3</button>
+        
+       <button label="1">0xCC33 0x01FE</button>
+       <button label="2">0xCC33 0x817E</button>
+       <button label="3">0xCC33 0x41BE</button>
+       <button label="4">0xCC33 0x21DE</button>
+       <button label="5">0xCC33 0xA15E</button>
+       <button label="6">0xCC33 0x619E</button>
+       <button label="7">0xCC33 0x11EE</button>
+       <button label="8">0xCC33 0x916E</button>
+       <button label="9">0xCC33 0x51AE</button>
+       <button label="INFO">0xCC33 0x29D6</button>
+       <button label="0">0xCC33 0x31CE</button>
+       <button label="LAST">0xCC33 0xB14E</button>
+        
+    </device>
+</irplus>

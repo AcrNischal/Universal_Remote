@@ -1,0 +1,69 @@
+<irplus>
+	<device manufacturer="SONY" model="RMT-D173A" columns="12" format="WINLIRC_SPACEENC" one-space="498" frequency="40000"
+	    one-pulse="1293" zero-pulse="697" zero-space="498" header-pulse="2511" header-space="497" pre-bits="20">
+		
+		<button span="4" label="&#xf011;" backgroundColor="FFC84334">0xA8B92</button>
+		<button span="4" label="&#xf052;" alt="EJECT">0x68B92</button>
+		<button span="4" label="MENU">0xD8B92</button>
+		
+		<button span="4" label="1">0x00B92</button>
+		<button span="4" label="2">0x80B92</button>
+		<button span="4" label="3">0x40B92</button>
+		
+		<button span="4" label="4">0xC0B92</button>
+		<button span="4" label="5">0x20B92</button>
+		<button span="4" label="6">0xA0B92</button>
+		
+		<button span="4" label="7">0x60B92</button>
+		<button span="4" label="8">0xE0B92</button>
+		<button span="4" label="9">0x10B92</button>
+		
+		<button span="4" label="TV/VIDEO/TIME/TEXT">0x14B92</button>
+		<button span="4" label="0">0x90B92</button>
+		<button span="4" label="CLEAR">0xF0B92</button>
+		
+		<button span="4" label="ENTER">0xD0B92</button>
+		<button span="4" label="DISC SKIP">0x7CB46</button>
+		<button span="4" label="AUDIO">0x26B92</button>
+		
+		<button span="4" label="SUBTITLE">0xC6B92</button>
+		<button span="4" label="ANGLE">0xA6B92</button>
+		<button span="4" label="SUR">0x5AB92</button>
+		
+		<button span="4" label="SHUFFLE">0xACB92</button>
+		<button span="4" label="REPEAT">0x34B92</button>
+		<button span="4" label="PICTURE MODE">0xDAB92</button>
+		
+		<button span="4" label="SEARCH MODE">0xD2B92</button>
+		<button span="4" label="SA-CD MULTI/2CH">0x7AB92</button>
+		<button span="4" label="SA-CD/CD">0xFAB92</button>
+		
+		<button span="3" label="ALBUM-">0x94B46</button>
+		<button span="3" label="ALBUM+">0x54B46</button>
+		<button span="3" label="&#xf049;" alt="PREV">0x0CB92</button>
+		<button span="3" label="&#xf050;" alt="NEXT">0x8CB92</button>
+
+		<button span="3" label="SLOW-REV">0x44B92</button>
+		<button span="3" label="SLOW-FWD">0xC4B92</button>
+		<button span="3" label="STEP-REV">0x3AB92</button>
+		<button span="3" label="STEP-FWD">0x28B46</button>
+
+		<button span="3" label="ZOOM">0x9EB46</button>
+		<button span="3" label="PICTURE NAVI">0x0AB92</button>
+		<button span="3" label="PLAY">0x4CB92</button>
+		<button span="3" label="PAUSE">0x9CB92</button>
+		
+		<button span="4" label="STOP">0x1CB92</button>
+		<button span="4" label="&#xf0d8;">0x9EB92</button>
+        <button span="4" label="TOP MENU">0x58B92</button>
+
+        <button span="4" label="&#xf0d9;">0xDEB92</button>
+        <button span="4" label="ENTER">0xD0B92</button>
+        <button span="4" label="&#xf0da;">0x3EB92</button>
+
+        <button span="4" label="RETURN">0x70B92</button>
+        <button span="4" label="&#xf0d7;">0x5EB92</button>
+        <button span="4" label="DISPLAY">0x2AB92</button>
+
+	</device>
+</irplus>

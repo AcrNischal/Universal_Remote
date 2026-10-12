@@ -1,0 +1,48 @@
+<irplus>
+	<device manufacturer="AIWA" model="0695" columns="12" format="WINLIRC_NEC1" one-space="1661"
+	     one-pulse="570" zero-pulse="570" zero-space="544" header-pulse="8971" header-space="4436" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x8E71 0x52AD</button>
+		<button label="ASPECT" span="4">0x8E71 0x9669</button>
+		<button label="&#xFF581;" span="4">0x8E71 0x56A9</button>
+
+		<button label="1" span="4">0x8E71 0x827D</button>
+		<button label="2" span="4">0x8E71 0x42BD</button>
+		<button label="3" span="4">0x8E71 0xC23D</button>
+
+		<button label="4" span="4">0x8E71 0x22DD</button>
+		<button label="5" span="4">0x8E71 0xA25D</button>
+		<button label="6" span="4">0x8E71 0x629D</button>
+
+		<button label="7" span="4">0x8E71 0xE21D</button>
+		<button label="8" span="4">0x8E71 0x12ED</button>
+		<button label="9" span="4">0x8E71 0x926D</button>
+
+		<button label="EXIT" span="4">0x8E71 0x2AD5</button>
+		<button label="0" span="4">0x8E71 0x02FD</button>
+		<button label="MENU" span="4">0x8E71 0xAA55</button>
+
+		<button label="CH+" span="4">0x8E71 0x26D9</button>
+		<button label="&#xf0d8;" span="4">0x8E71 0x6A95</button>
+		<button label="VOL+" span="4">0x8E71 0xF609</button>
+
+		<button label="&#xf0d9;" span="4">0x8E71 0x1AE5</button>
+		<button label="OK" span="4">0x8E71 0x5AA5</button>
+		<button label="&#xf0da;" span="4">0x8E71 0x9A65</button>
+
+		<button label="CH-" span="4">0x8E71 0xA659</button>
+		<button label="&#xf0d7;" span="4">0x8E71 0xEA15</button>
+		<button label="VOL-" span="4">0x8E71 0x0EF1</button>
+
+
+		<button label="" span="3">0x8E71 0xC639</button>
+		<button label="" span="3">0x8E71 0x16E9</button>
+		<button label="" span="3">0x8E71 0x06F9</button>
+		<button label="" span="3">0x8E71 0x46B9</button>
+		
+		<button label="R" fillColor="FFC84334" span="3">0x8E71 0x728D</button>
+		<button label="G" fillColor="FF1E7854" span="3">0x8E71 0x8679</button>
+		<button label="Y" fillColor="FFD6A81F" span="3">0x8E71 0x817E</button>
+		<button label="B" fillColor="FF2A4C94" span="3">0x8E71 0x0AF5</button>
+	</device>
+</irplus>

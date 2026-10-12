@@ -1,0 +1,41 @@
+<irplus>
+    <device manufacturer="ZEHNDER" model="DX560" toggle-bit-pos="2" frequency="36000"
+        columns="12" format="WINLIRC_RC5" bits="13" pre-bits="13" gap-pulse="1" gap-space="113413" one-pulse="990" one-space="849" zero-pulse="990" zero-space="849">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x138C</button>
+        <space multiple="4"/>
+        <button label="&#xFF581;" span="4">0x138A</button>
+
+        <button label="1" span="4">0x1388</button>
+        <button label="2" span="4">0x1382</button>
+        <button label="3" span="4">0x1383</button>
+
+        <button label="4" span="4">0x1384</button>
+        <button label="5" span="4">0x1385</button>
+        <button label="6" span="4">0x1386</button>
+
+        <button label="7" span="4">0x1387</button>
+        <button label="8" span="4">0x1381</button>
+        <button label="9" span="4">0x1389</button>
+
+        <button label="MENU" span="4">0x138E</button>
+        <button label="0" span="4">0x1380</button>
+        <button label="-" span="4">0x13A0</button>
+
+        <button label="CH+" span="4">0x13B2</button>
+        <button label="&#xf0d8;" span="4">0x1392</button>
+        <button label="VOL+" span="4">0x13B4</button>
+
+        <button label="&#xf0d9;" span="4">0x1396</button>
+        <button label="OK" span="4">0x1391</button>
+        <button label="&#xf0da;" span="4">0x13AF</button>
+
+        <button label="CH-" span="4">0x13B3</button>
+        <button label="&#xf0d7;" span="4">0x13AE</button>
+        <button label="VOL-" span="4">0x13B5</button>
+
+        <button label="F1" span="4">0x13B7</button>
+        <button label="F2" span="4">0x13B6</button>
+        <button label="F3" span="4">0x13B6</button>
+    </device>
+</irplus>

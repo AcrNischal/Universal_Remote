@@ -1,0 +1,48 @@
+<irplus>
+	<device manufacturer="TECHNICS" model="SL-PS670A" columns="12" format="WINLIRC_SPACEENC" one-space="1197" one-pulse="555"
+		zero-pulse="555" zero-space="314" pre-bits="32" bits="16">
+		
+		<button span="3" label="&#xf011;" backgroundColor="FFC84334">0x40040550 0xBCE9</button>
+		<button span="3" label="level+">0x40040550 0x0451</button>
+		<button span="3" label="level-">0x40040550 0x84D1</button>
+		<button span="3" label="&#xf052;" alt="EJECT">0x40040550 0x80D5</button>
+
+		<button span="3" label="1">0x40040550 0x085D</button>
+		<button span="3" label="2">0x40040550 0x88DD</button>
+		<button span="3" label="3">0x40040550 0x88DD</button>
+		<button span="3" label="4">0x40040550 0xC89D</button>
+
+		<button span="3" label="5">0x40040550 0x287D</button>
+		<button span="3" label="6">0x40040550 0xA8FD</button>
+		<button span="3" label="7">0x40040550 0x683D</button>
+		<button span="3" label="8">0x40040550 0xE8BD</button>
+
+		<button span="3" label="9">0x40040550 0x184D</button>
+		<button span="3" label="0">0x40040550 0x98CD</button>
+		<button span="3" label="+10">0x40040550 0x2174</button>
+		<button span="3" label="program">0x40040550 0x5104</button>
+
+		<button span="3" label="CLEAR">0x40040550 0x0154</button>
+		<button span="3" label="AGAIN">0x40040550 0x81D4</button>
+		<button span="3" label="time mode">0x40040550 0xAAFF</button>
+		<button span="3" label="a-b repeat">0x40040550 0x1247</button>
+
+		<button span="3" label="AGAIN">0x40040550 0xE2B7</button>
+		<button span="3" label="random">0x40040550 0xB2E7</button>
+		<button span="3" label="auto cue">0x40040550 0xD184</button>
+		<button span="3" label="tape length">0x40040550 0xD580</button>
+
+		<button span="4" label="side a-b">0x40040550 0x3560</button>
+		<button span="4" label="time fade">0x40040550 0x297C</button>
+		<button span="4" label="peak search">0x40040550 0xF1A4</button>
+
+		<button span="3" label="search-">0x40040550 0x4015</button>
+		<button span="3" label="search+">0x40040550 0xC095</button>
+		<button span="3" label="skip-">0x40040550 0x92C7</button>
+		<button span="3" label="skip+">0x40040550 0x5207</button>
+
+		<button span="4" label="&#xf04d;" alt="STOP">0x40040550 0x0055</button>
+		<button span="4" label="&#xf04c;" alt="PAUSE">0x40040550 0x6035</button>
+		<button span="4" label="&#xf04b;" alt="PLAY">0x40040550 0x5005</button>
+	</device>
+</irplus>

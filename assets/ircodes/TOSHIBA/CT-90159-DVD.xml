@@ -1,0 +1,47 @@
+<irplus>
+	<device manufacturer="TOSHIBA" model="CT-90159-DVD" columns="12" format="WINLIRC_SPACEENC" one-space="515" one-pulse="606" zero-pulse="606" zero-space="1643" header-pulse="9058" header-space="4441" bits="48" pre-bits="16">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xFD02 0x5DA2B748</button>
+        <button label="TV VIDEO" span="4">0xFD02 0xFD020FF0</button>
+        <button label="RECALL" span="4">0xFD02 0x5DA29768</button>
+
+		<button label="1" span="4">0xFD02 0x5DA27F80</button>
+		<button label="2" span="4">0xFD02 0x5DA2BF40</button>
+		<button label="3" span="4">0xFD02 0x5DA23FC0</button>
+		
+		<button label="4" span="4">0xFD02 0x5DA2DF20</button>
+		<button label="5" span="4">0xFD02 0x5DA25FA0</button>
+		<button label="6" span="4">0xFD02 0x5DA29F60</button>
+		
+		<button label="7" span="4">0xFD02 0x5DA21FE0</button>
+		<button label="8" span="4">0xFD02 0x5DA2EF10</button>
+		<button label="9" span="4">0xFD02 0x5DA26F90</button>
+		
+		<button label="ENTER" span="4">0xFD02 0x5DA2DE21</button>
+		<button label="0" span="4">0xFD02 0x5DA2AF50</button>
+		<button label="100" span="4">0xFD02 0x5DA25BA4</button>
+		
+		<button label="VOL+" span="4">0xFD02 0xFD02A758</button>
+		<button label="&#xf0d8;" span="4">0xFD02 0x5DA2FE01</button>
+		<button label="VOL-" span="4">0xFD02 0xFD028778</button>
+		
+		<button label="&#xf0d9;" span="4">0xFD02 0x5DA2758A</button>
+		<button label="TOP" span="4">0xFD02 0x5DA2847B</button>
+		<button label="&#xf0da;" span="4">0xFD02 0x5DA24DB2</button>
+		
+		<button label="MARK" span="4">0xFD02 0x5DA27B84</button>
+		<button label="&#xf0d7;" span="4">0xFD02 0x5DA27E81</button>
+		<button label="CANCEL" span="4">0xFD02 0x5DA208F7</button>
+		
+		<button label="&#xFF581;" span="4">0xFD02 0xFD02F708</button>
+		<button label="&#xf04c;" alt="PAUSE" span="4">0xFD02 0x5DA2FF00</button>
+		<button label="&#xf04d;" alt="STOP" span="4">0xFD02 0x5DA2D728</button>
+
+		<button label="&#xf04a;" alt="REW" span="4">0xFD02 0x5DA26798</button>
+		<button label="&#xf04b;" alt="PLAY" span="4">0xFD02 0x5DA257A8</button>
+		<button label="&#xf04e;" alt="FWD" span="4">0xFD02 0x5DA237C8</button>
+		
+		<button label="&#xf049;" alt="PREV" span="6">0xFD02 0x5DA23BC4</button>
+		<button label="&#xf050;" alt="NEXT" span="6">0xFD02 0x5DA2DB24</button>
+	</device>
+</irplus>

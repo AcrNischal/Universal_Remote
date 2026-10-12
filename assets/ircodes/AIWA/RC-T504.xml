@@ -1,0 +1,48 @@
+<irplus>
+    <device manufacturer="AIWA" model="RC-T504" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="26"
+        toggle-bit-pos="0" gap-pulse="638" gap-space="108522" one-pulse="634" one-space="1629" zero-pulse="634" zero-space="488"
+        header-pulse="9118" header-space="4464">
+
+        <button label="&#xf011;" alt="POWER" span="4">0x1D8113F 0x00FF</button>
+        <button label="PRGM" span="4">0x1D8113F 0x9867</button>
+        <button label="RANDOM" span="4">0x1D8113F 0xA857</button>
+
+        <button label="1" span="4">0x1D8113F 0x807F</button>
+        <button label="2" span="4">0x1D8113F 0x40BF</button>
+        <button label="3" span="4">0x1D8113F 0xC03F</button>
+
+        <button label="4" span="4">0x1D8113F 0x20DF</button>
+        <button label="5" span="4">0x1D8113F 0xA05F</button>
+        <button label="6" span="4">0x1D8113F 0x609F</button>
+
+        <button label="7" span="4">0x1D8113F 0xE01F</button>
+        <button label="8" span="4">0x1D8113F 0x10EF</button>
+        <button label="9" span="4">0x1D8113F 0x906F</button>
+
+        <button label="+10" span="4">0x1D8113F 0xD02F</button>
+        <button label="0" span="4">0x1D8113F 0x50AF</button>
+        <button label="EDIT" span="4">0x1D8113F 0xE817</button>
+
+        <button label="GEQ" span="3">0x1D8113F 0x926D</button>
+        <button label="KARAOKE" span="3">0x1D8113F 0x0AF5</button>
+        <button label="T-BASS" span="3">0x1D8113F 0xE21D</button>
+        <button label="TIMER" span="3">0x1D8113F 0x30CF</button>
+
+        <button label="SLEEP" span="3">0x1D8113F 0x708F</button>
+        <button label="CLOCK" span="3">0x1D8113F 0x8877</button>
+        <button label="MONO" span="3">0x1D8113F 0x48B7</button>
+        <button label="BAND" span="3">0x1D8113F 0x38C7</button>
+
+        <button label="&#xf049;" alt="PREV" span="4">0x1D8113F 0xC23D</button>
+        <button label="&#xf050;" alt="NEXT" span="4">0x1D8113F 0x42BD</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x1D8113F 0x22DD</button>
+
+        <button label="&#xf04d;" alt="STOP" span="6">0x1D8113F 0x827D</button>
+        <button label="&#xf04b;" alt="PLAY" span="6">0x1D8113F 0x02FD</button>
+
+        <button label="FUNCTION" span="4">0x1D8113F 0x7887</button>
+        <button label="VOL-" span="4">0x1D8113F 0x728D</button>
+        <button label="VOL+" span="4">0x1D8113F 0xB24D</button>
+
+    </device>
+</irplus>

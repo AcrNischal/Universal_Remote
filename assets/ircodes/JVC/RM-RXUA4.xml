@@ -1,0 +1,49 @@
+<irplus>
+    <device manufacturer="JVC" model="RM-RXUA4" columns="12" format="WINLIRC_SPACEENC" pre-bits="16" gap-pulse="513" gap-space="19539" one-pulse="513" one-space="1599" zero-pulse="513" zero-space="541" header-pulse="8435" header-space="4239" repeat="3">
+
+        <button label="1" span="3">0xF984</button>
+        <button label="2" span="3">0xF944</button>
+        <button label="3" span="3">0xF9C4</button>
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0xF900</button>
+
+        <button label="4" span="3">0xF924</button>
+        <button label="5" span="3">0xF9A4</button>
+        <button label="6" span="3">0xF964</button>
+        <button label="SLEEP" span="3">0xF94C</button>
+
+        <button label="7" span="3">0xF9E4</button>
+        <button label="8" span="3">0xF914</button>
+        <button label="9" span="3">0xF994</button>
+        <button label="CDDOOR" span="3">0xF9DE</button>
+
+        <button label="10" span="3">0xF954</button>
+        <button label="+10" span="3">0xF974</button>
+        <button label="AUX" span="3">0xF9B0</button>
+        <space multiple="3"/>
+
+        <button label="CDPLAY" span="3">0xF90E</button>
+        <button label="CDSTOP" span="3">0xF98E</button>
+        <button label="CDNEXT" span="3">0xF9BC</button>
+        <button label="CDPREV" span="3">0xF97C</button>
+
+        <button label="SOUND" span="4">0xF9F1</button>
+        <button label="TUNER" span="4">0xF9D0</button>
+        <button label="AUTOPRESET" span="4">0xF9C8</button>
+
+        <button label="TAPELEFT" span="4">0xF9B2</button>
+        <button label="TAPESTOP" span="4">0xF982</button>
+        <button label="TAPERIGHT" span="4">0xF932</button>
+
+        <button label="TAPEPREV" span="4">0xF9A2</button>
+        <button label="TAPEREC" span="4">0xF9D2</button>
+        <button label="TAPENEXT" span="4">0xF922</button>
+        
+        <button label="BASS+" span="4">0xF9E1</button>
+        <button label="TREBLE+" span="4">0xF991</button>
+        <button label="VOL+" span="4">0xF980</button>
+        
+        <button label="BASS-" span="4">0xF911</button>
+        <button label="TREBLE-" span="4">0xF951</button>
+        <button label="VOL-" span="4">0xF940</button>
+    </device>
+</irplus>

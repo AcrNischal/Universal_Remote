@@ -1,0 +1,69 @@
+<irplus>
+    <device manufacturer="TECHNISAT" model="Digit CCI" columns="12" format="WINLIRC_RC5" bits="13" pre-bits="13"
+        toggle-bit-pos="2" frequency="36000">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="3">0x128c</button>
+        <button label="SLEEP" span="3">0x12a6</button>
+        <button label="TV/RADIO" span="3">0x0293</button>
+        <button label="&#xFF581;" span="3">0x128d</button>
+
+        <button label="1" span="4">0x1281</button>
+        <button label="2" span="4">0x1282</button>
+        <button label="3" span="4">0x1283</button>
+        <button label="4" span="4">0x1284</button>
+        <button label="5" span="4">0x1285</button>
+        <button label="6" span="4">0x1286</button>
+        <button label="7" span="4">0x1287</button>
+        <button label="8" span="4">0x1288</button>
+        <button label="9" span="4">0x1289</button>
+
+        <button label="PAGE-" span="4">0x02b5</button>
+        <button label="0" span="4">0x1280</button>
+        <button label="PAGE+" span="4">0x02b4</button>
+
+        <button label="CH+" span="4">0x12a0</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0x0290</button>
+        <button label="VOL+" span="4">0x1290</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x0295</button>
+        <button label="ENTER" span="4">0x0297</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x0296</button>
+
+        <button label="CH-" span="4">0x12a1</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x0291</button>
+        <button label="VOL-" span="4">0x1291</button>
+
+        <button label="EXT" span="3">0x12b8</button>
+        <button label="GENRE" span="3">0x02b9</button>
+        <button label="GUIDE" span="3">0x12af</button>
+        <button label="SUBTITLE" span="3">0x12a3</button>
+
+        <button label="INFO" span="3">0x028f</button>
+        <button label="RECALL" span="3">0x12a2</button>
+        <button label="MENU" span="3">0x0292</button>
+        <button label="DVR" span="3">0x02bf</button>
+
+        <button label="NAVIGATION" span="3">0x02a9</button>
+        <button label="OPTION" span="3">0x128a</button>
+        <button label="SCART" span="3">0x0280</button>
+        <button label="PIP" span="3">0x0298</button>
+
+        <button label="&#xf04a;" alt="REV" span="4">0x12b2</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x12a9</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0x12b4</button>
+
+        <button label="&#xf04b;" alt="PLAY" span="4">0x12b5</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x12b6</button>
+        <button label="&#xf111;" alt="RECORD" labelColor="FFC84334" span="4">0x12b7</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x02ab</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x02ac</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x02ad</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x02ae</button>
+
+        <button label="TEXT" span="4">0x12bc</button>
+        <button label="TIMER" span="4">0x02aa</button>
+        <button label="ZOOM" span="4">0x02be</button>
+
+    </device>
+</irplus>

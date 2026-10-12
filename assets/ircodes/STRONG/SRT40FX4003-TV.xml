@@ -1,0 +1,61 @@
+<irplus>
+    <device manufacturer="STRONG" model="SRT40FX4003-TV" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16">
+
+        <button label="Power" span="4">0x0E0E 0x0CF3</button>
+        <button label="Mute" span="4">0x0E0E 0x0DF2</button>
+        <button label="TV/AV" span="4">0x0E0E 0x0FF0</button>
+
+        <button label="VOL+" span="4">0x0E0E 0x14EB</button>
+        <button label="Up" span="4">0x0E0E 0x42BD</button>
+        <button label="CH+" span="4">0x0E0E 0x12ED</button>
+
+        <button label="Left" span="4">0x0E0E 0x44BB</button>
+        <button label="OK" span="4">0x0E0E 0x46B9</button>
+        <button label="Right" span="4">0x0E0E 0x45BA</button>
+
+        <button label="VOL-" span="4">0x0E0E 0x15EA</button>
+        <button label="Down" span="4">0x0E0E 0x43BC</button>
+        <button label="CH-" span="4">0x0E0E 0x13EC</button>
+
+        <button label="Menu" span="4">0x0E0E 0x11EE</button>
+        <button label="Exit" span="4">0x0E0E 0xB54A</button>
+        <button label="Back" span="4">0x0E0E 0xBB44</button>
+
+        <button label="1" span="4">0x0E0E 0x01FE</button>
+        <button label="2" span="4">0x0E0E 0x02FD</button>
+        <button label="3" span="4">0x0E0E 0x03FC</button>
+
+        <button label="4" span="4">0x0E0E 0x04FB</button>
+        <button label="5" span="4">0x0E0E 0x05FA</button>
+        <button label="6" span="4">0x0E0E 0x06F9</button>
+
+        <button label="7" span="4">0x0E0E 0x07F8</button>
+        <button label="8" span="4">0x0E0E 0x08F7</button>
+        <button label="9" span="4">0x0E0E 0x09F6</button>
+
+        <button label="Menu audio" span="4">0x0E0E 0xAC53</button>
+        <button label="0/10" span="4">0x0E0E 0x00FF</button>
+        <button label="Menu video" span="4">0x0E0E 0x7887</button>
+
+        <button label="Display" span="4">0x0E0E 0x6798</button>
+        <button label="Guide" span="4">0x0E0E 0xB34C</button>
+        <button label="Text" span="4">0x0E0E 0xAB54</button>
+
+        <button label="Fav" span="4">0x0E0E 0xAD52</button>
+        <button label="ReturnTV" span="4">0x0E0E 0xB04F</button>
+        <button label="Sleep Timer" span="4">0x0E0E 0x0EF1</button>
+
+        <button label="Subt/List" span="4">0x0E0E 0xB748</button>
+        <button label="Txt Ex" span="4">0x0E0E 0x4FB0</button>
+        <button label="Rotate Pip" span="4">0x0E0E 0x1DE2</button>
+
+        <button label="Update" span="4">0x0E0E 0xB44B</button>
+        <button label="Reveal" span="4">0x0E0E 0xC33C</button>
+        <button label="Txt Stop" span="4">0x0E0E 0x1AE5</button>
+
+        <button label="Info" span="4">0x0E0E 0x16E9</button>
+        <button label="Funct1" span="4">0x0E0E 0xA05F</button>
+        <button label="Funct2" span="4">0x0E0E 0xA15E</button>
+
+    </device>
+</irplus>

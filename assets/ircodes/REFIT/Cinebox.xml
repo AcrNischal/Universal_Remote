@@ -1,0 +1,53 @@
+<irplus>
+    <device manufacturer="REFIT" model="CINEBOX" columns="12" format="WINLIRC_SPACEENC" toggle-bit-pos="0" one-pulse="567" one-space="1693"
+        zero-pulse="567" zero-space="563" header-pulse="9062" header-space="4490" gap-space="108525" gap-pulse="569" bits="16" pre-bits="16" scaleRatio="1.8">
+
+        <button label="&#61457;" labelSize="25.0" span="3" voiceCommand="ligar" bitmapHeight="10" backgroundColor="FFCC0000">0x807F 0x807F</button>
+        <space multiple="6" />
+        <button label="&#1045889;" labelSize="25.0" span="3" bitmapHeight="10">0x807F 0x48B7</button>
+
+        <button label="FAV" labelSize="10.0" span="4" bitmapHeight="10">0x807F 0x2AD5</button>
+        <button label="IPTV" labelSize="18.0" span="4" bitmapHeight="10" labelColor="FFDF0101">0x807F 0x6A95</button>
+        <button label="PRE-CH" labelSize="10.0" span="4" bitmapHeight="10">0x807F 0x906F</button>
+
+        <button label="AUDIO" labelSize="15.0" span="4" bitmapHeight="10">0x807F 0x18E7</button>
+        <button label="TV/RADIO" labelSize="10.0" span="4" bitmapHeight="10">0x807F 0xC23D</button>
+        <button label="" labelSize="12.0" span="4" bitmapHeight="10">0x807F 0x8A75</button>
+
+        <button label="MENU" labelSize="18.0" span="3" bitmapHeight="10" backgroundColor="FFA38E00">0x807F 0xDA25</button>
+        <space multiple="1" />
+        <button label="&#61656; CH+" labelSize="18.0" span="4" bitmapHeight="10" backgroundColor="FF0000FF">0x807F 0xE817</button>
+        <space multiple="1" />
+        <button label="EXIT" labelSize="18.0" span="3" bitmapHeight="10" backgroundColor="FF66004C">0x807F 0x6897</button>
+
+        <button label="&#61657; VOL-" labelSize="18.0" span="5" bitmapHeight="10" backgroundColor="FF009E00">0x807F 0x42BD</button>
+        <button label="OK" labelSize="25.0" span="2" bitmapHeight="10" labelColor="FFF40000" backgroundColor="FFDDDDE0">0x807F 0xA857</button>
+        <button label="&#61658; VOL+" labelSize="18.0" span="5" bitmapHeight="10" backgroundColor="FF009E00">0x807F 0x827D</button>
+
+        <button label="EPG" labelSize="18.0" span="3" bitmapHeight="10" backgroundColor="FFAF00FF">0x807F 0x5AA5</button>
+        <space multiple="1" />
+        <button label="&#61655; CH-" labelSize="18.0" span="4" bitmapHeight="10" backgroundColor="FF0000FF">0x807F 0x58A7</button>
+        <space multiple="1" />
+        <button label="INFO" labelSize="15.0" span="3" bitmapHeight="10">0x807F 0x728D</button>
+
+        <button label="1" labelSize="25.0" span="3" bitmapHeight="10">0x807F 0x00FF</button>
+        <button label="2" labelSize="25.0" span="3" bitmapHeight="10">0x807F 0xE01F</button>
+        <button label="3" labelSize="25.0" span="3" bitmapHeight="10">0x807F 0x609F</button>
+        <button label="TEXT" labelSize="10.0" span="3" bitmapHeight="10">0x807F 0xCA35</button>
+
+        <button label="4" labelSize="25.0" span="3" bitmapHeight="10">0x807F 0x20DF</button>
+        <button label="5" labelSize="25.0" span="3" bitmapHeight="10">0x807F 0xD02F</button>
+        <button label="6" labelSize="25.0" span="3" bitmapHeight="10">0x807F 0x50AF</button>
+        <button label="GOTO" labelSize="10.0" span="3" bitmapHeight="10">0x807F 0x4AB5</button>
+
+        <button label="7" labelSize="25.0" span="3" bitmapHeight="10">0x807F 0x10EF</button>
+        <button label="8" labelSize="25.0" span="3" bitmapHeight="10">0x807F 0xF00F</button>
+        <button label="9" labelSize="25.0" span="3" bitmapHeight="10">0x807F 0x708F</button>
+        <button label="0" labelSize="25.0" span="3" bitmapHeight="10">0x807F 0xC837</button>
+
+        <button label="USB" labelSize="18.0" span="3" bitmapHeight="10">0x807F 0xAA55</button>
+        <button label="" labelSize="12.0" span="3" bitmapHeight="10">0x807F 0xD827</button>
+        <button label="&#61517;" labelSize="25.0" span="3" bitmapHeight="10">0x807F 0xEA15</button>
+        <button label="&#61515;" labelSize="25.0" span="3" bitmapHeight="10">0x807F 0x08F7</button>
+    </device>
+</irplus>

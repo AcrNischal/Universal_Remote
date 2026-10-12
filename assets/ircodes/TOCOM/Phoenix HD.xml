@@ -1,0 +1,61 @@
+<irplus>
+    <device manufacturer="TOCOM" model="Phoenix HD" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" span="4" backgroundColor="FFC84334"> 0x10EB 0x50AF</button>
+        <space multiple="8"/>
+        
+        <button label="1" span="4"> 0x10EB 0x8877</button>
+        <button label="2" span="4"> 0x10EB 0x48B7</button>
+        <button label="3" span="4"> 0x10EB 0xC837</button>
+
+        <button label="4" span="4"> 0x10EB 0x28D7</button>
+        <button label="5" span="4"> 0x10EB 0xA857</button>
+        <button label="6" span="4"> 0x10EB 0x6897</button>
+
+        <button label="7" span="4"> 0x10EB 0xE817</button>
+        <button label="8" span="4"> 0x10EB 0x18E7</button>
+        <button label="9" span="4"> 0x10EB 0x9867</button>
+
+        <button label="FAV" span="4"> 0x10EB 0x24DB</button>
+        <button label="0" span="4"> 0x10EB 0x08F7</button>
+        <button label="RECALL" span="4"> 0x10EB 0xA05F</button>
+
+        <button label="INFO" span="3"> 0x10EB 0x20DF</button>
+        <button label="PAGE-" span="3"> 0x10EB 0x58A7</button>
+        <button label="PAGE+" span="3"> 0x10EB 0xD02F</button>
+        <button label="EPG" span="3"> 0x10EB 0xB04F</button>
+
+        <button label="R" fillColor="FFC84334" span="3"> 0x10EB 0xD827</button>
+        <button label="G" fillColor="FF1E7854" span="3"> 0x10EB 0xF00F</button>
+        <button label="FIND" backgroundColor="FFD6A81F" span="3"> 0x10EB 0x42BD</button>
+        <button label="V-FORMAT" backgroundColor="FF2A4C94" span="3"> 0x10EB 0x609F</button>
+
+        <button label="MENU" span="4"> 0x10EB 0xE01F</button>
+        <button label="&#61656;" span="4"> 0x10EB 0x00FF</button>
+        <button label="EXIT" span="4"> 0x10EB 0xB847</button>
+
+        <button label="&#61657;" span="4"> 0x10EB 0xC03F</button>
+        <button label="OK" span="4"> 0x10EB 0xF807</button>
+        <button label="&#61658;" span="4"> 0x10EB 0x40BF</button>
+
+        <button label="VOL &#61525;" span="4"> 0x10EB 0x10EF</button>
+        <button label="&#61655;" span="4"> 0x10EB 0x807F</button>
+        <button label="CH &#61753;" span="4"> 0x10EB 0xD42B</button>
+
+        <button label="VOL &#61526;" span="4"> 0x10EB 0x906F</button>
+        <button label="&#61478;&#61453;" span="4"> 0x10EB 0x30CF</button>
+        <button label="CH &#61754;" span="4"> 0x10EB 0x34CB</button>
+
+        <button label="AUDIO" span="4"> 0x10EB 0x2CD3</button>
+        <button label="TEXT" span="4"> 0x10EB 0x0CF3</button>
+        <button label="SUBTITLE" span="4"> 0x10EB 0x8C73</button>
+
+        <button label="&#61514;" span="4" backgroundColor="FF0093FF"> 0x10EB 0x4CB3</button>
+        <button label="&#61515;" span="4" backgroundColor="FF0093FF"> 0x10EB 0xCC33</button>
+        <button label="&#61518;" span="4" backgroundColor="FF0093FF"> 0x10EB 0x0AF5</button>
+
+        <button label="&#61517;" span="4" backgroundColor="FF0093FF"> 0x10EB 0x1CE3</button>
+        <button label="&#61516;" span="4" backgroundColor="FF0093FF"> 0x10EB 0x9C63</button>
+        <button label="&#61713;" span="4" labelColor="FFFF0000" backgroundColor="FF0093FF"> 0x10EB 0x04FB</button>
+    </device>
+</irplus>

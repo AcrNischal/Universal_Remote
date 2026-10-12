@@ -1,0 +1,70 @@
+<irplus>
+    <device manufacturer="MEDION" model="RC-1222" columns="12" format="WINLIRC_NEC1" one-space="1643" one-pulse="592"
+        zero-pulse="592" zero-space="525" header-pulse="9005" header-space="4480" pre-bits="16" bits="16">
+
+        <button label="&#xf011;" span="3" backgroundColor="FFC84334">0x9867 0x18E7</button>
+        <button label="&#xFF581;" span="3">0x9867 0x6A95</button>
+        <button label="S.MODE" span="3">0x9867 0xC03F</button>
+        <button label="P.MODE" span="3">0x9867 0x40BF</button>
+
+        <button label="FAV+" span="6">0x9867 0x807F</button>
+        <button label="FAV-" span="6">0x9867 0x00FF</button>
+
+        <button label="" span="3">0x9867 0xA25D</button>
+        <button label="/" span="3">0x9867 0x629D</button>
+        <button label="" span="3">0x9867 0xE21D</button>
+        <button label="REVEAL" span="3">0x9867 0x906F</button>
+
+        <button label="" span="3">0x9867 0x22DD</button>
+        <button label="" span="3">0x9867 0xE01F</button>
+        <button label="" span="3">0x9867 0x609F</button>
+        <button label="" span="3">0x9867 0xA05F</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x9867 0x02FD</button>
+        <button label="G" fillColor="FF29A58B" span="3">0x9867 0x827D</button>
+        <button label="Y" fillColor="FFF2B731" span="3">0x9867 0x42BD</button>
+        <button label="B" fillColor="FF2766DC" span="3">0x9867 0xC23D</button>
+
+        <button label="INDEX" span="4">0x9867 0x926D</button>
+        <button label="SUBTITLE" span="4">0x9867 0x52AD</button>
+        <button label="AUDIO" span="4">0x9867 0xD22D</button>
+
+        <button label="SIZE" span="3">0x9867 0xD827</button>
+        <button label="TV/RADIO" span="3">0x9867 0x9867</button>
+        <button label="FAV" span="3">0x9867 0x1AE5</button>
+        <button label="SLEEP" span="3">0x9867 0x10EF</button>
+
+        <button label="MENU" span="3">0x9867 0x12ED</button>
+        <button label="EXIT" span="3">0x9867 0x48B7</button>
+        <button label="INPUT" span="3">0x9867 0x50AF</button>
+        <button label="EPG" span="3">0x9867 0xEA15</button>
+
+        <button label="CH+" span="4">0x9867 0x32CD</button>
+        <button label="&#xf0d8;" span="4">0x9867 0xC837</button>
+        <button label="VOL+" span="4">0x9867 0xF20D</button>
+
+        <button label="&#xf0d9;" span="4">0x9867 0xB24D</button>
+        <button label="OK" span="4">0x9867 0x8877</button>
+        <button label="&#xf0da;" span="4">0x9867 0x08F7</button>
+
+        <button label="CH-" span="4">0x9867 0xF00F</button>
+        <button label="&#xf0d7;" span="4">0x9867 0x728D</button>
+        <button label="VOL-" span="4">0x9867 0xB04F</button>
+
+        <button label="1" span="4">0x9867 0xAA55</button>
+        <button label="2" span="4">0x9867 0x2AD5</button>
+        <button label="3" span="4">0x9867 0xE817</button>
+        
+        <button label="4" span="4">0x9867 0xDA25</button>
+        <button label="5" span="4">0x9867 0xCA35</button>
+        <button label="6" span="4">0x9867 0xA857</button>
+        
+        <button label="7" span="4">0x9867 0x6897</button>
+        <button label="8" span="4">0x9867 0x5AA5</button>
+        <button label="9" span="4">0x9867 0x4AB5</button>
+        
+        <button label="TEXT" span="4">0x9867 0xD02F</button>
+        <button label="0" span="4">0x9867 0x8A75</button>
+        <button label="&#xf0e2;" alt="RECALL" span="4">0x9867 0x9A65</button>
+    </device>
+</irplus>

@@ -1,0 +1,9 @@
+<irplus>
+<device manufacturer="Lutron" model="MaestroDimmer" columns="1" format="PRONTO_HEX">
+	<button label="ON" labelColor="FF000000" labelSize="10.0" backgroundColor="FF1E7854">0000 0069 0006 0000 032a 010e 005a 010e 005a 0168 005a 00b4 005a 005a 010e 0276</button>
+	<button label="&#xf0d8;" labelColor="FF000000" labelSize="10.0" backgroundColor="FFFFFFFF">0000 0069 0006 0006 032a 010e 005a 010e 005a 01c2 005a 010e 005a 010e 005a 01c2 032a 010e 005a 010e 005a 01c2 005a 010e 005a 010e 005a 01c2</button>
+	<button label="FAVORITE" labelColor="FF000000" labelSize="10.0" backgroundColor="FF00FFFF">0000 0069 0007 0007 032a 010e 005a 010e 005a 0168 005a 00b4 005a 005a 00b4 005a 010e 0168 032a 010e 005a 010e 005a 0168 005a 00b4 005a 005a 00b4 005a 010e 0168</button>
+	<button label="&#xf0d7;" labelColor="FF000000" labelSize="10.0" backgroundColor="FFFFFFFF">0000 0069 0006 0006 032a 010e 005a 010e 005a 01c2 005a 0168 005a 005a 005a 021c 032a 010e 005a 010e 005a 01c2 005a 0168 005a 005a 005a 021c</button>
+	<button label="OFF" labelColor="FF000000" labelSize="10.0" backgroundColor="FFC84334">0000 0069 0007 0007 032a 010e 005a 010e 005a 005a 0168 005a 005a 010e 005a 00b4 005a 01c2 032a 010e 005a 010e 005a 005a 0168 005a 005a 010e 005a 00b4 005a 01c2</button>
+</device>
+</irplus>

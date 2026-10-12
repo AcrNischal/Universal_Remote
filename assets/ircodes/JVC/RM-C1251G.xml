@@ -1,0 +1,43 @@
+<irplus>
+	<device manufacturer="JVC" model="RM-C1251G" columns="12" format="WINLIRC_SPACEENC" one-space="1471" one-pulse="621"
+		zero-pulse="621" zero-space="492" header-pulse="7855" header-space="3816" bits="8" pre-bits="8">
+
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xC0 0xE8</button>
+		<button label="INPUT" span="4">0xC0 0xC8</button>
+		<button label="DISPLAY" span="4">0xC0 0x20</button>
+		
+		<button label="SLEEPTIMERr" span="4">0xC0 0xC0</button>
+		<button label="SOUND" span="4">0xC0 0x42</button>
+		<button label="VIDEO" span="4">0xC0 0xB0</button>
+		
+		<button label="THEATERPRO" span="4">0xC0 0xAB</button>
+		<button label="&#xFF581;" span="4">0xC0 0x38</button>
+		<button label="ASPECT" span="4">0xC0 0xC9</button>
+		
+		<button label="1" span="4">0xC0 0x84</button>
+		<button label="2" span="4">0xC0 0x44</button>
+		<button label="3" span="4">0xC0 0xC4</button>
+		
+		<button label="4" span="4">0xC0 0x24</button>
+		<button label="5" span="4">0xC0 0xA4</button>
+		<button label="6" span="4">0xC0 0x64</button>
+		
+		<button label="7" span="4">0xC0 0xE4</button>
+		<button label="8" span="4">0xC0 0x14</button>
+		<button label="9" span="4">0xC0 0x94</button>
+		
+		<button label="0+" span="4">0xC0 0xEE</button>
+		<button label="0" span="4">0xC0 0x04</button>
+		<button label="RETURN" span="4">0xC0 0xA0</button>
+		
+		<button label="CH+" span="6">0xC0 0x98</button>
+		<button label="CH-" span="6">0xC0 0x18</button>
+		
+		<button label="VOL+" span="6">0xC0 0x78</button>
+		<button label="VOL-" span="6">0xC0 0xF8</button>
+		
+		<button label="CC" span="4">0xC0 0x70</button>
+		<button label="MENU" span="4">0xC0 0x5E</button>
+		<button label="EXIT" span="4">0xC0 0x67</button>
+	</device>
+</irplus>

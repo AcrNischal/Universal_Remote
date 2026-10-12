@@ -1,0 +1,64 @@
+<irplus>
+	<device manufacturer="ACER" model="RC802" columns="4" format="WINLIRC_NEC1">
+		
+		<button label="&#xf011;" backgroundColor="FFC84334">0x8A4 0xB24D</button>
+		<button label="LIVETV">0x8A4 0x32CD</button>
+		<button label="TVAV">0x8A4 0xBA45</button>
+		<button label="ARCADE">0x8A4 0x00FF</button>
+		
+		<button label="MENU">0x8A4 0x40BF</button>
+		<button label="LANG">0x8A4 0x629D</button>
+		<button label="SUBS">0x8A4 0xE21D</button>
+		<button label="ANGL">0x8A4 0x52AD</button>
+
+		<button label="&#xf111;" alt="REC">0x8A4 0xD22D</button>
+		<button label="&#xf04b;" alt="PLAY">0x8A4 0x6A95</button>
+		<button label="&#xf04c;" alt="PAUSE">0x8A4 0xAA55</button>
+		<button label="&#xf04d;" alt="STOP">0x8A4 0x50AF</button>
+
+		<button label="&#xf049;" alt="PREV">0x8A4 0xCA35</button>
+		<button label="&#xf04a;" alt="REW">0x8A4 0x609F</button>
+		<button label="&#xf04e;" alt="FWD">0x8A4 0x10EF</button>
+		<button label="&#xf050;" alt="NEXT">0x8A4 0x2AD5</button>
+
+		<button label="SAP">0x8A4 0x926D</button>
+		<button label="&#xf0d8;">0x8A4 0x807F</button>
+		<button label="BACK">0x8A4 0x22DD</button>
+		<button label="LAST">0x8A4 0x02FD</button>
+		
+		<button label="&#xf0d9;">0x8A4 0x0AF5</button>
+		<button label="SELECT">0x8A4 0x8A75</button>
+		<button label="&#xf0da;">0x8A4 0x4AB5</button>
+		<button label="&#xff04c;">0x8A4 0xD827</button>
+	
+		<button label="CAPTR">0x8A4 0xF807</button>
+		<button label="&#xf0d7;">0x8A4 0xE01F</button>
+		<button label="INFO">0x8A4 0xA25D</button>
+		<button label="&#xFF581;">0x8A4 0xC23D</button>
+		
+		<button label="VOL+">0x8A4 0xD02F</button>
+		<button label="VOL-">0x8A4 0xB04F</button>
+		<button label="CH+">0x8A4 0x906F</button>
+		<button label="CH-">0x8A4 0x30CF</button>
+		
+		<button label="1">0x8A4 0x28D7</button>
+		<button label="2">0x8A4 0xA857</button>
+		<button label="3">0x8A4 0x6897</button>
+		<button label="4">0x8A4 0x18E7</button>
+		
+		<button label="5">0x8A4 0x9867</button>
+		<button label="6">0x8A4 0x58A7</button>
+		<button label="7">0x8A4 0x38C7</button>
+		<button label="8">0x8A4 0xB847</button>
+		
+		<button label="9">0x8A4 0x7887</button>
+		<button label="0">0x8A4 0x827D</button>
+		<button label="TEXT">0x8A4 0xE817</button>
+		<button label="SCAN">0x8A4 0x12ED</button>
+		
+		<button label="R" fillColor="FFC84334">0x8A4 0x08F7</button>
+		<button label="G" fillColor="FF1E7854">0x8A4 0x8877</button>
+		<button label="Y" fillColor="FFD6A81F">0x8A4 0x48B7</button>
+		<button label="B" fillColor="FF2A4C94">0x8A4 0xC837</button>
+	</device>
+</irplus>

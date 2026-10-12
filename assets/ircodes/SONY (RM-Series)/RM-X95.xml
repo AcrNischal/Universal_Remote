@@ -1,0 +1,29 @@
+<irplus>
+    <device manufacturer="SONY" model="RM-X95" columns="12" format="WINLIRC_SPACEENC" bits="14" pre-bits="14" frequency="40000"
+        gap-pulse="1161" gap-space="44882" one-pulse="1161" one-space="634" zero-pulse="562" zero-space="634" header-pulse="2357" header-space="634" repeat="5">
+
+        <button label="OFF" span="4">0x2C10</button>
+        <button label="DSO" span="4">0x3390</button>
+        <button label="&#xf052;" alt="EJECT" span="4">0x3510</button>
+
+        <button label="MENU" span="4">0x1410</button>
+        <button label="DISC+" span="4" backgroundColor="FF393C41">0x3310</button>
+        <button label="LIST" span="4">0x3910</button>
+
+        <button label="SEEK-" span="4" backgroundColor="FF393C41">0x2B10</button>
+        <button label="SOURCE" span="4" backgroundColor="FF393C41">0x1890</button>
+        <button label="SEEK+" span="4" backgroundColor="FF393C41">0x0B10</button>
+
+        <button label="SOUND" span="4">0x0210</button>
+        <button label="DISC-" span="4" backgroundColor="FF393C41">0x1310</button>
+        <button label="ENTER" span="4">0x0E90</button>
+
+        <button label="DSPL" span="4">0x0510</button>
+        <button label="AF-TA" span="4">0x1490</button>
+        <button label="MODE" span="4">0x3890</button>
+
+        <button label="ATT" span="4">0x0A10</button>
+        <button label="VOL-" span="4" backgroundColor="FF1D2A3F">0x3210</button>
+        <button label="VOL+" span="4" backgroundColor="FF1D2A3F">0x1210</button>
+    </device>
+</irplus>

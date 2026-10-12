@@ -1,0 +1,45 @@
+<irplus>
+    <device manufacturer="AKAI" model="RC-Y121G" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16"
+        gap-pulse="566" gap-space="38686" one-pulse="566" one-space="1661" zero-pulse="566" zero-space="536" header-pulse="9021" header-space="2201">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0x91EE 0x641B</button>
+        <button label="TIMER" span="6">0x91EE 0x651A</button>
+
+        <button label="1" span="4">0x91EE 0x017E</button>
+        <button label="2" span="4">0x91EE 0x413E</button>
+        <button label="3" span="4">0x91EE 0x215E</button>
+
+        <button label="4" span="4">0x91EE 0x611E</button>
+        <button label="5" span="4">0x91EE 0x116E</button>
+        <button label="6" span="4">0x91EE 0x512E</button>
+
+        <button label="7" span="4">0x91EE 0x314E</button>
+        <button label="8" span="4">0x91EE 0x710E</button>
+        <button label="9" span="4">0x91EE 0x0976</button>
+
+        <button label="TV" span="4">0x91EE 0x740B</button>
+        <button label="0" span="4">0x91EE 0x4936</button>
+        <button label="DELETE" span="4">0x91EE 0x354A</button>
+
+        <button label="DISPLAY" span="4">0x91EE 0x453A</button>
+        <button label="&#xf0d8;" span="4">0x91EE 0x1D62</button>
+        <button label="SHOWVIEW" span="4">0x91EE 0x5926</button>
+
+        <button label="&#xf0d9;" span="4">0x91EE 0x4D32</button>
+        <button label="OK" span="4">0x91EE 0x057A</button>
+        <button label="&#xf0da;" span="4">0x91EE 0x0D72</button>
+
+        <button label="MENU" span="4">0x91EE 0x7906</button>
+        <button label="&#xf0d7;" span="4">0x91EE 0x5D22</button>
+        <button label="AUDIO" span="4">0x91EE 0x1966</button>
+
+        <button label="&#xf111;" alt="REC" labelColor="FFC84334" span="3">0x91EE 0x344B</button>
+        <button label="SPEED" span="3">0x91EE 0x6916</button>
+        <button label="" span="3">0x91EE 0x205F</button>
+        <button label="" span="3">0x91EE 0x403F</button>
+
+        <button label="" span="4">0x91EE 0x304F</button>
+        <button label="" span="4">0x91EE 0x601F</button>
+        <button label="" span="4">0x91EE 0x7807</button>
+    </device>
+</irplus>

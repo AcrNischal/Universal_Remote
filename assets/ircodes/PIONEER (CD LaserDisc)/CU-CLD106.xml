@@ -1,0 +1,54 @@
+<irplus>
+    <device manufacturer="PIONEER" model="CU-CLD106" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16"
+        gap-pulse="578" gap-space="98196" one-pulse="575" one-space="1464" zero-pulse="575" zero-space="453" header-pulse="8263" header-space="4036"
+        repeat="3">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x15EA 0x38C7</button>
+        <button label="MEMORY" span="4">0x15EA 0x9867</button>
+        <button label="&#xf052;" alt="EJECT" span="4">0x15EA 0x9867</button>
+
+        <button label="1" span="4">0x15EA 0x807F</button>
+        <button label="2" span="4">0x15EA 0x40BF</button>
+        <button label="3" span="4">0x15EA 0xC03F</button>
+
+        <button label="4" span="4">0x15EA 0x20DF</button>
+        <button label="5" span="4">0x15EA 0xA05F</button>
+        <button label="6" span="4">0x15EA 0x609F</button>
+
+        <button label="7" span="4">0x15EA 0xE01F</button>
+        <button label="8" span="4">0x15EA 0x10EF</button>
+        <button label="9" span="4">0x15EA 0x906F</button>
+
+        <button label="0" span="4">0x15EA 0x00FF</button>
+        <button label="+10" span="4">0x15EA 0xF807</button>
+        <button label="CLEAR" span="4">0x15EA 0xA25D</button>
+
+        <button label="INTRO" span="4">0x15EA 0x5AA5</button>
+        <button label="RANDOM" span="4">0x15EA 0x7A85</button>
+        <button label="CHP/TM" span="4">0x15EA 0xC837</button>
+
+        <button label="PGM" span="4">0x15EA 0x32CD</button>
+        <button label="REPEAT" span="4">0x15EA 0x22DD</button>
+        <button label="REPEATA-B" span="4">0x15EA 0x12ED</button>
+
+        <button label="DISPLAY" span="4">0x15EA 0xC23D</button>
+        <button label="AUDIO" span="4">0x15EA 0x7887</button>
+        <button label="SEEK-" span="4">0x15EA 0xCA35</button>
+
+        <button label="PAUSE" span="4">0x15EA 0x18E7</button>
+        <button label="SEEK+" span="4">0x15EA 0x4AB5</button>
+        <button label="REW" span="4">0x15EA 0x8877</button>
+
+        <button label="PLAY" span="4">0x15EA 0xE817</button>
+        <button label="FF" span="4">0x15EA 0x08F7</button>
+        <button label="MULTI-SPEED-" span="4">0x15EA 0xAA55</button>
+
+        <button label="MULTI-SPEED+" span="4">0x15EA 0x1AE5</button>
+        <button label="STOP" span="4">0x15EA 0x6897</button>
+        <button label="STEP-" span="4">0x15EA 0x0AF5</button>
+
+        <button label="STEP+" span="4">0x15EA 0x2AD5</button>
+        <space multiple="8"/>
+
+    </device>
+</irplus>

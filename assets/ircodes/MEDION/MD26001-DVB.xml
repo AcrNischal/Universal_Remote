@@ -1,0 +1,72 @@
+<irplus>
+    <device manufacturer="MEDION" model="MD26001-DVB" columns="12" format="WINLIRC_NEC1"
+        bits="16" pre-bits="16" toggle-bit-pos="0" gap-pulse="645" gap-space="128914" one-pulse="651" one-space="1601" zero-pulse="651" zero-space="461" header-pulse="9154" header-space="4442">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0xFF 0x7887</button>
+        <button label="&#xFF581;" span="6">0xFF 0x48B7</button>
+
+        <button label="1" span="4">0xFF 0x50AF</button>
+        <button label="2" span="4">0xFF 0x906F</button>
+        <button label="3" span="4">0xFF 0x10EF</button>
+
+        <button label="4" span="4">0xFF 0x609F</button>
+        <button label="5" span="4">0xFF 0xA05F</button>
+        <button label="6" span="4">0xFF 0x20DF</button>
+
+        <button label="7" span="4">0xFF 0x40BF</button>
+        <button label="8" span="4">0xFF 0x807F</button>
+        <button label="9" span="4">0xFF 0x00FF</button>
+
+        <button label="TV/RAD" span="4">0xFF 0xF00F</button>
+        <button label="0" span="4">0xFF 0xC23D</button>
+        <button label="SIG" span="4">0xFF 0x30CF</button>
+
+        <button label="CH-" span="3">0xFF 0x708F</button>
+        <button label="CH+" span="3">0xFF 0xB04F</button>
+        <button label="VOL-" span="3">0xFF 0xA857</button>
+        <button label="VOL+" span="3">0xFF 0x28D7</button>
+
+        <button label="MENU" span="3">0xFF 0xE01F</button>
+        <button label="RECALL" span="3">0xFF 0x8877</button>
+        <button label="P-" span="3">0xFF 0xA25D</button>
+        <button label="P+" span="3">0xFF 0x629D</button>
+
+        <button label="TEXT" span="4">0xFF 0x08F7</button>
+        <button label="&#xf0d7;" span="4">0xFF 0xC837</button>
+        <button label="EXIT" span="4">0xFF 0xE21D</button>
+
+        <button label="&#xf0d9;" span="4">0xFF 0x22DD</button>
+        <button label="OK" span="4">0xFF 0x0AF5</button>
+        <button label="&#xf0da;" span="4">0xFF 0xEA15</button>
+
+        <button label="FAV" span="4">0xFF 0xDA25</button>
+        <button label="&#xf0d8;" span="4">0xFF 0x827D</button>
+        <button label="EPG" span="4">0xFF 0xD02F</button>
+
+        <button label="V.FMT" backgroundColor="FFC84334" span="3">0xFF 0xE817</button>
+        <button label="G" fillColor="FF1E7854" span="3">0xFF 0x728D</button>
+        <button label="M/P" backgroundColor="FFD6A81F" span="3">0xFF 0xC03F</button>
+        <button label="TV/SAT" backgroundColor="FF2A4C94" span="3">0xFF 0x6897</button>
+
+        <button label="INFO" span="3">0xFF 0x7A85</button>
+        <button label="SUBT" span="3">0xFF 0xD22D</button>
+        <button label="AUDIO" span="3">0xFF 0x02FD</button>
+        <button label="TIME" span="3">0xFF 0x8A75</button>
+
+        <button label="&#xf111;" alt="REC" labelColor="FFC84334" span="3">0xFF 0x38C7</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0xFF 0xB847</button>
+        <button label="&#xf04b;" alt="PLAY" span="3">0xFF 0x926D</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">0xFF 0x5AA5</button>
+
+        <button label="&#xf04a;" alt="REW" span="3">0xFF 0x2AD5</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0xFF 0xD827</button>
+        <button label="&#xf049;" alt="PREV" span="3">0xFF 0xB24D</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0xFF 0x52AD</button>
+
+        <button label=" " span="3">0xFF 0x58A7</button>
+        <button label="MOVIE" span="3">0xFF 0xF807</button>
+        <button label="MUSIC" span="3">0xFF 0x9867</button>
+        <button label="PHONO" span="3">0xFF 0x18E7</button>
+
+    </device>
+</irplus>

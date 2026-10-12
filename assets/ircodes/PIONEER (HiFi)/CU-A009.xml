@@ -1,0 +1,42 @@
+<irplus>
+    <device manufacturer="PIONEER" model="CU-A009" columns="12" format="WINLIRC_SPACEENC" pre-bits="32"
+        gap-pulse="713" gap-space="90001" one-pulse="713" one-space="1414" zero-pulse="713" zero-space="352" header-pulse="8708" 
+        header-space="4070" repeat="2">
+        
+        <button label="CD" span="6">0xA55A32CD</button>
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="6">0xA55A38C7</button>
+        
+        <button label="TAPE1" span="4">0xA55A728D</button>
+        <button label="TUNER" span="4">0xA55AE21D</button>
+        <button label="VOL+" span="4">0xA55A50AF</button>
+
+        <button label="TAPE2" span="4">0xA55AB847</button>
+        <button label="PHONO" span="4">0xA55AB24D</button>
+        <button label="VOL-" span="4">0xA55AD02F</button>
+
+        <button label="TUNER-" span="6">0x25DA8877</button>
+        <button label="TUNER+" span="6">0x25DA08F7</button>
+
+        <button label="CD &#xf04d;" span="6">0x45BA6897</button>
+        <button label="CD &#xf04b;" span="6">0x45BAE817</button>
+
+        <button label="TIME" span="4">0x45BAC23D</button>
+        <button label="&#xf049;" span="4">0x45BA8877</button>
+        <button label="&#xf050;" span="4">0x45BA08F7</button>
+
+        <button label="EDIT" span="4">0x45BAD22D</button>
+        <button label="PGM" span="4">0x45BAB04F</button>
+        <button label="RND" span="4">0x45BA52AD</button>
+
+        <button label="TAPE &#xf0d9;" span="6">0x857AA857</button>
+        <button label="TAPE &#xf0da;" span="6">0x857AE817</button>
+
+        <button label="TAPE &#xf04d;" span="4">0x857A6897</button>
+        <button label="TAPE &#xf04a;" span="4">0x857A8877</button>
+        <button label="TAPE &#xf04e;" span="4">0x857A08F7</button>
+
+        <button label="TAPE &#xf10c;" span="4">0x857A48B7</button>
+        <button label="TAPE &#xf04c;" span="4">0x857A18E7</button>
+        <button label="TAPE &#xf111;" span="4">0x857A28D7</button>
+    </device>
+</irplus>

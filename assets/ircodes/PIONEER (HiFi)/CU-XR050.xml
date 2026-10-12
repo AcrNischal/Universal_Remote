@@ -1,0 +1,58 @@
+<irplus>
+    <device manufacturer="PIONEER" model="CU-XR050" columns="12" format="WINLIRC_NEC1" one-space="1584" one-pulse="536" zero-pulse="536" zero-space="524" header-pulse="8462" header-space="4264" pre-bits="32">
+
+        <button label="&#xf052;" alt="EJECT" span="3">0x45BA8A75</button>
+        <button label="PRO LOGIC" span="3">0x659A2BD4</button>
+        <button label="TONE TEST" span="3">0x659AAB54</button>
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0x659A38C7</button>
+
+        <button label="VOL-" span="6">0x659AD02F</button>
+        <button label="VOL+" span="6">0x659A50AF</button>
+
+        <button label="DISC CHANGE" span="3">0x45BAB847</button>
+        <button label="DISC 1" span="3">0x45BA7887</button>
+        <button label="DISC 2" span="3">0x45BAF807</button>
+        <button label="DISC 3" span="3">0x45BA0AF5</button>
+
+        <button label="1" span="3">0x659A00FF</button>
+        <button label="2" span="3">0x659A807F</button>
+        <button label="3" span="3">0x659A40BF</button>
+        <button label="CLEAR" span="3">0x659A827D</button>
+
+        <button label="4" span="3">0x659AC03F</button>
+        <button label="5" span="3">0x659A20DF</button>
+        <button label="6" span="3">0x659AA05F</button>
+        <button label=">10" span="3">0x659A02FD</button>
+
+        <button label="7" span="3">0x659A609F</button>
+        <button label="8" span="3">0x659AE01F</button>
+        <button label="9" span="3">0x659A10EF</button>
+        <button label="10/0" span="3">0x659A906F</button>
+
+        <button label="SLEEP" span="3">0x659A9867</button>
+        <button label="PGM" span="3">0x45BAB04F</button>
+        <button label="REPEAT" span="3">0x45BA30CF</button>
+        <button label="RANDOM" span="3">0x45BA52AD</button>
+
+        <button label="AUX" span="3">0x659A32CD</button>
+        <button label="TAPE" span="3">0x659AF00F</button>
+        <button label="BAND" span="3">0x659A926D</button>
+        <button label="CD" span="3">0x659A708F</button>
+
+        <button label="MONO" span="3">0x25DA7887</button>
+        <button label="TRACK-" span="3">0x659A49B6</button>
+        <button label="TRACK+" span="3">0x659A8976</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">0x659AAE51</button>
+
+        <button label="LEVEL" span="3">0x659A4EB1</button>
+        <button label="SEEK-" span="3">0x659A29D6</button>
+        <button label="SEEK+" span="3">0x659AC936</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0x659A09F6</button>
+
+        <button label="MORPHING" span="3">0x659A5BA4</button>
+        <button label="DISPLAY" span="3">0x659AB946</button>
+        <button label="TURN ACW" span="3">0x659A1BE4</button>
+        <button label="TURN CW" span="3">0x659AEB14</button>
+
+    </device>
+</irplus>

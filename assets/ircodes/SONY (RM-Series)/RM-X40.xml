@@ -1,0 +1,21 @@
+<irplus>
+    <device manufacturer="SONY" model="RM-X40" columns="12" format="WINLIRC_SPACEENC" bits="14" pre-bits="14" frequency="40000"
+        gap-pulse="1256" gap-space="21179" one-pulse="1256" one-space="514" zero-pulse="656" zero-space="514" header-pulse="2459" header-space="514" repeat="3">
+        <button label="OFF" span="4">0x2C10</button>
+        <button label="MODE" span="4">0x3890</button>
+        <button label="SOURCE" span="4">0x1890</button>
+
+        <button label="SEEK AMS-" span="6">0x3610</button>
+        <button label="SEEK AMS+" span="6">0x0E10</button>
+
+        <button label="&#xf04a;" alt="REW" span="6">0x2310</button>
+        <button label="&#xf04e;" alt="FWD" span="6">0x0310</button>
+
+        <button label="-" span="6">0x3210</button>
+        <button label="+" span="6">0x1210</button>
+
+        <button label="SEL" span="4">0x2210</button>
+        <button label="&#xFF581;" span="4">0x0A10</button>
+        <button label="DSPL" span="4">0x0510</button>
+    </device>
+</irplus>

@@ -1,0 +1,74 @@
+<irplus>
+    <device manufacturer="SONY" model="RM-U541" columns="12" format="WINLIRC_SPACEENC" bits="12" pre-bits="12" toggle-bit-pos="0" repeatheader="true" frequency="40000"
+        gap-pulse="1" gap-space="45960" one-pulse="1293" one-space="511" zero-pulse="690" zero-space="511" header-pulse="2500" header-space="507" repeat="3">
+
+        <button label="VTR" span="2">0xA88</button>
+        <button label="LDP" span="2">0xA8C</button>
+        <button label="TV" span="2">0xA90</button>
+        <button label="AUDIO" span="2">0xA81</button>
+        <button label="OFF" span="4">0xF41</button>
+
+        <button label="CDP-PLAY" span="4">0xA41</button>
+        <button label="CDP-PAUSE" span="4">0x9D1</button>
+        <button label="CDP-STOP" span="4">0x1D1</button>
+
+        <button label="CDP-REW" span="6">0x0D1</button>
+        <button label="CDP-FWD" span="6">0x8D1</button>
+
+        <button label="SHIFT" span="4">0x841</button>
+        <button label="TUNER+" span="4">0x841</button>
+        <button label="TUNER-" span="4">0x841</button>
+
+        <button label="DECK-PAUSE" span="4">0x9C1</button>
+        <button label="DECK-REW" span="4">0xCC1</button>
+        <button label="DECK-FWD" span="4">0x2C1</button>
+
+        <button label="DECK-STOP" span="3">0x1C1</button>
+        <button label="DECK-BACK" span="3">0xC41</button>
+        <button label="DECK-NEXT" span="3">0xC41</button>
+        <button label="DECK-REC" span="3">0x6C1</button>
+
+        <button label="1" span="4">0x010</button>
+        <button label="2" span="4">0x810</button>
+        <button label="3" span="4">0x410</button>
+
+        <button label="4" span="4">0xC10</button>
+        <button label="5" span="4">0x210</button>
+        <button label="6" span="4">0xA10</button>
+
+        <button label="7" span="4">0x610</button>
+        <button label="8" span="4">0xE10</button>
+        <button label="9" span="4">0x110</button>
+
+        <button label="TV/VIDEO" span="4">0xA50</button>
+        <button label="0" span="4">0x910</button>
+        <button label="ENTER" span="4">0xD10</button>
+
+        <button label="SRON/OFF" span="3">0xFC6</button>
+        <button label="SRMODE" span="3">0x626</button>
+        <button label="SRTONE" span="3">0x529</button>
+        <button label="SRDELAY" span="3">0x226</button>
+
+        <button label="RVOL+" span="6">0x426</button>
+        <button label="CVOL+" span="6">0x2A9</button>
+
+        <button label="RVOL-" span="6">0xC26</button>
+        <button label="CVOL-" span="6">0xAA9</button>
+
+        <button label="SWPHASE" span="3">0x7A1</button>
+        <button label="SWON/OFF" span="3">0xDA1</button>
+        <button label="SW-" span="3">0xBA1</button>
+        <button label="SW+" span="3">0x3A1</button>
+
+        <button label="CD" span="4">0xA41</button>
+        <button label="TUNER" span="4">0x841</button>
+        <button label="PHONO" span="4">0x041</button>
+
+        <button label="VIDEO1" span="4">0x441</button>
+        <button label="VIDEO2" span="4">0x781</button>
+        <button label="TAPE" span="4">0xC41</button>
+
+        <button label="VOL-" span="6">0xC81</button>
+        <button label="VOL+" span="6">0x481</button>
+    </device>
+</irplus>

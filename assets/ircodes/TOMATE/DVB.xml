@@ -1,0 +1,65 @@
+<irplus>
+    <device manufacturer="TOMATE" model="DVB" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16" gap-pulse="585"
+        gap-space="107706" one-pulse="591" one-space="1651" zero-pulse="591" zero-space="532" header-pulse="8990" header-space="4447">
+        
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x807f 0x38c7</button>
+        <button label="TV/RADIO" span="4">0x807f 0x8a75</button>
+        <button label="&#xFF581;" span="4">0x807f 0x10ef</button>
+
+        <button label="EPG" span="4">0x807f 0xaa55</button>
+        <button label="INFO" span="4">0x807f 0x7a85</button>
+        <button label="V-MODE" span="4">0x807f 0x9a65</button>
+
+        <button label="SUB-T" span="4">0x807f 0x5aa5</button>
+        <button label="TTX" span="4">0x807f 0x4ab5</button>
+        <button label="FAV" span="4">0x807f 0xba45</button>
+
+        <button label="AUDIO" span="4">0x807f 0x3ac5</button>
+        <button label="GO-TO" span="4">0x807f 0x807f</button>
+        <button label="LIST" span="4">0x807f 0xfa05</button>
+
+        <button label="MENU" span="4">0x807f 0x18e7</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0x807f 0x58a7</button>
+        <button label="EXIT" span="4">0x807f 0xe817</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x807f 0xe21d</button>
+        <button label="OK" span="4">0x807f 0x609f</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x807f 0xe01f</button>
+
+        <button label="TIMER" span="4">0x807f 0x9867</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x807f 0x12ed</button>
+        <button label="FILE" span="4">0x807f 0x1ae5</button>
+        
+        <button label="&#xf111;" alt="REC" labelColor="FFC84334" span="3">0x807f 0x926d</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0x807f 0x50af</button>
+        <button label="&#xf04b;" alt="PLAY" span="3">0x807f 0xc03f</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">0x807f 0x42bd</button>
+
+        <button label="&#xf049;" alt="PREV" span="3">0x807f 0xd22d</button>
+        <button label="&#xf04a;" alt="REW" span="3">0x807f 0xa05f</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x807f 0x906f</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0x807f 0xf20d</button>
+        
+        <button label="1" span="4">0x807f 0x2ad5</button>
+        <button label="2" span="4">0x807f 0x6897</button>
+        <button label="3" span="4">0x807f 0xa857</button>
+        
+        <button label="4" span="4">0x807f 0x0af5</button>
+        <button label="5" span="4">0x807f 0x48b7</button>
+        <button label="6" span="4">0x807f 0x8877</button>
+        
+        <button label="7" span="4">0x807f 0x32cd</button>
+        <button label="8" span="4">0x807f 0x708f</button>
+        <button label="9" span="4">0x807f 0xb04f</button>
+        
+        <button label="REPEAT" span="4">0x807f 0x827d</button>
+        <button label="0" span="4">0x807f 0x30cf</button>
+        <button label="RECALL" span="4">0x807f 0x08f7</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x807f 0x6a95</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x807f 0xea15</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x807f 0xf807</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x807f 0xda25</button>
+
+    </device>
+</irplus>

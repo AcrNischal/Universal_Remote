@@ -1,0 +1,27 @@
+<irplus>
+    <device manufacturer="EDIFIER" model="Speakers" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x00ff 0x629d</button>
+        <button label="&#xFF581;" span="4">0x00ff 0x827d</button>
+        <button label="LIGHT" span="4">0x00ff 0xda25</button>
+
+        <button label="CD" span="4">0x00ff 0x1ae5</button>
+        <button label="DIGITAL" span="4">0x00ff 0xd827</button>
+        <button label="PC" span="4">0x00ff 0x58a7</button>
+
+        <button label="BAL L" span="4">0x00ff 0xe01f</button>
+        <button label="EXIT" span="4">0x00ff 0x807f</button>
+        <button label="BAL R" span="4">0x00ff 0x3ac5</button>
+
+        <button label="BASS+" span="3">0x00ff 0xa25d</button>
+        <button label="SUB+" span="3">0x00ff 0xc03f</button>
+        <button label="TRE+" span="3">0x00ff 0x906f</button>
+        <button label="VOL+" span="3">0x00ff 0x609f</button>
+
+        <button label="BASS-" span="3">0x00ff 0x7a85</button>
+        <button label="SUB-" span="3">0x00ff 0x40bf</button>
+        <button label="TRE-" span="3">0x00ff 0x7887</button>
+        <button label="VOL-" span="3">0x00ff 0x926d</button>
+
+    </device>
+</irplus>

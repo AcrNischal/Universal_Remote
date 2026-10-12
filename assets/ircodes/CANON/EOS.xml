@@ -1,0 +1,6 @@
+<irplus>
+	<device manufacturer="CANON" model="EOS" columns="1" format="PRONTO_HEX">
+		<button label="Immediate">0000 007E 0002 0000 0010 00F0 0010 00F0</button>
+		<button label="Delayed">0000 007E 0002 0000 0010 00AF 0010 00AF </button>
+	</device>
+</irplus>

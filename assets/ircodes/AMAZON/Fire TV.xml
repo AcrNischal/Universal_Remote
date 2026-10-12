@@ -1,0 +1,33 @@
+<irplus>
+    <device manufacturer="AMAZON" model="Fire TV" columns="12" format="ADB_SENDEVENT" metadata="127.0.0.1">
+
+        <button label="ALEXA" span="12">/dev/input/event3,4 4 786977,1 217 1,0 0 0,4 4 786977,1 217 0,0 0 0</button>
+
+        <space multiple="4"/>
+        <button label="&#xf0d8;" span="4">/dev/input/event3,4 4 458834,1 103 1,0 0 0,4 4 458834,1 103 0,0 0 0</button>
+        <space multiple="4"/>
+
+        <button label="&#xf0d9;" span="4">/dev/input/event3,4 4 458841,1 105 1,0 0 0,4 4 458841,1 105 0,0 0 0</button>
+        <button label="OK" span="4">/dev/input/event3,4 4 458840,1 96 1,0 0 0,4 4 458840,1 96 0,0 0 0</button>
+        <button label="&#xf0da;" span="4">/dev/input/event3,4 4 458831,1 106 1,0 0 0,4 4 458831,1 106 0,0 0 0</button>
+
+        <space multiple="4"/>
+        <button label="&#xf0d7;" span="4">/dev/input/event3,4 4 458833,1 108 1,0 0 0,4 4 458833,1 108 0,0 0 0</button>
+        <space multiple="4"/>
+
+        <button label="BACK" span="4">/dev/input/event3,4 4 458993,1 158 1,0 0 0,4 4 458993,1 158 0,0 0 0</button>
+        <button label="HOME" span="4">/dev/input/event3,4 4 786979,1 172 1,0 0 0,4 4 786979,1 172 0,0 0 0</button>
+        <button label="MENU" span="4">/dev/input/event3,4 4 786496,1 139 1,0 0 0,4 4 786496,1 139 0,0 0 0</button>
+
+        <button label="&#xf04a;" alt="REW" span="4">/dev/input/event3,4 4 786612,1 168 1,0 0 0,4 4 786612,1 168 0,0 0 0</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">/dev/input/event3,4 4 786637,1 164 1,0 0 0,4 4 786637,1 164 0,0 0 0</button>
+        <button label="&#xf04e;" alt="FWD" span="4">/dev/input/event3,4 4 786611,1 208 1,0 0 0,4 4 786611,1 208 0,0 0 0</button>
+
+
+        <button label="Set FireTV IP" span="12">SET_METADATA</button>
+        <button label="Reset ADB" span="12">RESET_ADB</button>
+        <button label="Reconnect ADB" span="12">RECONNECT_ADB</button>
+
+
+    </device>
+</irplus>

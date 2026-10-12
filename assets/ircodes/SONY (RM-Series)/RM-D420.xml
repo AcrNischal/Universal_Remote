@@ -1,0 +1,40 @@
+<irplus>
+    <device manufacturer="SONY" model="RM-D420" columns="12" format="WINLIRC_SPACEENC" bits="4" pre-bits="7" gap-pulse="1257" frequency="40000"
+        gap-space="26901" one-pulse="654" one-space="510" zero-pulse="1257" zero-space="510" header-pulse="2457" header-space="510" repeat="3">
+        
+        <button label="1" span="4">0x7F 0x7</button>
+        <button label="2" span="4">0x3F 0x7</button>
+        <button label="3" span="4">0x5F 0x7</button>
+        <button label="4" span="4">0x1F 0x7</button>
+        <button label="5" span="4">0x6F 0x7</button>
+        <button label="6" span="4">0x2F 0x7</button>
+        <button label="7" span="4">0x4F 0x7</button>
+        <button label="8" span="4">0x0F 0x7</button>
+        <button label="9" span="4">0x77 0x7</button>
+        
+        <button label="10" span="4">0x7D 0x7</button>
+        <button label=">10" span="4">0x0D 0x7</button>
+        <button label="CONTINUE" span="4">0x23 0x7</button>
+        
+        <button label="SHUFFLE" span="4">0x29 0x7</button>
+        <button label="PROGRAM" span="4">0x03 0x7</button>
+        <button label="CLEAR" span="4">0x07 0x7</button>
+        
+        <button label="TIME" span="3">0x75 0x7</button>
+        <button label="CHECK" span="3">0x27 0x7</button>
+        <button label="REPEAT" span="3">0x65 0x7</button>
+        <button label="FADER" span="3">0x02 0x7</button>
+
+        <button label="&#xf04b;" alt="PLAY" span="4">0x59 0x7</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x31 0x7</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x71 0x7</button>
+        
+        <button label="&#xf049;" alt="PREV" span="3">0x79 0x7</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0x39 0x7</button>
+        <button label="&#xf04a;" alt="REW" span="3">0x19 0x7</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x69 0x7</button>
+        
+        <button label="VOL+" span="6">0x5B 0x7</button>
+        <button label="VOL-" span="6">0x1B 0x7</button>
+    </device>
+</irplus>

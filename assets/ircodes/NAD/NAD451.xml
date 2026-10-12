@@ -1,0 +1,56 @@
+<irplus>
+    <device manufacturer="NAD" model="451" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16" gap-pulse="622" gap-space="107432" one-pulse="622" one-space="1600" zero-pulse="622" zero-space="500" header-pulse="9096" header-space="4352">
+
+        <button label="STANDBY" span="4">0xE13E 0x01FE</button>
+        <button label="&#xf011; ON" span="4">0xE13E 0xA45B</button>
+        <button label="&#xf011; OFF" span="4">0xE13E 0x13EC</button>
+
+        <button label="SPEAKERS-A" span="6">0xE13E 0x738C</button>
+        <button label="SPEAKERS-B" span="6">0xE13E 0xF30C</button>
+
+        <button label="VOL+" span="4">0xE13E 0x11EE</button>
+        <button label="&#xFF581;" span="4">0xE13E 0x29D6</button>
+        <button label="VOL-" span="4">0xE13E 0x31CE</button>
+
+        <button label="INPUT-VIDEO1" span="4">0xE13E 0x43BC</button>
+        <button label="INPUT-VIDEO2" span="4">0xE13E 0x03FC</button>
+        <button label="INPUT-VIDEO3" span="4">0xE13E 0x837C</button>
+
+        <button label="INPUT-AUX" span="4">0xE13E 0xD926</button>
+        <button label="INPUT-DISC" span="4">0xE13E 0x916E</button>
+        <button label="INPUT-CD" span="4">0xE13E 0xA15E</button>
+
+        <button label="INPUT-TUNERAM" span="3">0xE13E 0x41BE</button>
+        <button label="INPUT-TUNERFM" span="3">0xE13E 0x817E</button>
+        <button label="INPUT-TAPE1" span="3">0xE13E 0xB14E</button>
+        <button label="INPUT-TAPE2" span="3">0xE13E 0x8976</button>
+
+        <button label="TUNER-PRESET-L" span="4">0xE13E 0x8B74</button>
+        <button label="TUNER-BANK" span="4">0xE13E 0x24DB</button>
+        <button label="TUNER-PRESET-R" span="4">0xE13E 0x4BB4</button>
+
+        <button label="CD-STOP" span="4">0xE13E 0x40BF</button>
+        <button label="CD-PLAY" span="4">0xE13E 0x807F</button>
+        <button label="CD-PAUSE" span="4">0xE13E 0x52AD</button>
+
+        <button label="CD-PREV" span="4">0xE13E 0xA05F</button>
+        <button label="CD-DISC" span="4">0xE13E 0xE817</button>
+        <button label="CD-NEXT" span="4">0xE13E 0x609F</button>
+
+        <button label="TAPEA-PLAY" span="4">0xE13E 0xCA35</button>
+        <button label="TAPEA-REV" span="4">0xE13E 0x2AD5</button>
+        <button label="TAPEA-STOP" span="4">0xE13E 0x4AB5</button>
+
+        <button label="TAPEA-REWIND" span="4">0xE13E 0xEA15</button>
+        <button label="TAPEA-RECORD" span="4">0xE13E 0xAA55</button>
+        <button label="TAPEA-FORWARD" span="4">0xE13E 0x6A95</button>
+
+        <button label="TAPEB-PLAY" span="4">0xE13E 0x39C6</button>
+        <button label="TAPEB-REV" span="4">0xE13E 0x7B84</button>
+        <button label="TAPEB-STOP" span="4">0xE13E 0xF906</button>
+
+        <button label="TAPEB-REWIND" span="4">0xE13E 0x7986</button>
+        <button label="TAPEB-RECORD" span="4">0xE13E 0x59A6</button>
+        <button label="TAPEB-FORWARD" span="4">0xE13E 0xB946</button>
+    </device>
+</irplus>

@@ -1,0 +1,43 @@
+<irplus><!-- protocol = RC5, device = 21, obc = 84, misc = T=0 -->
+    <device manufacturer="GRUNDIG" model="Sonoclock 990" columns="12" format="WINLIRC_RAW" repeatheader="false">
+
+        <button label="M" labelSize="18.0" span="6" backgroundColor="FF4242F9">1711 798 865 1656 1711 1654 1703 1660 1707 1656 1711 1652 1705 818 865</button>
+        <button label="&#61457;" labelSize="25.0" span="6" backgroundColor="FFC84334">869 812 1707 1642 1713 1650 1705 1658 1709 814 869 1654 865 816 1703 820 865</button>
+
+        <button label="1" labelSize="25.0" span="4">867 816 867 814 869 812 1707 1656 1711 1652 1703 820 865 816 867 816 869 814 869 1652 867</button>
+        <button label="2" labelSize="25.0" span="4">869 814 1707 1644 1713 1652 1705 1658 1709 812 871 812 873 810 863 1660 1707</button>
+        <button label="3" labelSize="25.0" span="4">871 810 863 820 865 818 1703 1660 1707 1656 1711 812 871 810 863 820 863 1658 873 810 863</button>
+        <button label="4" labelSize="25.0" span="4">867 816 1705 1646 1711 1652 1703 1660 1707 816 869 814 869 1652 1705 818 865</button>
+        <button label="5" labelSize="25.0" span="4">873 810 863 818 865 816 1703 1660 1707 1656 1709 814 869 812 873 1650 1705 1658 863</button>
+        <button label="6" labelSize="25.0" span="4">865 816 867 816 869 812 1707 1658 1709 1654 1713 810 863 820 865 1658 861 820 1711</button>
+        <button label="7" labelSize="25.0" span="4">867 814 1705 1644 1711 1652 1703 1660 1707 816 867 814 869 1654 865 816 867 814 869</button>
+        <button label="8" labelSize="25.0" span="4">869 814 869 812 871 810 1711 1654 1713 1650 1705 818 867 1656 1711 812 871 810 863</button>
+        <button label="9" labelSize="25.0" span="4">871 812 1709 1642 1705 1660 1707 1656 1711 812 871 1650 1705 818 865 1658 863</button>
+
+        <button label="+10" labelSize="25.0" span="6">871 810 863 820 863 818 1713 1650 1705 1658 1709 814 869 812 871 812 871 810 863 820 865</button>
+        <button label="S" labelSize="18.0" span="6">1705 806 867 1654 1713 1652 1705 1658 871 810 1709 1654 865 816 867 814 1705</button>
+
+        <button label="DISPL" labelSize="25.0" span="4" backgroundColor="FF6D6D6D">863 818 865 816 867 816 1703 1660 1707 1656 1711 812 871 1652 867 814 869 812 871 810 873</button>
+        <button label="&#61538;" labelSize="25.0" span="4" labelColor="FF00FF7C" backgroundColor="FFB7B7B7">871 810 863 820 863 818 1711 1652 1703 1660 869 812 1709 814 869 814 871 812 871 810 861</button>
+        <button label="&#xFF581;" labelSize="25.0" span="4" backgroundColor="FF6D6D6D">869 814 1705 1646 1711 1654 1703 1660 1707 816 867 1656 863 818 1711 1652 869</button>
+
+        <button label="&#61544;" labelSize="18.0" span="4" labelColor="FF007CFF" backgroundColor="FFB7B7B7">865 818 865 816 867 816 1705 1660 1707 1656 1711 1654 1713 810 863 820 863 1660 871</button>
+        <button label="OK" labelSize="25.0" span="4">1711 1654 865 816 1703 1660 1705 1658 1707 1656 1711 1654 865 816 867 816 869</button>
+        <button label="&#61543;" labelSize="18.0" span="4" labelColor="FF007CFF" backgroundColor="FFB7B7B7">867 814 1705 1646 1711 1654 1713 1652 1705 1660 1707 816 869 814 869 812 871</button>
+
+        <button label="Prog" labelSize="18.0" span="4" backgroundColor="FF6D6D6D">1709 800 861 1660 1707 1658 1709 1656 1711 812 871 1652 1703 820 865 818 865</button>
+        <button label="&#61539;" labelSize="25.0" span="4" labelColor="FF00FF7C" backgroundColor="FFB7B7B7">865 816 1703 1648 1707 1656 1711 1652 867 814 1705 818 865 816 867 816 867 1656 865</button>
+        <button label="Back" labelSize="25.0" span="4" backgroundColor="FF6D6D6D">1711 1654 865 816 1703 1660 1705 1658 873 810 1709 814 869 812 871 810 873 1650 869</button>
+
+        <button label="&#61515;&#61516;" labelSize="18.0" span="3">863 820 1711 1640 1705 1660 1707 1656 863 820 865 818 1713 1652 1705 1660 871</button>
+        <button label="&#61517;&#61957;" labelSize="18.0" span="3">863 818 865 816 867 816 1703 1660 1707 1658 863 820 863 818 1711 1652 867 814 1705</button>
+        <button label="&#61514;" labelSize="18.0" span="3">863 872 1657 1640 1705 1658 1707 1656 1709 1654 865 842 841 842 841 840 843 838 845</button>
+        <button label="&#61518;" labelSize="18.0" span="3">867 816 867 814 869 812 1707 1658 1709 1654 1711 1652 867 814 869 814 871 812 1707</button>
+
+        <button label="AL1" labelSize="25.0" span="3" backgroundColor="FF000000">861 820 1709 1642 1703 1660 1707 1658 861 820 1709 1654 865 816 867 816 867 814 869</button>
+        <button label="AL2" labelSize="25.0" span="3" backgroundColor="FF000000">863 820 863 818 865 816 1713 1650 1705 1660 871 812 1709 1656 1711 1654 1711</button>
+        <button label="WEC" labelSize="25.0" span="3" backgroundColor="FF000000">869 866 1653 1644 1711 1652 1703 1660 869 840 843 864 819 864 809 872 811 872 1659</button>
+        <button label="Sleep" labelSize="25.0" span="3" backgroundColor="FF000000">867 816 867 814 869 812 1707 1658 1709 1656 865 818 1713 810 861 1662 869 814 1707</button>
+
+    </device>
+</irplus>

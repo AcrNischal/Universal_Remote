@@ -1,0 +1,71 @@
+<irplus><!-- A-501R, A-702R, A-602R, A-501R, A-502R, A-450R, A-550R, A-701R, A-702R -->
+	<device manufacturer="PIONEER" model="CU-A001" columns="12" format="WINLIRC_NEC1">
+
+		<button label="TAPE DECK1" span="3">0x857A 0x30CF</button>
+		<button label="TAPE DECK2" span="3">0x857A 0xB04F</button>
+		<button label="TAPE REW" span="3">0x857A 0x8877</button>
+		<button label="TAPE FWD" span="3">0x857A 0x08F7</button>
+
+		<button label="TAPE SELECT" span="3">0x857A 0x32CD</button>
+		<button label="TAPE PAUSE" span="3">0x857A 0x18E7</button>
+		<button label="TAPE RECORD" span="3">0x857A 0x28D7</button>
+		<button label="TAPE REVERSE" span="3">0x857A 0xA857</button>
+
+		<button label="TAPE STOP" span="6">0x857A 0x6897</button>
+		<button label="TAPE PLAY" span="6">0x857A 0xE817</button>
+
+		<button label="VCR CH-" span="3">0xD52A 0xCA35</button>
+		<button label="VCR CH+" span="3">0xD52A 0x4AB5</button>
+		<button label="VCR REW" span="3">0xD52A 0x8877</button>
+		<button label="VCR FWD" span="3">0xD52A 0x08F7</button>
+		
+		<button label="VCR PAUSE" span="4">0xD52A 0x18E7</button>
+		<button label="VCR RECORD" span="4">0xD52A 0x28D7</button>
+		<button label="VCR POWER" span="4">0xD52A 0x38C7</button>
+		
+		<button label="VCR TV" span="4">0xD52A 0xF00F</button>
+		<button label="VCR STOP" span="4">0xD52A 0x6897</button>
+		<button label="VCR PLAY" span="4">0xD52A 0xE817</button>
+
+		<button label="CD DISCSEL" span="3">0x45BA 0xB847</button>
+		<button label="CD PAUSE" span="3">0x45BA 0x18E7</button>
+		<button label="CD PREV" span="3">0x45BA 0x8877</button>
+		<button label="CD NEXT" span="3">0x45BA 0x08F7</button>
+
+		<button label="CD POWER" span="4">0x45BA 0x38C7</button>
+		<button label="CD STOP" span="4">0x45BA 0x6897</button>
+		<button label="CD PLAY" span="4">0x45BA 0xE817</button>
+
+		<button label="LD DISPLAY" span="3">0x15EA 0xC23D</button>
+		<button label="LD PAUSE" span="3">0x15EA 0x18E7</button>
+		<button label="LD PREV" span="3">0x15EA 0xCA35</button>
+		<button label="LD NEXT" span="3">0x15EA 0x4AB5</button>
+		
+		<button label="LD POWER" span="4">0x15EA 0x38C7</button>
+		<button label="LD STOP" span="4">0x15EA 0x6897</button>
+		<button label="LD PLAY" span="4">0x15EA 0xE817</button>
+
+		<button label="TUNER POWER" span="3">0x25DA 0x38C7</button>
+		<button label="TUNER BAND" span="3">0x25DA 0xC837</button>
+		<button label="TUNER STAT-" span="3">0x25DA 0x8877</button>
+		<button label="TUNER STAT+" span="3">0x25DA 0x08F7</button>
+
+		<button label="TV POWER" span="3">0x55AA 0x38C7</button>
+		<button label="TV FUNCT" span="3">0x55AA 0xC837</button>
+		<button label="TV CH-" span="3">0x55AA 0x8877</button>
+		<button label="TV CH+" span="3">0x55AA 0x08F7</button>
+
+		<button label="TAPE2" span="3">0xA55A 0xB847</button>
+		<button label="DAT/TAPE1" span="3">0xA55A 0x728D</button>
+		<button label="CD" span="3">0xA55A 0x32CD</button>
+		<button label="PHONO" span="3">0xA55A 0xB24D</button>
+
+		<button label="TUNER" span="3">0xA55A 0xE21D</button>
+		<button label="line" span="3">0xA55A 0xF20D</button>
+		<button label="VOL-" span="3">0xA55A 0xD02F</button>
+		<button label="VOL+" span="3">0xA55A 0x50AF</button>
+
+		<button label="AMP POWER" span="6">0xA55A 0x38C7</button>
+		<button label="&#xFF581;" span="6">0xA55A 0x48B7</button>
+	</device>
+</irplus>

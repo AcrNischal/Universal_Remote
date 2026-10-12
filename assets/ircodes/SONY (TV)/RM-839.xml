@@ -1,0 +1,42 @@
+<irplus>
+	<device manufacturer="SONY" model="RM-839" columns="12" format="WINLIRC_SPACEENC" one-space="600" one-pulse="1200" frequency="40000"
+		zero-pulse="600" zero-space="600" header-pulse="2400" header-space="600" bits="3" pre-bits="12">
+
+		<button label="TV" labelColor="FFC84334" backgroundColor="FF969696" span="3">0x1D0</button>
+		<button label="Txt" labelColor="FF1E7854" backgroundColor="FF969796" span="3">0xFD0</button>
+		<button label="IN" labelColor="FFD6A81F" backgroundColor="FF969696" span="3">0xA50</button>
+		<button label="OFF" labelColor="FFC84334" backgroundColor="FF007500" span="3">0xA90</button>
+
+		<button label="1" span="3">0x10</button>
+		<button label="2" span="3">0x810</button>
+		<button label="3" span="3">0x410</button>
+		<button label="4" span="3">0xC10</button>
+
+		<button label="5" span="3">0x210</button>
+		<button label="6" span="3">0xA10</button>
+		<button label="7" span="3">0x610</button>
+		<button label="8" span="3">0xE10</button>
+
+		<button label="9" span="3">0x110</button>
+		<button label="0" span="3">0x910</button>
+		<button label="-/--" labelColor="FF2A4C94" backgroundColor="FF1E1E1E" span="3">0xB90</button>
+		<button label="i+" labelColor="FF2A4C94" backgroundColor="FF1E1E1E" span="3">0x5D0</button>
+
+		<button label="Scr" span="4">0xBC4 0x5</button>
+		<button label="&#xf0d8;" backgroundColor="FF1E7854" span="4">0xB38</button>
+		<button label="Menu" labelColor="FF2A4C94" backgroundColor="FF1E1E1E" span="4">0x70</button>
+
+		<button label="-" backgroundColor="FFFF0002" span="4">0x338</button>
+		<button label="OK" labelColor="FF2A4C94" backgroundColor="FF1E1E1E" span="4">0xA70</button>
+		<button label="+" backgroundColor="FFD6A81F" span="4">0x738</button>
+
+		<button label="P -" span="4">0x890</button>
+		<button label="&#xf0d7;" span="4">0xF38</button>
+		<button label="P +" span="4">0x90</button>
+
+		<button label="&#xFF581;" span="4">0x290</button>
+		<button label="V -" span="4">0xC90</button>
+		<button label="V +" span="4">0x490</button>
+
+	</device>
+</irplus>

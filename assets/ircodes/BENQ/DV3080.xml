@@ -1,0 +1,57 @@
+<irplus>
+	<device manufacturer="BENQ" model="DV3080" columns="3" format="WINLIRC_NEC1" one-space="1635" one-pulse="607" zero-pulse="607" zero-space="515" 
+		header-pulse="9040" header-space="4441" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" backgroundColor="FFC84334">0x6F9 0x00FF</button>
+		<button label="INPUT">0x6F9 0xA25D</button>
+		<button label="INFO">0x6F9 0x4AB5</button>
+		
+		<button label="SLEEPTIMER">0x6F9 0x1AE5</button>
+		<button label="SOUND">0x6F9 0x6A95</button>
+		<button label="AUDIOMODE">0x6F9 0xCA35</button>
+		
+		<button label="TTX DISPLAY">0x6F9 0xF20D</button>
+		<button label="TTX INDEX">0x6F9 0x32CD</button>
+		<button label="TTX INFO">0x6F9 0x728D</button>
+		
+		<button label="TTX SUBP">0x6F9 0xB24D</button>
+		<button label="TTX">0x6F9 0x48B7</button>
+		<button label="PIP">0x6F9 0x08F7</button>
+		
+		<button label="VOL+">0x6F9 0x9867</button>
+		<button label="&#xf0d8;">0x6F9 0x22DD</button>
+		<button label="CH+">0x6F9 0x3AC5</button>
+		
+		<button label="&#xf0d9;">0x6F9 0x38C7</button>
+		<button label="OK">0x6F9 0x8A75</button>
+		<button label="&#xf0da;">0x6F9 0x12ED</button>
+		
+		<button label="VOL-">0x6F9 0xA857</button>
+		<button label="&#xf0d7;">0x6F9 0xB847</button>
+		<button label="CH-">0x6F9 0x28D7</button>
+		
+		<button label="FREEZE">0x6F9 0x8877</button>
+		<button label="ASPECT">0x6F9 0xC837</button>
+		<button label="MENU">0x6F9 0xC23D</button>
+		
+		<button label="&#xFF581;">0x6F9 0x42BD</button>
+		<button label="ZAP">0x6F9 0xF00F</button>
+		<button label="DUAL DIGIT">0x6F9 0xB04F</button>
+		
+		<button label="1">0x6F9 0x20DF</button>
+		<button label="2">0x6F9 0xA05F</button>
+		<button label="3">0x6F9 0xFA05</button>
+		
+		<button label="4">0x6F9 0xE01F</button>
+		<button label="5">0x6F9 0x10EF</button>
+		<button label="6">0x6F9 0x906F</button>
+		
+		<button label="7">0x6F9 0x50AF</button>
+		<button label="8">0x6F9 0xD02F</button>
+		<button label="9">0x6F9 0x30CF</button>
+		
+		<button label="BACKLIGHT">0x6F9 0x2AD5</button>
+		<button label="0">0x6F9 0xC03F</button>
+		<button label="USERSITUATION">0x6F9 0xAA55</button>
+	</device>
+</irplus>

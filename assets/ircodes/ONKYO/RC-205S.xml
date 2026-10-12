@@ -1,0 +1,51 @@
+<irplus>
+    <device manufacturer="ONKYO" model="RC-205S" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16"
+        gap-pulse="572" gap-space="108035" one-pulse="564" one-space="1687" zero-pulse="564" zero-space="559" header-pulse="8979" header-space="4526">
+      
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="3">0x4BB6 0x20DF</button>
+        <button label="SPEAKERS A" span="3">0x4BB6 0x9A65</button>
+        <button label="SPEAKERS B" span="3">0x4BB6 0x5AA5</button>
+        <button label="SOURCE DIRECT" span="3">0x4BB6 0x22DD</button>
+      
+        <button label="AUX" span="3">0x4BB6 0x609F</button>
+        <button label="TUNER" span="3">0x4BB6 0xD02F</button>
+        <button label="PHONO" span="3">0x4BB6 0x50AF</button>
+        <button label="CD" span="3">0x4BB6 0x906F</button>
+
+        <button label="TAPE 1" span="3">0x4BB6 0x10EF</button>
+        <button label="TAPE 2" span="3">0x4BB6 0xE01F</button>
+        <button label="VIDEO 2" span="3">0x4BB6 0xB04F</button>
+        <button label="VIDEO 1" span="3">0x4BB6 0x708F</button>
+        
+        <button label="TUNER CLASS" span="4">0x4BB6 0x52AD</button>
+        <button label="TUNER PRESET-" span="4">0x4BB6 0x807F</button>
+        <button label="TUNER PRESET+" span="4">0x4BB6 0x00FF</button>
+       
+        <button label="DECK A SLR" span="4">0x4BB6 0xF20D</button>
+        <button label="DECK A SLF" span="4">0x4BB6 0x728D</button>
+        <button label="DECK A PLAY" span="4">0x4BB6 0x0AF5</button>
+        
+        <button label="DECK A STOP" span="4">0x4BB6 0xB24D</button>
+        <button label="DECK A REW" span="4">0x4BB6 0x4AB5</button>
+        <button label="DECK A FWD" span="4">0x4BB6 0x8A75</button>
+        
+        <button label="CD PAUSE" span="4">0x4BB6 0xF807</button>
+        <button label="CD PLAY" span="4">0x4BB6 0xD827</button>
+        <button label="CD STOP" span="4">0x4BB6 0x38C7</button>
+        
+        <button label="CD REW" span="6">0x4BB6 0x7887</button>
+        <button label="CD FWD" span="6">0x4BB6 0xB847</button>
+        
+        <button label="DECK B SLR" span="4">0x4BB6 0x6897</button>
+        <button label="DECK B SLF" span="4">0x4BB6 0xA857</button>
+        <button label="DECK B PLAY" span="4">0x4BB6 0x18E7</button>
+       
+        <button label="DECK B STOP" span="4">0x4BB6 0xC837</button>
+        <button label="DECK B REW" span="4">0x4BB6 0x58A7</button>
+        <button label="DECK B FWD" span="4">0x4BB6 0x9867</button>
+        
+        <button label="&#xFF581;" span="4">0x4BB6 0xA05F</button>
+        <button label="VOL+" span="4">0x4BB6 0x40BF</button>
+        <button label="VOL-" span="4">0x4BB6 0xC03F</button>
+    </device>
+</irplus>

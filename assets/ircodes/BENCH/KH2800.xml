@@ -1,0 +1,37 @@
+<irplus>
+    <device manufacturer="BENCH" model="KH2800" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16" gap-pulse="628" gap-space="39836" one-pulse="628" one-space="1616" zero-pulse="628" zero-space="491" header-pulse="9047" header-space="4422">
+
+        <button label="STANDBY" span="4">0xCF3 0xA857</button>
+        <button label="RESET" span="4">0xCF3 0x6A95</button>
+        <button label="&#xFF581;" span="4">0xCF3 0xE817</button>
+
+        <button label="DVD/5.1" span="3">0xCF3 0x7A85</button>
+        <button label="CD" span="3">0xCF3 0xB04F</button>
+        <button label="TV" span="3">0xCF3 0x906F</button>
+        <button label="AUX" span="3">0xCF3 0x609F</button>
+
+        <button label="Q-SOUND" span="4">0xCF3 0x8877</button>
+        <button label="STEREO/3STEREO" span="4">0xCF3 0xAA55</button>
+        <button label="1EXT" span="4">0xCF3 0xC837</button>
+
+        <button label="TRE+" span="4">0xCF3 0x12ED</button>
+        <button label="&#xf0d9;" span="4">0xCF3 0x30CF</button>
+        <button label="TRE-" span="4">0xCF3 0x926D</button>
+
+        <button label="MASTERVOL+" span="4">0xCF3 0x40BF</button>
+        <button label="BALANCE" span="4">0xCF3 0x20DF</button>
+        <button label="MASTERVOL-" span="4">0xCF3 0x807F</button>
+
+        <button label="BASS+" span="4">0xCF3 0xF20D</button>
+        <button label="&#xf0da;" span="4">0xCF3 0xA05F</button>
+        <button label="BASS-" span="4">0xCF3 0xFA05</button>
+
+        <button label="CENTER+" span="4">0xCF3 0x7887</button>
+        <button label="SW+" span="4">0xCF3 0xB847</button>
+        <button label="SURR+" span="4">0xCF3 0x38C7</button>
+
+        <button label="CENTER-" span="4">0xCF3 0x18E7</button>
+        <button label="SW-" span="4">0xCF3 0xA25D</button>
+        <button label="SURR-" span="4">0xCF3 0x32CD</button>
+    </device>
+</irplus>

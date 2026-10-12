@@ -1,0 +1,12 @@
+<irplus>
+    <device manufacturer="GENIUS" model="SW-HF5.1 5000 V2" columns="4" format="WINLIRC_NEC1" one-pulse="746" one-space="1502" zero-pulse="746" zero-space="385" header-pulse="9206" header-space="4322" bits="16" pre-bits="16">
+        <button label="&#61457;" labelSize="25.0" span="4" backgroundColor="FFC84334">0x807F 0x20DF</button>
+        <button label="Vol+ &#61480;" labelSize="36.0" span="4">0x807F 0x609F</button>
+        <button label="Vol- &#61479;" labelSize="36.0" span="4">0x807F 0xA05F</button>
+        <button label="mute &#61478;" labelSize="12.0" span="4">0x807F 0x906F</button>
+        <button label="dvd" labelSize="12.0">0x807F 0x08F7</button>
+        <button label="tv" labelSize="12.0">0x807F 0x8877</button>
+        <button label="game" labelSize="12.0">0x807F 0x48B7</button>
+        <button label="cd/mp3" labelSize="12.0">0x807F 0xC837</button>
+    </device>
+</irplus>

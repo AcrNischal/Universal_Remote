@@ -1,0 +1,26 @@
+<irplus>
+    <device manufacturer="THULE" model="All-RC5" columns="12" format="WINLIRC_RC5" bits="13" pre-bits="13" toggle-bit-pos="2" gap-pulse="1" gap-space="114000"
+        one-pulse="889" one-space="889" zero-pulse="889" zero-space="889" repeat="3">
+
+        <button label="STANDBY" span="12">0x150C</button>
+
+        <button label="VOL-" span="6">0x1511</button>
+        <button label="VOL+" span="6">0x1510</button>
+
+        <button label="INPUT-" span="6">0x151F</button>
+        <button label="INPUT+" span="6">0x151E</button>
+
+        <button label="DIM" span="6">0x150A</button>
+        <button label="BALANCE" span="6">0x151A</button>
+
+        <button label="BASS" span="6">0x1517</button>
+        <button label="TREBLE" span="6">0x1518</button>
+
+        <button label="CD" span="4">0x1523</button>
+        <button label="AUX" span="4">0x1524</button>
+        <button label="TU" span="4">0x1526</button>
+
+        <button label="TA1" span="6">0x1522</button>
+        <button label="TA2" span="6">0x1527</button>
+    </device>
+</irplus>

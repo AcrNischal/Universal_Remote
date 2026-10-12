@@ -1,0 +1,75 @@
+<irplus>
+    <device manufacturer="BARCO" model="808" columns="12" format="WINLIRC_RC5" pre-bits="13" bits="13" frequency="36000"
+        gap-pulse="1" gap-space="113444" one-pulse="875" one-space="887" zero-pulse="875" zero-space="887">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x100C</button>
+        <button label="AUDIO-MUTE" span="4">0x100D</button>
+        <button label="AUTOIMAGE" span="4">0x102F</button>
+
+        <button label="F1" span="4">0x002B</button>
+        <button label="F2" span="4">0x002C</button>
+        <button label="F3" span="4">0x002D</button>
+
+        <button label="F4" span="4">0x002E</button>
+        <button label="F5" span="4">0x002F</button>
+        <button label="ADJ" span="4">0x0012</button>
+
+        <button label="EXIT" span="4">0x0013</button>
+        <button label="&#xf0d8;" span="4">0x0010</button>
+        <button label="FREEZE" span="4">0x001D</button>
+
+        <button label="&#xf0d9;" span="4">0x0015</button>
+        <button label="ENTER" span="4">0x0017</button>
+        <button label="&#xf0da;" span="4">0x0016</button>
+
+        <button label="PAUSE" span="4">0x1030</button>
+        <button label="&#xf0d7;" span="4">0x0011</button>
+        <button label="TEXT" span="4">0x100F</button>
+
+        <button label="PHASE-" span="6">0x0009</button>
+        <button label="PHASE+" span="6">0x0008</button>
+
+        <button label="SHARPNESS" span="6">0x000E</button>
+        <button label="SHARPNESS+" span="6">0x000D</button>
+
+        <button label="TINT-" span="6">0x101F</button>
+        <button label="TINT+" span="6">0x1027</button>
+
+        <button label="COLOR-" span="6">0x1015</button>
+        <button label="COLOR+" span="6">0x1014</button>
+
+        <button label="BRIGHTNESS-" span="6">0x1013</button>
+        <button label="BRIGHTNESS+" span="6">0x1012</button>
+
+        <button label="CONTRAST-" span="6">0x101D</button>
+        <button label="CONTRAST+" span="6">0x101C</button>
+
+        <button label="BALANCE-" span="6">0x101B</button>
+        <button label="BALANCE+" span="6">0x101A</button>
+
+        <button label="VOL-" span="6">0x1011</button>
+        <button label="VOL+" span="6">0x1010</button>
+
+        <button label="TREBLE-" span="6">0x1019</button>
+        <button label="TREBLE+" span="6">0x1018</button>
+
+        <button label="BASS-" span="6">0x1017</button>
+        <button label="BASS+" span="6">0x1016</button>
+
+        <button label="1" span="4">0x1001</button>
+        <button label="2" span="4">0x1002</button>
+        <button label="3" span="4">0x1003</button>
+
+        <button label="4" span="4">0x1004</button>
+        <button label="5" span="4">0x1005</button>
+        <button label="6" span="4">0x1006</button>
+
+        <button label="7" span="4">0x1007</button>
+        <button label="8" span="4">0x1008</button>
+        <button label="9" span="4">0x1009</button>
+
+        <button label="FOCUS-ZOOM-SHIFT" span="4">0x0037</button>
+        <button label="0" span="4">0x1000</button>
+        <button label="ADRESS" span="4">0x0014</button>
+    </device>
+</irplus>

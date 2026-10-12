@@ -1,0 +1,48 @@
+<irplus>
+    <device manufacturer="EPSON" model="EB-905" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16"
+        toggle-bit-pos="0" gap-pulse="621" gap-space="107631" one-pulse="621" one-space="1626"
+        zero-pulse="621" zero-space="494" header-pulse="9028" header-space="4409">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0xC1AA 0x09F6</button>
+        <space multiple="6"/>
+        <button label="SOURCE SEARCH" span="3">0xC1AA 0x31CE</button>
+
+        <button label="COMPUTER" span="3">0xC1AA 0x29D6</button>
+        <button label="VIDEO" span="3">0xC1AA 0x39C6</button>
+        <button label="USB" span="3">0xC1AA 0x6E91</button>
+        <button label="LAN" span="3">0xC1AA 0x2ED1</button>
+
+        <button label="1/MUTE" span="3">0xC1AA 0xC936</button>
+        <button label="2/FREEZE" span="3">0xC1AA 0x49B6</button>
+        <button label="3/USER" span="3">0xC1AA 0xF906</button>
+        <space multiple="3"/>
+
+        <button label="4/AUTO" span="3">0xC1AA 0x7986</button>
+        <button label="5/ASPECT" span="3">0xC1AA 0x51AE</button>
+        <button label="6/COLOR MODE" span="3">0xC1AA 0xF10E</button>
+        <button label="Num" span="3">0xC1AA 0xD12E</button>
+
+        <button label="7/PAGE+" span="3">0xC1AA 0x619E</button>
+        <button label="8/ZOOM+" span="3">0xC1AA 0x11EE</button>
+        <button label="9/POINTER" span="3">0xC1AA 0x956A</button>
+        <button label="?" span="3">0xC1AA 0xA956</button>
+
+        <button label="PAGE-" span="3">0xC1AA 0xE11E</button>
+        <button label="0/ZOOM-" span="3">0xC1AA 0x916E</button>
+        <button label="VOL-" span="3">0xC1AA 0x9966</button>
+        <button label="VOL+" span="3">0xC1AA 0x19E6</button>
+
+        <button label="MENU" span="4">0xC1AA 0x59A6</button>
+        <button label="&#xf0d8;" span="4">0xC1AA 0x0DF2</button>
+        <button label="ESC" span="4">0xC1AA 0x21DE</button>
+
+        <button label="&#xf0d9;" span="4">0xC1AA 0xCD32</button>
+        <button label="SELECT" span="4">0xC1AA 0xA15E</button>
+        <button label="&#xf0da;" span="4">0xC1AA 0x8D72</button>
+
+        <space multiple="4"/>
+        <button label="&#xf0d7;" span="4">0xC1AA 0x4DB2</button>
+        <space multiple="4"/>
+
+    </device>
+</irplus>

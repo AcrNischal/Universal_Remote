@@ -1,0 +1,75 @@
+<irplus>
+	<device manufacturer="SMART" model="MX40" columns="12" format="WINLIRC_NEC1" one-space="1715" one-pulse="497" zero-pulse="497" zero-space="608" 
+        header-pulse="8897" header-space="4539" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" backgroundColor="FFC84334" span="3">0xFF 0xFA05</button>
+        <space multiple="6"/>
+		<button label="🔇" span="3">0xFF 0x7887</button>
+		
+		<button label="1/QZ" span="4">0xFF 0xDA25</button>
+		<button label="2/ABC" span="4">0xFF 0x9A65</button>
+		<button label="3/DEF" span="4">0xFF 0x58A7</button>
+		
+		<button label="4/GHI" span="4">0xFF 0xEA15</button>
+		<button label="5/JKL" span="4">0xFF 0xAA55</button>
+		<button label="6/MNO" span="4">0xFF 0x6897</button>
+		
+		<button label="7/PRS" span="4">0xFF 0xCA35</button>
+		<button label="8/TUV" span="4">0xFF 0x8A75</button>
+		<button label="9/WXY" span="4">0xFF 0x48B7</button>
+		
+		<button label="TV/Radio" span="4">0xFF 0xC03F</button>
+		<button label="0" span="4">0xFF 0xB24D</button>
+		<button label="TV/SAT" span="4">0xFF 0x32CD</button>
+		
+		<button label="FAV" span="3">0xFF 0x42BD</button>
+		<button label="EPG" span="3">0xFF 0x22DD</button>
+		<button label="SAT" span="3">0xFF 0x3AC5</button>
+		<button label="PAGE+" span="3">0xFF 0x7A85</button>
+		
+		<button label="RECALL" span="3">0xFF 0xF807</button>
+		<button label="USB" span="6">0xFF 0x5AA5</button>
+		<button label="PAGE-" span="3">0xFF 0xE01F</button>
+
+        <space multiple="4"/>
+		<button label="Channel+" span="4">0xFF 0xE21D</button>
+        <space multiple="4"/>
+        
+		<button label="VOL-" span="4">0xFF 0x629D</button>
+		<button label="OK" span="4">0xFF 0xA25D</button>
+		<button label="VOL+" span="4">0xFF 0x609F</button>
+
+        <space multiple="4"/>
+		<button label="Channel-" span="4">0xFF 0xBA45</button>
+        <space multiple="4"/>
+        
+		<button label="MENU" span="3">0xFF 0xF20D</button>
+        <space multiple="6"/>
+		<button label="EXIT" span="3">0xFF 0x708F</button>
+		
+		<button label="F4" span="3">0xFF 0xD22D</button>
+		<button label="F5" span="3">0xFF 0x926D</button>
+		<button label="F6" span="3">0xFF 0x10EF</button>
+		<button label="F7" span="3">0xFF 0x50AF</button>
+		
+		<button label="" span="3">0xFF 0x1AE5</button>
+		<button label="" span="3">0xFF 0xD827</button>
+		<button label="" span="3">0xFF 0x12ED</button>
+		<button label="" span="3">0xFF 0x18E7</button>
+		
+		<button label="" span="3">0xFF 0x6A95</button>
+		<button label="" span="3">0xFF 0x2AD5</button>
+		<button label="❚❚" span="3">0xFF 0xE817</button>
+		<button label="" labelColor="FFC84334" span="3">0xFF 0x28D7</button>
+		
+		<button label="F1.Sleep" span="3">0xFF 0x4AB5</button>
+		<button label="F2.Sub" span="3">0xFF 0x728D</button>
+		<button label="F3.PIP" span="3">0xFF 0xF00F</button>
+		<button label="TTX" span="3">0xFF 0xC837</button>
+		
+		<button label="Audio" backgroundColor="FFC84334" span="3">0xFF 0x52AD</button>
+		<button label="&#xf04c;" alt="PAUSE" backgroundColor="FF1E7854" span="3">0xFF 0x0AF5</button>
+		<button label="ZOOM" backgroundColor="FFD6A81F" span="3">0xFF 0xD02F</button>
+		<button label="ℹ" backgroundColor="FF2A4C94" span="3">0xFF 0x30CF</button>
+	</device>
+</irplus>

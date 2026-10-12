@@ -1,0 +1,52 @@
+<irplus>
+	<device manufacturer="KENWOOD" model="RC-RO711" columns="3" format="WINLIRC_SPACEENC" one-space="1650" one-pulse="550" zero-pulse="550" zero-space="550" header-pulse="8800" header-space="4400" bits="24" pre-bits="8">
+
+        <button label="&#xf011;" backgroundColor="FFC84334">0x1D 0x000000000000B946</button>
+		<button label="TUNE&#xf0d9;">0x1D 0x00000000004040BF</button>
+		<button label="TUNE&#xf0da;">0x1D 0x000000000040C03F</button>
+		
+		<button label="1">0x1D 0x000000000000817E</button>
+		<button label="2">0x1D 0x00000000000041BE</button>
+		<button label="3">0x1D 0x000000000000C13E</button>
+		
+		<button label="4">0x1D 0x00000000000021DE</button>
+		<button label="5">0x1D 0x000000000000A15E</button>
+		<button label="6">0x1D 0x000000000000619E</button>
+		
+		<button label="7">0x1D 0x000000000000E11E</button>
+		<button label="8">0x1D 0x00000000000011EE</button>
+		<button label="9">0x1D 0x000000000000916E</button>
+		
+		<button label="10+">0x1D 0x000000000000B04F</button>
+		<button label="0">0x1D 0x00000000000001FE</button>
+		<button label="DISKSKIP">0x1D 0x00000000000010EF</button>
+		
+		<button label="&#xf0d9;">0x1D 0x0000000000C0906F</button>
+		<button label="&#xf04b;" alt="PLAY">0x1D 0x0000000000C0609F</button>
+		<button label="&#xf04d;" alt="STOP">0x1D 0x00000000004020DF</button>
+		
+		<button label="PCALL&#xf0d9;">0x1D 0x00000000004000FF</button>
+		<button label="PCALL&#xf0da;">0x1D 0x000000000040807F</button>
+		<button label="LISTENMODE">0x1D 0x000000000000FB04</button>
+		
+		<button label="SDIRECT">0x1D 0x0000000000002AD5</button>
+		<button label="SOUND">0x1D 0x000000000080EA15</button>
+		<button label="SETUP">0x1D 0x0000000000C09867</button>
+		
+		<button label="VOL-">0x1D 0x00000000000059A6</button>
+		<button label="&#xFF581;">0x1D 0x00000000000039C6</button>
+		<button label="VOL+">0x1D 0x000000000000D926</button>
+		
+		<button label="MULTI">0x1D 0x0000000000802AD5</button>
+		<button label="MULTI&#xf0da;">0x1D 0x000000000080AA55</button>
+		<button label="MD/TAPE">0x1D 0x000000000000A956</button>
+		
+		<button label="TUNER">0x1D 0x0000000000008976</button>
+		<button label="CD">0x1D 0x00000000000049B6</button>
+		<button label="PHONO">0x1D 0x00000000000009F6</button>
+		
+		<button label="VID1">0x1D 0x0000000000006996</button>
+		<button label="VID2">0x1D 0x00000000000040BF</button>
+		<button label="DVD">0x1D 0x0000000000C0A15E</button>
+	</device>
+</irplus>

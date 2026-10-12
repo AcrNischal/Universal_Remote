@@ -1,0 +1,36 @@
+<irplus>
+    <device manufacturer="MICROSOFT" model="XBOX One Media" columns="12" format="WINLIRC_NEC1">
+
+        <button label="VIEW" span="4">0x11B 0x7689</button>
+        <button label="X" span="4">0x11B 0x26D9</button>
+        <button label="MENU" span="4">0x11B 0xF609</button>
+
+        <space multiple="4"/>
+        <button label="&#xf0d8;" alt="UP" span="4">0x11B 0x7887</button>
+        <space multiple="4"/>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x11B 0x04FB</button>
+        <button label="OK" span="4">0x11B 0x44BB</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x11B 0x847B</button>
+
+        <button label="BACK" span="4">0x11B 0xC43B</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x11B 0xF807</button>
+        <button label="GUIDE" span="4">0x11B 0x649B</button>
+
+        <button label="VOL+" span="4">0x11B 0x08F7</button>
+        <button label="&#xFF581;" span="4">0x11B 0x708F</button>
+        <button label="CH+" span="4">0x11B 0x48B7</button>
+
+        <button label="VOL-" span="4">0x11B 0x8877</button>
+        <space multiple="4"/>
+        <button label="CH-" span="4">0x11B 0xC837</button>
+
+        <button label="&#xf04a;" alt="REW" span="4">0x11B 0xA857</button>
+        <button label="&#xf04b; / &#xf04c;" alt="PLAY" span="4">0x11B 0x0EF1</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0x11B 0x28D7</button>
+
+        <button label="&#xf049;" alt="PREV" span="4">0x11B 0xD827</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x11B 0x9867</button>
+        <button label="&#xf050;" alt="NEXT" span="4">0x11B 0x58A7</button>
+    </device>
+</irplus>

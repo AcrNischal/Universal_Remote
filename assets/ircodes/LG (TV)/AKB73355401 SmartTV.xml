@@ -1,0 +1,36 @@
+<irplus>
+    <device manufacturer="LG" model="AKB73355401" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xef10 0x01fe</button>
+        <space multiple="4"/>
+        <button label="MENU" span="4">0xef10 0xc23d</button>
+
+        <space multiple="4"/>
+        <button label="&#xf0d8;" span="4">0xef10 0x20df</button>
+        <space multiple="4"/>
+
+        <button label="&#xf0d9;" span="4">0xef10 0xe01f</button>
+        <button label="ENTER" span="4">0xef10 0x22dd</button>
+        <button label="&#xf0da;" span="4">0xef10 0x609f</button>
+
+        <space multiple="4"/>
+        <button label="&#xf0d7;" span="4">0xef10 0xa05f</button>
+        <space multiple="4"/>
+
+        <button label="BACK" span="4">0xef10 0x54ab</button>
+        <space multiple="4"/>
+        <button label="HOME" span="4">0xef10 0x55aa</button>
+
+        <button label="R" backgroundColor="FFC84334" span="3">0xef10 0x03fc</button>
+        <button label="G" backgroundColor="FF1E7854" span="3">0xef10 0x837c</button>
+        <button label="Y" backgroundColor="FFD6A81F" span="3">0xef10 0xc33c</button>
+        <button label="B" backgroundColor="FF2A4C94" span="3">0xef10 0x43bc</button>
+
+        <button label="&#xf04b;" span="6">0xef10 0x0df2</button>
+        <button label="&#xf04c;" span="6">0xef10 0x0df2</button>
+        
+        <button label="&#xf049; &#xf04a;" span="4">0xef10 0xf10e</button>
+        <button label="&#xf04d;" span="4">0xef10 0x718e</button>
+        <button label="&#xf04e; &#xf050;" span="4">0xef10 0x718e</button>
+    </device>
+</irplus>

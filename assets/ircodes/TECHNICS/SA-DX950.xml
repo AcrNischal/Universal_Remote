@@ -1,0 +1,68 @@
+<irplus>
+    <device manufacturer="TECHNICS" model="SA-DX950" columns="12" format="WINLIRC_SPACEENC" frequency="37000" gap-pulse="423" gap-space="378"
+        one-space="378" one-pulse="423" zero-pulse="423" zero-space="1266" header-pulse="3536" header-space="1673" bits="32" pre-bits="16">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0xBFFB 0xFAFF4346</button>
+        <button label="TV" span="3">0xBFFB 0xFAFF0603</button>
+        <button label="VCR" span="3">0xBFFB 0xFAFF8683</button>
+        <button label="DVD" span="3">0xBFFB 0xFAFF3A3F</button>
+
+        <button label="AUDIO &#xf011;" span="3">0xBFFB 0xFAC7033E</button>
+        <button label="TAPE" span="3">0xBFFB 0xFAFF9693</button>
+        <button label="TUNERBAND" span="3">0xBFFB 0xFAFFB6B3</button>
+        <button label="CD" span="3">0xBFFB 0xFAFFD6D3</button>
+
+        <button label="&#xf011; ON" span="6">0xBFFB 0xFAFF8386</button>
+        <button label="&#xf011; OFF" span="6">0xBFFB 0xFAFF0306</button>
+
+        <button label="1" span="3">0xBFFB 0xFADFF7D2</button>
+        <button label="2" span="3">0xBFFB 0xFADF7752</button>
+        <button label="3" span="3">0xBFFB 0xFADFB792</button>
+        <button label="DIRECT TUNING" span="3">0xBFFB 0xFADFEECB</button>
+        
+        <button label="4" span="3">0xBFFB 0xFADF3712</button>
+        <button label="5" span="3">0xBFFB 0xFADFD7F2</button>
+        <button label="6" span="3">0xBFFB 0xFADF5772</button>
+        <button label="10+" span="3">0xBFFB 0xFADFDEFB</button>
+
+        <button label="7" span="3">0xBFFB 0xFADF97B2</button>
+        <button label="8" span="3">0xBFFB 0xFADF1732</button>
+        <button label="9" span="3">0xBFFB 0xFADFE7C2</button>
+        <button label="0" span="3">0xBFFB 0xFADF6742</button>
+
+        <button label="TOPMENU" span="4">0xBFFB 0xF2FF262B</button>
+        <button label="&#xf0d8;" span="4">0xBFFB 0xF2FF5E53</button>
+        <button label="MENU" span="4">0xBFFB 0xF2FFFEF3</button>
+
+        <button label="&#xf0d9;" span="4">0xBFFB 0xF2FFEEE3</button>
+        <button label="ENTER" span="4">0xBFFB 0xF2FFBEB3</button>
+        <button label="&#xf0da;" span="4">0xBFFB 0xF2FF1E13</button>
+
+        <button label="DISPLAY" span="4">0xBFFB 0xF2FFB6BB</button>
+        <button label="&#xf0d7;" span="4">0xBFFB 0xF2FF9E93</button>
+        <button label="SUBWOOFER" span="4">0xBFFB 0xFAFF5451</button>
+
+        <button label="DVD REW" span="3">0xBFFB 0xF2FF6D60</button>
+        <button label="DVD FF" span="3">0xBFFB 0xF2FFADA0</button>
+        <button label="DVD PLAY" span="3">0xBFFB 0xF2FFAFA2</button>
+        <button label="DVD STOP" span="3">0xBFFB 0xF2FFFFF2</button>
+
+        <button label="DELAY" span="3">0xBFFB 0xFAD7022F</button>
+        <button label="LEVEL" span="3">0xBFFB 0xFAD782AF</button>
+        <button label="KP-" span="3">0xBFFB 0xFAD7426F</button>
+        <button label="KP+" span="3">0xBFFB 0xFAD7C2EF</button>
+
+        <button label="SOUNDMODE" span="4">0xBFFB 0xFAD7F2DF</button>
+        <button label="TEST" span="4">0xBFFB 0xFAD790BD</button>
+        <button label="SFC" span="4">0xBFFB 0xFAD7735E</button>
+
+        <button label="TV/VIDEO" span="3">0xBFFB 0xFEFF5F5E</button>
+        <button label="CH-" span="3">0xBFFB 0xFADF5376</button>
+        <button label="CH+" span="3">0xBFFB 0xFADFD3F6</button>
+        <button label="&#xFF581;" span="3">0xBFFB 0xFAFFB3B6</button>
+
+        <button label="VOL-" span="6">0xBFFB 0xFAFF7B7E</button>
+        <button label="VOL+" span="6">0xBFFB 0xFAFFFBFE</button>
+
+	</device>
+</irplus>

@@ -1,0 +1,62 @@
+<irplus>
+    <device manufacturer="OPTICUM" model="X403P" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0x807f 0x00ff</button>
+        <button label="&#xFF581;" span="6">0x807f 0xc03f</button>
+
+        <button label="1" span="4">0x807f 0x807f</button>
+        <button label="2" span="4">0x807f 0x40bf</button>
+        <button label="3" span="4">0x807f 0x609f</button>
+        <button label="4" span="4">0x807f 0x20df</button>
+        <button label="5" span="4">0x807f 0xa05f</button>
+        <button label="6" span="4">0x807f 0xe01f</button>
+        <button label="7" span="4">0x807f 0x10ef</button>
+        <button label="8" span="4">0x807f 0x50af</button>
+        <button label="9" span="4">0x807f 0xd02f</button>
+
+        <button label="TV/RADIO" span="4">0x807f 0x9867</button>
+        <button label="0" span="4">0x807f 0x708f</button>
+        <button label="&#xf0e2;" alt="RECALL" span="4">0x807f 0x58a7</button>
+
+        <button label="AUDIO" span="3">0x807f 0x18e7</button>
+        <button label="INFO" span="3">0x807f 0x7887</button>
+        <button label="TV/SAT" span="3">0x807f 0xc837</button>
+        <button label="EPG" span="3">0x807f 0xb04f</button>
+
+        <button label="MENU" span="4">0x807f 0x08f7</button>
+        <button label="&#xf0d8;" span="4">0x807f 0xa857</button>
+        <button label="EXIT" span="4">0x807f 0x8877</button>
+
+        <button label="&#xf0d9;" span="4">0x807f 0x28d7</button>
+        <button label="ENTER" span="4">0x807f 0x48b7</button>
+        <button label="&#xf0da;" span="4">0x807f 0xe817</button>
+
+        <button label="PAGE+" span="4">0x807f 0xf00f</button>
+        <button label="&#xf0d7;" span="4">0x807f 0x6897</button>
+        <button label="PAGE-" span="4">0x807f 0x30cf</button>
+
+        <button label="PIP" backgroundColor="FFC84334" span="3">0x807f 0xe21d</button>
+        <button label="TELETEXT" backgroundColor="FF1E7854" span="3">0x807f 0x827d</button>
+        <button label="SUBTITLE" backgroundColor="FFD6A81F" span="3">0x807f 0x42bd</button>
+        <button label="" backgroundColor="FF2A4C94" span="3">0x807f 0xb847</button>
+
+        <button label="UHF" span="3">0x807f 0xd827</button>
+        <button label="FIND" span="3">0x807f 0xa25d</button>
+        <button label="TIMER" span="3">0x807f 0x629d</button>
+        <button label="P/N" span="3">0x807f 0x02fd</button>
+
+        <button label="ARCHIVE" span="4">0x807f 0x906f</button>
+        <button label="FAVORITE" span="4">0x807f 0x38c7</button>
+        <button label="TIMESHIFT" span="4">0x807f 0xf807</button>
+
+        <button label="&#xf04b;" alt="PLAY" span="3">0x807f 0xc23d</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0x807f 0xd22d</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">0x807f 0xf20d</button>
+        <button label="&#xf111;" alt="REC" labelColor="FFC84334" span="3">0x807f 0xca35</button>
+
+        <button label="&#xf04a;" alt="REW" span="3">0x807f 0x7a85</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x807f 0xfa05</button>
+        <button label="" span="3">0x807f 0xda25</button>
+        <button label="" span="3">0x807f 0xea15</button>
+    </device>
+</irplus>

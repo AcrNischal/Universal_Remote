@@ -1,0 +1,58 @@
+<irplus>
+    <device manufacturer="TEAC" model="TV-Code2" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x02fd 0x48b7</button>
+        <button label="INPUT" span="4">0x02fd 0x29d6</button>
+        <button label="&#xFF581;" span="4">0x02fd 0x08f7</button>
+
+        <button label="1" span="4">0x02fd 0x807f</button>
+        <button label="2" span="4">0x02fd 0x40bf</button>
+        <button label="3" span="4">0x02fd 0xc03f</button>
+
+        <button label="4" span="4">0x02fd 0x20df</button>
+        <button label="5" span="4">0x02fd 0xa05f</button>
+        <button label="6" span="4">0x02fd 0x609f</button>
+
+        <button label="7" span="4">0x02fd 0xe01f</button>
+        <button label="8" span="4">0x02fd 0x10ef</button>
+        <button label="9" span="4">0x02fd 0x906f</button>
+
+        <button label="MENU" span="4">0x02fd 0xda25</button>
+        <button label="0" span="4">0x02fd 0x00ff</button>
+        <button label="RECALL" span="4">0x02fd 0x02fd</button>
+
+        <button label="CH+" span="4">0x02fd 0xd827</button>
+        <button label="&#xf0d8;" span="4">0x02fd 0x8a75</button>
+        <button label="VOL+" span="4">0x02fd 0x58a7</button>
+
+        <button label="&#xf0d9;" span="4">0x02fd 0xca35</button>
+        <button label="ENTER" span="4">0x02fd 0xa25d</button>
+        <button label="&#xf0da;" span="4">0x02fd 0x2ad5</button>
+
+        <button label="CH-" span="4">0x02fd 0xf807</button>
+        <button label="&#xf0d7;" span="4">0x02fd 0x4ab5</button>
+        <button label="VOL-" span="4">0x02fd 0x7887</button>
+
+        <button label="CHENTER" span="3">0x02fd 0x827d</button>
+        <button label="PREV" span="3">0x02fd 0xf807</button>
+        <button label="NEXT" span="3">0x02fd 0xd827</button>
+        <button label="GUIDE" span="3">0x02fd 0xf20d</button>
+
+        <button label="REV" span="4">0x02fd 0x12ed</button>
+        <button label="PLAY" span="4">0x02fd 0x42bd</button>
+        <button label="FWD" span="4">0x02fd 0x926d</button>
+
+        <button label="STOP" span="4">0x02fd 0x22dd</button>
+        <button label="PAUSE" span="4">0x02fd 0x42bd</button>
+        <button label="RECORD" span="4">0x02fd 0x38c7</button>
+
+        <button label="PIP" span="4">0x02fd 0x32cd</button>
+        <button label="PIPSWAP" span="4">0x02fd 0x728d</button>
+        <button label="INFO" span="4">0x02fd 0x6897</button>
+
+        <button label="DASH" span="4">0x02fd 0xd12e</button>
+        <button label="SLEEP" span="4">0x02fd 0xd22d</button>
+        <button label="EXIT" span="4">0x02fd 0x0af5</button>
+
+    </device>
+</irplus>

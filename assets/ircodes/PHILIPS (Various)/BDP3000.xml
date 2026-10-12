@@ -1,0 +1,64 @@
+<irplus>
+	<device manufacturer="PHILIPS" model="BDP3000" columns="12" frequency="36000"
+	    format="WINLIRC_RC6" toggle-bit-pos="4" one-space="396" one-pulse="490" 
+	    zero-pulse="490" zero-space="396" header-pulse="2723" header-space="826" bits="21">
+		
+		<button label="&#xf011;" backgroundColor="FFC84334" span="3">0x0EB938</button>
+		<button label="&#xFF581;" span="3">0x0FFFF2</button>
+		<button label="BONUS" span="3">0x0EB9A2</button>
+		<button label="BACK" span="3">0x0EB97C</button>
+
+		<button label="TOPMENU" span="3">0x0EB963</button>
+		<button label="REPEAT" span="3">0x0EB9E2</button>
+		<button label="HDMI" span="3">0x0EB939</button>
+		<button label="INFO" span="3">0x0EB9F0</button>
+
+		<button label="R" fillColor="FFC84334" span="3">0x0EB992</button>
+		<button label="G" fillColor="FF1E7854" span="3">0x0EB991</button>
+		<button label="Y" fillColor="FFD6A81F" span="3">0x0EB990</button>
+		<button label="B" fillColor="FF2A4C94" span="3">0x0EB98F</button>
+
+		<button label="HOME" span="4">0x0EB96D</button>
+		<button label="MENU" span="4">0x0EB965</button>
+		<button label="OPTION" span="4">0x0EB936</button>
+
+		<button label="VOL+" span="4">0x0FFFEF</button>
+		<button label="&#xf0d8;" span="4">0x0EB9A7</button>
+		<button label="CH+" span="4">0x0FFFDF</button>
+
+		<button label="&#xf0d9;" span="4">0x0EB9A5</button>
+		<button label="OK" span="4">0x0EB9A3</button>
+		<button label="&#xf0da;" span="4">0x0EB9A4</button>
+
+		<button label="VOL-" span="4">0x0EFFEE</button>
+		<button label="&#xf0d7;" span="4">0x0EB9A6</button>
+		<button label="CH-" span="4">0x0EFFDE</button>
+
+		<button label="" span="3">0x0EB9DE</button>
+		<button label="" span="3">0x0EB9CF</button>
+		<button label="" span="3">0x0EB9D3</button>
+		<button label="" span="3">0x0EB9DF</button>
+
+		<button label="" span="3">0x0EB9D6</button>
+		<button label="" span="3">0x0EB9CE</button>
+		<button label="" span="3">0x0EB9D7</button>
+		<button label="" span="3">0x0EB9BD</button>
+
+		<button label="1" span="4">0x0EB9FE</button>
+		<button label="2" span="4">0x0EB9FD</button>
+		<button label="3" span="4">0x0EB9FC</button>
+		
+		<button label="4" span="4">0x0EB9FB</button>
+		<button label="5" span="4">0x0EB9FA</button>
+		<button label="6" span="4">0x0EB9F9</button>
+		
+		<button label="7" span="4">0x0EB9F8</button>
+		<button label="8" span="4">0x0EB9F7</button>
+		<button label="9" span="4">0x0EB9F6</button>
+		
+		<button label="SUBTITLE" span="4">0x0EB9B4</button>
+		<button label="0" span="4">0x0EB9FF</button>
+		<button label="AUDIO" span="4">0x0EB9B1</button>
+
+	</device>
+</irplus>

@@ -1,0 +1,40 @@
+<irplus>
+    <device manufacturer="LG" model="6710V00090N" columns="12" format="WINLIRC_NEC1">
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0x20DF 0x10EF</button>
+        <button label="&#xFF581;" span="6">0x20DF 0x906F</button>
+
+        <button label="1" span="4">0x20DF 0x8877</button>
+        <button label="2" span="4">0x20DF 0x48B7</button>
+        <button label="3" span="4">0x20DF 0xC837</button>
+        <button label="4" span="4">0x20DF 0x28D7</button>
+        <button label="5" span="4">0x20DF 0xA857</button>
+        <button label="6" span="4">0x20DF 0x6897</button>
+        <button label="7" span="4">0x20DF 0xE817</button>
+        <button label="8" span="4">0x20DF 0x18E7</button>
+        <button label="9" span="4">0x20DF 0x9867</button>
+        <button label="APC" span="4">0x20DF 0xB24D</button>
+        <button label="0" span="4">0x20DF 0x08F7</button>
+        <button label="TVVIDEO" span="4">0x20DF 0xD02F</button>
+
+        <button label="MENU" span="6">0x20DF 0xC23D</button>
+        <button label="CAPTION" span="6">0x20DF 0x9C63</button>
+
+        <button label="CH+" span="6">0x20DF 0x00FF</button>
+        <button label="VOL+" span="6">0x20DF 0x40BF</button>
+
+        <button label="CH-" span="6">0x20DF 0x807F</button>
+        <button label="VOL-" span="6">0x20DF 0xC03F</button>
+
+        <button label="ENTER" span="4">0x20DF 0x22DD</button>
+        <button label="FCR" span="4">0x20DF 0x7887</button>
+        <button label="SLEEP" span="4">0x20DF 0x708F</button>
+
+        <button label="EYEASTERISK" span="4">0x20DF 0xA956</button>
+        <button label="AUTOPRG" span="4">0x20DF 0x2AD5</button>
+        <button label="MEMORYERASE" span="4">0x20DF 0xAA55</button>
+
+        <button label="REVIEW" span="4">0x20DF 0x58A7</button>
+        <button label="MTS" span="4">0x20DF 0x50AF</button>
+        <button label="PICTURE" span="4">0x20DF 0x30CF</button>
+    </device>
+</irplus>

@@ -1,0 +1,60 @@
+<irplus>
+	<device manufacturer="COMAG" model="SL60HD" columns="12" format="WINLIRC_NEC1" one-space="1558" one-pulse="673"
+		zero-pulse="673" zero-space="450" header-pulse="9096" header-space="4386" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xFF 0x7887</button>
+		<button label="MENU" span="4">0xFF 0xE01F</button>
+		<button label="EXIT" span="4">0xFF 0xE21D</button>
+		
+		<button label="PG+" span="6">0xFF 0x629D</button>
+		<button label="PG-" span="6">0xFF 0xA25D</button>
+		
+		<button label="INFO" span="6">0xFF 0x7A85</button>
+		<button label="GUIDE" span="6">0xFF 0xD02F</button>
+		
+		<button label="R" fillColor="FFC84334" span="3">0xFF 0xE817</button>
+		<button label="G" fillColor="FF1E7854" span="3">0xFF 0x728D</button>
+		<button label="Y" fillColor="FFD6A81F" span="3">0xFF 0xC03F</button>
+		<button label="B" fillColor="FF2A4C94" span="3">0xFF 0x6897</button>
+		
+		<button label="VOL+" span="4">0xFF 0x28D7</button>
+		<button label="&#xf0d8;" span="4">0xFF 0xC837</button>
+		<button label="CH+" span="4">0xFF 0xB04F</button>
+		
+		<button label="&#xf0d9;" span="4">0xFF 0x22DD</button>
+		<button label="OK" span="4">0xFF 0x0AF5</button>
+		<button label="&#xf0da;" span="4">0xFF 0xEA15</button>
+		
+		<button label="VOL-" span="4">0xFF 0xA857</button>
+		<button label="&#xf0d7;" span="4">0xFF 0x827D</button>
+		<button label="CH-" span="4">0xFF 0x708F</button>
+		
+		<button label="&#xFF581;" span="4">0xFF 0x48B7</button>
+		<button label="LIST" span="4">0xFF 0x08F7</button>
+		<button label="&#xf0e2;" alt="RECALL" span="4">0xFF 0x8877</button>
+		
+		<button label="&#xf04a;" span="4">0xFF 0x2AD5</button>
+		<button label="&#xf04b;" span="4">0xFF 0x926D</button>
+		<button label="&#xf04e;" span="4">0xFF 0xD827</button>
+		
+		<button label="&#xf111;" labelColor="FFC84334" span="4">0xFF 0x38C7</button>
+		<button label="&#xf04c;" span="4">0xFF 0x5AA5</button>
+		<button label="&#xf04d;" span="4">0xFF 0xB847</button>
+		
+		<button label="1" span="4">0xFF 0x50AF</button>
+		<button label="2" span="4">0xFF 0x906F</button>
+		<button label="3" span="4">0xFF 0x10EF</button>
+		
+		<button label="4" span="4">0xFF 0x609F</button>
+		<button label="5" span="4">0xFF 0xA05F</button>
+		<button label="6" span="4">0xFF 0x20DF</button>
+		
+		<button label="7" span="4">0xFF 0x40BF</button>
+		<button label="8" span="4">0xFF 0x807F</button>
+		<button label="9" span="4">0xFF 0x00FF</button>
+		
+		<button label="APP" span="4">0xFF 0x8A75</button>
+		<button label="0" span="4">0xFF 0xC23D</button>
+		<button label="AUDIO" span="4">0xFF 0x02FD</button>
+	</device>
+</irplus>

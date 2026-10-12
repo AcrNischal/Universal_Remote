@@ -1,0 +1,43 @@
+<irplus>
+    <device manufacturer="ADAPTEC" model="AVC-2410" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0x82F1 0x09f6</button>
+        <button label="LIVE" span="3">0x82F1 0x25DA</button>
+        <button label="TIMESHIFT" span="3">0x82F1 0x17E8</button>
+        <button label="SCAN" span="3">0x82F1 0x18e7</button>
+
+        <button label="1" span="4">0x82F1 0x26D9</button>
+        <button label="2" span="4">0x82F1 0x19E6</button>
+        <button label="3" span="4">0x82F1 0x10EF</button>
+
+        <button label="4" span="4">0x82F1 0x27D8</button>
+        <button label="5" span="4">0x82F1 0x20DF</button>
+        <button label="6" span="4">0x82F1 0x11EE</button>
+
+        <button label="7" span="4">0x82F1 0x28D7</button>
+        <button label="8" span="4">0x82F1 0x21DE</button>
+        <button label="9" span="4">0x82F1 0x12ED</button>
+
+        <button label="&#xFF581;" span="4">0x82F1 0x13EC</button>
+        <button label="0" span="4">0x82F1 0x22DD</button>
+        <button label="FULL" span="4">0x82F1 0x29D6</button>
+
+        <button label="&#xf04b;" alt="PLAY" span="6">0x82F1 0x30CF</button>
+        <button label="&#xf04d;" alt="STOP" span="6">0x82F1 0x23DC</button>
+
+        <button label="" span="3">0x82F1 0x14EB</button>
+        <button label="&#xf04a;" alt="REW" span="3">0x82F1 0x31CE</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x82F1 0x15EA</button>
+        <button label="" span="3">0x82F1 0x24DB</button>
+
+        <button label="CH+" span="6">0x82F1 0x01FE</button>
+        <button label="CH-" span="6">0x82F1 0x05FA</button>
+
+        <button label="VOL+" span="6">0x82F1 0x04FB</button>
+        <button label="VOL-" span="6">0x82F1 0x02FD</button>
+
+        <button label="ENTER" span="4">0x82F1 0x03FC</button>
+        <button label="OSD" span="4">0x82F1 0x32CD</button>
+        <button label="CC" span="4">0x82F1 0x16E9</button>
+    </device>
+</irplus>

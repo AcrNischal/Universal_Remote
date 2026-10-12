@@ -1,0 +1,46 @@
+<irplus>
+    <device manufacturer="SAMSUNG" model="00104M" columns="12" format="WINLIRC_NECx1" toggle-bit-pos="-1" one-pulse="0" one-space="0"
+        zero-pulse="0" zero-space="0" header-pulse="0" header-space="0" gap-space="0" gap-pulse="0" bits="0" pre-bits="0" repeat="1" repeatgap="40000" repeatheader="false" frequency="38000">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xE0E0 0x40BF</button>
+        <space multiple="8"/>
+
+        <button label="1" span="3">0xE0E0 0x20DF</button>
+        <button label="2" span="3">0xE0E0 0xA05F</button>
+        <button label="3" span="3">0xE0E0 0x609F</button>
+        <button label="TV" span="3">0xE0E0 0xD827</button>
+
+        <button label="4" span="3">0xE0E0 0x10EF</button>
+        <button label="5" span="3">0xE0E0 0x906F</button>
+        <button label="6" span="3">0xE0E0 0x50AF</button>
+        <button label="VIDEO" span="3">0xE0E0 0x807F</button>
+
+        <button label="7" span="3">0xE0E0 0x30CF</button>
+        <button label="8" span="3">0xE0E0 0xB04F</button>
+        <button label="9" span="3">0xE0E0 0x708F</button>
+        <button label="DISPLAY" span="3">0xE0E0 0xF807</button>
+
+        <button label="-/--" span="3">0xE0E0 0xC43B</button>
+        <button label="0" span="3">0xE0E0 0x8877</button>
+        <button label="S.Mode I-II" span="3">0xE0E0 0x24DB</button>
+        <button label="SLEEP" span="3">0xE0E0 0xC03F</button>
+
+        <button label="Turbo" backgroundColor="FFBC0000" span="3">0xE0E0 0xC837</button>
+        <button label="S.Menu" backgroundColor="FF1E7854" span="3">0xE0E0 0x28D7</button>
+        <button label="S.STD" backgroundColor="FFD6A81F" span="3">0xE0E0 0xA857</button>
+        <button label="P.STD" backgroundColor="FF2A4C94" span="3">0xE0E0 0x6897</button>
+
+        <button label="&#xFF581;" span="4">0xE0E0 0xF00F</button>
+        <button label="CH+" span="4">0xE0E0 0x48B7</button>
+        <button label="P.SIZE" span="4">0xE0E0 0x7C83</button>
+
+        <button label="VOL-" span="4">0xE0E0 0xD02F</button>
+        <button label="MENU" span="4">0xE0E0 0x58A7</button>
+        <button label="VOL+" span="4">0xE0E0 0xE01F</button>
+
+        <space multiple="4"/>
+        <button label="CH-" span="4">0xE0E0 0x08F7</button>
+        <space multiple="4"/>
+        
+    </device>
+</irplus>

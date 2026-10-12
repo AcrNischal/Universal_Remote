@@ -1,0 +1,57 @@
+<irplus>
+    <device manufacturer="HUMAX" model="FOXSAT HDR (RM-F01)" columns="12" format="WINLIRC_NEC1" one-pulse="573" one-space="1694" zero-pulse="573" zero-space="573" header-pulse="9041" header-space="4507" gap-space="36000" gap-pulse="573" bits="16" pre-bits="16">
+        <button label="&#61457;" labelSize="25.0" span="6" backgroundColor="FFC84334">0x0008 0x00ff</button>
+        <button label="&#1045889;" labelSize="25.0" span="6">0x0008 0x18e7</button>
+        <button label="&#61515;" labelSize="25.0" span="3">0x0008 0x06f9</button>
+        <button label="&#61516;" labelSize="25.0" span="3">0x0008 0x46b9</button>
+        <button label="&#61517;" labelSize="25.0" span="3">0x0008 0xc639</button>
+        <button label="&#61713;" labelSize="25.0" span="3" labelColor="FFC84334">0x0008 0x8679</button>
+        <button label="&#61514;" labelSize="25.0" span="3">0x0008 0xa659</button>
+        <button label="&#61518;" labelSize="25.0" span="3">0x0008 0x26d9</button>
+        <button label="&#61513;" labelSize="25.0" span="3">0x0008 0x6699</button>
+        <button label="&#61520;" labelSize="25.0" span="3">0x0008 0xe619</button>
+        <button label="MEDIA" labelSize="18.0" span="4">0x0008 0xf609</button>
+        <button label="&#61656;" labelSize="30.0" span="4" labelColor="FF000000" backgroundColor="FFFFFFFF">0x0008 0x8877</button>
+        <button label="GUIDE" labelSize="18.0" span="4">0x0008 0xd827</button>
+        <button label="&#61657;" labelSize="30.0" span="4" labelColor="FF000000" backgroundColor="FFFFFFFF">0x0008 0x48b7</button>
+        <button label="OK" labelSize="24.0" span="4" backgroundColor="FF3D3D3D">0x0008 0xc837</button>
+        <button label="&#61658;" labelSize="30.0" span="4" labelColor="FF000000" backgroundColor="FFFFFFFF">0x0008 0x28d7</button>
+        <button label="EXIT" labelSize="18.0" span="4">0x0008 0x6897</button>
+        <button label="&#61655;" labelSize="30.0" span="4" labelColor="FF000000" backgroundColor="FFFFFFFF">0x0008 0xa857</button>
+        <button label="BACK" labelSize="18.0" span="4">0x0008 0x827d</button>
+        <button label="VOL+" labelSize="24.0" span="4" backgroundColor="FFA5A5A5">0x0008 0xf807</button>
+        <button label="info" labelSize="22.0" span="4">0x0008 0xc23d</button>
+        <button label="CH+" labelSize="24.0" span="4" backgroundColor="FFA5A5A5">0x0008 0x08f7</button>
+        <button label="VOL-" labelSize="24.0" span="4" backgroundColor="FFA5A5A5">0x0008 0x02fd</button>
+        <button label="OPT+" labelSize="16.0" span="4">0x0008 0x42bd</button>
+        <button label="CH-" labelSize="24.0" span="4" backgroundColor="FFA5A5A5">0x0008 0xf00f</button>
+        <button label="SCHEDULE" labelSize="12.0" span="3">0x0008 0xb649</button>
+        <button label="SOURCE" labelSize="14.0" span="3">0x0008 0x40bf</button>
+        <button label="SLOW FWD" labelSize="12.0" span="3">0x0008 0x36c9</button>
+        <button label="TV/RADIO" labelSize="13.0" span="3">0x0008 0xb04f</button>
+        <button label="VIDEO     MyTV" labelSize="14.0" span="3" backgroundColor="FFC43F33">0x0008 0x38c7</button>
+        <button label="RADIO     Favourite" labelSize="14.0" span="3" backgroundColor="FF1E7854">0x0008 0xb847</button>
+        <button label="MUSIC     HD TV" labelSize="14.0" span="3" backgroundColor="FFD6A81F">0x0008 0x58a7</button>
+        <button label="PHOTO     Genre" labelSize="14.0" span="3" backgroundColor="FF2A4C94">0x0008 0x7887</button>
+        <button label="1" labelSize="25.0" span="4">0x0008 0xc03f</button>
+        <button label="2" labelSize="25.0" span="4">0x0008 0x20df</button>
+        <button label="3" labelSize="25.0" span="4">0x0008 0xa05f</button>
+        <button label="4" labelSize="25.0" span="4">0x0008 0x609f</button>
+        <button label="5" labelSize="25.0" span="4">0x0008 0xe01f</button>
+        <button label="6" labelSize="25.0" span="4">0x0008 0x10ef</button>
+        <button label="7" labelSize="25.0" span="4">0x0008 0x906f</button>
+        <button label="8" labelSize="25.0" span="4">0x0008 0x50af</button>
+        <button label="9" labelSize="25.0" span="4">0x0008 0xd02f</button>
+        <button label="LIST" labelSize="18.0" span="4">0x0008 0xb24d</button>
+        <button label="0" labelSize="25.0" span="4">0x0008 0x30cf</button>
+        <button label="MENU" labelSize="18.0" span="4">0x0008 0x708f</button>
+        <button label="TELETEXT" labelSize="13.0" span="3">0x0008 0x7689</button>
+        <button label="AUDIO" labelSize="13.0" span="3">0x0008 0xa25d</button>
+        <button label="SUBTITLE" labelSize="13.0" span="3">0x0008 0x629d</button>
+        <button label="SLEEP" labelSize="13.0" span="3">0x0008 0x32cd</button>
+        <button label="FAV +" labelSize="13.0" span="3">0x0008 0x56a9</button>
+        <button label="FAV LIST" labelSize="13.0" span="3">0x0008 0xd629</button>
+        <button label="V FORMAT" labelSize="12.0" span="3">0x0008 0xf20d</button>
+        <button label="WIDE" labelSize="13.0" span="3">0x0008 0x728d</button>
+    </device>
+</irplus>

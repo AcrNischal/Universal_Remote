@@ -1,0 +1,63 @@
+<irplus>
+    <device manufacturer="XORO" model="HRT8720" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="6">0x807F 0xFA05</button>
+        <button label="&#xFF581;" span="6">0x807F 0xEA15</button>
+
+        <button label="FIND" span="3">0x807F 0xB847</button>
+        <button label="SIG." span="3">0x807F 0xF807</button>
+        <button label="SUBT" span="3">0x807F 0x7887</button>
+        <button label="HDMI" span="3">0x807F 0x8877</button>
+
+        <button label="&#xf04a;" alt="REW" span="3">0x807F 0x609F</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x807F 0x50AF</button>
+        <button label="&#xf049;" alt="PREV" span="3">0x807F 0xA05F</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0x807F 0x708F</button>
+
+        <button label="USB" span="3">0x807F 0x10EF</button>
+        <button label="&#xf04b;/&#xf04c;" alt="PLAY" span="3">0x807F 0x0AF5</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0x807F 0x4AB5</button>
+        <button label="&#xf111;" alt="REC" labelColor="FFC84334" span="3">0x807F 0xF00F</button>
+
+        <button label="PAUSE" backgroundColor="FFC84334" span="3">0x807F 0x906F</button>
+        <button label="ZOOM" backgroundColor="FF1E7854" span="3">0x807F 0xB04F</button>
+        <button label="AUDIO" backgroundColor="FFD6A81F" span="3">0x807F 0x00FF</button>
+        <button label="SLEEP" backgroundColor="FF2A4C94" span="3">0x807F 0x30CF</button>
+
+        <button label="MENU" span="4">0x807F 0x38C7</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0x807F 0x18E7</button>
+        <button label="EXIT" span="4">0x807F 0x52AD</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x807F 0x827D</button>
+        <button label="OK" span="4">0x807F 0xA25D</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x807F 0x926D</button>
+
+        <button label="INFO" span="4">0x807F 0x28D7</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x807F 0x629D</button>
+        <button label="LAST" span="4">0x807F 0x12ED</button>
+
+        <button label="VOL+" span="4">0x807F 0x02FD</button>
+        <button label="EPG" span="4">0x807F 0x58A7</button>
+        <button label="CH+" span="4">0x807F 0xC03F</button>
+
+        <button label="VOL-" span="4">0x807F 0x22DD</button>
+        <button label="TTX" span="4">0x807F 0x807F</button>
+        <button label="CH-" span="4">0x807F 0xE01F</button>
+
+        <button label="1" span="4">0x807F 0x6A95</button>
+        <button label="2" span="4">0x807F 0x5AA5</button>
+        <button label="3" span="4">0x807F 0x7A85</button>
+
+        <button label="4" span="4">0x807F 0xAA55</button>
+        <button label="5" span="4">0x807F 0x9A65</button>
+        <button label="6" span="4">0x807F 0xBA45</button>
+
+        <button label="7" span="4">0x807F 0x2AD5</button>
+        <button label="8" span="4">0x807F 0x1AE5</button>
+        <button label="9" span="4">0x807F 0x3AC5</button>
+
+        <button label="TV/RADIO" span="4">0x807F 0x9867</button>
+        <button label="0" span="4">0x807F 0xD827</button>
+        <button label="FAV" span="4">0x807F 0x32CD</button>
+    </device>
+</irplus>

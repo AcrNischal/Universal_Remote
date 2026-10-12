@@ -1,0 +1,28 @@
+<irplus>
+    <device manufacturer="AAXA" model="PICO HD" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" span="4">0x01FE 0xFA05</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0x01FE 0x6897</button>
+        <button label="MUTE" span="4">0x01FE 0x10EF</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x01FE 0xE21D</button>
+        <button label="OK" span="4">0x01FE 0xD22D</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x01FE 0xA05F</button>
+
+        <button label="VOL-" span="4">0x01FE 0x906F</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x01FE 0x926D</button>
+        <button label="VOL+" span="4">0x01FE 0xA857</button>
+
+        <button label="BACK" span="4">0x01FE 0xC837</button>
+        <button label="INPUT" span="4">0x01FE 0x30CF</button>
+        <button label="MENU" span="4">0x01FE 0xD02F</button>
+
+        <button label="REV BACK" span="4">0x01FE 0x807F</button>
+        <button label="PLAY-PAUSE" span="4">0x01FE 0x20DF</button>
+        <button label="REV FORW" span="4">0x01FE 0x00FF</button>
+
+        <button label="&#xf04d;" alt="STOP" span="4">0x01FE 0x8877</button>
+        <button label="FORWARD" span="4">0x01FE 0x48B7</button>
+        <button label="RETURN" span="4">0x01FE 0x08F7</button>
+    </device>
+</irplus>

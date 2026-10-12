@@ -1,0 +1,61 @@
+<irplus>
+    <device manufacturer="AZBOX" model="NewGen" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x4040 0x50AF</button>
+        <button label="&#xf0e2;" alt="RECALL" span="4">0x4040 0x48B7</button>
+        <button label="&#xFF581;" span="4">0x4040 0x9867</button>
+
+        <button label="1" span="4">0x4040 0x807F</button>
+        <button label="2" span="4">0x4040 0x40BF</button>
+        <button label="3" span="4">0x4040 0xC03F</button>
+
+        <button label="4" span="4">0x4040 0x20DF</button>
+        <button label="5" span="4">0x4040 0xA05F</button>
+        <button label="6" span="4">0x4040 0x609F</button>
+
+        <button label="7" span="4">0x4040 0xE01F</button>
+        <button label="8" span="4">0x4040 0x10EF</button>
+        <button label="9" span="4">0x4040 0x906F</button>
+
+        <button label="TV/RADIO" span="4">0x4040 0x38C7</button>
+        <button label="0" span="4">0x4040 0x00FF</button>
+        <button label="SLEEP" span="4">0x4040 0xB847</button>
+
+        <button label="EPG" span="4">0x4040 0xE817</button>
+        <button label="CH+" span="4">0x4040 0xD02F</button>
+        <button label="MENU" span="4">0x4040 0x6897</button>
+
+        <button label="VOL-" span="4">0x4040 0x8877</button>
+        <button label="OK" span="4">0x4040 0xB04F</button>
+        <button label="VOL+" span="4">0x4040 0x08F7</button>
+
+        <button label="FAV" span="4">0x4040 0x28D7</button>
+        <button label="CH-" span="4">0x4040 0x708F</button>
+        <button label="EXIT" span="4">0x4040 0xF807</button>
+
+        <button label="AUDIO" backgroundColor="FFC84334" span="4">0x4040 0x02FD</button>
+        <button label="PAGE+" span="4">0x4040 0x7887</button>
+        <button label="ZOOM" backgroundColor="FF1E7854" span="4">0x4040 0x42BD</button>
+
+        <button label="INFO" backgroundColor="FFD6A81F" span="4">0x4040 0xC23D</button>
+        <button label="PAGE-" span="4">0x4040 0xC837</button>
+        <button label="PAUSE" backgroundColor="FF2A4C94" span="4">0x4040 0x827D</button>
+
+        <button label="WHITE" span="3">0x4040 0xD827</button>
+        <button label="SUB" span="3">0x4040 0xA25D</button>
+        <button label="GRID" span="3">0x4040 0x629D</button>
+        <button label="TXT" span="3">0x4040 0x22DD</button>
+
+        <button label="&#xf04a;" span="3">0x4040 0x1AE5</button>
+        <button label="&#xf04e;" span="3">0x4040 0x0AF5</button>
+        <button label="&#xf04b;" span="3">0x4040 0x12ED</button>
+        <button label="&#xf04d; USB" span="3">0x4040 0x2AD5</button>
+
+        <button label="&#xf049;" span="3">0x4040 0xDA25</button>
+        <button label="&#xf050;" span="3">0x4040 0xCA35</button>
+        <button label="&#xf04c;" span="3">0x4040 0xD22D</button>
+        <button label="&#xf111;" labelColor="FFC84334" span="3">0x4040 0xEA15</button>
+
+    </device>
+</irplus>
+

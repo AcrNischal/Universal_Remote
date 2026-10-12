@@ -1,0 +1,65 @@
+<irplus>
+    <device manufacturer="MOTOROLA" model="DCT700" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16"
+        gap-pulse="556" gap-space="100025" one-pulse="556" one-space="2185" zero-pulse="556" zero-space="4424" header-pulse="9036" header-space="4424">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xAFF9</button>
+        <button label="TV/VCR" span="4">0xD7F2</button>
+        <button label="HDZOOM" span="4">0xFDFC</button>
+
+        <button label="&#xf04a;" alt="REW" span="4">0x87F7</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0x27FD</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0x47FB</button>
+
+        <button label="&#xf04d;" alt="STOP" span="4">0xC7F3</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x07FF</button>
+        <button label="&#xf111;" alt="REC" labelColor="FFC84334" span="4">0x73FC</button>
+
+        <button label="SKIPBACK" span="4">0xC3F7</button>
+        <button label="MYDVR" span="4">0x43FF</button>
+        <button label="LIVE" span="4">0x83F0</button>
+
+        <button label="A LOCK" span="4">0x97F6</button>
+        <button label="B DAY-" span="4">0x63FD</button>
+        <button label="C DAY+" span="4">0xE3F5</button>
+
+        <button label="CH+" span="4">0x2FF5</button>
+        <button label="&#xf0d8;" span="4">0xD3F6</button>
+        <button label="VOL+" span="4">0x4FF3</button>
+
+        <button label="&#xf0d9;" span="4">0x93F1</button>
+        <button label="OK/SELECT" span="4">0x77F8</button>
+        <button label="&#xf0da;" span="4">0x13F9</button>
+
+        <button label="CH-" span="4">0xCFFD</button>
+        <button label="&#xf0d7;" span="4">0x53FE</button>
+        <button label="VOL-" span="4">0x8FFB</button>
+
+        <button label="GUIDE" span="4">0xF3F4</button>
+        <button label="INFO" span="4">0x33FA</button>
+        <button label="MENU" span="4">0x67F9</button>
+
+        <button label="EXIT" span="4">0xB7F4</button>
+        <button label="HELP" span="4">0xB3F2</button>
+        <button label="LAST" span="4">0x37FC</button>
+
+        <button label="&#xFF581;" span="4">0x0FF7</button>
+        <button label="FAV" span="4">0x57FA</button>
+        <button label="PNP-SWAP" span="4">0x3BF2</button>
+
+        <button label="1" span="4">0x7FF0</button>
+        <button label="2" span="4">0xBFF8</button>
+        <button label="3" span="4">0x3FF4</button>
+
+        <button label="4" span="4">0xDFFC</button>
+        <button label="5" span="4">0x5FF2</button>
+        <button label="6" span="4">0x9FFA</button>
+
+        <button label="7" span="4">0x1FF6</button>
+        <button label="8" span="4">0xEFFE</button>
+        <button label="9" span="4">0x6FF1</button>
+
+        <button label="PAGE+" span="4">0xA3F3</button>
+        <button label="0" span="4">0xFFFF</button>
+        <button label="PAGE-" span="4">0x23FB</button>
+    </device>
+</irplus>

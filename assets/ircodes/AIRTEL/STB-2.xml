@@ -1,0 +1,36 @@
+<irplus>
+    <device manufacturer="AIRTEL" model="STB2" columns="12" format="WINLIRC_NEC1">
+        <button label="&#xf011;" backgroundColor="FFC84334" alt="POWER" span="6">0xA1DE 0x21DE</button>
+        <button label="MUTE" span="6">0xA1DE 0x29D6</button>
+
+        <button label="VOL+" span="6">0xA1DE 0x41BE</button>
+        <button label="CH+" span="6">0xA1DE 0x817E</button>
+
+        <button label="VOL-" span="6">0xA1DE 0x09F6</button>
+        <button label="CH-" span="6">0xA1DE 0x11EE</button>
+
+        <button label="1" span="4">0xA1DE 0xE11E</button>
+        <button label="2" span="4">0xA1DE 0x619E</button>
+        <button label="3" span="4">0xA1DE 0xA15E</button>
+
+        <button label="4" span="4">0xA1DE 0xD12E</button>
+        <button label="5" span="4">0xA1DE 0x51AE</button>
+        <button label="6" span="4">0xA1DE 0x916E</button>
+
+        <button label="7" span="4">0xA1DE 0xF10E</button>
+        <button label="8" span="4">0xA1DE 0x718E</button>
+        <button label="9" span="4">0xA1DE 0xB14E</button>
+
+        <button label="0" span="4">0xA1DE 0x49B6</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0xA1DE 0x817E</button>
+        <button label="MENU" span="4">0xA1DE 0xC936</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0xA1DE 0x09F6</button>
+        <button label="OK" span="4">0xA1DE 0x9966</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0xA1DE 0x41BE</button>
+
+        <button label="BACK" span="4">0xA1DE 0xC13E</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0xA1DE 0x11EE</button>
+        <button label="EXIT" span="4">0xA1DE 0x6996</button>
+    </device>
+</irplus>

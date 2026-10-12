@@ -1,0 +1,10 @@
+<irplus>
+	<device manufacturer="JBL" model="CONTROL2.4" columns="1" format="WINLIRC_NEC1" bits="16" pre-bits="16">
+		
+		 <button label="&#xf0d8;">0xA1CA 0x7B84</button>
+		 <button label="&#xFF581;">0xA1CA 0x3BC4</button>
+		 <button label="INPUT">0xA1CA 0xBB44</button>
+		 <button label="&#xf0d7;">0xA1CA 0xFB04</button>
+		 
+	</device>
+</irplus>

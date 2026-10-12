@@ -1,0 +1,52 @@
+<irplus>
+	<device manufacturer="AIWA" model="RC-TN320EX" columns="12" format="WINLIRC_SPACEENC" one-space="1624" one-pulse="637" zero-pulse="637" zero-space="493" bits="16" pre-bits="26">
+		
+		<button label="TIMER" span="3">0x1D8113F 0x30CF</button>
+		<button label="SLEEP" span="3">0x1D8113F 0x708F</button>
+		<button label="FMMODE" span="3">0x1D8113F 0x48B7</button>
+		<button label="CLOCK" span="3">0x1D8113F 0x8877</button>
+		
+		<button label="RANDOM" span="4">0x1D8113F 0xA857</button>
+		<button label="REPEAT" span="4">0x1D8113F 0x6897</button>
+		<button label="DISPLAY" span="4">0x1D8113F 0x28D7</button>
+
+		<button label="EDIT" span="4">0x1D8113F 0xE817</button>
+		<button label="PRGM" span="4">0x1D8113F 0x9867</button>
+		<button label="&#xf052;" alt="EJECT" span="4">0x1D8113F 0xC837</button>
+		
+		<button label="1" span="3">0x1D8113F 0x807F</button>      
+		<button label="2" span="3">0x1D8113F 0x40BF</button>    
+		<button label="3" span="3">0x1D8113F 0xC03F</button>     
+		<button label="4" span="3">0x1D8113F 0x20DF</button>      
+		
+		<button label="5" span="3">0x1D8113F 0xA05F</button>      
+		<button label="6" span="3">0x1D8113F 0x609F</button>      
+		<button label="7" span="3">0x1D8113F 0xE01F</button>      
+		<button label="8" span="3">0x1D8113F 0x10EF</button>      
+		
+		<button label="9" span="3">0x1D8113F 0x906F</button>      
+		<button label="0" span="3">0x1D8113F 0x50AF</button>      
+		<button label="plus10" span="3">0x1D8113F 0xD02F</button>
+		<button label="TAPE" span="3">0x1D8113F 0xD827</button>
+
+		<button label="TUNER" span="4">0x1D8113F 0x38C7</button>
+		<button label="VIDEO" span="4">0x1D8113F 0xB847</button>
+		<button label="CD" span="4">0x1D8113F 0xF807</button>
+		
+		<button label="(dwn)" span="4">0x1D8113F 0xC23D</button>
+		<button label=" (dir)" span="4">0x1D8113F 0x02FD</button>
+		<button label="(up)" span="4">0x1D8113F 0x42BD</button>
+		
+		<button label="(mute)" span="4">0x1D8113F 0xA25D</button>
+		<button label="(clr)" span="4">0x1D8113F 0x827D</button>
+		<button label="(set)" span="4">0x1D8113F 0x22DD</button>
+		
+		<button label="GEQ" span="4">0x1D8113F 0x926D</button>
+		<button label="TBASS" span="4">0x1D8113F 0xE21D</button>
+		<button label="BBE" span="4">0x1D8113F 0x12ED</button>
+	
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x1D8113F 0x00FF</button>
+		<button label="VOL-" span="4">0x1D8113F 0x728D</button>
+		<button label="VOL+" span="4">0x1D8113F 0xB24D</button>
+	</device>
+</irplus>

@@ -1,0 +1,37 @@
+<irplus>
+    <device manufacturer="HP" model="RC1762308-01B" columns="12" format="WINLIRC_RC6" bits="37" frequency="36000" toggle-bit-type="mce"
+        toggle-bit-pos="21" gap-pulse="1" gap-space="72382" one-pulse="467" one-space="412" zero-pulse="467" zero-space="412" header-pulse="2780" header-space="893">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x37FF07BF3</button>
+        <button label="DVD" span="4">0x37FF07BDB</button>
+        <button label="CHECK" span="4">0x37FF07B7F</button>
+
+        <button label="ASPECT" span="6">0x37FF07B7E</button>
+        <button label="" span="6">0x37FF07BF2</button>
+
+        <button label="UP" span="4">0x37FF07BE4</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x37FF07BE6</button>
+        <button label="DN" span="4">0x37FF07BE5</button>
+
+        <button label="&#xf04a;" span="4">0x37FF07BEA</button>
+        <button label="&#xf04b;/&#xf04c;" span="4">0x37FF07B91</button>
+        <button label="&#xf04e;" span="4">0x37FF07BEB</button>
+
+        <button label="PREV" span="4">0x37FF07BED</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0x37FF07BE1</button>
+        <button label="NEXT" span="4">0x37FF07BEC</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x37FF07BDF</button>
+        <button label="OK" span="4">0x37FF07BDD</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x37FF07BDE</button>
+
+        <button label="BACK" span="4">0x37FF07BDC</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x37FF07BE0</button>
+        <button label="INFO" span="4">0x37FF07BF0</button>
+
+        <button label="VOL-" span="4">0x37FF07BEE</button>
+        <button label="VOL+" span="4">0x37FF07BEF</button>
+        <button label="&#xFF581;" span="4">0x37FF07BF1</button>
+
+    </device>
+</irplus>

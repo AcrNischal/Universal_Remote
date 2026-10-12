@@ -1,0 +1,35 @@
+<irplus>
+    <device manufacturer="LED" model="Various" columns="4" format="WINLIRC_NEC1">
+
+        <button label="+" labelSize="25.0">0x00ff 0x906f</button>
+        <button label="-" labelSize="25.0">0x00ff 0xb847</button>
+        <button label="OFF" labelSize="25.0" backgroundColor="8A8A8A8A">0x00ff 0xf807</button>
+        <button label="ON" labelSize="25.0" backgroundColor="8A8A8A8A">0x00ff 0xb04f</button>
+
+        <button label="R" labelSize="25.0" backgroundColor="FFC84334">0x00ff 0x9867</button>
+        <button label="G" labelSize="25.0" backgroundColor="FF1E7854">0x00ff 0xd827</button>
+        <button label="B" labelSize="25.0" backgroundColor="FF2A4C94">0x00ff 0x8877</button>
+        <button label="W" labelSize="25.0" labelColor="FF000000" backgroundColor="FFFFFFFF">0x00ff 0xa857</button>
+
+        <button label="." labelSize="25.0" fillColor="FFFF6600">0x00ff 0xe817</button>
+        <button label="." labelSize="25.0" fillColor="FF00FF99">0x00ff 0x48b7</button>
+        <button label="." labelSize="25.0" fillColor="FF0066FF">0x00ff 0x6897</button>
+        <button label="Flash" labelSize="18.0" backgroundColor="8A8A8A8A">0x00ff 0xb24d</button>
+
+        <button label="." labelSize="25.0" fillColor="FFFF9900">0x00ff 0x02fd</button>
+        <button label="." labelSize="25.0" fillColor="FF00FFCC">0x00ff 0x32cd</button>
+        <button label="." labelSize="25.0" fillColor="FF6666FF">0x00ff 0x20df</button>
+        <button label="Strobe" labelSize="18.0" backgroundColor="8A8A8A8A">0x00ff 0x00ff</button>
+
+        <button label="." labelSize="25.0" fillColor="FFFFCC00">0x00ff 0x50af</button>
+        <button label="." labelSize="25.0" fillColor="FF00FFFF">0x00ff 0x7887</button>
+        <button label="." labelSize="25.0" fillColor="FF9900FF">0x00ff 0x708f</button>
+        <button label="Fade" labelSize="18.0" backgroundColor="8A8A8A8A">0x00ff 0x58a7</button>
+
+        <button label="." labelSize="25.0" fillColor="FFD6A81F">0x00ff 0x38c7</button>
+        <button label="." labelSize="25.0" fillColor="FF33FFFF">0x00ff 0x28d7</button>
+        <button label="." labelSize="25.0" fillColor="FF9900CC">0x00ff 0xf00f</button>
+        <button label="RGB" labelSize="18.0" backgroundColor="8A8A8A8A">0x00ff 0x30cf</button>
+
+    </device>
+</irplus>

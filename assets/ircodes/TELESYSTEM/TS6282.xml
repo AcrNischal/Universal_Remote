@@ -1,0 +1,60 @@
+<irplus>
+	<device manufacturer="TELESYSTEM" model="TS6282" columns="12" format="WINLIRC_NEC1" one-space="1578" one-pulse="652" zero-pulse="652" zero-space="466"
+		header-pulse="9086" header-space="4384" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x977B 0x0FF0</button>
+		<button label="MENU" span="4">0x977B 0x5DA2</button>
+		<button label="EXIT" span="4">0x977B 0xDD22</button>
+		
+		<button label="AUDIO" span="3">0x977B 0x35CA</button>
+		<button label="FAV" span="3">0x977B 0x4FB0</button>
+		<button label="INFO" span="3">0x977B 0x55AA</button>
+		<button label="GUIDE" span="3">0x977B 0x6798</button>
+		
+		<button label="CH+" span="4">0x977B 0x0DF2</button>
+		<button label="&#xf077;" span="4">0x977B 0x9D62</button>
+		<button label="VOL+" span="4">0x977B 0x2FD0</button>
+		
+		<button label="&#xf053;" span="4">0x977B 0x6D92</button>
+		<button label="OK" span="4">0x977B 0xED12</button>
+		<button label="&#xf054;" span="4">0x977B 0x2DD2</button>
+		
+		<button label="CH-" span="4">0x977B 0x8D72</button>
+		<button label="&#xf078;" span="4">0x977B 0xE51A</button>
+		<button label="VOL-" span="4">0x977B 0x17E8</button>
+		
+		<button label="&#xFF581;" span="4">0x977B 0xAD52</button>
+		<button label="LIST" span="4">0x977B 0x758A</button>
+		<button label="&#xf0e2;" alt="RECALL" span="4">0x977B 0x9768</button>
+		
+		<button label="&#xf04a;" span="4">0x977B 0x4FB0</button>
+		<button label="&#xf04b;" span="4">0x977B 0xA55A</button>
+		<button label="&#xf04e;" span="4">0x977B 0xD728</button>
+		
+		<button label="&#xf111;" labelColor="FFC84334" span="4">0x977B 0x9F60</button>
+		<button label="&#xf04c;" span="4">0x977B 0xA55A</button>
+		<button label="&#xf04d;" span="4">0x977B 0x1FE0</button>
+		
+		<button label="1" span="4">0x977B 0x4DB2</button>
+		<button label="2" span="4">0x977B 0x659A</button>
+		<button label="3" span="4">0x977B 0xE718</button>
+		
+		<button label="4" span="4">0x977B 0xCD32</button>
+		<button label="5" span="4">0x977B 0x15EA</button>
+		<button label="6" span="4">0x977B 0x57A8</button>
+		
+		<button label="7" span="4">0x977B 0xF708</button>
+		<button label="8" span="4">0x977B 0x1DE2</button>
+		<button label="9" span="4">0x977B 0xCF30</button>
+		
+		<button label="SUBTITLE" span="4">0x977B 0xB54A</button>
+		<button label="0" span="4">0x977B 0x7788</button>
+		<button label="TIMESHIFT" span="4">0x977B 0xEF10</button>
+		
+		<button label="R" fillColor="FFC84334" span="3">0x977B 0x35CA</button>
+		<button label="G" fillColor="FF1E7854" span="3">0x977B 0xB54A</button>
+		<button label="Y" fillColor="FFD6A81F" span="3">0x977B 0x758A</button>
+		<button label="B" fillColor="FF2A4C94" span="3">0x977B 0xEF10</button>
+
+	</device>
+</irplus>

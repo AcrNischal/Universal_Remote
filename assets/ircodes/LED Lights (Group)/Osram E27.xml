@@ -1,0 +1,21 @@
+<irplus>
+    <device manufacturer="LED Lights" model="OSRAM E27" columns="12" format="WINLIRC_NEC1">
+        <button label="&#61457;" span="4" labelSize="25.0" backgroundColor="FFC84334">0x00ff 0xa857</button>
+        <button label="-" span="4" labelSize="25.0">0x00ff 0xa25d</button>
+        <button label="+" span="4" labelSize="25.0">0x00ff 0xe21d</button>
+
+        <button label="R" span="3" labelSize="25.0" backgroundColor="FFC84334">0x00ff 0x906f</button>
+        <button label="G" span="3" labelSize="25.0" backgroundColor="FF1E7854">0x00ff 0xe01f</button>
+        <button label="B" span="3" labelSize="25.0" backgroundColor="FF2A4C94">0x00ff 0x9867</button>
+        <button label="Y" span="3" labelSize="25.0" backgroundColor="FFFF9900">0x00ff 0x02fd</button>
+
+        <button label="W" span="4" labelSize="25.0" labelColor="FF000000" backgroundColor="FFFFFFFF">0x00ff 0x7a85</button>
+        <button label="Sleep" span="4" labelSize="18.0" backgroundColor="8A8A8A8A">0x00ff 0x38c7</button>
+        <button label="Strobe" span="4" labelSize="18.0" backgroundColor="8A8A8A8A">0x00ff 0x30cf</button>
+
+        <button label="Fade1" span="4" labelSize="18.0" backgroundColor="8A8A8A8A">0x00ff 0x18e7</button>
+        <button label="Fade2" span="4" labelSize="18.0" backgroundColor="8A8A8A8A">0x00ff 0x10ef</button>
+        <button label="RGB" span="4" labelSize="18.0" backgroundColor="8A8A8A8A">0x00ff 0x5aa5</button>
+    </device>
+</irplus>
+

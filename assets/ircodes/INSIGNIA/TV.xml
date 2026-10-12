@@ -1,0 +1,57 @@
+<irplus>
+	<device manufacturer="INSIGNIA" model="TV" columns="12" format="WINLIRC_NEC1" one-space="1585" one-pulse="646" zero-pulse="646" zero-space="478" header-pulse="9077" header-space="4421" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" backgroundColor="FFC84334" span="3">0x61A0 0xF00F</button>
+		<button label="INPUT" span="3">0x61A0 0xB847</button>
+		<button label="MENU" span="3">0x61A0 0x28D7</button>
+		<button label="EXIT" span="3">0x61A0 0xD827</button>
+		
+		<button label="ASPECT" span="4">0x61A0 0x22DD</button>
+		<button label="AUDIO" span="4">0x61A0 0x12ED</button>
+		<button label="INFO" span="4">0x61A0 0xE817</button>
+		
+		<button label="CCD" span="4">0x61A0 0x38C7</button>
+		<button label="FAV" span="4">0x61A0 0xD22D</button>
+		<button label="HOME" span="4">0x61A0 0x9D62</button>
+		
+		<button label="VOL+" span="4">0x61A0 0x30CF</button>
+		<button label="&#xf0d8;" backgroundColor="FFAAAAAA" span="4">0x61A0 0x42BD</button>
+		<button label="CH+" span="4">0x61A0 0x50AF</button>
+		
+		<button label="&#xf0d9;" backgroundColor="FFAAAAAA" span="4">0x61A0 0x6897</button>
+		<button label="OK" backgroundColor="FFAAAAAA" span="4">0x61A0 0x18E7</button>
+		<button label="&#xf0da;" backgroundColor="FFAAAAAA" span="4">0x61A0 0xA857</button>
+		
+		<button label="VOL-" span="4">0x61A0 0xB04F</button>
+		<button label="&#xf0d7;" backgroundColor="FFAAAAAA" span="4">0x61A0 0xC23D</button>
+		<button label="CH-" span="4">0x61A0 0xD02F</button>
+		
+		<button label="&#xFF581;" span="4">0x61A0 0x708F</button>
+		<button label="&#xf0e2;" alt="RECALL" span="4">0x61A0 0x08F7</button>
+		<button label="SLEEP" span="4">0x61A0 0xC837</button>
+		
+		<button label="HDMI1" span="4">0x61A0 0x45BA</button>
+		<button label="HDMI2" span="4">0x61A0 0xC53A</button>
+		<button label="HDMI3" span="4">0x61A0 0x25DA</button>
+		
+		<button label="IN-TV" span="4">0x61A0 0xF20D</button>
+		<button label="VGA" span="4">0x61A0 0x728D</button>
+		<button label="VIDEO" span="4">0x61A0 0x32CD</button>
+		
+		<button label="1" span="4">0x61A0 0x00FF</button>
+		<button label="2" span="4">0x61A0 0x807F</button>
+		<button label="3" span="4">0x61A0 0x40BF</button>
+		
+		<button label="4" span="4">0x61A0 0xC03F</button>
+		<button label="5" span="4">0x61A0 0x20DF</button>
+		<button label="6" span="4">0x61A0 0xA05F</button>
+		
+		<button label="7" span="4">0x61A0 0x609F</button>
+		<button label="8" span="4">0x61A0 0xE01F</button>
+		<button label="9" span="4">0x61A0 0x10EF</button>
+		
+		<button label="PICT" span="4">0x61A0 0x926D</button>
+		<button label="0" span="4">0x61A0 0x906F</button>
+		<button label="MTS" span="4">0x61A0 0x8877</button>
+	</device>
+</irplus>

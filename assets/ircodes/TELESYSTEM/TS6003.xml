@@ -1,0 +1,40 @@
+<irplus>
+    <device manufacturer="TELESYSTEM" model="TS6003" columns="3" format="WINLIRC_NEC1" one-space="1578" one-pulse="652" zero-pulse="652" zero-space="466" header-pulse="9086" header-space="4384" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" backgroundColor="FFC84334">0x10EF 0xD02F</button>
+        <button label="MENU">0x10EF 0x00FF</button>
+        <button label="EXIT">0x10EF 0x38C7</button>
+
+        <button label="1">0x10EF 0x827D</button>
+        <button label="2">0x10EF 0x926D</button>
+        <button label="3">0x10EF 0x9A65</button>
+
+        <button label="4">0x10EF 0x42BD</button>
+        <button label="5">0x10EF 0x52AD</button>
+        <button label="6">0x10EF 0x5AA5</button>
+
+        <button label="7">0x10EF 0x02FD</button>
+        <button label="8">0x10EF 0x12ED</button>
+        <button label="9">0x10EF 0x1AE5</button>
+
+        <button label="&#xFF581;">0x10EF 0xBA45</button>
+        <button label="0">0x10EF 0x3AC5</button>
+        <button label="-">0x10EF 0x7A85</button>
+
+        <button label="VOL+">0x10EF 0xF807</button>
+        <button label="&#xf0d8;">0x10EF 0xD827</button>
+        <button label="CH+">0x10EF 0xD827</button>
+
+        <button label="&#xf0d9;">0x10EF 0x40BF</button>
+        <button label="OK">0x10EF 0x58A7</button>
+        <button label="&#xf0da;">0x10EF 0x7887</button>
+
+        <button label="VOL-">0x10EF 0xB847</button>
+        <button label="&#xf0d7;">0x10EF 0x9867</button>
+        <button label="CH-">0x10EF 0x9867</button>
+
+        <button label="F1">0x10EF 0x6897</button>
+        <button label="F2">0x10EF 0x8877</button>
+        <button label="F3">0x10EF 0x8877</button>
+    </device>
+</irplus>

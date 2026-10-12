@@ -1,0 +1,35 @@
+<irplus>
+	<device manufacturer="LIVARNO" model="LuxLedRopeLight" columns="4" format="WINLIRC_NEC1">
+
+		<button label="+">0x00ff 0x01FE</button>
+		<button label="-">0x00ff 0x817E</button>
+		<button label="OFF" backgroundColor="8A8A8A8A">0x00ff 0x41BE</button>
+		<button label="ON" backgroundColor="8A8A8A8A">0x00ff 0xC13E</button>
+
+		<button label="R" backgroundColor="FFC84334">0x00ff 0x21DE</button>
+		<button label="G" backgroundColor="FF1E7854">0x00ff 0xA15E</button>
+		<button label="B" backgroundColor="FF2A4C94">0x00ff 0x619E</button>
+		<button label="W" labelColor="FF000000" backgroundColor="FFFFFFFF">0x00ff 0xE11E</button>
+
+		<button label="R1" fillColor="FFFF6600">0x00ff 0x11EE</button>
+		<button label="G1" fillColor="FF00FF99">0x00ff 0x916E</button>
+		<button label="B1" fillColor="FF0066FF">0x00ff 0x51AE</button>
+		<button label="Flash" backgroundColor="8A8A8A8A">0x00ff 0xD12E</button>
+
+		<button label="R2" fillColor="FFFF9900">0x00ff 0x31CE</button>
+		<button label="G2" fillColor="FF00FFCC">0x00ff 0xB14E</button>
+		<button label="B2" fillColor="FF6666FF">0x00ff 0x718E</button>
+		<button label="Strobe" backgroundColor="8A8A8A8A">0x00ff 0xF10E</button>
+
+		<button label="R3" fillColor="FFFFCC00">0x00ff 0x09F6</button>
+		<button label="G3" fillColor="FF00FFFF">0x00ff 0x8976</button>
+		<button label="B3" fillColor="FF9900FF">0x00ff 0x49B6</button>
+		<button label="Fade" backgroundColor="8A8A8A8A">0x00ff 0xC936</button>
+
+		<button label="R4" fillColor="FFD6A81F">0x00ff 0x29D6</button>
+		<button label="G4" fillColor="FF33FFFF">0x00ff 0xA956</button>
+		<button label="B4" fillColor="FF9900CC">0x00ff 0x6996</button>
+		<button label="Smooth" backgroundColor="8A8A8A8A">0x00ff 0xE916</button>
+
+	</device>
+</irplus>

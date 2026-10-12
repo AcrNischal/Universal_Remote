@@ -1,0 +1,62 @@
+<irplus>
+    <device manufacturer="AZ AMERICA" model="F92 Net" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="6">0x207F 0x50AF</button>
+        <button label="MUTE" span="6">0x207F 0x30CF</button>
+
+        <button label="SLEEP" span="4">0x207F 0x7887</button>
+        <button label="TV/RADIO" span="4">0x207F 0x58A7</button>
+        <button label="RESOLUTION" span="4">0x207F 0xF00F</button>
+
+        <button label="1" span="4">0x207F 0x8877</button>
+        <button label="2" span="4">0x207F 0x48B7</button>
+        <button label="3" span="4">0x207F 0xC837</button>
+
+        <button label="4" span="4">0x207F 0x28D7</button>
+        <button label="5" span="4">0x207F 0xA857</button>
+        <button label="6" span="4">0x207F 0x6897</button>
+
+        <button label="7" span="4">0x207F 0xE817</button>
+        <button label="8" span="4">0x207F 0x18E7</button>
+        <button label="9" span="4">0x207F 0x9867</button>
+
+        <button label="PAGE+" span="4">0x207F 0xC23D</button>
+        <button label="0" span="4">0x207F 0x08F7</button>
+        <button label="PAGE-" span="4">0x207F 0x22DD</button>
+
+        <button label="MENU" span="4">0x207F 0x20DF</button>
+        <button label="CH+" span="4">0x207F 0x00FF</button>
+        <button label="EXIT" span="4">0x207F 0x38C7</button>
+
+        <button label="VOL+" span="4">0x207F 0x40BF</button>
+        <button label="OK" span="4">0x207F 0x0000</button>
+        <button label="VOL-" span="4">0x207F 0xC03F</button>
+
+        <button label="FAV" span="4">0x207F 0x827D</button>
+        <button label="CH-" span="4">0x207F 0x807F</button>
+        <button label="RECALL" span="4">0x207F 0x906F</button>
+
+        <button label="R" backgroundColor="FFC84334" alt="RED" span="3">0x207F 0x52AD</button>
+        <button label="G" backgroundColor="FF29A58B" alt="GREEN" span="3">0x207F 0x52AD</button>
+        <button label="Y" backgroundColor="FFF2B731" alt="YELLOW" span="3">0x207F 0x926D</button>
+        <button label="B" backgroundColor="FF2766DC" alt="BLUE" span="3">0x207F 0x12ED</button>
+
+        <button label="INFO" span="4">0x207F 0x609F</button>
+        <button label="EPG" span="4">0x207F 0x10EF</button>
+        <button label="P.LIST" span="4">0x207F 0x02FD</button>
+
+        <button label="SUBTITLE" span="4">0x207F 0xD02F</button>
+        <button label="TELETEXT" span="4">0x207F 0xB04F</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x207F 0xE01F</button>
+
+        <button label="PREV" span="3">0x207F 0x0AF5</button>
+        <button label="NEXT" span="3">0x207F 0x32CD</button>
+        <button label="REW" span="3">0x207F 0x1AE5</button>
+        <button label="FWD" span="3">0x207F 0x3AC5</button>
+
+        <button label="&#xf111;" alt="REC" span="4">0x207F 0x6A95</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0x207F 0xAA55</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x207F 0x2AD5</button>
+
+    </device>
+</irplus>

@@ -1,0 +1,36 @@
+<irplus>
+    <device manufacturer="UMC" model="TV" columns="12" format="WINLIRC_NEC1">
+        
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x02fd 0x20df</button>
+        <button label="INPUT" span="4">0x02fd 0xa25d</button>
+        <button label="&#xFF581;" span="4">0x02fd 0xa857</button>
+        
+        <button label="MENU" span="6">0x02fd 0x8877</button>
+        <button label="INFO" span="6">0x02fd 0x629d</button>
+        
+        <button label="CH+" span="4">0x02fd 0xe817</button>
+        <button label="&#xf0d8;" span="4">0x02fd 0xe817</button>
+        <button label="VOL+" span="4">0x02fd 0xa05f</button>
+        
+        <button label="&#xf0d9;" span="6">0x02fd 0x50af</button>
+        <button label="&#xf0da;" span="6">0x02fd 0xa05f</button>
+
+        <button label="CH-" span="4">0x02fd 0xd02f</button>
+        <button label="&#xf0d7;" span="4">0x02fd 0xd02f</button>
+        <button label="VOL-" span="4">0x02fd 0x50af</button>
+
+        <button label="1" span="4">0x02fd 0xd22d</button>
+        <button label="2" span="4">0x02fd 0xd827</button>
+        <button label="3" span="4">0x02fd 0x7a85</button>
+        <button label="4" span="4">0x02fd 0x10ef</button>
+        <button label="5" span="4">0x02fd 0x42bd</button>
+        <button label="6" span="4">0x02fd 0x00ff</button>
+        <button label="7" span="4">0x02fd 0xf00f</button>
+        <button label="8" span="4">0x02fd 0x7887</button>
+        <button label="9" span="4">0x02fd 0xb847</button>
+
+        <button label="&#xf0e2;" alt="RECALL" span="4">0x02fd 0xb04f</button>
+        <button label="0" span="4">0x02fd 0x38c7</button>
+        <space multiple="4"/>
+    </device>
+</irplus>

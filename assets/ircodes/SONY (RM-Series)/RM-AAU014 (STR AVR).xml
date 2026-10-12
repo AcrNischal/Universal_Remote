@@ -1,0 +1,54 @@
+<irplus>
+	<device manufacturer="SONY" model="RM-AAU014" columns="12" format="WINLIRC_SPACEENC" frequency="40000"
+		bits="15" pre-bits="15" gap-pulse="1" gap-space="40006" one-pulse="1291" one-space="502" 
+		zero-pulse="693" zero-space="502" header-pulse="2486" header-space="498" repeat="3">
+
+		<button label="SLEEP" span="4">0x030C</button>
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x540C</button>
+		<button label="AMPMENU" span="4">0x770D</button>
+
+		<button label="VIDEO1" span="3">0x220C</button>
+		<button label="VIDEO2" span="3">0x3C0C</button>
+		<button label="VIDEO3" span="3">0x210C</button>
+		<button label="DVD" span="3">0x5F0C</button>
+
+		<button label="SAT" span="3">0x600D</button>
+		<button label="TV" span="3">0x2B0C</button>
+		<button label="SA CD" span="3">0x520C</button>
+		<button label="TUNER" span="3">0x420C</button>
+
+		<button label="2CH" span="3">0x410D</button>
+		<button label="AFD" span="3">0x210D</button>
+		<button label="MOVIE" span="3">0x610D</button>
+		<button label="MUSIC" span="3">0x490D</button>
+
+		<button label="1" span="4">0x000C</button>
+		<button label="2" span="4">0x400C</button>
+		<button label="3" span="4">0x200C</button>
+		
+		<button label="4" span="4">0x600C</button>
+		<button label="5" span="4">0x100C</button>
+		<button label="6" span="4">0x500C</button>
+
+		<button label="7" span="4">0x300C</button>
+		<button label="8" span="4">0x700C</button>
+		<button label="9" span="4">0x080C</button>
+
+		<button label="VOL-" span="4">0x640C</button>
+		<button label="0" span="4">0x480C</button>
+		<button label="VOL+" span="4">0x240C</button>
+
+		<button label="MUTING" span="4">0x140C</button>
+		<button label="&#xf0d8;" span="4">0x0F0D</button>
+		<button label="DISPLAY" span="4">0x690C</button>
+
+		<button label="&#xf0d9;" span="4">0x2F0D</button>
+		<button label="SELECT" span="4">0x180C</button>
+		<button label="&#xf0da;" span="4">0x6F0D</button>
+
+		<button label="DVDMENU" span="4">0x5A0D</button>
+		<button label="&#xf0d7;" span="4">0x4F0D</button>
+		<space multiple="4"/>
+
+	</device>
+ </irplus>

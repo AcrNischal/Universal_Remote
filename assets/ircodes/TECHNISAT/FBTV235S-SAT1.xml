@@ -1,0 +1,59 @@
+<irplus>
+    <device manufacturer="TECHNISAT" model="FBTV235S-SAT1" columns="12" format="WINLIRC_RC5" bits="13" pre-bits="13" toggle-bit-pos="2" frequency="36000">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="6">0x120c</button>
+        <button label="&#xFF581;" span="6">0x120d</button>
+
+        <button label="1" span="4">0x1201</button>
+        <button label="2" span="4">0x1202</button>
+        <button label="3" span="4">0x1203</button>
+
+        <button label="4" span="4">0x1204</button>
+        <button label="5" span="4">0x1205</button>
+        <button label="6" span="4">0x1206</button>
+
+        <button label="7" span="4">0x1207</button>
+        <button label="8" span="4">0x1208</button>
+        <button label="9" span="4">0x1209</button>
+
+        <button label="&#xf111;" alt="RECORD" labelColor="FFC84334" span="4">0x1237</button>
+        <button label="0" span="4">0x1200</button>
+        <button label="OPT" span="4">0x120a</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x022b</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x022c</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x022d</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x022e</button>
+
+        <space multiple="4"/>
+        <button label="&#xf0d8;" alt="UP" span="4">0x0210</button>
+        <space multiple="4"/>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x0215</button>
+        <button label="OK" span="4">0x0217</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x0216</button>
+
+        <space multiple="4"/>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x0211</button>
+        <space multiple="4"/>
+
+        <button label="SFI" span="4">0x122f</button>
+        <button label="EXIT" span="4">0x1222</button>
+        <button label="INFO" span="4">0x020f</button>
+
+        <button label="PR+" span="4">0x1220</button>
+        <button label="TV/R" span="4">0x0213</button>
+        <button label="VOL+" span="4">0x1210</button>
+
+        <button label="PR-" span="4">0x1221</button>
+        <button label="MENU" span="4">0x0212</button>
+        <button label="VOL-" span="4">0x1211</button>
+
+        <button label="STILL" span="4">0x1229</button>
+        <button label="PIP" span="4">0x0218</button>
+        <button label="SOUND" span="4">0x1223</button>
+
+        <button label="TEXT" span="6">0x123c</button>
+        <button label="SLEEP" span="6">0x1226</button>
+    </device>
+</irplus>

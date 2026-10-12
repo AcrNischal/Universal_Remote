@@ -1,0 +1,13 @@
+<irplus>
+    <device manufacturer="AMC" model="Xia50" columns="16" format="WINLIRC_NEC1">
+
+        <button label="Phono" span="4">0xE03F 0x936C</button>
+        <button label="CD" span="4">0xE03F 0x837C</button>
+        <button label="Tuner" span="4">0xE03F 0x03fc</button>
+        <button label="AUX" span="4">0xE03F 0x53AC</button>
+
+        <button label="VOL-" span="8">0xe03f 0x9B64</button>
+        <button label="VOL+" span="8">0xe03f 0x1BE4</button>
+
+    </device>
+</irplus>

@@ -1,0 +1,35 @@
+<irplus>
+    <device manufacturer="NAD" model="RC512" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16" gap-pulse="599" gap-space="107755"
+        one-pulse="633" one-space="1617" zero-pulse="633" zero-space="485" header-pulse="9108" header-space="4293">
+
+        <button label="STOP" span="4">0xE13E 0x40BF</button>
+        <button label="PLAY PAUSE" span="4">0xE13E 0x807F</button>
+        <button label="RANDOM" span="4">0xE13E 0xC03F</button>
+
+        <button label="TIME" span="4">0xE13E 0x10EF</button>
+        <button label="&#xf052;" alt="EJECT" span="4">0xE13E 0x12ED</button>
+        <button label="REPEAT" span="4">0xE13E 0x50AF</button>
+
+        <button label="1" span="4">0xE13E 0x30CF</button>
+        <button label="2" span="4">0xE13E 0xB04F</button>
+        <button label="3" span="4">0xE13E 0x708F</button>
+
+        <button label="4" span="4">0xE13E 0xF00F</button>
+        <button label="5" span="4">0xE13E 0x08F7</button>
+        <button label="6" span="4">0xE13E 0x8877</button>
+
+        <button label="7" span="4">0xE13E 0x48B7</button>
+        <button label="8" span="4">0xE13E 0xC837</button>
+        <button label="9" span="4">0xE13E 0xA857</button>
+
+        <button label="10" span="4">0xE13E 0x32CD</button>
+        <button label="ADD10" span="4">0xE13E 0xB24D</button>
+        <button label="PROGRAM" span="4">0xE13E 0xD02F</button>
+
+        <button label="SKIP-" span="6">0xE13E 0xA05F</button>
+        <button label="SKIP+" span="6">0xE13E 0x609F</button>
+
+        <button label="SCAN-" span="6">0xE13E 0x20DF</button>
+        <button label="SCAN+" span="6">0xE13E 0xE01F</button>
+    </device>
+</irplus>

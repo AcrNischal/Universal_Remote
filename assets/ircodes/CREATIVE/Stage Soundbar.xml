@@ -1,0 +1,29 @@
+<irplus>
+    <device manufacturer="CREATIVE" model="Stage Soundbar" columns="12" format="WINLIRC_NEC1">
+        <button label="&#xf011;" backgroundColor="FFC84334" span="4">0x04FB 0x906F</button>
+        <button label="EQ MUSIC" span="4">0x04FB 0xB847</button>
+        <button label="BT/USB &#xf04d;" span="4">0x04FB 0xF807</button>
+
+        <button label="INPUT" span="4">0x04FB 0xB04F</button>
+        <button label="EQ CINEMA" span="4">0x04FB 0x9867</button>
+        <button label="&#xf04b; &#xf04c;" span="4">0x04FB 0xD827</button>
+
+        <button label="RESET" span="4">0x04FB 0x8877</button>
+        <button label="EQ CONCERT" span="4">0x04FB 0xA857</button>
+        <button label="&#xf050;" alt="NEXT" span="4">0x04FB 0xE817</button>
+
+        <button label="BT PAIR" span="4">0x04FB 0x807F</button>
+        <button label="GAMING" span="4">0x04FB 0x48B7</button>
+        <button label="&#xf049;" alt="PREV" span="4">0x04FB 0xF00F</button>
+
+        <button label="TREBLE-" span="6">0x04FB 0xC03F</button>
+        <button label="TREBLE+" span="6">0x04FB 0x00FF</button>
+
+        <button label="BASS-" span="6">0x04FB 0x58A7</button>
+        <button label="BASS+" span="6">0x04FB 0x708F</button>
+
+        <button label="VOL-" span="4">0x04FB 0xE01F</button>
+        <button label="MUTE" span="4">0x04FB 0x7887</button>
+        <button label="VOL+" span="4">0x04FB 0x609F</button>
+    </device>
+</irplus>

@@ -1,0 +1,29 @@
+<irplus>
+    <device manufacturer="TOPPING" model="DX7" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0x8877 0x18E7</button>
+        <button label="MUTE" span="6">0x8877 0x06f9</button>
+
+        <space multiple="4"/>
+        <button label="+" span="4">0x8877 0x46b9</button>
+        <space multiple="4"/>
+
+        <button label="&#xf0d9;" span="4">0x8877 0x47b8</button>
+        <button label="HP+LINEOUT" span="4">0x8877 0x55aa</button>
+        <button label="&#xf0da;" span="4">0x8877 0x15ea</button>
+
+        <space multiple="4"/>
+        <button label="-" span="4">0x8877 0x16e9</button>
+        <space multiple="4"/>
+
+        <button label="HEADPHONE" span="6">0x8877 0x04fb</button>
+        <button label="LINE-OUT" span="6">0x8877 0x40bf</button>
+
+        <button label="FIR" span="6">0x8877 0x54ab</button>
+        <button label="IIR" span="6">0x8877 0x50af</button>
+
+        <button label="AUTO" span="6">0x8877 0x10ef</button>
+        <button label="DISPLAY" span="6">0x8877 0x14eb</button>
+
+    </device>
+</irplus>

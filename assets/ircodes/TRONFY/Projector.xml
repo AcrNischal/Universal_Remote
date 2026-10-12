@@ -1,0 +1,34 @@
+<irplus>
+    <device manufacturer="TRONFY" model="Projector" columns="30" format="WINLIRC_NEC1" one-pulse="585" one-space="1662" zero-pulse="585" zero-space="538" header-pulse="9024" header-space="4462" bits="16" pre-bits="16">
+        <button label="MUTE" labelSize="18.0" span="15">0x40BF 0x40BF</button>
+        <button label="&#61457;" labelSize="25.0" span="15" backgroundColor="FFC84334">0x40BF 0xB847</button>
+
+        <button label="MENU" labelSize="18.0" span="10">0x40BF 0x7887</button>
+        <button label="INPUT" labelSize="18.0" span="10">0x40BF 0xf807</button>
+        <button label="PLAY/PAUSE" labelSize="25.0" span="10">0x40BF 0x9867</button>
+
+        <button label="FAST-REWIND" labelSize="9.0" span="8">0x40BF 0x609F</button>
+        <button label="REWIND" labelSize="9.0" span="7">0x40BF 0xE01F</button>
+        <button label="FORWARD" labelSize="9.0" span="7">0x40BF 0xA05F</button>
+        <button label="FAST-FORWARD" labelSize="9.0" span="8">0x40BF 0x20DF</button>
+
+        <button label="&#61656;" labelSize="25.0" span="30">0x40BF 0x906F</button>
+
+        <button label="&#61657;" labelSize="25.0" span="10">0x40BF 0x50AF</button>
+        <button label="OK" labelSize="25.0" span="10">0x40BF 0xD02F</button>
+        <button label="&#61658;" labelSize="25.0" span="10">0x40BF 0x10EF</button>
+
+        <button label="&#61655;" labelSize="25.0" span="30">0x40BF 0x807F</button>
+
+        <button label="VOL+" labelSize="18.0" span="15">0x40BF 0x8877</button>
+        <button label="VOL-" labelSize="18.0" span="15">0x40BF 0xA857</button>
+
+        <button label="ESC" labelSize="18.0" span="10">0x40BF 0xB04F</button>
+        <button label="PIC" labelSize="25.0" span="10">0x40BF 0x5AA5</button>
+        <button label="ZOOM" labelSize="25.0" span="10">0x40BF 0x38C7</button>
+
+        <button label="TURN" labelSize="25.0" span="10">0x40BF 0x32CD</button>
+        <button label="INFO" labelSize="25.0" span="10">0x40BF 0x04FB</button>
+        <button label="REPEAT" labelSize="25.0" span="10">0x40BF 0x18E7</button>
+    </device>
+</irplus>

@@ -1,0 +1,55 @@
+<irplus>
+<device manufacturer="ORANGE" model="TVS70" columns="12" format="WINLIRC_NEC1" one-space="1642" one-pulse="578" zero-pulse="578" zero-space="524" header-pulse="9023" header-space="4442" bits="16" pre-bits="16">
+    
+    <button label="&#xf011;" backgroundColor="FFC84334" span="3">0x4FF 0xF00F</button>
+    <button label="&#xFF581;" span="3">0x4FF 0x708F</button>
+    <button label="MENU" span="3">0x4FF 0xC837</button>
+    <button label="EXIT" span="3">0x4FF 0x8877</button>
+
+    <button label="1" span="4">0x4FF 0x00FF</button>
+    <button label="2" span="4">0x4FF 0x807F</button>
+    <button label="3" span="4">0x4FF 0x40BF</button>
+
+    <button label="4" span="4">0x4FF 0xC03F</button>
+    <button label="5" span="4">0x4FF 0x20DF</button>
+    <button label="6" span="4">0x4FF 0xA05F</button>
+
+    <button label="7" span="4">0x4FF 0x609F</button>
+    <button label="8" span="4">0x4FF 0xE01F</button>
+    <button label="9" span="4">0x4FF 0x10EF</button>
+
+    <button label="Music/TV" span="4">0x4FF 0xD827</button>
+    <button label="0" span="4">0x4FF 0x906F</button>
+    <button label="CH-Return" span="4">0x4FF 0x58A7</button>
+    
+    <button label="VOL+" span="4">0x4FF 0x30CF</button>
+    <button label="&#xf0d8;" span="4">0x4FF 0x50AF</button>
+    <button label="CH+" span="4">0x4FF 0x50AF</button>
+
+    <button label="&#xf0d9;" span="4">0x4FF 0xB04F</button>
+    <button label="OK" span="4">0x4FF 0x9867</button>
+    <button label="&#xf0da;" span="4">0x4FF 0x30CF</button>
+
+    <button label="VOL-" span="4">0x4FF 0xB04F</button>
+    <button label="&#xf0d7;" span="4">0x4FF 0xD02F</button>
+    <button label="CH-" span="4">0x4FF 0xD02F</button>
+
+    <button label="PAGE+" span="4">0x4FF 0x08F7</button>
+    <button label="FAVORITES" span="4">0x4FF 0x28D7</button>
+    <button label="PAGE-" span="4">0x4FF 0xB847</button>
+
+    <button label="GUIDE" span="4">0x4FF 0x6897</button>
+    <button label="INFO" span="4">0x4FF 0x7887</button>
+    <button label="HELP" span="4">0x4FF 0x42BD</button>
+    
+    <button label="NTSC/PAL" span="3">0x4FF 0xA857</button>
+    <button label="PAUSE" span="3">0x4FF 0xE817</button>
+    <button label="AUDIO" span="3">0x4FF 0xF807</button>
+    <button label="SAT" span="3">0x4FF 0x48B7</button>
+    
+    <button label="F1" span="3">0x4FF 0x18E7</button>
+    <button label="F2" span="3">0x4FF 0x02FD</button>
+    <button label="F3" span="3">0x4FF 0x827D</button>
+    <button label="F4" span="3">0x4FF 0x38C7</button>
+</device>
+</irplus>

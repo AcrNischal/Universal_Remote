@@ -1,0 +1,25 @@
+<irplus>
+    <device manufacturer="NAD" model="D3020" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011; ON" alt="POWER" backgroundColor="FFC84334" span="6">0xe13e 0xa45b</button>
+        <button label="&#xf011; OFF" alt="POWER" backgroundColor="FFC84334" span="6">0xe13e 0x13ec</button>
+
+        <button label="AUX1" span="4">0xe13e 0xd926</button>
+        <button label="AUX2" span="4">0xe13e 0x03fc</button>
+        <button label="&#xf294;" span="4">0xe13e 0x43bc</button>
+
+        <button label="COAX1" span="6">0xe13e 0xa15e</button>
+        <button label="COMPUTER" span="6">0xe13e 0x8976</button>
+
+        <button label="OPTICAL1" span="6">0xe13e 0x916e</button>
+        <button label="OPTICAL2" span="6">0xe13e 0xb14e</button>
+
+        <button label="SOURCE-" span="6">0xe13e 0xb847</button>
+        <button label="SOURCE+" span="6">0xe13e 0x58a7</button>
+
+        <button label="VOL-" span="4">0xe13e 0x31ce</button>
+        <button label="&#xFF581;" span="4">0xe13e 0x29d6</button>
+        <button label="VOL+" span="4">0xe13e 0x11ee</button>
+
+    </device>
+</irplus>

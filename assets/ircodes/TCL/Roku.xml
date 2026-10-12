@@ -1,0 +1,29 @@
+<irplus>
+    <device manufacturer="TCL" model="Roku" columns="12" format="WINLIRC_NEC1" one-pulse="646" one-space="1585" zero-pulse="646" zero-space="478"
+        header-pulse="9077" header-space="4421" bits="16" pre-bits="16" repeatheader="false" frequency="38028" rowSplit="5">
+
+        <button label="&#61457;" labelSize="20.0" span="4" backgroundColor="FFCC0000">0x61A0 0xF00F</button>
+        <space multiple="8"/>
+
+        <button label="&#61478;" labelSize="20.0" span="4">0x61A0 0x708F</button>
+        <button label="&#61479;" labelSize="20.0" span="4">0x61A0 0xB04F</button>
+        <button label="&#61480;" labelSize="20.0" span="4">0x61A0 0x30CF</button>
+
+        <button label="&#61536;" labelSize="20.0" span="4">0x61A0 0xD827</button>
+        <button label="&#61702;" labelSize="20.0" span="4" backgroundColor="FF6600CC">0x61A0 0x42BD</button>
+        <button label="&#61461;" labelSize="20.0" span="4">0x61A0 0x9D62</button>
+
+        <button label="&#61700;" labelSize="20.0" span="4" backgroundColor="FF6600CC">0x61A0 0x6897</button>
+        <button label="OK" labelSize="20.0" span="4" backgroundColor="FF6600CC">0x61A0 0x18E7</button>
+        <button label="&#61701;" labelSize="20.0" span="4" backgroundColor="FF6600CC">0x61A0 0xA857</button>
+
+        <button label="&#61666;" labelSize="20.0" span="4">0x61A0 0x08F7</button>
+        <button label="&#61703;" labelSize="20.0" span="4" backgroundColor="FF6600CC">0x61A0 0xC23D</button>
+        <button label="&#61545;" labelSize="20.0" span="4">0x61A0 0xE817</button>
+
+        <button label="&#61514;" labelSize="20.0" span="4">0x61A0 0x7E81</button>
+        <button label="&#61516;" labelSize="20.0" span="4">0x61A0 0x0EF1</button>
+        <button label="&#61518;" labelSize="20.0" span="4">0x61A0 0xBE41</button>
+
+    </device>
+</irplus>

@@ -1,0 +1,10 @@
+<irplus>
+	<device manufacturer="BIONAIRE" model="BFH5000-UM" columns="1" format="WINLIRC_NEC1" one-space="1546" 
+	    one-pulse="687" zero-pulse="687" zero-space="435" header-pulse="9111" header-space="4373" bits="16" pre-bits="16">
+		<button label="&#xf011;" backgroundColor="FFC84334">0x3F 0x21DE</button>
+		<button label="FLAME">0x3F 0xE11E</button>
+		<button label="TEMP">0x3F 0x41BE</button>
+		<button label="SOUND">0x3F 0x01FE</button>
+		<button label="TIMER">0x3F 0x619E</button>
+	</device>
+</irplus>

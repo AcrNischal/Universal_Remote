@@ -1,0 +1,42 @@
+<irplus>
+    <device manufacturer="PIONEER" model="CU-A019" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011; CD/AMP" labelColor="FFC84334" span="3">0x45BA 0x38C7</button>
+        <button label="&#xf011; TUNER" labelColor="FFC84334" span="3">0x25DA 0x38C7</button>
+        <button label="&#xf011; TAPE" labelColor="FFC84334" span="3">0x857A 0x38C7</button>
+        <button label="TAPE SELECT" span="3">0x857A 0x32CD</button>
+        
+        <button label="DECK2 PLAY L" span="4">0x857A 0xA857</button>
+        <button label="DECK2 STOP" span="4">0x857A 0x6897</button>
+        <button label="DECK2 PLAY R" span="4">0x857A 0xE817</button>
+
+        <button label="DECK2 PREV" span="6">0x857A 0x8877</button>
+        <button label="DECK2 NEXT" span="6">0x857A 0x08F7</button>
+        
+        <button label="DECK1 PLAY L" span="4">0x857A 0xDA25</button>
+        <button label="DECK1 STOP" span="4">0x857A 0x3AC5</button>
+        <button label="DECK1 PLAY R" span="4">0x857A 0xBA45</button>
+
+        <button label="DECK1 PREV" span="6">0x857A 0xEA15</button>
+        <button label="DECK1 NEXT" span="6">0x857A 0x6A95</button>
+        
+        <button label="CD PREV" span="3">0x45BA 0x8877</button>
+        <button label="CD NEXT" span="3">0x45BA 0x08F7</button>
+        <button label="CD STOP" span="3">0x45BA 0x6897</button>
+        <button label="CD PLAY" span="3">0x45BA 0xE817</button>
+        
+        <button label="DISC SELECT" span="4">0x45BA 0xB847</button>
+        <button label="TUNER-" span="4">0x25DA 0x8877</button>
+        <button label="TUNER+" span="4">0x25DA 0x08F7</button>
+        
+        <button label="CD" span="3">0xA55A 0x32CD</button>
+        <button label="TUNER" span="3">0xA55A 0xE21D</button>
+        <button label="PHONO" span="3">0xA55A 0xB24D</button>
+        <button label="VOL+" span="3">0xA55A 0x50AF</button>
+        
+        <button label="TAPE1" span="3">0xA55A 0x728D</button>
+        <button label="TAPE2" span="3">0xA55A 0xB847</button>
+        <button label="LINE" span="3">0xA55A 0xF20D</button>
+        <button label="VOL-" span="3">0xA55A 0xD02F</button>
+    </device>
+</irplus>

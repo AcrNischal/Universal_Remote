@@ -1,0 +1,48 @@
+<irplus>
+    <device manufacturer="SAMSUNG" model="DTB-9500F" columns="3" format="WINLIRC_NEC1" one-space="1578" one-pulse="652" zero-pulse="652" zero-space="466" header-pulse="9086" header-space="4384" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" backgroundColor="FFC84334">0x3FC0 0x01FE</button>
+        <button label="&#xFF581;">0x3FC0 0xA15E</button>
+        <button label="EXIT">0x3FC0 0x9966</button>
+
+        <button label="1">0x3FC0 0x23DC</button>
+        <button label="2">0x3FC0 0xC33C</button>
+        <button label="3">0x3FC0 0x13EC</button>
+
+        <button label="4">0x3FC0 0x39C6</button>
+        <button label="5">0x3FC0 0x837C</button>
+        <button label="6">0x3FC0 0xE916</button>
+
+        <button label="7">0x3FC0 0xF10E</button>
+        <button label="8">0x3FC0 0x936C</button>
+        <button label="9">0x3FC0 0x6996</button>
+
+        <button label="MENU">0x3FC0 0x718E</button>
+        <button label="0">0x3FC0 0x03FC</button>
+        <button label="-">0x3FC0 0xC936</button>
+
+        <button label="CH+">0x3FC0 0xC13E</button>
+        <button label="&#xf0d8;">0x3FC0 0x59A6</button>
+        <button label="VOL+">0x3FC0 0xE11E</button>
+
+        <button label="&#xf0d9;">0x3FC0 0x8976</button>
+        <button label="OK">0x3FC0 0x11EE</button>
+        <button label="&#xf0da;">0x3FC0 0xB14E</button>
+
+        <button label="CH-">0x3FC0 0x619E</button>
+        <button label="&#xf0d7;">0x3FC0 0xD926</button>
+        <button label="VOL-">0x3FC0 0x51AE</button>
+
+        <button label="&#xf04d;" alt="STOP">0x3FC0 0x916E</button>
+        <button label="&#xf04b;" alt="PLAY">0x3FC0 0xA956</button>
+        <button label="&#xf111;" alt="REC">0x3FC0 0x29D6</button>
+
+        <button label="&#xf04a;" alt="REW">0x3FC0 0x21DE</button>
+        <button label="&#xf04c;" alt="PAUSE">0x3FC0 0x49B6</button>
+        <button label="&#xf04e;" alt="FWD">0x3FC0 0x09F6</button>
+
+        <button label="F1">0x3FC0 0x43BC</button>
+        <button label="F2">0x3FC0 0x639C</button>
+        <button label="F3">0x3FC0 0x639C</button>
+    </device>
+</irplus>

@@ -1,0 +1,37 @@
+<irplus>
+    <device manufacturer="JVC" model="RM-SX440" columns="12" format="WINLIRC_SPACEENC" bits="8" pre-bits="8"
+        gap-pulse="582" gap-space="46441" one-pulse="582" one-space="1528" zero-pulse="582" zero-space="473" repeat="3">
+
+        <button label="1" span="3">0xCD 0x86</button>
+        <button label="2" span="3">0xCD 0x46</button>
+        <button label="3" span="3">0xCD 0xC6</button>
+        <button label="RESERVE" span="3">0xCD 0x56</button>
+
+        <button label="4" span="3">0xCD 0x26</button>
+        <button label="5" span="3">0xCD 0xA6</button>
+        <button label="6" span="3">0xCD 0x66</button>
+        <button label="CANCEL" span="3">0xCD 0xB6</button>
+
+        <button label="7" span="3">0xCD 0xE6</button>
+        <button label="8" span="3">0xCD 0xE6</button>
+        <button label="9" span="3">0xCD 0x96</button>
+        <button label="REPEAT" span="3">0xCD 0xDA</button>
+
+        <button label="0" span="3">0xCD 0x06</button>
+        <space multiple="6"/>
+        <button label="&#xf052;" alt="EJECT" span="3">0xCD 0x22</button>
+        
+        <button label="" span="4">0xCD 0xB2</button>
+        <button label="" span="4">0xCD 0xC2</button>
+        <button label="" span="4">0xCD 0x32</button>
+
+        <button label="" span="6">0xCD 0x1A</button>
+        <button label="" span="6">0xCD 0x9A</button>
+
+        <button label="" span="3">0xCD 0xE2</button>
+        <button label="" span="3">0xCD 0x0E</button>
+        <button label="" span="3">0xCD 0x6E</button>
+        <button label="" span="3">0xCD 0x62</button>
+
+    </device>
+</irplus>

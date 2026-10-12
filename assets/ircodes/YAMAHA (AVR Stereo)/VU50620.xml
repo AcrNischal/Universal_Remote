@@ -1,0 +1,70 @@
+<irplus>
+    <device manufacturer="YAMAHA" model="VU50620" columns="15" format="WINLIRC_NEC1" bits="16" pre-bits="16"
+        gap-pulse="550" gap-space="38500" one-pulse="550" one-space="1650" zero-pulse="550" zero-space="550" header-pulse="8800" header-space="4400">
+
+        <button label="SLEEP" span="3">0x1EE1 0xF20D</button>
+        <button label="-" span="3">0x1EE1 0xF807</button>
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0x1EE1 0xF00F</button>
+        <button label="+" span="3">0x1EE1 0x7887</button>
+        <button label="INPUT" span="3">0x1EE1 0x7A85</button>
+
+        <button label="1" span="5">0x1EE1 0x8877</button>
+        <button label="2" span="5">0x1EE1 0x48B7</button>
+        <button label="3" span="5">0x1EE1 0xC837</button>
+
+        <button label="4" span="5">0x1EE1 0x28D7</button>
+        <button label="5" span="5">0x1EE1 0xA857</button>
+        <button label="6" span="5">0x1EE1 0x6897</button>
+
+        <button label="7" span="5">0x1EE1 0xE817</button>
+        <button label="8" span="5">0x1EE1 0x18E7</button>
+        <button label="9" span="5">0x1EE1 0x9867</button>
+
+        <button label="TIME" span="5">0x1EE1 0x50AF</button>
+        <button label="0" span="5">0x1EE1 0x08F7</button>
+        <button label="PROG" span="5">0x1EE1 0xD02F</button>
+
+        <button label="TAPE" span="5">0x1EE1 0x10EF</button>
+        <button label="EDIT" span="5">0x1EE1 0x906F</button>
+        <button label="+10" span="5">0x1EE1 0x58A7</button>
+
+        <button label="MODE" span="5">0x1EE1 0xBA45</button>
+        <button label="REPEAT" span="5">0x1EE1 0x30CF</button>
+        <button label="RANDOM" span="5">0x1EE1 0xE01F</button>
+
+        <button label="LOCATION" span="5">0x1EE1 0xDA25</button>
+        <button label="TUNER" span="5">0x1EE1 0xD22D</button>
+        <button label="&#xf052;" alt="EJECT" span="5">0x1EE1 0x00FF</button>
+
+        <button label="DISC SKIP" span="3">0x1EE1 0xB04F</button>
+        <button label="CD " span="3">0x1EE1 0x20DF</button>
+        <button label="CD " span="3">0x1EE1 0xC03F</button>
+        <button label="CD " span="3">0x1EE1 0x807F</button>
+        <button label="CD " span="3">0x1EE1 0x40BF</button>
+
+        <button label="TAPE " span="5">0x1EE1 0xC23D</button>
+        <button label="&#xf0d8;" span="5">0x1EE1 0xAA55</button>
+        <button label="TAPE " span="5">0x1EE1 0x42BD</button>
+
+        <button label="&#xf0d9;" span="5">0x1EE1 0xEA15</button>
+        <button label="MUSIC" span="5">0x1EE1 0x5AA5</button>
+        <button label="&#xf0da;" span="5">0x1EE1 0x1AE5</button>
+
+        <button label="TAPE " span="5">0x1EE1 0xA25D</button>
+        <button label="&#xf0d7;" span="5">0x1EE1 0x6A95</button>
+        <button label="TAPE " span="5">0x1EE1 0x22DD</button>
+
+        <button label="TAPE " span="5">0x1EE1 0x827D</button>
+        <button label="USER" span="5">0x1EE1 0x3AC5</button>
+        <button label="FLAT" span="5">0x1EE1 0x9A65</button>
+
+        <button label="&#xf111;" alt="REC" span="5">0x1EE1 0x629D</button>
+        <button label="TAPE1/2" span="5">0x1EE1 0xE21D</button>
+        <button label="DISPLAY" span="5">0x1EE1 0x0AF5</button>
+
+        <button label="SUB-" span="5">0x1EE1 0xB24D</button>
+        <button label="SOUND FIELD" span="5">0x1EE1 0x4AB5</button>
+        <button label="SUB+" span="5">0x1EE1 0x32CD</button>
+
+    </device>
+</irplus>

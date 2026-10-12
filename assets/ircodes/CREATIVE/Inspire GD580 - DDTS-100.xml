@@ -1,0 +1,24 @@
+<irplus>
+    <device manufacturer="CREATIVE" model="Inspire GD580 DDTS100" columns="12" format="WINLIRC_SPACEENC" one-pulse="591" one-space="1675"
+        zero-pulse="591" zero-space="567" header-pulse="8973" header-space="4760" gap-space="30" gap-pulse="1" bits="16" pre-bits="16" repeat="5" scaleRatio="1.2">
+
+        <button label="&#61457;" labelSize="25.0" span="4" backgroundColor="FFC84334">0x8322 0xE11E</button>
+        <button label="TEST" labelSize="12.0" span="4" backgroundColor="FF2D2D2D">0x8322 0xEF10</button>
+        <button label="&#1045889;" labelSize="35.0" span="4" backgroundColor="FF7C8C9B">0x8322 0xEE11</button>
+
+        <button label="Center" labelSize="14.0" span="4" backgroundColor="FF6B4433">0x8322 0xE916</button>
+        <button label="Rear" labelSize="14.0" span="4" backgroundColor="FF6B4433">0x8322 0xE718</button>
+        <button label="Subwoofer" labelSize="14.0" span="4" backgroundColor="FF6B4433">0x8322 0xE619</button>
+
+        <button label="&#1045888;" labelSize="40.0" span="6" backgroundColor="FF7C8E9E">0x8322 0xE31C</button>
+        <button label="&#1045886;" labelSize="35.0" span="6" backgroundColor="FF7F91A0">0x8322 0xE21D</button>
+
+        <button label="Optical" labelSize="14.0" span="4" backgroundColor="FF384C33">0x8322 0xF00F</button>
+        <button label="Coaxial" labelSize="14.0" span="4" backgroundColor="FF384C33">0x8322 0xE41B</button>
+        <button label="Analog" labelSize="14.0" span="4" backgroundColor="FF384C33">0x8322 0xEA15</button>
+
+        <button label="Dynamic&#10;Mode" labelSize="12.0" span="4" backgroundColor="FF2B2B2B">0x8322 0xF20D</button>
+        <button label="Dolby PL II&#10;mode" labelSize="12.0" span="4" backgroundColor="FF424260">0x8322 0xE51A</button>
+        <button label="Stereo" labelSize="14.0" span="4" backgroundColor="FF424260">0x8322 0xF40B</button>
+    </device>
+</irplus>

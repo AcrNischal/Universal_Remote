@@ -1,0 +1,99 @@
+<irplus>
+	<device manufacturer="NAD" model="AVR-T742" columns="12" format="WINLIRC_NEC1" 
+	    one-space="1631" one-pulse="612" zero-pulse="612" zero-space="507" header-pulse="4563" 
+	    header-space="4408" bits="32" pre-bits="32">
+		
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="6">0xE13E 0x01FE</button>
+		<button label="SLEEP" span="6">0xE13E 0x04FB</button>
+		
+		<button label="DVD" span="4">0xE13E 0x43BC</button>
+		<button label="SAT" span="4">0xE13E 0x03FC</button>
+		<button label="VCR" span="4">0xE13E 0x837C</button>
+		
+		<button label="VIDEO4" span="4">0xE13E 0x0CF3</button>
+		<button label="VIDEO5" span="4">0xE13E 0x8C73</button>
+		<button label="EXT 5.1" span="4">0xE13E 0x748B</button>
+
+		<button label="CD" span="4">0xE13E 0xA15E</button>
+		<button label="TAPE" span="4">0xE13E 0xB14E</button>
+		<button label="FM/AM" span="4">0xE13E 0xBB44</button>
+		
+		<button label="1" span="4">0xE13E 0x51AE</button>
+		<button label="2" span="4">0xE13E 0x718E</button>
+		<button label="3" span="4">0xE13E 0x49B6</button>
+		
+		<button label="4" span="4">0xE13E 0x6996</button>
+		<button label="5" span="4">0xE13E 0xD12E</button>
+		<button label="6" span="4">0xE13E 0xF10E</button>
+		
+		<button label="7" span="4">0xE13E 0xC936</button>
+		<button label="8" span="4">0xE13E 0xE916</button>
+		<button label="9" span="4">0xE13E 0x19E6</button>
+
+		<button label="SURR." span="4">0xE13E 0x33CC</button>
+		<button label="0" span="4">0xE13E 0xE31C</button>
+		<button label="DYN.R" span="4">0xE13E 0xF40B</button>
+
+		<button label="VOL-" span="6">0xE13E 0x31CE</button>
+		<button label="VOL+" span="6">0xE13E 0x11EE</button>
+
+		<button label="TUNE-" span="6">0xE13E 0x8B74</button>
+		<button label="TUNE+" span="6">0xE13E 0x4BB4</button>
+
+		<button label="TEST" span="4">0xE13E 0xB34C</button>
+		<button label="LEVEL" span="4">0xE13E 0xD42B</button>
+		<button label="MUTE/ENTER" span="4">0xE13E 0x29D6</button>
+
+		<button label="DISPLAY" span="4">0xE13E 0x649B</button>
+		<button label="TUNE MODE" span="4">0xE13E 0xCC33</button>
+		<button label="&#xf052;" alt="EJECT" span="4">0xB4B4 0x6C93</button>
+		
+		<button label="STOP" span="4">0xB4B4 0x9C63</button>
+		<button label="PLAY" span="4">0xB4B4 0x8C73</button>
+		<button label="PAUSE/STEP" span="4">0xB4B4 0x1CE3</button>
+
+		<button label="SKIP-" span="3">0xB4B4 0xAC53</button>
+		<button label="SKIP+" span="3">0xB4B4 0x2CD3</button>
+		<button label="SCAN-" span="3">0xB4B4 0x4CB3</button>
+		<button label="SCAN+" span="3">0xB4B4 0xCC33</button>
+
+		<button label="REPEAT" span="4">0xB4B4 0xCA35</button>
+		<button label="PROGRAM" span="4">0xB4B4 0xEA15</button>
+		<button label="AUDIO" span="4">0xB4B4 0xF20D</button>
+
+		<button label="SUBTITLE" span="4">0xB4B4 0x0AF5</button>
+		<button label="CLEAR" span="4">0xB4B4 0x629D</button>
+		<button label="ZOOM" span="4">0xB4B4 0x26D9</button>
+
+		<button label="DVD PWR" span="6">0xB4B4 0x0CF3</button>
+		<button label="DVD MUTE" span="6">0xB4B4 0x1AE5</button>
+		
+		<button label="DVD 1" span="4">0xB4B4 0xDC23</button>
+		<button label="DVD 2" span="4">0xB4B4 0x3CC3</button>
+		<button label="DVD 3" span="4">0xB4B4 0xBC43</button>
+
+		<button label="DVD 4" span="4">0xB4B4 0x7C83</button>
+		<button label="DVD 5" span="4">0xB4B4 0xFC03</button>
+		<button label="DVD 6" span="4">0xB4B4 0x02FD</button>
+
+		<button label="DVD 7" span="4">0xB4B4 0x827D</button>
+		<button label="DVD 8" span="4">0xB4B4 0x42BD</button>
+		<button label="DVD 9" span="4">0xB4B4 0xC23D</button>
+
+		<button label="DVD SETUP" span="4">0xB4B4 0x6A95</button>
+		<button label="DVD 0" span="4">0xB4B4 0x22DD</button>
+		<button label="DVD TITLE" span="4">0xB4B4 0x52AD</button>
+
+		<button label="DVD V+" span="6">0xB4B4 0xE21D</button>
+		<button label="DVD T+" span="6">0xB4B4 0x5AA5</button>
+
+		<button label="DVD V-" span="6">0xB4B4 0x12ED</button>
+		<button label="DVD T-" span="6">0xB4B4 0x9A65</button>
+
+		<button label="DVD RETURN" span="3">0xB4B4 0xA25D</button>
+		<button label="DVD MENU" span="3">0xB4B4 0xD22D</button>
+		<button label="DVD DISPLAY" span="3">0xB4B4 0x5CA3</button>
+		<button label="DVD NEXT" span="3">0xB4B4 0x926D</button>
+	
+	</device>
+</irplus>

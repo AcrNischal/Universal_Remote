@@ -1,0 +1,31 @@
+<irplus>
+    <device manufacturer="2WIRE" model="2WIRE" columns="30" format="WINLIRC_NEC1" one-space="1662" one-pulse="585" zero-pulse="585" zero-space="538"
+        header-pulse="9024" header-space="4462" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="10">0x4F9 0x00FF</button>
+        <button label="BACK" span="10">0x4F9 0x807F</button>
+        <button label="MENU" span="10">0x4F9 0xC03F</button>
+
+        <button label="VOL+" span="10">0x4F9 0xF00F</button>
+        <button label="&#xf0d8;" span="10">0x4F9 0x40BF</button>
+        <button label="&#xff04c;" span="10">0x4F9 0xD02F</button>
+
+        <button label="&#xf0d9;" span="10">0x4F9 0xA05F</button>
+        <button label="OK" span="10">0x4F9 0x609F</button>
+        <button label="&#xf0da;" span="10">0x4F9 0xE01F</button>
+
+        <button label="VOL-" span="10">0x4F9 0x30CF</button>
+        <button label="&#xf0d7;" span="10">0x4F9 0x50AF</button>
+        <button label="SEARCH" span="10">0x4F9 0x906F</button>
+
+        <button label="&#xf04b;" alt="PLAY" span="15">0x4F9 0x708F</button>
+        <button label="HOME" span="15">0x4F9 0xB04F</button>
+
+        <button label="G" fillColor="FF1E7854" span="6">0x4F9 0x8877</button>
+        <button label="B" fillColor="FF2A4C94" span="6">0x4F9 0x48B7</button>
+        <button label="Y" fillColor="FFD6A81F" span="6">0x4F9 0x08F7</button>
+        <button label="O" fillColor="FFFF7F00" span="6">0x4F9 0x20DF</button>
+        <button label="V" fillColor="FF7F00FF" span="6">0x4F9 0xC837</button>
+        
+    </device>
+</irplus>

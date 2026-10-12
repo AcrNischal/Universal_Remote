@@ -1,0 +1,22 @@
+<irplus>
+    <device manufacturer="BUSH" model="Soundbar" columns="12" format="WINLIRC_NEC1">
+        
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x20df 0x6996</button>
+        <button label="INPUT" span="4">0x20df 0x29d6</button>
+        <button label="BOOST" span="4">0x20df 0x39c6</button>
+        
+        <button label="MOVIE" span="6">0x20df 0x49b6</button>
+        <button label="MUSIC" span="6">0x20df 0xb946</button>
+       
+        <button label="NEWS" span="6">0x20df 0xa956</button>
+        <button label="STANDARD" span="6">0x20df 0x7986</button>
+        
+        <button label="SLEEP" span="6">0x20df 0x19e6</button>
+        <button label="DIMMER" span="6">0x20df 0x09f6</button>
+        
+        <button label="VOL-" span="4">0x20df 0x8976</button>
+        <button label="&#xFF581;" span="4">0x20df 0x59a6</button>
+        <button label="VOL+" span="4">0x20df 0x9966</button>
+        
+    </device>
+</irplus>

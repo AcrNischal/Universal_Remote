@@ -1,0 +1,34 @@
+<irplus>
+	<device manufacturer="TELEFUNKEN" model="RC1132" columns="12" format="WINLIRC_SPACEENC" toggle-bit-pos="2" one-space="8235" one-pulse="584" zero-pulse="584" zero-space="5300" pre-bits="11">
+		
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x5DD</button>
+		<button label="TIME" span="4">0x5DE</button>
+		<button label="TV" span="4">0x5FE</button>
+
+		<button label="VOL-" span="4">0x5EA</button>
+		<button label="&#xFF581;" span="4">0x5C5</button>
+		<button label="VOL+" span="4">0x5E9</button>
+
+		<button label="1" span="4">0x5C0</button>
+		<button label="2" span="4">0x5C8</button>
+		<button label="3" span="4">0x5D0</button>
+
+		<button label="4" span="4">0x5C1</button>
+		<button label="5" span="4">0x5C9</button>
+		<button label="6" span="4">0x5D1</button>
+
+		<button label="7" span="4">0x5C2</button>
+		<button label="8" span="4">0x5CA</button>
+		<button label="9" span="4">0x5D2</button>
+
+		<button label="CH-" span="4">0x5E0</button>
+		<button label="0" span="4">0x5CE</button>
+		<button label="CH+" span="4">0x5DF</button>
+
+		<button label="R" fillColor="FFC84334" span="3">0x5F9</button>
+		<button label="G" fillColor="FF1E7854" span="3">0x5FB</button>
+		<button label="Y" fillColor="FFD6A81F" span="3">0x5F8</button>
+		<button label="B" fillColor="FF2A4C94" span="3">0x5D5</button>
+
+	</device>
+</irplus>

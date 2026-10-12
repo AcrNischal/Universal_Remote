@@ -1,0 +1,70 @@
+<irplus>
+    <device manufacturer="OCTAGON" model="SF718" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0x200e 0xfa05</button>
+        <button label="TV/SAT" span="6">0x200e 0xea15</button>
+
+        <button label="1" span="4">0x200e 0x6a95</button>
+        <button label="2" span="4">0x200e 0x5aa5</button>
+        <button label="3" span="4">0x200e 0x7a85</button>
+
+        <button label="4" span="4">0x200e 0xaa55</button>
+        <button label="5" span="4">0x200e 0x9a65</button>
+        <button label="6" span="4">0x200e 0x9a65</button>
+
+        <button label="7" span="4">0x200e 0xba45</button>
+        <button label="8" span="4">0x200e 0x1ae5</button>
+        <button label="9" span="4">0x200e 0x3ac5</button>
+
+        <button label="SLEEP" span="4">0x200e 0x847b</button>
+        <button label="0" span="4">0x200e 0xd827</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x200e 0xe817</button>
+
+        <button label="AV+" span="3">0x200e 0xda25</button>
+        <button label="OPT+" span="3">0x200e 0xf807</button>
+        <button label="X+" span="3">0x200e 0x10ef</button>
+        <button label="SAVE" span="3">0x200e 0xc43b</button>
+
+        <button label="&#xFF581;" span="4">0x200e 0x9867</button>
+        <button label="TV/RADIO" span="4">0x200e 0xa857</button>
+        <button label="HD" span="4">0x200e 0x42bd</button>
+
+        <button label="SAT" span="4">0x200e 0xb847</button>
+        <button label="FAVORITE" span="4">0x200e 0x40bf</button>
+        <button label="RECALL" span="4">0x200e 0x6897</button>
+
+        <button label="INFO" span="6">0x200e 0x28d7</button>
+        <button label="EPG" span="6">0x200e 0x58a7</button>
+
+        <button label="MENU" span="4">0x200e 0x38c7</button>
+        <button label="&#xf0d8;" span="4">0x200e 0x18e7</button>
+        <button label="EXIT" span="4">0x200e 0x52ad</button>
+
+        <button label="&#xf0d9;" span="4">0x200e 0x827d</button>
+        <button label="ENTER" span="4">0x200e 0xa25d</button>
+        <button label="&#xf0da;" span="4">0x200e 0x926d</button>
+
+        <button label="FINE TUNE" span="4">0x200e 0x04fb</button>
+        <button label="&#xf0d7;" span="4">0x200e 0x629d</button>
+        <button label="PVR LIST" span="4">0x200e 0xb04f</button>
+
+        <button label="MOTOR" span="3">0x200e 0x7887</button>
+        <button label="COLOR" span="3">0x200e 0x44bb</button>
+        <button label="UHF" span="3">0x200e 0x807f</button>
+        <button label="RECORD" span="3">0x200e 0x08f7</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x200e 0x906f</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x200e 0xb04f</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x200e 0x00ff</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x200e 0x30cf</button>
+
+        <button label="&#xf04a;" alt="REW" span="4">0x200e 0xc03f</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x200e 0x48b7</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0x200e 0x20df</button>
+
+        <button label="&#xf04b;" alt="PLAY" span="4">0x200e 0x8877</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x200e 0xc837</button>
+        <button label="BOOKMARK" span="4">0x200e 0x00ff</button>
+
+    </device>
+</irplus>

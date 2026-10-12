@@ -1,0 +1,51 @@
+<irplus>
+    <device manufacturer="FTEMAXIMAL" model="115T" columns="3" format="WINLIRC_NEC1" one-space="1578" one-pulse="652" zero-pulse="652" zero-space="466" header-pulse="9086" header-space="4384" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" backgroundColor="FFC84334">0x80BF 0x3BC4</button>
+        <space multiple="2"/>
+
+        <button label="1">0x80BF 0x49B6</button>
+        <button label="2">0x80BF 0xC936</button>
+        <button label="3">0x80BF 0x33CC</button>
+
+        <button label="4">0x80BF 0x718E</button>
+        <button label="5">0x80BF 0xF10E</button>
+        <button label="6">0x80BF 0x13EC</button>
+
+        <button label="7">0x80BF 0x51AE</button>
+        <button label="8">0x80BF 0xD12E</button>
+        <button label="9">0x80BF 0x23DC</button>
+
+        <button label="AV">0x80BF 0x5BA4</button>
+        <button label="0">0x80BF 0xE11E</button>
+        <button label="-">0x80BF 0x41BE</button>
+
+        <button label="MENU">0x80BF 0xA956</button>
+        <button label="&#xFF581;">0x80BF 0x39C6</button>
+        <button label="EXIT">0x80BF 0xA35C</button>
+
+        <button label="VOL+">0x80BF 0x837C</button>
+        <button label="&#xf0d8;">0x80BF 0x53AC</button>
+        <button label="CH+">0x80BF 0x53AC</button>
+
+        <button label="&#xf0d9;">0x80BF 0x9966</button>
+        <button label="OK">0x80BF 0x738C</button>
+        <button label="&#xf0da;">0x80BF 0x837C</button>
+
+        <button label="VOL-">0x80BF 0x9966</button>
+        <button label="&#xf0d7;">0x80BF 0x4BB4</button>
+        <button label="CH-">0x80BF 0x4BB4</button>
+
+        <button label="&#xf04d;" alt="STOP">0x80BF 0x59A6</button>
+        <button label="&#xf04b;" alt="PLAY">0x80BF 0xC33C</button>
+        <button label="&#xf111;" alt="REC">0x80BF 0x6996</button>
+
+        <button label="&#xf04a;" alt="REW">0x80BF 0x43BC</button>
+        <button label="&#xf04c;" alt="PAUSE">0x80BF 0xE31C</button>
+        <button label="&#xf04e;" alt="FWD">0x80BF 0x21DE</button>
+
+        <button label="F1">0x80BF 0x0BF4</button>
+        <button label="F2">0x80BF 0x43BC</button>
+        <button label="F3">0x80BF 0x43BC</button>
+    </device>
+</irplus>

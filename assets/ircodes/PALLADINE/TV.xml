@@ -1,0 +1,60 @@
+<irplus>
+    <device manufacturer="PALLADINE" model="TV" columns="12" format="WINLIRC_RC5" bits="13" pre-bits="13" toggle-mask="0x800" gap-pulse="1"
+        gap-space="107058" one-pulse="899" one-space="779" zero-pulse="899" zero-space="779" repeat="3" frequency="36000">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x100C</button>
+        <button label="INPUT" span="4">0x101C</button>
+        <button label="AUTO" span="4">0x1039</button>
+
+        <button label="PIP" span="4">0x1022</button>
+        <button label="PIP-INPUT" span="4">0x103D</button>
+        <button label="PIP-MOVE" span="4">0x100B</button>
+
+        <button label="DISPLAY" span="6">0x100F</button>
+        <button label="MENU" span="6">0x100D</button>
+
+        <button label="VOL+" span="4">0x1010</button>
+        <button label="&#xf0d8;" span="4">0x101B</button>
+        <button label="CH+" span="4">0x1020</button>
+
+        <button label="&#xf0d9;" span="4">0x101A</button>
+        <button label="OK" span="4">0x1012</button>
+        <button label="&#xf0da;" span="4">0x1019</button>
+
+        <button label="VOL-" span="4">0x1011</button>
+        <button label="&#xf0d7;" span="4">0x101C</button>
+        <button label="CH-" span="4">0x1021</button>
+
+        <button label="&#xFF581;" span="4">0x103F</button>
+        <button label="LIST" span="4">0x103C</button>
+        <button label="&#xf0e2;" alt="RECALL" span="4">0x103A</button>
+
+        <button label="1" span="4">0x1001</button>
+        <button label="2" span="4">0x1002</button>
+        <button label="3" span="4">0x1003</button>
+
+        <button label="4" span="4">0x1004</button>
+        <button label="5" span="4">0x1005</button>
+        <button label="6" span="4">0x1006</button>
+
+        <button label="7" span="4">0x1007</button>
+        <button label="8" span="4">0x1008</button>
+        <button label="9" span="4">0x1009</button>
+
+        <button label="TTXMIX" span="4">0x102E</button>
+        <button label="0" span="4">0x1000</button>
+        <button label="STEREO" span="4">0x1013</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x102F</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x1028</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x1032</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x1034</button>
+
+        <button label="PICTURE" span="6">0x1025</button>
+        <button label="STARTINPUT" span="6">0x1038</button>
+
+        <button label="SLEEP" span="4">0x1026</button>
+        <button label="SCREEN" span="4">0x1014</button>
+        <button label="SOUND" span="4">0x1036</button>
+    </device>
+</irplus>

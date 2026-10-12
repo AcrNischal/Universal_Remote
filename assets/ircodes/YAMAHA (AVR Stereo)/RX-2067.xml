@@ -1,0 +1,99 @@
+<irplus>
+    <device manufacturer="YAMAHA" model="RX-2067" columns="12" format="YAMAHA_NEC_HEX">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">7E-2A</button>
+        <button label="SLEEP" span="4">7A-30</button>
+        <button label="MEMORY" span="4">7F01-6718</button>
+
+        <button label="VOLUME -" span="4">7A-1B</button>
+        <button label="&#xFF581;" span="4">7A-1C</button>
+        <button label="VOLUME +" span="4">7A-1A</button>
+
+        <button label="SCENE 1 (BD/DVD)" span="3">7A-007F</button>
+        <button label="SCENE 2 (TV)" span="3">7A-037C</button>
+        <button label="SCENE 3 (CD)" span="3">7A-0679</button>
+        <button label="SCENE 4 (RADIO)" span="3">7A-0976</button>
+
+        <button label="OPTION" span="4">7A-6B14</button>
+        <button label="&#xf0d8;" span="4">7A-9D</button>
+        <button label="DOCK" span="4">7F01-4A</button>
+
+        <button label="&#xf0d9;" span="4">7A-9F</button>
+        <button label="ENTER" span="4">7A-DE</button>
+        <button label="&#xf0da;" span="4">7A-9E</button>
+
+        <button label="RETURN" span="4">7A-AA</button>
+        <button label="&#xf0d7;" span="4">7A-9C</button>
+        <button label="ON SCREEN" span="4">7A-84</button>
+
+        <button label="AUDIO-1" span="3">7A-651A</button>
+        <button label="AUDIO-2" span="3">7A-6817</button>
+        <button label="AUDIO-3" span="3">7A-7C03</button>
+        <button label="AUDIO-4" span="3">7A-7F00</button>
+
+        <button label="AV-1" span="3">7A-532C</button>
+        <button label="AV-2" span="3">7A-5629</button>
+        <button label="AV-3" span="3">7A-5926</button>
+        <button label="AV-4" span="3">7A-5C23</button>
+
+        <button label="AV-5" span="3">7A-5F20</button>
+        <button label="AV-6" span="3">7A-621D</button>
+        <button label="AV-7" span="3">7A-7609</button>
+        <button label="V-AUX" span="3">7A-7906</button>
+
+        <button label="HDMI-1" span="3">7A-4738</button>
+        <button label="HDMI-2" span="3">7A-4A35</button>
+        <button label="HDMI-3" span="3">7A-4D32</button>
+        <button label="HDMI-4" span="3">7A-502F</button>
+
+        <button label="HDMI-5" span="3">7A-700F</button>
+        <button label="V-AUX" span="3">7A-730C</button>
+        <button label="MULTI CH IN" span="3">7A-87</button>
+        <button label="NET" span="3">7F01-3F</button>
+
+        <button label="INPUT -" span="3">7A-235C</button>
+        <button label="INPUT +" span="3">7A-1F60</button>
+        <button label="PHONO" span="3">7A-14</button>
+        <button label="SIRIUS" span="3">7A-39</button>
+
+        <button label="TUNER" span="3">7A-16</button>
+        <button label="USB" span="3">7F01-720D</button>
+        <button label="INFO" span="3">7A-2758</button>
+        <button label="DISPLAY" span="3">7F01-60</button>
+
+        <button label="1" span="4">7F01-51</button>
+        <button label="2" span="4">7F01-52</button>
+        <button label="3" span="4">7F01-53</button>
+
+        <button label="4" span="4">7F01-54</button>
+        <button label="5" span="4">7F01-55</button>
+        <button label="6" span="4">7F01-56</button>
+
+        <button label="7" span="4">7F01-57</button>
+        <button label="8" span="4">7F01-58</button>
+        <button label="9" span="4">7F01-59</button>
+
+        <button label="ENT" span="6">7F01-5C</button>
+        <button label="0" span="6">7F01-5A</button>
+
+        <button label="FM (CATEGORY -/FM)" span="6">7F01-5827</button>
+        <button label="AM (CATEGORY +/AM)" span="6">7F01-552A</button>
+
+        <button label="PAUSE" span="4">7F01-67</button>
+        <button label="PLAY" span="4">7F01-68</button>
+        <button label="REC(MODE)" span="4">7F01-66</button>
+
+        <button label="STOP" span="4">7F01-69</button>
+        <button label="REW (REW/HOLD)" span="4">7F01-6A</button>
+        <button label="FF (FF/TAG)" span="4">7F01-6B</button>
+
+        <button label="SKIP/PRG/SEL -" span="6">7F01-6C</button>
+        <button label="SKIP/PRG/SEL +" span="6">7F01-6D</button>
+
+        <button label="PRESET -" span="3">7F01-5E21</button>
+        <button label="PRESET +" span="3">7F01-5B24</button>
+        <button label="TUNING - (TUNING/CH -)" span="3">7F01-641B</button>
+        <button label="TUNING + (TUNING/CH +)" span="3">7F01-611E</button>
+
+    </device>
+</irplus>

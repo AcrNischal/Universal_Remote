@@ -1,0 +1,33 @@
+<irplus>
+    <device manufacturer="OSMC" model="Remote" columns="12" format="WINLIRC_RC5" bits="13" pre-bits="13" toggle-bit-pos="2" frequency="36000">
+        
+        <button label="" span="6">0x108f</button>
+        <button label="." labelSize="30.0" span="0">0x0000</button>
+        <button label="" span="6">0x1090</button>
+
+        <space multiple="4"/>
+        <button label="" alt="UP" labelSize="25.0" span="4">0x1091</button>
+        <space multiple="4"/>
+
+        <button label="" alt="LEFT" labelSize="25.0" span="4">0x1095</button>
+        <button label="OK" labelSize="25.0" span="4">0x1094</button>
+        <button label="" alt="RIGHT" labelSize="25.0" span="4">0x1092</button>
+
+        <space multiple="4"/>
+        <button label="" alt="DOWN" labelSize="25.0" span="4">0x1093</button>
+        <space multiple="4"/>
+
+        <button label="" span="6">0x1096</button>
+        <button label="." labelSize="30.0" span="0">0x1090</button>
+        <button label="" span="6">0x1097</button>
+
+        <button label="&#xf04b; &#xf04c;" span="6">0x1098</button>
+        <button label="." labelSize="30.0" span="0">0x0000</button>
+        <button label="&#xf04d;" alt="STOP" span="6">0x1099</button>
+
+        <button label="&#xf04a;" span="6">0x109a</button>
+        <button label="." labelSize="30.0" span="0">0x0000</button>
+        <button label="&#xf04e;" span="6">0x109b</button>
+
+    </device>
+</irplus>

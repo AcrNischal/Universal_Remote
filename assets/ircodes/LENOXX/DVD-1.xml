@@ -1,0 +1,45 @@
+<irplus>
+    <device manufacturer="LENOXX" model="DVD-1" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="4">0x40bf 0xb847</button>
+        <button label="INFO" span="4">0x40bf 0x7887</button>
+        <button label="AV" span="4">0x40bf 0x38c7</button>
+
+        <button label="1" span="4">0x40bf 0x708f</button>
+        <button label="2" span="4">0x40bf 0xf00f</button>
+        <button label="3" span="4">0x40bf 0x30cf</button>
+
+        <button label="4" span="4">0x40bf 0x48b7</button>
+        <button label="5" span="4">0x40bf 0xc837</button>
+        <button label="6" span="4">0x40bf 0x08f7</button>
+
+        <button label="7" span="4">0x40bf 0x6897</button>
+        <button label="8" span="4">0x40bf 0xe817</button>
+        <button label="9" span="4">0x40bf 0x28d7</button>
+
+        <button label="LAST CH" span="4">0x40bf 0x9867</button>
+        <button label="0" span="4">0x40bf 0xd827</button>
+        <button label="DASH" span="4">0x40bf 0xff00</button>
+
+        <button label="CH-" span="4">0x40bf 0x609f</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0x40bf 0x906f</button>
+        <button label="CH+" span="4">0x40bf 0xe01f</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x40bf 0x50af</button>
+        <button label="ENTER" span="4">0x40bf 0xd02f</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x40bf 0x10ef</button>
+
+        <button label="EXIT" span="4">0x40bf 0xf807</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x40bf 0x807f</button>
+        <button label="MENU" span="4">0x40bf 0xf807</button>
+
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x40bf 0xd02f</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0x40bf 0xd02f</button>
+        <button label="&#xf111;" alt="RECORD" span="4">0x40bf 0xff00</button>
+
+        <button label="&#xf04a;" alt="REV" span="4">0x40bf 0x609f</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x40bf 0x20df</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0x40bf 0xe01f</button>
+
+    </device>
+</irplus>

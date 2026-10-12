@@ -1,0 +1,27 @@
+<irplus>
+    <device manufacturer="SONY" model="RM-PP411" columns="12" format="WINLIRC_SPACEENC" bits="12" pre-bits="12" frequency="40000"
+        gap-pulse="1" gap-space="45152" one-pulse="1224" one-space="574" zero-pulse="631" zero-space="574" header-pulse="2429" header-space="582" repeat="3">
+
+        <button label="SYSTEM STANDBY" span="6">0xA81</button>
+        <button label="ON SCREEN" span="6">0xCA1</button>
+        
+        <button label="MASTER VOL-" span="4">0xC81</button>
+        <button label="MUTING" span="4">0x281</button>
+        <button label="MASTER VOL+" span="4">0x481</button>
+        
+        <button label="VIDEO3" span="3">0x421</button>
+        <button label="DVD/LD" span="3">0xBE1</button>
+        <button label="TV/SAT" span="3">0x561</button>
+        <button label="MD/TAPE" span="3">0x961</button>
+
+        <button label="CD/SACD" span="3">0xA41</button>
+        <button label="TUNER" span="3">0x841</button>
+        <button label="PHONO" span="3">0x041</button>
+        <button label="AUX" span="3">0xB81</button>
+
+        <button label="MULTI CH" span="4">0x4E1</button>
+        <button label="MPX/DUAL" span="4">0xE81</button>
+        <button label="ANALOG DIRECT" span="4">0x921</button>
+        
+    </device>
+</irplus>

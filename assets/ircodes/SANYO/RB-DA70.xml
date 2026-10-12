@@ -1,0 +1,31 @@
+<irplus>
+    <device manufacturer="SANYO" model="RB-DA70" columns="12" format="WINLIRC_NEC1" one-space="1580" one-pulse="662" zero-pulse="662" zero-space="458"
+        header-pulse="9087" header-space="4378" bits="16" pre-bits="16">
+        <button label="1" span="4">0x3CC3 0x01FE</button>
+        <button label="2" span="4">0x3CC3 0x817E</button>
+        <button label="3" span="4">0x3CC3 0x41BE</button>
+
+        <button label="4" span="4">0x3CC3 0xC13E</button>
+        <button label="5" span="4">0x3CC3 0x21DE</button>
+        <button label="6" span="4">0x3CC3 0xA15E</button>
+
+        <button label="7" span="4">0x3CC3 0x619E</button>
+        <button label="8" span="4">0x3CC3 0xE11E</button>
+        <button label="9" span="4">0x3CC3 0x11EE</button>
+
+        <button label="TUNING-" span="4">0x3CC3 0x10EF</button>
+        <button label="0" span="4">0x3CC3 0x916E</button>
+        <button label="TUNING+" span="4">0x3CC3 0xE01F</button>
+
+        <button label="REPEAT/FM MODE" span="4">0x3CC3 0x807F</button>
+        <button label=" / " span="4">0x3CC3 0x609F</button>
+        <button label="MEMORY" span="4">0x3CC3 0xA05F</button>
+
+        <button label="PRESET" span="4">0x3CC3 0xB24D</button>
+        <button label="" span="4">0x3CC3 0x20DF</button>
+        <button label="BAND" span="4">0x3CC3 0x728D</button>
+
+        <button label="VOL-" span="6">0x3CC3 0x42BD</button>
+        <button label="VOL+" span="6">0x3CC3 0x827D</button>
+    </device>
+</irplus>

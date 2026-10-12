@@ -1,0 +1,41 @@
+<irplus>
+    <device manufacturer="PIONEER" model="CU-XR039" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16"
+        gap-pulse="618" gap-space="25351" one-pulse="618" one-space="1489" zero-pulse="618" zero-space="423" header-pulse="8621" header-space="4135">
+
+        <button label="VOL-" span="4">0x659A 0xD02F</button>
+        <button label="VOL+" span="4">0x659A 0x50AF</button>
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x659A 0x38C7</button>
+        
+        <button label="KARAOKE" span="3">0x659A 0x9669</button>
+        <button label="MONO" span="3">0x25DA 0x7887</button>
+        <button label="DISPLAY" span="3">0x659A 0xB946</button>
+        <button label="SLEEP" span="3">0x659A 0x9867</button>
+        
+        <button label="PBASS" span="4">0x659A 0xBB44</button>
+        <button label="SOUNDMORPH-" span="4">0x659A 0x1BE4</button>
+        <button label="SOUNDMORPH+" span="4">0x659A 0xEB14</button>
+        
+        <button label="DISC1" span="4">0x45BA 0x7887</button>
+        <button label="DISC2" span="4">0x45BA 0xF807</button>
+        <button label="DISC3" span="4">0x45BA 0x0AF5</button>
+        
+        <button label="CLEAR" span="3">0x45BA 0xA25D</button>
+        <button label="PGM" span="3">0x45BA 0xB04F</button>
+        <button label="REPEAT" span="3">0x45BA 0x30CF</button>
+        <button label="RANDOM" span="3">0x45BA 0x52AD</button>
+        
+        <button label="AUX" span="3">0x659A 0x32CD</button>
+        <button label="TAPE" span="3">0x659A 0xF00F</button>
+        <button label="BAND" span="3">0x659A 0x926D</button>
+        <button label="CD" span="3">0x659A 0x708F</button>
+
+        <button label="&#xf049;" alt="PREV" span="4">0x659A 0x49B6</button>
+        <button label=" " span="4">0x659A 0xAE51</button>
+        <button label="&#xf050;" alt="NEXT" span="4">0x659A 0x8976</button>
+
+        <button label="&#xf04a;" alt="REW" span="4">0x659A 0x29D6</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x659A 0x09F6</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0x659A 0xC936</button>
+
+    </device>
+</irplus>

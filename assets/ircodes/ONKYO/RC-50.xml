@@ -1,0 +1,34 @@
+<irplus>
+    <device manufacturer="ONKYO" model="RC-50" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16">
+        
+        <button label="&#xf04b;" alt="PLAY" span="4">0xB44B 0x6D92</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0xB44B 0xAD52</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0xB44B 0x2DD2</button>
+
+        <button label="&#xf049;" alt="PREV" span="3">0xB44B 0xC53A</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0xB44B 0x45BA</button>
+        <button label="&#xf04a;" alt="REW" span="3">0xB44B 0x857A</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0xB44B 0x05FA</button>
+        
+        <button label="1" span="4">0xB44B 0xE51A</button>
+        <button label="2" span="4">0xB44B 0x659A</button>
+        <button label="3" span="4">0xB44B 0xA55A</button>
+        
+        <button label="4" span="4">0xB44B 0x25DA</button>
+        <button label="5" span="4">0xB44B 0xCD32</button>
+        <button label="6" span="4">0xB44B 0x4DB2</button>
+        
+        <button label="7" span="4">0xB44B 0x8D72</button>
+        <button label="8" span="4">0xB44B 0x0DF2</button>
+        <button label="9" span="4">0xB44B 0xF50A</button>
+
+        <button label="MEMORY" span="4">0xB44B 0xB54A</button>
+        <button label="0" span="4">0xB44B 0x758A</button>
+        <button label="CLEAR" span="4">0xB44B 0x35CA</button>
+        
+        <button label="REPEAT" span="3">0xB44B 0xD52A</button>
+        <button label="INDEX" span="3">0xB44B 0x55AA</button>
+        <button label="REMAIN" span="3">0xB44B 0x956A</button>
+        <button label="A-B" span="3">0xB44B 0x15EA</button>
+    </device>
+</irplus>

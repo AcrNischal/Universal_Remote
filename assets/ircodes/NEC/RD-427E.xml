@@ -1,0 +1,51 @@
+<irplus>
+	<device manufacturer="NEC" model="RD-427E" columns="12" format="WINLIRC_NEC1" one-space="1596" one-pulse="642" zero-pulse="642" zero-space="475" header-pulse="9082" header-space="4420">
+		
+	    <button label="&#xf011;" backgroundColor="FFC84334" macro="true" span="4">ON;ON;ON</button>
+		<button label="ON" span="4">0x1897 0x10EF</button>
+		<button label="OFF" span="4">0x1897 0x28D7</button>
+		
+		<button label="Pic-Mute" span="4">0x1897 0xE21D</button>
+		<button label="EXIT" span="4">0x1897 0xA45B</button>
+		<button label="MENU" span="4">0x1897 0x629D</button>
+		
+		<button label="Magnify+" span="6">0x1897 0x916E</button>
+		<button label="Magnify-" span="6">0x1897 0x51AE</button>
+		
+		<button label="Zoom+" span="6">0x1897 0x906F</button>
+		<button label="Zoom-" span="6">0x1897 0x50AF</button>
+		
+		<button label="Focus+" span="6">0x1897 0xD02F</button>
+		<button label="Focus-" span="6">0x1897 0x30CF</button>
+		
+		<button label="VOL+" span="4">0x1897 0x12ED</button>
+		<button label="&#xf0d8;" span="4">0x1897 0x1DE2</button>
+		<button label="PG &#xf0d8;" span="4">0x1897 0x54AB</button>
+		
+		<button label="&#xf0d9;" span="4">0x1897 0x7D82</button>
+		<button label="ENTER" span="4">0x1897 0xE817</button>
+		<button label="&#xf0da;" span="4">0x1897 0x5DA2</button>
+		
+		<button label="VOL-" span="4">0x1897 0x926D</button>
+		<button label="&#xf0d7;" span="4">0x1897 0x3DC2</button>
+		<button label="PG &#xf0d7;" span="4">0x1897 0xD42B</button>
+		
+		<button label="Mouse L" span="4">0x1897 0x34CB</button>
+		<button label="Mouse R" span="4">0x1897 0xB44B</button>
+		<button label="VIDEO" span="4">0x1897 0xC03F</button>
+		
+		<button label="S-Video" span="4">0x1897 0x639C</button>
+		<button label="Computer 1" span="4">0x1897 0x20DF</button>
+		<button label="Computer 2" span="4">0x1897 0xA05F</button>
+		
+		<button label="Auto Adj" span="4">0x1897 0x609F</button>
+		<button label="Lamp Mode" span="4">0x1897 0x6897</button>
+		<button label="Aspect" span="4">0x1897 0x08F7</button>
+		
+		<button label="Picture" span="3">0x1897 0xB04F</button>
+		<button label="HELP" span="3">0x1897 0x728D</button>
+		<button label="Freeze" span="3">0x1897 0x32CD</button>
+		<button label="2X/4X" span="3">0x1897 0xE11E</button>
+	 
+	</device>
+</irplus>

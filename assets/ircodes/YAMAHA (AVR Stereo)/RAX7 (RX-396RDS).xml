@@ -1,0 +1,42 @@
+<irplus>
+    <device manufacturer="YAMAHA" model="RAX7" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16">
+
+        <button label="STANDBY" span="6">0x5EA1 0xF807</button>
+        <button label="SLEEP" span="6">0x5EA1 0xEA15</button>
+
+        <button label="VOL-" span="6">0x5EA1 0xD827</button>
+        <button label="VOL+" span="6">0x5EA1 0x58A7</button>
+
+        <button label="AUX" span="6">0x5EA1 0xE817</button>
+        <button label="PHONO" span="6">0x5EA1 0x28D7</button>
+
+        <button label="TAPE2" span="4">0x5EA1 0x9867</button>
+        <button label="TAPE PLAY" span="4">0x5EA1 0x00FF</button>
+        <button label="TAPE STOP" span="4">0x5EA1 0xC03F</button>
+        
+        <button label="TAPE AB" span="4">0x5EA1 0x609F</button>
+        <button label="TAPE1" span="4">0x5EA1 0x18E7</button>
+        <button label="TAPE REC PAUSE" span="4">0x5EA1 0x20DF</button>
+        
+        <button label="TAPE DIR A" span="3">0x5EA1 0xE01F</button>
+        <button label="TAPE DIR B" span="3">0x5EA1 0x02FD</button>
+        <button label="TAPE BWD" span="3">0x5EA1 0x807F</button>
+        <button label="TAPE FWD" span="3">0x5EA1 0x40BF</button>
+
+        <button label="TUNER" span="3">0x5EA1 0x6897</button>
+        <button label="ABCDE" span="3">0x5EA1 0x48B7</button>
+        <button label="PRESET-" span="3">0x5EA1 0x8877</button>
+        <button label="PRESET+" span="3">0x5EA1 0x08F7</button>
+
+        <button label="CD" span="3">0x5EA1 0xA857</button>
+        <button label="CD PLAY" span="3">0x5EA1 0x10EF</button>
+        <button label="CD STOP" span="3">0x5EA1 0x906F</button>
+        <button label="CD DISC" span="3">0x5EA1 0xF20D</button>
+
+        <button label="CD SEARCH BWD" span="3">0x5EA1 0xD02F</button>
+        <button label="CD SEARCH FWD" span="3">0x5EA1 0x50AF</button>
+        <button label="CD SKIP BWD" span="3">0x5EA1 0xB04F</button>
+        <button label="CD SKIP FWD" span="3">0x5EA1 0x30CF</button>
+
+    </device>
+</irplus>

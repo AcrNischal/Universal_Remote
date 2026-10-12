@@ -1,0 +1,18 @@
+<irplus>
+    <device manufacturer="SAMSON" model="Rubicon-r10s" columns="12" format="WINLIRC_SPACEENC" pre-bits="3" bits="9"
+        one-pulse="1266" one-space="422" zero-pulse="422" zero-space="1266">
+
+        <space multiple="6"/>
+        <button label="SUB MUTE" span="6">0x6 0x0A0</button>
+
+        <button label="DIM" span="6">0x6 0x090</button>
+        <button label="&#xFF581;" span="6">0x6 0x041</button>
+
+        <button label="SUB VOL-" span="6">0x6 0x108</button>
+        <button label="SUB VOL+" span="6">0x6 0x104</button>
+
+        <button label="SYS VOL-" span="6">0x6 0x120</button>
+        <button label="SYS VOL+" span="6">0x6 0x110</button>
+
+    </device>
+</irplus>

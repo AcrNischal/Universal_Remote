@@ -1,0 +1,22 @@
+<irplus>
+	<device manufacturer="MEDION" model="MD40205" columns="12" format="WINLIRC_NEC1" one-space="1578" one-pulse="652" zero-pulse="652" zero-space="466" header-pulse="9086" header-space="4384" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xFF 0xA35C</button>
+		<button label="MENU" span="4">0xFF 0x619E</button>
+		<button label="AUTOMEM" span="4">0xFF 0xE11E</button>
+		  
+		<button label="VOL+" span="4">0xFF 0x13EC</button>
+		<button label="&#xf077;" span="4">0xFF 0x2BD4</button>
+		<button label="TUNE+" span="4">0xFF 0x49B6</button>
+		
+		<button label="&#xf053;" span="4">0xFF 0x2BD4</button>
+		<button label="OK" span="4">0xFF 0x2BD4</button>
+		<button label="&#xf054;" span="4">0xFF 0x2BD4</button>
+		
+		<button label="VOL-" span="4">0xFF 0x2BD4</button>
+		<button label="&#xf078;" span="4">0xFF 0x2BD4</button>
+		<button label="TUNE-" span="4">0xFF 0x6B94</button>
+		
+		 
+	</device>
+</irplus>

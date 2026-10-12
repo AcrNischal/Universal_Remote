@@ -1,0 +1,33 @@
+<irplus>
+    <device manufacturer="OSRAM" model="LED Lights" columns="32" format="WINLIRC_NEC1" one-pulse="585" one-space="1662" zero-pulse="585" zero-space="538" header-pulse="9024" header-space="4462" bits="16" pre-bits="16" rowSplit="2">
+        <button label="-" labelSize="35.0" span="8" voiceCommand="down, volume down, abbassa">0xFF 0x40BF</button>
+        <button label="+" labelSize="35.0" span="8" voiceCommand="up,volume up, alza">0xFF 0x00FF</button>
+        <button label="OFF" labelSize="30.0" span="8" voiceCommand="Off, light off, Spegni">0xFF 0x609F</button>
+        <button label="&#61457;" labelSize="40.0" span="8" voiceCommand="On, Light on,Accendi" backgroundColor="FFC84334">0xFF 0xE01F</button>
+
+        <button label="R" labelSize="35.0" span="8" voiceCommand="Red, rosso" labelColor="FF000000" backgroundColor="FFFF0000">0xFF 0x10EF</button>
+        <button label="G" labelSize="35.0" span="8" voiceCommand="Gree, verde" labelColor="FF000000" backgroundColor="FF00FF00">0xFF 0x906F</button>
+        <button label="B" labelSize="35.0" span="8" voiceCommand="blu, Blue, bleu, bloo, Bru" labelColor="FF000000" backgroundColor="FF0000FF">0xFF 0x50AF</button>
+        <button label="W" labelSize="25.0" span="8" voiceCommand="White, bianco" labelColor="FF000000" backgroundColor="FFFFFFFF">0xFF 0xC03F</button>
+
+        <button label="" labelSize="30.0" span="8" backgroundColor="FFFF2D00">0xFF 0x30CF</button>
+        <button label="" labelSize="12.0" span="8" backgroundColor="FF00FFD6">0xFF 0xB04F</button>
+        <button label="" labelSize="12.0" span="8" backgroundColor="FF4C00FF">0xFF 0x708F</button>
+        <button label="FLASH" labelSize="12.0" span="8" voiceCommand="flash, flesh" backgroundColor="FF7F7F7F">0xFF 0xF00F</button>
+
+        <button label="" labelSize="30.0" span="8" backgroundColor="FFFF3F00">0xFF 0x08F7</button>
+        <button label="&#10;" labelSize="12.0" span="8" backgroundColor="FF00D1FF">0xFF 0x8877</button>
+        <button label="" labelSize="12.0" span="8" backgroundColor="FFD687FF">0xFF 0x48B7</button>
+        <button label="STROBE" labelSize="12.0" span="8" voiceCommand="strobe, strobes, strobo" backgroundColor="FF7F7F7F">0xFF 0xC837</button>
+
+        <button label="" labelSize="30.0" span="8" backgroundColor="FFFF6600">0xFF 0x28D7</button>
+        <button label="" labelSize="12.0" span="8" backgroundColor="FF006DFF">0xFF 0xA857</button>
+        <button label="" labelSize="12.0" span="8" backgroundColor="FFAF00FF">0xFF 0x6897</button>
+        <button label="SMOOTH" labelSize="12.0" span="8" voiceCommand="Smooth" backgroundColor="FF7F7F7F">0xFF 0xE817</button>
+
+        <button label="" labelSize="30.0" span="8" backgroundColor="FFFF9900">0xFF 0x18E7</button>
+        <button label="" labelSize="12.0" span="8" backgroundColor="FF0042FF">0xFF 0x9867</button>
+        <button label="" labelSize="12.0" span="8" backgroundColor="FFE800FF">0xFF 0x58A7</button>
+        <button label="COLORS" labelSize="12.0" span="8" backgroundColor="FF7F7F7F">0xFF 0xD827</button>
+    </device>
+</irplus>

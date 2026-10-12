@@ -1,0 +1,47 @@
+<irplus>
+    <device manufacturer="AIWA" model="RC-CAS10" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="26"
+        gap-pulse="670" gap-space="22947" one-pulse="670" one-space="452" zero-pulse="670" zero-space="1571" header-pulse="9100" header-space="4381">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0x227EEC0 0xFF00</button>
+        <button label="BASS" span="3">0x227EEC0 0x1DE2</button>
+        <button label="TREBLE" span="3">0x227EEC0 0x15EA</button>
+        <button label="ENTER" span="3">0x227EEC0 0x31CE</button>
+
+        <button label="REC MODE" span="4">0x227EEC0 0x05FA</button>
+        <button label="PRESET+" span="4">0x227EEC0 0x9E61</button>
+        <button label="VOL+" span="4">0x227EEC0 0x4DB2</button>
+
+        <button label="REC/REC MUTE" span="4">0x227EEC0 0x9D62</button>
+        <button label="PRESET-" span="4">0x227EEC0 0x5EA1</button>
+        <button label="VOL-" span="4">0x227EEC0 0x8D72</button>
+
+        <button label="1" span="4">0x227EEC0 0x7F80</button>
+        <button label="2" span="4">0x227EEC0 0xBF40</button>
+        <button label="3" span="4">0x227EEC0 0x3FC0</button>
+
+        <button label="4" span="4">0x227EEC0 0xDF20</button>
+        <button label="5" span="4">0x227EEC0 0x5FA0</button>
+        <button label="6" span="4">0x227EEC0 0x9F60</button>
+
+        <button label="7" span="4">0x227EEC0 0x1FE0</button>
+        <button label="8" span="4">0x227EEC0 0xEF10</button>
+        <button label="9" span="4">0x227EEC0 0x6F90</button>
+
+        <button label="CD DIRECT" span="4">0x227EEC0 0x758A</button>
+        <button label="0" span="4">0x227EEC0 0xAF50</button>
+        <button label="+10" span="4">0x227EEC0 0x2FD0</button>
+
+        <button label="DECK" span="4">0x227EEC0 0x27D8</button>
+        <button label="" span="4">0x227EEC0 0xFD02</button>
+        <button label="BAND" span="4">0x227EEC0 0xC738</button>
+
+        <button label=" / " span="4">0x227EEC0 0x3DC2</button>
+        <button label="" span="4">0x227EEC0 0xDD22</button>
+        <button label=" / " span="4">0x227EEC0 0xBD42</button>
+
+        <button label="SHIFT" span="4">0x227EEC0 0xB54A</button>
+        <button label="" span="4">0x227EEC0 0x7D82</button>
+        <button label="FUNCTION" span="4">0x227EEC0 0x8778</button>
+
+    </device>
+</irplus>

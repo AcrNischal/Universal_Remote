@@ -1,0 +1,51 @@
+<irplus>
+	<device manufacturer="BEKO" model="NR-KK14T61" format="WINLIRC_RC5" columns="12" frequency="36000">
+		
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x1020</button>
+		<button label="&#xFF581;" span="4">0x102B</button>
+		<button label="DOUBLE" span="4">0x1007</button>
+		
+		<button label="1" span="4">0x1011</button>
+		<button label="2" span="4">0x1012</button>
+		<button label="3" span="4">0x1013</button>
+		
+		<button label="4" span="4">0x1014</button>
+		<button label="5" span="4">0x1015</button>
+		<button label="6" span="4">0x1016</button>
+		
+		<button label="7" span="4">0x1017</button>
+		<button label="8" span="4">0x1018</button>
+		<button label="9" span="4">0x1019</button>
+		
+		<button label="+10" span="4">0x101A</button>
+		<button label="0" span="4">0x1010</button>
+		<button label="AV/TV" span="4">0x102A</button>
+		
+		<button label="MENU" span="4">0x1029</button>
+		<button label="OK" span="4">0x1028</button>
+		<button label="TXT" span="4">0x1031</button>
+		
+		<button label="CH+" span="4">0x101C</button>
+		<button label="16:9" span="4">0x1023</button>
+		<button label="VOL+" span="4">0x1024</button>
+		
+		<button label="CH-" span="4">0x101B</button>
+		<button label="SWAP" span="4">0x1027</button>
+		<button label="VOL-" span="4">0x1025</button>
+		
+		<button label="R" fillColor="FFC84334" span="3">0x1026</button>
+		<button label="G" fillColor="FF1E7854" span="3">0x102C</button>
+		<button label="Y" fillColor="FFD6A81F" span="3">0x102E</button>
+		<button label="B" fillColor="FF2A4C94" span="3">0x1033</button>
+		
+		<button label="I" span="4">0x102F</button>
+		<button label="STOP" span="4">0x100C</button>
+		<button label="REVEAL" span="4">0x100E</button>
+		
+		<button label="SUB" span="4">0x100A</button>
+		<button label="MIX" span="4">0x1004</button>
+		<button label="UPDATE" span="4">0x100F</button>
+
+	</device>
+</irplus>
+ 

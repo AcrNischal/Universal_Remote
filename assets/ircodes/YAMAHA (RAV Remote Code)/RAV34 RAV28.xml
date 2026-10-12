@@ -1,0 +1,59 @@
+<irplus>
+    <device manufacturer="YAMAHA" model="RAV34" columns="12" format="YAMAHA_NEC_HEX">
+
+        <button label="&#xf011;" labelColor="FFC84334" span="3">7E-7F</button>
+        <space multiple="3"/>
+        <space multiple="3"/>
+        <button label="I" labelColor="FFC84334" span="3">7E-7E</button>
+
+        <button label="1" span="3">7A-007F</button>
+        <button label="2" span="3">7A-037C</button>
+        <button label="3" span="3">7A-0679</button>
+        <button label="4" span="3">7A-0976</button>
+
+        <button label="CD" span="3">7A-15</button>
+        <button label="MD/CD-R" span="3">7A-C9</button>
+        <button label="TUNER" span="3">7A-16</button>
+        <button label="MULTI CH IN" span="3">7A-87</button>
+
+        <button label="DVD" span="3">7A-C1</button>
+        <button label="DTV/CBL" span="3">7A-54</button>
+        <button label="DVR" span="3">7A-13</button>
+        <button label="V-AUX" span="3">7A-55</button>
+
+        <button label="VOL-" span="4">7A-1B</button>
+        <button label="&#xFF581;" span="4">7A-1C</button>
+        <button label="VOL+" span="4">7A-1A</button>
+
+        <button label="A/B/C/D/E" span="3">7A-12</button>
+        <button label="PRESET-" span="3">7A-11</button>
+        <button label="PRESET+" span="3">7A-10</button>
+        <button label="SLEEP" span="3">7A-57</button>
+
+        <button label="LEVEL" backgroundColor="FF888888" span="3">7A-86</button>
+        <button label="&#xf0d8;" backgroundColor="FF888888" span="3">7A-9D</button>
+        <button label="MENU" backgroundColor="FF888888" span="3">7A-84</button>
+        <button label="AUDIO SEL" span="3">7A-C3</button>
+
+        <button label="&#xf0d9;" backgroundColor="FF888888" span="3">7A-9F</button>
+        <button label="ENTER" backgroundColor="FF888888" span="3">7A-DE</button>
+        <button label="&#xf0da;" backgroundColor="FF888888" span="3">7A-9E</button>
+        <button label="NIGHT" labelColor="FFD6A81F" span="3">7A-95</button>
+
+        <button label="RETURN" backgroundColor="FF888888" span="3">7A-AA</button>
+        <button label="&#xf0d7;" backgroundColor="FF888888" span="3">7A-9C</button>
+        <button label="DISPLAY" backgroundColor="FF888888" span="3">7A-C2</button>
+        <button label="SUR.DECODE" labelColor="FFD6A81F" span="3">7A-8D</button>
+
+        <button label="STRAIGHT" labelColor="FFD6A81F" span="3">7A-56</button>
+        <button label="PROG-" labelColor="FFD6A81F" span="3">7A-59</button>
+        <button label="PROG+" labelColor="FFD6A81F" span="3">7A-58</button>
+        <button label="ENHANCER" labelColor="FFD6A81F" span="3">7A-94</button>
+
+        <button label="INFO" span="3">7A-A4</button>
+        <button label="EON" span="3">7A-A5</button>
+        <button label="MODE-PTY SEEK" span="3">7A-A6</button>
+        <button label="START" span="3">7A-A7</button>
+
+    </device>
+</irplus>

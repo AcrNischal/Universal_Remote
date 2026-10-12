@@ -1,0 +1,55 @@
+<irplus>
+    <device manufacturer="CLARION" model="RCB-177" columns="12" format="WINLIRC_SPACEENC" pre-bits="32" gap-pulse="662" gap-space="107666" one-pulse="660" one-space="1583" zero-pulse="660" zero-space="460" header-pulse="9075" header-space="4383">
+
+        <button label="SRC" span="4">0x6106C03F</button>
+        <button label="BAND" span="4">0x610650AF</button>
+        <button label="&#xFF581;" span="4">0x6106A05F</button>
+
+        <button label="1" span="3">0xE1868A75</button>
+        <button label="2" span="3">0xE1864AB5</button>
+        <button label="3" span="3">0xE186CA35</button>
+        <button label="VOL+" span="3">0x6106D827</button>
+
+        <button label="4" span="3">0xE1862AD5</button>
+        <button label="5" span="3">0xE186AA55</button>
+        <button label="6" span="3">0xE1866A95</button>
+        <button label="VOL-" span="3">0x6106B847</button>
+
+        <button label="7" span="3">0xE186EA15</button>
+        <button label="8" span="3">0xE1861AE5</button>
+        <button label="9" span="3">0xE1869A65</button>
+        <button label="P.TIME" span="3">0xE186F807</button>
+
+        <button label="DISC" span="3">0xE186926D</button>
+        <button label="0" span="3">0xE1860AF5</button>
+        <button label="SEARCH" span="3">0xE186FA05</button>
+        <button label=" " span="3">0x610610EF</button>
+
+        <button label="RTN" span="4">0xE18638C7</button>
+        <button label="&#xf0d8;" span="4">0xE186F00F</button>
+        <button label="SETUP" span="4">0xE186E21D</button>
+
+        <button label="&#xf0d9;" span="4">0xE186708F</button>
+        <button label="ENT" span="4">0xE1867887</button>
+        <button label="&#xf0da;" span="4">0xE18630CF</button>
+
+        <button label="MENU" span="4">0xE186A05F</button>
+        <button label="&#xf0d7;" span="4">0xE186B04F</button>
+        <button label="TOP MENU" span="4">0xE18620DF</button>
+
+        <button label="" span="3">0x61066897</button>
+        <button label="" span="3">0x6106E817</button>
+        <button label="2-ZONE" span="3">0x6106D02F</button>
+        <button label="TA" span="3">0x610620DF</button>
+
+        <button label="SCN" span="3">0x61068877</button>
+        <button label="RPT" span="3">0x610618E7</button>
+        <button label="RDM" span="3">0x61069867</button>
+        <button label="PBC" span="3">0xE1868679</button>
+
+        <button label="AUDIO" span="3">0xE186BA45</button>
+        <button label="SUB TITLE" span="3">0xE1863AC5</button>
+        <button label="ANGLE" span="3">0xE1867A85</button>
+        <button label="SLOW" span="3">0xE186E01F</button>
+    </device>
+</irplus>

@@ -1,0 +1,39 @@
+<irplus>
+    <device manufacturer="SANYO" model="PLV-Z4" columns="12" format="WINLIRC_NEC1">
+
+        <space multiple="8"/>
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xCC00 0x00FF</button>
+
+        <button label="LAMP" span="4">0xCC00 0x18E7</button>
+        <button label="NO SHOW" span="4">0xCC00 0xD12E</button>
+        <button label="FREEZE" span="4">0xCC00 0xC23D</button>
+
+        <button label="MENU" span="4">0xCC00 0x38C7</button>
+        <button label="&#xf0d8;" span="4">0xCC00 0x31CE</button>
+        <button label="RESET" span="4">0xCC00 0x9867</button>
+
+        <button label="&#xf0d9;" span="4">0xCC00 0x7887</button>
+        <button label="OK" span="4">0xCC00 0xF00F</button>
+        <button label="&#xf0da;" span="4">0xCC00 0xB847</button>
+
+        <button label="SCREEN" span="4">0xCC00 0x41BE</button>
+        <button label="&#xf0d7;" span="4">0xCC00 0xB14E</button>
+        <button label="IMAGE" span="4">0xCC00 0x30CF</button>
+
+        <button label="BRIGHT" span="4">0xCC00 0x0CF3</button>
+        <button label="CONT" span="4">0xCC00 0x8C73</button>
+        <button label="COLOR" span="4">0xCC00 0x4CB3</button>
+
+        <button label="IRIS" span="4">0xCC00 0xCC33</button>
+        <button label="PRESET" span="4">0xCC00 0x708F</button>
+        <button label="USER" span="4">0xCC00 0xB04F</button>
+
+        <button label="VIDEO" span="4">0xCC00 0xBC43</button>
+        <button label="C1" span="4">0xCC00 0xC13E</button>
+        <button label="HDMI" span="4">0xCC00 0xEC13</button>
+
+        <button label="S-VIDEO" span="4">0xCC00 0x7C83</button>
+        <button label="C2" span="4">0xCC00 0x817E</button>
+        <button label="PC" span="4">0xCC00 0x1CE3</button>
+    </device>
+</irplus>

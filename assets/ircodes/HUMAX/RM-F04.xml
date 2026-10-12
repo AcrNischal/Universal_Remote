@@ -1,0 +1,75 @@
+<irplus>
+    <device manufacturer="HUMAX" model="RM-F04" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16"
+       gap-pulse="573" gap-space="36000" one-pulse="573" one-space="1694" zero-pulse="573" zero-space="573" header-pulse="9041" header-space="4507">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="6">0x0008 0x00ff</button>
+        <button label="&#xFF581;" span="6">0x0008 0x18e7</button>
+
+        <button label="1" span="4">0x0008 0xc03f</button>
+        <button label="2" span="4">0x0008 0x20df</button>
+        <button label="3" span="4">0x0008 0xa05f</button>
+
+        <button label="4" span="4">0x0008 0x609f</button>
+        <button label="5" span="4">0x0008 0xe01f</button>
+        <button label="6" span="4">0x0008 0x10ef</button>
+
+        <button label="7" span="4">0x0008 0x906f</button>
+        <button label="8" span="4">0x0008 0x50af</button>
+        <button label="9" span="4">0x0008 0xd02f</button>
+
+        <button label="TV PORTAL" span="4">0x0008 0xd22d</button>
+        <button label="0" span="4">0x0008 0x30cf</button>
+        <button label="MENU" span="4">0x0008 0x708f</button>
+
+        <button label="&#xf04b;" alt="PLAY" span="3">0x0008 0x06f9</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">0x0008 0x46b9</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0x0008 0xc639</button>
+        <button label="&#xf111;" alt="RECORD" labelColor="FFC84334" span="3">0x0008 0x8679</button>
+
+        <button label="&#xf04a;" alt="REV" span="3">0x0008 0xa659</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x0008 0x26d9</button>
+        <button label="&#xf049;" alt="PREV" span="3">0x0008 0x6699</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0x0008 0xe619</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x0008 0x38c7</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x0008 0xb847</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x0008 0x58a7</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x0008 0x7887</button>
+
+        <button label="MEDIA" span="4">0x0008 0xf609</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0x0008 0x8877</button>
+        <button label="GUIDE" span="4">0x0008 0xd827</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x0008 0x48b7</button>
+        <button label="ENTER" span="4">0x0008 0xc837</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x0008 0x28d7</button>
+
+        <button label="EXIT" span="4">0x0008 0x6897</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x0008 0xa857</button>
+        <button label="BACK" span="4">0x0008 0x827d</button>
+
+        <button label="VOL+" span="4">0x0008 0xf807</button>
+        <button label="LIST" span="4">0x0008 0xb24d</button>
+        <button label="CH/PAGE+" span="4">0x0008 0x08f7</button>
+
+        <button label="VOL-" span="4">0x0008 0x02fd</button>
+        <button label="INFO" span="4">0x0008 0xc23d</button>
+        <button label="CH/PAGE-" span="4">0x0008 0xf00f</button>
+
+        <button label="OPTION" span="3">0x0008 0x42bd</button>
+        <button label="AUDIO" span="3">0x0008 0xa25d</button>
+        <button label="SUBTITLE" span="3">0x0008 0x629d</button>
+        <button label="TV/RADIO" span="3">0x0008 0xb04f</button>
+
+        <button label="TELETEXT" span="3">0x0008 0x7689</button>
+        <button label="FAV +" span="3">0x0008 0x56a9</button>
+        <button label="FAV LIST" span="3">0x0008 0xd629</button>
+        <button label="SLOW FWD" span="3">0x0008 0x36c9</button>
+
+        <button label="SOURCE" span="3">0x0008 0x40bf</button>
+        <button label="SLEEP" span="3">0x0008 0x32cd</button>
+        <button label="V FORMAT" span="3">0x0008 0xf20d</button>
+        <button label="WIDE" span="3">0x0008 0x728d</button>
+
+    </device>
+</irplus>

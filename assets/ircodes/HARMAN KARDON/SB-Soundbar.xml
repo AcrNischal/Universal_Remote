@@ -1,0 +1,15 @@
+<irplus>
+    <device manufacturer="HARMAN HARDON" model="SB-Soundbar" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0x010e 0xff00</button>
+        <button label="INPUT" span="6">0x010e 0xb54a</button>
+
+        <button label="VOL-" span="4">0x010e 0x13ec</button>
+        <button label="&#xFF581;" span="4">0x010e 0x837c</button>
+        <button label="VOL+" span="4">0x010e 0xe31c</button>
+
+        <button label="DOLBY VOLUME" span="4">0x010e 0xf50a</button>
+        <button label="SURROUND MODE" span="4">0x414e 0x15ea</button>
+        <button label="ROOM SIZE" span="4">0x010e 0x35ca</button>
+    </device>
+</irplus>

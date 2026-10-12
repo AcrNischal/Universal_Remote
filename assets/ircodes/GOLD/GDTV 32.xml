@@ -1,0 +1,40 @@
+<irplus>
+    <device manufacturer="GOLD" model="GDTV 32" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16">
+
+        <button label="&#61457;" labelSize="25.0" span="4" backgroundColor="FFC84334">0xfe 0x8f7</button>
+        <button label="&#1044926;" labelSize="25.0" span="4">0xfe 0xd02f</button>
+        <button label="TV/AV" labelSize="18.0" span="4">0xfe 0x708f</button>
+
+        <button label="1" labelSize="25.0" span="4">0xfe 0xf807</button>
+        <button label="2" labelSize="25.0" span="4">0xfe 0xc03f</button>
+        <button label="3" labelSize="25.0" span="4">0xfe 0x20df</button>
+
+        <button label="4" labelSize="25.0" span="4">0xfe 0xa05f</button>
+        <button label="5" labelSize="25.0" span="4">0xfe 0x38c7</button>
+        <button label="6" labelSize="25.0" span="4">0xfe 0x609f</button>
+
+        <button label="7" labelSize="25.0" span="4">0xfe 0xe01f</button>
+        <button label="8" labelSize="25.0" span="4">0xfe 0x10ef</button>
+        <button label="9" labelSize="25.0" span="4">0xfe 0xb847</button>
+
+        <button label="Menu" labelSize="18.0" span="4">0xfe 0x28d7</button>
+        <button label="0" labelSize="25.0" span="4">0xfe 0x827d</button>
+        <button label="Recall" labelSize="18.0" span="4">0xfe 0x00ff</button>
+
+        <space multiple="4"/>
+        <button label="&#61656;" labelSize="25.0" span="4">0xfe 0x6897</button>
+        <space multiple="4"/>
+
+        <button label="&#61657;" labelSize="25.0" span="4">0xfe 0xe817</button>
+        <button label="OK" labelSize="25.0" span="4">0xfe 0x18e7</button>
+        <button label="&#61658;" labelSize="25.0" span="4">0xfe 0x30cf</button>
+
+        <space multiple="4"/>
+        <button label="&#61655;" labelSize="25.0" span="4">0xfe 0x48b7</button>
+        <space multiple="4"/>
+
+        <button label="av1" labelSize="18.0" span="4">0xfe 0xc837</button>
+        <button label="euro" labelSize="18.0" span="4">0xfe 0x9867</button>
+        <button label="hdmi" labelSize="18.0" span="4">0xfe 0x8877</button>
+    </device>
+</irplus>

@@ -1,0 +1,45 @@
+<irplus>
+	<device manufacturer="TOSHIBA" model="CT-90287-DVD" columns="12" format="WINLIRC_SPACEENC" pre-bits="16" bits="16"
+        one-space="1622" one-pulse="606" zero-pulse="606" zero-space="498" header-pulse="8991" header-space="4371">
+		
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0xA25D 0x48B7</button>
+        <button label="TEXT" span="6">0xA25D 0xE41B</button>
+
+        <button label="1" span="4">0xA25D 0x807F</button>
+        <button label="2" span="4">0xA25D 0x40BF</button>
+        <button label="3" span="4">0xA25D 0xC03F</button>
+
+        <button label="4" span="4">0xA25D 0x20DF</button>
+        <button label="5" span="4">0xA25D 0xA05F</button>
+        <button label="6" span="4">0xA25D 0x609F</button>
+
+        <button label="7" span="4">0xA25D 0xE01F</button>
+        <button label="8" span="4">0xA25D 0x10EF</button>
+        <button label="9" span="4">0xA25D 0x906F</button>
+
+        <button label="DVD MENU" span="4">0xA25D 0x21DE</button>
+        <button label="0" span="4">0xA25D 0x50AF</button>
+        <button label="RETURN" span="4">0xA25D 0x44BB</button>
+
+        <button label="&#xf052;" alt="EJECT" span="4">0xA25D 0xAF50</button>
+        <button label="&#xf0d8;" span="4">0xA25D 0x01FE</button>
+        <button label="INFO" span="4">0xA25D 0x6897</button>
+
+        <button label="&#xf0d9;" span="4">0xA25D 0x8A75</button>
+        <button label="OK" span="4">0xA25D 0x847B</button>
+        <button label="&#xf0da;" span="4">0xA25D 0xB24D</button>
+
+        <button label="SETUP" span="4">0xA25D 0x04FB</button>
+        <button label="&#xf0d7;" span="4">0xA25D 0x817E</button>
+        <button label="TOP MENU" span="4">0xA25D 0x7B84</button>
+
+        <button label="&#xf04d;" alt="STOP" span="4">0xA25D 0x28D7</button>
+		<button label="&#xf04b;" alt="PLAY" span="4">0xA25D 0xA857</button>
+		<button label="&#xf04c;" alt="PAUSE" span="4">0xA25D 0x00FF</button>
+
+        <button label="&#xf04a;" alt="REW" span="3">0xA25D 0x9867</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0xA25D 0xC837</button>
+        <button label="&#xf049;" alt="PREV" span="3">0xA25D 0xC43B</button>
+		<button label="&#xf050;" alt="NEXT" span="3">0xA25D 0x24DB</button>
+	</device>
+</irplus>

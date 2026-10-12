@@ -1,0 +1,18 @@
+<irplus>
+    <device manufacturer="Sabaj" model="A4" columns="3" format="WINLIRC_SPACEENC" bits="16" pre-bits="16"
+        toggle-bit-pos="0" gap-pulse="686" gap-space="108572" one-pulse="679" one-space="1581"
+        zero-pulse="679" zero-space="452" header-pulse="9176" header-space="4407">
+
+        <button label="" alt="PWR" labelcolor="FFC84334" span="1">0x5EA1 0xF807</button>
+        <button label="" alt="UP" span="1">0x5EA1 0x58A7</button>
+        <button label="INPUT" span="1">0x5EA1 0x08F7</button>
+
+        <button label="" alt="LEFT" span="1">0x5EA1 0x7887</button>
+        <button label="OK" span="1">0x5EA1 0xF00F</button>
+        <button label="" alt="RIGHT" span="1">0x5EA1 0xA05F</button>
+
+        <button label="OUT" span="1">0x5EA1 0x48B7</button>
+        <button label="" alt="DOWN" span="1">0x5EA1 0xD827</button>
+        <button label="MUTE" span="1">0x5EA1 0x38C7</button>
+    </device>
+</irplus>

@@ -1,0 +1,29 @@
+<irplus>
+	<device manufacturer="MEDIA-TECH" model="MT4168" columns="3" format="WINLIRC_NEC1">
+
+		<button label="1">0x40BD 0x00FF</button>
+		<button label="2">0x40BD 0x807F</button>
+		<button label="3">0x40BD 0x40BF</button>
+		
+		<button label="4">0x40BD 0xC03F</button>
+		<button label="5">0x40BD 0x20DF</button>
+		<button label="6">0x40BD 0xA05F</button>
+		
+		<button label="7">0x40BD 0x609F</button>
+		<button label="8">0x40BD 0xE01F</button>
+		<button label="9">0x40BD 0x10EF</button>
+		
+		<button label="0">0x40BD 0x906F</button>
+		<button label="&#xf0d8;">0x40BD 0x48B7</button>
+		<button label="ESC">0x40BD 0x38C7</button>
+
+		<button label="&#xf0d9;">0x40BD 0x8877</button>
+		<button label="OK">0x40BD 0xA857</button>
+		<button label="&#xf0da;">0x40BD 0x8F7</button>
+
+		<button label="&#xFF581;">0x40BD 0x50AF</button>
+		<button label="&#xf0d7;">0x40BD 0xC837</button>
+		<button label="&#xf011;" backgroundColor="FFC84334">0x40BD 0xA25D</button>
+
+	</device>
+</irplus>

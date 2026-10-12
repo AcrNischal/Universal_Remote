@@ -1,0 +1,8 @@
+<irplus>
+    <device manufacturer="TION" model="O2" columns="12" format="WINLIRC_NEC1" scaleRatio="6.0">
+        <button label="&#61457;" labelSize="18.0" span="6" backgroundColor="FFC11C1C">0x00ff 0x20df</button>
+        <button label="SET" labelSize="10.0" span="6">0x00ff 0x28D7</button>
+        <button label="&#1044550;" labelSize="18.0" span="6">0x00ff 0x00ff</button>
+        <button label="&#1044574;" labelSize="18.0" span="6">0x00ff 0x30CF</button>
+    </device>
+</irplus>

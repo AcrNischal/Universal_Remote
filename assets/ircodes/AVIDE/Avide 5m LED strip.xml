@@ -1,0 +1,28 @@
+<irplus>
+<device manufacturer="Avide 5m LED strip" model="ABLSBL12V5050-30RGB65" columns="4" format="WINLIRC_NEC1">
+ <button label="+" labelSize="25.0">0x00F7 0x00FF</button>
+ <button label="-" labelSize="25.0">0x00F7 0x807F</button>
+ <button label="OFF" labelSize="18.0" backgroundColor="8A8A8A8A">0x00F7 0x40BF</button>
+ <button label="ON" labelSize="25.0" backgroundColor="8A8A8A8A">0x00F7 0xC03F</button>
+ <button label="R" labelSize="25.0" backgroundColor="FFC84334">0x00F7 0x20DF</button>
+ <button label="G" labelSize="25.0" backgroundColor="FF1E7854">0x00F7 0xA05F</button>
+ <button label="B" labelSize="25.0" backgroundColor="FF2A4C94">0x00F7 0x609F</button>
+ <button label="W" labelSize="25.0" labelColor="FF000000" backgroundColor="FFFFFFFF">0x00F7 0xE01F</button>
+ <button label="R1" labelSize="25.0" fillColor="FFFF6600">0x00F7 0x10EF</button>
+ <button label="G1" labelSize="25.0" fillColor="FF00FF99">0x00F7 0x906F</button>
+ <button label="B1" labelSize="25.0" fillColor="FF0066FF">0x00F7 0x50AF</button>
+ <button label="Flash" labelSize="18.0" backgroundColor="8A8A8A8A">0x00F7 0xD02F</button>
+ <button label="R2" labelSize="25.0" fillColor="FFFF9900">0x00F7 0x30CF</button>
+ <button label="G2" labelSize="25.0" fillColor="FF00FFCC">0x00F7 0xB04F</button>
+ <button label="B2" labelSize="25.0" fillColor="FF6666FF">0x00F7 0x708F</button>
+ <button label="Strobe" labelSize="18.0" backgroundColor="8A8A8A8A">0x00F7 0xF00F</button>
+ <button label="R3" labelSize="25.0" fillColor="FFFFCC00">0x00F7 0x08F7</button>
+ <button label="G3" labelSize="25.0" fillColor="FF00FFFF">0x00F7 0x8877</button>
+ <button label="B3" labelSize="25.0" fillColor="FF9900FF">0x00F7 0x48B7</button>
+ <button label="Fade" labelSize="18.0" backgroundColor="8A8A8A8A">0xC837 0xC936</button>
+ <button label="R4" labelSize="25.0" fillColor="FFD6A81F">0x00F7 0x28D7</button>
+ <button label="G4" labelSize="25.0" fillColor="FF33FFFF">0x00F7 0xA857</button>
+ <button label="B4" labelSize="25.0" fillColor="FF9900CC">0x00F7 0x6897</button>
+ <button label="Smooth" labelSize="18.0" backgroundColor="8A8A8A8A">0x00F7 0xE817</button>
+</device>
+</irplus>

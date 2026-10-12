@@ -1,0 +1,66 @@
+<irplus>
+	<device manufacturer="FUNAI" model="LT8-M26BB" columns="4" format="WINLIRC_NEC1" one-space="1629" one-pulse="624" zero-pulse="624" zero-space="498" header-pulse="9067" header-space="4444" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" backgroundColor="FFC84334" span="2">0x2107 0x04FB</button>
+		<button label="SLEEP">0x2107 0x44BB</button>
+		<button label="INPUT">0x2107 0x02FD</button>
+		
+		<button label="1">0x2107 0x807F</button>
+		<button label="2">0x2107 0x40BF</button>
+		<button label="3">0x2107 0xC03F</button>
+		<space/>
+
+		<button label="4">0x2107 0x20DF</button>
+		<button label="5">0x2107 0xA05F</button>
+		<button label="6">0x2107 0x609F</button>
+		<space/>
+
+		<button label="7">0x2107 0xE01F</button>
+		<button label="8">0x2107 0x10EF</button>
+		<button label="9">0x2107 0x906F</button>
+		<button label="SOUND">0x2107 0xA659</button>
+
+		<space/>
+		<button label="0">0x2107 0x00FF</button>
+		<space/>
+		<button label="ASPECT">0x2107 0x09F6</button>
+		
+		<button label="MENU">0x2107 0x0EF1</button>
+		<button label="&#xf0d8;" span="2">0x2107 0xCE31</button>
+		<button label="GUIDE">0x2107 0x0DF2</button>
+		
+		<button label="&#xf0d9;">0x2107 0x6E91</button>
+		<button label="OK" span="2">0x2107 0xEE11</button>
+		<button label="&#xf0da;">0x2107 0xAE51</button>
+		
+		<button label="BACK">0x2107 0x9E61</button>
+		<button label="&#xf0d7;" span="2">0x2107 0x2ED1</button>
+		<button label="INFO">0x2107 0xD926</button>
+		
+		<button label="VOL+">0x2107 0x06F9</button>
+		<button label="&#xFF581;" span="2">0x2107 0x26D9</button>
+		<button label="PROG+">0x2107 0x0AF5</button>
+		
+		<button label="VOL-">0x2107 0x8679</button>
+		<space/>
+		<space/>
+		<button label="PROG-">0x2107 0x8A75</button>
+		
+		<button label="R" fillColor="FFC84334">0x2107 0x5EA1</button>
+		<button label="G" fillColor="FF1E7854">0x2107 0xDE21</button>
+		<button label="Y" fillColor="FFD6A81F">0x2107 0xBE41</button>
+		<button label="B" fillColor="FF2A4C94">0x2107 0x3EC1</button>
+
+		<space/>
+		<button label="TXT1">0x2107 0x956A</button>
+		<button label="TXT2">0x2107 0xB946</button>
+		<button label="TXT3">0x2107 0xB54A</button>
+		
+		<button label="TXT4">0x2107 0x15EA</button>
+		<button label="TXT5">0x2107 0xF50A</button>
+		<button label="TXT6">0x2107 0x758A</button>
+		<button label="TXT7">0x2107 0x55AA</button>
+		
+		
+	</device>
+</irplus>

@@ -1,0 +1,44 @@
+<irplus><!-- VHS -->
+	<device manufacturer="SONY" model="RMT-V406B" columns="12" format="WINLIRC_SPACEENC" pre-bits="11" frequency="40000"
+	    one-space="466" one-pulse="1311" zero-pulse="711" zero-space="466" header-pulse="2511" header-space="466">
+		
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x000000000000054D</button>
+		<button label="&#xf052;" alt="EJECT" span="4">0x000000000000034D</button>
+		<button label="DISPLAY" span="4">0x00000000000002DD</button>
+		
+		<button label="AUDIOMON" span="4">0x000000000000074D</button>
+		<button label="CNTR/REMAIN" span="4">0x000000000000041D</button>
+		<button label="TVVIDEO" span="4">0x00000000000002AD</button>
+		
+		<button label="1" span="4">0x000000000000000D</button>
+		<button label="2" span="4">0x000000000000040D</button>
+		<button label="3" span="4">0x000000000000020D</button>
+		
+		<button label="4" span="4">0x000000000000060D</button>
+		<button label="5" span="4">0x000000000000010D</button>
+		<button label="6" span="4">0x000000000000050D</button>
+		
+		<button label="7" span="4">0x000000000000030D</button>
+		<button label="8" span="4">0x000000000000070D</button>
+		<button label="9" span="4">0x000000000000008D</button>
+		
+		<button label="102ND" span="4">0x000000000000028D</button>
+		<button label="0" span="4">0x000000000000048D</button>
+		<button label="INPUT" span="4">0x000000000000079D</button>
+		
+		<button label="VOL+" span="3">0x0000000000000248</button>
+		<button label="VOL-" span="3">0x0000000000000648</button>
+		<button label="CH+" span="3">0x000000000000004D</button>
+		<button label="CH-" span="3">0x000000000000044D</button>
+		
+		<button label="&#xf111;" alt="REC" labelColor="FFC84334" span="3">0x00000000000005CD</button>
+		<button label="SLOW" span="3">0x000000000000062D</button>
+		<button label="x2" span="3">0x000000000000014D</button>
+		<button label="SP/LP" span="3">0x00000000000000DD</button>
+		
+		<button label="IDX SEARCH+" span="3">0x000000000000035D</button>
+		<button label="IDX SEARCH-" span="3">0x000000000000075D</button>
+		<button label="MENU" span="3">0x000000000000059D</button>
+		<button label="TIMER" span="3">0x000000000000003D</button>
+	</device>
+</irplus>

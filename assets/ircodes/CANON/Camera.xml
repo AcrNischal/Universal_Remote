@@ -1,0 +1,6 @@
+<irplus>
+	<device manufacturer="CANON" model="Camera" columns="1" format="WINLIRC_RAW">
+		<button label="SHUTTER1">1061 1934 1085 39927 561 7277 554 9914 1083 916 1055 964 1051 933 1090</button>
+		<button label="SHUTTER2">1068 1959 1088 39889 528 5346 534 9960 1053 930 1087 932 1043 956 1072</button>
+	</device>
+</irplus>

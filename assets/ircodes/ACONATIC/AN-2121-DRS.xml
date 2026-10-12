@@ -1,0 +1,69 @@
+<irplus>
+    <device manufacturer="ACONATIC" model="AN-2121-DRS" columns="12" format="WINLIRC_NEC1" one-space="1683" one-pulse="578"
+        zero-pulse="578" zero-space="561" header-pulse="9063" header-space="4553" bits="16" pre-bits="16">
+
+        <button label="1" span="4">0x40BF 0x639C</button>
+        <button label="2" span="4">0x40BF 0xA35C</button>
+        <button label="3" span="4">0x40BF 0x23DC</button>
+
+        <button label="4" span="4">0x40BF 0xD12E</button>
+        <button label="5" span="4">0x40BF 0x51AE</button>
+        <button label="6" span="4">0x40BF 0x916E</button>
+
+        <button label="7" span="4">0x40BF 0x53AC</button>
+        <button label="8" span="4">0x40BF 0x936C</button>
+        <button label="9" span="4">0x40BF 0x13EC</button>
+
+        <button label="+10" span="4">0x40BF 0xF10E</button>
+        <button label="0" span="4">0x40BF 0x718E</button>
+        <button label="STANDBY" span="4">0x40BF 0x01FE</button>
+
+        <button label="DVD" span="4">0x40BF 0xC13E</button>
+        <button label="TUNER" span="4">0x40BF 0x41BE</button>
+        <button label="AUX" span="4">0x40BF 0x817E</button>
+
+        <button label="SUBTITLE" span="4">0x40BF 0xE11E</button>
+        <button label="LANGUAGE" span="4">0x40BF 0x619E</button>
+        <button label="TITLE" span="4">0x40BF 0xA15E</button>
+
+        <button label="ENTER" span="4">0x40BF 0x21DE</button>
+        <button label="AUDIO" span="4">0x40BF 0xE31C</button>
+        <button label="DISPLAY" span="4">0x40BF 0x11EE</button>
+
+        <button label="N/P" span="4">0x40BF 0xD32C</button>
+        <button label="&#xFF581;" span="4">0x40BF 0x31CE</button>
+        <button label="SLEEP" span="4">0x40BF 0xB14E</button>
+
+        <button label="&#xf052;" alt="EJECT" span="4">0x40BF 0x33CC</button>
+        <button label="&#xf0d8;" span="4">0x40BF 0xB34C</button>
+        <button label="SETUP" span="4">0x40BF 0xF30C</button>
+
+        <button label="&#xf0d9;" span="4">0x40BF 0xC936</button>
+        <button label="ENTER" span="4">0x40BF 0x8976</button>
+        <button label="&#xf0da;" span="4">0x40BF 0x09F6</button>
+
+        <button label="&#xf04a;" alt="REW" span="4">0x40BF 0xE916</button>
+        <button label="&#xf0d7;" span="4">0x40BF 0x49B6</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0x40BF 0x6996</button>
+
+        <button label="&#xf04d;" alt="STOP" span="4">0x40BF 0x0BF4</button>
+        <button label=" " span="4">0x40BF 0x8B74</button>
+        <button label="STEP" span="4">0x40BF 0xA956</button>
+
+        <button label="KP+" span="4">0x40BF 0x29D6</button>
+        <button label="SELECT" span="4">0x40BF 0x738C</button>
+        <button label="KP-" span="4">0x40BF 0x19E6</button>
+
+        <button label="&#xf049;" alt="PREV" span="4">0x40BF 0xD926</button>
+        <button label="SLOW" span="4">0x40BF 0x9966</button>
+        <button label="&#xf050;" alt="NEXT" span="4">0x40BF 0x59A6</button>
+
+        <button label="REPEAT" span="4">0x40BF 0x2BD4</button>
+        <button label="A-B" span="4">0x40BF 0xCB34</button>
+        <button label="PROG" span="4">0x40BF 0x4BB4</button>
+
+        <button label="MIC" span="4">0x40BF 0x7986</button>
+        <button label="TEST" span="4">0x40BF 0xB946</button>
+        <button label="LISTENING" span="4">0x40BF 0x39C6</button>
+    </device>
+</irplus>

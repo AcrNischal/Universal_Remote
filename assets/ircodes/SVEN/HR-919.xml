@@ -1,0 +1,33 @@
+<irplus>
+    <device manufacturer="SVEN" model="HR-919" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#61478;" span="4">0x04fb 0xd827</button>
+        <button label="DVD2CH" span="4">0x04fb 0xa857</button>
+        <button label="DVD5.1" span="4">0x04fb 0xe817</button>
+
+        <button label="LD" span="3">0x04fb 0x7a85</button>
+        <button label="VCD" span="3">0x04fb 0xb04f</button>
+        <button label="CD" span="3">0x04fb 0x8877</button>
+        <button label="BYPASS" span="3">0x04fb 0x906f</button>
+
+        <button label="DSP1" span="3">0x04fb 0x609f</button>
+        <button label="DSP2" span="3">0x04fb 0xaa55</button>
+        <button label="DSP3" span="3">0x04fb 0x6a95</button>
+        <button label="DSP4" span="3">0x04fb 0xc837</button>
+
+        <button label="&#61525; TREBLE" span="4">0x04fb 0x12ed</button>
+        <button label="&#61525; BASS" span="4">0x04fb 0xf20d</button>
+        <button label="&#61480;" span="4">0x04fb 0x40bf</button>
+
+        <button label="&#61526; TREBLE" span="4">0x04fb 0x926d</button>
+        <button label="&#61526; BASS" span="4">0x04fb 0xfa05</button>
+        <button label="&#61479;" span="4">0x04fb 0x807f</button>
+
+        <button label="DIRECT" span="6">0x04fb 0x32cd</button>
+        <button label="LOUDNESS" span="6">0x04fb 0x20df</button>
+        
+        <button label="L" span="6">0x04fb 0x708f</button>
+        <button label="R" span="6">0x04fb 0xa05f</button>
+
+    </device>
+</irplus>

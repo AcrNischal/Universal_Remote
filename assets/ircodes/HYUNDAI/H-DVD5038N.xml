@@ -1,0 +1,76 @@
+<irplus>
+    <device manufacturer="HYUNDAI" model="H-DVD5038-N" columns="40" format="WINLIRC_SPACEENC" bits="16" pre-bits="16" gap-pulse="670" gap-space="108266" one-pulse="680" one-space="1578" zero-pulse="680" zero-space="444" header-pulse="9179" header-space="4372">
+
+        <button label="STANDBY" span="10">0xDF 0x30CF</button>
+        <space multiple="10"/>
+        <space multiple="10"/>
+        <button label="&#xf052;" alt="EJECT" span="10">0xDF 0xB04F</button>
+
+        <button label="PROG" span="10">0xDF 0x7887</button>
+        <button label="1" span="10">0xDF 0x00FF</button>
+        <button label="2" span="10">0xDF 0x807F</button>
+        <button label="3" span="10">0xDF 0x40BF</button>
+
+        <button label="V-MODE" span="10">0xDF 0xF807</button>
+        <button label="4" span="10">0xDF 0xC03F</button>
+        <button label="5" span="10">0xDF 0x20DF</button>
+        <button label="6" span="10">0xDF 0xA05F</button>
+
+        <button label="A-MODE" span="10">0xDF 0x38C7</button>
+        <button label="7" span="10">0xDF 0x609F</button>
+        <button label="8" span="10">0xDF 0xE01F</button>
+        <button label="9" span="10">0xDF 0x10EF</button>
+
+        <button label="SETUP" span="10">0xDF 0xB847</button>
+        <button label="GOTO" span="10">0xDF 0x906F</button>
+        <button label="10+" span="10">0xDF 0x50AF</button>
+        <button label="0/10" span="10">0xDF 0xD02F</button>
+
+        <button label="TITLE" span="8">0xDF 0x28D7</button>
+        <button label="MENU" span="8">0xDF 0xA857</button>
+        <button label="AUDIO" span="8">0xDF 0x6897</button>
+        <button label="SUBTITLE" span="8">0xDF 0xE817</button>
+        <button label="ANGLE" span="8">0xDF 0x18E7</button>
+
+        <space multiple="10"/>
+        <button label="&#xf0d8;" span="20">0xDF 0x08F7</button>
+        <space multiple="10"/>
+
+        <button label="&#xf0d9;" span="12">0xDF 0x48B7</button>
+        <button label="ENTER" span="16">0xDF 0x708F</button>
+        <button label="&#xf0da;" span="12">0xDF 0xC837</button>
+
+        <space multiple="10"/>
+        <button label="&#xf0d7;" span="20">0xDF 0x8877</button>
+        <space multiple="10"/>
+
+        <button label="STEP" span="12">0xDF 0x9867</button>
+        <space multiple="2"/>
+        <button label="REPEAT" span="12">0xDF 0x58A7</button>
+        <space multiple="2"/>
+        <button label="A-B" span="12">0xDF 0xD827</button>
+
+        <button label="&#xf04a;" span="13">0xDF 0x827D</button>
+        <button label="&#xf04b;/&#xf04c;" span="14">0xDF 0x22DD</button>
+        <button label="&#xf049;" span="13">0xDF 0xC23D</button>
+
+        <button label="&#xf04e;" span="13">0xDF 0x02FD</button>
+        <button label="&#xf04d;" span="14">0xDF 0xA25D</button>
+        <button label="&#xf050;" span="13">0xDF 0x42BD</button>
+
+        <button label="VOL+" span="10">0xDF 0x12ED</button>
+        <button label="KEY+" span="10">0xDF 0x926D</button>
+        <button label="VIRTUAL" span="10">0xDF 0x52AD</button>
+        <button label="OSD" span="10">0xDF 0xD22D</button>
+
+        <button label="VOL-" span="10">0xDF 0x32CD</button>
+        <button label="KEY-" span="10">0xDF 0xB24D</button>
+        <button label="SLOW" span="10">0xDF 0x728D</button>
+        <button label="ZOOM" span="10">0xDF 0xF20D</button>
+
+        <button label="&#xFF581;" span="10">0xDF 0x0AF5</button>
+        <button label="L/R/ST" span="10">0xDF 0x8A75</button>
+        <button label="EQ" span="10">0xDF 0x4AB5</button>
+        <button label="S EFFECT" span="10">0xDF 0xCA35</button>
+    </device>
+</irplus>

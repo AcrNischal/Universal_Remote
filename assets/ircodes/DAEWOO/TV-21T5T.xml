@@ -1,0 +1,40 @@
+<irplus>
+    <device manufacturer="DAEWOO" model="TV-21T5T" columns="12" format="WINLIRC_RC5" bits="13" pre-bits="13" frequency="36000"
+        gap-pulse="1" gap-space="114297" one-pulse="933" one-space="855" zero-pulse="933" zero-space="855">
+
+        <button label="STANDBY" span="4">0x100C</button>
+        <button label="MODE" span="4">0x1834</button>
+        <button label="TELETEXT" span="4">0x103C</button>
+
+        <button label="1" span="4">0x1801</button>
+        <button label="2" span="4">0x1002</button>
+        <button label="3" span="4">0x1803</button>
+        <button label="4" span="4">0x1004</button>
+        <button label="5" span="4">0x1805</button>
+        <button label="6" span="4">0x1006</button>
+        <button label="7" span="4">0x1807</button>
+        <button label="8" span="4">0x1008</button>
+        <button label="9" span="4">0x1809</button>
+
+        <button label="SRC" span="4">0x1038</button>
+        <button label="0" span="4">0x1000</button>
+        <button label="MENU" span="4">0x0012</button>
+
+        <button label="RECALL" span="4">0x100F</button>
+        <button label="&#xf0d8;" span="4">0x1820</button>
+        <button label="DEL" span="4">0x1837</button>
+
+        <button label="&#xf0d9;" span="4">0x1011</button>
+        <button label="OK" span="4">0x0817</button>
+        <button label="&#xf0da;" span="4">0x1010</button>
+
+        <button label="SLEEP" span="4">0x1026</button>
+        <button label="&#xf0d7;" span="4">0x1821</button>
+        <button label="&#xFF581;" span="4">0x180D</button>
+
+        <button label="MOVE" span="4">0x1036</button>
+        <button label="SKIP" span="4">0x182D</button>
+        <button label="TIME" span="4">0x1032</button>
+
+    </device>
+</irplus>

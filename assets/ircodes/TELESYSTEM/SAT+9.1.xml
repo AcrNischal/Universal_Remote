@@ -1,0 +1,50 @@
+<irplus>
+	<device manufacturer="TELESYSTEM" model="SAT+9.1" columns="3" format="WINLIRC_SPACEENC" one-space="7301" one-pulse="255" 
+        zero-pulse="255" zero-space="4752" pre-bits="12" bits="12">
+		
+		<button label="&#xf011;" backgroundColor="FFC84334">0xABC</button>
+		<button label="F1">0xAB6</button>
+		<button label="F2">0xAC6</button>
+		
+		<button label="1">0xAEA</button>
+		<button label="2">0xADA</button>
+		<button label="3">0xACA</button>
+		
+		<button label="4">0xABA</button>
+		<button label="5">0xAE8</button>
+		<button label="6">0xAD8</button>
+		
+		<button label="7">0xAC8</button>
+		<button label="8">0xAB8</button>
+		<button label="9">0xAE6</button>
+		
+		<button label="AV">0xAB6</button>
+		<button label="0">0xAD6</button>
+		<button label="-">0xADC</button>
+		
+		<button label="MENU">0xACE</button>
+		<button label="&#xFF581;">0xAB0</button>
+		<button label="EXIT">0xAE0</button>
+		
+		<button label="VOL+">0xAC2</button>
+		<button label="&#xf0d8;">0xAD0</button>
+		<button label="CH+">0xAD0</button>
+		
+		<button label="&#xf0d9;">0xAE2</button>
+		<button label="OK">0xAD2</button>
+		<button label="&#xf0da;">0xAC2</button>
+		
+		<button label="VOL-">0xAE2</button>
+		<button label="&#xf0d7;">0xAD4</button>
+		<button label="CH-">0xABE</button>
+		
+		<button label="&#xf04d;" backgroundColor="FF98fb98">0xAA4</button>
+		<button label="&#xf04b;" backgroundColor="FF000000">0xAC4</button>
+		<button label="&#xf111;" backgroundColor="FFC84334">0xAB2</button>
+		
+		<button label="&#xf04a;" backgroundColor="FF2A4C94">0xAE4</button>
+		<button label="&#xf04c;" backgroundColor="FFD6A81F">0xAA8</button>
+		<button label="&#xf04e;" backgroundColor="FF9400d3">0xAAE</button>
+		
+	</device>
+</irplus>

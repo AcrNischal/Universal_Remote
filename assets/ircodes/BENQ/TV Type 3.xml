@@ -1,0 +1,56 @@
+<irplus>
+    <device manufacturer="BENQ" model="TV 3" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" span="4" backgroundColor="FFC84334">0x06F9 0x00FF</button>
+        <button label="&#xFF581;" span="4">0x06F9 0x42BD</button>
+        <button label="INPUT AV" span="4">0x06F9 0x08F7</button>
+
+        <button label="1" span="4">0x06F9 0x20DF</button>
+        <button label="2" span="4">0x06F9 0xA05F</button>
+        <button label="3" span="4">0x06F9 0xFA05</button>
+
+        <button label="4" span="4">0x06F9 0xE01F</button>
+        <button label="5" span="4">0x06F9 0x10EF</button>
+        <button label="6" span="4">0x06F9 0x906F</button>
+
+        <button label="7" span="4">0x06F9 0x50AF</button>
+        <button label="8" span="4">0x06F9 0xD02F</button>
+        <button label="9" span="4">0x06F9 0x30CF</button>
+
+        <button label="-/--" span="4">0x06F9 0xB04F</button>
+        <button label="0" span="4">0x06F9 0xC03F</button>
+        <button label="ASPECT" span="4">0x06F9 0x2AD5</button>
+
+        <button label="AUDIO" span="3">0x06F9 0x9A65</button>
+        <button label="BACK" span="3">0x06F9 0xF00F</button>
+        <button label="FAV" span="3">0x06F9 0x8877</button>
+        <button label="SOUND MODE" span="3">0x06F9 0x18E7</button>
+
+        <button label="GUIDE" span="3">0x06F9 0x926D</button>
+        <button label="INFO" span="3">0x06F9 0xA25D</button>
+        <button label="LAST CHANNEL" span="3">0x06F9 0xC837</button>
+        <button label="TV" span="3">0x06F9 0xE21D</button>
+
+        <button label="CH+" span="4">0x06F9 0x3AC5</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0x06F9 0x22DD</button>
+        <button label="VOL+" span="4">0x06F9 0x9867</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x06F9 0x38C7</button>
+        <button label="ENTER" span="4">0x06F9 0x8A75</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x06F9 0x12ED</button>
+
+        <button label="CH-" span="4">0x06F9 0x28D7</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x06F9 0xB847</button>
+        <button label="VOL-" span="4">0x06F9 0xA857</button>
+
+        <button label="MENU" span="4">0x06F9 0x48B7</button>
+        <button label="PIP" span="4">0x06F9 0x6A95</button>
+        <button label="SLEEP" span="4">0x06F9 0xCA35</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x06F9 0x40BF</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x06F9 0x708F</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x06F9 0x6897</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x06F9 0xE817</button>
+
+    </device>
+</irplus>

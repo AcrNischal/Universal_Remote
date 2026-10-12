@@ -1,0 +1,33 @@
+<irplus>
+	<device manufacturer="PHILIPS" model="MCM2150" columns="12" format="WINLIRC_RC5" frequency="36000" repeat="2" repeatgap="114000">
+
+		<button label="&#xf011;" backgroundColor="FFC84334" span="6">0x1D4C</button>
+		<button label="&#xf052;" alt="EJECT" span="6">0x1D2D</button>
+
+		<button label="FM" backgroundColor="FF2A4C94" span="4">0x153F</button>
+		<button label="USB Audio-IN" backgroundColor="FF2A4C94" span="4">0x157F</button>
+		<button label="CD" backgroundColor="FF2A4C94" span="4">0x147F</button>
+
+		<button label="Vol+" span="4">0x1411</button>
+		<button label="&#xf0d8;" span="4">0x145e</button>
+		<button label="Repeat" span="4">0x1460</button>
+
+		<button label="&#xf049;" alt="PREV" span="4">0x1521</button>
+		<button label="&#xf04b; &#xf04c;" alt="PLAY" span="4">0x1D35</button>
+		<button label="&#xf050;" alt="NEXT" span="4">0x1520</button>
+
+		<button label="Vol-" span="4">0x1410</button>
+		<button label="&#xf0d7;" span="4">0x145f</button>
+		<button label="Shuffle" span="4">0x1461</button>
+
+		<button label="&#xFF581;" span="4">0x151D</button>
+		<button label="&#xf04d;" alt="STOP" span="4">0x1D36</button>
+		<button label="Display" span="4">0x151C</button>
+
+		<button label="Prog" span="3">0x1D24</button>
+		<button label="Sound" span="3">0x140D</button>
+		<button label="Clock" span="3">0x2C06</button>
+		<button label="Sleep/Timer" span="3">0x1D0F</button>
+
+	</device>
+</irplus>

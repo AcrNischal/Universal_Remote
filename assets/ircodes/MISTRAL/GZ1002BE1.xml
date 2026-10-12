@@ -1,0 +1,9 @@
+<irplus>
+    <device manufacturer="MISTRAL" model="GZ1002BE1" format="WINLIRC_NEC1" columns="1">
+        <button label="FANSPEED">0x807f 0xe01f</button>
+        <button label="MODE">0x807f 0xf00f</button>
+        <button label="OSCILLATE">0x807f 0xc837</button>
+        <button label="TEMP+">0x807f 0xc03f</button>
+		<button label="TIMER">0x807f 0xd02f</button>
+	</device>
+</irplus>

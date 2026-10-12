@@ -1,0 +1,53 @@
+<irplus>
+    <device columns="12" format="PWM_HEX" pre-bits="32" bits="16" manufacturer="TELESYSTEM" model="TS7500HD">
+        
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0xCACA3535 0x10EF</button>
+ 		<button label="Info" span="3">0xCACA3535 0x36C9</button>
+ 		<button label="List" span="3">0xCACA3535 0x15EA</button>
+		<button label="Menu" span="3">0xCACA3535 0x42BD</button>
+
+		<button label="App" span="3">0xCACA3535 0x2BD4</button>
+		<button label="Back" span="3">0xCACA3535 0x39C6</button>
+		<button label="OnDem" span="3">0xCACA3535 0x2DD2</button>
+		<button label="Option" span="3">0xCACA3535 0x17E8</button>
+
+		<button label="VOL+" span="4">0xCACA3535 0x37C8</button>
+        <button backgroundColor="FFAAAAAA" label="&#xf0d8;" span="4">0xCACA3535 0x18E7</button>
+        <button label="CH+" span="4">0xCACA3535 0x11EE</button>
+        
+        <button backgroundColor="FFAAAAAA" label="&#xf0d9;" span="4">0xCACA3535 0x28D7</button>
+		<button backgroundColor="FFAAAAAA" label="OK" span="4">0xCACA3535 0x20DF</button>
+		<button backgroundColor="FFAAAAAA" label="&#xf0da;" span="4">0xCACA3535 0x27D8</button>
+		
+		<button label="VOL-" span="4">0xCACA3535 0x38C7</button>
+		<button backgroundColor="FFAAAAAA" label="&#xf0d7;" span="4">0xCACA3535 0x19E6</button>
+		<button label="CH-" span="4">0xCACA3535 0x12ED</button>
+		
+		<button label="1" span="4">0xCACA3535 0x01FE</button>
+		<button label="2" span="4">0xCACA3535 0x02FD</button>
+	 	<button label="3" span="4">0xCACA3535 0x03FC</button>
+	 	
+		<button label="4" span="4">0xCACA3535 0x04FB</button>
+		<button label="5" span="4">0xCACA3535 0x05FA</button>
+		<button label="6" span="4">0xCACA3535 0x06F9</button>
+		
+		<button label="7" span="4">0xCACA3535 0x07F8</button>
+		<button label="8" span="4">0xCACA3535 0x08F7</button>
+	 	<button label="9" span="4">0xCACA3535 0x09F6</button>
+	 
+	 	<button label="EXIT" span="4">0xCACA3535 0x24DB</button>
+		<button label="0" span="4">0xCACA3535 0x00FF</button>
+		<button label="TEXT" span="4">0xCACA3535 0x2AD5</button>
+	 
+	    <button label="R" fillColor="FFC84334" span="3">0xCACA3535 0x3FC0</button>
+		<button label="G" fillColor="FF1E7854" span="3">0xCACA3535 0x2AD5</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0xCACA3535 0x2CD3</button>
+		<button label="Y" fillColor="FFD6A81F" span="3">0xCACA3535 0x2BD4</button>
+		
+	    <button label="&#xf04a;" span="3">0xCACA3535 0x22DD</button>
+	    <button label="&#xf04b;" span="3">0xCACA3535 0x23DC</button>
+        <button label="&#xf04d;" span="3">0xCACA3535 0x24DB</button>
+		<button label="&#xf04e;" span="3">0xCACA3535 0x25DA</button>
+
+    </device>
+</irplus>

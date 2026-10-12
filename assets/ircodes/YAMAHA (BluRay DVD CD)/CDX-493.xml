@@ -1,0 +1,45 @@
+<irplus>
+    <device manufacturer="YAMAHA" model="CDX-493" columns="12" format="WINLIRC_NEC1" one-space="1565" one-pulse="682" zero-pulse="682" zero-space="441" header-pulse="9111" header-space="4375" bits="16" pre-bits="16">
+        
+        <button label="SYNCHRO" span="4">0x9E61 0x1AE5</button>
+        <button label="DIMMER" span="4">0x9E61 0x7887</button>
+        <button label="TIME" span="4">0x9E61 0x50AF</button>
+        
+        <button label="&#xf052;" alt="EJECT" span="4">0x9E61 0x807F</button>
+        <button label="SPACE" span="4">0x9E61 0xF00F</button>
+        <button label="PEAK" span="4">0x9E61 0xBA45</button>
+        
+        <button label="TAPE" span="4">0x9E61 0xEA15</button>
+        <button label="CLEAR" span="4">0x9E61 0xB04F</button>
+        <button label="PROG" span="4">0x9E61 0x30CF</button>
+        
+        <button label="1" span="3">0x9E61 0x8877</button>
+        <button label="2" span="3">0x9E61 0x48B7</button>
+        <button label="3" span="3">0x9E61 0xC837</button>
+        <button label="INDEX" span="3">0x9E61 0xD02F</button>
+        
+        <button label="4" span="3">0x9E61 0x28D7</button>
+        <button label="5" span="3">0x9E61 0xA857</button>
+        <button label="6" span="3">0x9E61 0x6897</button>
+        <button label="10+" span="3">0x9E61 0x58A7</button>
+        
+        <button label="7" span="3">0x9E61 0xE817</button>
+        <button label="8" span="3">0x9E61 0x18E7</button>
+        <button label="9" span="3">0x9E61 0x9867</button>
+        <button label="0" span="3">0x9E61 0x08F7</button>
+        
+        <button label="REPEAT" span="3">0x9E61 0x10EF</button>
+        <button label="RANDOM" span="3">0x9E61 0xD827</button>
+        <button label="OUTPUT-" span="3">0x9E61 0x38C7</button>
+        <button label="OUTPUT+" span="3">0x9E61 0xB847</button>
+
+        <button label="&#xf049;" alt="PREV" span="3">0x9E61 0x20DF</button>
+        <button label="&#xf04a;" alt="REW" span="3">0x9E61 0xA05F</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x9E61 0x609F</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0x9E61 0xE01F</button>
+
+        <button label="&#xf04d;" alt="STOP" span="4">0x9E61 0x6A95</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x9E61 0xAA55</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0x9E61 0x40BF</button>
+    </device>
+</irplus>

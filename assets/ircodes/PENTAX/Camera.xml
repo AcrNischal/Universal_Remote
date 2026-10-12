@@ -1,0 +1,7 @@
+<irplus>
+    <device manufacturer="PENTAX" model="Camera" columns="1" format="WINLIRC_RAW" frequency="38000">
+
+        <button label="SHUTTER" backgroundColor="FFC84334">13000 3000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000</button>
+        
+    </device>
+</irplus>

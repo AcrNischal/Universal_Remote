@@ -1,0 +1,35 @@
+<irplus><!--HG00197-->
+    <device manufacturer="LIVARNO" model="LED COLOUR EFFECT LAMP" columns="12" format="WINLIRC_NEC1"
+        one-pulse="652" one-space="1578" zero-pulse="652" zero-space="466" header-pulse="9086" header-space="4384" bits="16" pre-bits="16" scaleRatio="1.4">
+
+        <button label="&#61829; &#61543;" labelSize="25.0" span="3" labelColor="FF000000" backgroundColor="FFFFFFFF">0xFF 0x906f</button>
+        <button label="&#61829; &#61544;" labelSize="25.0" span="3" labelColor="FF000000" backgroundColor="FFFFFFFF">0xFF 0xB847</button>
+        <button label="OFF" labelSize="25.0" span="3" backgroundColor="FF1C1C1C">0xff 0xf807</button>
+        <button label="ON" labelSize="25.0" span="3" backgroundColor="FFFF0000">0xff 0xb04f</button>
+
+        <button label="R" labelSize="25.0" span="3" labelColor="FF000000" backgroundColor="FFC84334">0xFF 0x9867</button>
+        <button label="G" labelSize="25.0" span="3" labelColor="FF000000" backgroundColor="FF1E7854">0xFF 0xD827</button>
+        <button label="B" labelSize="25.0" span="3" labelColor="FF000000" backgroundColor="FF2A4C94">0xFF 0x8877</button>
+        <button label="W" labelSize="25.0" span="3" labelColor="FF000000" backgroundColor="FFFFFFFF">0xFF 0xA857</button>
+
+        <button label="R1" labelSize="25.0" span="3" fillColor="FFFF6600">0xff 0xe817</button>
+        <button label="G1" labelSize="25.0" span="3" fillColor="FF00FF99">0xff 0x48B7</button>
+        <button label="B1" labelSize="25.0" span="3" fillColor="FF0066FF">0xff 0x6897</button>
+        <button label="FLASH" labelSize="14.0" span="3" backgroundColor="8A8A8A8A">0xFF 0xB24D</button>
+
+        <button label="R2" labelSize="25.0" span="3" fillColor="FFFF9900">0xff 0x0200</button>
+        <button label="G2" labelSize="25.0" span="3" fillColor="FF00FFCC">0xff 0x32CD</button>
+        <button label="B2" labelSize="25.0" span="3" fillColor="FF6666FF">0xff 0x20df</button>
+        <button label="STROBE" labelSize="12.0" span="3" backgroundColor="8A8A8A8A">0xff 0x0000</button>
+
+        <button label="R3" labelSize="25.0" span="3" fillColor="FFFFCC00">0xff 0x50af</button>
+        <button label="G3" labelSize="25.0" span="3" fillColor="FF00FFFF">0xff 0x7887</button>
+        <button label="B3" labelSize="25.0" span="3" fillColor="FF9900FF">0xff 0x708f</button>
+        <button label="FADE" labelSize="18.0" span="3" backgroundColor="8A8A8A8A">0xFF 0x58A7</button>
+
+        <button label="R4" labelSize="25.0" span="3" fillColor="FFFFFF00">0xff 0x38c7</button>
+        <button label="G4" labelSize="25.0" span="3" fillColor="FF33FFFF">0xff 0x2867</button>
+        <button label="B4" labelSize="25.0" span="3" fillColor="FF9900CC">0xff 0xF00F</button>
+        <button label="SMOOTH" labelSize="11.0" span="3" backgroundColor="8A8A8A8A">0xFF 0x30CF</button>
+    </device>
+</irplus>

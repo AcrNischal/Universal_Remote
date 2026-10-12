@@ -1,0 +1,69 @@
+<irplus>
+    <device manufacturer="TECHNISAT" model="FBDVR401" columns="12" format="WINLIRC_RC5" bits="13" pre-bits="13" toggle-bit-pos="2"
+        gap-pulse="1" gap-space="90886" frequency="36000">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" alt="POWER" span="4">0x120c</button>
+        <button label="SLEEP" span="4">0x1226</button>
+        <button label="&#xFF581;" span="4">0x120d</button>
+
+        <button label="1" span="4">0x1201</button>
+        <button label="2" span="4">0x1202</button>
+        <button label="3" span="4">0x1203</button>
+
+        <button label="4" span="4">0x1204</button>
+        <button label="5" span="4">0x1205</button>
+        <button label="6" span="4">0x1206</button>
+
+        <button label="7" span="4">0x1207</button>
+        <button label="8" span="4">0x1208</button>
+        <button label="9" span="4">0x1209</button>
+
+        <button label="&#xf111;" alt="RECORD" labelColor="FFC84334" span="4">0x1237</button>
+        <button label="0" span="4">0x1200</button>
+        <button label="TV/RADIO" span="4">0x0213</button>
+
+        <button label="&#xf04a;" alt="REV" span="3">0x1232</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0x1236</button>
+        <button label="&#xf04b;" alt="PLAY" span="3">0x1235</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x1234</button>
+
+        <button label="SFI" span="4">0x122f</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0x0210</button>
+        <button label="WWW" span="4">0x023f</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x0215</button>
+        <button label="ENTER" span="4">0x0217</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x0216</button>
+
+        <button label="&#xf0e2;" alt="RECALL" span="4">0x1222</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x0211</button>
+        <button label="INFO" span="4">0x020f</button>
+
+        <button label="PAGE+" span="6">0x0234</button>
+        <button label="PAGE-" span="6">0x0235</button>
+
+        <button label="CH+" span="4">0x1220</button>
+        <button label="OPTION" span="4">0x120a</button>
+        <button label="VOL+" span="4">0x1210</button>
+
+        <button label="CH-" span="4">0x1221</button>
+        <button label="NAVIGATION" span="4">0x0229</button>
+        <button label="VOL-" span="4">0x1211</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x022b</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x022c</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x022d</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x022e</button>
+
+        <button label="MENU" span="3">0x0212</button>
+        <button label="TIMER" span="3">0x022a</button>
+        <button label="LANG" span="3">0x1223</button>
+        <button label="ZOOM" span="3">0x023e</button>
+
+        <button label="TTX" span="3">0x123c</button>
+        <button label="STILL" span="3">0x1229</button>
+        <button label="HDMI" span="3">0x0239</button>
+        <button label="PIP" span="3">0x0218</button>
+
+    </device>
+</irplus>

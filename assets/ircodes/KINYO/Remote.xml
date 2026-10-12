@@ -1,0 +1,27 @@
+<irplus>
+    <device manufacturer="KINYO" model="Remote" columns="12" format="WINLIRC_NEC1"
+        bits="16" pre-bits="16" toggle-bit-pos="0" gap-pulse="969" gap-space="40608" one-pulse="969"
+        one-space="1278" zero-pulse="969" zero-space="144" header-pulse="9365" header-space="4088">
+        
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xAB06 0x20DF</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0xAB06 0xE01F</button>
+        <button label="INPUT" span="4">0xAB06 0x40BF</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0xAB06 0x08F7</button>
+        <button label="&#xFF581;" span="4">0xAB06 0xF00F</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0xAB06 0x48B7</button>
+
+        <button label="RESET" span="4">0xAB06 0x609F</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0xAB06 0xC03F</button>
+        <button label="SURROUND" span="4">0xAB06 0x10EF</button>
+
+        <button label="SUB+" span="4">0xAB06 0x00FF</button>
+        <button label="CENTER+" span="4">0xAB06 0x50AF</button>
+        <button label="VOL+" span="4">0xAB06 0x807F</button>
+
+        <button label="SUB-" span="4">0xAB06 0x708F</button>
+        <button label="CENTER-" span="4">0xAB06 0xC837</button>
+        <button label="VOL-" span="4">0xAB06 0x8877</button>
+        
+    </device>
+</irplus>

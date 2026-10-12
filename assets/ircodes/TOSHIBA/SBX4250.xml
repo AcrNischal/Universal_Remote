@@ -1,0 +1,42 @@
+<irplus>
+<device manufacturer="TOSHIBA" model="SBX4250" columns="3" format="WINLIRC_NEC1"
+     one-space="1686" one-pulse="534" zero-pulse="534" zero-space="577" header-pulse="8954" header-space="4503" bits="16" pre-bits="16">
+
+	<button label="&#xFF581;" alt="MUTE">0xA2BD 0xBD42</button>
+	<space/>
+	<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334">0xA2BD 0x48B7</button>
+
+	<button label="CEC">0xA2BD 0x7887</button>
+	<space/>
+	<button label="INPUT">0xA2BD 0x57A8</button>
+
+	<space/>
+	<button label="">0xA2BD 0x06F9</button>
+	<space/>
+	
+	<button label="" labelColor="FF45C1FF">0xA2BD 0xE817</button>
+	<button label=" " labelColor="FF45C1FF">0xA2BD 0xF807</button>
+	<button label="" labelColor="FF45C1FF">0xA2BD 0x18E7</button>
+
+	<space/>
+	<button label="">0xA2BD 0x8679</button>
+	<space/>
+	
+	<button label="EQ">0xA2BD 0xB847</button>
+	<space/>
+	<button label="SRS">0xA2BD 0x38C7</button>
+	
+	<button label="">0xA2BD 0x46B9</button>
+	<button label="">0xA2BD 0x26D9</button>
+	<button label="">0xA2BD 0x6699</button>
+
+	<button label="BASS">0xA2BD 0x46B9</button>
+	<button label="SUB">0xA2BD 0x26D9</button>
+	<button label="TREBLE">0xA2BD 0x6699</button>
+
+	<button label="">0xA2BD 0xC639</button>
+	<button label="">0xA2BD 0xA659</button>
+	<button label="">0xA2BD 0xE619</button>
+
+</device>
+</irplus>

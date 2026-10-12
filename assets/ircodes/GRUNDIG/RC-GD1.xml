@@ -1,0 +1,53 @@
+<irplus>
+    <device manufacturer="GRUNDIG" model="RC-GD1" columns="12" format="WINLIRC_RC5" bits="13" pre-bits="13" rowSplit="7" frequency="36000"
+        toggle-bit-pos="2" gap-pulse="1" gap-space="65458" one-pulse="972" one-space="820" zero-pulse="972" zero-space="820">
+
+        <button label="&#xFF581;" backgroundColor="FF1E7854" span="4">0x180D</button>
+        <button label="3D" backgroundColor="FFC84334" span="4">0x181B</button>
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x180C</button>
+
+        <button label="1" span="4">0x1801</button>
+        <button label="2" span="4">0x1802</button>
+        <button label="3" span="4">0x1803</button>
+        <button label="4" span="4">0x1804</button>
+        <button label="5" span="4">0x1805</button>
+        <button label="6" span="4">0x1806</button>
+        <button label="7" span="4">0x1807</button>
+        <button label="8" span="4">0x1808</button>
+        <button label="9" span="4">0x1809</button>
+
+        <button label="FAV/16:9" span="4">0x1823</button>
+        <button label="0" span="4">0x1800</button>
+        <button label="RCL/REPEAT" span="4">0x1822</button>
+
+        <button label="VOL+" span="4">0x1810</button>
+        <button label="INPUT" span="4">0x1838</button>
+        <button label="P+" span="4">0x1820</button>
+
+        <button label="VOL-" span="4">0x1811</button>
+        <button label="EPG" span="4">0x1825</button>
+        <button label="P-" span="4">0x1821</button>
+
+        <button label=" DOUBLE" span="4">0x182D</button>
+        <button label="&#xf0d8;" span="4">0x1816</button>
+        <button label="M" span="4">0x1819</button>
+
+        <button label="&#xf0d9;" span="4">0x1813</button>
+        <button label="OK/LIST" span="4">0x1835</button>
+        <button label="&#xf0da;" span="4">0x1812</button>
+
+        <button label="" span="4">0x1827</button>
+        <button label="&#xf0d7;" span="4">0x1817</button>
+        <button label="INFO" span="4">0x182A</button>
+
+        <button label="&#xf04b; &#xf04c;" backgroundColor="FFC84334" span="3">0x1837</button>
+        <button label="&#xf04a;" backgroundColor="FF1E7854" span="3">0x1836</button>
+        <button label="&#xf04d; &#xf04c;" backgroundColor="FFD6A81F" span="3">0x1832</button>
+        <button label="&#xf04e;" backgroundColor="FF2A4C94" span="3">0x1834</button>
+
+        <button label="&#xf049; TXT" span="3">0x183C</button>
+        <button label="R &#xf050;" span="3">0x1829</button>
+        <button label="SUBTITLE" span="3">0x1830</button>
+        <button label="AUDIO" span="3">0x1824</button>
+    </device>
+</irplus>

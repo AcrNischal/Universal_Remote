@@ -1,0 +1,59 @@
+<irplus>
+    <device manufacturer="DENON" model="RC-541" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="32" gap-pulse="400" gap-space="43000" one-pulse="400" one-space="1400" zero-pulse="400" zero-space="500" header-pulse="3500" header-space="1800">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x40040D00 0xBCB1</button>
+        <space multiple="4"/>
+        <button label="" labelColor="FF000000" backgroundColor="ffeca713" span="4">0x40040D00 0x808D</button>
+
+        <button label="" labelColor="FF000000" backgroundColor="FFc9cf65" span="4">0x40040D00 0x000D</button>
+        <button label="" labelColor="FF000000" backgroundColor="FFc9cf65" span="4">0x40040D00 0x606D</button>
+        <button label="" labelColor="FF000000" backgroundColor="FFc9cf65" span="4">0x40040D00 0x505D</button>
+
+        <button label=" SKIP" labelColor="FF000000" backgroundColor="FFc9cf65" span="3">0x40040D00 0x929F</button>
+        <button label="SKIP " labelColor="FF000000" backgroundColor="FFc9cf65" span="3">0x40040D00 0x525F</button>
+        <button label=" SLOW" labelColor="FF000000" backgroundColor="FFc9cf65" span="3">0x40040D00 0x202D</button>
+        <button label="SEARCH " labelColor="FF000000" backgroundColor="FFc9cf65" span="3">0x40040D00 0xA0AD</button>
+
+        <button label="TITLE" labelColor="FF000000" backgroundColor="ff71bfb2" span="4">0x40040D00 0xD9D4</button>
+        <button label="&#xf0d8;" span="4">0x40040D00 0xA1AC</button>
+        <button label="MENU" labelColor="FF000000" backgroundColor="ff71bfb2" span="4">0x40040D00 0x010C</button>
+
+        <button label="&#xf0d9;" span="4">0x40040D00 0xE1EC</button>
+        <button label="SELECT" span="4">0x40040D00 0x414C</button>
+        <button label="&#xf0da;" span="4">0x40040D00 0x111C</button>
+
+        <button label="DISPLAY" labelColor="FF000000" backgroundColor="ff71bfb2" span="4">0x40040D00 0x4944</button>
+        <button label="&#xf0d7;" span="4">0x40040D00 0x616C</button>
+        <button label="RETURN" labelColor="FF000000" backgroundColor="ff71bfb2" span="4">0x40040D00 0x818C</button>
+
+        <button label="SUBTITLE" labelColor="FF000000" backgroundColor="FFc9cf65" span="4">0x40040D00 0x8984</button>
+        <button label="AUDIO" labelColor="FF000000" backgroundColor="FFc9cf65" span="4">0x40040D00 0xCCC1</button>
+        <button label="ANGLE" labelColor="FF000000" backgroundColor="FFc9cf65" span="4">0x40040D00 0x0904</button>
+
+        <button label="MARKER" labelColor="FF000000" backgroundColor="ffeca713" span="3">0x40040D00 0x717C</button>
+        <button label="1" labelColor="FF000000" backgroundColor="FFc9cf65" span="3">0x40040D00 0x0805</button>
+        <button label="2" labelColor="FF000000" backgroundColor="FFc9cf65" span="3">0x40040D00 0x8885</button>
+        <button label="3" labelColor="FF000000" backgroundColor="FFc9cf65" span="3">0x40040D00 0x4845</button>
+
+        <button label="PLAYMODE" labelColor="FF000000" backgroundColor="ffeca713" span="3">0x40040D00 0xB1BC</button>
+        <button label="4" labelColor="FF000000" backgroundColor="FFc9cf65" span="3">0x40040D00 0xC8C5</button>
+        <button label="5" labelColor="FF000000" backgroundColor="FFc9cf65" span="3">0x40040D00 0x2825</button>
+        <button label="6" labelColor="FF000000" backgroundColor="FFc9cf65" span="3">0x40040D00 0xA8A5</button>
+
+        <button label="REPEAT MODE" labelColor="FF000000" backgroundColor="ffeca713" span="3">0x40040D00 0x313C</button>
+        <button label="7" labelColor="FF000000" backgroundColor="FFc9cf65" span="3">0x40040D00 0x6865</button>
+        <button label="8" labelColor="FF000000" backgroundColor="FFc9cf65" span="3">0x40040D00 0xE8E5</button>
+        <button label="9" labelColor="FF000000" backgroundColor="FFc9cf65" span="3">0x40040D00 0x1815</button>
+
+        <button label="A-B REPEAT" labelColor="FF000000" backgroundColor="ffeca713" span="3">0x40040D00 0x121F</button>
+        <button label="CLEAR" labelColor="FF000000" backgroundColor="ffeca713" span="3">0x40040D00 0xC1CC</button>
+        <button label="0" labelColor="FF000000" backgroundColor="FFc9cf65" span="3">0x40040D00 0x9895</button>
+        <button label="&gt;=10" labelColor="FF000000" backgroundColor="FFc9cf65" span="3">0x40040D00 0x919C</button>
+
+        <button label="SETUP" labelColor="FF000000" backgroundColor="ffeca713" span="3">0x40040D00 0x2924</button>
+        <button label="VSS" labelColor="FF000000" backgroundColor="ffeca713" span="3">0x40040D00 0x7974</button>
+        <space multiple="3"/>
+        <space multiple="3"/>
+
+    </device>
+</irplus>

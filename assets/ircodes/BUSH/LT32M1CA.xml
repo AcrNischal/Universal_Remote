@@ -1,0 +1,65 @@
+<irplus>
+    <device manufacturer="BUSH" model="LT32M1CA" columns="12" format="WINLIRC_NEC1" one-space="1597" one-pulse="650" zero-pulse="650" zero-space="469"
+        header-pulse="9104" header-space="4381" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0xBD 0x807F</button>
+        <button label="?" span="3">0xBD 0xC23D</button>
+        <button label="FAVORITE" span="3">0xBD 0x6A95</button>
+        <button label="FAV. SELECT" span="3">0xBD 0xEA15</button>
+
+        <button label="VIDEO" span="3">0xBD 0xA05F</button>
+        <button label="SCART" span="3">0xBD 0x609F</button>
+        <button label="PC" span="3">0xBD 0xA25D</button>
+        <button label="TV" span="3">0xBD 0x9A65</button>
+
+        <button label="1" span="4">0xBD 0xA857</button>
+        <button label="2" span="4">0xBD 0x6897</button>
+        <button label="3" span="4">0xBD 0xE817</button>
+
+        <button label="4" span="4">0xBD 0x9867</button>
+        <button label="5" span="4">0xBD 0x58A7</button>
+        <button label="6" span="4">0xBD 0xD827</button>
+
+        <button label="7" span="4">0xBD 0xB847</button>
+        <button label="8" span="4">0xBD 0x7887</button>
+        <button label="9" span="4">0xBD 0xF807</button>
+
+        <button label="EPG" span="4">0xBD 0x1AE5</button>
+        <button label="0" span="4">0xBD 0x827D</button>
+        <button label="PRE PR" span="4">0xBD 0x22DD</button>
+
+        <button label="SOURCE" span="4">0xBD 0x10EF</button>
+        <button label="ASPECT" span="4">0xBD 0xDA25</button>
+        <button label="SLEEP" span="4">0xBD 0xC837</button>
+
+        <button label="PICTURE" span="4">0xBD 0xCA35</button>
+        <button label="PR LIST" span="4">0xBD 0x5AA5</button>
+        <button label="SOUND" span="4">0xBD 0x708F</button>
+
+        <button label="VOL +" span="4">0xBD 0x30CF</button>
+        <button label="&#xFF581;" span="4">0xBD 0x20DF</button>
+        <button label="PR +" span="4">0xBD 0x18E7</button>
+
+        <button label="VOL -" span="4">0xBD 0x08F7</button>
+        <button label="DISPLAY" span="4">0xBD 0x40BF</button>
+        <button label="PR -" span="4">0xBD 0x38C7</button>
+
+        <button label="MENU" span="4">0xBD 0x50AF</button>
+        <button label="&#xf0d8;" span="4">0xBD 0xD02F</button>
+        <button label="EXIT" span="4">0xBD 0xE01F</button>
+
+        <button label="&#xf0d9;" span="4">0xBD 0x926D</button>
+        <button label="OK" span="4">0xBD 0xB04F</button>
+        <button label="&#xf0da;" span="4">0xBD 0x52AD</button>
+
+        <button label="SUBTITLE" span="4">0xBD 0xAA55</button>
+        <button label="&#xf0d7;" span="4">0xBD 0xF00F</button>
+        <button label="TELETEXT" span="4">0xBD 0x0AF5</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0xBD 0x32CD</button>
+        <button label="G" fillColor="FF1E7854" span="3">0xBD 0xB24D</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0xBD 0x728D</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0xBD 0xF20D</button>
+        
+    </device>
+</irplus>

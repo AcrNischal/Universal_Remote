@@ -1,0 +1,53 @@
+<irplus>
+    <device manufacturer="CAMBRIDGE AUDIO" model="540R-V2" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16" repeat="3" repeatheader="true" frequency="40000"
+         gap-pulse="597" gap-space="107358" one-pulse="598" one-space="1500" zero-pulse="598" zero-space="448" header-pulse="4402" header-space="4154">
+
+        <button label="INPUT MODE" span="6">0x303 0x06F9</button>
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0x303 0x30CF</button>
+
+        <button label="STEREO" span="4">0x303 0x58A7</button>
+        <button label="PLII NEO6" span="4">0x303 0x40BF</button>
+        <button label="DDEX DTSES" span="4">0x303 0xE817</button>
+
+        <button label="DSP MODE" span="4">0x303 0x906F</button>
+        <button label="DYNAMIC" span="4">0x303 0xC837</button>
+        <button label="LFE TRIM" span="4">0x303 0x04FB</button>
+
+        <button label="TEST TONE" span="4">0x303 0xE01F</button>
+        <button label="CH SELECT" span="4">0x303 0xB04F</button>
+        <button label="SUB ON OFF" span="4">0x303 0x48B7</button>
+
+        <button label="&#xFF581;" span="4">0x303 0x28D7</button>
+        <button label="VOL &#xf0d8;" span="4">0x303 0xC03F</button>
+        <button label="I-O" span="4">0x303 0x8877</button>
+
+        <button label="&#xf0d9;" span="4">0x303 0x609F</button>
+        <button label="ENTER" span="4">0x303 0x847B</button>
+        <button label="&#xf0da;" span="4">0x303 0xA857</button>
+
+        <button label="SPK SETUP" span="4">0x303 0x807F</button>
+        <button label="VOL &#xf0d7;" span="4">0x303 0xF807</button>
+        <button label="DELAY" span="4">0x303 0x05FA</button>
+
+        <button label="TUNER AM FM" span="4">0x303 0x38C7</button>
+        <button label="BASS TREBLE" span="4">0x303 0x50AF</button>
+        <button label="1 DIRECT" span="4">0x303 0xF00F</button>
+
+        <button label="PTY" span="4">0x303 0x6897</button>
+        <button label="APS" span="4">0x303 0xD827</button>
+        <button label="DISPLAY" span="4">0x303 0x20DF</button>
+
+        <button label="STEREO MONO" span="4">0x303 0x708F</button>
+        <button label="STORE" span="4">0x303 0xB847</button>
+        <button label="MODE" span="4">0x303 0x7887</button>
+
+        <button label="DVD" span="4">0x303 0x44BB</button>
+        <button label="VIDEO1" span="4">0x303 0xC43B</button>
+        <button label="VIDEO2" span="4">0x303 0x24DB</button>
+
+        <button label="VIDEO3" span="4">0x303 0xA45B</button>
+        <button label="TAPE MD/CDR" span="4">0x303 0x649B</button>
+        <button label="CD AUX" span="4">0x303 0xE41B</button>
+
+    </device>
+</irplus>

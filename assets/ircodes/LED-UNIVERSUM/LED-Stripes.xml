@@ -1,0 +1,36 @@
+<irplus>
+    <device manufacturer="LED-UNIVERSUM" model="LED-Stripes" columns="12" format="WINLIRC_NEC1" one-space="1578" one-pulse="652" zero-pulse="652" zero-space="466" header-pulse="9086" header-space="4384" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" labelColor="FF000000" backgroundColor="FFFFFFFF" span="6">0xFF 0x02FD</button>
+        <button label="AUTO" labelColor="FF000000" backgroundColor="FFFFFFFF" span="6">0xFF 0xF00F</button>
+
+        <button label="B" backgroundColor="FF2A4C94" span="4">0xFF 0xA25D</button>
+        <button label="B+" backgroundColor="FF2A4C94" span="4">0xFF 0x6897</button>
+        <button label="B-" backgroundColor="FF2A4C94" span="4">0xFF 0x48B7</button>
+
+        <button label="R" backgroundColor="FFC84334" span="4">0xFF 0x1AE5</button>
+        <button label="R+" backgroundColor="FFC84334" span="4">0xFF 0x28D7</button>
+        <button label="R-" backgroundColor="FFC84334" span="4">0xFF 0x08F7</button>
+
+        <button label="G" backgroundColor="FF1E7854" span="4">0xFF 0x9A65</button>
+        <button label="G+" backgroundColor="FF1E7854" span="4">0xFF 0xA857</button>
+        <button label="G-" backgroundColor="FF1E7854" span="4">0xFF 0x8877</button>
+
+        <button label="JUMP3" labelColor="FF000000" backgroundColor="FFFFFFFF" span="4">0xFF 0x20DF</button>
+        <button label="JUMP7" labelColor="FF000000" backgroundColor="FFFFFFFF" span="4">0xFF 0xA05F</button>
+        <button label="FLASH" labelColor="FF000000" backgroundColor="FFFFFFFF" span="4">0xFF 0xD02F</button>
+
+        <button label="FADE3" labelColor="FF000000" backgroundColor="FFFFFFFF" span="4">0xFF 0x609F</button>
+        <button label="FADE7" labelColor="FF000000" backgroundColor="FFFFFFFF" span="4">0xFF 0xE01F</button>
+        <button label="BRIGHT" labelColor="FF000000" backgroundColor="FFFFFFFF" span="4">0xFF 0x3AC5</button>
+
+        <button label="DIY1" labelColor="FF000000" backgroundColor="FFFFFFFF" span="4">0xFF 0x30CF</button>
+        <button label="DIM" labelColor="FF000000" backgroundColor="FFFFFFFF" span="4">0xFF 0xBA45</button>
+        <button label="PAUSE" labelColor="FF000000" backgroundColor="FFFFFFFF" span="4">0xFF 0x827D</button>
+
+        <button label="WHITE" labelColor="FF000000" backgroundColor="FFFFFFFF" span="4">0xFF 0x22DD</button>
+        <button label="QUICK" labelColor="FF000000" backgroundColor="FFFFFFFF" span="4">0xFF 0xE817</button>
+        <button label="SLOW" labelColor="FF000000" backgroundColor="FFFFFFFF" span="4">0xFF 0xC837</button>
+
+    </device>
+</irplus>

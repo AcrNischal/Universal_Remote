@@ -1,0 +1,17 @@
+<irplus>
+    <device manufacturer="DAEWOO" model="DWC-055RL" columns="8" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xc174 0x00ff</button>
+        <button label="MODE" span="4">0xc174 0xc03f</button>
+
+        <button label="FAN" span="4">0xc174 0x20df</button>
+        <button label="ENERGY" span="4">0xc174 0xe01f</button>
+
+        <button label="TEMP-" span="4">0xc174 0xd02f</button>
+        <button label="TEMP+" span="4">0xc174 0x10ef</button>
+
+        <button label="TIMER/CANCEL" span="4">0xc174 0x30cf</button>
+        <button label="SLEEP" span="4">0xc174 0xf00f</button>
+
+    </device>
+</irplus>

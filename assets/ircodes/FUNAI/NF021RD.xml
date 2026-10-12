@@ -1,0 +1,60 @@
+<irplus>
+    <device manufacturer="FUNAI" model="NF021RD" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16" gap-pulse="579" gap-space="107517" one-pulse="589" one-space="1667" zero-pulse="589" zero-space="546" header-pulse="9015" header-space="4436">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x2107 0x04FB</button>
+        <button label="DISP" span="4">0x2107 0xD926</button>
+        <button label="INPUT" span="4">0x2107 0x02FD</button>
+
+        <button label="1" span="4">0x2107 0x807F</button>
+        <button label="2" span="4">0x2107 0x40BF</button>
+        <button label="3" span="4">0x2107 0xC03F</button>
+
+        <button label="4" span="4">0x2107 0x20DF</button>
+        <button label="5" span="4">0x2107 0xA05F</button>
+        <button label="6" span="4">0x2107 0x609F</button>
+
+        <button label="7" span="4">0x2107 0xE01F</button>
+        <button label="8" span="4">0x2107 0x10EF</button>
+        <button label="9" span="4">0x2107 0x906F</button>
+
+        <button label="PIP" span="4">0x2107 0x8976</button>
+        <button label="0" span="4">0x2107 0x00FF</button>
+        <button label="SLEEP" span="4">0x2107 0x44BB</button>
+
+        <button label="SETUP" span="4">0x2107 0x0EF1</button>
+        <button label="&#xf0d8;" span="4">0x2107 0xCE31</button>
+        <button label="SOUND SEL" span="4">0x2107 0xA659</button>
+
+        <button label="&#xf0d9;" span="4">0x2107 0x6E91</button>
+        <button label="ENTER" span="4">0x2107 0xEE11</button>
+        <button label="&#xf0da;" span="4">0x2107 0xAE51</button>
+
+        <button label="BACK" span="4">0x2107 0x9E61</button>
+        <button label="&#xf0d7;" span="4">0x2107 0x2ED1</button>
+        <button label="SCRN MODE" span="4">0x2107 0x09F6</button>
+
+        <button label="VOL+" span="4">0x2107 0x06F9</button>
+        <button label="LAST PR" span="4">0x2107 0x1EE1</button>
+        <button label="CH+" span="4">0x2107 0x0AF5</button>
+
+        <button label="VOL-" span="4">0x2107 0x8679</button>
+        <button label="&#xFF581;" span="4">0x2107 0x26D9</button>
+        <button label="CH-" span="4">0x2107 0x8A75</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x2107 0x5EA1</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x2107 0xDE21</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x2107 0xBE41</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x2107 0x3EC1</button>
+
+        <button label="COLORSYSTEM" span="3">0x2107 0x748B</button>
+        <button label="REVEAL" span="3">0x2107 0x956A</button>
+        <button label="EXPAND" span="3">0x2107 0xB946</button>
+        <button label="SUBCODE" span="3">0x2107 0xB54A</button>
+
+        <button label="TXT" span="4">0x2107 0x15EA</button>
+        <button label="TXTCONTENTSPAGE" span="4">0x2107 0x758A</button>
+        <button label="TXTSTOPSEQUENCE" span="4">0x2107 0x55AA</button>
+
+        <button label="SERVICE (CAUTION!)" span="12">0x2107 0xFF00</button>
+    </device>
+</irplus>

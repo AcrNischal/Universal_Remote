@@ -1,0 +1,69 @@
+<irplus>
+    <device manufacturer="YAMAHA" model="RAV214" columns="12" format="WINLIRC_NEC1">
+
+        <button label="1" labelColor="FF7fb8b2" span="4">0x5EA1 0xA857</button>
+        <button label="2" labelColor="FF7fb8b2" span="4">0x5EA1 0x6897</button>
+        <button label="3" labelColor="FF7fb8b2" span="4">0x5EA1 0x936C</button>
+
+        <button label="4" labelColor="FF7fb8b2" span="4">0x5EA1 0x837C</button>
+        <button label="5" labelColor="FF7fb8b2" span="4">0x5EA1 0x2AD5</button>
+        <button label="6" labelColor="FF7fb8b2" span="4">0x5EA1 0xF00F</button>
+
+        <button label="7" labelColor="FF7fb8b2" span="4">0x5EA1 0x28D7</button>
+        <button label="8" labelColor="FF7fb8b2" span="4">0x5EA1 0xAA55</button>
+        <button label="9" labelColor="FF7fb8b2" span="4">0x5EA1 0xC837</button>
+
+        <button label="0" labelColor="FF7fb8b2" span="4">0x5EA1 0x53AC</button>
+        <button label="6CH ENTER" labelColor="FF7fb8b2" span="4">0x5EA1 0xE11E</button>
+        <button label=">10 DSP EFFECT" labelColor="FF7fb8b2" span="4">0x5EA1 0x6A95</button>
+
+        <button label="PRESET-" span="6">0x5EA1 0x8877</button>
+        <button label="PRESET+" span="6">0x5EA1 0x08F7</button>
+
+        <button label="TEST" span="4">0x5EA1 0xA15E</button>
+        <button label="&#xf077;" backgroundColor="FF888888" span="4">0x5EA1 0x19E6</button>
+        <button label="ABCDE" span="4">0x5EA1 0x48B7</button>
+
+        <button label="&#xf053;" backgroundColor="FF888888" span="4">0x5EA1 0xCA35</button>
+        <button label="ENTER" span="4">0x5EA1 0xE11E</button>
+        <button label="&#xf054;" backgroundColor="FF888888" span="4">0x5EA1 0x4AB5</button>
+
+        <button label="LEVEL" span="4">0x5EA1 0x619E</button>
+        <button label="&#xf078;" backgroundColor="FF888888" span="4">0x5EA1 0x9966</button>
+        <button label="MENU" span="4">0x5EA1 0x39C6</button>
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0x5EA1 0xB847</button>
+        <button label="STANDBY" backgroundColor="FFC84334" span="3">0x5EA1 0x7887</button>
+        <button label="OSD" span="3">0x5EA1 0x43BC</button>
+        <button label="SLEEP" span="3">0x5EA1 0xEA15</button>
+
+        <button label="&#xf027;" span="5">0x5EA1 0x58A7</button>
+        <button label="&#xFF581;" span="2">0x5EA1 0x38C7</button>
+        <button label="&#xf028;" span="5">0x5EA1 0xD827</button>
+
+        <button label="HALL" labelColor="ffc2bd62" span="4">0x5EA1 0x11EE</button>
+        <button label="JAZZ" labelColor="ffc2bd62" span="4">0x5EA1 0x916E</button>
+        <button label="ROCK" labelColor="ffc2bd62" span="4">0x5EA1 0x51AE</button>
+
+        <button label="ENTERTAINMENT" labelColor="ffc2bd62" span="4">0x5EA1 0xD12E</button>
+        <button label="TV SPORTS" labelColor="ffc2bd62" span="4">0x5EA1 0x31CE</button>
+        <button label="MONO MOVIE" labelColor="ffc2bd62" span="4">0x5EA1 0xB14E</button>
+
+        <button label="MOVIE THEATER 1" labelColor="ffc2bd62" span="4">0x5EA1 0x718E</button>
+        <button label="MOVIE THEATER 2" labelColor="ffc2bd62" span="4">0x5EA1 0xF10E</button>
+        <button label="DD/DTS" labelColor="ffc2bd62" span="4">0x5EA1 0x09F6</button>
+
+        <button label="CD" span="4">0x5EA1 0xA857</button>
+        <button label="TUNER" span="4">0x5EA1 0x6897</button>
+        <button label="MD/CD-R" span="4">0x5EA1 0x936C</button>
+
+        <button label="DVD" span="4">0x5EA1 0x837C</button>
+        <button label="D-TV/CBL" span="4">0x5EA1 0x2AD5</button>
+        <button label="VCR1" span="4">0x5EA1 0xF00F</button>
+
+        <button label="PHONO" span="4">0x5EA1 0x28D7</button>
+        <button label="V-AUX" span="4">0x5EA1 0xAA55</button>
+        <button label="VCR2/DVR" span="4">0x5EA1 0xC837</button>
+
+    </device>
+</irplus>

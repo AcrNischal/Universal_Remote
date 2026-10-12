@@ -1,0 +1,26 @@
+<irplus>
+	<device manufacturer="EPSON" model="ELPST12" columns="12" format="WINLIRC_NEC1" one-space="1626" one-pulse="621" zero-pulse="621" zero-space="494">
+		
+		<button label="&#xf011;" backgroundColor="FFC84334" span="6">0xC1AA 0x09F6</button>
+		<button label="INPUT-A-B" span="6">0xC1AA 0xB946</button>
+
+		<button label="VIDEO" span="6">0xC1AA 0x39C6</button>
+		<button label="COLOR-MODE" span="6">0xC1AA 0xF10E</button>
+
+		<button label="MENU" span="4">0xC1AA 0x59A6</button>
+		<button label="ESC" span="4">0xC1AA 0x21DE</button>
+		<button label="&#xFF581;" span="4">0xC1AA 0xC936</button>
+
+		<button label="PAUSE" span="4">0xC1AA 0x49B6</button>
+		<button label="&#xf0d8;" span="4">0xC1AA 0x0DF2</button>
+		<button label="AUTO" span="4">0xC1AA 0x7986</button>
+
+		<button label="&#xf0d9;" span="4">0xC1AA 0xCD32</button>
+		<button label="SELECT" span="4">0xC1AA 0xA15E</button>
+		<button label="&#xf0da;" span="4">0xC1AA 0x8D72</button>
+
+		<button label="ASPECT" span="4">0xC1AA 0x51AE</button>
+		<button label="&#xf0d7;" span="4">0xC1AA 0x4DB2</button>
+		<button label="MEMORY" span="4">0xC1AA 0xD12E</button>
+	</device>
+</irplus>

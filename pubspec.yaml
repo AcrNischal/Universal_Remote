@@ -1,0 +1,658 @@
+name: universal_remote
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  xml: ^6.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - assets/ircodes/
+    - assets/ircodes/2WIRE/
+    - assets/ircodes/3M/
+    - assets/ircodes/AAXA/
+    - assets/ircodes/ABIT/
+    - assets/ircodes/ABS/
+    - assets/ircodes/AC RYAN/
+    - assets/ircodes/ACCESSHD/
+    - assets/ircodes/ACER/
+    - assets/ircodes/ACONATIC/
+    - assets/ircodes/ACORP/
+    - assets/ircodes/ACOUSTIC/
+    - assets/ircodes/ADAFRUIT/
+    - assets/ircodes/ADAPTEC/
+    - assets/ircodes/ADB/
+    - assets/ircodes/ADVANCE ACOUSTIC/
+    - assets/ircodes/ADVENT/
+    - assets/ircodes/AEG/
+    - assets/ircodes/AGFAPHOTO/
+    - assets/ircodes/AIM/
+    - assets/ircodes/AIRTEL/
+    - assets/ircodes/AIRTIES/
+    - assets/ircodes/AIWA/
+    - assets/ircodes/AKAI/
+    - assets/ircodes/AKIRA/
+    - assets/ircodes/ALPINE/
+    - assets/ircodes/AMAZON/
+    - assets/ircodes/AMC/
+    - assets/ircodes/AMIKO/
+    - assets/ircodes/AMINO/
+    - assets/ircodes/AMSTRAD/
+    - assets/ircodes/AOC/
+    - assets/ircodes/APPLE/
+    - assets/ircodes/ARCAM/
+    - assets/ircodes/ARGO/
+    - assets/ircodes/ARRIS/
+    - assets/ircodes/ASPIRE/
+    - assets/ircodes/ASROCK/
+    - assets/ircodes/ASTRA/
+    - assets/ircodes/ASUS/
+    - assets/ircodes/AT&T/
+    - assets/ircodes/ATC/
+    - assets/ircodes/AUDIOENGINE/
+    - assets/ircodes/AUDIOLA/
+    - assets/ircodes/AUDIOVOX/
+    - assets/ircodes/AUGUST/
+    - assets/ircodes/AUNA/
+    - assets/ircodes/AURUS/
+    - assets/ircodes/AUVISIO/
+    - assets/ircodes/AVANIT/
+    - assets/ircodes/AVIDE/
+    - assets/ircodes/AVM/
+    - assets/ircodes/AVOL/
+    - assets/ircodes/AXAS/
+    - assets/ircodes/AXXION/
+    - assets/ircodes/AZ AMERICA/
+    - assets/ircodes/AZBOX/
+    - assets/ircodes/B&W BOWERS & WILKINS/
+    - assets/ircodes/BANG & OLUFSEN/
+    - assets/ircodes/BARCO/
+    - assets/ircodes/BAUHN/
+    - assets/ircodes/BBK/
+    - assets/ircodes/BEELINK/
+    - assets/ircodes/BEKO/
+    - assets/ircodes/BELLAGIO/
+    - assets/ircodes/BENCH/
+    - assets/ircodes/BENQ/
+    - assets/ircodes/BEXA/
+    - assets/ircodes/BEYONWIZ/
+    - assets/ircodes/BIONAIRE/
+    - assets/ircodes/BLAUPUNKT/
+    - assets/ircodes/BLUESKY/
+    - assets/ircodes/BLUETECH/
+    - assets/ircodes/BLUETIMES/
+    - assets/ircodes/BOCA/
+    - assets/ircodes/BOSE/
+    - assets/ircodes/BPL/
+    - assets/ircodes/BUSCH-JAEGER/
+    - assets/ircodes/BUSH/
+    - assets/ircodes/CABLE MATTERS/
+    - assets/ircodes/CAMBRIDGE AUDIO/
+    - assets/ircodes/CANARM/
+    - assets/ircodes/CANON/
+    - assets/ircodes/CANTON/
+    - assets/ircodes/CAT/
+    - assets/ircodes/CHANGHONG/
+    - assets/ircodes/CHANNEL VISION/
+    - assets/ircodes/CINEMATEQ/
+    - assets/ircodes/CISCO/
+    - assets/ircodes/CLARION/
+    - assets/ircodes/CLARKE TECH/
+    - assets/ircodes/CLATRONIC/
+    - assets/ircodes/COBRA/
+    - assets/ircodes/COCKTAILAUDIO/
+    - assets/ircodes/COMAG/
+    - assets/ircodes/CONRAD/
+    - assets/ircodes/COOLSTREAM/
+    - assets/ircodes/CRAIG/
+    - assets/ircodes/CREATIVE/
+    - assets/ircodes/CRISTOR ATLAS/
+    - assets/ircodes/CROWN/
+    - assets/ircodes/CYBERHOME/
+    - assets/ircodes/DAEWOO/
+    - assets/ircodes/DAIKIN/
+    - assets/ircodes/DANYSTAR/
+    - assets/ircodes/DELEYCON/
+    - assets/ircodes/DELL/
+    - assets/ircodes/DENON (AVR)/
+    - assets/ircodes/DENON (CD DVD)/
+    - assets/ircodes/DENON (DRA DNP RCD PMA)/
+    - assets/ircodes/DENVER/
+    - assets/ircodes/DGTEC/
+    - assets/ircodes/DIAMOND VISION/
+    - assets/ircodes/DICRA/
+    - assets/ircodes/DIESSETEK/
+    - assets/ircodes/DIGIHOME/
+    - assets/ircodes/DIGIQUEST/
+    - assets/ircodes/DIGITAL/
+    - assets/ircodes/DIGITALSTREAM/
+    - assets/ircodes/DIGITREX/
+    - assets/ircodes/DIKOM/
+    - assets/ircodes/DIRECTV/
+    - assets/ircodes/DISH/
+    - assets/ircodes/DK-DIGITAL/
+    - assets/ircodes/DOTSTONE/
+    - assets/ircodes/DPS/
+    - assets/ircodes/DREAMBOX/
+    - assets/ircodes/DUAL/
+    - assets/ircodes/DUNE/
+    - assets/ircodes/DUOSAT/
+    - assets/ircodes/DURABRAND/
+    - assets/ircodes/DYNAUDIO/
+    - assets/ircodes/DYNEX/
+    - assets/ircodes/DYNO JET/
+    - assets/ircodes/DYON/
+    - assets/ircodes/EASY LIVING/
+    - assets/ircodes/EASYONE/
+    - assets/ircodes/ECHOLITE/
+    - assets/ircodes/ECHOSTAR/
+    - assets/ircodes/EDIFIER/
+    - assets/ircodes/EDISION/
+    - assets/ircodes/EIKI/
+    - assets/ircodes/ELECTROLUX/
+    - assets/ircodes/ELENBERG/
+    - assets/ircodes/ELMO/
+    - assets/ircodes/ELTA/
+    - assets/ircodes/EMERSON/
+    - assets/ircodes/EMOTIVA/
+    - assets/ircodes/EMTEC/
+    - assets/ircodes/ENOX/
+    - assets/ircodes/EPSON/
+    - assets/ircodes/EUROSTAR/
+    - assets/ircodes/EUTRA/
+    - assets/ircodes/EVO/
+    - assets/ircodes/EXAMPLE/
+    - assets/ircodes/EYCOS/
+    - assets/ircodes/FANTEC/
+    - assets/ircodes/FANZTEC/
+    - assets/ircodes/FAVAL/
+    - assets/ircodes/FERGUSON/
+    - assets/ircodes/FINLUX/
+    - assets/ircodes/FIRSTLINE/
+    - assets/ircodes/FISHER/
+    - assets/ircodes/FLUID/
+    - assets/ircodes/FONESTAR/
+    - assets/ircodes/FOXTEL/
+    - assets/ircodes/FREE/
+    - assets/ircodes/FREECOM/
+    - assets/ircodes/FREESKY/
+    - assets/ircodes/FTEMAXIMAL/
+    - assets/ircodes/FUBA/
+    - assets/ircodes/FUJITSU-SIEMENS/
+    - assets/ircodes/FUNAI/
+    - assets/ircodes/FUSION/
+    - assets/ircodes/GALAXY INNOVATIONS/
+    - assets/ircodes/GBC/
+    - assets/ircodes/GE APPLIANCES/
+    - assets/ircodes/GEANT/
+    - assets/ircodes/GEAR4/
+    - assets/ircodes/GENERAL SATELLITE/
+    - assets/ircodes/GENIUS/
+    - assets/ircodes/GIGABLUE/
+    - assets/ircodes/GLOBALSAT/
+    - assets/ircodes/GLOBO/
+    - assets/ircodes/GOLD/
+    - assets/ircodes/GOLDEN MEDIA/
+    - assets/ircodes/GOLDMASTER/
+    - assets/ircodes/GOODMAN/
+    - assets/ircodes/GOSPELL/
+    - assets/ircodes/GPX/
+    - assets/ircodes/GRANDIN/
+    - assets/ircodes/GRUNDIG/
+    - assets/ircodes/GRUNKEL/
+    - assets/ircodes/HAIER/
+    - assets/ircodes/HAMA/
+    - assets/ircodes/HANNSPREE/
+    - assets/ircodes/HANTAREX/
+    - assets/ircodes/HARMAN KARDON/
+    - assets/ircodes/HAUPPAUGE/
+    - assets/ircodes/HB DIGITAL/
+    - assets/ircodes/HD DUO/
+    - assets/ircodes/HEAD/
+    - assets/ircodes/HIMEDIA/
+    - assets/ircodes/HIRSCHMANN/
+    - assets/ircodes/HISENSE/
+    - assets/ircodes/HITACHI/
+    - assets/ircodes/HITEKER/
+    - assets/ircodes/HOKKAIDO/
+    - assets/ircodes/HONEYWELL/
+    - assets/ircodes/HP/
+    - assets/ircodes/HUAWEI/
+    - assets/ircodes/HUMAX/
+    - assets/ircodes/HUNTER DOUGLAS/
+    - assets/ircodes/HYUNDAI/
+    - assets/ircodes/IAMM/
+    - assets/ircodes/ICAN/
+    - assets/ircodes/ID DIGITAL/
+    - assets/ircodes/ILIVE/
+    - assets/ircodes/IMPERIAL/
+    - assets/ircodes/IN-TECH/
+    - assets/ircodes/INFOCUS/
+    - assets/ircodes/INNOHIT/
+    - assets/ircodes/INNOVATIVE/
+    - assets/ircodes/INSIGNIA/
+    - assets/ircodes/INVERTO/
+    - assets/ircodes/INVES/
+    - assets/ircodes/IOMEGA/
+    - assets/ircodes/IROBOT/
+    - assets/ircodes/IRRADIO/
+    - assets/ircodes/JAYTECH/
+    - assets/ircodes/JBL/
+    - assets/ircodes/JENSEN/
+    - assets/ircodes/JEPSSEN/
+    - assets/ircodes/JGC/
+    - assets/ircodes/JVC/
+    - assets/ircodes/KAON/
+    - assets/ircodes/KATHREIN/
+    - assets/ircodes/KENDO/
+    - assets/ircodes/KENMORE/
+    - assets/ircodes/KENWOOD/
+    - assets/ircodes/KINYO/
+    - assets/ircodes/KISS/
+    - assets/ircodes/KLYTRONIC/
+    - assets/ircodes/KODA/
+    - assets/ircodes/KOSCOM/
+    - assets/ircodes/KRINNER/
+    - assets/ircodes/LED Lights (Group)/
+    - assets/ircodes/LED-UNIVERSUM/
+    - assets/ircodes/LEGENT/
+    - assets/ircodes/LENCO/
+    - assets/ircodes/LENOXX/
+    - assets/ircodes/LEXICON/
+    - assets/ircodes/LEXMAN/
+    - assets/ircodes/LG/
+    - assets/ircodes/LG (BluRay HT DVD Other)/
+    - assets/ircodes/LG (TV)/
+    - assets/ircodes/LIGAWO/
+    - assets/ircodes/LIGHTZONE/
+    - assets/ircodes/LILUCO/
+    - assets/ircodes/LINKSYS/
+    - assets/ircodes/LISTO/
+    - assets/ircodes/LIVARNO/
+    - assets/ircodes/LM/
+    - assets/ircodes/LOEWE/
+    - assets/ircodes/LOGIK/
+    - assets/ircodes/LOGISAT/
+    - assets/ircodes/LOGITECH/
+    - assets/ircodes/LUTRON/
+    - assets/ircodes/MAGICLIGHTING/
+    - assets/ircodes/MAGICTV/
+    - assets/ircodes/MAGNAVOX/
+    - assets/ircodes/MAIKO/
+    - assets/ircodes/MAJESTIC/
+    - assets/ircodes/MARANTZ/
+    - assets/ircodes/MASTER/
+    - assets/ircodes/MAT/
+    - assets/ircodes/MAXELL/
+    - assets/ircodes/MBO/
+    - assets/ircodes/MEDE8ER/
+    - assets/ircodes/MEDIA-TECH/
+    - assets/ircodes/MEDION/
+    - assets/ircodes/MEGASAT/
+    - assets/ircodes/MERTEN/
+    - assets/ircodes/METZ/
+    - assets/ircodes/MI/
+    - assets/ircodes/MICCA/
+    - assets/ircodes/MICROLAB/
+    - assets/ircodes/MICROSOFT/
+    - assets/ircodes/MIIA/
+    - assets/ircodes/MINIX/
+    - assets/ircodes/MINOLTA/
+    - assets/ircodes/MIRAI/
+    - assets/ircodes/MISTRAL/
+    - assets/ircodes/MITSUBISHI/
+    - assets/ircodes/MIVAR/
+    - assets/ircodes/MODECOM/
+    - assets/ircodes/MONOPRICE/
+    - assets/ircodes/MOTOROLA/
+    - assets/ircodes/MPMAN/
+    - assets/ircodes/MUSTEK/
+    - assets/ircodes/MUVID/
+    - assets/ircodes/NAD/
+    - assets/ircodes/NAIM/
+    - assets/ircodes/NAKAMICHI/
+    - assets/ircodes/NATIONAL/
+    - assets/ircodes/NAVIHEAVEN/
+    - assets/ircodes/NAZABOX/
+    - assets/ircodes/NEC/
+    - assets/ircodes/NEO/
+    - assets/ircodes/NETGEAR/
+    - assets/ircodes/NEWLINE/
+    - assets/ircodes/NEXPRO/
+    - assets/ircodes/NIKKEI/
+    - assets/ircodes/NIKON/
+    - assets/ircodes/NOKIA/
+    - assets/ircodes/NORDMENDE/
+    - assets/ircodes/NORTEK/
+    - assets/ircodes/NUBERT/
+    - assets/ircodes/NYTRO BOX/
+    - assets/ircodes/O2/
+    - assets/ircodes/OCTAGON/
+    - assets/ircodes/ODROID/
+    - assets/ircodes/ODYS/
+    - assets/ircodes/OK/
+    - assets/ircodes/OKI/
+    - assets/ircodes/OLEVIA/
+    - assets/ircodes/OLYMPUS/
+    - assets/ircodes/ONIDA/
+    - assets/ircodes/ONKYO/
+    - assets/ircodes/OPENBOX/
+    - assets/ircodes/OPPO/
+    - assets/ircodes/OPTICUM/
+    - assets/ircodes/OPTIMUS/
+    - assets/ircodes/OPTOMA/
+    - assets/ircodes/ORANGE/
+    - assets/ircodes/ORBITSOUND/
+    - assets/ircodes/ORION/
+    - assets/ircodes/ORTEK/
+    - assets/ircodes/OSMC/
+    - assets/ircodes/OTT/
+    - assets/ircodes/PACE/
+    - assets/ircodes/PALCOM/
+    - assets/ircodes/PALLADINE/
+    - assets/ircodes/PALSONIC/
+    - assets/ircodes/PANASONIC (BluRay & DVD)/
+    - assets/ircodes/PANASONIC (Projector)/
+    - assets/ircodes/PANASONIC (SA SC)/
+    - assets/ircodes/PANASONIC (TV)/
+    - assets/ircodes/PANASONIC (Various & Legacy)/
+    - assets/ircodes/PANAVOX/
+    - assets/ircodes/PARASOUND/
+    - assets/ircodes/PAULMANN/
+    - assets/ircodes/PEACHTREE/
+    - assets/ircodes/PENTAX/
+    - assets/ircodes/PHANTOM/
+    - assets/ircodes/PHILIPS (TV)/
+    - assets/ircodes/PHILIPS (Various)/
+    - assets/ircodes/PHONOLA/
+    - assets/ircodes/PINNACLE/
+    - assets/ircodes/PIONEER (BluRay DVD)/
+    - assets/ircodes/PIONEER (CD LaserDisc)/
+    - assets/ircodes/PIONEER (HiFi)/
+    - assets/ircodes/PIONEER (TV)/
+    - assets/ircodes/PLUS AMERICA/
+    - assets/ircodes/POLARIS/
+    - assets/ircodes/POLAROID/
+    - assets/ircodes/POLLIN/
+    - assets/ircodes/POLYCOM/
+    - assets/ircodes/POPCORNHOUR/
+    - assets/ircodes/POWERNET/
+    - assets/ircodes/PREMIUMBOX/
+    - assets/ircodes/PRIMARE/
+    - assets/ircodes/PROBOX/
+    - assets/ircodes/PROKLIMA/
+    - assets/ircodes/PROMETHEAN/
+    - assets/ircodes/PROTEK/
+    - assets/ircodes/PYLE/
+    - assets/ircodes/QBELL/
+    - assets/ircodes/QMAX/
+    - assets/ircodes/QVIART/
+    - assets/ircodes/RADEMACHER/
+    - assets/ircodes/RADIX/
+    - assets/ircodes/RCA/
+    - assets/ircodes/REFIT/
+    - assets/ircodes/REFLEXION/
+    - assets/ircodes/RENDER/
+    - assets/ircodes/REVOLTEC/
+    - assets/ircodes/REVOX/
+    - assets/ircodes/ROADSTAR/
+    - assets/ircodes/ROKU/
+    - assets/ircodes/ROLSEN/
+    - assets/ircodes/ROTEL/
+    - assets/ircodes/RUNCO/
+    - assets/ircodes/SABA/
+    - assets/ircodes/SABAJ/
+    - assets/ircodes/SAGEM/
+    - assets/ircodes/SAGEMCOM/
+    - assets/ircodes/SAMSON/
+    - assets/ircodes/SAMSUNG/
+    - assets/ircodes/SAMSUNG (DVB D(C,T,S)B Sky)/
+    - assets/ircodes/SAMSUNG (HT DVD BluRay) (AH-AK)/
+    - assets/ircodes/SAMSUNG (Soundbar)/
+    - assets/ircodes/SAMSUNG (TV) (AA)/
+    - assets/ircodes/SAMSUNG (TV) (BN)/
+    - assets/ircodes/SAMSUNG (TV) (SmartRemote)/
+    - assets/ircodes/SAMSUNG (Various & Legacy)/
+    - assets/ircodes/SAMY/
+    - assets/ircodes/SANSUI/
+    - assets/ircodes/SANWU/
+    - assets/ircodes/SANYO/
+    - assets/ircodes/SCEPTRE/
+    - assets/ircodes/SCHAUB-LORENZ/
+    - assets/ircodes/SCHNEIDER/
+    - assets/ircodes/SCHWAIGER/
+    - assets/ircodes/SCIENTIFIC-ATLANTA/
+    - assets/ircodes/SEG/
+    - assets/ircodes/SEIKI/
+    - assets/ircodes/SETONE/
+    - assets/ircodes/SEVILLE/
+    - assets/ircodes/SHARP/
+    - assets/ircodes/SHERWOOD/
+    - assets/ircodes/SHINELCO/
+    - assets/ircodes/SHINIL/
+    - assets/ircodes/SIEMENS/
+    - assets/ircodes/SILVERCREST/
+    - assets/ircodes/SINUDYNE/
+    - assets/ircodes/SKY/
+    - assets/ircodes/SKYMASTER/
+    - assets/ircodes/SMART/
+    - assets/ircodes/SMSL/
+    - assets/ircodes/SONOS/
+    - assets/ircodes/SONY/
+    - assets/ircodes/SONY (AVR)/
+    - assets/ircodes/SONY (BluRay & DVD)/
+    - assets/ircodes/SONY (Camera)/
+    - assets/ircodes/SONY (PlayStation)/
+    - assets/ircodes/SONY (RM-Series)/
+    - assets/ircodes/SONY (RMT-Series)/
+    - assets/ircodes/SONY (Soundbar)/
+    - assets/ircodes/SONY (TV)/
+    - assets/ircodes/SONY (Various & Legacy)/
+    - assets/ircodes/SOUNDGRAPH/
+    - assets/ircodes/SOYO/
+    - assets/ircodes/STARMAX/
+    - assets/ircodes/STARSAT/
+    - assets/ircodes/STARTRACK/
+    - assets/ircodes/STOREX/
+    - assets/ircodes/STREAMZAP/
+    - assets/ircodes/STRONG/
+    - assets/ircodes/SUMMIT/
+    - assets/ircodes/SUMVISION/
+    - assets/ircodes/SUPERBOX/
+    - assets/ircodes/SUPERMAX/
+    - assets/ircodes/SVA/
+    - assets/ircodes/SVEN/
+    - assets/ircodes/SWISSCOM/
+    - assets/ircodes/SYLVANIA/
+    - assets/ircodes/T+A/
+    - assets/ircodes/TARGA/
+    - assets/ircodes/TATA SKY/
+    - assets/ircodes/TCL/
+    - assets/ircodes/TEAC/
+    - assets/ircodes/TECHLINE/
+    - assets/ircodes/TECHNICOLOR/
+    - assets/ircodes/TECHNICS/
+    - assets/ircodes/TECHNIKA/
+    - assets/ircodes/TECHNISAT/
+    - assets/ircodes/TECHNOIT/
+    - assets/ircodes/TECHNOSAT/
+    - assets/ircodes/TECHNOSONIC/
+    - assets/ircodes/TECHNOTREND/
+    - assets/ircodes/TECHWOOD/
+    - assets/ircodes/TECTRO/
+    - assets/ircodes/TELEFUNKEN/
+    - assets/ircodes/TELEKOM/
+    - assets/ircodes/TELESTAR/
+    - assets/ircodes/TELESYSTEM/
+    - assets/ircodes/TELESYSTEM (TV)/
+    - assets/ircodes/TELEWIRE/
+    - assets/ircodes/TELSEY/
+    - assets/ircodes/TELSKY/
+    - assets/ircodes/TERRATEC/
+    - assets/ircodes/TERRIS/
+    - assets/ircodes/TESLA/
+    - assets/ircodes/TEUFEL/
+    - assets/ircodes/TEVION/
+    - assets/ircodes/THES/
+    - assets/ircodes/THOMSON/
+    - assets/ircodes/THULE/
+    - assets/ircodes/TIGER/
+    - assets/ircodes/TION/
+    - assets/ircodes/TIVO/
+    - assets/ircodes/TKOOFN/
+    - assets/ircodes/TOCOM/
+    - assets/ircodes/TOMATE/
+    - assets/ircodes/TOPFIELD/
+    - assets/ircodes/TOPPING/
+    - assets/ircodes/TOSHIBA/
+    - assets/ircodes/TREKSTOR/
+    - assets/ircodes/TREVI/
+    - assets/ircodes/TRIAX/
+    - assets/ircodes/TRONFY/
+    - assets/ircodes/TRUMAN/
+    - assets/ircodes/TWINHAN/
+    - assets/ircodes/TacT/
+    - assets/ircodes/ULTRAPLUS/
+    - assets/ircodes/ULTRAWAVE/
+    - assets/ircodes/UMC/
+    - assets/ircodes/UNITED/
+    - assets/ircodes/UNITYMEDIA/
+    - assets/ircodes/UNIVERSUM/
+    - assets/ircodes/UPC/
+    - assets/ircodes/UPSTAR/
+    - assets/ircodes/VANTAGE/
+    - assets/ircodes/VDC/
+    - assets/ircodes/VELODYNE/
+    - assets/ircodes/VENEX/
+    - assets/ircodes/VESTEL/
+    - assets/ircodes/VIDEOCON/
+    - assets/ircodes/VIESA/
+    - assets/ircodes/VIEWSONIC/
+    - assets/ircodes/VIORE/
+    - assets/ircodes/VIRGIN/
+    - assets/ircodes/VISTRON/
+    - assets/ircodes/VIVANCO/
+    - assets/ircodes/VIVITEK/
+    - assets/ircodes/VIZIO/
+    - assets/ircodes/VODAFONE/
+    - assets/ircodes/VU+/
+    - assets/ircodes/WEILI/
+    - assets/ircodes/WESTERN DIGITAL/
+    - assets/ircodes/WESTINGHOUSE/
+    - assets/ircodes/WHARFEDALE/
+    - assets/ircodes/WISI/
+    - assets/ircodes/WORLDSAT/
+    - assets/ircodes/XDOME/
+    - assets/ircodes/XIAOMI/
+    - assets/ircodes/XLOGIC/
+    - assets/ircodes/XORO/
+    - assets/ircodes/XTREAMER/
+    - assets/ircodes/XTREND/
+    - assets/ircodes/YAKUMO/
+    - assets/ircodes/YAMAHA (AVR Stereo)/
+    - assets/ircodes/YAMAHA (BluRay DVD CD)/
+    - assets/ircodes/YAMAHA (RAV Remote Code)/
+    - assets/ircodes/YAMAHA (Soundbar)/
+    - assets/ircodes/YOUSEE/
+    - assets/ircodes/ZAMIL/
+    - assets/ircodes/ZEATEK/
+    - assets/ircodes/ZEHNDER/
+    - assets/ircodes/ZEPHIR/
+    - assets/ircodes/ZODIAC/
+    - assets/ircodes/ZOLTRIX/
+    - assets/ircodes/ZOTAC/
+    - assets/ircodes/ZYXEL/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/poppinsregular.ttf
+        - asset: fonts/poppinsbold.ttf
+          weight: 700
+
+flutter_launcher_icons:
+  image_path: "assets/icon/app_icon.png"
+  android: true
+  ios: true
+  min_sdk_android: 21
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package

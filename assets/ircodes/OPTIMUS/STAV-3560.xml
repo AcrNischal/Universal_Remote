@@ -1,0 +1,49 @@
+<irplus>
+    <device manufacturer="OPTIMUS" model="STAV-3560" columns="12" format="WINLIRC_NEC1" one-space="1492" one-pulse="641" zero-pulse="641" zero-space="425" header-pulse="8646" header-space="4177" pre-bits="32">
+
+        <button label="AMP POWER" span="4">0xA55A 0x38C7</button>
+        <button label="MASTER VOLUME +" span="4">0xA55A 0x50AF</button>
+        <button label="MASTER VOLUME -" span="4">0xA55A 0xD02F</button>
+
+        <button label="RANDOM" span="6">0x45BA 0x52AD</button>
+        <button label="BEST" span="6">0x45BA 0x43BC</button>
+
+        <button label="CD PREV" span="4">0x45BA 0x8877</button>
+        <button label="CD NEXT" span="4">0x45BA 0x08F7</button>
+        <button label="CD STOP" span="4">0x45BA 0x6897</button>
+
+        <button label="CD PAUSE" span="3">0x45BA 0x18E7</button>
+        <button label="CD PLAY" span="3">0x45BA 0xE817</button>
+        <button label="CD PREV DISC" span="3">0x45BA 0x837C</button>
+        <button label="CD NEXT DISC" span="3">0x45BA 0xB847</button>
+
+        <button label="TAPE LPLAY" span="4">0x857A 0xDA25</button>
+        <button label="TAPE PLAY" span="4">0x857A 0xBA45</button>
+        <button label="TAPE STOP" span="4">0x857A 0x3AC5</button>
+        
+        <button label="TAPE RW" span="3">0x857A 0xEA15</button>
+        <button label="TAPE FF" span="3">0x857A 0x6A95</button>
+        <button label="TAPE PAUSE" span="3">0x857A 0x7A85</button>
+        <button label="TAPE 2 MONITOR" span="3">0xA55A 0xB847</button>
+
+        <button label="STATION PREV" span="3">0x25DA 0x8877</button>
+        <button label="STATION NEXT" span="3">0x857A 0x6A95</button>
+        <button label="CLASS" span="3">0x25DA 0x02FD</button>
+        <button label="FM MONO" span="3">0x25DA 0x7887</button>
+
+        <button label="REAR LEVEL -" span="3">0xA55A 0x42BD</button>
+        <button label="REAR LEVEL +" span="3">0xA55A 0x827D</button>
+        <button label="CENTER LEVEL -" span="3">0xA55A 0x827D</button>
+        <button label="CENTER LEVEL +" span="3">0xA55A 0x42BD</button>
+        
+        <button label="FUNCTION" span="3">0xA55A 0xAA55</button>
+        <button label="SURR MODE" span="3">0xA55A 0x02FD</button>
+        <button label="MUTING" span="3">0xA55A 0x48B7</button>
+        <button label="TEST TONE RETURN" span="3">0xA55A 0xBA45</button>
+        
+        <button label="CENTER MODE" span="3">0xA55A 0x5AA5</button>
+        <button label="DELAY TIME SBASS" span="3">0xA55A 0x5AA5</button>
+        <button label="CD POWER" span="3">0x45BA 0x38C7</button>
+        <button label="TAPE POWER" span="3">0x857A 0x38C7</button>
+    </device>
+</irplus>

@@ -1,0 +1,48 @@
+<irplus>
+    <device manufacturer="MEDION" model="MD84106" columns="12" format="WINLIRC_NEC1" one-space="1578" one-pulse="652" zero-pulse="652" zero-space="466" header-pulse="9086" header-space="4384" bits="16" pre-bits="16">
+
+        <button label="1" span="3">0xFF 0x906F</button>
+        <button label="2" span="3">0xFF 0xB847</button>
+        <button label="3" span="3">0xFF 0xF807</button>
+        <button label="4" span="3">0xFF 0xB04F</button>
+
+        <button label="5" span="3">0xFF 0x9867</button>
+        <button label="6" span="3">0xFF 0xD827</button>
+        <button label="7" span="3">0xFF 0x8877</button>
+        <button label="8" span="3">0xFF 0xA857</button>
+
+        <button label="9" span="3">0xFF 0xE817</button>
+        <button label="0" span="3">0xFF 0x48B7</button>
+        <button label="&#xf0e2;" alt="RECALL" span="3">0xFF 0x40BF</button>
+        <button label="DISPLAY" span="3">0xFF 0x10EF</button>
+
+        <button label="SUBTITLE" span="3">0xFF 0x0AF5</button>
+        <button label="ANGLE" span="3">0xFF 0xAA55</button>
+        <button label="MENU" span="3">0xFF 0x52AD</button>
+        <button label="&#xFF581;" span="3">0xFF 0x827D</button>
+
+        <button label="" span="4">0xFF 0x708F</button>
+        <button label="" span="4">0xFF 0xC03F</button>
+        <button label="" span="4">0xFF 0x58A7</button>
+
+        <button label="" span="4">0xFF 0x807F</button>
+        <button label="" span="4">0xFF 0xC03F</button>
+        <button label="" span="4">0xFF 0xA25D</button>
+
+        <button label="TITLE" span="3">0xFF 0x7A85</button>
+        <button label="&#xf0d8;" span="3">0xFF 0x609F</button>
+        <button label="" span="3">0xFF 0xA05F</button>
+        <button label="SOURCE" span="3">0xFF 0x629D</button>
+
+        <button label="&#xf0d9;" span="3">0xFF 0xE21D</button>
+        <button label="OK" span="3">0xFF 0xE01F</button>
+        <button label="&#xf0da;" span="3">0xFF 0x02FD</button>
+        <button label="REPEAT" span="3">0xFF 0x50AF</button>
+
+        <button label="SETUP" span="3">0xFF 0x18E7</button>
+        <button label="&#xf0d7;" span="3">0xFF 0x22DD</button>
+        <button label="VOL-" span="3">0xFF 0xF00F</button>
+        <button label="VOL+" span="3">0xFF 0x8A75</button>
+
+    </device>
+</irplus>

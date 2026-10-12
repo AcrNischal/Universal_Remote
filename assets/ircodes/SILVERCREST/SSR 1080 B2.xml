@@ -1,0 +1,58 @@
+<irplus>
+    <device manufacturer="SILVERCREST" model="SSR 1080 B2" columns="12" format="WINLIRC_NEC1"
+        bits="16" pre-bits="16" gap-pulse="573" gap-space="96193" one-pulse="573" one-space="1694" zero-pulse="573" zero-space="573" header-pulse="9041" header-space="4507">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="6">0x20cf 0xfa05</button>
+        <button label="" alt="MUTE" span="6">0x20cf 0xea15</button>
+
+        <button label="HELP" span="3">0x20cf 0x8877</button>
+        <button label="FORMATSCROLL" span="3">0x20cf 0xe01f</button>
+        <button label="TV/RADIO" span="3">0x20cf 0x28d7</button>
+        <button label="MODE" span="3">0x20cf 0x58a7</button>
+
+        <button label="1" backgroundColor="FF888888" span="4">0x20cf 0x6a95</button>
+        <button label="2" backgroundColor="FF888888" span="4">0x20cf 0x5aa5</button>
+        <button label="3" backgroundColor="FF888888" span="4">0x20cf 0x7a85</button>
+
+        <button label="4" backgroundColor="FF888888" span="4">0x20cf 0xaa55</button>
+        <button label="5" backgroundColor="FF888888" span="4">0x20cf 0x9a65</button>
+        <button label="6" backgroundColor="FF888888" span="4">0x20cf 0xba45</button>
+
+        <button label="7" backgroundColor="FF888888" span="4">0x20cf 0x2ad5</button>
+        <button label="8" backgroundColor="FF888888" span="4">0x20cf 0x1ae5</button>
+        <button label="9" backgroundColor="FF888888" span="4">0x20cf 0x3ac5</button>
+
+        <button label="MENU" backgroundColor="FF888888" span="4">0x20cf 0x52ad</button>
+        <button label="0" backgroundColor="FF888888" span="4">0x20cf 0xd827</button>
+        <button label="RECALL" backgroundColor="FF888888" span="4">0x20cf 0xa857</button>
+
+        <button label="AUDIO" backgroundColor="FFC84334" span="3">0x20cf 0x7887</button>
+        <button label="SUB" backgroundColor="FF1E7854" span="3">0x20cf 0x08f7</button>
+        <button label="SLEEP" backgroundColor="FFD6A81F" span="3">0x20cf 0x48b7</button>
+        <button label="TTX" backgroundColor="FF2A4C94" span="3">0x20cf 0x807f</button>
+
+        <button label="FAVORITE" span="4">0x20cf 0x38c7</button>
+        <button label="CH/UP" span="4">0x20cf 0x18e7</button>
+        <button label="EXIT" span="4">0x20cf 0xb847</button>
+
+        <button label="LEFT/VOL-" span="4">0x20cf 0x827d</button>
+        <button label="ENTER" span="4">0x20cf 0xa25d</button>
+        <button label="RIGHT/VOL+" span="4">0x20cf 0x926d</button>
+
+        <button label=" INFO" span="4">0x20cf 0x609f</button>
+        <button label="CH/DOWN" span="4">0x20cf 0x629d</button>
+        <button label="GUIDE" span="4">0x20cf 0x906f</button>
+
+        <button label="CLOCK" span="3">0x20cf 0xe817</button>
+        <button label="STILL " span="3">0x20cf 0xb04f</button>
+        <button label=" PREV" span="3">0x20cf 0x40bf</button>
+        <button label="NEXT " span="3">0x20cf 0x42bd</button>
+
+        <button label="TIMER" backgroundColor="FF888888" span="3">0x20cf 0xda25</button>
+        <button label="STATUS" backgroundColor="FF888888" span="3">0x20cf 0xf807</button>
+        <button label="OPTION" backgroundColor="FF888888" span="3">0x20cf 0x10ef</button>
+        <button label="FIND " backgroundColor="FF888888" span="3">0x20cf 0xc03f</button>
+
+
+    </device>
+</irplus>

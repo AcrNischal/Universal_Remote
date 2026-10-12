@@ -1,0 +1,45 @@
+<irplus>
+    <device manufacturer="ABS" model="8776" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="26" gap-pulse="571" gap-space="23038"
+        one-pulse="571" one-space="1670" zero-pulse="571" zero-space="553" header-pulse="9003" header-space="4528">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x401DFF 0x30CF</button>
+        <button label="TV" span="4">0x401DFF 0xC837</button>
+        <button label="&#xFF581;" span="4">0x401DFF 0x58A7</button>
+
+        <button label="1" span="4">0x401DFF 0x807F</button>
+        <button label="2" span="4">0x401DFF 0x40BF</button>
+        <button label="3" span="4">0x401DFF 0xC03F</button>
+
+        <button label="4" span="4">0x401DFF 0x20DF</button>
+        <button label="5" span="4">0x401DFF 0xA05F</button>
+        <button label="6" span="4">0x401DFF 0x609F</button>
+
+        <button label="7" span="4">0x401DFF 0xE01F</button>
+        <button label="8" span="4">0x401DFF 0x10EF</button>
+        <button label="9" span="4">0x401DFF 0x906F</button>
+
+        <button label="AUDIO" span="4">0x401DFF 0x7887</button>
+        <button label="0" span="4">0x401DFF 0x00FF</button>
+        <button label="EXIT" span="4">0x401DFF 0x28D7</button>
+
+        <button label="V+" span="4">0x401DFF 0x08F7</button>
+        <button label="&#xf0d8;" span="4">0x401DFF 0xB847</button>
+        <button label="P+" span="4">0x401DFF 0x708F</button>
+
+        <button label="&#xf0d9;" span="4">0x401DFF 0xA857</button>
+        <button label="OK" span="4">0x401DFF 0x6897</button>
+        <button label="&#xf0da;" span="4">0x401DFF 0x48B7</button>
+
+        <button label="V-" span="4">0x401DFF 0x8877</button>
+        <button label="&#xf0d7;" span="4">0x401DFF 0x38C7</button>
+        <button label="P-" span="4">0x401DFF 0xF00F</button>
+
+        <button label="INFO" span="4">0x401DFF 0xB04F</button>
+        <button label="MENU" span="4">0x401DFF 0x50AF</button>
+        <button label="MUSIC" span="4">0x401DFF 0x9867</button>
+
+        <button label="RCL" span="4">0x401DFF 0xF807</button>
+        <button label="TELETEXT" span="4">0x401DFF 0x18E7</button>
+        <button label="TVGUIDE" span="4">0x401DFF 0xD02F</button>
+    </device>
+</irplus>

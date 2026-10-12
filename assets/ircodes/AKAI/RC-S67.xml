@@ -1,0 +1,60 @@
+<irplus>
+    <device manufacturer="AKAI" model="RC-S67" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16" gap-pulse="588" gap-space="39952"
+        one-pulse="588" one-space="1666" zero-pulse="588" zero-space="536" header-pulse="9061" header-space="4472">
+
+        <button label=" " span="6">0xB14E 0x38C7</button>
+        <button label="0+" span="6">0xB14E 0xB04F</button>
+
+        <button label="&#xf04d;" alt="STOP" span="3">0xB14E 0xF807</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">0xB14E 0x708F</button>
+        <button label="&#xf049;" alt="PREV" span="3">0xB14E 0x7887</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0xB14E 0xB847</button>
+
+        <button label="CD1" span="3">0xB14E 0x807F</button>
+        <button label="CD2" span="3">0xB14E 0x40BF</button>
+        <button label="CD3" span="3">0xB14E 0xC03F</button>
+        <button label="CD4" span="3">0xB14E 0x20DF</button>
+
+        <button label="CD5" span="3">0xB14E 0xA05F</button>
+        <button label="CD6" span="3">0xB14E 0x609F</button>
+        <button label="CD7" span="3">0xB14E 0xE01F</button>
+        <button label="CD8" span="3">0xB14E 0x10EF</button>
+
+        <button label="CD9" span="4">0xB14E 0x906F</button>
+        <button label="CD0" span="4">0xB14E 0x00FF</button>
+        <button label="CD-EJECT" span="4">0xB14E 0xA857</button>
+
+        <button label="TUNER1" span="3">0xD12 0xE01FE</button>
+        <button label="TUNER2" span="3">0xD12 0xE817E</button>
+        <button label="TUNER3" span="3">0xD12 0xE41BE</button>
+        <button label="TUNER4" span="3">0xD12 0xEC13E</button>
+
+        <button label="TUNER5" span="4">0xD12 0xE21DE</button>
+        <button label="TUNER6" span="4">0xD12 0xEA15E</button>
+        <button label="TUNER7" span="4">0xD12 0xE619E</button>
+
+        <button label="TUNER8" span="3">0xD12 0xEE11E</button>
+        <button label="TUNER9" span="3">0xD12 0xE11EE</button>
+        <button label="TUNER10" span="3">0xD12 0xE916E</button>
+        <button label="IPSS" span="3">0x51AE 0x50AF</button>
+
+        <button label="TAPE-FAST-REV" span="3">0x51AE 0x20DF</button>
+        <button label="TAPE-FAST-FOR" span="3">0x51AE 0xC03F</button>
+        <button label="TAPE-PLAY-REV" span="3">0x51AE 0x807F</button>
+        <button label="TAPE-PLAY-FOR" span="3">0x51AE 0x00FF</button>
+
+        <button label="TAPE-STOP" span="4">0x51AE 0x40BF</button>
+        <button label="TAPE-REC" span="4">0x51AE 0xA05F</button>
+        <button label="TAPE-O" span="4">0x51AE 0xD02F</button>
+
+        <button label="RESET" span="3">0x51AE 0xF00F</button>
+        <button label="MEMORY" span="3">0x51AE 0x58A7</button>
+        <button label="&#xf052;" alt="EJECT" span="3">0x51AE 0xE01F</button>
+        <button label="MONITOR" span="3">0x51AE 0xB04F</button>
+
+        <button label="CD-SYN-STANDBY" span="4">0x51AE 0x6897</button>
+        <button label="CD-SYN-PAUSE" span="4">0x51AE 0xE817</button>
+        <button label="CD-SYN-START" span="4">0x51AE 0x18E7</button>
+
+    </device>
+</irplus>

@@ -1,0 +1,70 @@
+<irplus>
+    <device manufacturer="IMPERIAL" model="Digitalbox HD 3K" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16" gap-pulse="573" gap-space="96193"
+        one-pulse="573" one-space="1694" zero-pulse="573" zero-space="573" header-pulse="9041" header-space="4507">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0x00FF 0xd02f</button>
+        <button label="TV/RADIO" span="6">0x00FF 0x9867</button>
+
+        <button label="1" span="4">0x00FF 0x807f</button>
+        <button label="2" span="4">0x00FF 0x40bf</button>
+        <button label="3" span="4">0x00FF 0xc03f</button>
+        <button label="4" span="4">0x00FF 0x20df</button>
+        <button label="5" span="4">0x00FF 0xa05f</button>
+        <button label="6" span="4">0x00FF 0x609f</button>
+        <button label="7" span="4">0x00FF 0xe01f</button>
+        <button label="8" span="4">0x00FF 0x10ef</button>
+        <button label="9" span="4">0x00FF 0x906f</button>
+
+        <button label="CH-" span="4">0x00FF 0x8877</button>
+        <button label="0" span="4">0x00FF 0x00ff</button>
+        <button label="CH+" span="4">0x00FF 0x30cf</button>
+
+        <button label="&#xf0e2;" alt="RECALL" span="4">0x00FF 0xf00f</button>
+        <button label="EXIT" span="4">0x00FF 0x827d</button>
+        <button label="MENU" span="4">0x00FF 0x08f7</button>
+
+        <button label="GUIDE" span="3">0x00FF 0x18e7</button>
+        <button label="INFO" span="3">0x00FF 0xd827</button>
+        <button label="FAV-" span="3">0x00FF 0x38c7</button>
+        <button label="FAV+" span="3">0x00FF 0xe817</button>
+
+        <button label="SKIP+" span="4">0x00FF 0xaa55</button>
+        <button label="&#xf0d8;" span="4">0x00FF 0xa25d</button>
+        <button label="PAGE+" span="4">0x00FF 0x30cf</button>
+
+        <button label="&#xf0d9;" span="4">0x00FF 0x629d</button>
+        <button label="SELECT" span="4">0x00FF 0x7887</button>
+        <button label="&#xf0da;" span="4">0x00FF 0xb04f</button>
+
+        <button label="SKIP-" span="4">0x00FF 0x1ae5</button>
+        <button label="&#xf0d7;" span="4">0x00FF 0x926d</button>
+        <button label="PAGE-" span="4">0x00FF 0x8877</button>
+
+        <button label="&#xf04b;" span="4">0x00FF 0xca35</button>
+        <button label="&#xf04c;" span="4">0x00FF 0xca35</button>
+        <button label="&#xf04d;" span="4">0x00FF 0xfa05</button>
+
+        <button label="&#xf04a;" span="4">0x00FF 0x32cd</button>
+        <button label="&#xf111;" labelColor="FFC84334" span="4">0x00FF 0xd22d</button>
+        <button label="&#xf04e;" span="4">0x00FF 0xea15</button>
+
+        <button label="SUBTITLE" span="4">0x00FF 0xb24d</button>
+        <button label="TELETEXT" span="4">0x00FF 0x52ad</button>
+        <button label="TIMER" span="4">0x00FF 0x22dd</button>
+
+        <button label="ZOOM" span="4">0x00FF 0x708f</button>
+        <button label="AUDIO" span="4">0x00FF 0x42bd</button>
+        <button label="GOTO" span="4">0x00FF 0x9a65</button>
+
+        <button label="REPEATALL" span="3">0x00FF 0x02fd</button>
+        <button label="LIST" span="3">0x00FF 0x2ad5</button>
+        <button label="FAV" span="3">0x00FF 0xf807</button>
+        <button label="FREEZE" span="3">0x00FF 0x6897</button>
+
+        <button label="OPTION" backgroundColor="FFC84334" span="3">0x00FF 0x4ab5</button>
+        <button label="USB" backgroundColor="FF1E7854" span="3">0x00FF 0x5aa5</button>
+        <button label="V--" backgroundColor="FFD6A81F" span="3">0x00FF 0x6a95</button>
+        <button label="FORMAT" backgroundColor="FF2A4C94" span="3">0x00FF 0x7a85</button>
+
+    </device>
+</irplus>

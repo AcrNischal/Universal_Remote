@@ -1,0 +1,69 @@
+<irplus>
+    <device manufacturer="SAMSUNG" model="SmartTV FHD UHD" columns="12" format="WEBSOCKET" one-space="1691" repeat="2" repeatheader="true" metadata="ws://127.0.0.1:8001/api/v2/channels/samsung.remote.control?name=irplusremote"
+        one-pulse="628" zero-pulse="628" zero-space="523" header-pulse="4523" header-space="4517" gap-pulse="629" gap-space="46053" pre-bits="16" bits="16">
+
+        <button label="Set Samsung TV IP" span="12">SET_METADATA</button>
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="6">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_POWER","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="SOURCE" span="6">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_SOURCE","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+
+        <button label="1" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_1","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="2" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_2","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="3" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_3","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+
+        <button label="4" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_4","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="5" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_5","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="6" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_6","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+
+        <button label="7" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_7","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="8" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_8","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="9" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_9","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+
+        <button label="TTX/MIX" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_TTX_MIX","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="0" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_0","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="PRE-CH" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_PRECH","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+
+        <button label="VOL+" backgroundColor="FF2766DC" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_VOLUP","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="&#xFF581;" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_MUTE","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="CH+" backgroundColor="FF2766DC" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_CHUP","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+
+        <button label="VOL-" backgroundColor="FF2766DC" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_VOLDOWN","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="CH LIST" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_CH_LIST","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="CH-" backgroundColor="FF2766DC" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_CHDOWN","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+
+        <button label="MENU" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_MENU","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_HOME","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="GUIDE" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_GUIDE","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+
+        <button label="TOOLS" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_TOOLS","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="&#xf0d8;" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_UP","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="INFO" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_INFO","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+
+        <button label="&#xf0d9;" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_LEFT","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="ENTER" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_ENTER","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="&#xf0da;" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_RIGHT","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+
+        <button label="RETURN" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_RETURN","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="&#xf0d7;" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_DOWN","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="EXIT" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_EXIT","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+
+        <button label="A" backgroundColor="FFC84334" span="3">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_RED","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="B" backgroundColor="FF29A58B" span="3">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_GREEN","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="C" backgroundColor="FFF2B731" span="3">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_YELLOW","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="D" backgroundColor="FF2766DC" span="3">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_BLUE","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+
+        <button label="FavCH" span="3">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_FAVCH","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="e-Manual" span="3">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_HELP","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="P.SIZE" span="3">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_PIP_SIZE","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="Caption" span="3">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_CAPTION","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+
+        <button label="" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_REWIND","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_PAUSE","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_FF","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+
+        <button label="" labelColor="FFC84334" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_REC","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_PLAY","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+        <button label="" span="4">{"method":"ms.remote.control","params":{"Cmd":"Click","DataOfCmd":"KEY_STOP","Option":"false","TypeOfRemote":"SendRemoteKey"}}</button>
+
+    </device>
+</irplus>

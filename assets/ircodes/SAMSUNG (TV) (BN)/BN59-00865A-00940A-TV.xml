@@ -1,0 +1,70 @@
+<irplus>
+	<device manufacturer="SAMSUNG" model="BN59-00940A" columns="12" format="WINLIRC_NECx1" one-pulse="678" one-space="1551" zero-pulse="678" zero-space="436" header-pulse="4605"
+		header-space="4344" gap-space="0" gap-pulse="0" bits="16" pre-bits="16" repeatgap="40000" frequency="38000">
+
+		<button label="&#xf011;" labelColor="FFC84334" backgroundColor="FF424242" span="4">0xE0E0 0x40BF</button>
+		<space multiple="4"/>
+		<button label="TV" span="4">0xE0E0 0xD827</button>
+
+		<button label="1" span="4">0xE0E0 0x20DF</button>
+		<button label="2" span="4">0xE0E0 0xA05F</button>
+		<button label="3" span="4">0xE0E0 0x609F</button>
+
+		<button label="4" span="4">0xE0E0 0x10EF</button>
+		<button label="5" span="4">0xE0E0 0x906F</button>
+		<button label="6" span="4">0xE0E0 0x50AF</button>
+
+		<button label="7" span="4">0xE0E0 0x30CF</button>
+		<button label="8" span="4">0xE0E0 0xB04F</button>
+		<button label="9" span="4">0xE0E0 0x708F</button>
+
+		<button label="FAVORITES" span="4">0xE0E0 0x22DD</button>
+		<button label="0" span="4">0xE0E0 0x8877</button>
+		<button label="PRE-CH" span="4">0xE0E0 0xC837</button>
+
+		<button label="VOL+" labelColor="FF000000" backgroundColor="FFB5DCF7" span="4">0xE0E0 0xE01F</button>
+		<button label="&#xFF581;" span="4">0xE0E0 0xF00F</button>
+		<button label="CH+" labelColor="FF000000" backgroundColor="FFB5DCF7" span="4">0xE0E0 0x48B7</button>
+
+		<button label="VOL-" labelColor="FF000000" backgroundColor="FFB5DCF7" span="4">0xE0E0 0xD02F</button>
+		<button label="SRC" span="4">0xE0E0 0x807F</button>
+		<button label="CH-" labelColor="FF000000" backgroundColor="FFB5DCF7" span="4">0xE0E0 0x08F7</button>
+
+		<button label="INFO" span="4">0xE0E0 0xF807</button>
+		<button label="MENU" labelColor="FF000000" backgroundColor="FF5BDD5B" span="4">0xE0E0 0x58A7</button>
+		<button label="GUIDE" span="4">0xE0E0 0xF20D</button>
+
+		<button label="TOOLS" span="4">0xE0E0 0xD22D</button>
+		<button label="" backgroundColor="FF424242" span="4">0xE0E0 0x06F9</button>
+		<button label="RETURN" span="4">0xE0E0 0x1AE5</button>
+
+		<button label="" backgroundColor="FF424242" span="4">0xE0E0 0xA659</button>
+		<button label="ENTER" backgroundColor="FF424242" span="4">0xE0E0 0x16E9</button>
+		<button label="" backgroundColor="FF424242" span="4">0xE0E0 0x46B9</button>
+
+		<button label="LIST" span="4">0xE0E0 0xD629</button>
+		<button label="" backgroundColor="FF424242" span="4">0xE0E0 0x8679</button>
+		<button label="EXIT" span="4">0xE0E0 0xB44B</button>
+
+		<button label="R" fillColor="FFC84334" span="3">0xE0E0 0x36C9</button>
+		<button label="G" fillColor="FF1E7854" span="3">0xE0E0 0x28D7</button>
+		<button label="Y" fillColor="FFD6A81F" span="3">0xE0E0 0xA857</button>
+		<button label="B" fillColor="FF2A4C94" span="3">0xE0E0 0x6897</button>
+
+		<button label="TTX/MIX" span="4">0xE0E0 0x34CB</button>
+		<button label="SRS" span="4">0xE0E0 0x7689</button>
+		<button label="P-SIZE" span="4">0xE0E0 0x7C83</button>
+
+		<button label="DUAL" span="4">0xE0E0 0x00FF</button>
+		<button label="AD" span="4">0xE0E0 0xE41B</button>
+		<button label="SUBTITLE" span="4">0xE0E0 0xA45B</button>
+
+		<button label="" backgroundColor="FF424242" span="4">0xE0E0 0xA25D</button>
+		<button label="" backgroundColor="FF424242" span="4">0xE0E0 0x52AD</button>
+		<button label="" backgroundColor="FF424242" span="4">0xE0E0 0x12ED</button>
+
+		<button label="" backgroundColor="FF424242" span="4">0xE0E0 0x926D</button>
+		<button label="" backgroundColor="FF424242" span="4">0xE0E0 0xE21D</button>
+		<button label="" backgroundColor="FF424242" span="4">0xE0E0 0x629D</button>
+	</device>
+</irplus>

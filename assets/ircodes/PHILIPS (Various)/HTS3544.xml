@@ -1,0 +1,60 @@
+<irplus>
+    <device manufacturer="PHILIPS" model="HTS3544" columns="12" format="WINLIRC_RC6" bits="13" pre-bits="8" frequency="36000"
+        toggle-bit-pos="4" gap-pulse="1" gap-space="108000" one-pulse="444" one-space="444" zero-pulse="444" zero-space="444" header-pulse="2666" header-space="889">
+
+        <button label="&#xf011;" alt="POWER" span="3" backgroundColor="FFC84334">0x77 0x1B38</button>
+        <button label="DISC-USB" span="3">0x77 0x1BC0</button>
+        <button label="RADIO" span="3">0x77 0x0EC0</button>
+        <button label="&#xf052;" alt="EJECT" span="3">0x77 0x1BBD</button>
+
+        <button label="TV" span="3">0x77 0x1FC0</button>
+        <button label="AUX-DI" span="3">0x77 0x0AC0</button>
+        <button label="MP3-LINEIN" span="3">0x77 0x0AC7</button>
+        <button label="OPEN" span="3">0x77 0x1B04</button>
+
+        <button label="MENU" span="4">0x77 0x1B2E</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0x77 0x1BA7</button>
+        <button label="SETUP" span="4">0x77 0x1B7D</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x77 0x1BA5</button>
+        <button label="OK" span="4">0x77 0x1BA3</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x77 0x1BA4</button>
+
+        <button label="TITLE" span="4">0x77 0x1B7C</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x77 0x1BA6</button>
+        <button label="DISPLAY" span="4">0x77 0x1BF0</button>
+
+        <button label="&#xf049;" alt="PREV" span="4">0x77 0x1BDE</button>
+        <button label="&#xf04b; &#xf04c;" span="4">0x77 0x1BD3</button>
+        <button label="&#xf050;" alt="NEXT" span="4">0x77 0x1BDF</button>
+
+        <button label="&#xFF581;" span="6">0x77 0x0FF2</button>
+        <button label="&#xf04d;" alt="STOP" span="6">0x77 0x1BCE</button>
+
+        <button label="VOL-" span="4">0x77 0x0FEE</button>
+        <button label="SURROUND" span="4">0x77 0x0FAD</button>
+        <button label="VOL+" span="4">0x77 0x0FEF</button>
+
+        <button label="1" span="4">0x77 0x1BFE</button>
+        <button label="2" span="4">0x77 0x1BFD</button>
+        <button label="3" span="4">0x77 0x1BFC</button>
+
+        <button label="4" span="4">0x77 0x1BFB</button>
+        <button label="5" span="4">0x77 0x1BFA</button>
+        <button label="6" span="4">0x77 0x1BF9</button>
+
+        <button label="7" span="4">0x77 0x1BF8</button>
+        <button label="8" span="4">0x77 0x1BF7</button>
+        <button label="9" span="4">0x77 0x1BF6</button>
+
+        <button label="SOUND" span="4">0x77 0x0FAE</button>
+        <button label="0" span="4">0x77 0x1BFF</button>
+        <button label="AUDIOSYNC" span="4">0x77 0x0F46</button>
+
+        <button label="SUBTITLE" span="3">0x77 0x1BB4</button>
+        <button label="AUDIO" span="3">0x77 0x1BB1</button>
+        <button label="ZOOM" span="3">0x77 0x1B08</button>
+        <button label="REPEAT" span="3">0x77 0x1BE2</button>
+
+    </device>
+</irplus>

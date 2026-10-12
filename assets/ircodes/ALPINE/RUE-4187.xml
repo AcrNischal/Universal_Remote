@@ -1,0 +1,25 @@
+<irplus>
+    <device manufacturer="ALPINE" model="RUE-4187" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16" gap-pulse="604" gap-space="107586" one-pulse="596" one-space="1643" zero-pulse="596" zero-space="524" header-pulse="9019" header-space="4477">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0x614E 0x906F</button>
+        <button label="SOURCE" span="6">0x614E 0x50AF</button>
+
+        <button label="VOL+" span="4">0x614E 0x28D7</button>
+        <button label="&#xFF581;" span="4">0x614E 0x6897</button>
+        <button label="VOL-" span="4">0x614E 0xA857</button>
+
+        <button label="BAND PROG" span="4">0x614E 0xB04F</button>
+        <button label="&#xf0d8;" span="4">0x614E 0x708F</button>
+        <button label="A PROC" span="4">0x614E 0x609F</button>
+
+        <button label="&#xf0d9;" span="4">0x614E 0xC837</button>
+        <button label="PLAY PAUSE" span="4">0x614E 0xE01F</button>
+        <button label="&#xf0da;" span="4">0x614E 0x48B7</button>
+
+        <button label="TILT+" span="4">0x614E 0x32CD</button>
+        <button label="&#xf0d7;" span="4">0x614E 0xF00F</button>
+        <button label="TILT-" span="4">0x614E 0xD22D</button>
+
+
+    </device>
+</irplus>

@@ -1,0 +1,61 @@
+<irplus>
+    <device manufacturer="FREECOM" model="MP35" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0x1FE 0x00FF</button>
+        <button label="MENU" span="3">0x1FE 0x1AE5</button>
+        <button label="TITLE" span="3">0x1FE 0xE817</button>
+        <button label="SETUP" span="3">0x1FE 0x8877</button>
+
+        <button label="ANGLE" span="3">0x1FE 0x9A65</button>
+        <button label="REPEAT" span="3">0x1FE 0xEA15</button>
+        <button label="A-B REPEAT" span="3">0x1FE 0xD02F</button>
+        <button label="SLOW" span="3">0x1FE 0xB24D</button>
+
+        <button label="FILE INFO" span="4">0x1FE 0x906F</button>
+        <button label="" span="4">0x1FE 0x48B7</button>
+        <button label="TIME SEARCH" span="4">0x1FE 0x5AA5</button>
+
+        <button label="" span="4">0x1FE 0x28D7</button>
+        <button label="ENTER" span="4">0x1FE 0xA857</button>
+        <button label="" span="4">0x1FE 0x6897</button>
+
+        <button label="BRIGHTNESS" span="4">0x1FE 0x30CF</button>
+        <button label="" span="4">0x1FE 0xC837</button>
+        <button label="MEDIA TYPE" span="4">0x1FE 0x3AC5</button>
+
+        <button label="HOME PAGE" span="3">0x1FE 0xD827</button>
+        <button label="" span="6">0x1FE 0x926D</button>
+        <button label="" span="3">0x1FE 0x12ED</button>
+
+        <button label="" span="3">0x1FE 0x08F7</button>
+        <button label="" span="3">0x1FE 0x728D</button>
+        <button label="" span="3">0x1FE 0xF807</button>
+        <button label="" span="3">0x1FE 0xC23D</button>
+
+        <button label="VIDEO" span="3">0x1FE 0x609F</button>
+        <button label="AUDIO" span="3">0x1FE 0xE01F</button>
+        <button label="SUBTITLE" span="3">0x1FE 0x40BF</button>
+        <button label="SCREEN" span="3">0x1FE 0xC03F</button>
+
+        <button label="1" span="3">0x1FE 0x38C7</button>
+        <button label="2" span="3">0x1FE 0xB847</button>
+        <button label="3" span="3">0x1FE 0x7887</button>
+        <button label="VOL+" span="3">0x1FE 0x52AD</button>
+        
+        <button label="4" span="3">0x1FE 0x02FD</button>
+        <button label="5" span="3">0x1FE 0x827D</button>
+        <button label="6" span="3">0x1FE 0x42BD</button>
+        <button label="VOL-" span="3">0x1FE 0x10EF</button>
+        
+        <button label="7" span="3">0x1FE 0x22DD</button>
+        <button label="8" span="3">0x1FE 0xA25D</button>
+        <button label="9" span="3">0x1FE 0x629D</button>
+        <button label="&#xFF581;" span="3">0x1FE 0x6A95</button>
+        
+        <space multiple="3"/>
+        <button label="0" span="3">0x1FE 0xE21D</button>
+        <button label="CANCEL" span="3">0x1FE 0xA05F</button>
+        <space multiple="3"/>
+
+    </device>
+</irplus>

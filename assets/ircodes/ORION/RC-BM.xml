@@ -1,0 +1,51 @@
+<irplus>
+    <device manufacturer="ORION" model="RC-BM" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16" gap-pulse="619" gap-space="107432" one-pulse="617" one-space="1618" zero-pulse="617" zero-space="504" header-pulse="9038" header-space="4404">
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x1DE 0xC837</button>
+        <button label="&#xf052;" alt="EJECT" span="4">0x1DE 0x728D</button>
+        <button label="TIMER REC" span="4">0x1DE 0xB04F</button>
+
+        <button label="CH1" span="4">0x1DE 0x807F</button>
+        <button label="CH2" span="4">0x1DE 0x40BF</button>
+        <button label="CH3" span="4">0x1DE 0xC03F</button>
+
+        <button label="CH4" span="4">0x1DE 0x20DF</button>
+        <button label="CH5" span="4">0x1DE 0xA05F</button>
+        <button label="CH6" span="4">0x1DE 0x609F</button>
+
+        <button label="CH7" span="4">0x1DE 0xE01F</button>
+        <button label="CH8" span="4">0x1DE 0x10EF</button>
+        <button label="CH9" span="4">0x1DE 0x906F</button>
+
+        <button label="CH10+" span="4">0x1DE 0xF00F</button>
+        <button label="CH0" span="4">0x1DE 0x00FF</button>
+        <button label="TVVCR" span="4">0x1DE 0x48B7</button>
+
+        <button label="CH+" span="4">0x1DE 0x50AF</button>
+        <button label="SPEEDSPLP" span="4">0x1DE 0x7887</button>
+        <button label="CH-" span="4">0x1DE 0xD02F</button>
+
+        <button label="CALL" span="4">0x1DE 0xFA05</button>
+        <button label="AUDIODUBBING" span="4">0x1DE 0xF20D</button>
+        <button label="RECOTR" span="4">0x1DE 0xA857</button>
+
+        <button label="PAUSESTILL" span="4">0x1DE 0x58A7</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0x1DE 0x6897</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x1DE 0xE817</button>
+
+        <button label="&#xf04a;" alt="REW" span="4">0x1DE 0x9867</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0x1DE 0x18E7</button>
+        <button label="SHOWVIEW" span="4">0x1DE 0xB847</button>
+
+        <button label="ENTER" span="4">0x1DE 0xA25D</button>
+        <button label="MENU" span="4">0x1DE 0x0AF5</button>
+        <button label="CANCEL" span="4">0x1DE 0x52AD</button>
+
+        <button label="INDEX" span="4">0x1DE 0x28D7</button>
+        <button label="ATR" span="4">0x1DE 0x4AB5</button>
+        <button label="CLOCKCOUNTER" span="4">0x1DE 0x8A75</button>
+
+        <button label="COUNTERMEMORY" span="4">0x1DE 0xD22D</button>
+        <button label="COUNTERRESET" span="4">0x1DE 0x32CD</button>
+        <button label="AUDIOSELECT" span="4">0x1DE 0x708F</button>
+    </device>
+</irplus>

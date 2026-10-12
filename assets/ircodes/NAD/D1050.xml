@@ -1,0 +1,19 @@
+<irplus>
+	<device manufacturer="NAD" model="D1050" columns="8" format="WINLIRC_SPACEENC" one-space="1600" one-pulse="622" zero-pulse="622" zero-space="500" header-pulse="9096" header-space="4352" bits="16" pre-bits="16">
+
+        <button label="&#xf011; ON" labelColor="FF000000" backgroundColor="FF1E7854" span="4">0xE13E 0xA45B</button>
+		<button label="&#xf011; OFF" labelColor="FF000000" backgroundColor="FFC84334" span="4">0xE13E 0x13EC</button>
+
+        <button label="VOL+" labelColor="FF000000" backgroundColor="FF1E7854" span="4">0xE13E 0x11EE</button>
+		<button label="VOL-" labelColor="FF000000" backgroundColor="FFC84334" span="4">0xE13E 0x31CE</button>
+
+        <button label="&#xFF581;" labelColor="FF000000" backgroundColor="FFFF8E00" span="4">0xE13E 0x29D6</button>
+		<button label="USB" labelColor="FF000000" backgroundColor="FF0500FF" span="4">0xE13E 0x8976</button>
+
+        <button label="OPT 1" labelColor="FF000000" backgroundColor="FF00FFFF" span="4">0xE13E 0x916E</button>
+		<button label="OPT 2" labelColor="FF000000" backgroundColor="FF00FFFF" span="4">0xE13E 0xB14E</button>
+
+        <button label="COAX 1" labelColor="FF000000" backgroundColor="FFFF00FF" span="4">0xE13E 0xA15E</button>
+		<button label="COAX 2" labelColor="FF000000" backgroundColor="FFFF00FF" span="4">0xE13E 0x03FC</button>
+	</device>
+</irplus>

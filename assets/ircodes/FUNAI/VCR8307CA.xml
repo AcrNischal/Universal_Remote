@@ -1,0 +1,48 @@
+<irplus>
+	<device manufacturer="FUNAI" model="VCR8307CA" columns="12" format="WINLIRC_SPACEENC" one-space="2629" one-pulse="859"
+		zero-pulse="859" zero-space="884" header-pulse="3495" header-space="3506" bits="24">
+
+        <button label="Function" span="4">0x0000000000141EBE</button>
+		<button label="Audio Mode" span="4">0x0000000000160E9F</button>
+		<button label="&#xf052;" alt="EJECT" span="4">0x000000000016FE90</button>
+		
+		<button label="1" span="4">0x000000000017EE81</button>
+		<button label="2" span="4">0x0000000000161E9E</button>
+		<button label="3" span="4">0x0000000000151EAE</button>
+		
+		<button label="4" span="4">0x0000000000171E8E</button>
+		<button label="5" span="4">0x0000000000149EB6</button>
+		<button label="6" span="4">0x0000000000169E96</button>
+		
+		<button label="7" span="4">0x0000000000159EA6</button>
+		<button label="8" span="4">0x0000000000179E86</button>
+		<button label="9" span="4">0x0000000000145EBA</button>
+
+		<button label="&#xf0d8;" span="4">0x0000000000142EBD</button>
+		<button label="0" span="4">0x0000000000165E9A</button>
+        <button label="&#xf0d7;" span="4">0x0000000000144EBB</button>
+
+		<button label="&#xf04a;" alt="REW" span="4">0x000000000014CEB3</button>
+		<button label="&#xf04b;" alt="PLAY" span="4">0x0000000000154EAB</button>
+		<button label="&#xf04e;" alt="FWD" span="4">0x0000000000148EB7</button>
+
+		<button label="SLOW" span="3">0x000000000016CE93</button>
+		<button label="&#xf111;" alt="REC" labelColor="FFC84334" span="3">0x0000000000156EA9</button>
+		<button label="&#xf04d;" alt="STOP" span="3">0x000000000014EEB1</button>
+		<button label="&#xf04c;" alt="PAUSE" span="3">0x0000000000174E8B</button>
+
+		<button label="INFO" span="4">0x0000000000353CAC</button>
+		<button label="Fadv" span="4">0x0000000000170E8F</button>
+		<button label="Vpt" span="4">0x0000000000373C8C</button>
+
+        <button label="UpDown" span="4">0x000000000034BCB4</button>
+		<button label="Halt" span="4">0x000000000036BC94</button>
+		<button label="Timer" span="4">0x000000000035BCA4</button>
+		
+		<button label="Y" fillColor="FFD6A81F" span="3">0x000000000037BC84</button>
+		<button label="G" fillColor="FF1E7854" span="3">0x0000000000347CB8</button>
+		<button label="R" fillColor="FFC84334" span="3">0x0000000000367C98</button>
+		<button label="B" fillColor="FF2A4C94" span="3">0x0000000000357CA8</button>
+
+	</device>
+</irplus>

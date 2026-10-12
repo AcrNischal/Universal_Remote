@@ -1,0 +1,44 @@
+<irplus>
+	<device manufacturer="YAMAHA" model="VP59040" columns="4" format="WINLIRC_NEC1" one-space="1650" one-pulse="550" zero-pulse="550" zero-space="550" pre-bits="16" bits="16">
+		
+		<button label="&#xf011;" backgroundColor="FFC84334">0x5EA1 0xF807</button>
+		<button label="VOL+">0x5EA1 0x58A7</button>
+		<button label="VOL-">0x5EA1 0xD827</button>
+		<space/>
+				
+		<button label="PLAY-CD">0x5EA1 0x10EF</button>
+		<button label="STOP/PAUSE">0x5EA1 0x906F</button>
+		<button label="SKIP FWD">0x5EA1 0x50AF</button>
+		<button label="SKIP REV">0x5EA1 0xD02F</button>
+		
+		<button label="SEARCH FWD">0x5EA1 0x30CF</button>
+		<button label="SEARCH REV">0x5EA1 0xB04F</button>
+		<button label="TAPE 1">0x5EA1 0x18E7</button>
+		<button label="TAPE 2">0x5EA1 0x9867</button>
+		
+		<button label="CD">0x5EA1 0xA857</button>
+		<button label="TUNER">0x5EA1 0x6897</button>
+		<button label="PHONO">0x5EA1 0x28D7</button>
+		<button label="AUX">0x5EA1 0xE817</button>
+		
+		<button label="PLAY/CUT-PHONO">0x5EA1 0x708F</button>
+		<button label="DISC SKIP-CD">0x5EA1 0xF20D</button>
+		<button label="PRESET-">0x5EA1 0x8877</button>
+		<button label="PRESET+">0x5EA1 0x08F7</button>
+		
+		<button label="A/B/C/D/E">0x5EA1 0x48B7</button>
+		<button label="DIR A">0x5EA1 0xE01F</button>
+		<button label="DIR B">0x5EA1 0x02FD</button>
+		<button label="DECK A/B">0x5EA1 0x609F</button>
+
+		<button label="&#xf04a;" alt="REW">0x5EA1 0x807F</button>
+		<button label="&#xf04b;" alt="PLAY">0x5EA1 0x00FF</button>
+		<button label="&#xf050;" alt="NEXT">0x5EA1 0x40BF</button>
+		<button label="REC/PAUSE">0x5EA1 0x20DF</button>
+		
+		<button label="&#xf04d;" alt="STOP">0x5EA1 0xC03F</button>
+		<button label="REC/MUTE">0x5EA1 0xA05F</button>
+		<button label="PRESET SKIP EQ">0x5EA1 0xDA25</button>
+		<button label="ON/FLAT">0x5EA1 0x5AA5</button>
+	</device>
+</irplus>

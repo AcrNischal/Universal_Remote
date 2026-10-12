@@ -1,0 +1,43 @@
+<irplus>
+    <device manufacturer="HARMAN KARDON" model="HD740" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16" gap-pulse="626" gap-space="42585" one-pulse="626" one-space="522" zero-pulse="626" zero-space="1682" header-pulse="9055" header-space="4566">
+
+        <button label="DISPLAY" span="4">0xFEF1 0x47B8</button>
+        <button label="OFF" span="4">0xFEF1 0x15EA</button>
+        <button label="ON" span="4">0xFEF1 0x956A</button>
+       
+        <button label="EDIT" span="4">0xFEF1 0xCD32</button>
+        <button label="TAPESIZE" span="4">0xFEF1 0xC53A</button>
+        <button label="INTRO" span="4">0xFEF1 0x4FB0</button>
+
+        <button label="1" span="3">0xFEF1 0x7788</button>
+        <button label="2" span="3">0xFEF1 0xB748</button>
+        <button label="3" span="3">0xFEF1 0x37C8</button>
+        <button label="AB" span="3">0xFEF1 0x2FD0</button>
+
+        <button label="4" span="3">0xFEF1 0xD728</button>
+        <button label="5" span="3">0xFEF1 0x57A8</button>
+        <button label="6" span="3">0xFEF1 0x9768</button>
+        <button label="REPEAT" span="3">0xFEF1 0xAF50</button>
+
+        <button label="7" span="3">0xFEF1 0x17E8</button>
+        <button label="8" span="3">0xFEF1 0xE718</button>
+        <button label="9" span="3">0xFEF1 0x6798</button>
+        <button label="RANDOM" span="3">0xFEF1 0x4DB2</button>
+
+        <button label="0" span="3">0xFEF1 0xFD02</button>
+        <button label="CLEAR" span="3">0xFEF1 0x0FF0</button>
+        <button label="CHECK" span="3">0xFEF1 0x27D8</button>
+        <button label="TIME" span="3">0xFEF1 0xC738</button>
+
+        <button label="SEARCHPREV" span="3">0xFEF1 0x1FE0</button>
+        <button label="SEARCHNEXT" span="3">0xFEF1 0x9F60</button>
+        <button label="PROGRAM" span="3">0xFEF1 0x8F70</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">0xFEF1 0x3FC0</button>
+
+        <button label="SKIPPREV" span="3">0xFEF1 0x5FA0</button>
+        <button label="SKIPNEXT" span="3">0xFEF1 0xDF20</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0xFEF1 0x7F80</button>
+        <button label="&#xf04b;" alt="PLAY" span="3">0xFEF1 0xBF40</button>
+
+    </device>
+</irplus>

@@ -1,0 +1,67 @@
+<irplus>
+	<device manufacturer="MUSTEK" model="RMC-V300" columns="12" format="WINLIRC_NEC1" one-space="1611" one-pulse="633" zero-pulse="633" zero-space="489" 
+		header-pulse="9065" header-space="4413" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" backgroundColor="FFC84334" span="3">0x8B7 0xF807</button>
+		<button label="TVSYS" span="3">0x8B7 0xBA45</button>
+		<button label="SETUP" span="3">0x8B7 0xFA05</button>
+		<button label="&#xf052;" alt="EJECT" span="3">0x8B7 0x38C7</button>
+		
+		<button label="1" backgroundColor="FF0080FF" span="3">0x8B7 0x3AC5</button>
+		<button label="2" backgroundColor="FF0080FF" span="3">0x8B7 0x7887</button>
+		<button label="3" backgroundColor="FF0080FF" span="3">0x8B7 0x7A85</button>
+		<button label="PROGRAM" span="3">0x8B7 0xB847</button>
+		
+		<button label="4" backgroundColor="FF0080FF" span="3">0x8B7 0x1AE5</button>
+		<button label="5" backgroundColor="FF0080FF" span="3">0x8B7 0x58A7</button>
+		<button label="6" backgroundColor="FF0080FF" span="3">0x8B7 0xDA25</button>
+		<button label="CLEAR" span="3">0x8B7 0x9867</button>
+		
+		<button label="7" backgroundColor="FF0080FF" span="3">0x8B7 0xD827</button>
+		<button label="8" backgroundColor="FF0080FF" span="3">0x8B7 0x9A65</button>
+		<button label="9" backgroundColor="FF0080FF" span="3">0x8B7 0x5AA5</button>
+		<button label="0" backgroundColor="FF0080FF" span="3">0x8B7 0x18E7</button>
+		
+		<button label="A-B" span="3">0x8B7 0xC03F</button>
+		<button label="1/ALL" span="3">0x8B7 0x40BF</button>
+		<button label="GOTO" span="3">0x8B7 0xC23D</button>
+		<button label="&#xFF581;" span="3">0x8B7 0x807F</button>
+		
+		<button label="PBC" span="3">0x8B7 0x02FD</button>
+		<button label="MENU" span="3">0x8B7 0x827D</button>
+		<button label="TITLE" span="3">0x8B7 0x42BD</button>
+		<button label="VOL+" backgroundColor="FF0080FF" span="3">0x8B7 0x00FF</button>
+		
+		<button label="SUBTITLE" span="3">0x8B7 0x22DD</button>
+		<button label="AUDIO" span="3">0x8B7 0x609F</button>
+		<button label="ANGLE" span="3">0x8B7 0x629D</button>
+		<button label="VOL-" backgroundColor="FF0080FF" span="3">0x8B7 0x20DF</button>
+		
+		<button label="&#xf049;" span="3">0x8B7 0xE01F</button>
+		<button label="&#xf050;" span="3">0x8B7 0xA25D</button>
+		<button label="&#xf04a;" span="3">0x8B7 0xE21D</button>
+		<button label="&#xf04e;" span="3">0x8B7 0xA05F</button>
+
+		<button label="SLOW" span="4">0x8B7 0x12ED</button>
+		<button label="&#xf0d8;" span="4">0x8B7 0x52AD</button>
+		<button label="&#xf04c;" span="4">0x8B7 0x50AF</button>
+		
+		<button label="&#xf0d9;" span="4">0x8B7 0xD02F</button>
+		<button label="&#xf04b;" span="4" backgroundColor="FFC84334">0x8B7 0x926D</button>
+		<button label="&#xf0da;" span="4">0x8B7 0x10EF</button>
+		
+		<button label="&#xf04d;" span="4">0x8B7 0x906F</button>
+		<button label="&#xf0d7;" span="4">0x8B7 0xD22D</button>
+        <button label="INFO" span="4">0x8B7 0x0AF5</button>
+
+		<space multiple="3"/>
+		<button label="KEY ♯" span="3">0x8B7 0x8A75</button>
+		<button label="ECHO+" span="3">0x8B7 0xCA35</button>
+        <button label="VOCAL" span="3">0x8B7 0x8877</button>
+
+		<button label="ZOOM" span="3">0x8B7 0xC837</button>
+		<button label="KEY ♭" span="3">0x8B7 0x48B7</button>
+		<button label="ECHO-" span="3">0x8B7 0x4AB5</button>
+		<button label="SURROUND" span="3">0x8B7 0x08F7</button>
+	</device>
+</irplus>

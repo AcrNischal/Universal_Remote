@@ -1,0 +1,48 @@
+<irplus>
+	<device manufacturer="HARMAN KARDON" model="RIA101" columns="12" format="WINLIRC_NEC1">
+		
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x010E 0x03FC</button>
+		<button label="VOL+" span="4">0x010E 0xE31C</button>
+		<button label="VOL-" span="4">0x010E 0x13EC</button>
+		
+		<button label="CD" span="3">0x010E 0x23DC</button>
+		<button label="TUNER" span="3">0x010E 0xC33C</button>
+		<button label="FM" span="3">0x010E 0x817E</button>
+		<button label="AM" span="3">0x010E 0x41BE</button>
+		
+		<button label="AUX" span="3">0x010E 0x738C</button>
+		<button label="AUX2" span="3">0x010E 0xAB54</button>
+		<button label="SEEK-ST" span="3">0x010E 0x8976</button>
+		<button label="SHIFT" span="3">0x010E 0xF10E</button>
+		
+		<button label="VIDEO" span="4">0x010E 0x639C</button>
+		<button label="TAPE1" span="4">0x010E 0x33CC</button>
+		<button label="TAPE2" span="4">0x010E 0xB34C</button>
+		
+		<button label="1" span="4">0x010E 0xE11E</button>
+		<button label="2" span="4">0x010E 0x11EE</button>
+		<button label="3" span="4">0x010E 0x916E</button>
+		
+		<button label="4" span="4">0x010E 0x51AE</button>
+		<button label="5" span="4">0x010E 0xD12E</button>
+		<button label="6" span="4">0x010E 0x31CE</button>
+		
+		<button label="7" span="4">0x010E 0xB14E</button>
+		<button label="8" span="4">0x010E 0x718E</button>
+		<button label="9" span="4">0x010E 0xB946</button>
+		
+		<button label="TUNE-" span="4">0x010E 0xA15E</button>
+		<button label="0" span="4">0x010E 0x7986</button>
+		<button label="TUNE+" span="4">0x010E 0x21DE</button>
+		
+		<button label="CD &#xf04b;" span="3">0x010E 0x40BF</button>
+		<button label="CD &#xf04d;" span="3">0x010E 0x807F</button>
+		<button label="CD &#xf049;" span="3">0x010E 0xA05F</button>
+		<button label="CD &#xf050;" span="3">0x010E 0x20DF</button>
+
+		<button label="Tape &#xf04b;" span="3">0x414E 0x807F</button>
+		<button label="Tape &#xf04d;" span="3">0x414E 0xC03F</button>
+		<button label="Tape &#xf04a;" span="3">0x414E 0xA05F</button>
+		<button label="Tape &#xf04e;" span="3">0x414E 0x20DF</button>
+	</device>
+</irplus>

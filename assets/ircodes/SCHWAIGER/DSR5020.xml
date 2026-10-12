@@ -1,0 +1,48 @@
+<irplus>
+	<device manufacturer="SCHWAIGER" model="DSR5020" columns="12" format="WINLIRC_NEC1" one-space="1857" one-pulse="478" zero-pulse="478" zero-space="575" header-pulse="8858" header-space="4670" bits="16" pre-bits="16">
+		
+		<button label="PAUSE" span="4">0x22D9 0xD02F</button>
+		<button label="TV/SAT" span="4">0x22D9 0x6897</button>
+		<button label="&#xFF581;" span="4">0x22D9 0xE817</button>
+		
+		<button label="&#xf04c;" alt="PAUSE" span="4">0x22D9 0x40BF</button>
+		<button label="9Pic" span="4">0x22D9 0x7887</button>
+		<button label="Audio" span="4">0x22D9 0xA05F</button>
+		
+		<button label="Exit" span="4">0x22D9 0xC837</button>
+		<button label="Lang" span="4">0x22D9 0x20DF</button>
+		<button label="Menu" span="4">0x22D9 0xF807</button>
+		
+		<button label="CH+" span="6">0x22D9 0x708F</button>
+		<button label="CH-" span="6">0x22D9 0x50AF</button>
+		
+		<button label="VOL+" span="6">0x22D9 0x48B7</button>
+		<button label="VOL-" span="6">0x22D9 0x58A7</button>
+		
+		<button label="Sat" span="4">0x22D9 0x00FF</button>
+		<button label="EPG" span="4">0x22D9 0x38C7</button>
+		<button label="FAV" span="4">0x22D9 0x10EF</button>
+		
+		<button label="PAGE+" span="6">0x22D9 0xA857</button>
+		<button label="PAGE-" span="6">0x22D9 0x28D7</button>
+		
+		<button label="i+" span="6">0x22D9 0xE01F</button>
+		<button label="i-" span="6">0x22D9 0x08F7</button>
+		
+		<button label="1" span="4">0x22D9 0xD827</button>
+		<button label="2" span="4">0x22D9 0xF00F</button>
+		<button label="3" span="4">0x22D9 0xC03F</button>
+		
+		<button label="4" span="4">0x22D9 0x9867</button>
+		<button label="5" span="4">0x22D9 0x8877</button>
+		<button label="6" span="4">0x22D9 0x807F</button>
+		
+		<button label="7" span="4">0x22D9 0x906F</button>
+		<button label="8" span="4">0x22D9 0xB847</button>
+		<button label="9" span="4">0x22D9 0xB04F</button>
+		
+		<button label="Text" span="4">0x22D9 0x22DD</button>
+		<button label="0" span="4">0x22D9 0x30CF</button>
+		<button label="TV/Radio" span="4">0x22D9 0x18E7</button>
+	</device>
+</irplus>

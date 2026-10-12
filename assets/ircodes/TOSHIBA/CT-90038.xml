@@ -1,0 +1,25 @@
+<irplus>
+    <device manufacturer="TOSHIBA" model="CT-90038" columns="12" format="WINLIRC_NEC1" one-space="1529" one-pulse="713" zero-pulse="713" zero-space="412" header-pulse="9156" header-space="4320" bits="16" pre-bits="16">
+        
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xE750 0x48B7</button>
+        <button label="KEY" span="4">0xE750 0xF807</button>
+        <button label="FREEZE" span="4">0xE750 0xA25D</button>
+
+        <button label="RESET" span="4">0xE750 0xB847</button>
+        <button label="" span="4">0xE750 0x02FD</button>
+        <button label="MENU" span="4">0xE750 0xD827</button>
+
+        <button label="" span="4">0xE750 0x42BD</button>
+        <button label="ENTER" span="4">0xE750 0xC837</button>
+        <button label="" span="4">0xE750 0xC23D</button>
+
+        <button label="RGB" span="4">0xE750 0xB04F</button>
+        <button label="" span="4">0xE750 0x827D</button>
+        <button label="VIDEO" span="4">0xE750 0xD02F</button>
+
+        <button label="&#xFF581;" span="4">0xE750 0x8877</button>
+        <button label="ZOOM-" span="4">0xE750 0x629D</button>
+        <button label="ZOOM+" span="4">0xE750 0x22DD</button>
+
+    </device>
+</irplus>

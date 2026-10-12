@@ -1,0 +1,69 @@
+<irplus>
+    <device manufacturer="JVC" model="RM-RXU1" columns="12" format="WINLIRC_SPACEENC" pre-bits="16" repeat="3"
+        gap-pulse="587" gap-space="46335" one-pulse="587" one-space="1519" zero-pulse="587" zero-space="465" header-pulse="8485" header-space="4155">
+        
+        <button label="1" span="3">0xF984</button>
+        <button label="2" span="3">0xF944</button>
+        <button label="3" span="3">0xF9C4</button>
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0xF900</button>
+
+        <button label="4" span="3">0xF924</button>
+        <button label="5" span="3">0xF9A4</button>
+        <button label="6" span="3">0xF964</button>
+        <button label="SLEEP" span="3">0xF94C</button>
+
+        <button label="7" span="3">0xF9E4</button>
+        <button label="8" span="3">0xF914</button>
+        <button label="9" span="3">0xF994</button>
+        <button label="AUX" span="3">0xF9B0</button>
+
+        <button label="10" span="3">0xF954</button>
+        <button label="+10" span="3">0xF974</button>
+        <button label="REPEAT" span="3">0xF91E</button>
+        <button label="CDDOOR" span="3">0xF9DE</button>
+
+        <button label="SEARCH-" span="3">0xF97C</button>
+        <button label="SEARCH+" span="3">0xF9BC</button>
+        <button label="CDSTOP" span="3">0xF98E</button>
+        <button label="CDPLAY" span="3">0xF90E</button>
+
+        <button label="REWIND" span="3">0xF9A2</button>
+        <button label="FF" span="3">0xF922</button>
+        <button label="PRESETTUNING" span="3">0xF9A8</button>
+        <button label="BAND" span="3">0xF9D0</button>
+
+        <button label="RECORD" span="3">0xF9D2</button>
+        <button label="REVERSEPLAY" span="3">0xF9B2</button>
+        <button label="STOP" span="3">0xF982</button>
+        <button label="PLAY" span="3">0xF932</button>
+
+        <button label="BASS-" span="3">0xF911</button>
+        <button label="BASS+" span="3">0xF9E1</button>
+        <button label="TREBLE-" span="3">0xF951</button>
+        <button label="TREBLE+" span="3">0xF991</button>
+
+        <button label="HYPERBASS" span="3">0xF920</button>
+        <button label="CLOCK" span="3">0xF9CC</button>
+        <button label="TIMER" span="3">0xF90C</button>
+        <button label="DISPLAY" span="3">0xF938</button>
+
+        <button label="VOL-" span="3">0xF940</button>
+        <button label="VOL+" span="3">0xF980</button>
+        <button label="&#xf0d7;" span="3">0xF97C</button>
+        <button label="&#xf0d8;" span="3">0xF9BC</button>
+
+        <button label="ONOFF" span="3">0xF96C</button>
+        <button label="ENTER" span="3">0xF988</button>
+        <button label="PROGRAM" span="3">0xF92E</button>
+        <button label="EDIT" span="3">0xF9AE</button>
+
+        <button label="INTRO" span="3">0xF96E</button>
+        <button label="RANDOM" span="3">0xF9EE</button>
+        <button label="AUTOPRESET" span="3">0xF9C8</button>
+        <button label="MODE" span="3">0xF9F8</button>
+
+        <button label="SYNCHROREC" span="3">0xF96A</button>
+        <space multiple="9"/>
+
+    </device>
+</irplus>

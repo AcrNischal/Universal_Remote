@@ -1,0 +1,64 @@
+<irplus>
+    <device manufacturer="SUPERBOX" model="Smart Mini HD" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x204 0x3AC5</button>
+        <button label="VF" span="4">0x204 0xA05F</button>
+        <button label="MUTE" span="4">0x204 0x7887</button>
+
+        <button label="WIDE" span="4">0x204 0x609F</button>
+        <button label="EPG" span="4">0x204 0x0AF5</button>
+        <button label="FAV" span="4">0x204 0x1AE5</button>
+
+        <button label="MENU" span="4">0x204 0x08F7</button>
+        <button label="CH+" span="4">0x204 0x12ED</button>
+        <button label="EXIT" span="4">0x204 0x38C7</button>
+
+        <button label="VOL+" span="4">0x204 0xE01F</button>
+        <button label="OK" span="4">0x204 0xD02F</button>
+        <button label="VOL-" span="4">0x204 0xF00F</button>
+
+        <button label="PAGE+" span="4">0x204 0xBA45</button>
+        <button label="CH-" span="4">0x204 0x50AF</button>
+        <button label="PAGE-" span="4">0x204 0xF807</button>
+
+        <button label="VOL+" span="4">0x204 0x6A95</button>
+        <button label="RECALL" span="4">0x204 0x32CD</button>
+        <button label="VOL-" span="4">0x204 0xAA55</button>
+
+        <button label="NET" span="4">0x204 0x30CF</button>
+        <button label="USB" span="4">0x204 0x18E7</button>
+        <button label="INFO" span="4">0x204 0x22DD</button>
+
+        <button label="1" span="4">0x204 0x02FD</button>
+        <button label="2" span="4">0x204 0xC03F</button>
+        <button label="3" span="4">0x204 0x40BF</button>
+
+        <button label="4" span="4">0x204 0x48B7</button>
+        <button label="5" span="4">0x204 0x6897</button>
+        <button label="6" span="4">0x204 0x58A7</button>
+
+        <button label="7" span="4">0x204 0xC837</button>
+        <button label="8" span="4">0x204 0xE817</button>
+        <button label="9" span="4">0x204 0xD827</button>
+
+        <button label="SAT" span="4">0x204 0x708F</button>
+        <button label="0" span="4">0x204 0x2AD5</button>
+        <button label="TV/RADIO" span="4">0x204 0xA857</button>
+
+        <button label="PLAY-PAUSE" span="3">0x204 0xF20D</button>
+        <button label="STOP-GOTO" span="3">0x204 0xD22D</button>
+        <button label="PLAY-BMARK" span="3">0x204 0x906F</button>
+        <button label="REC-AB" span="3">0x204 0x10EF</button>
+
+        <button label="REW-VIDEO-TIMER" span="3">0x204 0xE21D</button>
+        <button label="FWD-VIDEO-F1" span="3">0x204 0xC23D</button>
+        <button label="PREV-VIDEO-F2" span="3">0x204 0x20DF</button>
+        <button label="NEXT-VIDEO-F3" span="3">0x204 0x00FF</button>
+
+        <button label="SUBT" backgroundColor="FFC84334" alt="RED" span="3">0x204 0xB24D</button>
+        <button label="TXT" backgroundColor="FF29A58B" alt="GREEN" span="3">0x204 0x926D</button>
+        <button label="SLEEP" backgroundColor="FFF2B731" alt="YELLOW" span="3">0x204 0xA25D</button>
+        <button label="AUDIO" backgroundColor="FF2766DC" alt="BLUE" span="3">0x204 0x827D</button>
+
+    </device>
+</irplus>

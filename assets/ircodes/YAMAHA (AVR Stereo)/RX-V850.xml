@@ -1,0 +1,64 @@
+<irplus>
+    <device manufacturer="YAMAHA" model="RX-V850" columns="12" format="WINLIRC_NEC1" one-space="1650" one-pulse="550" zero-pulse="550" zero-space="550" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0x5EA1 0xF807</button>
+        <button label="PHONO" span="3">0x5EA1 0x28D7</button>
+        <button label="CD" span="3">0x5EA1 0xA857</button>
+        <button label="TUNER" span="3">0x5EA1 0x6897</button>
+
+        <button label="TAPE 1/DAT" span="3">0x5EA1 0x9867</button>
+        <button label="TAPE 2/VCR 2" span="3">0x5EA1 0x18E7</button>
+        <button label="LD V" span="3">0x5EA1 0xE817</button>
+        <button label="VCR 1" span="3">0x5EA1 0xF00F</button>
+
+        <button label="CD PLAY" span="3">0x5EA1 0x10EF</button>
+        <button label="CD PAUSE/STOP" span="3">0x5EA1 0x906F</button>
+        <button label="CD SEARCH FWD" span="3">0x5EA1 0x30CF</button>
+        <button label="CD SEARCH REV" span="3">0x5EA1 0xB04F</button>
+
+        <button label="CD SKIP FWD" span="4">0x5EA1 0x50AF</button>
+        <button label="CD SKIP REV" span="4">0x5EA1 0xD02F</button>
+        <button label="CD DISK SKIP" span="4">0x5EA1 0xF20D</button>
+
+        <button label="TAPE PLAY" span="4">0x5EA1 0x00FF</button>
+        <button label="TAPE STOP" span="4">0x5EA1 0xC03F</button>
+        <button label="TAPE FFWD" span="4">0x5EA1 0x40BF</button>
+        <button label="TAPE REWIND" span="4">0x5EA1 0x807F</button>
+        <button label="TAPE REC/PAUSE" span="4">0x5EA1 0x20DF</button>
+        <button label="TAPE REC MUTE" span="4">0x5EA1 0xA05F</button>
+        <button label="TAPE DECK A/B" span="4">0x5EA1 0x609F</button>
+        <button label="TAPE DIR A" span="4">0x5EA1 0xE01F</button>
+        <button label="TAPE DIR B" span="4">0x5EA1 0x02FD</button>
+
+        <button label="TUNER +" span="6">0x5EA1 0x08F7</button>
+        <button label="TUNER A/B/C/D/E" span="6">0x5EA1 0x48B7</button>
+
+        <button label="DSP TEST" span="4">0x5EA1 0xA15E</button>
+        <button label="DSP CENTRE MODE" span="4">0x5EA1 0x21DE</button>
+        <button label="DSP PRO LOGIC" span="4">0x5EA1 0x11EE</button>
+
+        <button label="DSP PRO LOGIC ENH." span="4">0x5EA1 0x916E</button>
+        <button label="DSP CNCT VIDEO" span="4">0x5EA1 0x51AE</button>
+        <button label="DSP MONO MOVIE" span="4">0x5EA1 0xD12E</button>
+
+        <button label="DSP ROCK" span="4">0x5EA1 0x31CE</button>
+        <button label="DSP HALL" span="4">0x5EA1 0xB14E</button>
+        <button label="DSP EFFECT ON/OFF" span="4">0x5EA1 0x6A95</button>
+
+        <button label="FRONT LEVEL +" span="6">0x5EA1 0x01FE</button>
+        <button label="FRONT LEVEL -" span="6">0x5EA1 0x817E</button>
+
+        <button label="CENTRE LEVEL +" span="6">0x5EA1 0x41BE</button>
+        <button label="CENTRE LEVEL -" span="6">0x5EA1 0xC13E</button>
+
+        <button label="REAR LEVEL +" span="6">0x5EA1 0x7A85</button>
+        <button label="REAR LEVEL -" span="6">0x5EA1 0xFA05</button>
+
+        <button label="DELAY TIME +" span="6">0x5EA1 0x4AB5</button>
+        <button label="DELAY TIME -" span="6">0x5EA1 0xCA35</button>
+
+        <button label="VOL+" span="4">0x5EA1 0x58A7</button>
+        <button label="MUTING" span="4">0x5EA1 0x38C7</button>
+        <button label="VOL-" span="4">0x5EA1 0xD827</button>
+    </device>
+</irplus>

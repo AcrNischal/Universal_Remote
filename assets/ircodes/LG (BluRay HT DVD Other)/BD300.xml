@@ -1,0 +1,63 @@
+<irplus>
+    <device manufacturer="LG" model="BD300" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16" gap-pulse="599" gap-space="104879"
+        one-pulse="599" one-space="1552" zero-pulse="599" zero-space="423" header-pulse="4471" header-space="4305">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xB4B4 0x0CF3</button>
+        <button label="&#xf011; ON" span="4">0xB4B4 0xAE51</button>
+        <button label="&#xf011; OFF" span="4">0xB4B4 0x6E91</button>
+
+        <button label="1" span="4">0xB4B4 0xDC23</button>
+        <button label="2" span="4">0xB4B4 0x3CC3</button>
+        <button label="3" span="4">0xB4B4 0xBC43</button>
+
+        <button label="4" span="4">0xB4B4 0x7C83</button>
+        <button label="5" span="4">0xB4B4 0xFC03</button>
+        <button label="6" span="4">0xB4B4 0x02FD</button>
+
+        <button label="7" span="4">0xB4B4 0x827D</button>
+        <button label="8" span="4">0xB4B4 0x42BD</button>
+        <button label="9" span="4">0xB4B4 0xC23D</button>
+
+        <button label="HOME" span="4">0xB4B4 0xE619</button>
+        <button label="0" span="4">0xB4B4 0x22DD</button>
+        <button label="MENU" span="4">0xB4B4 0xD22D</button>
+
+        <button label="A/CLR" backgroundColor="FFC84334" span="3">0xB4B4 0x3EC1</button>
+        <button label="B" backgroundColor="FF1E7854" span="3">0xB4B4 0xBE41</button>
+        <button label="C" backgroundColor="FFD6A81F" span="3">0xB4B4 0x7E81</button>
+        <button label="D" backgroundColor="FF2A4C94" span="3">0xB4B4 0xFE01</button>
+
+        <button label="MARKER" span="4">0xB4B4 0x8679</button>
+        <button label="&#xf0d8;" span="4">0xB4B4 0xE21D</button>
+        <button label="TITLE" span="4">0xB4B4 0x52AD</button>
+
+        <button label="&#xf0d9;" span="4">0xB4B4 0x9A65</button>
+        <button label="ENTER" span="4">0xB4B4 0x1AE5</button>
+        <button label="&#xf0da;" span="4">0xB4B4 0x5AA5</button>
+
+        <button label="ZOOM" span="4">0xB4B4 0x26D9</button>
+        <button label="&#xf0d7;" span="4">0xB4B4 0x12ED</button>
+        <button label="RETURN" span="4">0xB4B4 0xA25D</button>
+ 
+        <button label="AUDIO" span="3">0xB4B4 0xF20D</button>
+        <button label="ANGLE" span="3">0xB4B4 0x32CD</button>
+        <button label="SUBTITLE1" span="3">0xB4B4 0x0AF5</button>
+        <button label="SUBTITLE2" span="3">0xB4B4 0xEF10</button>
+        
+        <button label="AB" span="3">0xB4B4 0xAA55</button>
+        <button label="PIP" span="3">0xB4B4 0xFA05</button>
+        <button label="SEARCH" span="3">0xB4B4 0x46B9</button>
+        <button label="&#xf052;" alt="EJECT" span="3">0xB4B4 0x6C93</button>
+
+        <button label="RESOLUTION" span="3">0xB4B4 0xAF50</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0xB4B4 0x9C63</button>
+        <button label="&#xf04b;" alt="PLAY" span="3">0xB4B4 0x8C73</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">0xB4B4 0x1CE3</button>
+
+        <button label="" span="3">0xB4B4 0xAC53</button>
+        <button label="&#xf04a;" alt="REW" span="3">0xB4B4 0x4CB3</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0xB4B4 0x2CD3</button>
+        <button label="" span="3">0xB4B4 0xCC33</button>
+
+    </device>
+</irplus>

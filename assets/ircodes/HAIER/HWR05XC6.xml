@@ -1,0 +1,11 @@
+<irplus>
+    <device manufacturer="HAIER" model="HWR05XC6" columns="1" format="WINLIRC_NEC1">
+        <button label="&#xf011;" labelSize="25.0" backgroundColor="FFC84334">0x8F7 0x9867</button>
+        <button label="TIMER" labelSize="18.0">0x8F7 0x58A7</button>
+        <button label="ACMODE" labelSize="18.0">0x8F7 0x10EF</button>
+        <button label="C/F" labelSize="18.0">0x8F7 0x00FF</button>
+        <button label="FANSPEED" labelSize="12.0">0x8F7 0x20DF</button>
+        <button label="TEMP+" labelSize="18.0">0x8F7 0xA05F</button>
+        <button label="TEMP-" labelSize="18.0">0x8F7 0x906F</button>
+    </device>
+</irplus>

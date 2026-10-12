@@ -1,0 +1,21 @@
+<irplus>
+    <device manufacturer="AMC" model="Series2" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" span="4">0xe03f 0x5ba4</button>
+        <button label="INPUT 1" span="4">0xe03f 0x837c</button>
+        <button label="INPUT 2" span="4">0xe03f 0x03fc</button>
+
+        <button label="INPUT 3" span="4">0xe03f 0x43bc</button>
+        <button label="INPUT 4" span="4">0xe03f 0xc33c</button>
+        <button label="INPUT 5" span="4">0xe03f 0x23dc</button>
+
+        <button label="INPUT 6" span="4">0xe03f 0xa35c</button>
+        <button label="INPUT 7" span="4">0xe03f 0x639c</button>
+        <button label="INPUT 8" span="4">0xe03f 0x13ec</button>
+
+        <button label="VOL-" span="4">0xe03f 0x9b64</button>
+        <button label="&#xFF581;" span="4">0xe03f 0x41be</button>
+        <button label="VOL+" span="4">0xe03f 0x1be4</button>
+
+    </device>
+</irplus>

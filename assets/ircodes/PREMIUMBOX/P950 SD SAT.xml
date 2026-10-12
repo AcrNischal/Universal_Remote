@@ -1,0 +1,50 @@
+<irplus>
+    <device manufacturer="PREMIUMBOX" model="P950 SD SAT" columns="12" format="WINLIRC_SPACEENC" bits="32" pre-bits="32" toggle-bit-pos="0" gap-pulse="551" gap-space="108034" one-pulse="551" one-space="1692" zero-pulse="551" zero-space="572" header-pulse="9030" header-space="4490">
+        <button label="&#xf011;" alt="POWER" span="4">0x0076AA55</button>
+        <button label="MUTE" span="4">0x007630CF</button>
+        <button label="SLEEP" span="4">0x0076906F</button>
+        <button label="TV/RADIO" span="4">0x0076A05F</button>
+        <button label="SAT" span="4">0x0076807F</button>
+        <button label="1" span="4">0x0076D22D</button>
+        <button label="2" span="4">0x0076E21D</button>
+        <button label="3" span="4">0x0076C23D</button>
+        <button label="4" span="4">0x007652AD</button>
+        <button label="5" span="4">0x0076629D</button>
+        <button label="6" span="4">0x007642BD</button>
+        <button label="7" span="4">0x007658A7</button>
+        <button label="8" span="4">0x0076827D</button>
+        <button label="9" span="4">0x00769A65</button>
+        <button label="0" span="4">0x007618E7</button>
+        <button label="FAV" span="4">0x007638C7</button>
+        <button label="RECALL" span="4">0x007628D7</button>
+        <button label="RED-VFORMAT" span="4">0x0076609F</button>
+        <button label="GREEN-FIND" span="4">0x0076A25D</button>
+        <button label="YELLOW-TEXT" span="4">0x007622DD</button>
+        <button label="BLUE-SUBT" span="4">0x007608F7</button>
+        <button label="MENU" span="4">0x007632CD</button>
+        <button label="EPG" span="4">0x007650AF</button>
+        <button label="INFO" span="4">0x007602FD</button>
+        <button label="EXIT" span="4">0x0076C03F</button>
+        <button label="CH+CENTER" span="4">0x007612ED</button>
+        <button label="CH-CENTER" span="4">0x0076926D</button>
+        <button label="VOL+CENTER" span="4">0x00762AD5</button>
+        <button label="VOL-CENTER" span="4">0x0076BA45</button>
+        <button label="OK" span="4">0x00763AC5</button>
+        <button label="VOL+" span="4">0x007600FF</button>
+        <button label="VOL-" span="4">0x007640BF</button>
+        <button label="ZOOM" span="4">0x00767887</button>
+        <button label="AUDIO" span="4">0x0076D02F</button>
+        <button label="HD" span="4">0x0076B04F</button>
+        <button label="PAGE+" span="4">0x0076E01F</button>
+        <button label="PAGE-" span="4">0x00764AB5</button>
+        <button label="&#xf111;" alt="REC" span="4">0x0076DA25</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0x0076B24D</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x00766A95</button>
+        <button label="FAST REW" span="4">0x0076EA15</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x00768A75</button>
+        <button label="FAST FWD" span="4">0x00760AF5</button>
+        <button label="FILE" span="4">0x0076708F</button>
+        <button label="SLOW REW" span="4">0x0076F20D</button>
+        <button label="SLOW FWD" span="4">0x007648B7</button>
+    </device>
+</irplus>

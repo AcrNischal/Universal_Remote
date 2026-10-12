@@ -1,0 +1,54 @@
+<irplus>
+    <device manufacturer="XORO" model="HRS5500" columns="3" format="WINLIRC_NEC1" one-space="1578" one-pulse="652" zero-pulse="652" zero-space="466"
+        header-pulse="9086" header-space="4384" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" backgroundColor="FFC84334">0x10EF 0x00FF</button>
+        <button label="F1">0x10EF 0x58A7</button>
+        <button label="F2">0x10EF 0x3AC5</button>
+
+        <button label="F3">0x10EF 0x30CF</button>
+        <button label="F4">0x10EF 0x807F</button>
+        <button label="F5">0x10EF 0x30CF</button>
+
+        <button label="1">0x10EF 0x38C7</button>
+        <button label="2">0x10EF 0xB847</button>
+        <button label="3">0x10EF 0x7887</button>
+
+        <button label="4">0x10EF 0x02FD</button>
+        <button label="5">0x10EF 0x827D</button>
+        <button label="6">0x10EF 0x42BD</button>
+
+        <button label="7">0x10EF 0x22DD</button>
+        <button label="8">0x10EF 0xA25D</button>
+        <button label="9">0x10EF 0x629D</button>
+
+        <button label="AV">0x10EF 0x1AE5</button>
+        <button label="0">0x10EF 0x18E7</button>
+        <button label="--">0x10EF 0xA05F</button>
+
+        <button label="MENU">0x10EF 0xD02F</button>
+        <button label="&#xFF581;">0x10EF 0x20DF</button>
+        <button label="EXIT">0x10EF 0xC03F</button>
+
+        <button label="VOL+">0x10EF 0x6897</button>
+        <button label="&#xf0d8;">0x10EF 0x48B7</button>
+        <button label="CH+">0x10EF 0x48B7</button>
+
+        <button label="&#xf0d9;">0x10EF 0x28D7</button>
+        <button label="OK">0x10EF 0xA857</button>
+        <button label="&#xf0da;">0x10EF 0x6897</button>
+
+        <button label="VOL-">0x10EF 0x28D7</button>
+        <button label="&#xf0d7;">0x10EF 0xC837</button>
+        <button label="CH-">0x10EF 0xC837</button>
+
+        <button label="&#xf04d;" alt="STOP">0x10EF 0xB04F</button>
+        <button label="&#xf04b;" alt="PLAY">0x10EF 0x52AD</button>
+        <button label="&#xf111;" alt="REC">0x10EF 0x30CF</button>
+
+        <button label="&#xf04a;" alt="REW">0x10EF 0x8877</button>
+        <button label="&#xf04c;" alt="PAUSE">0x10EF 0x08F7</button>
+        <button label="&#xf04e;" alt="FWD">0x10EF 0x926D</button>
+
+    </device>
+</irplus>

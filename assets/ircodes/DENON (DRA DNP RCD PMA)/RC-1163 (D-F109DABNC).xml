@@ -1,0 +1,71 @@
+<irplus>
+    <device manufacturer="DENON" model="RC-1163" columns="12" format="WINLIRC_SPACEENC" bits="24" pre-bits="24"
+        gap-pulse="465" gap-space="133854" one-pulse="468" one-space="1212" zero-pulse="468" zero-space="376" header-pulse="3404" header-space="1626">
+
+        <button label="SLEEP" span="3">0x2A4C0A 0x88C240</button>
+        <button label="TIME" span="3">0x2A4C0A 0x82C24A</button>
+        <button label="DISPLAYTOGGLE" span="3">0x2A4C0A 0x8CC244</button>
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="3">0x2A4C0A 0x8C0284</button>
+
+        <button label="AMP TUNER" span="4">0x2A4C0A 0x6E0266</button>
+        <button label="AMP ANALOG" span="4">0x2A4C0A 0x47024F</button>
+        <button label="AMP DIGITAL" span="4">0x2A4C0A 0x4A82C2</button>
+
+        <button label="INTERNET RADIO" span="4">0x2A4C0A 0x4182C9</button>
+        <button label="ONLINE MUSIC" span="4">0x2A4C0A 0x4582CD</button>
+        <button label="MUSIC SERVER" span="4">0x2A4C0A 0x4982C1</button>
+
+        <button label="iPOD/USB" span="4">0x2A4C0A 0x4D82C5</button>
+        <button label="CD" span="4">0x2A4C0A 0x4E82C6</button>
+        <button label="CD iPOD/USB" span="4">0x2A4C0A 0x4682CE</button>
+
+        <button label="&#xf049;" span="4">0x2A4C0A 0x8E22A6</button>
+        <button label="&#xf04b; / &#xf04c;" span="4">0x2A4C0A 0x85028D</button>
+        <button label="&#xf050;" span="4">0x2A4C0A 0x8622AE</button>
+
+        <button label="&#xf04a;" span="4">0x2A4C0A 0x8F0287</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x2A4C0A 0x8FC247</button>
+        <button label="&#xf04e;" span="4">0x2A4C0A 0x87028F</button>
+
+        <button label="ADD" span="4">0x2A4C0A 0xEFD237</button>
+        <button label="&#xFF581;" span="4">0x2A4C0A 0x86028E</button>
+        <button label="VOL+" span="4">0x2A4C0A 0x82028A</button>
+
+        <button label="CALL" span="4">0x2A4C0A 0xE7D23F</button>
+        <button label="TONE" span="4">0x2A4C0A 0x80C248</button>
+        <button label="VOL-" span="4">0x2A4C0A 0x8A0282</button>
+
+        <button label="MODE" span="4">0x2A4C0A 0x87C24F</button>
+        <button label="&#xf062;" alt="UP" span="4">0x2A4C0A 0x8042C8</button>
+        <button label="SYSTEM SETUP" span="4">0x2A4C0A 0x8022A8</button>
+
+        <button label="&#xf060;" alt="LEFT" span="4">0x2A4C0A 0x8442CC</button>
+        <button label="ENTER" span="4">0x2A4C0A 0x8242CA</button>
+        <button label="&#xf061;" alt="RIGHT" span="4">0x2A4C0A 0x8C42C4</button>
+
+        <button label="SEARCH" span="4">0x2A4C0A 0x8BC243</button>
+        <button label="&#xf063;" alt="DOWN" span="4">0x2A4C0A 0x8842C0</button>
+        <button label="NETWORK SETUP" span="4">0x2A4C0A 0xE652BE</button>
+
+        <button label="1" span="4">0x2A4C0A 0x888200</button>
+        <button label="2" span="4">0x2A4C0A 0x84820C</button>
+        <button label="3" span="4">0x2A4C0A 0x8C8204</button>
+
+        <button label="4" span="4">0x2A4C0A 0x82820A</button>
+        <button label="5" span="4">0x2A4C0A 0x8A8202</button>
+        <button label="6" span="4">0x2A4C0A 0x86820E</button>
+
+        <button label="7" span="4">0x2A4C0A 0x8E8206</button>
+        <button label="8" span="4">0x2A4C0A 0x818209</button>
+        <button label="9" span="4">0x2A4C0A 0x898201</button>
+
+        <button label="10" span="4">0x2A4C0A 0x83820B</button>
+        <button label="0" span="4">0x2A4C0A 0x8D8205</button>
+        <button label="CLEAR" span="4">0x2A4C0A 0x8F42C7</button>
+
+        <button label="RANDOM" span="3">0x2A4C0A 0x8542CD</button>
+        <button label="REPEAT" span="3">0x2A4C0A 0x8D42C5</button>
+        <button label="PROGRAM" span="3">0x2A4C0A 0x8942C1</button>
+        <button label="INFO" span="3">0x2A4C0A 0x84C24C</button>
+    </device>
+</irplus>

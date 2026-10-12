@@ -1,0 +1,55 @@
+<irplus>
+    <device manufacturer="ADB" model="iCAN-1110SH" columns="12" format="WINLIRC_RC5" bits="13" toggle-bit-pos="2" frequency="36000">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="6">0x120c</button>
+        <button label="&#xFF581;" span="6">0x120d</button>
+
+        <button label="1" span="4">0x1201</button>
+        <button label="2" span="4">0x1202</button>
+        <button label="3" span="4">0x1203</button>
+
+        <button label="4" span="4">0x1204</button>
+        <button label="5" span="4">0x1205</button>
+        <button label="6" span="4">0x1206</button>
+
+        <button label="7" span="4">0x1207</button>
+        <button label="8" span="4">0x1208</button>
+        <button label="9" span="4">0x1209</button>
+
+        <button label="LIST" span="4">0x122a</button>
+        <button label="0" span="4">0x1200</button>
+        <button label="OPTION" span="4">0x121a</button>
+
+        <button label="BACK" span="4">0x1217</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0x1210</button>
+        <button label="EXIT" span="4">0x1235</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x1215</button>
+        <button label="ENTER" span="4">0x1224</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x1216</button>
+
+        <button label="EPG" span="4">0x1229</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x1211</button>
+        <button label="INFO" span="4">0x1223</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x1237</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x1236</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x1232</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x1234</button>
+
+        <button label="CH+" span="6">0x1220</button>
+        <button label="VOL+" span="6">0x121b</button>
+
+        <button label="VOL-" span="6">0x121c</button>
+        <button label="CH-" span="6">0x1221</button>
+
+        <button label="MENU" span="4">0x1212</button>
+        <button label="TXT" span="4">0x122f</button>
+        <button label="TV/RADIO" span="4">0x122b</button>
+
+        <button label="*" span="4">0x122d</button>
+        <button label="APP" span="4">0x122e</button>
+        <button label="DISP" span="4">0x1219</button>
+
+    </device>
+</irplus>

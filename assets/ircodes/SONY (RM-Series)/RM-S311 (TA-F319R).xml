@@ -1,0 +1,50 @@
+<irplus>
+    <device manufacturer="SONY" model="RM-S311" columns="3" format="WINLIRC_SPACEENC" gap-pulse="1" gap-space="45000" frequency="40000"
+        repeat="3" one-space="600" one-pulse="1200" zero-pulse="600" zero-space="600" header-pulse="2400" header-space="600" pre-bits="12">
+
+        <button label="PHONO START">0x141</button>
+        <button label="PHONO STOP">0x941</button>
+        <button label="&#xf011;" backgroundColor="FF136932">0xA81</button>
+
+        <button label="TUNER">0x841</button>
+        <button label="PRESET-">0x896</button>
+        <button label="PRESET+">0x096</button>
+
+        <button label="" labelColor="FF000000" backgroundColor="FFD3F0E1">0x0D1</button>
+        <button label="" labelColor="FF000000" backgroundColor="FFD3F0E1">0x8D1</button>
+        <button label="D.SKIP" labelColor="FF000000" backgroundColor="FFD3F0E1">0x7D1</button>
+
+        <button label="" labelColor="FF000000" backgroundColor="FFD3F0E1">0x4D1</button>
+        <button label="" labelColor="FF000000" backgroundColor="FFD3F0E1">0x1D1</button>
+        <button label="" labelColor="FFFF9500" backgroundColor="FFD3F0E1">0x9D1</button>
+
+        <button label="" labelColor="FF000000" backgroundColor="FFF2F5C4">0xCC1</button>
+        <button label="" labelColor="FF000000" backgroundColor="FFF2F5C4">0x2C1</button>
+        <button label="" labelColor="FF000000" backgroundColor="FFF2F5C4">0x1C1</button>
+
+        <button label="" labelColor="FF000000" backgroundColor="FFF2F5C4">0xEC1</button>
+        <button label="" labelColor="FF000000" backgroundColor="FFF2F5C4">0x4C1</button>
+        <button label="" labelColor="FFC84334" backgroundColor="FFF2F5C4">0x6C1</button>
+
+        <button label="" labelColor="FF000000" backgroundColor="FFBFD5F2">0xD8E</button>
+        <button label="" labelColor="FF000000" backgroundColor="FFBFD5F2">0x38E</button>
+        <button label="" labelColor="FF000000" backgroundColor="FFBFD5F2">0x18E</button>
+
+        <button label="" labelColor="FF000000" backgroundColor="FFBFD5F2">0x04E</button>
+        <button label="" labelColor="FF000000" backgroundColor="FFBFD5F2">0x58E</button>
+        <button label="" labelColor="FFC84334" backgroundColor="FFBFD5F2">0x78E</button>
+
+        <button label="DAT/TAPE1">0xC41</button>
+        <button label="" labelColor="FFFF9500" backgroundColor="FFBFD5F2">0x98E</button>
+        <button label="VOL+">0x481</button>
+
+        <button label="TAPE2/MD">0x241</button>
+        <button label="AUX">0xB81</button>
+        <button label="VOL-">0xC81</button>
+
+        <button label="CD">0xA41</button>
+        <button label="PHONO">0x041</button>
+        <space/>
+
+    </device>
+</irplus>

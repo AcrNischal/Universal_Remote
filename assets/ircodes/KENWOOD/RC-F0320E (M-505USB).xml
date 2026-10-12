@@ -1,0 +1,71 @@
+<irplus>
+    <device manufacturer="KENWOOD" model="RC-F0320E" columns="4" format="WINLIRC_NEC1"
+        one-space="1690" one-pulse="560" zero-pulse="560" zero-space="560" header-pulse="9000" header-space="4500" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" backgroundColor="FFC84334">0x00FE 0x02FD</button>
+        <space multiple="3"/>
+
+        <button label="SLEEP">0x00FE 0x22DD</button>
+        <button label="TIMER SET">0x00FE 0xA25D</button>
+        <button label="TIMER ON/OFF">0x00FE 0x9A65</button>
+        <button label="TIME DISPLAY">0x00FE 0x1AE5</button>
+
+        <button label="STEREO/MONO">0x00FE 0x12ED</button>
+        <button label="RDS DISPLAY">0x00FE 0x926D</button>
+        <button label="PTY">0x00FE 0xAA55</button>
+        <button label="INTRO">0x00FE 0x2AD5</button>
+
+        <button label="P.MODE">0x00FE 0x32CD</button>
+        <button label="RANDOM">0x00FE 0xB24D</button>
+        <button label="REPEAT">0x00FE 0x8A75</button>
+        <space multiple="1"/>
+
+        <button label="EQ">0x00FE 0xC23D</button>
+        <space multiple="2"/>
+        <button label="X.BASS">0x00FE 0x629D</button>
+
+        <space multiple="1"/>
+        <button label="P.CALL/ALBUM &#xf0d8;" span="2">0x00FE 0x52AD</button>
+        <space multiple="1"/>
+
+        <button label="&#xf0d9; SEARCH">0x00FE 0x42BD</button>
+        <button label="ENTER" span="2">0x00FE 0xE21D</button>
+        <button label="TUNING &#xf0da;">0x00FE 0xB847</button>
+
+        <space multiple="1"/>
+        <button label="P.CALL/ALBUM &#xf0d7;" span="2">0x00FE 0x7887</button>
+        <space multiple="1"/>
+
+        <button label="USB O.T.E." labelColor="FF000000" backgroundColor="FFFF6A00">0x00FE 0xF807</button>
+        <space multiple="2"/>
+        <button label="TAPE REC" labelColor="FF000000" backgroundColor="FFFF6A00">0x00FE 0x38C7</button>
+
+        <button label="TUNER band" labelColor="FF000000" backgroundColor="FF808080">0x00FE 0xD827</button>
+        <button label="CD/USB" labelColor="FF000000" backgroundColor="FF808080">0x00FE 0x58A7</button>
+        <button label="TAPE mode" labelColor="FF000000" backgroundColor="FF808080">0x00FE 0x9867</button>
+        <button label="AUX" labelColor="FF000000" backgroundColor="FF808080">0x00FE 0x18E7</button>
+
+        <button label="RVS PLAY" labelColor="FF000000" backgroundColor="FF808080">0x00FE 0xE817</button>
+        <button label="FWD PLAY" labelColor="FF000000" backgroundColor="FF808080">0x00FE 0x6897</button>
+        <button label="STOP" labelColor="FF000000" backgroundColor="FF808080">0x00FE 0xA857</button>
+        <button label="FILE SEARCH">0x00FE 0x28D7</button>
+
+        <button label="1" labelColor="FF000000" backgroundColor="FFBFBFBF">0x00FE 0xC837</button>
+        <button label="2 (ABC)" labelColor="FF000000" backgroundColor="FFBFBFBF">0x00FE 0x48B7</button>
+        <button label="3 (DEF)" labelColor="FF000000" backgroundColor="FFBFBFBF">0x00FE 0x8877</button>
+        <button label="4 (GHI)" labelColor="FF000000" backgroundColor="FFBFBFBF">0x00FE 0x08F7</button>
+
+        <button label="5 (JKL)" labelColor="FF000000" backgroundColor="FFBFBFBF">0x00FE 0xF00F</button>
+        <button label="6 (MNO)" labelColor="FF000000" backgroundColor="FFBFBFBF">0x00FE 0x708F</button>
+        <button label="7 (PQRS)" labelColor="FF000000" backgroundColor="FFBFBFBF">0x00FE 0xB04F</button>
+        <button label="8 (TUV)" labelColor="FF000000" backgroundColor="FFBFBFBF">0x00FE 0x30CF</button>
+
+        <button label="9 (WXYZ)" labelColor="FF000000" backgroundColor="FFBFBFBF">0x00FE 0xD02F</button>
+        <button label="0" labelColor="FF000000" backgroundColor="FFBFBFBF">0x00FE 0x50AF</button>
+        <button label="CLEAR">0x00FE 0x906F</button>
+        <button label="&#xFF581;">0x00FE 0x10EF</button>
+
+        <button label="VOLUME -" span="2">0x00FE 0x609F</button>
+        <button label="VOLUME +" span="2">0x00FE 0xA05F</button>
+    </device>
+</irplus>

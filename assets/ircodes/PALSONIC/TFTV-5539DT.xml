@@ -1,0 +1,54 @@
+<irplus>
+	<device manufacturer="PALSONIC" model="TFTV-5539DT" columns="12" format="WINLIRC_NEC1" one-space="1565" one-pulse="666" zero-pulse="666" zero-space="458" 
+		header-pulse="9092" header-space="4400" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x1FE 0x41BE</button>
+		<button label="MENU" span="4">0x1FE 0xE916</button>
+		<button label="EXIT" span="4">0x1FE 0xC936</button>
+		
+		<button label="DTV" span="4">0x1FE 0xE11E</button>
+		<button label="PICT" span="4">0x1FE 0xB34C</button>
+		<button label="INFO" span="4">0x1FE 0x4BB4</button>
+		
+		<button label="R" fillColor="FFC84334" span="3">0x1FE 0x13EC</button>
+		<button label="G" fillColor="FF1E7854" span="3">0x1FE 0x936C</button>
+		<button label="Y" fillColor="FFD6A81F" span="3">0x1FE 0x53AC</button>
+		<button label="B" fillColor="FF2A4C94" span="3">0x1FE 0xD32C</button>
+		
+		<button label="VOL+" span="4">0x1FE 0xF906</button>
+		<button label="&#xf0d8;" span="4">0x1FE 0x9966</button>
+		<button label="CH+" span="4">0x1FE 0xD926</button>
+		
+		<button label="&#xf0d9;" span="4">0x1FE 0x39C6</button>
+		<button label="OK" span="4">0x1FE 0x59A6</button>
+		<button label="&#xf0da;" span="4">0x1FE 0x7986</button>
+
+		<button label="VOL-" span="4">0x1FE 0xD12E</button>
+		<button label="&#xf0d7;" span="4">0x1FE 0xB946</button>
+		<button label="CH-" span="4">0x1FE 0xF10E</button>
+		
+		<button label="LIST" span="4">0x1FE 0x21DE</button>
+		<button label="&#xFF581;" span="4">0x1FE 0x0BF4</button>
+		<button label="TTXREV" span="4">0x1FE 0x2BD4</button>
+		
+		<button label="TTXSUB" span="4">0x1FE 0xEB14</button>
+		<button label="TTXHOLD" span="4">0x1FE 0xCB34</button>
+		<button label="TTXIDX" span="4">0x1FE 0x1BE4</button>
+		
+		<button label="1" span="4">0x1FE 0x11EE</button>
+		<button label="2" span="4">0x1FE 0x916E</button>
+		<button label="3" span="4">0x1FE 0x51AE</button>
+		
+		<button label="4" span="4">0x1FE 0x31CE</button>
+		<button label="5" span="4">0x1FE 0xB14E</button>
+		<button label="6" span="4">0x1FE 0x718E</button>
+		
+		<button label="7" span="4">0x1FE 0x09F6</button>
+		<button label="8" span="4">0x1FE 0x8976</button>
+		<button label="9" span="4">0x1FE 0x49B6</button>
+		
+		<button label="TVAV" span="4">0x1FE 0x43BC</button>
+		<button label="0" span="4">0x1FE 0xA956</button>
+		<button label="SLEEP" span="4">0x1FE 0x8B74</button>
+	</device>
+</irplus>

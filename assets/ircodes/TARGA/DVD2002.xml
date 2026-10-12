@@ -1,0 +1,47 @@
+<irplus>
+    <device manufacturer="TARGA" model="DVD2002" columns="12" format="WINLIRC_SPACEENC" bits="11"
+        toggle-bit-pos="2" gap-pulse="239" gap-space="121704" one-pulse="239" one-space="7360" zero-pulse="239" zero-space="4843">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x55E</button>
+        <button label="&#xf052;" alt="EJECT" span="4">0x566</button>
+        <button label="&#xFF581;" span="4">0x558</button>
+
+        <button label="1" span="4">0x575</button>
+        <button label="2" span="4">0x56D</button>
+        <button label="3" span="4">0x565</button>
+        <button label="4" span="4">0x55D</button>
+        <button label="5" span="4">0x574</button>
+        <button label="6" span="4">0x56C</button>
+        <button label="7" span="4">0x564</button>
+        <button label="8" span="4">0x55C</button>
+        <button label="9" span="4">0x573</button>
+
+        <button label="INFO" span="4">0x560</button>
+        <button label="0" span="4">0x56B</button>
+        <button label="CLEAR" span="4">0x563</button>
+
+        <button label="CAMERA" span="6">0x56E</button>
+        <button label="MENU" span="6">0x557</button>
+
+        <button label="TITLE" span="4">0x567</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0x568</button>
+        <button label="INDEX" span="4">0x55F</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x571</button>
+        <button label="OK" span="4">0x569</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x561</button>
+
+        <button label="EXIT" span="4">0x570</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x56A</button>
+        <button label="ZOOM" span="4">0x552</button>
+
+        <button label="&#xf049;" alt="PREV" span="3">0x555</button>
+        <button label="&#xf04a;" alt="REW" span="3">0x577</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x572</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0x556</button>
+
+        <button label="&#xf04d;" alt="STOP" span="4">0x562</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0x559</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x55A</button>
+    </device>
+</irplus>

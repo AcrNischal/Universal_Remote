@@ -1,0 +1,63 @@
+<irplus>
+    <device manufacturer="LOEWE" model="Dialog" columns="12" format="WINLIRC_RC5" bits="13" pre-bits="13" frequency="36000"
+        toggle-bit-pos="2" gap-pulse="1" gap-space="113397" one-pulse="933" one-space="837" zero-pulse="933" zero-space="837">
+
+        <button label="TV" span="4">0x103F</button>
+        <button label="VT" span="4">0x103C</button>
+        <button label="AUS" span="4">0x100C</button>
+
+        <button label="1" span="4">0x1001</button>
+        <button label="2" span="4">0x1002</button>
+        <button label="3" span="4">0x1003</button>
+
+        <button label="4" span="4">0x1004</button>
+        <button label="5" span="4">0x1005</button>
+        <button label="6" span="4">0x1006</button>
+
+        <button label="7" span="4">0x1007</button>
+        <button label="8" span="4">0x1008</button>
+        <button label="9" span="4">0x1009</button>
+
+        <button label="P-" span="4">0x1021</button>
+        <button label="0" span="4">0x1000</button>
+        <button label="P+" span="4">0x1020</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x101B</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x101A</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x102B</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x1028</button>
+
+        <button label="&#xFF581;" span="3">0x100D</button>
+        <button label="RESET" span="3">0x100E</button>
+        <button label="LIST" span="3">0x1023</button>
+        <button label="INFO" span="3">0x1027</button>
+
+        <button label="BRIGHT-" span="4">0x1013</button>
+        <button label="BRIGHT" span="4">0x1036</button>
+        <button label="BRIGHT+" span="4">0x1012</button>
+
+        <button label="COLOR-" span="4">0x1015</button>
+        <button label="COLOR" span="4">0x1037</button>
+        <button label="COLOR+" span="4">0x1014</button>
+
+        <button label="LOUD-" span="4">0x1011</button>
+        <button label="LOUD" span="4">0x1035</button>
+        <button label="LOUD+" span="4">0x1010</button>
+
+        <button label="BLAU-" span="3">0x100A</button>
+        <button label="BLAU+" span="3">0x102E</button>
+        <button label="GELB-" span="3">0x1031</button>
+        <button label="GELB+" span="3">0x102D</button>
+
+        <button label="+" span="4">0x100F</button>
+        <button label="-" span="4">0x1032</button>
+
+        <button label="MENU" span="4">0x100B</button>
+        <button label="X" span="4">0x1026</button>
+        <button label="IMG1" span="4">0x102F</button>
+
+        <button label="IMG2" span="4">0x1030</button>
+        <button label="TIMER" span="4">0x102A</button>
+        <button label="?" span="4">0x102C</button>
+    </device>
+</irplus>

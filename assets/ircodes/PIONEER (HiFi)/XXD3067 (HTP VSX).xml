@@ -1,0 +1,70 @@
+<irplus>
+    <device manufacturer="PIONEER" model="XXD3067" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16"
+         gap-pulse="613" gap-space="91774" one-pulse="614" one-space="1511" zero-pulse="614" zero-space="459" header-pulse="8596" header-space="4157">
+        
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0xA55A 0x38C7</button>
+        <button label="SLEEP" span="3">0xA55A 0x12ED</button>
+        <button label="FL DIMMER" span="3">0xA55A 0x6A95</button>
+        <button label="INPUT ATT" span="3">0xA55A 0x7A85</button>
+
+        <button label="DVD LD" span="3">0xA55A 0xA15E</button>
+        <button label="DVD 51" span="3">0xA55A 0x7A85</button>
+        <button label="TV SAT" span="3">0xA55A 0x30CF</button>
+        <button label="DVR VCR" span="3">0xA55A 0x916E</button>
+
+        <button label="CD" span="3">0xA55A 0x32CD</button>
+        <button label="TAPE MD" span="3">0xA55A 0x11EE</button>
+        <button label="FM" span="3">0xA55A 0x51AE</button>
+        <button label="AM" span="3">0xA55A 0xD12E</button>
+
+        <button label="STANDARD SOUND" span="4">0xA55A 0x7A85</button>
+        <button label="ADVANCED SURROUND" span="4">0xA55A 0xF906</button>
+        <button label="MIDNIGHT LOUDNESS" span="4">0xA55A 0xF906</button>
+
+        <button label="STEREO" span="6">0xA55A 0xF906</button>
+        <button label="TOP MENU" span="6">0x25DA 0x1AE5</button>
+
+        <button label="MENU" span="4">0xA55A 0x5AA5</button>
+        <button label="UP" span="4">0xA55A 0x01FE</button>
+        <button label="TUNER EDIT" span="4">0x25DA 0x1AE5</button>
+
+        <button label="LEFT" span="4">0xA55A 0xC13E</button>
+        <button label="ENTER" span="4">0xA55A 0x21DE</button>
+        <button label="RIGHT" span="4">0xA55A 0x41BE</button>
+
+        <button label="VOL -" span="4">0xA55A 0xD02F</button>
+        <button label="DOWN" span="4">0xA55A 0x817E</button>
+        <button label="VOL +" span="4">0xA55A 0x50AF</button>
+
+        <button label="CH SELECT" span="3">0xA55A 0x6A95</button>
+        <button label="TEST TONE" span="3">0xA55A 0x6A95</button>
+        <button label="&#xFF581;" span="3">0xA55A 0x48B7</button>
+        <button label="CLASS" span="3">0x25DA 0x02FD</button>
+
+        <button label="LEVEL+" span="3">0xA55A 0x42BD</button>
+        <button label="LEVEL-" span="3">0xA55A 0x827D</button>
+        <button label="EFFECT+" span="3">0xA55A 0x827D</button>
+        <button label="EFFECT-" span="3">0xA55A 0x42BD</button>
+
+        <button label="TUNING+" span="3">0x25DA 0x6A95</button>
+        <button label="TUNING-" span="3">0x25DA 0xEA15</button>
+        <button label="STATION+" span="3">0x25DA 0x08F7</button>
+        <button label="STATION-" span="3">0x25DA 0x8877</button>
+
+        <button label="MPX" span="6">0x25DA 0x7887</button>
+        <button label="DISPLAY" span="6">0x25DA 0x52AD</button>
+
+        <button label="DVD POWER" span="4">0xC53A 0x9966</button>
+        <button label="DVD AUDIO" span="4">0xC53A 0x9966</button>
+        <button label="DVD SUBTITLE" span="4">0xC53A 0x9966</button>
+
+        <button label="DVD BACK" span="4">0xC53A 0xD926</button>
+        <button label="DVD FORWARD" span="4">0xC53A 0x59A6</button>
+        <button label="DVD PLAY" span="4">0xC53A 0x7986</button>
+
+        <button label="DVD PREV" span="3">0xC53A 0xB946</button>
+        <button label="DVD PAUSE" span="3">0xC53A 0xF906</button>
+        <button label="DVD STOP" span="3">0xC53A 0x19E6</button>
+        <button label="DVD NEXT" span="3">0xC53A 0x39C6</button>
+    </device>
+</irplus>

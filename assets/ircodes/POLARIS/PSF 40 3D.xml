@@ -1,0 +1,16 @@
+<irplus>
+    <device manufacturer="POLARIS" model="PSF 40 3D" columns="12" format="WINLIRC_SPACEENC" toggle-bit-pos="0" one-pulse="550" one-space="1649"
+        zero-pulse="550" zero-space="524" header-pulse="8902" header-space="4454" gap-space="105830" gap-pulse="550" bits="32" pre-bits="16">
+
+        <button label="&#61458;" labelSize="25.0" span="4">0x807F 0xE01FE01F</button>
+        <button label="&#61457;" labelSize="25.0" span="4" backgroundColor="FF007200">0x807F 0xC03FC03F</button>
+        <button label="&#61675;" labelSize="25.0" span="4">0x807F 0xDA25DA25</button>
+        <button label="MODE" labelSize="18.0" span="4">0x807F 0xF00FF00F</button>
+        <button label="&#61457;" labelSize="25.0" span="4" backgroundColor="FF9B0000">0x807F 0xD827D827</button>
+        <button label="&#61463;" labelSize="25.0" span="4">0x807F 0xD02FD02F</button>
+        <button label="&#61566;" labelSize="25.0" span="4">0x807F 0xC837C837</button>
+        <button label="PRO" labelSize="18.0" span="4">0x807F 0xD22DD22D</button>
+        <button label="&#61573;" labelSize="25.0" span="4">0x807F 0xF20DF20D</button>
+
+    </device>
+</irplus>

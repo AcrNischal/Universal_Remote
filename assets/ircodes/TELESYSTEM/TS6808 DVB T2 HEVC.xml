@@ -1,0 +1,63 @@
+<irplus>
+    <device manufacturer="TELESYSTEM" model="TS6808" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="6">0xFB00 0x38C7</button>
+        <button label="&#xFF581;" span="6">0xFB00 0x10EF</button>
+        
+        <button label="R" fillColor="FFC84334" alt="RED" span="3">0xFB00 0x6A95</button>
+        <button label="G" fillColor="FF1E7854" alt="GREEN" span="3">0xFB00 0xEA15</button>
+        <button label="Y" fillColor="FFD6A81F" alt="YELLOW" span="3">0xFB00 0xF807</button>
+        <button label="B" fillColor="FF2A4C94" alt="BLUE" span="3">0xFB00 0xDA25</button>
+
+        <button label="&#xf04a;" alt="REW" span="3">0xFB00 0xAA55</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0xFB00 0x7A85</button>
+        <button label="&#xf049;" alt="PREV" span="3">0xFB00 0x8A75</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0xFB00 0x9A65</button>
+        
+        <button label="&#xf04b;" alt="PLAY" span="3">0xFB00 0x5AA5</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">0xFB00 0x4AB5</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0xFB00 0xBA45</button>
+        <button label="MEDIA" span="3">0xFB00 0x3AC5</button>
+        
+        <button label="SUBTITLE" span="3">0xFB00 0x807F</button>
+        <button label="TTX" span="3">0xFB00 0xFA05</button>
+        <button label="AUDIO" span="3">0xFB00 0x9867</button>
+        <button label="EPG" span="3">0xFB00 0x1AE5</button>
+        
+        <button label="MENU" span="4">0xFB00 0x18E7</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0xFB00 0x58A7</button>
+        <button label="INFO" span="4">0xFB00 0xE817</button>
+        
+        <button label="&#xf0d9;" alt="LEFT" span="4">0xFB00 0xE21D</button>
+        <button label="OK" span="4">0xFB00 0x609F</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0xFB00 0xE01F</button>
+        
+        <button label="BACK" span="4">0xFB00 0x926D</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0xFB00 0x12ED</button>
+        <button label="EXIT" span="4">0xFB00 0x50AF</button>
+        
+        <button label="VOL+" span="4">0xFB00 0xD22D</button>
+        <button label="&#xf111;" alt="REC" labelColor="FFC84334" span="4">0xFB00 0xC03F</button>
+        <button label="CH+" span="4">0xFB00 0x906F</button>
+        
+        <button label="VOL-" span="4">0xFB00 0xF20D</button>
+        <button label="USB" span="4">0xFB00 0x42BD</button>
+        <button label="CH-" span="4">0xFB00 0xA05F</button>
+        
+        <button label="1" span="4">0xFB00 0x2AD5</button>
+        <button label="2" span="4">0xFB00 0x6897</button>
+        <button label="3" span="4">0xFB00 0xA857</button>
+        
+        <button label="4" span="4">0xFB00 0x0AF5</button>
+        <button label="5" span="4">0xFB00 0x48B7</button>
+        <button label="6" span="4">0xFB00 0x8877</button>
+        
+        <button label="7" span="4">0xFB00 0x32CD</button>
+        <button label="8" span="4">0xFB00 0x708F</button>
+        <button label="9" span="4">0xFB00 0xB04F</button>
+        
+        <button label="FAV" span="4">0xFB00 0x827D</button>
+        <button label="0" span="4">0xFB00 0x30CF</button>
+        <button label="TVR" span="4">0xFB00 0x08F7</button>
+    </device>
+</irplus>

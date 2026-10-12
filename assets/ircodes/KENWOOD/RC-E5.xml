@@ -1,0 +1,68 @@
+<irplus>
+    <device manufacturer="KENWOOD" model="RC-E5" columns="12" format="WINLIRC_NEC1">
+        <button label="EQ_EFFECT" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xF0FF0</button>
+        <button label="PRESENCE" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xF14EB</button>
+        <button label="DEPTH" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xE2BF 0xAF50</button>
+
+        <button label="SLEEP" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xF16E9</button>
+        <button label="&#xf011;" alt="POWER" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xF46B9</button>
+        <button label="AUX" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xF36C9</button>
+
+        <button label="TAPE" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xE2BF 0x5FA0</button>
+        <button label="TUNER" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xE2BF 0x9F60</button>
+        <button label="CD" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xE2BF 0x1FE0</button>
+
+        <button label="REWIND" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xE2BF 0xBF40</button>
+        <button label="FORWARD" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xE2BF 0x3FC0</button>
+        <button label="&#xf04d;" alt="STOP" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xE2BF 0xDF20</button>
+
+        <button label="PREVIOUS" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xE2BF 0xFF00</button>
+        <button label="&#xf050;" alt="NEXT" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xE2BF 0x7F80</button>
+        <button label="&#xf111;" alt="RECORD" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xF847B</button>
+
+        <button label="A/B" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xE2BF 0xEF10</button>
+        <button label="DISK_SKIP" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xFEF10</button>
+        <button label="1" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xF7E81</button>
+
+        <button label="2" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xFBE41</button>
+        <button label="3" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xF3EC1</button>
+        <button label="4" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xFDE21</button>
+
+        <button label="5" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xF5EA1</button>
+        <button label="6" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xF9E61</button>
+        <button label="7" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xF1EE1</button>
+
+        <button label="8" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xFEE11</button>
+        <button label="9" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xF6E91</button>
+        <button label="0" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xFFE01</button>
+
+        <button label="10CHANNELSUP" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xF4FB0</button>
+        <button label="TIME" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xF8F70</button>
+        <button label="CLEAR" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xFAC53</button>
+
+        <button label="CHECK" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xFEC13</button>
+        <button label="SPACE" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xE27F 0x0DF2</button>
+        <button label="EDIT_MODE" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xF4CB3</button>
+
+        <button label="LONG_PLAY" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xE2BF 0xC738</button>
+        <button label="PMODE" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xFDC23</button>
+        <button label="RANDOM" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xE27F 0xD42B</button>
+
+        <button label="AGAIN" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xFCC33</button>
+        <button label="OTE" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xE2BF 0x6F90</button>
+        <button label="DUAL_SOUND" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xE27F 0x8C73</button>
+
+        <button label="LOW_PLAY" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xE2BF 0x6798</button>
+        <button label="LOW_STOP" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xE2BF 0xE718</button>
+        <button label="LOW_NEXT" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xE2BF 0x27D8</button>
+
+        <button label="LOW_PREV" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xE2BF 0xA758</button>
+        <button label="SW_VOLUME-" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xD26D 0xB748</button>
+        <button label="SW_VOLUME+" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xD26D 0x37C8</button>
+
+        <button label="SW_POWER" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0xD26D 0xE718</button>
+        <button label="MUTE" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xFC639</button>
+        <button label="VOLUMEUP" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xF26D9</button>
+        <button label="VOLUMEDOWN" labelColor="FFFFFFFF" labelSize="12.0" backgroundColor="FF444444" span="4">0x0E2F 0xFA659</button>
+    </device>
+</irplus>

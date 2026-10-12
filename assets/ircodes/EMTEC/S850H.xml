@@ -1,0 +1,71 @@
+<irplus>
+	<device manufacturer="EMTEC" model="S850H" columns="12" format="WINLIRC_NEC1">
+
+		<button label="&#xFF581;" span="4">0x00f9 0xda25</button>
+		<space multiple="4"/>
+		<button label="&#xf011;" span="4" backgroundColor="FFC84334">0x00f9 0xea15</button>
+
+		<button label="OPTION" span="3">0x00f9 0x5aa5</button>
+		<button label="SETUP" span="3">0x00f9 0x58a7</button>
+		<button label="TV SYS" span="3">0x00f9 0x6a95</button>
+		<button label="❤" span="3" labelColor="FFC84334">0x00f9 0x9a65</button>
+
+		<button label="INFO" span="3">0x00f9 0x6897</button>
+		<button label="SEARCH" span="3">0x00f9 0xb04f</button>
+		<button label="ZOOM" span="3">0x00f9 0xd827</button>
+		<button label="AUDIO" span="3">0x00f9 0x02fd</button>
+
+		<button label="" span="4">0x00f9 0xe21d</button>
+		<button label="&#xf0d8;" alt="UP" span="4">0x00f9 0xc23d</button>
+		<button label="" span="4">0x00f9 0xf20d</button>
+
+		<button label="&#xf0d9;" alt="LEFT" span="4">0x00f9 0x609f</button>
+		<button label="OK" span="4">0x00f9 0x40bf</button>
+		<button label="&#xf0da;" alt="RIGHT" span="4">0x00f9 0x708f</button>
+
+		<button label="VOL-" span="4">0x00f9 0x2ad5</button>
+		<button label="&#xf0d7;" alt="DOWN" span="4">0x00f9 0x50af</button>
+		<button label="VOL+" span="4">0x00f9 0xe817</button>
+
+		<button label="1" span="4">0x00f9 0xa05f</button>
+		<button label="2" span="4">0x00f9 0x906f</button>
+		<button label="3" span="4">0x00f9 0xa857</button>
+
+		<button label="4" span="4">0x00f9 0x20df</button>
+		<button label="5" span="4">0x00f9 0x10ef</button>
+		<button label="6" span="4">0x00f9 0x28d7</button>
+
+		<button label="7" span="4">0x00f9 0x00ff</button>
+		<button label="8" span="4">0x00f9 0x08f7</button>
+		<button label="9" span="4">0x00f9 0x30cf</button>
+
+		<button label="" span="4">0x00f9 0x926d</button>
+		<button label="0" span="4">0x00f9 0x8877</button>
+		<button label="&#xF052;" alt="EJECT" span="4">0x00f9 0x12ed</button>
+
+		<button label="&#xF04C;" alt="PAUSE" span="4">0x00f9 0xb24d</button>
+		<button label="&#xF04B;" alt="PLAY" span="4">0x00f9 0x0af5</button>
+		<button label="&#xF04D;" alt="STOP" span="4">0x00f9 0xc837</button>
+
+		<button label="&#xF04A;" alt="REW" span="3">0x00f9 0xe01f</button>
+		<button label="&#xF04E;" alt="FWD" span="3">0x00f9 0xc03f</button>
+		<button label="&#xf049;" alt="PREV" span="3">0x00f9 0xf00f</button>
+		<button label="&#xf050;" alt="NEXT" span="3">0x00f9 0xd02f</button>
+
+		<button label="REPA-B" span="3">0x00f9 0x32cd</button>
+		<button label="REC &#xF111;" alt="REC" span="3" labelColor="FFC84334">0x00f9 0x4ab5</button>
+		<button label="SLOW" span="3">0x00f9 0x629d</button>
+		<button label="SUBTITLE" span="3">0x00f9 0xa25d</button>
+
+		<button label="TIMESHIFT" span="3">0x00f9 0x807f</button>
+		<button label="COPY" span="3">0x00f9 0x1ae5</button>
+		<button label="SELECT" span="3">0x00f9 0x42bd</button>
+		<button label="REPEAT" span="3">0x00f9 0x22dd</button>
+
+		<button label="R" fillColor="FFC84334" span="3">0x00f9 0x38c7</button>
+		<button label="G" fillColor="FF1E7854" span="3">0x00f9 0xb847</button>
+		<button label="Y" fillColor="FFD6A81F" span="3">0x00f9 0x7887</button>
+		<button label="B" fillColor="FF2A4C94" span="3">0x00f9 0xf807</button>
+
+	</device>
+</irplus>

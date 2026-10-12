@@ -1,0 +1,50 @@
+<irplus>
+    <device manufacturer="AEG" model="DVD" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0x007f 0x3ac5</button>
+        <button label="&#xFF581;" span="6">0x007f 0x00ff</button>
+
+        <button label="&#xf04a;" alt="REW" span="4">0x007f 0x807f</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x007f 0x5aa5</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0x007f 0x9a65</button>
+
+        <button label="&#xf04b;" alt="PLAY" span="6">0x007f 0xba45</button>
+        <button label="&#xf04c;" alt="PAUSE" span="6">0x007f 0xc03f</button>
+
+        <button label="1" span="4">0x007f 0x48b7</button>
+        <button label="2" span="4">0x007f 0xc837</button>
+        <button label="3" span="4">0x007f 0x32cd</button>
+
+        <button label="4" span="4">0x007f 0x708f</button>
+        <button label="5" span="4">0x007f 0xf00f</button>
+        <button label="6" span="4">0x007f 0x12ed</button>
+
+        <button label="7" span="4">0x007f 0x50af</button>
+        <button label="8" span="4">0x007f 0xd02f</button>
+        <button label="9" span="4">0x007f 0x22dd</button>
+
+        <button label="MENU" span="4">0x007f 0x10ef</button>
+        <button label="0" span="4">0x007f 0x609f</button>
+        <button label="GUIDE" span="4">0x007f 0x0af5</button>
+
+        <button label="VOL+" span="4">0x007f 0xff00</button>
+        <button label="&#xf0d8;" span="4">0x007f 0x52ad</button>
+        <button label="CH+" span="4">0x007f 0xa25d</button>
+
+        <button label="&#xf0d9;" span="4">0x007f 0x9867</button>
+        <button label="ENTER" span="4">0x007f 0x8877</button>
+        <button label="&#xf0da;" span="4">0x007f 0x827d</button>
+
+        <button label="VOL-" span="4">0x007f 0xff00</button>
+        <button label="&#xf0d7;" span="4">0x007f 0x4ab5</button>
+        <button label="CH-" span="4">0x007f 0xa857</button>
+
+        <button label="EXIT" span="4">0x007f 0x8a75</button>
+        <button label="DASH" span="4">0x007f 0xe01f</button>
+        <button label="REDBTN" span="4">0x007f 0x7887</button>
+
+        <button label="AUDIO" span="4">0x007f 0x08f7</button>
+        <button label="TXT" span="4">0x007f 0x6897</button>
+        <button label="TXT2" span="4">0x007f 0x10ef</button>
+    </device>
+</irplus>

@@ -1,0 +1,20 @@
+<irplus>
+    <device manufacturer="ONKYO" model="RC-146T" columns="2" format="WINLIRC_NEC1" bits="16" pre-bits="16">
+
+        <button label="&#xf10c;">0x4BB0 0xD827</button>
+        <button label="&#xf111; / &#xf04c;" labelColor="FFC84334">0x4BB0 0x18E7</button>
+
+        <button label="&#xf04a;">0x4BB0 0x58A7</button>
+        <button label="&#xf04e;">0x4BB0 0x9867</button>
+
+        <button label="">0x4BB0 0x6897</button>
+        <button label="">0x4BB0 0xA857</button>
+
+        <button label="">0x4BB0 0xB847</button>
+        <button label="&#xf04d;">0x4BB0 0xC837</button>
+
+        <button label="RESET">0x4BB0 0xBA45</button>
+        <space/>
+        
+    </device>
+</irplus>

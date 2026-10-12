@@ -1,0 +1,41 @@
+<irplus>
+	<device manufacturer="ROTEL" model="RR-925" columns="3" format="WINLIRC_NEC1" one-space="1608" one-pulse="643" zero-pulse="643" zero-space="483" 
+        header-pulse="9098" header-space="4418" bits="16" pre-bits="16">
+		
+		<button label="OPN/CLS">0xC148 0x08F7</button>
+        <space multiple="2"/>
+
+        <button label="1">0xC148 0x906F</button>
+		<button label="2">0xC148 0xB847</button>
+		<button label="3">0xC148 0xF807</button>
+
+        <button label="4">0xC148 0xB04F</button>
+		<button label="5">0xC148 0x9867</button>
+		<button label="6">0xC148 0xD827</button>
+
+        <button label="7">0xC148 0x8877</button>
+		<button label="8">0xC148 0xA857</button>
+		<button label="9">0xC148 0xE817</button>
+
+        <button label="10">0xC148 0x48B7</button>
+        <button label="+10">0xC148 0x6897</button>
+		<button label="PROG">0xC148 0xC03F</button>
+
+        <button label="REPT">0xC148 0x807F</button>
+		<button label="A-B">0xC148 0x609F</button>
+		<button label="TIME">0xC148 0x40BF</button>
+
+        <button label="SCAN">0xC148 0x20DF</button>
+		<button label=" SEA">0xC148 0x50AF</button>
+		<button label="RCH ">0xC148 0x7887</button>
+
+        <button label="RANDOM">0xC148 0x00FF</button>
+		<button label=" TRA">0xC148 0x708F</button>
+		<button label="CK ">0xC148 0x58A7</button>
+
+        <button label="">0xC148 0xF00F</button>
+		<button label="">0xC148 0xD02F</button>
+		<button label="" backgroundColor="FFE5870B">0xC148 0xC837</button>
+
+	</device>
+</irplus>

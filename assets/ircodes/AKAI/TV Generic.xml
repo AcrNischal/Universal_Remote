@@ -1,0 +1,59 @@
+<irplus>
+    <device manufacturer="AKAI" model="TV" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x02fd 0x48b7</button>
+        <button label="INPUT" span="4">0x02fd 0x28d7</button>
+        <button label="&#xFF581;" span="4">0x02fd 0x08f7</button>
+
+        <button label="1" span="4">0x02fd 0x807f</button>
+        <button label="2" span="4">0x02fd 0x40bf</button>
+        <button label="3" span="4">0x02fd 0xc03f</button>
+
+        <button label="4" span="4">0x02fd 0x20df</button>
+        <button label="5" span="4">0x02fd 0xa05f</button>
+        <button label="6" span="4">0x02fd 0x609f</button>
+
+        <button label="7" span="4">0x02fd 0xe01f</button>
+        <button label="8" span="4">0x02fd 0x10ef</button>
+        <button label="9" span="4">0x02fd 0x906f</button>
+
+        <button label="LAST" span="4">0x02fd 0x02fd</button>
+        <button label="0" span="4">0x02fd 0x00ff</button>
+        <button label="ENTER" span="4">0x02fd 0x50af</button>
+
+        <button label="&#xf04A;" alt="REW" span="3">0x02fd 0xf20d</button>
+        <button label="&#xf04B;" alt="PLAY" span="3">0x02fd 0xa857</button>
+        <button label="&#xf04C;" alt="PAUSE" span="3">0x02fd 0xa857</button>
+        <button label="&#xf04E;" alt="FWD" span="3">0x02fd 0x728d</button>
+
+        <button label="&#xf049;" alt="PREV" span="4">0x02fd 0x9a65</button>
+        <button label="&#xf04D;" alt="STOP" span="4">0x02fd 0x827d</button>
+        <button label="&#xf050;" alt="NEXT" span="4">0x02fd 0x18e7</button>
+
+        <button label="MENU" span="3">0x02fd 0xda25</button>
+        <button label="INFO" span="3">0x02fd 0x6897</button>
+        <button label="SLEEP" span="3">0x02fd 0xb04f</button>
+        <button label="EXIT" span="3">0x02fd 0xb04f</button>
+
+        <button label="VOL+" span="4">0x02fd 0x58a7</button>
+        <button label="&#xf0D8;" span="4">0x02fd 0xd827</button>
+        <button label="CH+" span="4">0x02fd 0xd827</button>
+
+        <button label="&#xf0D9;" span="4">0x02fd 0x7887</button>
+        <button label="OK" span="4">0x02fd 0x50af</button>
+        <button label="&#xf0DA;" span="4">0x02fd 0x58a7</button>
+
+        <button label="VOL-" span="4">0x02fd 0x7887</button>
+        <button label="&#xf0D7;" span="4">0x02fd 0xf807</button>
+        <button label="CH-" span="4">0x02fd 0xf807</button>
+
+        <button label="BACK" span="4">0x02fd 0xd22d</button>
+        <button label="ASPECT" span="4">0x02fd 0xa25d</button>
+        <button label="FAV" span="4">0x02fd 0x38c7</button>
+
+        <button label="PICTURE" span="4">0x02fd 0x8877</button>
+        <button label="SOUND" span="4">0x02fd 0x5aa5</button>
+        <button label="SUBTITLE" span="4">0x02fd 0xd22d</button>
+    </device>
+</irplus>
+

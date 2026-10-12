@@ -1,0 +1,71 @@
+<irplus>
+    <device manufacturer="JEPSSEN" model="PVR ST-1" columns="12" format="WINLIRC_NEC1">
+
+        <button label="TV/STB" span="4">0x807f 0xda25</button>
+        <button label="&#61457;" span="4" backgroundColor="FFF93F3F">0x807f 0xfa05</button>
+        <button label="&#xFF581;" span="4">0x807f 0xea15</button>
+
+        <button label="1" span="4">0x807f 0x6a95</button>
+        <button label="2" span="4">0x807f 0x5aa5</button>
+        <button label="3" span="4">0x807f 0x7a85</button>
+
+        <button label="4" span="4">0x807f 0xaa55</button>
+        <button label="5" span="4">0x807f 0x9a65</button>
+        <button label="6" span="4">0x807f 0xba45</button>
+
+        <button label="7" span="4">0x807f 0x2ad5</button>
+        <button label="8" span="4">0x807f 0x1ae5</button>
+        <button label="9" span="4">0x807f 0x3ac5</button>
+
+        <button label="MENU" span="4" backgroundColor="FF72AD99">0x807f 0x38c7</button>
+        <button label="0" span="4">0x807f 0xd827</button>
+        <button label="&#61714;" span="4" backgroundColor="FF72AD99">0x807f 0x52ad</button>
+
+        <button label="CH &#61543;" span="4">0x807f 0xc03f</button>
+        <button label="&#61656;" span="4" labelColor="FF000000" backgroundColor="FFBCD1DB">0x807f 0x18e7</button>
+        <button label="&#61478; &#61543;" span="4">0x807f 0x02fd</button>
+
+        <button label="&#61657;" span="4" labelColor="FF000000" backgroundColor="FFBCD1DB">0x807f 0x827d</button>
+        <button label="OK" span="4" labelColor="FF000000" backgroundColor="FFBCD1DB">0x807f 0xa25d</button>
+        <button label="&#61658;" span="4" labelColor="FF000000" backgroundColor="FFBCD1DB">0x807f 0x926d</button>
+
+        <button label="CH &#61544;" span="4">0x807f 0xe01f</button>
+        <button label="&#61655;" span="4" labelColor="FF000000" backgroundColor="FFBCD1DB">0x807f 0x629d</button>
+        <button label="&#61478; &#61544;" span="4">0x807f 0x22dd</button>
+
+        <button label="FIND" span="4">0x807f 0xb847</button>
+        <button label="EPG" span="4">0x807f 0x58a7</button>
+        <button label="&#61737;" span="4">0x807f 0x28d7</button>
+
+        <button label="&#61444;" span="4">0x807f 0x32cd</button>
+        <button label="SAT LIST" span="4">0x807f 0xe817</button>
+        <button label="&#61450;" span="4">0x807f 0xa857</button>
+
+        <button label="CH LIST" span="4">0x807f 0x6897</button>
+        <button label="TV/RADIO" span="4">0x807f 0x9867</button>
+        <button label="FEED" span="4">0x807f 0x42bd</button>
+
+        <button label="PAUSE" span="3" backgroundColor="FFD83F44">0x807f 0x906f</button>
+        <button label="ZOOM" span="3" backgroundColor="FF00825B">0x807f 0xb04f</button>
+        <button label="AUDIO" span="3" backgroundColor="FFEACC28">0x807f 0x00ff</button>
+        <button label="SLEEP" span="3" backgroundColor="FF637FB7">0x807f 0x30cf</button>
+
+        <button label="RECALL" span="4">0x807f 0x12ed</button>
+        <button label="TEXT" span="4">0x807f 0x807f</button>
+        <button label="SIGNAL" span="4">0x807f 0xf807</button>
+
+        <button label="CAPTURE" span="4">0x807f 0xca35</button>
+        <button label="SUBS" span="4">0x807f 0x7887</button>
+        <button label="&#61463;" span="4">0x807f 0x40bf</button>
+
+        <button label="&#61513;" span="3">0x807f 0xa05f</button>
+        <button label="&#61514;" span="3">0x807f 0x609f</button>
+        <button label="&#61518;" span="3">0x807f 0x50af</button>
+        <button label="&#61520;" span="3">0x807f 0x708f</button>
+
+        <button label="USB" span="3">0x807f 0x10ef</button>
+        <button label="&#61515;" span="3">0x807f 0x0af5</button>
+        <button label="&#61517;" span="3">0x807f 0x4ab5</button>
+        <button label="&#61713;" span="3" labelColor="FFFF0000">0x807f 0xf00f</button>
+    </device>
+</irplus>

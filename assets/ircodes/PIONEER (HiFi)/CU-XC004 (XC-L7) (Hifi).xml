@@ -1,0 +1,34 @@
+<irplus>
+    <device manufacturer="PIONEER" model="CU-XC004" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16"
+         gap-pulse="596" gap-space="25735" one-pulse="596" one-space="464" zero-pulse="596" zero-space="1513" header-pulse="8658" header-space="4153">
+
+        <button label="CD" labelColor="FF000000" backgroundColor="FF0080FF" span="3">0x9A65 0xDD22</button>
+        <button label="TAPE" labelColor="FF000000" backgroundColor="FF0080FF" span="3">0x9A65 0x17E8</button>
+        <button label="TUNER" labelColor="FF000000" backgroundColor="FF0080FF" span="3">0x9A65 0x6D92</button>
+        <button label="MD" labelColor="FF000000" backgroundColor="FF0080FF" span="3">0x3AC5 0x7689</button>
+
+        <button label="MENU" span="3">0x9A65 0xB14E</button>
+        <space multiple="3"/>
+        <button label="" span="3">0x9A65 0x36C9</button>
+        <space multiple="3"/>
+
+        <button label="CANCEL" span="3">0x9A65 0x31CE</button>
+        <button label="-" span="3">0x9A65 0xB649</button>
+        <button label="" span="3">0x9A65 0xF609</button>
+        <button label="+" span="3">0x9A65 0x7689</button>
+
+        <button label="SET" span="3">0x9A65 0xD12E</button>
+        <space multiple="3"/>
+        <button label="" span="3">0x9A65 0xD629</button>
+        <space multiple="3"/>
+
+        <button label="AUX" labelColor="FF0080FF" span="4">0x9A65 0xCD32</button>
+        <button label="SOUND" span="4">0x9A65 0xA45B</button>
+        <button label="DISPLAY" span="4">0x9A65 0x46B9</button>
+
+        <button label="&#xf011;" labelColor="FF000000" backgroundColor="FF0080FF" span="4">0x9A65 0xC738</button>
+        <button label="VOL-" span="4">0x9A65 0x2FD0</button>
+        <button label="VOL+" span="4">0x9A65 0xAF50</button>
+
+    </device>
+</irplus>

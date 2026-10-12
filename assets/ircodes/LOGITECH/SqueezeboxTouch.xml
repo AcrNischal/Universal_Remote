@@ -1,0 +1,55 @@
+<irplus>
+	<device manufacturer="LOGITECH" model="SqueezeboxTouch" columns="12" format="WINLIRC_NEC1" one-space="1629" one-pulse="624" zero-pulse="624" zero-space="498" header-pulse="9067" header-space="4444" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x7689 0x40BF</button>
+		<button label="SLEEP" span="4">0x7689 0xB847</button>
+		<button label="HOME" span="4">0x7689 0x22DD</button>
+
+		<button label="&#xf011; ON" span="6">0x7689 0x8F70</button>
+		<button label="&#xf011; OFF" span="6">0x7689 0x8778</button>
+
+		<button label="" span="4">0x7689 0xC03F</button>
+		<button label="BRIGHTNESS" span="4">0x7689 0x04FB</button>
+		<button label="" span="4">0x7689 0xA05F</button>
+
+		<button label="" span="6">0x7689 0x20DF</button>
+		<button label="" span="6">0x7689 0x20DF</button>
+
+		<button label="ADD" span="4">0x7689 0x609F</button>
+		<button label="&#xf0d8;" span="4">0x7689 0xE01F</button>
+		<button label="" span="4">0x7689 0x10EF</button>
+
+		<button label="&#xf0d9;" span="4">0x7689 0x906F</button>
+		<button label="OK" span="4">0x7689 0x10EF</button>
+		<button label="&#xf0da;" span="4">0x7689 0xD02F</button>
+
+		<button label="BROWSE" span="4">0x7689 0x708F</button>
+		<button label="&#xf0d7;" span="4">0x7689 0xB04F</button>
+		<button label="PLAYLIST" span="4">0x7689 0xF807</button>
+
+		<button label="VOL-" span="4">0x7689 0x00FF</button>
+		<button label="&#xFF581;" span="4">0x7689 0xC43B</button>
+		<button label="VOL+" span="4">0x7689 0x807F</button>
+
+		<button label="1" span="4">0x7689 0xF00F</button>
+		<button label="2" span="4">0x7689 0x08F7</button>
+		<button label="3" span="4">0x7689 0x8877</button>
+
+		<button label="4" span="4">0x7689 0x48B7</button>
+		<button label="5" span="4">0x7689 0xC837</button>
+		<button label="6" span="4">0x7689 0x28D7</button>
+
+		<button label="7" span="4">0x7689 0xA857</button>
+		<button label="8" span="4">0x7689 0x6897</button>
+		<button label="9" span="4">0x7689 0xE817</button>
+
+		<button label="SHUFFLE" span="4">0x7689 0xD827</button>
+		<button label="0" span="4">0x7689 0x9867</button>
+		<button label="REPEAT" span="4">0x7689 0x38C7</button>
+
+		<button label="NOW PLAYING" span="4">0x7689 0xA25D</button>
+		<button label="SEARCH" span="4">0x7689 0x629D</button>
+		<button label="FAVORITE" span="4">0x7689 0xE21D</button>
+
+	</device>
+</irplus>

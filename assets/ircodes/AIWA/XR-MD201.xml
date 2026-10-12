@@ -1,0 +1,58 @@
+<irplus>
+    <device manufacturer="AIWA" model="XR-MD201" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="26" toggle-bit-pos="0" 
+        gap-pulse="540" gap-space="108788" one-pulse="550" one-space="590" zero-pulse="550" zero-space="1690" header-pulse="9000" header-space="4500">
+        
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0x227EEC0 0xFF00</button>
+        <button label="VOL-" span="3">0x227EEC0 0x8D72</button>
+        <button label="VOL+" span="3">0x227EEC0 0x4DB2</button>
+        <button label="EQ" span="3">0x227EEC0 0x6D92</button>
+
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x227EEC0 0xDD22</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x227EEC0 0x7D82</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0x227EEC0 0xFD02</button>
+
+        <button label="1" span="4">0x227EEC0 0x7F80</button>
+        <button label="2" span="4">0x227EEC0 0xBF40</button>
+        <button label="3" span="4">0x227EEC0 0x3FC0</button>
+        <button label="4" span="4">0x227EEC0 0xDF20</button>
+        <button label="5" span="4">0x227EEC0 0x5FA0</button>
+        <button label="6" span="4">0x227EEC0 0x9F60</button>
+        <button label="7" span="4">0x227EEC0 0x1FE0</button>
+        <button label="8" span="4">0x227EEC0 0xEF10</button>
+        <button label="9" span="4">0x227EEC0 0x6F90</button>
+
+        <button label="BBE" span="4">0x227EEC0 0xED12</button>
+        <button label="0" span="4">0x227EEC0 0xAF50</button>
+        <button label="T-BASS" span="4">0x227EEC0 0x1DE2</button>
+
+        <button label="QSURROUND" span="4">0x227EEC0 0xAD52</button>
+        <button label="+10" span="4">0x227EEC0 0x2FD0</button>
+        <button label="MONO" span="4">0x227EEC0 0xB748</button>
+
+        <button label="REC" span="6">0x227EEC0 0x718E</button>
+        <button label="D REC" span="6">0x227EEC0 0xB14E</button>
+
+        <button label="TUNER" span="3">0x227EEC0 0xC738</button>
+        <button label="CD" span="3">0x227EEC0 0x07F8</button>
+        <button label="AUX" span="3">0x227EEC0 0x47B8</button>
+        <button label="MD" span="3">0x227EEC0 0xF10E</button>
+
+        <button label="+" span="6">0x227EEC0 0xBD42</button>
+        <button label="-" span="6">0x227EEC0 0x3DC2</button>
+
+        <button label="RANDOM" span="4">0x227EEC0 0x57A8</button>
+        <button label="REPEAT" span="4">0x227EEC0 0x9768</button>
+        <button label="PROGRAM" span="4">0x227EEC0 0x6798</button>
+
+        <button label="DISPLAY" span="3">0x227EEC0 0xD728</button>
+        <button label="TIMER" span="3">0x227EEC0 0xCF30</button>
+        <button label="SLEEP" span="3">0x227EEC0 0x8F70</button>
+        <button label="CLOCK" span="3">0x227EEC0 0x7788</button>
+
+        <button label="MODE" span="3">0x227EEC0 0x916E</button>
+        <button label="EDIT" span="3">0x227EEC0 0x17E8</button>
+        <button label="TIT INP" span="3">0x227EEC0 0x11EE</button>
+        <button label="MD MARK" span="3">0x227EEC0 0x31CE</button>
+        
+    </device>
+</irplus>

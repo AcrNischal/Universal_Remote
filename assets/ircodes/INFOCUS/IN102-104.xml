@@ -1,0 +1,22 @@
+<irplus>
+    <device manufacturer="INFOCUS" model="IN102-104" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0xc12f 0x40bf</button>
+        <button label="INPUT" span="6">0xc12f 0x20df</button>
+
+        <button label="MENU" span="4">0xc12f 0xf00f</button>
+        <button label="&#xf0d8;" span="4">0xc12f 0xd02f</button>
+        <button label="AUTO" span="4">0xc12f 0x10ef</button>
+
+        <button label="&#xf0d9;" span="4">0xc12f 0xb04f</button>
+        <button label="ENTER" span="4">0xc12f 0x08f7</button>
+        <button label="&#xf0da;" span="4">0xc12f 0x708f</button>
+
+        <button label="BLANK" span="4">0xc12f 0xe01f</button>
+        <button label="&#xf0d7;" span="4">0xc12f 0x30cf</button>
+        <button label="FREEZE" span="4">0xc12f 0xc03f</button>
+
+        <button label="ZOOM+" span="6">0xc12f 0x18e7</button>
+        <button label="ZOOM-" span="6">0xc12f 0x9867</button>
+    </device>
+</irplus>

@@ -1,0 +1,80 @@
+<irplus>
+        <device manufacturer="MICCA" model="EP250/EP350" columns="12" format="WINLIRC_NEC1" one-space="1659" one-pulse="598" zero-pulse="598" zero-space="527" header-pulse="9065" header-space="4461" bits="16" pre-bits="16">
+        
+                <button label="Menu" labelColor="FF000000" labelSize="20.0" span="3" backgroundColor="FFFFFFFF">0xFF 0xC03F</button>
+                <button label="Zoom" labelColor="FF000000" labelSize="20.0" span="3" backgroundColor="FFFFFFFF">0xFF 0x807F</button>
+                <button label="Setup" labelColor="FF000000" span="3" backgroundColor="FFFFFFFF">0xFF 0x42BD</button>
+                <button label="&#xf011;" labelColor="FF000000" labelSize="16.0" span="3" backgroundColor="FFC84334">0xFF 0x40BF</button>
+                
+                <button label="" labelColor="FF000000" labelSize="26.0" span="2" backgroundColor="FFFFFFFF">0xFF 0x22DD</button>
+                <space/>
+                <button label="1" labelColor="FF000000" labelSize="26.0" span="2" backgroundColor="FFFFFF8E">0xFF 0x8877</button>
+                <button label="2" labelColor="FF000000" labelSize="26.0" span="2" backgroundColor="FFFFFF8E">0xFF 0x48B7</button>
+                <button label="3" labelColor="FF000000" labelSize="26.0" span="2" backgroundColor="FFFFFF8E">0xFF 0xC837</button>
+                <space/>
+                <button label="Vol+" labelSize="15.0" span="2" backgroundColor="FF000099">0xFF 0xF807</button>
+                
+                <button label="4:3" labelColor="FF000000" labelSize="20.0" span="2" backgroundColor="FFFFFFFF">0xFF 0xB847</button>
+                <space/>
+                <button label="4" labelColor="FF000000" labelSize="26.0" span="2" backgroundColor="FFFFFF8E">0xFF 0x28D7</button>
+                <button label="5" labelColor="FF000000" labelSize="26.0" span="2" backgroundColor="FFFFFF8E">0xFF 0xA857</button>
+                <button label="6" labelColor="FF000000" labelSize="26.0" span="2" backgroundColor="FFFFFF8E">0xFF 0x6897</button>
+                <space/>
+                <button label="" labelColor="FF000000" labelSize="26.0" span="2" backgroundColor="FFFFFFFF">0xFF 0x00FF</button>
+                
+                <button label="16:9" labelColor="FF000000" labelSize="15.0" span="2" backgroundColor="FFFFFFFF">0xFF 0x02FD</button>
+                <space/>
+                <button label="7" labelColor="FF000000" labelSize="26.0" span="2" backgroundColor="FFFFFF8E">0xFF 0xE817</button>
+                <button label="8" labelColor="FF000000" labelSize="26.0" span="2" backgroundColor="FFFFFF8E">0xFF 0x18E7</button>
+                <button label="9" labelColor="FF000000" labelSize="26.0" span="2" backgroundColor="FFFFFF8E">0xFF 0x9867</button>
+                <space/>
+                <button label="Vol-" labelSize="15.0" span="2" backgroundColor="FF000099">0xFF 0xC23D</button>
+                
+                <button label="Option" labelColor="FF000000" span="3" backgroundColor="FFFFFFFF">0xFF 0x906F</button>
+                <space multiple="2"/>
+                <button label="0" labelColor="FF000000" labelSize="26.0" span="2" backgroundColor="FFFFFF8E">0xFF 0xD827</button>
+                <button label="" labelColor="FF000000" labelSize="26.0" span="2" backgroundColor="FF00FF72">0xFF 0x926D</button>
+                <space/>
+                <button label="" labelColor="FF000000" labelSize="26.0" span="2" backgroundColor="FFFFFFFF">0xFF 0x38C7</button>
+                
+                <button label="Browser" labelColor="FF000000" span="3" backgroundColor="FFFFFFFF">0xFF 0xA25D</button>
+                <space/>
+                <button label="&#xf0d8;" labelColor="FF000000" labelSize="26.0" span="4" backgroundColor="FFC4FFFF">0xFF 0xE21D</button>
+                <space/>
+                <button label="" labelColor="FF000000" labelSize="26.0" span="3" backgroundColor="FFC84334">0xFF 0x629D</button>
+
+                <space/>
+                <button label="&#xf0d9;" labelColor="FF000000" labelSize="26.0" span="3" backgroundColor="FFC4FFFF">0xFF 0x12ED</button>
+                <button label="OK" labelColor="FF000000" labelSize="26.0" span="4" backgroundColor="FF00FF72">0xFF 0x926D</button>
+                <button label="&#xf0da;" labelColor="FF000000" labelSize="26.0" span="3" backgroundColor="FFC4FFFF">0xFF 0x52AD</button>
+                <space/>
+                
+                <button label="Subtitle" labelColor="FF000000" span="3" backgroundColor="FFFFFFFF">0xFF 0x32CD</button>
+                <space/>
+                <button label="&#xf0d7;" labelColor="FF000000" labelSize="26.0" span="4" backgroundColor="FFC4FFFF">0xFF 0xD22D</button>
+                <space/>
+                <button label="Display" labelColor="FF000000" span="3" backgroundColor="FFFFFFFF">0xFF 0x728D</button>
+                
+                <button label="Audio" labelColor="FF000000" labelSize="16.0" span="3" backgroundColor="FFFFFFFF">0xFF 0x08F7</button>
+                <button label="" labelColor="FF000000" labelSize="26.0" span="3" backgroundColor="FFFFFFFF">0xFF 0xF20D</button>
+                <button label="" labelColor="FF000000" labelSize="26.0" span="3" backgroundColor="FF00FF72">0xFF 0x0AF5</button>
+                <button label="" labelColor="FF000000" labelSize="26.0" span="3" backgroundColor="FFC84334">0xFF 0x8A75</button>
+                
+                <button label="" labelColor="FF000000" labelSize="26.0" span="3" backgroundColor="FF9966FF">0xFF 0x4AB5</button>
+                <button label="" labelColor="FF000000" labelSize="26.0" span="3" backgroundColor="FF9966FF">0xFF 0xCA35</button>
+                <button label="" labelColor="FF000000" labelSize="26.0" span="3" backgroundColor="FF9966FF">0xFF 0x2AD5</button>
+                <button label="" labelColor="FF000000" labelSize="26.0" span="3" backgroundColor="FF9966FF">0xFF 0xAA55</button>
+                
+                <button label="Copy" labelColor="FF000000" labelSize="20.0" span="3" backgroundColor="FFFFFFFF">0xFF 0x58A7</button>
+                <button label="Select" labelColor="FF000000" span="3" backgroundColor="FFFFFFFF">0xFF 0x7887</button>
+                <button label="Confirm" labelColor="FF000000" span="3" backgroundColor="FFFFFFFF">0xFF 0x827D</button>
+                <button label="" labelColor="FF000000" labelSize="26.0" span="3" backgroundColor="FFFFFFFF">0xFF 0xA05F</button>
+                
+                <button label="TV System" labelColor="FF000000" labelSize="10.0" span="3" backgroundColor="FFFFFFFF">0xFF 0xE01F</button>
+                <button label="Title" labelColor="FF000000" span="2" backgroundColor="FFFFFFFF">0xFF 0x20DF</button>
+                <button label="Angle" labelColor="FF000000" labelSize="10.0" span="2" backgroundColor="FFFFFFFF">0xFF 0x609F</button>
+                <button label="Repeat" labelColor="FF000000" labelSize="10.0" span="3" backgroundColor="FFFFFFFF">0xFF 0x10EF</button>
+                <button label="Slow" labelColor="FF000000" span="2" backgroundColor="FFFFFFFF">0xFF 0xB24D</button>
+        
+        </device>
+</irplus>

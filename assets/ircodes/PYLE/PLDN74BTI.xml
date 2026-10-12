@@ -1,0 +1,55 @@
+<irplus>
+    <device manufacturer="PYLE" model="PLDN74BTI" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#61457;" span="3" backgroundColor="FFC84334">0x807F 0x28D7</button>
+        <button label="&#61522;" span="3">0x807F 0xEA15</button>
+        <button label="Source" span="3">0x807F 0x827D</button>
+        <button label="&#61461;" span="3">0x807F 0x629D</button>
+
+        <button label="&#61560;" span="3">0x807F 0x906F</button>
+        <button label="&#61520;" span="3">0x807F 0xB847</button>
+        <button label="&#61559;" span="3">0x807F 0xF807</button>
+        <button label="Menu" span="3">0x807F 0x40BF</button>
+
+        <button label="&#61479;" span="3">0x807F 0x9867</button>
+        <button label="&#61515; / &#61516;" span="3">0x807F 0x12ED</button>
+        <button label="&#61480;" span="3">0x807F 0x8877</button>
+        <button label="&#xFF581;" span="3">0x807F 0xA857</button>
+
+        <button label="&#61517; / Band" span="3">0x807F 0xE817</button>
+        <button label="&#61513;" span="3">0x807F 0x48B7</button>
+        <button label="&#61538;" span="3">0x807F 0x9A65</button>
+        <button label="Select" span="3">0x807F 0x10EF</button>
+
+        <button label="AMS" span="3">0x807F 0x0AF5</button>
+        <button label="&#61536;" span="3">0x807F 0xAA55</button>
+        <button label="Enter" span="3">0x807F 0xD827</button>
+        <button label="&#61537;" span="3">0x807F 0xB847</button>
+
+        <button label="OSD" span="3">0x807F 0x7A85</button>
+        <button label="ANS / ZOOM" span="3">0x807F 0x609F</button>
+        <button label="&#61539;" span="3">0x807F 0xA05F</button>
+        <button label="end" span="3">0x807F 0xC03F</button>
+
+        <button label="1" span="3">0x807F 0xE21D</button>
+        <button label="2" span="3">0x807F 0xE01F</button>
+        <button label="3" span="3">0x807F 0x02FD</button>
+        <button label="PBC" span="3">0x807F 0xFF00</button>
+
+        <button label="4" span="3">0x807F 0x18E7</button>
+        <button label="5" span="3">0x807F 0x22DD</button>
+        <button label="6" span="3">0x807F 0xF00F</button>
+        <button label="setup" span="3">0x807F 0x8A75</button>
+
+        <button label="7" span="3">0x807F 0x50AF</button>
+        <button label="8" span="3">0x807F 0x7887</button>
+        <button label="9" span="3">0x807F 0x708F</button>
+        <button label="&#61442;" span="3">0x807F 0x58A7</button>
+
+        <button label="* / audio" span="3">0x807F 0xCA35</button>
+        <button label="0" span="3">0x807F 0x4AB5</button>
+        <button label="# / angle" span="3">0x807F 0x807F</button>
+        <button label="&#61470;" span="3">0x807F 0xA25D</button>
+
+    </device>
+</irplus>

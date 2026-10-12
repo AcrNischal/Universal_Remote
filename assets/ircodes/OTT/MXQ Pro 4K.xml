@@ -1,0 +1,48 @@
+<irplus>
+    <device manufacturer="OTT" model="MXQ Pro 4K" columns="12" format="WINLIRC_SPACEENC" bits="32" pre-bits="32"
+        toggle-bit-pos="0" gap-pulse="571" gap-space="108088" one-pulse="601" one-space="1665"
+        zero-pulse="601" zero-space="481" header-pulse="9039" header-space="4466">
+
+        <button label="&#xf011;" alt="POWER" span="4" backgroundColor="FFC84334">0x807F02FD</button>
+        <space multiple="8" />
+
+        <button label="SETUP" span="3" backgroundColor="FFC84334">0x807FC23D</button>
+        <button label="APP" span="3" backgroundColor="FF1E7854">0x807FF00F</button>
+        <button label="VOL-" span="3" backgroundColor="FFFFFF00">0x807F08F7</button>
+        <button label="VOL+" span="3" backgroundColor="FF2A4C94">0x807F18E7</button>
+
+        <button label="HOME" span="6">0x807F8877</button>
+        <button label="BACK" span="6">0x807F9867</button>
+
+        <space multiple="4" />
+        <button label="&#xf0d8;" alt="UP" span="4">0x807F6897</button>
+        <space multiple="4" />
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x807F8A75</button>
+        <button label="OK" span="4">0x807FC837</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x807F0AF5</button>
+
+        <space multiple="4" />
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x807F58A7</button>
+        <space multiple="4" />
+
+        <button label="MENU" span="6">0x807F32CD</button>
+        <button label="MOUSE" span="6">0x807F00FF</button>
+
+        <button label="1" span="4">0x807F728D</button>
+        <button label="2" span="4">0x807FB04F</button>
+        <button label="3" span="4">0x807F30CF</button>
+
+        <button label="4" span="4">0x807F52AD</button>
+        <button label="5" span="4">0x807F906F</button>
+        <button label="6" span="4">0x807F10EF</button>
+
+        <button label="7" span="4">0x807F629D</button>
+        <button label="8" span="4">0x807FA05F</button>
+        <button label="9" span="4">0x807F20DF</button>
+
+        <button label="&#xFF581;" span="4">0x807F827D</button>
+        <button label="0" span="4">0x807F807F</button>
+        <button label="DEL" span="4">0x807F42BD</button>
+    </device>
+</irplus>

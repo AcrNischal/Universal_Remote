@@ -1,0 +1,55 @@
+<irplus>
+	<device manufacturer="SKY" model="SKY+UK" columns="12" format="WINLIRC_RC6" one-space="460" one-pulse="427" frequency="36000"
+        zero-pulse="427" zero-space="460" header-pulse="2691" header-space="890" bits="8" pre-bits="17">
+		
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x3FF3 0xF3</button>
+		<button label="TV GUIDE" span="4">0x3FF3 0x33</button>
+		<button label="BOX OFFICE" span="4">0x3FF3 0x82</button>
+		
+		<button label="SERVICES" span="3">0x3FF3 0x81</button>
+		<button label="INTERACTIVE" span="3">0x3FF3 0x0A</button>
+		<button label="INFO" span="3">0x3FF3 0x34</button>
+		<button label="TEXT" span="3">0x3FF3 0xC3</button>
+		
+		<button label="CH+" span="4">0x3FF3 0xDF</button>
+		<button label="&#xf0d8;" span="4">0x3FF3 0xA7</button>
+		<button label="BACKUP" span="4">0x3FF3 0x7C</button>
+		
+		<button label="&#xf0d9;" span="4">0x3FF3 0xA5</button>
+		<button label="SELECT" span="4">0x3FF3 0xA3</button>
+		<button label="&#xf0da;" span="4">0x3FF3 0xA4</button>
+		
+		<button label="CH-" span="4">0x3FF3 0xDE</button>
+		<button label="&#xf0d7;" span="4">0x3FF3 0xA6</button>
+		<button label="HELP" span="4">0x3FF3 0x7E</button>
+		
+		<button label="&#xf04a;" alt="REW" span="4">0x3FF3 0xC2</button>
+		<button label="&#xf04b;" alt="PLAY" span="4">0x3FF3 0xC1</button>
+		<button label="&#xf04e;" alt="FWD" span="4">0x3FF3 0xD7</button>
+
+		<button label="&#xf04c;" alt="PAUSE" span="4">0x3FF3 0xDB</button>
+		<button label="&#xf111;" alt="REC" labelColor="FFC84334" span="4">0x3FF3 0xBF</button>
+		<button label="&#xf04d;" alt="STOP" span="4">0x3FF3 0xC0</button>
+		
+		<button label="R" fillColor="FFC84334" span="3">0x3FF3 0x92</button>
+		<button label="G" fillColor="FF1E7854" span="3">0x3FF3 0x91</button>
+		<button label="Y" fillColor="FFD6A81F" span="3">0x3FF3 0x90</button>
+		<button label="B" fillColor="FF2A4C94" span="3">0x3FF3 0x8F</button>
+		
+		<button label="1" span="4">0x3FF3 0xFE</button>
+		<button label="2" span="4">0x3FF3 0xFD</button>
+		<button label="3" span="4">0x3FF3 0xFC</button>
+		
+		<button label="4" span="4">0x3FF3 0xFB</button>
+		<button label="5" span="4">0x3FF3 0xFA</button>
+		<button label="6" span="4">0x3FF3 0xF9</button>
+		
+		<button label="7" span="4">0x3FF3 0xF8</button>
+		<button label="8" span="4">0x3FF3 0xF7</button>
+		<button label="9" span="4">0x3FF3 0xF6</button>
+		
+		<button label="SKY" span="4">0x3FF3 0x7F</button>
+		<button label="0" span="4">0x3FF3 0xFF</button>
+		<button label="TV" span="4">0x3FF3 0x7B</button>
+	</device>
+</irplus>

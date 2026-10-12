@@ -1,0 +1,13 @@
+<irplus>
+    <device manufacturer="SEVILLE" model="Fan" columns="4" format="WINLIRC_SPACEENC" gap-pulse="550" gap-space="1710" bits="32"
+        one-space="1710" one-pulse="550" zero-pulse="550" zero-space="610" header-pulse="8800" header-space="4400" pre-bits="32">
+
+        <button label="1" span="4">0x11203041 0x51006071</button>
+        <button label="2" span="4">0x10203041 0x51006070</button>
+        <button label="3" span="4">0x11213041 0x51006070</button>
+        <button label="4" span="4">0x11213141 0x51006D7C</button>
+        <button label="5" span="4">0x11213141 0x50016574</button>
+        <button label="6" span="4">0x11213142 0x50016270</button>
+
+    </device>
+</irplus>

@@ -1,0 +1,54 @@
+<irplus>
+    <device manufacturer="GRUNDIG" model="GR40011" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16" toggle-bit-pos="0" gap-pulse="635" gap-space="39040"
+        one-pulse="640" one-space="1606" zero-pulse="640" zero-space="476" header-pulse="9118" header-space="4380" repeat="3">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0x4FB 0xF906</button>
+        <button label="&#xFF581;" span="6">0x4FB 0xF10E</button>
+
+        <button label="1" span="4">0x4FB 0x9966</button>
+        <button label="2" span="4">0x4FB 0x19E6</button>
+        <button label="3" span="4">0x4FB 0x59A6</button>
+
+        <button label="4" span="4">0x4FB 0xD926</button>
+        <button label="5" span="4">0x4FB 0xA956</button>
+        <button label="6" span="4">0x4FB 0x29D6</button>
+
+        <button label="7" span="4">0x4FB 0x6996</button>
+        <button label="8" span="4">0x4FB 0xE916</button>
+        <button label="9" span="4">0x4FB 0x8976</button>
+
+        <button label="INFO" span="4">0x4FB 0xC936</button>
+        <button label="0" span="4">0x4FB 0x09F6</button>
+        <button label="RECALL" span="4">0x4FB 0x1BE4</button>
+
+        <button label="CH+" span="4">0x4FB 0xE11E</button>
+        <button label="&#xf0d8;" span="4">0x4FB 0x31CE</button>
+        <button label="VOL+" span="4">0x4FB 0xA35C</button>
+
+        <button label="&#xf0d9;" span="4">0x4FB 0x916E</button>
+        <button label="OK" span="4">0x4FB 0x11EE</button>
+        <button label="&#xf0da;" span="4">0x4FB 0x51AE</button>
+
+        <button label="CH-" span="4">0x4FB 0xC13E</button>
+        <button label="&#xf0d7;" span="4">0x4FB 0x21DE</button>
+        <button label="VOL-" span="4">0x4FB 0x837C</button>
+
+        <button label="MENU" span="4">0x4FB 0x41BE</button>
+        <button label="EXIT" span="4">0x4FB 0xB14E</button>
+        <button label="GUIDE" span="4">0x4FB 0x01FE</button>
+
+        <button label="Y" fillColor="FFD6A81F" span="3">0x4FB 0x619E</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x4FB 0x817E</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x4FB 0xA15E</button>
+        <button label="R" fillColor="FFC84334" span="3">0x4FB 0xD12E</button>
+
+        <button label="" span="4">0x4FB 0x9B64</button>
+        <button label="" span="4">0x4FB 0xBB44</button>
+        <button label="" span="4">0x4FB 0x03FC</button>
+
+        <button label="" span="4">0x4FB 0xAB54</button>
+        <button label="" span="4">0x4FB 0xB34C</button>
+        <button label="" span="4">0x4FB 0x8B74</button>
+
+    </device>
+</irplus>

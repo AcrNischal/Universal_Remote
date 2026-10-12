@@ -1,0 +1,39 @@
+<irplus>
+	<device manufacturer="EPSON" model="820Powerlite" columns="12" format="WINLIRC_SPACEENC" one-space="1654" one-pulse="593" zero-pulse="593" zero-space="516">
+		
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xC1AA09F6</button>
+		<button label="ZOOM-IN" span="4">0xC1AA11EE</button>
+		<button label="ZOOM-OUT" span="4">0xC1AA916E</button>
+
+		<button label="PAGE+" span="6">0xC1AA619E</button>
+		<button label="PAGE-" span="6">0xC1AAE11E</button>
+
+		<button label="VOL+" span="4">0xC1AA19E6</button>
+		<button label="&#xf0d8;" span="4">0xC1AA0DF2</button>
+		<button label="VOL-" span="4">0xC1AA9966</button>
+
+		<button label="&#xf0d9;" span="4">0xC1AACD32</button>
+		<button label="ENTER" span="4">0xC1AAA15E</button>
+		<button label="&#xf0da;" span="4">0xC1AA8D72</button>
+
+		<button label="ESC" span="4">0xC1AA21DE</button>
+		<button label="&#xf0d7;" span="4">0xC1AA4DB2</button>
+		<button label="MENU" span="4">0xC1AA59A6</button>
+
+		<button label="1" span="4">0xC1AAE916</button>
+		<button label="2" span="4">0xC1AA6996</button>
+		<button label="3" span="4">0xC1AA51AE</button>
+
+		<button label="4" span="4">0xC1AA29D6</button>
+		<button label="5" span="4">0xC1AAA956</button>
+		<button label="6" span="4">0xC1AAF10E</button>
+
+		<button label="7" span="4">0xC1AAD926</button>
+		<button label="8" span="4">0xC1AAC936</button>
+		<button label="9" span="4">0xC1AA49B6</button>
+
+		<button label="SEARCH" span="4">0xC1AA31CE</button>
+		<button label="0" span="4">0xC1AA7986</button>
+		<button label="?" span="4">0xC1AAF906</button>
+	</device>
+</irplus>

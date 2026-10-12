@@ -1,0 +1,48 @@
+<irplus>
+    <device manufacturer="AMSTRAD" model="DS 304" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0x00ff 0x20df</button>
+        <button label="&#xFF581;" span="6">0x00ff 0x00ff</button>
+
+        <button label="1" span="4">0x00ff 0xc03f</button>
+        <button label="2" span="4">0x00ff 0xf00f</button>
+        <button label="3" span="4">0x00ff 0xd02f</button>
+
+        <button label="4" span="4">0x00ff 0x42bd</button>
+        <button label="5" span="4">0x00ff 0x827d</button>
+        <button label="6" span="4">0x00ff 0x926d</button>
+
+        <button label="7" span="4">0x00ff 0x629d</button>
+        <button label="8" span="4">0x00ff 0xa25d</button>
+        <button label="9" span="4">0x00ff 0x609f</button>
+
+        <button label="+10" span="4">0x00ff 0x52ad</button>
+        <button label="0" span="4">0x00ff 0x12ed</button>
+        <button label="Search" span="4">0x00ff 0x22dd</button>
+
+        <button label="Top Menu" span="4">0x00ff 0xb24d</button>
+        <button label="&#xf0d8;" span="4">0x00ff 0x708f</button>
+        <button label="Title" span="4">0x00ff 0xc23d</button>
+
+        <button label="&#xf0d9;" span="4">0x00ff 0x40bf</button>
+        <button label="OK" span="4">0x00ff 0xb04f</button>
+        <button label="&#xf0da;" span="4">0x00ff 0x906f</button>
+
+        <button label="Menu" span="4">0x00ff 0xe21d</button>
+        <button label="&#xf0d7;" span="4">0x00ff 0x807f</button>
+        <button label="Display" span="4">0x00ff 0xa05f</button>
+
+        <button label="&#xf049;" alt="PREV" span="4">0x00ff 0x728d</button>
+        <button label="Setup/A-B" span="4">0x00ff 0x10ef</button>
+        <button label="&#xf050;" alt="NEXT" span="4">0x00ff 0x32cd</button>
+
+        <button label="SUBTITLE" span="4">0x00ff 0x30cf</button>
+        <button label="PROG" span="4">0x00ff 0xd22d</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x00ff 0x02fd</button>
+
+        <button label="&#xf04a;" alt="REW" span="4">0x00ff 0x50af</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0x00ff 0xe01f</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0x00ff 0xf20d</button>
+
+    </device>
+</irplus>

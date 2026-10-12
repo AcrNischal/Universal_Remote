@@ -1,0 +1,74 @@
+<irplus>
+    <device manufacturer="YAMAHA" model="VT97430" columns="20" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="8">0xBE41 0xF10E</button>
+        <space multiple="12"/>
+
+        <button label="V-AUX" span="4">0xBE41 0x51AE</button>
+        <button label="PHONO" span="4">0xBE41 0x11EE</button>
+        <button label="TAPE 1" span="4">0xBE41 0xD12E</button>
+        <button label="TUNER" span="4">0xBE41 0x916E</button>
+        <button label="CD" span="4">0xBE41 0xE11E</button>
+
+        <button label="VCR 3/DVD" span="4">0xBE41 0xA15E</button>
+        <button label="VCR 2" span="4">0xBE41 0x41BE</button>
+        <button label="VCR 1" span="4">0xBE41 0x817E</button>
+        <button label="TV/DBS" span="4">0xBE41 0x21DE</button>
+        <button label="LD" span="4">0xBE41 0xC13E</button>
+
+        <button label="TAPE 2 MON" span="4">0xBE41 0x31CE</button>
+        <button label="CHAPTER-" span="4">0x5EA1 0xD02F</button>
+        <button label="CHAPTER+" span="4">0x5EA1 0x50AF</button>
+        <button label="&#xf04c; / &#xf04d;" span="4">0x5EA1 0x906F</button>
+        <button label="&#xf04b;" span="4">0x5EA1 0x10EF</button>
+
+        <button label="DISPLAY" span="4">0x9E61 0x50AF</button>
+        <button label="SEARCH &#xf04a;" span="8">0x5EA1 0xB04F</button>
+        <button label="SEARCH &#xf04e;" span="8">0x5EA1 0x30CF</button>
+
+        <button label="DECK A/B" span="4">0x5EA1 0x609F</button>
+        <button label="TAPE-VCR &#xf04b;" span="4">0x5EA1 0x00FF</button>
+        <button label="TAPE-VCR &#xf04d;" span="4">0x5EA1 0xC03F</button>
+        <button label="TAPE-VCR &#xf04a;" span="4">0x5EA1 0x807F</button>
+        <button label="TAPE-VCR &#xf04e;" span="4">0x5EA1 0x40BF</button>
+
+        <button label="TEST" span="4">0xBE41 0x53AC</button>
+        <button label="TUNER VCR TV A/B/C/D/E" span="8">0x5EA1 0x48B7</button>
+        <button label="PRESET/CH-" span="4">0x5EA1 0x8877</button>
+        <button label="PRESET/CH+" span="4">0x5EA1 0x08F7</button>
+
+        <button label="FRONT LEVEL+" span="4">0xBE41 0xB34C</button>
+        <button label="HALL 1 / 1" labelColor="FF000000" backgroundColor="FFFFCC00" span="4">0xBE41 0x0BF4</button>
+        <button label="HALL 2 / 2" labelColor="FF000000" backgroundColor="FFFFCC00" span="4">0xBE41 0x8B74</button>
+        <button label="HALL 3 / 3" labelColor="FF000000" backgroundColor="FFFFCC00" span="4">0xBE41 0x4BB4</button>
+        <button label="CHURCH / 4" labelColor="FF000000" backgroundColor="FFFFCC00" span="4">0xBE41 0xCB34</button>
+
+        <button label="FRONT LEVEL-" span="4">0xBE41 0x738C</button>
+        <button label="ROCK CONCERT / 5" labelColor="FF000000" backgroundColor="FFFFCC00" span="4">0xBE41 0x2BD4</button>
+        <button label="JAZZ CLUB / 6" labelColor="FF000000" backgroundColor="FFFFCC00" span="4">0xBE41 0xAB54</button>
+        <button label="CONCERT VIDEO 1 / 7" labelColor="FF000000" backgroundColor="FFFFCC00" span="4">0xBE41 0x6B94</button>
+        <button label="CONCERT VIDEO 2 / 8" labelColor="FF000000" backgroundColor="FFFFCC00" span="4">0xBE41 0xEB14</button>
+
+        <button label="CENTER LEVEL+" span="4">0xBE41 0xD32C</button>
+        <button label="TV THEATER / 9" labelColor="FF000000" backgroundColor="FFFFCC00" span="4">0xBE41 0x1BE4</button>
+        <button label="MOVIE THEATER 1 / 10" labelColor="FF000000" backgroundColor="FFFFCC00" span="4">0xBE41 0x9B64</button>
+        <button label="MOVIE THEATER 2 / 11" labelColor="FF000000" backgroundColor="FFFFCC00" span="4">0xBE41 0x5BA4</button>
+        <button label="DOLBY AC-3/PROLOG / 12" labelColor="FF000000" backgroundColor="FFFFCC00" span="4">0xBE41 0xDB24</button>
+
+        <button label="CENTER LEVEL-" span="4">0xBE41 0x33CC</button>
+        <button label="ON SCREEN" span="6">0xBE41 0x43BC</button>
+        <button label="&#xf0d8;" span="4">0xBE41 0xA35C</button>
+        <button label="MASTER VOL+" span="6">0xBE41 0xB14E</button>
+
+        <button label="REAR LEVEL+" span="4">0xBE41 0x13EC</button>
+        <button label="-" span="6">0xBE41 0xE31C</button>
+        <button label="MUTING" span="4">0xBE41 0x29D6</button>
+        <button label="+" span="6">0xBE41 0x639C</button>
+
+        <button label="REAR LEVEL-" span="4">0xBE41 0x936C</button>
+        <button label="EFFECT ON OFF" span="6">0xBE41 0x837C</button>
+        <button label="&#xf0d7;" span="4">0xBE41 0x23DC</button>
+        <button label="MASTER VOL-" span="6">0xBE41 0x718E</button>
+
+    </device>
+</irplus>

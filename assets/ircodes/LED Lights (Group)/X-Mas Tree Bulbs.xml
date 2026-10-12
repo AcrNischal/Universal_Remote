@@ -1,0 +1,21 @@
+<irplus>
+    <device manufacturer="LED" model="X-Mas Tree" columns="12" format="WINLIRC_NEC1">
+
+        <button label="ON" backgroundColor="FF1E7854" span="4">0x00ff 0xA25D</button>
+        <button label="TIMER" span="4">0x00ff 0x629D</button>
+        <button label="OFF" backgroundColor="FFC84334" span="4">0x00ff 0xE21D</button>
+
+        <button label="1" span="6">0x00ff 0x22DD</button>
+        <button label="2" span="6">0x00ff 0xC23D</button>
+
+        <button label="3" span="6">0x00ff 0xE01F</button>
+        <button label="4" span="6">0x00ff 0x906F</button>
+
+        <button label="5" span="6">0x00ff 0x6897</button>
+        <button label="6" span="6">0x00ff 0xB04F</button>
+
+        <button label="DIM-" span="6">0x00ff 0x30CF</button>
+        <button label="DIM+" span="6">0x00ff 0x7A85</button>
+
+    </device>
+</irplus>

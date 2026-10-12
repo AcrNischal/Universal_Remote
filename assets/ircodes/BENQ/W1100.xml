@@ -1,0 +1,52 @@
+<irplus>
+    <device manufacturer="BENQ" model="W1100" columns="12" format="WINLIRC_NEC1">
+
+        <button label="FREEZE" span="4">0x0C 0xC03F</button>
+        <button label="&#61457;" backgroundColor="FFC84334" span="4">0x0C 0x40BF</button>
+        <button label="TEST" span="4">0x0C 0x29D6</button>
+
+        <button label="HDMI-1" backgroundColor="FF9D7600" span="4">0x0C 0x1AE5</button>
+        <button label="HDMI-2" backgroundColor="FF9D7600" span="4">0x0C 0x9A65</button>
+        <button label="PC" backgroundColor="FF9D7600" span="4">0x0C 0x827D</button>
+
+        <button label="COMP" backgroundColor="FF9D7600" span="4">0x0C 0x8A75</button>
+        <button label="VIDEO" backgroundColor="FF9D7600" span="4">0x0C 0x4AB5</button>
+        <button label="S-VIDEO" backgroundColor="FF9D7600" span="4">0x0C 0xF807</button>
+
+        <button label="BLANK" span="4">0x0C 0xE01F</button>
+        <button label="&#61656;" backgroundColor="FF888888" span="4">0x0C 0xD02F</button>
+        <button label="AUTO" span="4">0x0C 0x10EF</button>
+
+        <button label="&#61657;" backgroundColor="FF888888" span="4">0x0C 0xB04F</button>
+        <button label="MODE / ENTER" backgroundColor="FFFFFFFF" labelColor="FF000000" span="4">0x0C 0x08F7</button>
+        <button label="&#61658;" backgroundColor="FF888888" span="4">0x0C 0x708F</button>
+
+        <button label="ASPECT" span="4">0x0C 0xC837</button>
+        <button label="&#61655;" backgroundColor="FF888888" span="4">0x0C 0x30CF</button>
+        <button label="MENU / EXIT" backgroundColor="FF444444" span="4">0x0C 0xF00F</button>
+
+        <button label="&#xFF581;" span="4">0x0C 0x28D7</button>
+        <button label="OVERSCAN" span="4">0x0C 0xFE01</button>
+        <button label="SRS" span="4">0x0C 0x9966</button>
+
+        <button label="USER-1" span="4">0x0C 0xAE51</button>
+        <button label="USER-2" span="4">0x0C 0x6E91</button>
+        <button label="USER-3" span="4">0x0C 0xEE11</button>
+
+        <button label="BRIGHT" span="4">0x0C 0x6897</button>
+        <button label="CONTRAST" span="4">0x0C 0x8877</button>
+        <button label="SHARP" span="4">0x0C 0x7E81</button>
+
+        <button label="COLOR" span="4">0x0C 0x9E61</button>
+        <button label="TINT" span="4">0x0C 0x5EA1</button>
+        <button label="PIP" span="4">0x0C 0xD827</button>
+
+        <button label="PIP Size" span="4">0x0C 0x09F6</button>
+        <button label="PIP Pos" span="4">0x0C 0xDE21</button>
+        <button label="PIP Active" span="4">0x0C 0xDE21</button>
+
+        <button label="GAMMA" span="4">0x0C 0x7A85</button>
+        <button label="COLOR TEMP" span="4">0x0C 0xFA05</button>
+        <button label="Brilliant Color" span="4">0x0C 0xBE41</button>
+    </device>
+</irplus>

@@ -1,0 +1,90 @@
+<irplus>
+    <device manufacturer="PANASONIC" model="N2QAYB000239" columns="12" format="WINLIRC_SPACEENC" bits="32" pre-bits="16" repeat="4"
+        gap-pulse="479" gap-space="73900" one-pulse="497" one-space="1239" zero-pulse="497" zero-space="366" header-pulse="3571" header-space="1634">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x4004 0x0100BCBD</button>
+        <button label="TV" span="4">0x4004 0x01400C4D</button>
+        <button label="AV" span="4">0x4004 0x0100A0A1</button>
+
+        <button label="ASPECT" span="3">0x4004 0x01207B5A</button>
+        <button label="LINK" span="3">0x4004 0x01908D1C</button>
+        <button label="OPTION" span="3">0x4004 0x0190E574</button>
+        <button label="SDCARD" span="3">0x4004 0x0190D544</button>
+
+        <button label="GUIDE" span="4">0x4004 0x0190E170</button>
+        <button label="&#xf0d8;" span="4">0x4004 0x01005253</button>
+        <button label="EXIT" span="4">0x4004 0x0100CBCA</button>
+
+        <button label="&#xf0d9;" span="4">0x4004 0x01007273</button>
+        <button label="OK" span="4">0x4004 0x01009293</button>
+        <button label="&#xf0da;" span="4">0x4004 0x0100F2F3</button>
+
+        <button label="MENU" span="4">0x4004 0x01004A4B</button>
+        <button label="&#xf0d7;" span="4">0x4004 0x0100D2D3</button>
+        <button label="RETURN" span="4">0x4004 0x01002B2A</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x4004 0x01000E0F</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x4004 0x01008E8F</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x4004 0x01004E4F</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x4004 0x0100CECF</button>
+
+        <button label="TEXT" span="3">0x4004 0x0180C041</button>
+        <button label="STTL" span="3">0x4004 0x0180A021</button>
+        <button label="INDEX" span="3">0x4004 0x01801091</button>
+        <button label="HOLD" span="3">0x4004 0x01809011</button>
+
+        <button label="1" span="4">0x4004 0x01000809</button>
+        <button label="2" span="4">0x4004 0x01008889</button>
+        <button label="3" span="4">0x4004 0x01004849</button>
+
+        <button label="4" span="4">0x4004 0x0100C8C9</button>
+        <button label="5" span="4">0x4004 0x01002829</button>
+        <button label="6" span="4">0x4004 0x0100A8A9</button>
+
+        <button label="7" span="4">0x4004 0x01006869</button>
+        <button label="8" span="4">0x4004 0x0100E8E9</button>
+        <button label="9" span="4">0x4004 0x01001819</button>
+
+        <button label="INFO" span="4">0x4004 0x01009C9D</button>
+        <button label="0" span="4">0x4004 0x01009899</button>
+        <button label="&#xFF581;" span="4">0x4004 0x01004C4D</button>
+
+        <button label="P+" span="6">0x4004 0x01002C2D</button>
+        <button label="VOL+" span="6">0x4004 0x01000405</button>
+
+        <button label="P-" span="6">0x4004 0x0100ACAD</button>
+        <button label="VOL+" span="6">0x4004 0x01008485</button>
+
+        <button label="VCR " labelColor="FF2A4C94" backgroundColor="FF222222" span="3">0x4004 0x09004049</button>
+        <button label="VCR " labelColor="FF2A4C94" backgroundColor="FF222222" span="3">0x4004 0x0900C0C9</button>
+        <button label="VCR " labelColor="FF2A4C94" backgroundColor="FF222222" span="3">0x4004 0x0900929B</button>
+        <button label="VCR " labelColor="FF2A4C94" backgroundColor="FF222222" span="3">0x4004 0x0900525B</button>
+
+        <button label="VCR " labelColor="FF2A4C94" backgroundColor="FF222222" span="4">0x4004 0x09000009</button>
+        <button label="VCR " labelColor="FF2A4C94" backgroundColor="FF222222" span="4">0x4004 0x09006069</button>
+        <button label="VCR " labelColor="FF2A4C94" backgroundColor="FF222222" span="4">0x4004 0x09005059</button>
+
+        <button label="VCR " labelColor="FF2A4C94" backgroundColor="FF222222" span="3">0x4004 0x0900ACA5</button>
+        <button label="VCR " labelColor="FF2A4C94" backgroundColor="FF222222" span="3">0x4004 0x09002C25</button>
+        <button label="VCR &#xf011;" labelColor="FF2A4C94" backgroundColor="FF222222" span="3">0x4004 0x0900BCB5</button>
+        <button label="VCR " labelColor="FF2A4C94" backgroundColor="FF222222" span="3">0x4004 0x09001019</button>
+
+        <button label="DVD " labelColor="FF2A4C94" backgroundColor="FF222222" span="3">0x4004 0x0D00929F</button>
+        <button label="DVD " labelColor="FF2A4C94" backgroundColor="FF222222" span="3">0x4004 0x0D00525F</button>
+        <button label="DVD " labelColor="FF2A4C94" backgroundColor="FF222222" span="3">0x4004 0x0D00202D</button>
+        <button label="DVD " labelColor="FF2A4C94" backgroundColor="FF222222" span="3">0x4004 0x0D00A0AD</button>
+
+        <button label="DVD " labelColor="FF2A4C94" backgroundColor="FF222222" span="4">0x4004 0x0D00000D</button>
+        <button label="DVD " labelColor="FF2A4C94" backgroundColor="FF222222" span="4">0x4004 0x0D00606D</button>
+        <button label="DVD " labelColor="FF2A4C94" backgroundColor="FF222222" span="4">0x4004 0x0D00505D</button>
+
+        <button label="DVD " labelColor="FF2A4C94" backgroundColor="FF222222" span="3">0x4004 0x0D00ACA1</button>
+        <button label="DVD " labelColor="FF2A4C94" backgroundColor="FF222222" span="3">0x4004 0x0D002C21</button>
+        <button label="DVD &#xf011;" labelColor="FF2A4C94" backgroundColor="FF222222" span="3">0x4004 0x0D00BCB1</button>
+        <button label="DVD " labelColor="FF2A4C94" backgroundColor="FF222222" span="3">0x4004 0x0D00101D</button>
+
+        <button label="N" span="4">0x4004 0x01003031</button>
+        <button label="AUDIO" span="4">0x4004 0x01008C8D</button>
+        <button label="DIRECT TV " span="4">0x4004 0x01909100</button>
+    </device>
+</irplus>

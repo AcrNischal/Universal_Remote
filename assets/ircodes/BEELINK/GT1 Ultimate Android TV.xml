@@ -1,0 +1,46 @@
+<irplus>
+    <device manufacturer="BEELINK" model="GT1 Ultimate Android" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xFF425;" span="3" backgroundColor="FF0000FF">0x1FE 0x8A75</button>
+        <button label="&#xFf51b;&#xFf51d;" span="3" backgroundColor="FF0000FF" repeat="5">0x1FE 0x8A75</button>
+        <button label="&#1045889;" span="3">0x1FE 0xB24D</button>
+        <button label="&#1045651;" span="3">0x1FE 0x02FD</button>
+
+        <button label="&#1046176;" span="4">0x1FE 0xCA35</button>
+        <button label="&#61656;" span="4" backgroundColor="FF686868">0x1FE 0x649B</button>
+        <button label="&#1044570;" span="4">0x1FE 0x3DC2</button>
+
+        <button label="&#61657;" span="4" backgroundColor="FF686868">0x1FE 0xA45B</button>
+        <button label="OK" span="4" backgroundColor="FF686868">0x1FE 0xB04F</button>
+        <button label="&#61658;" span="4" backgroundColor="FF686868">0x1FE 0xE41B</button>
+
+        <button label="&#1045837;" span="4">0x1FE 0xD827</button>
+        <button label="&#61655;" span="4" backgroundColor="FF686868">0x1FE 0x14EB</button>
+        <button label="&#1045089;" span="4">0x1FE 0x926D</button>
+
+        <button label="&#1046364;" span="4">0x1FE 0x728D</button>
+        <button label="&#1045919;" span="4">0x1FE 0x2AD5</button>
+        <button label="&#1044799;" span="4">0x1FE 0x827D</button>
+
+        <button label="&#1046365;" span="4">0x1FE 0x6A95</button>
+        <button label="&#1045373;" span="4">0x1FE 0x4AB5</button>
+        <button label="&#1044796;" span="4">0x1FE 0x42BD</button>
+
+        <button label="1" span="4">0x1FE 0x8C73</button>
+        <button label="2" span="4">0x1FE 0x4CB3</button>
+        <button label="3" span="4">0x1FE 0xCC33</button>
+
+        <button label="4" span="4">0x1FE 0x2CD3</button>
+        <button label="5" span="4">0x1FE 0xAC53</button>
+        <button label="6" span="4">0x1FE 0x6C93</button>
+
+        <button label="7" span="4">0x1FE 0xEC13</button>
+        <button label="8" span="4">0x1FE 0x1CE3</button>
+        <button label="9" span="4">0x1FE 0x9C63</button>
+
+        <button label="Delete" span="4">0x1FE 0x22DD</button>
+        <button label="0" span="4">0x1FE 0x0CF3</button>
+        <button label="#" span="4">0x1FE 0x1AE5</button>
+
+    </device>
+</irplus>

@@ -1,0 +1,85 @@
+<irplus>
+    <device manufacturer="LISTO" model="2P-TNT-752086" columns="12" format="WINLIRC_RC5" bits="13" pre-bits="13" repeat="2" frequency="36000">
+        
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x104c</button>
+        <button label="&#xFF581;" span="4">0x104d</button>
+        <button label="TV/AV" span="4">0x1078</button>
+
+        <button label="1" span="4">0x1041</button>
+        <button label="2" span="4">0x1042</button>
+        <button label="3" span="4">0x1043</button>
+
+        <button label="4" span="4">0x1044</button>
+        <button label="5" span="4">0x1045</button>
+        <button label="6" span="4">0x1046</button>
+
+        <button label="7" span="4">0x1047</button>
+        <button label="8" span="4">0x1048</button>
+        <button label="9" span="4">0x1049</button>
+
+        <button label="GUIDE" span="4">0x104a</button>
+        <button label="0" span="4">0x1040</button>
+        <button label="FAV" span="4">0x1068</button>
+
+        <button label="AUDIO" span="4">0x1063</button>
+        <button label="&#xf0d8;" span="4">0x1054</button>
+        <button label="VIDEO" span="4">0x104b</button>
+
+        <button label="&#xf0d9;" span="4">0x1055</button>
+        <button label="OK" span="4">0x1075</button>
+        <button label="&#xf0da;" span="4">0x1056</button>
+
+        <button label="MENU" span="4">0x1070</button>
+        <button label="&#xf0d7;" span="4">0x1053</button>
+        <button label="TEXT" span="4">0x107c</button>
+
+        <button label="EXIT" span="4">0x104e</button>
+        <button label="DISPLAY" span="4">0x1052</button>
+        <button label="RETURN TV" span="4">0x107f</button>
+
+        <button label="VOL-" span="6">0x1051</button>
+        <button label="VOL+" span="6">0x1050</button>
+
+        <button label="CH-" span="6">0x1061</button>
+        <button label="CH+" span="6">0x1060</button>
+
+        <button label="SLEEPTIMER" span="3">0x106a</button>
+        <button label="SUBTLIST" span="3">0x105f</button>
+        <button label="TXTEXPAND" span="3">0x106b</button>
+        <button label="BACK" span="3">0x1062</button>
+
+        <button label="UPDATE" span="3">0x106d</button>
+        <button label="REVEAL" span="3">0x106c</button>
+        <button label="TXTSTOP" span="3">0x1069</button>
+        <button label="INFO" span="3">0x106f</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x1077</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x1076</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x1072</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x1074</button>
+
+        <button label="F1" span="3">0x1078</button>
+        <button label="F2" span="3">0x1065</button>
+        <button label="F3" span="3">0x1057</button>
+        <button label="F4" span="3">0x105a</button>
+
+        <button label="F5" span="3">0x104e</button>
+        <button label="F6" span="3">0x104e</button>
+        <button label="F7" span="3">0x107b</button>
+        <button label="F8" span="3">0x106e</button>
+
+        <button label="F9" span="3">0x104f</button>
+        <button label="F10" span="3">0x1079</button>
+        <button label="F11" span="3">0x105d</button>
+        <button label="F12" span="3">0x105e</button>
+
+        <button label="F13" span="4">0x1058</button>
+        <button label="F14" span="4">0x1071</button>
+        <button label="F15" span="4">0x1073</button>
+
+        <button label="F16" span="4">0x105b</button>
+        <button label="F17" span="4">0x1059</button>
+        <button label="F18" span="4">0x105c</button>
+
+    </device>
+</irplus>

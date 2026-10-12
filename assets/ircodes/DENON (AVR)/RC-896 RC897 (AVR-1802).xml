@@ -1,0 +1,61 @@
+<irplus>
+	<device manufacturer="DENON" model="RC-896" columns="12" format="WINLIRC_SPACEENC" bits="15" pre-bits="15"
+		toggle-bit-pos="0" gap-pulse="275" gap-space="44846" one-pulse="275" one-space="1900" zero-pulse="275" zero-space="775" repeat="3">
+
+		<button label="AVR ON" span="6">0x221C</button>
+		<button label="AVR OFF" span="6">0x211C</button>
+
+		<button label="1" span="4">0x230C</button>
+		<button label="2" span="4">0x208C</button>
+		<button label="3" span="4">0x231C</button>
+
+		<button label="4" span="4">0x20CC</button>
+		<button label="5" span="4">0x22CC</button>
+		<button label="6" span="4">0x21CC</button>
+
+		<button label="7" span="4">0x224C</button>
+		<button label="8" span="4">0x19B4</button>
+		<button label="9" span="4">0x212C</button>
+
+		<button label="CHANNEL+" span="4">0x19AC</button>
+		<button label="0" span="4">0x228C</button>
+		<button label="CHANNEL-" span="4">0x1AAC</button>
+
+		<button label="TAPE " span="4">0x1368</button>
+		<button label="TAPE " span="4">0x1168</button>
+		<button label="SURROUND MODE" span="4">0x219C</button>
+
+		<button label="TAPE " span="4">0x13A8</button>
+		<button label="TAPE " span="4">0x11E8</button>
+		<button label="TAPE " span="4">0x10E8</button>
+
+		<button label="VIDEO SELECT" span="4">0x206C</button>
+		<button label="CD " span="4">0x08E8</button>
+		<button label="CD DISC SKIP" span="4">0x0B58</button>
+
+		<button label="CD " span="4">0x0A68</button>
+		<button label="CD " span="4">0x0AE8</button>
+		<button label="CD " span="4">0x0868</button>
+
+		<button label="CD " span="4">0x0B68</button>
+		<button label="CD " span="4">0x09E8</button>
+		<button label="CD " span="4">0x0968</button>
+
+		<button label="SYSTEM" span="4">0x1814</button>
+		<button label="&#xf0d8;" span="4">0x1B14</button>
+		<button label="VOL+" span="4">0x223C</button>
+
+		<button label="&#xf0d9;" span="4">0x1BF8</button>
+		<button label="SELECT" span="4">0x201C</button>
+		<button label="&#xf0da;" span="4">0x22EC</button>
+
+		<button label="SURROUND" span="4">0x1A14</button>
+		<button label="&#xf0d7;" span="4">0x1894</button>
+		<button label="VOL-" span="4">0x213C</button>
+
+		<button label="T.TONE" span="4">0x215C</button>
+		<button label="STATUS" span="4">0x21EC</button>
+		<button label="&#xFF581;" span="4">0x203C</button>
+
+	</device>
+</irplus>

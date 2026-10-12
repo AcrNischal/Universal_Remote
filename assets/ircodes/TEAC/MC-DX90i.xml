@@ -1,0 +1,41 @@
+<irplus>
+    <device manufacturer="TEAC" model="MC-DX90i" columns="12" format="WINLIRC_NECx1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x8181 0xC03F</button>
+        <button label="INPUT" span="4">0x8181 0x48B7</button>
+        <space multiple="4"/>
+
+        <button label="FM/AM" span="4">0x8181 0x609F</button>
+        <button label="TIMER" span="4">0x8181 0x7887</button>
+        <button label="SLEEP" span="4">0x8181 0xF807</button>
+
+        <button label="SHUFFLE" span="4">0x8181 0x50AF</button>
+        <button label="REPEAT" span="4">0x8181 0x40BF</button>
+        <button label="MP3" span="4">0x8181 0xE01F</button>
+
+        <button label="PRESET-" span="4">0x8181 0xB04F</button>
+        <button label="PRESET+" span="4">0x8181 0xA05F</button>
+        <button label="SELECT" span="4">0x8181 0xA857</button>
+
+        <space multiple="4"/>
+        <button label="MENU" span="4">0x8181 0x6897</button>
+        <space multiple="4"/>
+
+        <button label="PREV" span="4">0x8181 0x9867</button>
+        <button label="PLAY/PAUSE" span="4">0x8181 0x807F</button>
+        <button label="NEXT" span="4">0x8181 0x8877</button>
+
+        <space multiple="4"/>
+        <button label="STOP" span="4">0x8181 0x906F</button>
+        <space multiple="4"/>
+
+        <button label="BASS" span="4">0x8181 0x28D7</button>
+        <button label="TREBLE" span="4">0x8181 0x708F</button>
+        <button label="VOL+" span="4">0x8181 0xD02F</button>
+
+        <space multiple="4"/>
+        <button label="&#xFF581;" span="4">0x8181 0xD827</button>
+        <button label="VOL-" span="4">0x8181 0xC837</button>
+
+    </device>
+</irplus>

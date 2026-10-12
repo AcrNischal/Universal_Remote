@@ -1,0 +1,10 @@
+<irplus>
+    <device manufacturer="LED Lights" model="Candles RC5 (Forever Speed)" columns="12" format="WINLIRC_RC5" toggle-bit-pos="2" bits="13" repeat="2" repeatgap="86855" frequency="36000">
+        <button label="+" labelSize="25.0" span="4">0x17CB</button>
+        <button label="ON" labelSize="25.0" span="4" backgroundColor="FF1C7751">0x17C1</button>
+        <button label="SL" labelSize="25.0" span="4">0x17CC</button>
+        <button label="-" labelSize="25.0" span="4">0x17CA</button>
+        <button label="OFF" labelSize="25.0" span="4" backgroundColor="FFC64233">0x17C8</button>
+        <button label="FL" labelSize="25.0" span="4">0x17C2</button>
+    </device>
+</irplus>

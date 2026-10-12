@@ -1,0 +1,39 @@
+<irplus>
+	<device manufacturer="PINNACLE" model="PCTV 800i" columns="12" format="WINLIRC_RC5" frequency="36000">
+
+		<button label="MENU" span="4">0x11C1</button>
+		<button label="&#xFF581;" span="4">0x11C0</button>
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x11F9</button>
+
+		<button label="CH+" span="6">0x11C6</button>
+		<button label="VOL+" span="6">0x11C3</button>
+
+		<button label="CH-" span="6">0x11CC</button>
+		<button label="VOL-" span="6">0x11C9</button>
+
+		<button label="1" span="4">0x11CF</button>
+		<button label="2" span="4">0x11D5</button>
+		<button label="3" span="4">0x11D0</button>
+		
+		<button label="4" span="4">0x11D8</button>
+		<button label="5" span="4">0x11DB</button>
+		<button label="6" span="4">0x11DE</button>
+		
+		<button label="7" span="4">0x11D1</button>
+		<button label="8" span="4">0x11E1</button>
+		<button label="9" span="4">0x11D2</button>
+		
+		<button label="SCREEN" span="4">0x11E4</button>
+		<button label="0" span="4">0x11E7</button>
+		<button label="?" span="4">0x11FF</button>
+
+		<button label="&#xf04a;" alt="REW" span="4">0x11ED</button>
+		<button label=" " span="4">0x11F0</button>
+		<button label="" span="4">0x11F3</button>
+
+		<button label="&#xf111;" alt="REC" labelColor="FFC84334" span="4">0x11F6</button>
+		<button label="t" span="4">0x11EA</button>
+		<button label="&#xf04d;" alt="STOP" span="4">0x11FC</button>
+
+	</device>
+</irplus>

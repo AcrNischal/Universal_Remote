@@ -1,0 +1,29 @@
+<irplus>
+    <device manufacturer="GENIUS" model="SW-HF5.1 5200" columns="4" format="WINLIRC_NEC1" one-pulse="746" one-space="1502" zero-pulse="746" zero-space="385" header-pulse="9206" header-space="4322" bits="16" pre-bits="16">
+        <button label="&#61457;" labelSize="18.0" span="2" backgroundColor="FFC84334">0x03FC 0x817E</button>
+        <button label="DISPLAY" labelSize="18.0" span="2">0x03FC 0x01FE</button>
+
+        <button label="Master+" labelSize="12.0" span="4" backgroundColor="FF4242FF">0x03FC 0xA15E</button>
+        <button label="Master-" labelSize="12.0" span="4" backgroundColor="FF4242FF">0x03FC 0x11EE</button>
+        <button label="WOOFER +" labelSize="12.0" span="3">0x03FC 0x21DE</button>
+        <button label="WOOFER -" labelSize="12.0" span="3">0x03FC 0x619E</button>
+        <button label="CEN +" labelSize="12.0" span="3">0x03FC 0xC13E</button>
+        <button label="CEN -" labelSize="12.0" span="3">0x03FC 0xE11E</button>
+
+        <button label="FRONT +" labelSize="12.0" span="3">0x03FC 0x916E</button>
+        <button label="FRONT -" labelSize="12.0" span="3">0x03FC 0xB14E</button>
+        <button label="REAR +" labelSize="12.0" span="3">0x03FC 0x51AE</button>
+        <button label="REAR -" labelSize="12.0" span="3">0x03FC 0x718E</button>
+        <button label="DVD" labelSize="12.0" span="3">0x03FC 0xD12E</button>
+        <button label="CD" labelSize="12.0" span="3">0x03FC 0xF10E</button>
+        <button label="AUX" labelSize="12.0" span="3">0x03FC 0x31CE</button>
+        <button label="USB/SD" labelSize="12.0" span="3">0x03FC 0xC936</button>
+        <button label="TV/GAME" labelSize="12.0" span="3">0x03FC 0xE916</button>
+        <button label="M.Next" labelSize="12.0" span="3">0x03FC 0x09F6</button>
+        <button label="M.Back" labelSize="12.0" span="3">0x03FC 0x8976</button>
+        <button label="M.Next|" labelSize="12.0" span="3">0x03FC 0x49B6</button>
+        <button label="M.Back|" labelSize="12.0" span="3">0x03FC 0x29D6</button>
+        <button label="M.Play" labelSize="12.0" span="3">0x03FC 0xA956</button>
+        <button label="mute &#61478;" labelSize="12.0" span="4" backgroundColor="FFC84334">0x03FC 0x6996</button>
+    </device>
+</irplus>

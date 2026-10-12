@@ -1,0 +1,7 @@
+<irplus>
+    <device manufacturer="NIKON" model="Camera" columns="1" format="WINLIRC_RAW" frequency="38400">
+
+        <button label="SHUTTER" backgroundColor="FFC84334">2000 27830 420 1580 420 3580 420 63200 2000 27830 420 1580 420 3580 420</button>
+
+    </device>
+</irplus>

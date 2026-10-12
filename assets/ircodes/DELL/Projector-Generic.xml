@@ -1,0 +1,53 @@
+<irplus>
+    <device manufacturer="DELL" model="Projector-1" columns="12" format="WINLIRC_NEC1"> 
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xf20a 0x40bf</button>
+        <button label="INPUT" span="4">0xf20a 0x20df</button>
+        <button label="&#xFF581;" span="4">0xf20a 0xf00f</button>
+
+        <button label="BNC" span="4">0xf20a 0x38c7</button>
+        <button label="COMPOSITE" span="4">0xf20a 0xd827</button>
+        <button label="DVI" span="4">0xf20a 0x20df</button>
+
+        <button label="DVI/SAT" span="4">0xf20a 0xb847</button>
+        <button label="RCA" span="4">0xf20a 0x7887</button>
+        <button label="SVIDEO" span="4">0xf20a 0xc43b</button>
+
+        <button label="SVIDEO 2" span="4">0xf20a 0x9867</button>
+        <button label="VGA" span="4">0xf20a 0x04fb</button>
+        <button label="VIDEO" span="4">0xf20a 0x24db</button>
+
+        <button label="PAGE+" span="4">0xf20a 0xa05f</button>
+        <button label="&#xf0d8;" span="4">0xf20a 0xc837</button>
+        <button label="VOL+" span="4">0xf20a 0x10ef</button>
+
+        <button label="&#xf0d9;" span="4">0xf20a 0x6897</button>
+        <button label="ENTER" span="4">0xf20a 0xe817</button>
+        <button label="&#xf0da;" span="4">0xf20a 0xa857</button>
+
+        <button label="PAGE-" span="4">0xf20a 0x609f</button>
+        <button label="&#xf0d7;" span="4">0xf20a 0x28d7</button>
+        <button label="VOL-" span="4">0xf20a 0xd02f</button>
+
+        <button label="KEYSTONE-" span="3">0xf20a 0x906f</button>
+        <button label="MENU" span="3">0xf20a 0x8877</button>
+        <button label="VIDEO MODE" span="3">0xf20a 0xc03f</button>
+        <button label="KEYSTONE+" span="3">0xf20a 0xb04f</button>
+
+        <button label="AUTO ADJUST" span="3">0xf20a 0x18e7</button>
+        <button label="PIP" span="3">0xf20a 0xb847</button>
+        <button label="BLANK" span="3">0xf20a 0x30cf</button>
+        <button label="PIP SWAP" span="3">0xf20a 0xf807</button>
+
+        <button label="AUTO KEYSTONE" span="3">0xf20a 0x7887</button>
+        <button label="FORMATS" span="3">0xf20a 0x807f</button>
+        <button label="BRIGHTNESS" span="3">0xf20a 0x649b</button>
+        <button label="COLOR" span="3">0xf20a 0x14eb</button>
+
+        <button label="CONTRAST" span="3">0xf20a 0xe41b</button>
+        <button label="GAMMA" span="3">0xf20a 0x08f7</button>
+        <button label="PICTURE" span="3">0xf20a 0x50af</button>
+        <button label="SYNC" span="3">0xf20a 0x18e7</button>
+
+    </device>
+</irplus>

@@ -1,0 +1,59 @@
+<irplus>
+    <device manufacturer="ONKYO" model="RC-385S" columns="30" format="WINLIRC_SPACEENC" bits="24" pre-bits="8" gap-pulse="592" gap-space="107545" one-pulse="593" one-space="1647" zero-pulse="593" zero-space="527" header-pulse="9010" header-space="4438">
+
+        <button label="&#xf011;" backgroundColor="FF4C4C4E" span="6">0x4B 0xB620DF</button>
+        <button label="SLEEP" span="6">0x4B 0xB6BA45</button>
+        <button label="DIMMER" span="6">0x4B 0xB6A956</button>
+        <button label="SUR-MODE" span="6">0x4B 0xB632CD</button>
+        <button label="MULTI-CH-INPUT" labelColor="FF000000" backgroundColor="FF7D84BB" span="6">0x4B 0x3620DF</button>
+
+        <button label="DVD" labelColor="FF000000" backgroundColor="FF7D84BB" span="6">0x4B 0x3631CE</button>
+        <button label="TAPE" labelColor="FF000000" backgroundColor="FF7D84BB" span="6">0x4B 0xB610EF</button>
+        <button label="TUNER" labelColor="FF000000" backgroundColor="FF7D84BB" span="6">0x4B 0xB6D02F</button>
+        <button label="PHONO" labelColor="FF000000" backgroundColor="FF7D84BB" span="6">0x4B 0xB650AF</button>
+        <button label="CD" labelColor="FF000000" backgroundColor="FF7D84BB" span="6">0x4B 0xB6906F</button>
+
+        <button label="VIDEO-1" labelColor="FF000000" backgroundColor="FF7D84BB" span="6">0x4B 0xB6F00F</button>
+        <button label="VIDEO-2" labelColor="FF000000" backgroundColor="FF7D84BB" span="6">0x4B 0xB6708F</button>
+        <button label="GROUP" labelColor="FF000000" backgroundColor="FFE6D262" span="6">0x4B 0xB652AD</button>
+        <button label="PRE" labelColor="FF000000" backgroundColor="FFE6D262" span="6">0x4B 0xB6807F</button>
+        <button label="SET" labelColor="FF000000" backgroundColor="FFE6D262" span="6">0x4B 0xB600FF</button>
+
+        <button label="CD" span="6">0x4B 0xB638C7</button>
+        <button label="" span="6">0x4B 0xB6D827</button>
+        <button label="DVD" labelColor="FF000000" backgroundColor="FFEEEEEE" span="6">0x4B 0x36718E</button>
+        <button label="" labelColor="FF000000" backgroundColor="FFEEEEEE" span="6">0x4B 0x36B14E</button>
+        <space multiple="6"/>
+
+        <button label="DISC" span="6">0x4B 0xB63AC5</button>
+        <button label="" span="6">0x4B 0xB6F807</button>
+        <button label="" labelColor="FF000000" backgroundColor="FFEEEEEE" span="6">0x4B 0x3649B6</button>
+        <button label="" labelColor="FF000000" backgroundColor="FFEEEEEE" span="6">0x4B 0x368976</button>
+        <space multiple="6"/>
+
+        <button label="" span="6">0x4B 0xB67887</button>
+        <button label="" span="6">0x4B 0xB6B847</button>
+        <button label="" labelColor="FF000000" backgroundColor="FFEEEEEE" span="6">0x4B 0x3609F6</button>
+        <button label="" labelColor="FF000000" backgroundColor="FFEEEEEE" span="6">0x4B 0x36F10E</button>
+        <space multiple="6"/>
+
+        <button label="TAPE" span="6">0x4B 0xB66897</button>
+        <button label="" span="6">0x4B 0xB6A857</button>
+        <button label="CH-SEL" span="6">0x4B 0x3622DD</button>
+        <space multiple="6"/>
+        <space multiple="6"/>
+
+        <button label="/" labelColor="FF000000" backgroundColor="FFE6D262" span="6">0x4B 0xB618E7</button>
+        <button label="" span="6">0x4B 0xB6C837</button>
+        <button label="LEVEL" span="6">0x4B 0x3642BD</button>
+        <button label="TEST-TONE" labelColor="FF000000" backgroundColor="FF4C4C4E" span="6">0x4B 0xB659A6</button>
+        <button label="VOL" labelColor="FF000000" backgroundColor="FFE6D262" span="6">0x4B 0xB640BF</button>
+
+        <button label="" span="6">0x4B 0xB658A7</button>
+        <button label="" span="6">0x4B 0xB69867</button>
+        <button label="LEVEL" span="6">0x4B 0x36C23D</button>
+        <button label="MUTING" span="6">0x4B 0xB6A05F</button>
+        <button label="VOL" labelColor="FF000000" backgroundColor="FFE6D262" span="6">0x4B 0xB6C03F</button>
+
+    </device>
+</irplus>

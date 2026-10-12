@@ -1,0 +1,71 @@
+<irplus>
+    <device manufacturer="SCHAUB-LORENZ" model="DVD-2006" columns="12" format="WINLIRC_RC5" bits="13" pre-bits="13" toggle-bit-pos="2" frequency="36000">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0x174d</button>
+        <button label="&#xFF581;" span="3">0x1757</button>
+        <button label="DVD/TV" span="3">0x174c</button>
+        <button label="&#xf052;" alt="EJECT" span="3">0x174c</button>
+
+        <button label="1" span="4">0x1752</button>
+        <button label="2" span="4">0x1743</button>
+        <button label="3" span="4">0x1742</button>
+        <button label="4" span="4">0x174a</button>
+        <button label="5" span="4">0x1746</button>
+        <button label="6" span="4">0x1745</button>
+        <button label="7" span="4">0x1740</button>
+        <button label="8" span="4">0x1749</button>
+        <button label="9" span="4">0x1748</button>
+
+        <button label="+10" span="4">0x1744</button>
+        <button label="0" span="4">0x1747</button>
+        <button label="C" span="4">0x1741</button>
+
+        <button label="TOPMENU" span="4">0x1753</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0x1761</button>
+        <button label="DISPLAY" span="4">0x177f</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x1750</button>
+        <button label="OK" span="4">0x1762</button>
+        <button label="&#xf0da;" span="4">0x1751</button>
+
+        <button label="MENU" span="4">0x174e</button>
+        <button label="&#xf0d7;" span="4">0x1760</button>
+        <button label="RETURN" span="4">0x176a</button>
+
+        <button label="TITLE" span="3">0x177c</button>
+        <button label="REPEAT" span="3">0x176b</button>
+        <button label="VOL-" span="3">0x1764</button>
+        <button label="VOL+" span="3">0x174f</button>
+
+        <button label="REP/A-B" span="4">0x1770</button>
+        <button label="AUTO/TRACK" span="4">0x1777</button>
+        <button label="SUBTITLE" span="4">0x1772</button>
+
+        <button label="ZOOM" span="4">0x1778</button>
+        <button label="PROG" span="4">0x1774</button>
+        <button label="EFFECT" span="4">0x1766</button>
+
+        <button label="SLOW -" span="6">0x1765</button>
+        <button label="SLOW +" span="6">0x1767</button>
+
+        <button label="&#xf049;" alt="PREV" span="3">0x176c</button>
+        <button label="&#xf04a;" alt="REW" span="3">0x1756</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x1755</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0x176d</button>
+
+        <button label="&#xf04d;" alt="STOP" span="3">0x176f</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">0x1777</button>
+        <button label="&#xf111;" alt="RECORD" span="3">0x1769</button>
+        <button label="&#xf04b;" alt="PLAY" span="3">0x176e</button>
+
+        <button label="AUDIO" span="3">0x1776</button>
+        <button label="SEARCH" span="3">0x1763</button>
+        <button label="MODE" span="3">0x1753</button>
+        <button label="VOCAL/ASSIST" span="3">0x1765</button>
+
+        <button label="TONE" span="3">0x1767</button>
+        <button label="SETUP" span="3">0x177f</button>
+        <button label="ANGLE" span="3">0x1769</button>
+        <button label="SHUFFLE" span="3">0x1775</button>
+    </device>
+</irplus>

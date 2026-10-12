@@ -1,0 +1,62 @@
+<irplus>
+	<device manufacturer="ONKYO" model="RC-710M" columns="12" format="WINLIRC_NEC1">
+
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x4B36 0xD32C</button>
+		<button label="&#xf011; ON" span="4">0x4BB6 0x20DF</button>
+		<button label="&#xf011; OFF" span="4">0x4B36 0xE21D</button>
+		
+		<button label="Display" span="4">0x4B36 0xAA55</button>
+		<button label="DVD" span="4">0x4B36 0x31CE</button>
+		<button label="VCR/DVR" span="4">0x4BB6 0xF00F</button>
+		
+		<button label="CBL/SAT" span="3">0x4BB6 0x708F</button>
+		<button label="Game/TV" span="3">0x4BB6 0xB04F</button>
+		<button label="AUX" span="3">0x4BB6 0xF906</button>
+		<button label="CD" span="3">0x4BB6 0x906F</button>
+		
+		<button label="TAPE" span="3">0x4BB6 0x10EF</button>
+		<button label="TUNER" span="3">0x4BB6 0xD02F</button>
+		<button label="FM" span="3">0x4BB6 0x629D</button>
+		<button label="AM" span="3">0x4BB6 0xE21D</button>
+		
+		<button label="SETUP" span="4">0x4B36 0xCA35</button>
+		<button label="AUDIO" span="4">0x4B36 0x2BD4</button>
+		<button label="RETURN" span="4">0x4B36 0x2AD5</button>
+		
+		<button label="VOL+" span="4">0x4BB6 0x40BF</button>
+		<button label="&#xf0d8;" span="4">0x4BB6 0x41BE</button>
+		<button label="&#xFF581;" span="4">0x4BB6 0xA05F</button>
+		
+		<button label="&#xf0d9;" span="4">0x4BB6 0x21DE</button>
+		<button label="ENTER" span="4">0x4BB6 0xE916</button>
+		<button label="&#xf0da;" span="4">0x4BB6 0xA15E</button>
+
+		<button label="VOL-" span="4">0x4BB6 0xC03F</button>
+		<button label="&#xf0d7;" span="4">0x4BB6 0xC13E</button>
+		<button label="Movie/TV" span="4">0x4BB6 0x32CD</button>
+		
+		<button label="Music" span="4">0x4B36 0xA25D</button>
+		<button label="Game" span="4">0x4B36 0xB24D</button>
+		<button label="Stereo" span="4">0x4B36 0x32CD</button>
+		
+		<button label="1" span="4">0x4B40 0xAB54</button>
+		<button label="2" span="4">0x4B40 0x6B94</button>
+		<button label="3" span="4">0x4B40 0xEB14</button>
+		
+		<button label="4" span="4">0x4B40 0x1BE4</button>
+		<button label="5" span="4">0x4B40 0x9B64</button>
+		<button label="6" span="4">0x4B40 0x5BA4</button>
+		
+		<button label="7" span="4">0x4B40 0xDB24</button>
+		<button label="8" span="4">0x4B40 0x3BC4</button>
+		<button label="9" span="4">0x4B40 0xBB44</button>
+		
+		<button label="Freq" span="4">0x4B40 0xFB04</button>
+		<button label="0" span="4">0x4B40 0x7B84</button>
+		<button label="Dimmer" span="4">0x4BB6 0xA956</button>
+		
+		<button label="SLEEP" span="4">0x4BB6 0xBA45</button>
+		<button label="TestTone" span="4">0x4BB6 0x59A6</button>
+		<button label="CHANNEL-SELECT" span="4">0x4B36 0x22DD</button>
+	</device>
+</irplus>

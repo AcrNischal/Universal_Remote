@@ -1,0 +1,65 @@
+<irplus>
+    <device manufacturer="ONKYO" model="RC-211S" columns="5" format="WINLIRC_NEC1" bits="16" pre-bits="16"
+        toggle-bit-pos="0" gap-pulse="594" gap-space="107817" one-pulse="594" one-space="1652" zero-pulse="594" zero-space="528" header-pulse="9035" header-space="4449">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" alt="POWER" span="1">0x4BB6 0x20DF</button>
+        <button label="SLEEP" span="1">0x4BB6 0xBA45</button>
+        <button label="SPEAKERS MAIN" span="1">0x4BB6 0x9A65</button>
+        <button label="SPEAKERS REMOTE" span="1">0x4BB6 0x5AA5</button>
+        <button label="SIMUL SOURCE" span="1">0x4BB6 0x33CC</button>
+
+        <button label="INPUT TUNER" span="1">0x4BB6 0xD02F</button>
+        <button label="INPUT PHONO" span="1">0x4BB6 0x50AF</button>
+        <button label="INPUT CD" span="1">0x4BB6 0x906F</button>
+        <button label="INPUT_DIRECT" span="1">0x4BB6 0x22DD</button>
+        <button label="SIMUL SRC UP" span="1">0x4BB6 0x43BC</button>
+
+        <button label="INPUT VIDEO-1" span="1">0x4BB6 0xF00F</button>
+        <button label="INPUT VIDEO-2" span="1">0x4BB6 0x708F</button>
+        <button label="INPUT TAPE-1" span="1">0x4BB6 0x10EF</button>
+        <button label="INPUT TAPE-2" span="1">0x4BB6 0xE01F</button>
+        <button label="SIMUL SRC DOWN" span="1">0x4BB6 0xC33C</button>
+
+        <space multiple="2"/>
+        <button label="TUNER CLASS" span="1">0x4BB6 0x52AD</button>
+        <button label="PRESET LEFT" span="1">0x4BB6 0x807F</button>
+        <button label="PRESET RIGHT" span="1">0x4BB6 0x00FF</button>
+
+
+        <button label="DECK-A REV-PLAY" span="1">0x4BB6 0xF20D</button>
+        <button label="DECK-A FWD-PLAY" span="1">0x4BB6 0x728D</button>
+        <space multiple="1"/>
+        <button label="DECK-B REV-PLAY" span="1">0x4BB6 0x6897</button>
+        <button label="DECK-B FWD-PLAY" span="1">0x4BB6 0xA857</button>
+
+
+        <button label="DECK-A RECORD-PAUSE" span="1">0x4BB6 0x0AF5</button>
+        <button label="DECK-A STOP" span="1">0x4BB6 0xB24D</button>
+        <space multiple="1"/>
+        <button label="DECK-B RECORD-PAUSE" span="1">0x4BB6 0x18E7</button>
+        <button label="DECK-B STOP" span="1">0x4BB6 0xC837</button>
+
+        <button label="DECK-A REW" span="1">0x4BB6 0x4AB5</button>
+        <button label="DECK-A FF" span="1">0x4BB6 0x8A75</button>
+        <space multiple="1"/>
+        <button label="DECK-B REW" span="1">0x4BB6 0x58A7</button>
+        <button label="DECK-B FF" span="1">0x4BB6 0x9867</button>
+
+        <button label="CD PAUSE" span="1">0x4BB6 0xF807</button>
+        <button label="CD PLAY" span="1">0x4BB6 0xD827</button>
+        <space multiple="2"/>
+        <button label="MUTING" span="1">0x4BB6 0xA05F</button>
+
+        <space multiple="1"/>
+        <button label="CD STOP" span="1">0x4BB6 0x38C7</button>
+        <space multiple="2"/>
+        <button label="VOL UP" span="1">0x4BB6 0x40BF</button>
+
+
+        <button label="CD PREV" span="1">0x4BB6 0x7887</button>
+        <button label="CD NEXT" span="1">0x4BB6 0xB847</button>
+        <space multiple="2"/>
+        <button label="VOL DOWN" span="1">0x4BB6 0xC03F</button>
+
+    </device>
+</irplus>

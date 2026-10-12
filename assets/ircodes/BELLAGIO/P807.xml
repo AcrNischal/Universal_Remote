@@ -1,0 +1,62 @@
+<irplus>
+    <device manufacturer="BELLAGIO" model="P807" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16"
+        toggle-bit-pos="0" gap-pulse="565" gap-space="108027" one-pulse="565" one-space="1689" zero-pulse="565" zero-space="557" header-pulse="8976" header-space="4527">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0x4FB 0x708F</button>
+        <button label="PBC" span="3">0x4FB 0x32CD</button>
+        <button label="DISPLAY" span="3">0x4FB 0x1AE5</button>
+        <button label="&#xf052;" alt="EJECT" span="3">0x4FB 0x58A7</button>
+        
+        <button label="SUBTITLE" span="3">0x4FB 0x48B7</button>
+        <button label="SEARCH" span="3">0x4FB 0x0AF5</button>
+        <button label="ANGLE" span="3">0x4FB 0x2AD5</button>
+        <button label="LANGUAGE" span="3">0x4FB 0x6897</button>
+        
+        <button label="SETUP" span="3">0x4FB 0x40BF</button>
+        <button label="TITLE" span="3">0x4FB 0x02FD</button>
+        <button label="MENU" span="3">0x4FB 0x42BD</button>
+        <button label="ZOOM" span="3">0x4FB 0x50AF</button>
+        
+        <button label="RESUME" span="4">0x4FB 0x609F</button>
+        <button label="&#xf0d8;" span="4">0x4FB 0x22DD</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x4FB 0x7887</button>
+        
+        <button label="&#xf0d9;" span="4">0x4FB 0x38C7</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0x4FB 0x3AC5</button>
+        <button label="&#xf0da;" span="4">0x4FB 0x12ED</button>
+        
+        <button label="SLOW" span="4">0x4FB 0xF807</button>
+        <button label="&#xf0d7;" span="4">0x4FB 0xB847</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x4FB 0xBA45</button>
+        
+        <button label="&#xf04a;" alt="REW" span="3">0x4FB 0xD827</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x4FB 0x18E7</button>
+        <button label="1/ALL" span="3">0x4FB 0x9867</button>
+        <button label="A-B" span="3">0x4FB 0x9A65</button>
+        
+        <button label="VIDEO" span="3">0x4FB 0xE817</button>
+        <button label="NTSC/PAL" span="3">0x4FB 0x28D7</button>
+        <button label="TVPICTURE" span="3">0x4FB 0xA857</button>
+        <button label="PROGRAM" span="3">0x4FB 0xAA55</button>
+        
+        <button label="1" span="3">0x4FB 0xC837</button>
+        <button label="2" span="3">0x4FB 0x08F7</button>
+        <button label="3" span="3">0x4FB 0x8877</button>
+        <button label="&#xFF581;" span="3">0x4FB 0x8A75</button>
+        
+        <button label="4" span="3">0x4FB 0xF00F</button>
+        <button label="5" span="3">0x4FB 0x30CF</button>
+        <button label="6" span="3">0x4FB 0xB04F</button>
+        <button label="+10" span="3">0x4FB 0xB24D</button>
+        
+        <button label="7" span="3">0x4FB 0xD02F</button>
+        <button label="8" span="3">0x4FB 0x10EF</button>
+        <button label="9" span="3">0x4FB 0x906F</button>
+        <button label="0" span="3">0x4FB 0x926D</button>
+        
+        <button label="VOCAL-ASSIST" span="4">0x4FB 0xE21D</button>
+        <button label="VOL-" span="4">0x4FB 0xD22D</button>
+        <button label="VOL+" span="4">0x4FB 0xF20D</button>
+    
+    </device>
+</irplus>

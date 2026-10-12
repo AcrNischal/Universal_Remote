@@ -1,0 +1,69 @@
+<irplus>
+    <device manufacturer="TEAC" model="RC-1091" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xA156 0xE916</button>
+        <button label="STANDBY" span="4">0xA156 0xC936</button>
+        <button label="TAPE RECORD" span="4">0xA156 0xA35C</button>
+
+        <button label="TAPE PREV" span="4">0xA156 0xD32C</button>
+        <button label="TAPE NEXT" span="4">0xA156 0x13EC</button>
+        <button label="TAPE STOP" span="4">0xA156 0xE31C</button>
+
+        <button label="TAPE PAUSE" span="4">0xA156 0x639C</button>
+        <button label="TAPE PLAY-REW" span="4">0xA156 0x53AC</button>
+        <button label="TAPE PLAY-FWD" span="4">0xA156 0x936C</button>
+
+        <button label="TUNER AUTOTUNE" span="4">0xA156 0x629D</button>
+        <button label="TUNER UP" span="4">0xA156 0xF10E</button>
+        <button label="TUNER DOWN" span="4">0xA156 0x5FA0</button>
+
+        <button label="TUNER FUNCTION" span="3">0xA156 0x827D</button>
+        <button label="TUNER INFO-RDS" span="3">0xA156 0x738C</button>
+        <button label="TUNER ENTER" span="3">0xA156 0x22DD</button>
+        <button label="TUNER BAND" span="3">0xA156 0x9F60</button>
+
+        <button label="CD REW" span="3">0xA156 0x6B94</button>
+        <button label="CD FWD" span="3">0xA156 0xAB54</button>
+        <button label="CD PREV" span="3">0xA156 0x2BD4</button>
+        <button label="CD NEXT" span="3">0xA156 0xCB34</button>
+
+        <button label="CD SHUFFLE" span="3">0xA156 0x1BE4</button>
+        <button label="CD STOP" span="3">0xA156 0x0BF4</button>
+        <button label="CD PAUSE" span="3">0xA156 0x58A7</button>
+        <button label="CD PLAY" span="3">0xA156 0x8B74</button>
+
+        <button label="TAPE1" span="3">0xA156 0xA956</button>
+        <button label="TAPE2" span="3">0xA156 0x29D6</button>
+        <button label="AUX" span="3">0xA156 0x24DB</button>
+        <button label="CD" span="3">0xA156 0x31CE</button>
+
+        <button label="PHONO" span="3">0xA156 0xB14E</button>
+        <button label="TUNER" span="3">0xA156 0x8976</button>
+        <button label="DIMMER" span="3">0xA156 0xCF30</button>
+        <button label="SLEEP" span="3">0xA156 0xD926</button>
+
+        <button label="VOLUME -" span="6">0xA156 0x7986</button>
+        <button label="VOLUME +" span="6">0xA156 0xF906</button>
+
+        <button label="1" span="4">0xA156 0x01FE</button>
+        <button label="2" span="4">0xA156 0x817E</button>
+        <button label="3" span="4">0xA156 0x41BE</button>
+
+        <button label="4" span="4">0xA156 0xC13E</button>
+        <button label="5" span="4">0xA156 0x21DE</button>
+        <button label="6" span="4">0xA156 0xA15E</button>
+
+        <button label="7" span="4">0xA156 0x619E</button>
+        <button label="8" span="4">0xA156 0xE11E</button>
+        <button label="9" span="4">0xA156 0x11EE</button>
+
+        <button label="PROGRAM" span="4">0xA156 0x3BC4</button>
+        <button label="0" span="4">0xA156 0x916E</button>
+        <button label="CLEAR" span="4">0xA156 0x7B84</button>
+
+        <button label="TIME" span="4">0xA156 0x4BB4</button>
+        <button label="REPEAT 1-ALL" span="4">0xA156 0x5BA4</button>
+        <button label="REPEAT A-B" span="4">0xA156 0x9B64</button>
+
+    </device>
+</irplus>

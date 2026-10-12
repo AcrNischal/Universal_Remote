@@ -1,0 +1,71 @@
+<irplus>
+    <device manufacturer="AZ AMERICA" model="F98" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x80BF 0x3BC4</button>
+        <button label="TV/RADIO" span="4">0x80BF 0x916E</button>
+        <button label="MUTE" span="4">0x80BF 0xD12E</button>
+
+        <button label="DISPLAY" span="3">0x80BF 0x31CE</button>
+        <button label="MODE" span="3">0x80BF 0x21DE</button>
+        <button label="TIME" span="3">0x80BF 0x11EE</button>
+        <button label="F1" span="3">0x80BF 0x09F6</button>
+
+        <button label="1" span="4">0x80BF 0x718E</button>
+        <button label="2" span="4">0x80BF 0x619E</button>
+        <button label="3" span="4">0x80BF 0xF10E</button>
+
+        <button label="4" span="4">0x80BF 0x49B6</button>
+        <button label="5" span="4">0x80BF 0xE11E</button>
+        <button label="6" span="4">0x80BF 0xC936</button>
+
+        <button label="7" span="4">0x80BF 0x6996</button>
+        <button label="8" span="4">0x80BF 0x41BE</button>
+        <button label="9" span="4">0x80BF 0xE916</button>
+
+        <button label="RECALL" span="4">0x80BF 0xC13E</button>
+        <button label="0" span="4">0x80BF 0x59A6</button>
+        <button label="F2" span="4">0x80BF 0xD926</button>
+
+        <button label="AUDIO" backgroundColor="FFC84334" span="3">0x80BF 0xE31C</button>
+        <button label="PAUSE" backgroundColor="FF29A58B" span="3">0x80BF 0x639C</button>
+        <button label="ZOOM" backgroundColor="FFF2B731" span="3">0x80BF 0xA35C</button>
+        <button label="INFO" backgroundColor="FF2766DC" span="3">0x80BF 0x23DC</button>
+
+        <button label="MENU" span="4">0x80BF 0x2BD4</button>
+        <button label="CH+" span="4">0x80BF 0x7B84</button>
+        <button label="EXIT" span="4">0x80BF 0xEB14</button>
+
+        <button label="VOL-" span="4">0x80BF 0xDB24</button>
+        <button label="OK" span="4">0x207F 0x0000</button>
+        <button label="VOL+" span="4">0x80BF 0x1BE4</button>
+
+        <space multiple="4"/>
+        <button label="CH-" span="4">0x80BF 0x6B94</button>
+        <space multiple="4"/>
+
+        <button label="SUB" span="3">0x80BF 0xB946</button>
+        <button label="EPG" span="3">0x80BF 0xFB04</button>
+        <button label="FAV" span="3">0x80BF 0xBB44</button>
+        <button label="TXT" span="3">0x80BF 0xF906</button>
+
+        <button label="VOL+" span="3">0x80BF 0xCB34</button>
+        <button label="FIND" span="3">0x80BF 0x4BB4</button>
+        <button label="MULTISCREEN" span="3">0x80BF 0x8B74</button>
+        <button label="PAGE+" span="3">0x80BF 0x0BF4</button>
+
+        <button label="VOL-" span="3">0x80BF 0xF30C</button>
+        <button label="SLEEP" span="3">0x80BF 0x738C</button>
+        <button label="USB" span="3">0x80BF 0xB34C</button>
+        <button label="PAGE-" span="3">0x80BF 0x33CC</button>
+
+        <button label="REW" span="3">0x80BF 0xD32C</button>
+        <button label="FWD" span="3">0x80BF 0x53AC</button>
+        <button label="&#xf04b;" alt="PLAY" span="3">0x80BF 0x936C</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0x80BF 0x13EC</button>
+
+        <button label="PREV" span="3">0x80BF 0xAB54</button>
+        <button label="NEXT" span="3">0x80BF 0x51AE</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">0x80BF 0x9B64</button>
+        <button label="&#xf111;" alt="REC" span="3">0x80BF 0x9966</button>
+    </device>
+</irplus>

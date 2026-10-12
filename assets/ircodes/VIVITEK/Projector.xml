@@ -1,0 +1,29 @@
+<irplus>
+    <device manufacturer="VIVITEK" model="Projector" columns="12" format="WINLIRC_NEC1" one-pulse="573" one-space="1694"
+        zero-pulse="573" zero-space="573" header-pulse="9041" header-space="4507" gap-space="36000" gap-pulse="573" bits="16" pre-bits="16">
+
+        <button label="POWER" labelSize="18.0" span="4">0x8c73 0x817e</button>
+        <button label="FREEZE" labelSize="18.0" span="4">0x8c73 0x718e</button>
+        <button label="INPUT" labelSize="18.0" span="4">0x8c73 0xc13e</button>
+
+        <button label="VOL-" labelSize="18.0" span="4">0x8c73 0xf10e</button>
+        <button label="MENU" labelSize="18.0" span="4">0x8c73 0xe11e</button>
+        <button label="VOL+" labelSize="18.0" span="4">0x8c73 0x31ce</button>
+
+        <button label="AUTO" labelSize="18.0" span="4">0x8c73 0x619e</button>
+        <button label="&#61656;" labelSize="25.0" span="4">0x8c73 0x837c</button>
+        <button label="BLANK" labelSize="18.0" span="4">0x8c73 0xd12e</button>
+
+        <button label="&#61657;" labelSize="25.0" span="4">0x8c73 0xc33c</button>
+        <button label="OK" labelSize="25.0" span="4">0x8c73 0xa35c</button>
+        <button label="&#61658;" labelSize="25.0" span="4">0x8c73 0x23dc</button>
+
+        <button label="KEY -" labelSize="18.0" span="4">0x8c73 0x21de</button>
+        <button label="&#61655;" labelSize="25.0" span="4">0x8c73 0x43bc</button>
+        <button label="KEY +" labelSize="18.0" span="4">0x8c73 0xa15e</button>
+
+        <button label="&#xFF581;" labelSize="18.0" span="6">0x8c73 0x916e</button>
+        <button label="STATUS" labelSize="18.0" span="6">0x8c73 0x11ee</button>
+
+    </device>
+</irplus>

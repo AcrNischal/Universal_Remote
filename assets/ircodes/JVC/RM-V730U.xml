@@ -1,0 +1,29 @@
+<irplus>
+    <device manufacturer="JVC" model="RM-V730U" columns="12" format="WINLIRC_SPACEENC" bits="8" pre-bits="8"
+        gap-pulse="587" gap-space="46141" one-pulse="587" one-space="1524" zero-pulse="587" zero-space="470"
+        header-pulse="8544" header-space="4134" repeat="9">
+
+        <button label="T" span="4">0xFB 0x05</button>
+        <button label="START/STOP" backgroundColor="FFC84334" span="8">0xFB 0x95</button>
+
+        <button label="W" span="4">0xFB 0x85</button>
+        <button label="SNAPSHOT" span="4">0xFB 0x9D</button>
+        <button label="INFO" span="4">0xFB 0x15</button>
+
+        <button label="-" span="4">0xFB 0xE5</button>
+        <button label="&#xf0d8;" span="4">0xFB 0x45</button>
+        <button label="+" span="4">0xFB 0x65</button>
+
+        <button label="&#xf0d9;" span="4">0xFB 0xA5</button>
+        <button label="SET" span="4">0xFB 0x35</button>
+        <button label="&#xf0da;" span="4">0xFB 0xC5</button>
+
+        <button label="FFW BACK" span="4">0xFB 0xA5</button>
+        <button label="&#xf0d7;" span="4">0xFB 0x25</button>
+        <button label="FFW FRONT" span="4">0xFB 0x55</button>
+
+        <button label="PLAYLIST" span="4">0xFB 0xB5</button>
+        <button label="DATE" span="4">0xFB 0x75</button>
+        <button label="INDEX" span="4">0xFB 0xF5</button>
+    </device>
+</irplus>

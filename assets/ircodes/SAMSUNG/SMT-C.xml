@@ -1,0 +1,27 @@
+<irplus manufacturer="SAMSUNG" name="SMT-C Smart TV">
+  <protocol>NEC</protocol>
+  <device>0x04</device>
+  <button label="Power" type="power" code="0xE0E040BF"/>
+  <button label="Mute" type="mute" code="0xE0E0F00F"/>
+  <button label="Vol +" type="vol_up" code="0xE0E0E01F"/>
+  <button label="Vol -" type="vol_down" code="0xE0E0D02F"/>
+  <button label="CH +" type="ch_up" code="0xE0E048B7"/>
+  <button label="CH -" type="ch_down" code="0xE0E008F7"/>
+  <button label="Up" type="dpad_up" code="0xE0E006F9"/>
+  <button label="Down" type="dpad_down" code="0xE0E08679"/>
+  <button label="Left" type="dpad_left" code="0xE0E0A659"/>
+  <button label="Right" type="dpad_right" code="0xE0E046B9"/>
+  <button label="OK" type="dpad_center" code="0x16CF0F0"/>
+  <button label="Back" type="back" code="0xE0E01AE5"/>
+  <button label="Home" type="home" code="0xE0E03EC1"/>
+  <button label="1" type="num" code="0xE0E020DF"/>
+  <button label="2" type="num" code="0xE0E0A05F"/>
+  <button label="3" type="num" code="0xE0E0609F"/>
+  <button label="4" type="num" code="0xE0E010EF"/>
+  <button label="5" type="num" code="0xE0E0906F"/>
+  <button label="6" type="num" code="0xE0E050AF"/>
+  <button label="7" type="num" code="0xE0E030CF"/>
+  <button label="8" type="num" code="0xE0E0B04F"/>
+  <button label="9" type="num" code="0xE0E0708F"/>
+  <button label="0" type="num" code="0xE0E08877"/>
+</irplus>

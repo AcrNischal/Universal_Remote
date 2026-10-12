@@ -1,0 +1,56 @@
+<irplus>
+	<device manufacturer="TELESYSTEM" model="TS6006 Stealth" columns="12" format="WINLIRC_NEC1">
+
+		<space multiple="3"/>
+		<space multiple="3"/>
+		<space multiple="3"/>
+		<button label="&#xf011;" backgroundColor="FFC84334" span="3">0x10EF 0xD02F</button>
+
+		<button label="1" span="3">0x10EF 0x827D</button>
+		<button label="2" span="3">0x10EF 0x926D</button>
+		<button label="3" span="3">0x10EF 0x9A65</button>
+		<button label="&#xfF581;" span="3">0x10EF 0xBA45</button>
+
+		<button label="4" span="3">0x10EF 0x42BD</button>
+		<button label="5" span="3">0x10EF 0x52AD</button>
+		<button label="6" span="3">0x10EF 0x5AA5</button>
+		<button label="TV/RADIO" span="3">0x10EF 0x7A85</button>
+
+		<button label="7" span="3">0x10EF 0x02FD</button>
+		<button label="8" span="3">0x10EF 0x12ED</button>
+		<button label="9" span="3">0x10EF 0x1AE5</button>
+		<button label="0" span="3">0x10EF 0x3AC5</button>
+
+		<button label="VOL+" span="4">0x10EF 0xC03F</button>
+		<button label="&#xf0D8;" span="4">0x10EF 0xD827</button>
+		<button label="CH+" span="4">0x10EF 0xF807</button>
+
+		<button label="&#xf0D9;" span="4">0x10EF 0x40BF</button>
+		<button label="OK" span="4">0x10EF 0x58A7</button>
+		<button label="&#xf0DA;" span="4">0x10EF 0x7887</button>
+
+		<button label="VOL-" span="4">0x10EF 0x807F</button>
+		<button label="&#xf0D7;" span="4">0x10EF 0x9867</button>
+		<button label="CH-" span="4">0x10EF 0xB847</button>
+
+		<button label="EXIT" span="4">0x10EF 0x00FF</button>
+		<button label="&#xf111;" labelColor="FFC84334" span="4">0x10EF 0x18E7</button>
+		<button label="BACK" span="4">0x10EF 0x38C7</button>
+
+		<button label="&#xf04D;" backgroundColor="FFC84334" span="3">0x10EF 0x50AF</button>
+		<button label="&#xf04B; &#xf04C;" backgroundColor="FF1E7854" span="3">0x10EF 0x708F</button>
+		<button label="SLOW" backgroundColor="FFD6A81F" span="3">0x10EF 0x48B7</button>
+		<button label="TIMESHIFT" backgroundColor="FF2A4C94" span="3">0x10EF 0x6897</button>
+
+		<button label="AUDIO" span="3">0x10EF 0x906F</button>
+		<button label="&#xf04A;" span="3">0x10EF 0xB04F</button>
+		<button label="&#xf04E;" span="3">0x10EF 0x8877</button>
+		<button label="MENU" span="3">0x10EF 0xA857</button>
+
+		<button label="TEXT" span="3">0x10EF 0x10EF</button>
+		<button label="EPG" span="3">0x10EF 0x30CF</button>
+		<button label="INFO" span="3">0x10EF 0x08F7</button>
+		<button label="SUBTITLE" span="3">0x10EF 0x28D7</button>
+
+	</device>
+</irplus>

@@ -1,0 +1,61 @@
+<irplus>
+    <device manufacturer="AKAI" model="RC-C79" columns="4" format="WINLIRC_NEC1" one-space="1594" one-pulse="654" zero-pulse="654" zero-space="468"
+        header-pulse="9123" header-space="4407" bits="16" pre-bits="16">
+
+        <button label="0">0xB14E 0x00FF</button>
+        <button label="0+">0xB14E 0xB04F</button>
+        <button label="1">0xB14E 0x807F</button>
+        <button label="2">0xB14E 0x40BF</button>
+
+        <button label="3">0xB14E 0xC03F</button>
+        <button label="4">0xB14E 0x20DF</button>
+        <button label="5">0xB14E 0xA05F</button>
+        <button label="6">0xB14E 0x609F</button>
+
+        <button label="7">0xB14E 0xE01F</button>
+        <button label="8">0xB14E 0x10EF</button>
+        <button label="9">0xB14E 0x906F</button>
+        <button label="10">0xB14E 0x02FD</button>
+
+        <button label="11">0xB14E 0x827D</button>
+        <button label="12">0xB14E 0x42BD</button>
+        <button label="13">0xB14E 0xC23D</button>
+        <button label="14">0xB14E 0x22DD</button>
+
+        <button label="15">0xB14E 0xA25D</button>
+        <button label="16">0xB14E 0x629D</button>
+        <button label="17">0xB14E 0xE21D</button>
+        <button label="18">0xB14E 0x12ED</button>
+
+        <button label="19">0xB14E 0x926D</button>
+        <button label="20">0xB14E 0x52AD</button>
+        <button label="PROGRAM">0xB14E 0x08F7</button>
+        <button label="CLEAR">0xB14E 0xC837</button>
+
+        <button label="RANDOM">0xB14E 0x18E7</button>
+        <button label="INDEX">0xB14E 0xF00F</button>
+        <button label="TIME">0xB14E 0x58A7</button>
+        <button label="REPEAT">0xB14E 0xD827</button>
+
+        <button label="EDIT">0xB14E 0x50AF</button>
+        <button label="A/B">0xB14E 0x28D7</button>
+        <button label="DIMMER">0xB14E 0x32CD</button>
+        <button label="PEAK">0xB14E 0x30CF</button>
+
+        <button label="VOL+">0xB14E 0x9867</button>
+        <button label="DAC">0xB14E 0x728D</button>
+        <button label="DIGITAL">0xB14E 0xB24D</button>
+        <button label="REWIND">0xB14E 0xE817</button>
+
+        <button label="VOL-">0xB14E 0xD02F</button>
+        <button label="PREV">0xB14E 0x7887</button>
+        <button label="PLAY">0xB14E 0x6897</button>
+        <button label="NEXT">0xB14E 0xB847</button>
+
+        <button label="&#xf052;" alt="EJECT">0xB14E 0xA857</button>
+        <button label="PAUSE">0xB14E 0x708F</button>
+        <button label="PLAY">0xB14E 0x38C7</button>
+        <button label="STOP">0xB14E 0xF807</button>
+
+    </device>
+</irplus>

@@ -1,0 +1,68 @@
+<irplus>
+    <device manufacturer="KENWOOD" model="RC-R0602" columns="12" format="WINLIRC_NEC1">
+        
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x1DE2 0xB946</button>
+        <button label="PTY" span="4">0x1D80 0x39C6</button>
+        <button label="AF" span="4">0x1D80 0xB946</button>
+
+        <button label="DISPLAY" span="4">0x1DE2 0x1AE5</button>
+        <button label="BAND" span="4">0x1DE2 0xF10E</button>
+        <button label="DIRECT" span="4">0x1DE2 0x7986</button>
+
+        <button label="P CALL-" span="6">0x1DE2 0x31CE</button>
+        <button label="P CALL+" span="6">0x1DE2 0x9966</button>
+
+        <button label="1" span="4">0x1DE2 0x817E</button>
+        <button label="2" span="4">0x1DE2 0x41BE</button>
+        <button label="3" span="4">0x1DE2 0xC13E</button>
+
+        <button label="4" span="4">0x1DE2 0x21DE</button>
+        <button label="5" span="4">0x1DE2 0xA15E</button>
+        <button label="6" span="4">0x1DE2 0x619E</button>
+
+        <button label="7" span="4">0x1DE2 0xE11E</button>
+        <button label="8" span="4">0x1DE2 0x11EE</button>
+        <button label="9" span="4">0x1DE2 0x916E</button>
+
+        <button label="0" span="4">0x1DE2 0x01FE</button>
+        <button label="+10" span="4">0x1DE2 0xB04F</button>
+        <button label="DISC" span="4">0x1DE2 0x10EF</button>
+
+        <button label="DISC PREV" span="3">0x1DE2 0x738C</button>
+        <button label="DISC STOP" span="3">0x1DE2 0x936C</button>
+        <button label="DISC PLAY" span="3">0x1DE2 0xD32C</button>
+        <button label="DISC NEXT" span="3">0x1DE2 0xF30C</button>
+
+        <button label="TAPE A REW" span="3">0x1DE2 0x4BB4</button>
+        <button label="TAPE A LEFT" span="3">0x1DE2 0x0BF4</button>
+        <button label="TAPE A RIGHT" span="3">0x1DE2 0x8B74</button>
+        <button label="TAPE A FFW" span="3">0x1DE2 0xCB34</button>
+
+        <button label="TAPE A STOP" span="6">0x1DE2 0xAB54</button>
+        <button label="TAPE2" span="6">0x1DE2 0xA956</button>
+
+        <button label="TAPE B REW" span="3">0x1DE2 0x5BA4</button>
+        <button label="TAPE B LEFT" span="3">0x1DE2 0x1BE4</button>
+        <button label="TAPE B RIGHT" span="3">0x1DE2 0x9B64</button>
+        <button label="TAPE B FFW" span="3">0x1DE2 0xDB24</button>
+
+        <button label="TAPE B RECORD" span="6">0x1DE2 0x7B84</button>
+        <button label="TAPE B STOP" span="6">0x1DE2 0xBB44</button>
+
+        <button label="INPUT" span="6">0x1D80 0x33CC</button>
+        <button label="TEST TONE" span="6">0x1DE2 0x6A95</button>
+
+        <button label="SURROUND" span="4">0x1DE2 0xEB14</button>
+        <button label="&#xFF581;" span="4">0x1DE2 0x39C6</button>
+        <button label="DELAY" span="4">0x1DE2 0xB24D</button>
+
+        <button label="CENTER" span="6">0x1DE2 0xD02F</button>
+        <button label="REAR" span="6">0x1DE2 0xE31C</button>
+
+        <button label="MULTI LVL-" span="6">0x1D80 0x8976</button>
+        <button label="MULTI LVL+" span="6">0x1D80 0x49B6</button>
+
+        <button label="VOL-" span="6">0x1DE2 0x59A6</button>
+        <button label="VOL+" span="6">0x1DE2 0xD926</button>
+    </device>
+</irplus>

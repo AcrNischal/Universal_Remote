@@ -1,0 +1,43 @@
+<irplus><!-- XV-5377 -->
+    <device manufacturer="YAMAHA" model="RAX9" columns="12" format="WINLIRC_NEC1">
+
+        <button label="REC" labelColor="FFC84334" span="4">0x5EA1 0x20DF</button>
+        <button label="STANDBY" labelColor="FFC84334" span="4">0x5EA1 0xF807</button>
+        <button label="DECK A/B" span="4">0x5EA1 0x609F</button>
+
+        <button label="TAPE &#xf04a;" span="4">0x5EA1 0x807F</button>
+        <button label="TAPE &#xf04b;" span="4">0x5EA1 0x00FF</button>
+        <button label="TAPE &#xf04e;" span="4">0x5EA1 0x40BF</button>
+
+        <button label="TAPE DIR A" span="4">0x5EA1 0xE01F</button>
+        <button label="TAPE &#xf04d;" span="4">0x5EA1 0xC03F</button>
+        <button label="TAPE DIR B" span="4">0x5EA1 0x02FD</button>
+
+        <button label="CD DISC SKIP" span="4">0x5EA1 0xF20D</button>
+        <space multiple="4"/>
+        <space multiple="4"/>
+
+        <button label="CD &#xf049;" span="4">0x5EA1 0xD02F</button>
+        <button label="CD &#xf04b;" span="4">0x5EA1 0x10EF</button>
+        <button label="CD &#xf050;" span="4">0x5EA1 0x50AF</button>
+
+        <button label="CD &#xf04a;" span="4">0x5EA1 0xB04F</button>
+        <button label="CD &#xf04d;" span="4">0x5EA1 0x906F</button>
+        <button label="CD &#xf04e;" span="4">0x5EA1 0x30CF</button>
+
+        <button label="TUNER -" span="4">0x5EA1 0x8877</button>
+        <button label="TUNER +" span="4">0x5EA1 0x08F7</button>
+        <button label="A/B/C/D/E" span="4">0x5EA1 0x48B7</button>
+
+        <button label="MD" span="4">0x5EA1 0x9867</button>
+        <button label="TAPE" span="4">0x5EA1 0x18E7</button>
+        <button label="CD" span="4">0x5EA1 0xA857</button>
+
+        <button label="AUX" span="4">0x5EA1 0xE817</button>
+        <button label="PHONO" span="4">0x5EA1 0x28D7</button>
+        <button label="TUNER" span="4">0x5EA1 0x6897</button>
+
+        <button label="VOL-" span="6">0x5EA1 0xD827</button>
+        <button label="VOL+" span="6">0x5EA1 0x58A7</button>
+    </device>
+</irplus>

@@ -1,0 +1,62 @@
+<irplus>
+    <device manufacturer="SMART" model="CX75" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x202 0x50AF</button>
+        <button label="SETUP" span="4">0x202 0x30CF</button>
+        <button label="&#xFF581;" span="4">0x202 0xF00F</button>
+
+        <button label="MOVIE" span="3">0x202 0x6897</button>
+        <button label="MUSIC" span="3">0x202 0xE817</button>
+        <button label="PHOTO" span="3">0x202 0x18E7</button>
+        <button label="FILE" span="3">0x202 0x9867</button>
+
+        <button label="1" span="4">0x202 0x807F</button>
+        <button label="2" span="4">0x202 0x40BF</button>
+        <button label="3" span="4">0x202 0xC03F</button>
+
+        <button label="4" span="4">0x202 0xC837</button>
+        <button label="5" span="4">0x202 0x20DF</button>
+        <button label="6" span="4">0x202 0xA05F</button>
+
+        <button label="7" span="4">0x202 0x609F</button>
+        <button label="8" span="4">0x202 0x28D7</button>
+        <button label="9" span="4">0x202 0x10EF</button>
+
+        <button label="GOTO" span="4">0x202 0xE01F</button>
+        <button label="0" span="4">0x202 0x906F</button>
+        <button label="INFO" span="4">0x202 0x58A7</button>
+
+        <button label="ANGLE" span="4">0x202 0x48B7</button>
+        <button label="PLAY-PAUSE" span="4">0x202 0x00FF</button>
+        <button label="STOP" span="4">0x202 0xB847</button>
+
+        <button label="RETURN" span="4">0x202 0xD827</button>
+        <button label="&#xf0d8;" span="4">0x202 0xD02F</button>
+        <button label="BOOKMARK" span="4">0x202 0x52AD</button>
+
+        <button label="&#xf0d9;" span="4">0x202 0x08F7</button>
+        <button label="OK" span="4">0x202 0xB04F</button>
+        <button label="&#xf0da;" span="4">0x202 0x8877</button>
+
+        <button label="VOL-" span="4">0x202 0xA857</button>
+        <button label="&#xf0d7;" span="4">0x202 0x708F</button>
+        <button label="VOL+" span="4">0x202 0x38C7</button>
+
+        <button label="PREV" span="3">0x202 0x7887</button>
+        <button label="REW" span="3">0x202 0x02FD</button>
+        <button label="FWD" span="3">0x202 0x827D</button>
+        <button label="NEXT" span="3">0x202 0xF807</button>
+
+        <button label="SYNC-RIGHT" span="4">0x202 0xC23D</button>
+        <button label="SYNC-LEFT" span="4">0x202 0x42BD</button>
+        <button label="ZOOM" span="4">0x202 0x22DD</button>
+
+        <button label="SCROLL" span="4">0x202 0xA25D</button>
+        <button label="SUBTITLE" span="4">0x202 0x629D</button>
+        <button label="PICTURE" span="4">0x202 0xE21D</button>
+
+        <button label="MENU" span="4">0x202 0x12ED</button>
+        <button label="TITLE" span="4">0x202 0x926D</button>
+        <button label="TV-OUT" span="4">0x202 0xD22D</button>
+    </device>
+</irplus>

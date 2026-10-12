@@ -1,0 +1,43 @@
+<irplus><!--17PT1563_43-->
+	<device manufacturer="PHILIPS" model="PT-Legacy-TV" columns="12" format="WINLIRC_RC5" one-space="895" one-pulse="882"
+		zero-pulse="882" zero-space="895" pre-bits="13" frequency="36000">
+
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x100C</button>
+		<button label="INFO" span="4">0x100F</button>
+        <button label="EXT" span="4">0x1038</button>
+
+        <button label="VOL-" span="4">0x1011</button>
+        <button label="&#xFF581;" span="4">0x100D</button>
+        <button label="VOL+" span="4">0x1010</button>
+
+        <button label="CH-" span="4">0x1021</button>
+        <button label="MENU" span="4">0x0012</button>
+        <button label="CH+" span="4">0x1020</button>
+
+		<button label="1" span="4">0x1001</button>
+		<button label="2" span="4">0x1002</button>
+		<button label="3" span="4">0x1003</button>
+		
+		<button label="4" span="4">0x1004</button>
+		<button label="5" span="4">0x1005</button>
+		<button label="6" span="4">0x1006</button>
+		
+		<button label="7" span="4">0x1007</button>
+		<button label="8" span="4">0x1008</button>
+		<button label="9" span="4">0x1009</button>
+		
+		<button label="TEXT TV" span="4">0x103C</button>
+		<button label="0" span="4">0x1000</button>
+		<button label="SURF" span="4">0x1022</button>
+		
+		<button label="TEXT CLOCK" span="3">0x102A</button>
+		<button label="TEXT ENLARGE" span="3">0x102B</button>
+		<button label="TEXT STOP" span="3">0x1029</button>
+		<button label="TEXT REVEAL" span="3">0x1023</button>
+
+		<button label="PICTURE" span="3">0x002B</button>
+		<button label="SOUND" span="3">0x002C</button>
+		<button label="TIMER" span="3">0x002D</button>
+		<button label="GAME" span="3">0x002E</button>
+	</device>
+</irplus>

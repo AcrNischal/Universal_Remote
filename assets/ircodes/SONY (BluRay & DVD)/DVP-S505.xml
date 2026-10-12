@@ -1,0 +1,70 @@
+<irplus>
+	<device manufacturer="SONY" model="DVP-S505" columns="3" format="WINLIRC_SPACEENC" one-space="600" one-pulse="1200" repeat="3" repeatheader="true"
+		zero-pulse="600" zero-space="600" header-pulse="2400" header-space="600" pre-bits="7" bits="13" gap-pulse="1" gap-space="25000" frequency="40000">
+		
+		<button label="&#xf011; ON">0x3A 0xB92</button>
+		<button label="&#xf011; OFF">0x7A 0xB92</button>
+		<button label="&#xf011;" backgroundColor="FFC84334">0x54 0xB92</button>
+		
+		<button label="1">0x00 0xB92</button>
+		<button label="2">0x40  0xB92</button>
+		<button label="3">0x20 0xB92</button>
+		
+		<button label="4">0x60 0xB92</button>
+		<button label="5">0x10 0xB92</button>
+		<button label="6">0x50 0xB92</button>
+		
+		<button label="7">0x30 0xB92</button>
+		<button label="8">0x70 0xB92</button>
+		<button label="9">0x08 0xB92</button>
+		
+		<button label="SLOW-">0x27 0xB92</button>
+		<button label="0">0x48 0xB92</button>
+		<button label="SLOW+">0x67 0xB92</button>
+		
+		<button label="&#xf04b;" alt="PLAY">0x26 0xB92</button>
+		<button label="&#xf04c;" alt="PAUSE">0x4E 0xB92</button>
+		<button label="&#xf04d;" alt="STOP">0x0E 0xB92</button>
+		
+		<button label="&#xf049;" alt="PREV">0x06 0xB92</button>
+		<button label="&#xf052;" alt="EJECT">0x34 0xB92</button>
+		<button label="&#xf050;" alt="NEXT">0x46 0xB92</button>
+		
+		<button label="ENTER">0x68 0xB92</button>
+		<button label="INDEX+">0x72 0xB92</button>
+		<button label="INDEX-">0x32 0xB92</button>
+		
+		<button label="SUBCHANGE">0x63 0xB92</button>
+		<button label="&#xf0d8;">0x4F 0xB92</button>
+		<button label="SUBTITLE">0x23 0xB92</button>
+		
+		<button label="&#xf0d9;">0x6F 0xB92</button>
+		<button label="RETURN">0x38 0xB92</button>
+		<button label="&#xf0da;">0x1F 0xB92</button>
+		
+		<button label="MENU">0x6C 0xB92</button>
+		<button label="&#xf0d7;">0x2F 0xB92</button>
+		<button label="TITLE">0x2C 0xB92</button>
+		
+		<button label="ANGLE">0x53 0xB92</button>
+		<button label="AUDIO">0x13 0xB92</button>
+		<button label="SHUFFLE">0x56 0xB92</button>
+		
+		<button label="PROGRAM">0x7C 0xB92</button>
+		<button label="AGAIN">0x1A 0xB92</button>
+		<button label="A-B">0x2A 0xB92</button>
+		
+		<button label="DNR">0x09 0xB92</button>
+		<button label="SEARCH MODE">0x69 0xB92</button>
+		<button label="CLEAR">0x78 0xB92</button>
+		
+		<button label="TIME">0x0A 0xB92</button>
+		<button label="DISPLAY">0x15 0xB92</button>
+		<button label="SETUP">0x65 0xB92</button>
+		
+		<button label="JOG STOP">0x4A 0xB92</button>
+		<button label="JOG+">0x6E 0xB92</button>
+		<button label="JOG-">0x2E 0xB92</button>
+	</device>
+</irplus>
+

@@ -1,0 +1,25 @@
+<irplus>
+    <device manufacturer="WESTINGHOUSE" model="Bendan-Ceiling-Fan" columns="15" format="WINLIRC_SPACEENC" pre-bits="12"
+        gap-pulse="1" gap-space="6620" one-pulse="1300" one-space="340" zero-pulse="460" zero-space="1180" repeat="4">
+
+        <button label=" OFF" span="7">0xC08</button>
+        <space multiple="1" labelSize="40.0"/>
+        <button label=" ON" span="7">0xC08</button>
+
+        <space multiple="15" labelSize="20.0"/>
+
+        <button label="DIM" span="7">0xC20</button>
+        <space multiple="1" labelSize="40.0"/>
+        <button label="DIM38" span="7" macro="true">DIM;DIM;DIM;DIM;DIM;DIM;DIM;DIM;DIM;DIM;DIM;DIM;DIM;DIM;DIM;DIM;DIM;DIM;DIM;DIM</button>
+
+        <space multiple="8" labelSize="40.0"/>
+        <button label=" OFF" span="7">0xC10</button>
+
+        <space multiple="15" labelSize="20.0"/>
+
+        <button label="SPEED 1" span="5">0xC01</button>
+        <button label="SPEED 2" span="5">0xC04</button>
+        <button label="SPEED 3" span="5">0xC43</button>
+
+    </device>
+</irplus>

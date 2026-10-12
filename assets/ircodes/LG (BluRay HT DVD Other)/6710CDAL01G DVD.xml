@@ -1,0 +1,72 @@
+<irplus>
+    <device manufacturer="LG" model="DVD 6710CDAL01G" columns="12" format="WINLIRC_NECx1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x3434 0x7887</button>
+        <button label="&#xFF581;" span="4">0x3434 0xF807</button>
+        <button label="&#xf052;" alt="EJECT" span="4">0x3434 0x59A6</button>
+        
+        <button label="CD-DVD" span="4">0x3434 0xC03F</button>
+        <button label="BAND" span="4">0x3434 0x9A65</button>
+        <button label="AUX" span="4">0x3434 0x906F</button>
+        
+        <button label="1" span="4">0x3434 0x827D</button>
+        <button label="2" span="4">0x3434 0x42BD</button>
+        <button label="3" span="4">0x3434 0xC23D</button>
+        <button label="4" span="4">0x3434 0x22DD</button>
+        <button label="5" span="4">0x3434 0xA25D</button>
+        <button label="6" span="4">0x3434 0x629D</button>
+        <button label="7" span="4">0x3434 0xE21D</button>
+        <button label="8" span="4">0x3434 0x12ED</button>
+        <button label="9" span="4">0x3434 0x926D</button>
+
+        <button label="SLEEP" span="4">0x3434 0x43BC</button>
+        <button label="0" span="4">0x3434 0xD22D</button>
+        <button label="AUDIO" span="4">0x3434 0x05FA</button>
+        
+        <button label="SOUND" span="4">0x3434 0x857A</button>
+        <button label="S-TITLE" span="4">0x3434 0xD52A</button>
+        <button label="RETURN" span="4">0x3434 0x45BA</button>
+        
+        <button label="SETUP" span="3">0x3434 0xA55A</button>
+        <button label="DISPLAY" span="3">0x3434 0xC53A</button>
+        <button label="MENU" span="3">0x3434 0x25DA</button>
+        <button label="TITLE" span="3">0x3434 0xF50A</button>
+
+        <button label="PLUS" span="4">0x3434 0xC837</button>
+        <button label="&#xf0d8;" span="4">0x3434 0xE51A</button>
+        <button label="VOL+" span="4">0x3434 0xE817</button>
+
+        <button label="&#xf0d9;" span="4">0x3434 0x15EA</button>
+        <button label="ENTER" span="4">0x3434 0x55AA</button>
+        <button label="&#xf0da;" span="4">0x3434 0x956A</button>
+
+        <button label="MINUS" span="4">0x3434 0x48B7</button>
+        <button label="&#xf0d7;" span="4">0x3434 0x659A</button>
+        <button label="VOL-" span="4">0x3434 0x6897</button>
+       
+        <button label="&#xf04a;" alt="REW" span="3">0x3434 0x8D72</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x3434 0x4DB2</button>
+        <button label="&#xf049;" alt="PREV" span="3">0x3434 0x609F</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0x3434 0xE01F</button>
+        
+        <button label="&#xf04d;" alt="STOP" span="4">0x3434 0xA05F</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x3434 0xF20D</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0x3434 0x20DF</button>
+         
+        <button label="PROGRAM" span="3">0x3434 0xB24D</button>
+        <button label="CLEAR" span="3">0x3434 0x0DF2</button>
+        <button label="REPEAT" span="3">0x3434 0x728D</button>
+        <button label="REPEATA-B" span="3">0x3434 0xB54A</button>
+        
+        <button label="MARKER" span="3">0x3434 0x2DD2</button>
+        <button label="SEARCH" span="3">0x3434 0xCD32</button>
+        <button label="ANGLE" span="3">0x3434 0x35CA</button>
+        <button label="ZOOM" span="3">0x3434 0x758A</button>
+        
+        <button label="RDS" span="3">0x3434 0x06F9</button>
+        <button label="PTY" span="3">0x3434 0x8E71</button>
+        <button label="PTY-SEARCH" span="3">0x3434 0x9C63</button>
+        <button label="DIMMER" span="3">0x3434 0x7A85</button>
+
+    </device>
+</irplus>

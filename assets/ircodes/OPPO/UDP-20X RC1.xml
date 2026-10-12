@@ -1,0 +1,79 @@
+<irplus>
+    <device manufacturer="OPPO" model="UDP-20X RC1" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x926D 0x58A7</button>
+        <button label="INPUT" span="4">0x926D 0x8877</button>
+        <button label="OPEN" span="4">0x926D 0xD827</button>
+
+        <button label="PURE AUDIO" span="3">0x926D 0x827D</button>
+        <button label="VOL-" span="3">0x926D 0xE817</button>
+        <button label="VOL+" span="3">0x926D 0xC837</button>
+        <button label="MUTE" span="3">0x926D 0xC23D</button>
+
+        <button label="1" span="3">0x926D 0xD02F</button>
+        <button label="2" span="3">0x926D 0xE01F</button>
+        <button label="3" span="3">0x926D 0xC03F</button>
+        <button label="HOME" span="3">0x926D 0x3AC5</button>
+
+        <button label="4" span="3">0x926D 0x50AF</button>
+        <button label="5" span="3">0x926D 0x609F</button>
+        <button label="6" span="3">0x926D 0x40BF</button>
+        <button label="PAGE+" span="3">0x926D 0x7A85</button>
+
+        <button label="7" span="3">0x926D 0x906F</button>
+        <button label="8" span="3">0x926D 0xA05F</button>
+        <button label="9" span="3">0x926D 0x807F</button>
+        <button label="PAGE-" span="3">0x926D 0xBA45</button>
+
+        <button label="CLEAR" span="3">0x926D 0x629D</button>
+        <button label="0" span="3">0x926D 0x20DF</button>
+        <button label="GOTO" span="3">0x926D 0x52AD</button>
+        <button label="INFO" span="3">0x926D 0x22DD</button>
+
+        <button label="TOP MENU" span="4">0x926D 0x12ED</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0x926D 0x18E7</button>
+        <button label="POP-UP MENU" span="4">0x926D 0x02FD</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x926D 0xEA15</button>
+        <button label="ENTER" span="4">0x926D 0xCA35</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x926D 0xF20D</button>
+
+        <button label="OPTION" span="4">0x926D 0x1AE5</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x926D 0x08F7</button>
+        <button label="RETURN" span="4">0x926D 0x42BD</button>
+
+        <button label="R" alt="RED" fillColor="FFC84334" span="3">0x926D 0x38C7</button>
+        <button label="G" alt="GREEN" fillColor="FF1E7854" span="3">0x926D 0xB847</button>
+        <button label="B" alt="BLUE" fillColor="FF2A4C94" span="3">0x926D 0xF807</button>
+        <button label="Y" alt="YELLOW" fillColor="FFD6A81F" span="3">0x926D 0x7887</button>
+
+        <button label="&#xf04d;" alt="STOP" span="4">0x926D 0x4AB5</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0x926D 0x6A95</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x926D 0x28D7</button>
+
+        <button label="&#xf049;" alt="PREV" span="3">0x926D 0x2AD5</button>
+        <button label="&#xf04a;" alt="REV" span="3">0x926D 0xAA55</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x926D 0x8A75</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0x926D 0x0AF5</button>
+
+        <button label="AUDIO" span="3">0x926D 0xE21D</button>
+        <button label="SUBTITLE" span="3">0x926D 0xD22D</button>
+        <button label="ZOOM" span="3">0x926D 0xA25D</button>
+        <button label="DIMMER" span="3">0x926D 0xFA05</button>
+
+        <button label="SETUP" span="3">0x926D 0x00FF</button>
+        <button label="AB REPLAY" span="3">0x926D 0xB24D</button>
+        <button label="REPEAT" span="3">0x926D 0x32CD</button>
+        <button label="PICTURE ADJ." span="3">0x926D 0x708F</button>
+
+        <button label="3D" span="4">0x926D 0xC639</button>
+        <button label="RESOLUTION" span="4">0x926D 0xA857</button>
+        <button label="HDR" span="4">0x926D 0x10EF</button>
+
+        <!--
+        <button label="ON" span="4">0x926D 0x5AA5</button>
+        <button label="OFF" span="4">0x926D 0xDA25</button>
+        -->
+
+    </device>
+</irplus>

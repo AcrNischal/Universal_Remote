@@ -1,0 +1,44 @@
+<irplus>
+	<device manufacturer="WESTINGHOUSE" model="LVM-47W1" columns="3" format="WINLIRC_NEC1" one-space="1627" one-pulse="623" zero-pulse="623" zero-space="505" header-pulse="9077" header-space="4441" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" backgroundColor="FFC84334">0x807F 0x807F</button>
+		<button label="INPUT">0x807F 0x00FF</button>
+		<button label="YPbPr">0x807F 0x50AF</button>
+		
+		<button label="1">0x807F 0x8877</button>
+		<button label="2">0x807F 0x48B7</button>
+		<button label="3">0x807F 0xC837</button>
+		
+		<button label="4">0x807F 0x28D7</button>
+		<button label="5">0x807F 0xA857</button>
+		<button label="6">0x807F 0x6897</button>
+		
+		<button label="7">0x807F 0xE817</button>
+		<button label="8">0x807F 0x18E7</button>
+		<button label="9">0x807F 0x9867</button>
+		
+		<button label="BACK">0x807F 0x10EF</button>
+		<button label="0">0x807F 0x58A7</button>
+		<button label="MENU">0x807F 0x629D</button>
+		
+		<button label="VOL+">0x807F 0x20DF</button>
+		<button label="&#xf0d8;">0x807F 0x02FD</button>
+		<button label="&#xFF581;">0x807F 0x08F7</button>
+		
+		<button label="&#xf0d9;">0x807F 0x827D</button>
+		<button label="ENTER">0x807F 0x42BD</button>
+		<button label="&#xf0da;">0x807F 0xC23D</button>
+		
+		<button label="VOL-">0x807F 0xA05F</button>
+		<button label="&#xf0d7;">0x807F 0x22DD</button>
+		<button label="INFO">0x807F 0xD827</button>
+		
+		<button label="FREEZE">0x807F 0x38C7</button>
+		<button label="VGA">0x807F 0x906F</button>
+		<button label="DVI">0x807F 0x609F</button>
+		
+		<button label="S-Video">0x807F 0x30CF</button>
+		<button label="AV">0x807F 0xD02F</button>
+		<button label="ASPECT">0x807F 0xE01F</button>
+	</device>
+</irplus>

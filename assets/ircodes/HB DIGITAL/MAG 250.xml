@@ -1,0 +1,67 @@
+<irplus>
+    <device manufacturer="HB DIGITAL" model="MAG 250" columns="12" format="WINLIRC_RC5" bits="13" pre-bits="13" frequency="36000"
+        toggle-bit-pos="2" gap-pulse="1" gap-space="113762" one-pulse="898" one-space="880" zero-pulse="898" zero-space="880">
+
+        <button label="&#xf011;" alt="POWER" span="4">0x000000000000138C</button>
+        <button label="&#xFF581;" span="4">0x00000000000013B0</button>
+        <button label="MIC" span="4">0x00000000000013A9</button>
+        
+        <button label="1" span="4">0x0000000000001381</button>
+        <button label="2" span="4">0x0000000000001382</button>
+        <button label="3" span="4">0x0000000000001383</button>
+        
+        <button label="4" span="4">0x0000000000001384</button>
+        <button label="5" span="4">0x0000000000001385</button>
+        <button label="6" span="4">0x0000000000001386</button>
+        
+        <button label="7" span="4">0x0000000000001387</button>
+        <button label="8" span="4">0x0000000000001388</button>
+        <button label="9" span="4">0x0000000000001389</button>
+
+        <button label="MENU" span="4">0x000000000000138A</button>
+        <button label="0" span="4">0x0000000000001380</button>
+        <button label="BACK" span="4">0x000000000000138F</button>
+        
+        <button label="PAGE-" span="3">0x0000000000001395</button>
+        <button label="EXIT" span="3">0x000000000000138D</button>
+        <button label="REFRESH" span="3">0x00000000000013AE</button>
+        <button label="PAGE+" span="3">0x0000000000001394</button>
+
+        <button label="VOL+" span="4">0x0000000000001392</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0x00000000000013BD</button>
+        <button label="CH+" span="4">0x00000000000013BC</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x00000000000013BF</button>
+        <button label="OK" span="4">0x00000000000013AC</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x00000000000013AB</button>
+
+        <button label="VOL-" span="4">0x0000000000001393</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x00000000000013BE</button>
+        <button label="CH-" span="4">0x0000000000001391</button>
+
+        <button label="R" alt="RED" span="3">0x00000000000013B2</button>
+        <button label="G" alt="GREEN" span="3">0x00000000000013B1</button>
+        <button label="Y" alt="YELLOW" span="3">0x00000000000013B9</button>
+        <button label="B" alt="BLUE" span="3">0x00000000000013BA</button>
+
+        <button label="SERV" span="3">0x00000000000013B3</button>
+        <button label="TV" span="3">0x00000000000013B5</button>
+        <button label="PHONE" span="3">0x00000000000013B6</button>
+        <button label="WEB" span="3">0x00000000000013B8</button>
+
+        <button label="&#xf04a;" alt="REW" span="3">0x0000000000001396</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x0000000000001390</button>
+        <button label="&#xf04b;" alt="PLAY" span="3">0x000000000000138B</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0x0000000000001399</button>
+
+        <button label="&#xf111;" alt="REC" span="3">0x000000000000139E</button>
+        <button label="INFO" span="3">0x000000000000139D</button>
+        <button label="FRAME" span="3">0x0000000000001397</button>
+        <button label="SPEC" span="3">0x0000000000001398</button>
+       
+        <button label="MODE" span="3">0x00000000000013A3</button>
+        <button label="PIP" span="3">0x00000000000013A8</button>
+        <button label="SWAP" span="3">0x00000000000013AA</button>
+        <button label="FAV" span="3">0x00000000000013AD</button>
+    </device>
+</irplus>

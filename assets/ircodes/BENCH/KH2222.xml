@@ -1,0 +1,39 @@
+<irplus>
+    <device manufacturer="BENCH" model="KH2222" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xcf3 0x50af</button>
+        <button label="AV" span="4">0xcf3 0x708f</button>
+        <button label="EXIT" span="4">0xcf3 0x728d</button>
+
+        <button label="MENU" span="4">0xcf3 0x32cd</button>
+        <button label="AUDIO" span="4">0xcf3 0xf00f</button>
+        <button label="PICT" span="4">0xcf3 0x6897</button>
+
+        <button label="&#xFF581;" span="4">0xcf3 0x52ad</button>
+        <button label="&#xf0d8;" span="4">0xcf3 0xaa55</button>
+        <button label="FAV P/C" span="4">0xcf3 0x6a95</button>
+
+        <button label="&#xf0d9;" span="4">0xcf3 0xa857</button>
+        <button label="OK" span="4">0xcf3 0x28d7</button>
+        <button label="&#xf0da;" span="4">0xcf3 0x9a65</button>
+
+        <button label="VOL-" span="4">0xcf3 0xf807</button>
+        <button label="&#xf0d7;" span="4">0xcf3 0x18e7</button>
+        <button label="VOL+" span="4">0xcf3 0xd827</button>
+
+        <button label="REVEAL" span="4">0xcf3 0xda25</button>
+        <button label="INFO" span="4">0xcf3 0xea15</button>
+        <button label="S.2" span="4">0xcf3 0x6897</button>
+
+        <button label="PAUSE" span="4">0xcf3 0xa05f</button>
+        <button label="S &#xf0d8;" span="4">0xcf3 0x1ae5</button>
+        <button label="UPDATE" span="4">0xcf3 0x9867</button>
+
+        <button label="&#xf0d9; S" span="6">0xcf3 0x7a85</button>
+        <button label="S &#xf0da;" span="6">0xcf3 0x5aa5</button>
+
+        <button label="EXPAND" span="4">0xcf3 0x7887</button>
+        <button label="S &#xf0d7;" span="4">0xcf3 0x3ac5</button>
+        <button label="BACK" span="4">0xcf3 0x58a7</button>
+    </device>
+</irplus>

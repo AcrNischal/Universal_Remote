@@ -1,0 +1,49 @@
+<irplus>
+    <device manufacturer="PROBOX" model="190HD Evolution" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16" toggle-bit-pos="0" gap-pulse="583" gap-space="108375" one-pulse="583" one-space="1665" zero-pulse="583" zero-space="541" header-pulse="9068" header-space="4476">
+        <button label="&#xf011;" alt="POWER" span="4">0x2068 0x50AF</button>
+        <button label="SLEEP" span="4">0x2068 0x30CF</button>
+        <button label="MUTE" span="4">0x2068 0xF00F</button>
+        <button label="1" span="4">0x2068 0x807F</button>
+        <button label="2" span="4">0x2068 0x40BF</button>
+        <button label="3" span="4">0x2068 0xC03F</button>
+        <button label="4" span="4">0x2068 0x20DF</button>
+        <button label="5" span="4">0x2068 0xA05F</button>
+        <button label="6" span="4">0x2068 0x609F</button>
+        <button label="7" span="4">0x2068 0xE01F</button>
+        <button label="8" span="4">0x2068 0x10EF</button>
+        <button label="9" span="4">0x2068 0x906F</button>
+        <button label="0" span="4">0x2068 0x00FF</button>
+        <button label="TV/RADIO" span="4">0x2068 0xE817</button>
+        <button label="AUDIO" span="4">0x2068 0xE21D</button>
+        <button label="FAV" span="4">0x2068 0xA25D</button>
+        <button label="EPG" span="4">0x2068 0x629D</button>
+        <button label="RECALL" span="4">0x2068 0xD827</button>
+        <button label="SAT" span="4">0x2068 0xB847</button>
+        <button label="R" alt="RED" span="4">0x2068 0xC837</button>
+        <button label="G" alt="GREEN" span="4">0x2068 0x9867</button>
+        <button label="Y" alt="YELLOW" span="4">0x2068 0x28D7</button>
+        <button label="B" alt="BLUE" span="4">0x2068 0x22DD</button>
+        <button label="MENU" span="4">0x2068 0x02FD</button>
+        <button label="INFO" span="4">0x2068 0x6897</button>
+        <button label="CH+CENTER" span="4">0x2068 0xD02F</button>
+        <button label="CH-CENTER" span="4">0x2068 0x708F</button>
+        <button label="VOL+CENTER" span="4">0x2068 0x8877</button>
+        <button label="VOL-CENTER" span="4">0x2068 0x08F7</button>
+        <button label="OK" span="4">0x2068 0xB04F</button>
+        <button label="VOL+" span="4">0x2068 0xA857</button>
+        <button label="VOL-" span="4">0x2068 0x38C7</button>
+        <button label="CH+" span="4">0x2068 0xF807</button>
+        <button label="CH-" span="4">0x2068 0x7887</button>
+        <button label="EXIT" span="4">0x2068 0x827D</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x2068 0x0AF5</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0x2068 0x8A75</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x2068 0x4AB5</button>
+        <button label="PAGE+" span="4">0x2068 0x58A7</button>
+        <button label="PAGE-" span="4">0x2068 0x42BD</button>
+        <button label="&#xf111;" alt="REC" span="4">0x2068 0xCA35</button>
+        <button label="ATRAVAR-VIDEO" span="4">0x2068 0x2AD5</button>
+        <button label="ADIANTAR-VIDEO" span="4">0x2068 0xAA55</button>
+        <button label="ZOOM" span="4">0x2068 0x12ED</button>
+        <button label="MULTISCREEM" span="4">0x2068 0x48B7</button>
+    </device>
+</irplus>

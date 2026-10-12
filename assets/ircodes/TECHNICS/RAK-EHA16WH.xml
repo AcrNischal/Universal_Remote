@@ -1,0 +1,58 @@
+<irplus>
+    <device manufacturer="TECHNICS" model="RAK-EHA16WH" columns="12" format="WINLIRC_SPACEENC" bits="24" pre-bits="24" frequency="37000"
+        toggle-bit-pos="0" gap-pulse="521" gap-space="74328" one-pulse="521" one-space="342" zero-pulse="521" zero-space="1214" header-pulse="3568" header-space="1643">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="3">0xBFFBFA 0xC7437E</button>
+        <button label="SLEEP" span="3">0xBFFBFA 0xC796AB</button>
+        <button label="PROGRAM" span="3">0xBFFBFA 0xAFAEFB</button>
+        <button label="CANCEL" span="3">0xBFFBFA 0xAF3A6F</button>
+
+        <button label="1" span="3">0xBFFBFA 0xC7F7CA</button>
+        <button label="2" span="3">0xBFFBFA 0xC7774A</button>
+        <button label="3" span="3">0xBFFBFA 0xC7B78A</button>
+        <button label="DISC" span="3">0xBFFBFA 0xAFDA8F</button>
+
+        <button label="4" span="3">0xBFFBFA 0xC7370A</button>
+        <button label="5" span="3">0xBFFBFA 0xC7D7EA</button>
+        <button label="6" span="3">0xBFFBFA 0xC7576A</button>
+        <button label=">10" span="3">0xBFFBFA 0xC7DEE3</button>
+
+        <button label="7" span="3">0xBFFBFA 0xC797AA</button>
+        <button label="8" span="3">0xBFFBFA 0xC7172A</button>
+        <button label="9" span="3">0xBFFBFA 0xC7E7DA</button>
+        <button label="0" span="3">0xBFFBFA 0xC7675A</button>
+
+        <button label="EQ" span="4">0xBFFBFA 0xF73E33</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0xBFFBFA 0xC7300D</button>
+        <space multiple="4"/>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0xBFFBFA 0xC7407D</button>
+        <button label="3DAI" span="4">0xBFFBFA 0xF7737E</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0xBFFBFA 0xC7C0FD</button>
+
+        <button label="CHSELECT" span="4">0xBFFBFA 0xFF2227</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0xBFFBFA 0xC7B08D</button>
+        <button label="AVEFFECT" span="4">0xBFFBFA 0xC7F8C5</button>
+
+        <button label="TEST" span="3">0xBFFBFA 0xFF9095</button>
+        <button label="PROLOGIC" span="3">0xBFFBFA 0xFFD2D7</button>
+        <button label="SUPER SURROUND" span="3">0xBFFBFA 0xB7F3BE</button>
+        <button label="SIMULATED SURROUND" span="3">0xBFFBFA 0xB7C885</button>
+        
+        <button label="VCR" span="3">0xBFFBFA 0xFF9E9B</button>
+        <button label="TAPE" span="3">0xBFFBFA 0xEF5643</button>
+        <button label="CD" span="3">0xBFFBFA 0xFFD6D3</button>
+        <button label="TUNER" span="3">0xBFFBFA 0xDFDAFF</button>
+        
+        <button label="&#xf04c;" alt="PAUSE" span="4">0xBFFBFA 0xC79FA2</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0xBFFBFA 0xC7FFC2</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0xBFFBFA 0xC7AF92</button>
+        
+        <button label="&#xFF581;" span="4">0xBFFBFA 0xFFB3B6</button>
+        <button label="&#xf049;" alt="PREV" span="4">0xBFFBFA 0xC76D50</button>
+        <button label="&#xf050;" alt="NEXT" span="4">0xBFFBFA 0xC7AD90</button>
+
+        <button label="VOL -" span="6">0xBFFBFA 0xFF7B7E</button>
+        <button label="VOL +" span="6">0xBFFBFA 0xFFFBFE</button>
+    </device>
+</irplus>

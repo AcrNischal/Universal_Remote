@@ -1,0 +1,64 @@
+<irplus>
+    <device manufacturer="KENWOOD" model="RC-R0614" columns="12" format="WINLIRC_NEC1">
+
+        <button label="1" span="3">0x1D00 0x817E</button>
+        <button label="2" span="3">0x1D00 0x41be</button>
+        <button label="3" span="3">0x1D00 0xc13e</button>
+        <button label="&#xf011;" backgroundColor="FF2A4C94" span="3">0x1D00 0xB946</button>
+
+        <button label="4" span="3">0x1D00 0x21de</button>
+        <button label="5" span="3">0x1D00 0xa15e</button>
+        <button label="6" span="3">0x1D00 0x619e</button>
+        <space multiple="3"/>
+
+        <button label="7" span="3">0x1D00 0xe11e</button>
+        <button label="8" span="3">0x1D00 0x11ee</button>
+        <button label="9" span="3">0x1D00 0x916e</button>
+        <space multiple="3"/>
+
+        <button label="0" span="3">0x1D00 0x01fe</button>
+        <button label="+10" span="3">0x1D00 0xb04f</button>
+        <button label="LSTN MODE" span="3">0x1D00 0xfb04</button>
+        <space multiple="3"/>
+
+        <button label="SET UP" span="3">0x1DC0 0x9867</button>
+        <button label="SOUND" span="3">0x1D80 0xea15</button>
+        <button label="PTY" span="3">0x1D80 0x39C6</button>
+        <button label="RDS DISP" span="3">0x1D00 0x1AE5</button>
+
+        <space multiple="4"/>
+        <button label="&#xf0d8;" backgroundColor="FF2A4C94" span="4">0x1D80 0xaa55</button>
+        <space multiple="4"/>
+
+        <button label="&#xf0d9;" backgroundColor="FF2A4C94" span="6">0x1D40 0x00ff</button>
+        <button label="&#xf0da;" backgroundColor="FF2A4C94" span="6">0x1D40 0x807f</button>
+
+        <space multiple="4"/>
+        <button label="&#xf0d7;" backgroundColor="FF2A4C94" span="4">0x1D80 0x2ad5</button>
+        <space multiple="4"/>
+
+        <button label="TUNE REV" span="3">0x1D40 0x40bf</button>
+        <button label="TUNE FWD" span="3">0x1D40 0xc03f</button>
+        <button label="CINE.EQ" span="3">0x1D60 0x12ED</button>
+        <button label="BAND" span="3">0x1Dc0 0x609f</button>
+
+        <button label="BASS BOOST" span="3">0x1D40 0xEA15</button>
+        <button label="A/B" span="3">0x1D00 0x10ef</button>
+        <button label="AUTO" span="3">0x1D40 0x20df</button>
+        <button label="DVD 6CH" backgroundColor="FF2A4C94" span="3">0x1Dc0 0x01fe</button>
+
+        <button label="PHONO" backgroundColor="FF2A4C94" span="3">0x1D00 0x09f6</button>
+        <button label="CD/DVD" backgroundColor="FF2A4C94" span="3">0x1D00 0x49b6</button>
+        <button label="TUNER" backgroundColor="FF2A4C94" span="3">0x1D00 0x8976</button>
+        <button label="MD/TAPE" span="3">0x1D00 0xa956</button>
+
+        <button label="VIDEO1" backgroundColor="FF2A4C94" span="3">0x1D00 0x6996</button>
+        <button label="VIDEO2" backgroundColor="FF2A4C94" span="3">0x1D00 0x40bf</button>
+        <button label="VIDEO3" backgroundColor="FF2A4C94" span="3">0x1Dc0 0xb847</button>
+        <button label="AV AUX" span="3">0x1D00 0xc936</button>
+
+        <button label="&#xFF581;" span="4">0x1D00 0x39c6</button>
+        <button label="VOL-" span="4">0x1D00 0x59a6</button>
+        <button label="VOL+" span="4">0x1D00 0xd926</button>
+    </device>
+</irplus>

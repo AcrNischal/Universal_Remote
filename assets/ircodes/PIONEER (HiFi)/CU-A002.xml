@@ -1,0 +1,35 @@
+<irplus>
+    <device manufacturer="PIONEER" model="CU-A002" columns="12" format="WINLIRC_SPACEENC"
+        bits="1" pre-bits="31" gap-pulse="575" gap-space="25426" one-pulse="575" one-space="1535" zero-pulse="575"
+        zero-space="462" header-pulse="8603" header-space="4164">
+
+
+        <button label="&#xf04a;" alt="REW" span="4">0x42BD750A 0x1</button>
+        <button label="TAPESEL" span="4">0x42BD1966 0x1</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0x42BD354A 0x1</button>
+
+        <button label="L" span="4">0x42BD6D12 0x1</button>
+        <button label="SQUARE" span="4">0x42BD1D62 0x1</button>
+        <button label="R" span="4">0x42BD5D22 0x1</button>
+
+        <button label="&#xf049;" alt="PREV" span="4">0x22DD443B 0x1</button>
+        <button label="DISCSEL" span="4">0x22DD5C23 0x1</button>
+        <button label="&#xf050;" alt="NEXT" span="4">0x22DD047B 0x1</button>
+
+        <button label="CDPOWER" span="4">0x22DD1C63 0x1</button>
+        <button label="SQUARECD" span="4">0x22DD344B 0x1</button>
+        <button label="R-CD" span="4">0x22DD740B 0x1</button>
+
+        <button label="TUNERPOWER" span="4">0x12ED1C63 0x1</button>
+        <button label="TUNER-" span="4">0x12ED443B 0x1</button>
+        <button label="TUNER+" span="4">0x12ED047B 0x1</button>
+
+        <button label="AMPPOWER" span="4">0x52AD1C63 0x1</button>
+        <button label="TAPE2" span="4">0x52AD5C23 0x1</button>
+        <button label="FUNCTION" span="4">0x52AD552A 0x1</button>
+
+        <button label="VOL-" span="6">0x52AD6817 0x1</button>
+        <button label="VOL+" span="6">0x52AD2857 0x1</button>
+
+    </device>
+</irplus>

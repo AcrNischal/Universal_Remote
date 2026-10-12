@@ -1,0 +1,35 @@
+<irplus>
+    <device manufacturer="MODECOM" model="MC2050" columns="12" format="WINLIRC_SPACEENC" bits="32" pre-bits="32"
+        toggle-bit-pos="0" gap-pulse="578" gap-space="40011" one-pulse="611" one-space="1666"
+        zero-pulse="611" zero-space="492" header-pulse="9096" header-space="4449">
+
+        <button label="&#61457;" labelSize="25.0" span="4" backgroundColor="FFC84334">0x00FF00FF</button>
+        <button label="INPUT" labelSize="25.0" span="4" backgroundColor="FF1E7854">0x00FF20DF</button>
+        <button label="3D" labelSize="25.0" span="4" backgroundColor="FF2A4C94">0x00FF609F</button>
+
+        <space multiple="12" />
+
+        <space multiple="1" />
+        <button label="TREBLE &#61656;" labelSize="20.0" span="4">0x00FF906F</button>
+        <space multiple="2" />
+        <button label="BASS &#61656;" labelSize="20.0" span="4">0x00FF50AF</button>
+        <space multiple="1" />
+
+
+        <space multiple="1" />
+        <button label="TREBLE &#61655;" labelSize="20.0" span="4">0x00FFB04F</button>
+        <space multiple="2" />
+        <button label="BASS &#61655;" labelSize="20.0" span="4">0x00FF708F</button>
+        <space multiple="1" />
+
+        <space multiple="12" />
+
+        <button label="VOL &#61656;" labelSize="30.0" span="4">0x00FF8877</button>
+        <button label="VOL &#61656;" labelSize="30.0" span="4">0x00FF8877</button>
+        <button label="VOL &#61656;" labelSize="30.0" span="4">0x00FF8877</button>
+
+        <button label="VOL &#61655;" labelSize="30.0" span="4">0x00FF08F7</button>
+        <button label="VOL &#61655;" labelSize="30.0" span="4">0x00FF08F7</button>
+        <button label="VOL &#61655;" labelSize="30.0" span="4">0x00FF08F7</button>
+    </device>
+</irplus>

@@ -1,0 +1,19 @@
+<irplus>
+    <device manufacturer="PACE" model="DC551P" columns="12" format="WINLIRC_SPACEENC" bits="22" pre-bits="22" gap-pulse="966" gap-space="38009" one-pulse="982" one-space="2495" zero-pulse="982" zero-space="872" header-pulse="3697" header-space="3456">
+        <button label="1" span="4">0x36113D</button>
+        <button label="2" span="4">0x37111D</button>
+        <button label="3" span="4">0x36912D</button>
+
+        <button label="4" span="4">0x37910D</button>
+        <button label="5" span="4">0x365135</button>
+        <button label="6" span="4">0x375115</button>
+
+        <button label="7" span="4">0x36D125</button>
+        <button label="8" span="4">0x37D105</button>
+        <button label="9" span="4">0x363139</button>
+
+        <space multiple="4"/>
+        <button label="0" span="4">0x373119</button>
+        <button label="OK" span="4">0x366133</button>
+    </device>
+</irplus>

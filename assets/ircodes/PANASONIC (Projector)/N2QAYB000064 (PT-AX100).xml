@@ -1,0 +1,32 @@
+<irplus>
+    <device manufacturer="PANASONIC" model="N2QAYB000064" columns="12"
+        format="WINLIRC_SPACEENC" bits="16" pre-bits="40" gap-pulse="465" gap-space="74066"
+        one-pulse="465" one-space="1252" zero-pulse="465" zero-space="384" header-pulse="3572" header-space="1688" repeat="2">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0x4004011200 0xBCAF</button>
+        <button label="&#xf011; ON" span="3">0x4004011200 0x7C6F</button>
+        <button label="&#xf011; OFF" span="3">0x4004011200 0xFCEF</button>
+        <button label="INPUT SELECT" span="3">0x4004011200 0xB6A5</button>
+
+        <button label="THEATER ROOM" span="4">0x4004011200 0x7162</button>
+        <button label="LIVING ROOM" span="4">0x4004011200 0xF1E2</button>
+        <button label="FAVORITE" span="4">0x4004011200 0x8192</button>
+
+        <button label="ASPECT" span="4">0x4004011200 0x7B68</button>
+        <button label="PICTURE ADJ" span="4">0x4004011200 0x7E6D</button>
+        <button label="SLEEP" span="4">0x4004011200 0x998A</button>
+
+        <button label="RETURN" span="4">0x4004011200 0x091A</button>
+        <button label="&#xf0d8;" span="4">0x4004011200 0x5A49</button>
+        <button label="MENU" span="4">0x4004011200 0x5E4D</button>
+
+        <button label="&#xf0d9;" span="4">0x4004011200 0x3A29</button>
+        <button label="ENTER" span="4">0x4004011200 0x4E5D</button>
+        <button label="&#xf0da;" span="4">0x4004011200 0xBAA9</button>
+
+        <button label="DEFAULT" span="4">0x4004011200 0x8695</button>
+        <button label="&#xf0d7;" span="4">0x4004011200 0xDAC9</button>
+        <button label="FREEZE" span="4">0x4004011200 0x4053</button>
+
+    </device>
+</irplus>

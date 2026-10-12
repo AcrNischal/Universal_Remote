@@ -1,0 +1,7 @@
+<irplus>
+    <device manufacturer="NEC1" model="TEST" columns="12" format="WINLIRC_NEC1">
+
+        <button label="TEST" span="3">0xFF00 0xFF00</button>
+
+    </device>
+</irplus>

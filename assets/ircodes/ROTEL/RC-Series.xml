@@ -1,0 +1,24 @@
+<irplus>
+    <device manufacturer="ROTEL" model="RC-Series" columns="12" format="WINLIRC_NEC1">
+
+        <button label="POWER ON" span="4">0xc188 0x19e6</button>
+        <button label="POWER OFF" span="4">0xc188 0x01fe</button>
+        <button label="&#xf111;" alt="RECORD" span="4">0xc188 0x58a7</button>
+
+        <button label="INPUT AUX 1" span="4">0xc188 0xe01f</button>
+        <button label="INPUT AUX 2" span="4">0xc188 0xc03f</button>
+        <button label="INPUT AUX 3" span="4">0xc188 0x20df</button>
+
+        <button label="INPUT TAPE 1" span="6">0xc188 0xa05f</button>
+        <button label="INPUT TAPE 2" span="6">0xc188 0x609f</button>
+
+        <button label="INPUT PHONO" span="4">0xc188 0x50af</button>
+        <button label="INPUT CD" span="4">0xc188 0x807f</button>
+        <button label="INPUT TUNER" span="4">0xc188 0x40bf</button>
+
+        <button label="VOL-" span="4">0xc188 0xe817</button>
+        <button label="&#xFF581;" span="4">0xc188 0x18e7</button>
+        <button label="VOL+" span="4">0xc188 0x6897</button>
+
+    </device>
+</irplus>

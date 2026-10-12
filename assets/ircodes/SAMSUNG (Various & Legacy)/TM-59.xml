@@ -1,0 +1,42 @@
+<irplus>
+    <device manufacturer="SAMSUNG" model="TM-59" columns="12" format="WINLIRC_NECx1" one-space="1519" one-pulse="689" zero-pulse="689" zero-space="407" header-pulse="9124" header-space="4313" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0xA857 0x50AF</button>
+        <button label="TV/RADIO" span="3">0xA857 0xF00F</button>
+        <button label="&#xFF581;" span="3">0xA857 0xD02F</button>
+        <button label="AUDIO" span="3">0xA857 0x6897</button>
+
+        <button label="FAV" span="3">0xA857 0x08F7</button>
+        <button label="EPG" span="3">0xA857 0x30CF</button>
+        <button label="LAST" span="3">0xA857 0x9867</button>
+        <button label="i" span="3">0xA857 0xE817</button>
+
+        <button label="MENU" span="4">0xA857 0x38C7</button>
+        <button label="CH+" span="4">0xA857 0xF807</button>
+        <button label="EXIT" span="4">0xA857 0x18E7</button>
+
+        <button label="VOL-" span="4">0xA857 0xB04F</button>
+        <button label="OK" span="4">0xA857 0xD827</button>
+        <button label="VOL+" span="4">0xA857 0x708F</button>
+
+        <button label="TEXT" span="4">0xA857 0x58A7</button>
+        <button label="CH-" span="4">0xA857 0x7887</button>
+        <button label="ALT" span="4">0xA857 0xB847</button>
+
+        <button label="1" span="4">0xA857 0x807F</button>
+        <button label="2" span="4">0xA857 0x40BF</button>
+        <button label="3" span="4">0xA857 0xC03F</button>
+        
+        <button label="4" span="4">0xA857 0x20DF</button>
+        <button label="5" span="4">0xA857 0xA05F</button>
+        <button label="6" span="4">0xA857 0x609F</button>
+        
+        <button label="7" span="4">0xA857 0xE01F</button>
+        <button label="8" span="4">0xA857 0x10EF</button>
+        <button label="9" span="4">0xA857 0x906F</button>
+
+        <button label="PG+" span="4">0xA857 0x48B7</button>
+        <button label="0" span="4">0xA857 0x00FF</button>
+        <button label="PG-" span="4">0xA857 0xC837</button>
+    </device>
+</irplus>

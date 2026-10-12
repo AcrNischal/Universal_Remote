@@ -1,0 +1,56 @@
+<irplus>
+    <device manufacturer="TARGA" model="DRH-5100X" columns="12" format="WINLIRC_SPACEENC" bits="8" pre-bits="8" gap-pulse="631" gap-space="45960"
+        one-pulse="628" one-space="1498" zero-pulse="628" zero-space="438" header-pulse="8740" header-space="4120" repeat="4">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0xF7 0x46</button>
+        <button label="&#xf052;" alt="EJECT" span="3">0xF7 0x22</button>
+        <button label="P+" span="3">0xF7 0x6E</button>
+        <button label="P-" span="3">0xF7 0xAB</button>
+
+        <button label="1" span="3">0xF7 0x31</button>
+        <button label="2" span="3">0xF7 0x8D</button>
+        <button label="3" span="3">0xF7 0x02</button>
+        <button label="DISPLAY" span="3">0xF7 0xAD</button>
+
+        <button label="4" span="3">0xF7 0xC2</button>
+        <button label="5" span="3">0xF7 0x26</button>
+        <button label="6" span="3">0xF7 0xC6</button>
+        <button label="SETUP" span="3">0xF7 0x2B</button>
+
+        <button label="7" span="3">0xF7 0x16</button>
+        <button label="8" span="3">0xF7 0xE4</button>
+        <button label="9" span="3">0xF7 0x66</button>
+        <button label="EDIT" span="3">0xF7 0x67</button>
+
+        <button label="GUIDER" span="3">0xF7 0x06</button>
+        <button label="0" span="3">0xF7 0x96</button>
+        <button label="MENU" span="3">0xF7 0xF6</button>
+        <button label="COPY" span="3">0xF7 0x9D</button>
+
+        <button label="NAVI" span="3">0xF7 0xB6</button>
+        <button label="&#xf0d8;" backgroundColor="FF636363" span="3">0xF7 0x76</button>
+        <button label="HDD/DVD" span="3">0xF7 0x98</button>
+        <button label="CONTENTS" span="3">0xF7 0xCB</button>
+
+        <button label="&#xf0d9;" backgroundColor="FF636363" span="3">0xF7 0x0D</button>
+        <button label="OK" backgroundColor="FF636363" span="3">0xF7 0x0B</button>
+        <button label="&#xf0da;" backgroundColor="FF636363" span="3">0xF7 0xB2</button>
+        <button label="TIMESHIFT" span="3">0xF7 0xA6</button>
+
+        <button label="SOURCE" span="3">0xF7 0x83</button>
+        <button label="&#xf0d7;" backgroundColor="FF636363" span="3">0xF7 0x8B</button>
+        <button label="SHOWVIEW" span="3">0xF7 0x38</button>
+        <button label="TIMER" span="3">0xF7 0x88</button>
+
+        <button label="" labelColor="FF000000" backgroundColor="FF7CFF7C" span="3">0xF7 0x4B</button>
+        <button label="" labelColor="FF000000" backgroundColor="FF7CFF7C" span="3">0xF7 0xFE</button>
+        <button label="" labelColor="FF000000" backgroundColor="FF7CFF7C" span="3">0xF7 0x45</button>
+        <button label="&#xf111;" alt="REC" labelColor="FFC84334" span="3">0xF7 0xB3</button>
+
+        <button label="" labelColor="FF000000" backgroundColor="FF7CFF7C" span="3">0xF7 0xAB</button>
+        <button label="" labelColor="FF000000" backgroundColor="FF7CFF7C" span="3">0xF7 0x32</button>
+        <button label="" labelColor="FF000000" backgroundColor="FF7CFF7C" span="3">0xF7 0x13</button>
+        <button label="" labelColor="FF000000" backgroundColor="FF7CFF7C" span="3">0xF7 0x6E</button>
+
+    </device>
+</irplus>

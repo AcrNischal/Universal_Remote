@@ -1,0 +1,49 @@
+<irplus>
+	<device manufacturer="YAMAHA" model="DVD-S557" format="WINLIRC_RC6" columns="12" toggle-bit-pos="4" bits="8" pre-bits="13" frequency="36000">
+
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xEFB 0xF3</button>
+		<button label="&#xFF581;" span="4">0xEFB 0xF2</button>
+		<button label="ZOOM" span="4">0xEFB 0x08</button>
+
+		<button label="1" span="4">0xEFB 0xFE</button>
+		<button label="2" span="4">0xEFB 0xFD</button>
+		<button label="3" span="4">0xEFB 0xFC</button>
+
+		<button label="4" span="4">0xEFB 0xFB</button>
+		<button label="5" span="4">0xEFB 0xFA</button>
+		<button label="6" span="4">0xEFB 0xF9</button>
+
+		<button label="7" span="4">0xEFB 0xF8</button>
+		<button label="8" span="4">0xEFB 0xF7</button>
+		<button label="9" span="4">0xEFB 0xF6</button>
+
+		<button label="TOPMENU" span="4">0xEFB 0x7C</button>
+		<button label="0" span="4">0xEFB 0xFF</button>
+		<button label="OSD" span="4">0xEFB 0xF0</button>
+
+		<button label="MENU" span="4">0xEFB 0xAB</button>
+		<button label="&#xf0d8;" backgroundColor="FFAAAAAA" span="4">0xEFB 0xA7</button>
+		<button label="SETUP" span="4">0xEFB 0x7D</button>
+
+		<button label="&#xf0d9;" backgroundColor="FFAAAAAA" span="4">0xEFB 0xA5</button>
+		<button label="OK" backgroundColor="FFAAAAAA" span="4">0xEFB 0xA3</button>
+		<button label="&#xf0da;" backgroundColor="FFAAAAAA" span="4">0xEFB 0xA4</button>
+
+		<button label="SUBS" span="4">0xEFB 0xB4</button>
+		<button label="&#xf0d7;" backgroundColor="FFAAAAAA" span="4">0xEFB 0xA6</button>
+		<button label="ANGLE" span="4">0xEFB 0x7A</button>
+
+		<button label="&#xf04a;" alt="REW" span="4">0xEFB 0xDE</button>
+		<button label="&#xf04b;" alt="PLAY" span="4">0xEFB 0xD3</button>
+		<button label="&#xf04e;" alt="FWD" span="4">0xEFB 0xDF</button>
+
+		<button label="&#xf04d;" alt="STOP" span="6">0xEFB 0xCE</button>
+		<button label="&#xf04c;" alt="PAUSE" span="6">0xEFB 0xCF</button>
+
+		<button label="AUDIO" span="3">0xEFB 0xB1</button>
+		<button label="REPEAT" span="3">0xEFB 0xE2</button>
+		<button label="A-B" span="3">0xEFB 0xC4</button>
+		<button label="SCAN" span="3">0xEFB 0x2A</button>
+
+	</device>
+</irplus>

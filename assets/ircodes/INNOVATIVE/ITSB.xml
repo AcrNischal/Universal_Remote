@@ -1,0 +1,32 @@
+<irplus>
+    <device manufacturer="INNOVATIVE" model="ITSB" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16" gap-pulse="687" gap-space="107916" one-pulse="684" one-space="1547" zero-pulse="684" zero-space="440" header-pulse="9107" header-space="4381">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x807F 0x48B7</button>
+        <button label="SOURCE" span="4">0x807F 0x58A7</button>
+        <button label="&#xFF581;" span="4">0x807F 0x7887</button>
+
+        <button label="FMSCAN" span="4">0x807F 0x807F</button>
+        <button label=" TUNE-" span="4">0x807F 0x40BF</button>
+        <button label="TUNE+ " span="4">0x807F 0xC03F</button>
+
+        <button label="MEM+" span="4">0x807F 0x20DF</button>
+        <button label="EQ" span="4">0x807F 0xA05F</button>
+        <space multiple="4"/>
+
+        <button label="VOL-" span="4">0x807F 0xE01F</button>
+        <space multiple="4"/>
+        <button label="VOL+" span="4">0x807F 0x906F</button>
+
+        <button label="BASS-" span="4">0x807F 0x50AF</button>
+        <button label=" " span="4">0x807F 0xD827</button>
+        <button label="BASS+" span="4">0x807F 0xF807</button>
+
+        <button label="TREB-" span="4">0x807F 0x30CF</button>
+        <space multiple="4"/>
+        <button label="TREB+" span="4">0x807F 0x708F</button>
+
+
+
+
+    </device>
+</irplus>

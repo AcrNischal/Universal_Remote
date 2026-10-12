@@ -1,0 +1,40 @@
+<irplus>
+    <device manufacturer="TELEWIRE" model="TW1024" columns="12" format="WINLIRC_NEC1"
+        bits="16" pre-bits="16" toggle-bit-pos="0" gap-pulse="683" gap-space="108904" one-pulse="675"
+        one-space="1606" zero-pulse="675" zero-space="470" header-pulse="9315" header-space="4530">
+        
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0x410A 0x01FE</button>
+        <button label="&#xFF581;" span="6">0x410A 0xB946</button>
+
+        <button label="1" span="4">0x410A 0x8976</button>
+        <button label="2" span="4">0x410A 0x49B6</button>
+        <button label="3" span="4">0x410A 0xC936</button>
+
+        <button label="4" span="4">0x410A 0x29D6</button>
+        <button label="5" span="4">0x410A 0xA956</button>
+        <button label="6" span="4">0x410A 0x6996</button>
+
+        <button label="7" span="4">0x410A 0xE916</button>
+        <button label="8" span="4">0x410A 0x19E6</button>
+        <button label="9" span="4">0x410A 0x9966</button>
+
+        <button label="MENU" span="4">0x410A 0x916E</button>
+        <button label="0" span="4">0x410A 0x09F6</button>
+        <button label="-" span="4">0x410A 0xD926</button>
+
+        <button label="P-" span="6">0x410A 0x718E</button>
+        <button label="P+" span="6">0x410A 0xF10E</button>
+
+        <button label="F1" span="4">0x410A 0xF906</button>
+        <button label="&#xf0d8;" span="4">0x410A 0xF10E</button>
+        <button label="F2" span="4">0x410A 0x619E</button>
+
+        <button label="&#xf0d9;" span="6">0x410A 0x31CE</button>
+        <button label="&#xf0da;" span="6">0x410A 0xB14E</button>
+
+        <button label="F3" span="4">0x410A 0xA15E</button>
+        <button label="&#xf0d7;" span="4">0x410A 0x718E</button>
+        <button label="F4" span="4">0x410A 0x7986</button>
+
+    </device>
+</irplus>

@@ -1,0 +1,54 @@
+<irplus>
+    <device manufacturer="ROLSEN" model="RDB-532" columns="36" format="WINLIRC_NEC1"
+        one-pulse="585" one-space="1662" zero-pulse="585" zero-space="538" header-pulse="9024" header-space="4462" bits="16" pre-bits="16">
+
+        <button label="&#61457;" span="12" backgroundColor="FFC84334">0xFF 0x5AA5</button>
+        <button label="" span="12" backgroundColor="FF000000">0x4F9 0x807F</button>
+        <button label="&#1045889;" span="12" backgroundColor="FF0C7A60">0xFF 0x728D</button>
+
+        <button label="1" span="12">0xFF 0xCA35</button>
+        <button label="2" span="12">0xFF 0x0AF5</button>
+        <button label="3" span="12">0xFF 0x08F7</button>
+
+        <button label="4" span="12">0xFF 0xEA15</button>
+        <button label="5" span="12">0xFF 0x2AD5</button>
+        <button label="6" span="12">0xFF 0x28D7</button>
+
+        <button label="7" span="12">0xFF 0xF20D</button>
+        <button label="8" span="12">0xFF 0x32CD</button>
+        <button label="9" span="12">0xFF 0x30CF</button>
+
+        <button label="INFO" span="12">0xFF 0x1AE5</button>
+        <button label="0" span="12">0xFF 0xF00F</button>
+        <button label="HDMI" span="12">0xFF 0x8877</button>
+
+        <button label="MENU" span="12">0xFF 0x629D</button>
+        <button label="ch+ &#61656;" span="12">0xFF 0x609F</button>
+        <button label="EXIT" span="12">0xFF 0xA05F</button>
+
+        <button label="vol- &#61657;" span="12">0xFF 0xDA25</button>
+        <button label="OK" span="12">0xFF 0x58A7</button>
+        <button label="vol+ &#61658;" span="12">0xFF 0xD827</button>
+
+        <button label="REC" span="12">0xFF 0xB04F</button>
+        <button label="ch- &#61655;" span="12">0xFF 0x6897</button>
+        <button label="USB" span="12">0xFF 0x4AB5</button>
+
+        <button label="&#1045675;" span="9">0xFF 0xE21D</button>
+        <button label="&#1045676;" span="9">0xFF 0x22DD</button>
+        <button label="&#1044797;" span="9">0xFF 0x20DF</button>
+        <button label="&#1044798;" span="9">0xFF 0xE01F</button>
+
+        <button label="TEXT" span="9">0xFF 0x10EF</button>
+        <button label="SUB" span="9">0xFF 0xD02F</button>
+        <button label="&#61515;" span="9">0xFF 0x708F</button>
+        <button label="&#1044782;" span="9">0xFF 0x48B7</button>
+
+        <button label="FAV" span="9" backgroundColor="FFA30000">0xFF 0xC23D</button>
+        <button label="EPG" span="9" backgroundColor="FF006021">0xFF 0x02FD</button>
+        <button label="AUD" span="9" backgroundColor="FFDBC40F">0xFF 0x00FF</button>
+        <button label="TV/RA" span="9" backgroundColor="FF000099">0xFF 0xC03F</button>
+
+        <button label="Rolsen" span="36" backgroundColor="FF000000">0x4F9 0xC837</button>
+    </device>
+</irplus>

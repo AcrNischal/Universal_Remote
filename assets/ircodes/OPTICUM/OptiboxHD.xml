@@ -1,0 +1,68 @@
+<irplus>
+	<device manufacturer="OPTICUM" model="OptiboxHD" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16">
+
+		<button label="&#xf011;" backgroundColor="FFC84334" span="3">0x0505 0x30cf</button>
+		<button label="TV" span="3">0x0505 0x50af</button>
+		<button label="RADIO" span="3">0x0505 0xb04f</button>
+		<button label="&#xFF581;" span="3">0x0505 0xd02f</button>
+
+		<button label="CH+" span="4">0x0505 0xe817</button>
+		<button label="&#xf0d8;" span="4">0x0505 0xb847</button>
+		<button label="VOL+" span="4">0x0505 0xa857</button>
+
+		<button label="&#xf0d9;" span="4">0x0505 0x7887</button>
+		<button label="ENTER" span="4">0x0505 0x847b</button>
+		<button label="&#xf0da;" span="4">0x0505 0xf807</button>
+
+		<button label="CH-" span="4">0x0505 0x18e7</button>
+		<button label="&#xf0d7;" span="4">0x0505 0x04fb</button>
+		<button label="VOL-" span="4">0x0505 0x6897</button>
+
+		<button label="1" span="4">0x0505 0x807f</button>
+		<button label="2" span="4">0x0505 0x40bf</button>
+		<button label="3" span="4">0x0505 0xc03f</button>
+		<button label="4" span="4">0x0505 0x20df</button>
+		<button label="5" span="4">0x0505 0xa05f</button>
+		<button label="6" span="4">0x0505 0x609f</button>
+		<button label="7" span="4">0x0505 0xe01f</button>
+		<button label="8" span="4">0x0505 0x10ef</button>
+		<button label="9" span="4">0x0505 0x906f</button>
+
+		<button label="FAVORITE" span="4">0x0505 0x649b</button>
+		<button label="0" span="4">0x0505 0x00ff</button>
+		<button label="LAST" span="4">0x0505 0xe41b</button>
+
+		<button label="&#xf04a;" alt="REW" span="4">0x0505 0x6c93</button>
+		<button label="&#xf04b;" alt="PLAY" span="4">0x0505 0x2cd3</button>
+		<button label="&#xf04e;" alt="FWD" span="4">0x0505 0xec13</button>
+
+		<button label="&#xf04c;" alt="PAUSE" span="4">0x0505 0xcc33</button>
+		<button label="&#xf111;" alt="REC" labelColor="FFC84334" span="4">0x0505 0x8c73</button>
+		<button label="&#xf04d;" alt="STOP" span="4">0x0505 0x4cb3</button>
+
+		<button label="BACK" span="6">0x0505 0x08f7</button>
+		<button label="SLWFWD" span="6">0x0505 0x1ce3</button>
+
+		<button label="LANGUAGE" backgroundColor="FFC84334" span="3">0x0505 0x8877</button>
+		<button label="FREEZE" backgroundColor="FF1E7854" span="3">0x0505 0x48b7</button>
+		<button label="Y" fillColor="FFD6A81F" span="3">0x0505 0xc837</button>
+		<button label="B" fillColor="FF2A4C94" span="3">0x0505 0x28d7</button>
+
+		<button label="CLEAR" span="4">0x0505 0xf00f</button>
+		<button label="FILTER" span="4">0x0505 0xa45b</button>
+		<button label="JUMP" span="4">0x0505 0xac53</button>
+		
+		<button label="QUICKFIND" span="4">0x0505 0x24db</button>
+		<button label="SLEEP" span="4">0x0505 0x708f</button>
+		<button label="SUBTITLE" span="4">0x0505 0x946b</button>
+		
+		<button label="TELETEXT" span="4">0x0505 0x54ab</button>
+		<button label="TIMESHIFT" span="4">0x0505 0x0cf3</button>
+		<button label="MENU" span="4">0x0505 0xd827</button>
+		
+		<button label="INFO" span="4">0x0505 0xc43b</button>
+		<button label="EXIT" span="4">0x0505 0x38c7</button>
+		<button label="GUIDE" span="4">0x0505 0x44bb</button>
+
+	</device>
+</irplus>

@@ -1,0 +1,49 @@
+<irplus>
+    <device manufacturer="KENWOOD" model="RC-R0505" columns="12" format="WINLIRC_NEC1">
+
+        <button label="1" span="3">0x1D00 0x817E</button>
+        <button label="2" span="3">0x1D00 0x41BE</button>
+        <button label="3" span="3">0x1D00 0xC13E</button>
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="3">0x1D00 0xB946</button>
+
+        <button label="4" span="3">0x1D00 0x21DE</button>
+        <button label="5" span="3">0x1D00 0xA15E</button>
+        <button label="6" span="3">0x1D00 0x619E</button>
+        <button label="0" span="3">0x1D00 0x01FE</button>
+
+        <button label="7" span="3">0x1D00 0xE11E</button>
+        <button label="8" span="3">0x1D00 0x11EE</button>
+        <button label="9" span="3">0x1D00 0x916E</button>
+        <button label="+10" span="3">0x1D00 0xB04F</button>
+
+        <button label="DISC SKIP" span="3">0x1D00 0x10EF</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0x1D40 0x20DF</button>
+        <button label="PLAY BACK" span="3">0x1DC0 0x906F</button>
+        <button label="PLAY PAUSE" span="3">0x1DC0 0x609F</button>
+
+        <button label="&#xf049;" alt="PREV" span="3">0x1D40 0x00FF</button>
+        <button label="&#xf04a;" alt="REW" span="3">0x1D40 0x40BF</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x1D40 0xC03F</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0x1D40 0x807F</button>
+
+        <button label="VIDEO1/TAPE1" span="3">0x1D00 0xA956</button>
+        <button label="TUNER" span="3">0x1D00 0x8976</button>
+        <button label="CD" span="3">0x1D00 0x49B6</button>
+        <button label="PHONO" span="3">0x1D00 0x09F6</button>
+
+        <button label="VIDEO2" span="3">0x1D00 0x40BF</button>
+        <button label="TAPE2/MONITOR" span="3">0x1DC0 0x58A7</button>
+        <button label="AUX" span="3">0x1D00 0xC936</button>
+        <button label="&#xFF581;" span="3">0x1D00 0x39C6</button>
+
+        <button label="CENTER MODE" span="3">0x1D00 0xAA55</button>
+        <button label="LEVEL+" span="3">0x1D80 0xAA55</button>
+        <button label="LISTEN MODE" span="3">0x1D00 0xFB04</button>
+        <button label="VOL+" span="3">0x1D00 0xD926</button>
+
+        <button label="SETUP" span="3">0x1DC0 0x9867</button>
+        <button label="LEVEL-" span="3">0x1D80 0x2AD5</button>
+        <button label="SOUND" span="3">0x1D80 0xEA15</button>
+        <button label="VOL-" span="3">0x1D00 0x59A6</button>
+    </device>
+</irplus>

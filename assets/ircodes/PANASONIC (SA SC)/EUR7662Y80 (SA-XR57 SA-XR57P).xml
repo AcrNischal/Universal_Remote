@@ -1,0 +1,23 @@
+<irplus><!-- SAXR57, SAXR57P -->
+    <device manufacturer="PANASONIC" model="EUR7662Y80" columns="12" format="WINLIRC_SPACEENC" one-space="1267"
+        one-pulse="478" zero-pulse="478" zero-space="392" header-pulse="3559" header-space="1681" bits="24" pre-bits="24" gap-pulse="478" gap-space="1267">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0x400405 0x00BCB9</button>
+        <button label="TV" span="6">0x400405 0x00393C</button>
+
+        <button label="DVD" span="4">0x400405 0x00F9FC</button>
+        <button label="DVDR" span="4">0x400405 0x00F9FC</button>
+        <button label="DVDP" span="4">0x400405 0x00C5C0</button>
+
+        <button label="VOL+" span="4">0x400405 0x000401</button>
+        <button label="MUTING" span="4">0x400405 0x004C49</button>
+        <button label="VOL-" span="4">0x400405 0x008481</button>
+
+        <button label="PLIIX" span="4">0x400405 0x284D60</button>
+        <button label="NEO6" span="4">0x400405 0x28CDE0</button>
+        <button label="SFCMUSIC" span="4">0x400405 0x288CA1</button>
+
+        <button label="SFCMOVIE" span="6">0x400405 0x280528</button>
+        <button label="EFFECTOFF" span="6">0x400405 0x287558</button>
+    </device>
+</irplus>

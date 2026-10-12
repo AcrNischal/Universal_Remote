@@ -1,0 +1,52 @@
+<irplus>
+	<device manufacturer="HUMAX" model="NA-FOX-C" columns="12" format="WINLIRC_RC5" toggle-bit-pos="2" one-space="816" one-pulse="964"
+		zero-pulse="964" zero-space="816" pre-bits="13" rowSplit="6" frequency="36000">
+
+		<button label="&#xf011;" backgroundColor="FFC84334" span="3">0x128C</button>
+		<button label="MENU" span="3">0x1292</button>
+		<button label="EXIT" span="3">0x12BF</button>
+		<button label="PPV" span="3">0x12B1</button>
+		
+		<button label="OPTION" span="4">0x128A</button>
+		<button label="INFO" span="4">0x128F</button>
+		<button label="GUIDE" span="4">0x1281</button>
+		
+		<button label="R" fillColor="FFC84334" span="3">0x12AB</button>
+		<button label="G" fillColor="FF1E7854" span="3">0x12AC</button>
+		<button label="Y" fillColor="FFD6A81F" span="3">0x12AD</button>
+		<button label="B" fillColor="FF2A4C94" span="3">0x12AE</button>
+		
+		<button label="VOL+" span="4">0x1290</button>
+		<button label="&#xf0d8;" backgroundColor="FFAAAAAA" span="4">0x1290</button>
+		<button label="P+" span="4">0x12A0</button>
+		
+		<button label="&#xf0d9;" backgroundColor="FFAAAAAA" span="4">0x1295</button>
+		<button label="OK" backgroundColor="FFAAAAAA" span="4">0x1297</button>
+		<button label="&#xf0da;" backgroundColor="FFAAAAAA" span="4">0x1296</button>
+		
+		<button label="VOL-" span="4">0x1291</button>
+		<button label="&#xf0d7;" backgroundColor="FFAAAAAA" span="4">0x1291</button>
+		<button label="P-" span="4">0x12A1</button>
+		
+		<button label="&#xFF581;" span="3">0x128D</button>
+		<button label="LIST" span="3">0x12BC</button>
+		<button label="PREV" span="3">0x1293</button>
+		<button label="TV" span="3">0x12B5</button>
+		
+		<button label="1" span="4">0x1281</button>
+		<button label="2" span="4">0x1282</button>
+		<button label="3" span="4">0x1283</button>
+		
+		<button label="4" span="4">0x1284</button>
+		<button label="5" span="4">0x1285</button>
+		<button label="6" span="4">0x1286</button>
+		
+		<button label="7" span="4">0x1287</button>
+		<button label="8" span="4">0x1288</button>
+		<button label="9" span="4">0x1289</button>
+		
+		<button label="TV/RAD" span="4">0x12B8</button>
+		<button label="0" span="4">0x1280</button>
+		<button label="RETURN" span="4">0x1293</button>
+	</device>
+</irplus>

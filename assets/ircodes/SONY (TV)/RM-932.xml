@@ -1,0 +1,76 @@
+<irplus>
+    <device manufacturer="SONY" model="RM-932" columns="12" format="WINLIRC_SPACEENC" pre-bits="11" gap-pulse="664" gap-space="26324"
+        one-pulse="1276" one-space="549" zero-pulse="664" zero-space="549" header-pulse="2488" header-space="549" repeat="3" frequency="40000">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0x0548</button>
+        <button label="INPUT" span="6">0x0528</button>
+
+        <button label="VOL+" span="6">0x0248</button>
+        <button label="PROG+" span="6">0x0048</button>
+
+        <button label="VOL-" span="6">0x0648</button>
+        <button label="PROG-" span="6">0x0448</button>
+
+        <button label="&#xFF581;" span="4">0x0148</button>
+        <button label="MENU" span="4">0x0038</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x0178</button>
+
+        <button label="&#xf04a;" alt="REW" span="4">0x0168</button>
+        <button label="OK" span="4">0x0538</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0x0668</button>
+
+        <button label="&#xf04d;" alt="STOP" span="4">0x0578</button>
+        <button label="ESC" span="4">0x00E8</button>
+        <button label="TEXT" span="4">0x07E8</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x019C</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x059C</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x039C</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x079C</button>
+
+        <button label="1" span="4">0x0008</button>
+        <button label="2" span="4">0x0408</button>
+        <button label="3" span="4">0x0208</button>
+
+        <button label="4" span="4">0x0608</button>
+        <button label="5" span="4">0x0108</button>
+        <button label="6" span="4">0x0508</button>
+
+        <button label="7" span="4">0x0308</button>
+        <button label="8" span="4">0x0708</button>
+        <button label="9" span="4">0x0088</button>
+
+        <button label="MARKER" span="4">0x02E8</button>
+        <button label="0" span="4">0x0488</button>
+        <button label="ROTATE" span="4">0x06E8</button>
+
+        <button label="VCR VIDEO POWER" span="4">0x054D</button>
+        <button label="VCR PROG +" span="4">0x004D</button>
+        <button label="VCR PROG -" span="4">0x044D</button>
+
+        <button label="VCR REWIND" span="4">0x06CD</button>
+        <button label="VCR OK" span="4">0x02CD</button>
+        <button label="VCR FORWARD" span="4">0x01CD</button>
+
+        <button label="VCR STOP" span="4">0x00CD</button>
+        <button label="VCR REC" span="4">0x05CD</button>
+        <button label="VCR PAUSE" span="4">0x04CD</button>
+
+        <button label="VCR 1" span="4">0x000D</button>
+        <button label="VCR 2" span="4">0x040D</button>
+        <button label="VCR 3" span="4">0x020D</button>
+
+        <button label="VCR 4" span="4">0x060D</button>
+        <button label="VCR 5" span="4">0x010D</button>
+        <button label="VCR 6" span="4">0x050D</button>
+
+        <button label="VCR 7" span="4">0x030D</button>
+        <button label="VCR 8" span="4">0x070D</button>
+        <button label="VCR 9" span="4">0x008D</button>
+
+        <button label="VCR ROTATE" span="4">0x028D</button>
+        <button label="VCR 0" span="4">0x048D</button>
+        <space multiple="4"/>
+
+    </device>
+</irplus>

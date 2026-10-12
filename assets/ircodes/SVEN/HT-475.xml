@@ -1,0 +1,24 @@
+<irplus>
+    <device manufacturer="SVEN" model="HT-475" columns="8" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="8">0x18E7 0x38C7</button>
+
+        <button label="VOL-" span="4">0x18E7 0x18E7</button>
+        <button label="VOL+" span="4">0x18E7 0x28D7</button>
+
+        <button label="EQ" span="4">0x18E7 0x9867</button>
+        <button label="SPK" span="4">0x18E7 0x30CF</button>
+
+        <button label="EQ+" span="4">0x18E7 0x8877</button>
+        <button label="SPK+" span="4">0x18E7 0x00FF</button>
+
+        <button label="EQ-" span="4">0x18E7 0xA857</button>
+        <button label="SPK-" span="4">0x18E7 0x20DF</button>
+
+        <button label="MODE" span="4">0x18E7 0xB847</button>
+        <button label="INPUT" span="4">0x18E7 0x10EF</button>
+
+        <button label="MUTE" span="4">0x18E7 0xB04F</button>
+        <button label="S.BASS" span="4">0x18E7 0x08F7</button>
+    </device>
+</irplus>

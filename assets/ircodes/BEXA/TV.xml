@@ -1,0 +1,42 @@
+<irplus>
+    <device manufacturer="BEXA" model="TV" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x08f7 0xe817</button>
+        <button label="INPUT" span="4">0x08f7 0xd02f</button>
+        <button label="&#xFF581;" span="4">0x08f7 0x708f</button>
+
+        <button label="1" span="4">0x08f7 0x807f</button>
+        <button label="2" span="4">0x08f7 0x40bf</button>
+        <button label="3" span="4">0x08f7 0xc03f</button>
+
+        <button label="4" span="4">0x08f7 0x20df</button>
+        <button label="5" span="4">0x08f7 0xa05f</button>
+        <button label="6" span="4">0x08f7 0x609f</button>
+
+        <button label="7" span="4">0x08f7 0xe01f</button>
+        <button label="8" span="4">0x08f7 0x10ef</button>
+        <button label="9" span="4">0x08f7 0x906f</button>
+
+        <button label="RECALL" span="4">0x08f7 0x48b7</button>
+        <button label="0" span="4">0x08f7 0xf00f</button>
+        <button label="INFO" span="4">0x08f7 0x28d7</button>
+
+        <button label="SLEEP" span="4">0x08f7 0xf807</button>
+        <button label="&#xf0d8;" span="4">0x08f7 0x18e7</button>
+        <button label="EXIT" span="4">0x08f7 0x30cf</button>
+
+        <button label="&#xf0d9;" span="4">0x08f7 0x58a7</button>
+        <button label="MENU" span="4">0x08f7 0xa857</button>
+        <button label="&#xf0da;" span="4">0x08f7 0xd827</button>
+
+        <button label="DASH" span="4">0x08f7 0xc837</button>
+        <button label="&#xf0d7;" span="4">0x08f7 0x9867</button>
+        <button label="ASPECT" span="4">0x08f7 0xb847</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x08f7 0x50af</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x08f7 0x30cf</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x08f7 0x48b7</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x08f7 0xd02f</button>
+
+    </device>
+</irplus>

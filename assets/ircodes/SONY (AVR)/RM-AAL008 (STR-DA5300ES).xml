@@ -1,0 +1,96 @@
+<irplus>
+	<device manufacturer="SONY" model="RM-AAL008" columns="12" format="WINLIRC_SPACEENC" one-space="541" one-pulse="1380" frequency="40000"
+		zero-pulse="770" zero-space="540" pre-bits="0" bits="16">
+		
+		<button label="POWER/REC" span="3">0x540C</button>
+		<button label="FIRST" span="3">0x6A0D</button>
+		<button label="LAST" span="3">0x1A0D</button>
+		<button label="MENU" span="3">0x770D</button>
+		
+		<button label="INFO/DISP" span="4">0x690C</button>
+		<button label="EXIT" span="4">0x4B0C</button>
+		<button label="EPG/OSD" span="4">0x650C</button>
+		
+		<button label="MOVIE" span="3">0x610D</button>
+		<button label="MUSIC" span="3">0x490D</button>
+		<button label="MEMORY" span="3">0x380C</button>
+		<button label="InputTV" span="3">0x2B0C</button>
+		
+		<button label="VOL+" span="4">0x240C</button>
+		<button label="&#xf0d8; T+" backgroundColor="FFAAAAAA" span="4">0x0F0D</button>
+		<button label="CH+" span="4">0x040C</button>
+		
+		<button label="&#xf0d9;" backgroundColor="FFAAAAAA" span="4">0x2F0D</button>
+		<button label="OK" backgroundColor="FFAAAAAA" span="4">0x180C</button>
+		<button label="&#xf0da;" backgroundColor="FFAAAAAA" span="4">0x6F0D</button>
+		
+		<button label="VOL-" span="4">0x640C</button>
+		<button label="&#xf0d7; T-" backgroundColor="FFAAAAAA" span="4">0x4F0D</button>
+		<button label="CH-" span="4">0x440C</button>
+		
+		<button label="&#xFF581;" span="4">0x140C</button>
+		<button label="BACK" span="4">0x020D</button>
+		<button label="EQ SET" span="4">0x190D</button>
+		
+		<button label="EQ BASS-" span="3">0x450D</button>
+		<button label="EQ BASS+" span="3">0x050D</button>
+		<button label="EQ TREB+" span="3">0x350D</button>
+		<button label="EQ TREB-" span="3">0x750D</button>
+		
+		<button label="InputAM" span="3">0x2C0C</button>
+		<button label="InputAux" span="3">0x5C0C</button>
+		<button label="InputDM" span="3">0x5F0C</button>
+		<button label="InputMD" span="3">0x4B0C</button>
+		
+		<button label="InputFM" span="4">0x0C0C</button>
+		<button label="InputLink" span="4">0x5C0D</button>
+		<button label="InputLd" span="4">0x6B0C</button>
+
+		<button label="&#xf049;" alt="PREV" span="4">0x620C</button>
+		<button label="&#xf04a;" alt="REW" span="4">0x600D</button>
+		<button label="&#xf050;" alt="NEXT" span="4">0x5F0C</button>
+
+		<button label="PLAY/Vid1" span="4">0x220C</button>
+		<button label="PAUSE/Vid2" span="4">0x3C0C</button>
+		<button label="STOP/InMode" span="4">0x060D</button>
+		
+		<button label="1" backgroundColor="FFAAAAAA" span="4">0x000C</button>
+		<button label="2" backgroundColor="FFAAAAAA" span="4">0x400C</button>
+		<button label="3" backgroundColor="FFAAAAAA" span="4">0x200C</button>
+		
+		<button label="4" backgroundColor="FFAAAAAA" span="4">0x600C</button>
+		<button label="5" backgroundColor="FFAAAAAA" span="4">0x100C</button>
+		<button label="6" backgroundColor="FFAAAAAA" span="4">0x500C</button>
+		
+		<button label="7" backgroundColor="FFAAAAAA" span="4">0x300C</button>
+		<button label="8" backgroundColor="FFAAAAAA" span="4">0x700C</button>
+		<button label="9" backgroundColor="FFAAAAAA" span="4">0x080C</button>
+		
+		<button label="PLUS/TEST" span="4">0x290D</button>
+		<button label="0" backgroundColor="FFAAAAAA" span="4">0x480C</button>
+		<button label="ENTER" span="4">0x0A0D</button>
+		
+		<button label="MEMO" span="4">0x4B0D</button>
+		<button label="DELETE" span="4">0x210D</button>
+		<button label="&#xf052;" alt="EJECT" span="4">0x520C</button>
+		
+		<button label="SLOW" span="4">0x270C</button>
+		<button label="TEXT" span="4">0x410D</button>
+		<button label="RESTART" span="4">0x420C</button>
+		
+		<button label="PWREND/HOME" span="3">0x3A0C</button>
+		<button label="PWROFF/END" span="3">0x7A0C</button>
+		<button label="ANGLE" span="3">0x030C</button>
+		<button label="ZOOM/Vid3" span="3">0x210C</button>
+		
+		<button label="AacBilingual" span="4">0x740C</button>
+		<button label="AnalogDirect" span="4">0x490C</button>
+		<button label="AudioSplit" span="4">0x130D</button>
+		
+		<button label="BassBoost" span="3">0x590D</button>
+		<button label="BalanceLeft" span="3">0x320C</button>
+		<button label="BalanceRight" span="3">0x720C</button>
+		<button label="Dimmer" span="3">0x590C</button>
+		
+	</device>
+</irplus>

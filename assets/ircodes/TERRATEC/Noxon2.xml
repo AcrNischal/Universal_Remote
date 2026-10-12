@@ -1,0 +1,47 @@
+<irplus>
+    <device manufacturer="TERRATEC" model="Noxon2" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0x20cf 0x807f</button>
+        <button label="&#xFF581;" span="6">0x20cf 0xb847</button>
+
+        <button label="VOL-" span="6">0x20cf 0x7887</button>
+        <button label="VOL+" span="6">0x20cf 0x38c7</button>
+
+        <button label="HOME" span="4">0x20cf 0xe817</button>
+        <button label="IRADIO" span="4">0x20cf 0x18e7</button>
+        <button label="NETWORK" span="4">0x20cf 0x9867</button>
+
+        <button label="SHUFFLE" span="6">0x20cf 0xd02f</button>
+        <button label="REPEAT" span="6">0x20cf 0xb04f</button>
+
+        <button label="" span="4">0x20cf 0xf00f</button>
+        <button label="&#xf0d8;" span="4">0x20cf 0x08f7</button>
+        <button label="" span="4">0x20cf 0x708f</button>
+
+        <button label="CANCEL" span="4">0x20cf 0x8877</button>
+        <button label="&#xf04b; &#xf04c;" span="4">0x20cf 0x48b7</button>
+        <button label="SELECT" span="4">0x20cf 0xc837</button>
+
+        <button label="&#xf04d;" alt="STOP" span="4">0x20cf 0xa857</button>
+        <button label="&#xf0d7;" span="4">0x20cf 0x28d7</button>
+        <button label="STORE" span="4">0x20cf 0x6897</button>
+
+        <button label="&#xf04a;" span="6">0x20cf 0xf807</button>
+        <button label="&#xf04e;" span="6">0x20cf 0xd827</button>
+
+        <button label="1" span="4">0x20cf 0x40bf</button>
+        <button label="2" span="4">0x20cf 0xc03f</button>
+        <button label="3" span="4">0x20cf 0x20df</button>
+        <button label="4" span="4">0x20cf 0xa05f</button>
+        <button label="5" span="4">0x20cf 0x609f</button>
+        <button label="6" span="4">0x20cf 0xe01f</button>
+        <button label="7" span="4">0x20cf 0x10ef</button>
+        <button label="8" span="4">0x20cf 0x906f</button>
+        <button label="9" span="4">0x20cf 0x50af</button>
+
+        <button label="FAV" span="4">0x20cf 0x58a7</button>
+        <button label="0" span="4">0x20cf 0x30cf</button>
+        <button label="INFO" span="4">0x20cf 0x32cd</button>
+
+    </device>
+</irplus>

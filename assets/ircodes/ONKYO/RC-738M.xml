@@ -1,0 +1,56 @@
+<irplus>
+	<device manufacturer="ONKYO" model="RC-738M" columns="12" format="WINLIRC_SPACEENC" one-space="605" one-pulse="1638" zero-pulse="514" zero-space="605" bits="18">
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x0D32C</button>
+		<button label="DISPLAY" span="4">0x0AA55</button>
+		<button label="&#xFF581;" span="4">0x0A05F</button>
+		
+		<button label="INFO" span="4">0x011EE</button>
+		<button label="MENU" span="4">0x0E11E</button>
+		<button label="SETUP" span="4">0x0CA35</button>
+
+        <button label="&#xf049;" alt="PREV" span="4">0x0C936</button>
+        <button label="ENTER" span="4">0x02AD5</button>
+        <button label="&#xf050;" alt="NEXT" span="4">0x029D6</button>
+
+        <button label="AUDIO" span="4">0x02BD4</button>
+        <button label="&#xf04a;" span="4">0x058A7</button>
+		<button label="&#xf04b;" span="4">0x0A857</button>
+		
+		<button label="&#xf04e;" span="4">0x09867</button>
+		<button label="&#xf04c;" span="4">0x06897</button>
+		<button label="&#xf04d;" span="4">0x0C837</button>
+		
+		<button label="MOVIE" span="3">0x00BF4</button>
+		<button label="AUDIO" span="3">0x08B74</button>
+		<button label="GAME" span="3">0x04BB4</button>
+		<button label="STEREO" span="3">0x032CD</button>
+		
+		<button label="1" span="4">0x0AB54</button>
+		<button label="2" span="4">0x06B94</button>
+		<button label="3" span="4">0x0EB14</button>
+		
+		<button label="4" span="4">0x01BE4</button>
+		<button label="5" span="4">0x09B64</button>
+		<button label="6" span="4">0x05BA4</button>
+		
+		<button label="7" span="4">0x0DB24</button>
+		<button label="8" span="4">0x03BC4</button>
+		<button label="9" span="4">0x0BB44</button>
+		
+		<button label="+10" span="4">0x0FB04</button>
+		<button label="0" span="4">0x07B84</button>
+		<button label="CLR" span="4">0x0BA45</button>
+		
+		<button label="CH+" span="4">0x000FF</button>
+		<button label="&#xf0d8;" span="4">0x041BE</button>
+		<button label="VOL+" span="4">0x040BF</button>
+
+		<button label="&#xf0d9;" span="4">0x021DE</button>
+		<button label="ENTER" span="4">0x0E916</button>
+		<button label="&#xf0da;" span="4">0x0A15E</button>
+		
+		<button label="CH-" span="4">0x0807F</button>
+		<button label="&#xf0d7;" span="4">0x0C13E</button>
+		<button label="VOL-" span="4">0x0C03F</button>
+	</device>
+</irplus>

@@ -1,0 +1,148 @@
+<irplus>
+    <device manufacturer="PANASONIC" model="EUR7702KE0" columns="12" format="WINLIRC_SPACEENC" bits="32" pre-bits="16"
+        gap-pulse="447" gap-space="74586" one-pulse="447" one-space="1304" zero-pulse="447" zero-space="432" header-pulse="3496" header-space="1760">
+
+        <button label="MAIN-POWER" span="4">0x4004 0xD00BCB1</button>
+        <button label="AUDIO-VOL-" span="4">0x4004 0x5008481</button>
+        <button label="AUDIO-VOL+" span="4">0x4004 0x5000401</button>
+
+        <button label="AUDIO-POWER" span="3">0x4004 0x538FCC1</button>
+        <button label="AUDIO-SOUNDMODE" span="3">0x4004 0x5280D20</button>
+        <button label="AUDIO-SUBWOOFER" span="3">0x4004 0x500ABAE</button>
+        <button label="AUDIO-TEST" span="3">0x4004 0x5286F42</button>
+
+        <button label="AUDIO-LEVEL" span="3">0x4004 0x5287D50</button>
+        <button label="AUDIO-LEVELUP" span="3">0x4004 0x5283D10</button>
+        <button label="AUDIO-LEVELDOWN" span="3">0x4004 0x528BD90</button>
+        <button label="AUDIO-EFFECT" span="3">0x4004 0x528FDD0</button>
+
+        <button label="AUDIO-EFFECTUP" span="3">0x4004 0x5283D10</button>
+        <button label="AUDIO-EFFECTDOWN" span="3">0x4004 0x528BD90</button>
+        <button label="AUDIO-SFC" span="3">0x4004 0x5288CA1</button>
+        <button label="AUDIO-MUTING" span="3">0x4004 0x5004C49</button>
+
+        <button label="DVD-POWER" span="4">0x4004 0x500C5C0</button>
+        <button label="DVD-TOPMENU" span="4">0x4004 0xD00D9D4</button>
+        <button label="DVD-MENU" span="4">0x4004 0xD00010C</button>
+
+        <button label="DVD-1" span="3">0x4004 0xD000805</button>
+        <button label="DVD-2" span="3">0x4004 0xD008885</button>
+        <button label="DVD-3" span="3">0x4004 0xD004845</button>
+        <button label="DVD-4" span="3">0x4004 0xD00C8C5</button>
+
+        <button label="DVD-5" span="3">0x4004 0xD002825</button>
+        <button label="DVD-6" span="3">0x4004 0xD00A8A5</button>
+        <button label="DVD-7" span="3">0x4004 0xD006865</button>
+        <button label="DVD-8" span="3">0x4004 0xD00E8E5</button>
+
+        <button label="DVD-9" span="3">0x4004 0xD001815</button>
+        <button label="DVD-0" span="3">0x4004 0xD009895</button>
+        <button label="DVD-10+" span="3">0x4004 0xD00919C</button>
+        <button label="DVD-STOP" span="3">0x4004 0xD00000D</button>
+
+        <button label="DVD-DISPLAY" span="4">0x4004 0xD004944</button>
+        <button label="DVD-UP" span="4">0x4004 0xD00A1AC</button>
+        <button label="DVD-PLAY" span="4">0x4004 0xD00505D</button>
+
+        <button label="DVD-LEFT" span="4">0x4004 0xD00E1EC</button>
+        <button label="DVD-ENTER" span="4">0x4004 0xD00414C</button>
+        <button label="DVD-RIGHT" span="4">0x4004 0xD00111C</button>
+
+        <button label="DVD-PREV" span="4">0x4004 0xD00929F</button>
+        <button label="DVD-DOWN" span="4">0x4004 0xD00616C</button>
+        <button label="DVD-NEXT" span="4">0x4004 0xD00525F</button>
+
+        <button label="VCR-POWER" span="6">0x4004 0x500797C</button>
+        <button label="VCR-TV/VIDEO" span="6">0x4004 0x100A0A1</button>
+
+        <button label="VCR-1" span="3">0x4004 0x9000801</button>
+        <button label="VCR-2" span="3">0x4004 0x9008881</button>
+        <button label="VCR-3" span="3">0x4004 0x9004841</button>
+        <button label="VCR-4" span="3">0x4004 0x900C8C1</button>
+
+        <button label="VCR-5" span="3">0x4004 0x9002821</button>
+        <button label="VCR-6" span="3">0x4004 0x900A8A1</button>
+        <button label="VCR-7" span="3">0x4004 0x9006861</button>
+        <button label="VCR-8" span="3">0x4004 0x900E8E1</button>
+
+        <button label="VCR-9" span="3">0x4004 0x9001811</button>
+        <button label="VCR-0" span="3">0x4004 0x9009891</button>
+        <button label="VCR-PREV" span="3">0x4004 0x9004049</button>
+        <button label="VCR-NEXT" span="3">0x4004 0x900C0C9</button>
+
+        <button label="VCR-STOP" span="3">0x4004 0x9000009</button>
+        <button label="VCR-PLAY" span="3">0x4004 0x9005059</button>
+        <button label="VCR-CHUP" span="3">0x4004 0x9002C25</button>
+        <button label="VCR-CHDOWN" span="3">0x4004 0x900ACA5</button>
+       
+        <button label="TV-POWER" span="4">0x4004 0x500F9FC</button>
+        <button label="TV-CHUP" span="4">0x4004 0x1002C2D</button>
+        <button label="TV-CHDOWN" span="4">0x4004 0x100ACAD</button>
+
+        <button label="TV-1" span="4">0x4004 0x1000809</button>
+        <button label="TV-2" span="4">0x4004 0x1008889</button>
+        <button label="TV-3" span="4">0x4004 0x1004849</button>
+
+        <button label="TV-4" span="4">0x4004 0x100C8C9</button>
+        <button label="TV-5" span="4">0x4004 0x1002829</button>
+        <button label="TV-6" span="4">0x4004 0x100A8A9</button>
+
+        <button label="TV-7" span="4">0x4004 0x1006869</button>
+        <button label="TV-8" span="4">0x4004 0x100E8E9</button>
+        <button label="TV-9" span="4">0x4004 0x1001819</button>
+
+        <button label="TV-TV/VIDEO" span="6">0x4004 0x100A0A1</button>
+        <button label="TV-0" span="6">0x4004 0x1009899</button>
+
+        <button label="CD-POWER" span="4">0x4004 0x500292C</button>
+        <button label="CD-DISCCHANGE" span="4">0x4004 0x5502570</button>
+        <button label="CD-DISCENTER" span="4">0x4004 0x5507722</button>
+
+        <button label="CD-1" span="3">0x4004 0x550085D</button>
+        <button label="CD-2" span="3">0x4004 0x55088DD</button>
+        <button label="CD-3" span="3">0x4004 0x550481D</button>
+        <button label="CD-4" span="3">0x4004 0x550C89D</button>
+
+        <button label="CD-5" span="3">0x4004 0x550287D</button>
+        <button label="CD-6" span="3">0x4004 0x550A8FD</button>
+        <button label="CD-7" span="3">0x4004 0x550683D</button>
+        <button label="CD-8" span="3">0x4004 0x550E8BD</button>
+
+        <button label="CD-9" span="3">0x4004 0x550184D</button>
+        <button label="CD-0" span="3">0x4004 0x55098CD</button>
+        <button label="CD-10+" span="3">0x4004 0x5502174</button>
+        <button label="CD-PREV" span="3">0x4004 0x55092C7</button>
+
+        <button label="CD-NEXT" span="4">0x4004 0x5505207</button>
+        <button label="CD-STOP" span="4">0x4004 0x5500055</button>
+        <button label="CD-PLAY" span="4">0x4004 0x5505005</button>
+
+        <button label="RADIO-POWER/BAND" span="4">0x4004 0x500494C</button>
+        <button label="RADIO-CHUP" span="4">0x4004 0x5202C09</button>
+        <button label="RADIO-CHDOWN" span="4">0x4004 0x520AC89</button>
+
+        <button label="RADIO-1" span="3">0x4004 0x520082D</button>
+        <button label="RADIO-2" span="3">0x4004 0x52088AD</button>
+        <button label="RADIO-3" span="3">0x4004 0x520486D</button>
+        <button label="RADIO-4" span="3">0x4004 0x520C8ED</button>
+        
+        <button label="RADIO-5" span="3">0x4004 0x520280D</button>
+        <button label="RADIO-6" span="3">0x4004 0x520A88D</button>
+        <button label="RADIO-7" span="3">0x4004 0x520684D</button>
+        <button label="RADIO-8" span="3">0x4004 0x520E8CD</button>
+        
+        <button label="RADIO-9" span="3">0x4004 0x520183D</button>
+        <button label="RADIO-0" span="3">0x4004 0x52098BD</button>
+        <button label="RADIO-ENTER" span="3">0x4004 0x5202104</button>
+        <button label="RADIO-DIRECTTUNING" span="3">0x4004 0x5201134</button>
+
+        <button label="TAPE-POWER" span="4">0x4004 0x500696C</button>
+        <button label="TAPE-PREV" span="4">0x4004 0x5104055</button>
+        <button label="TAPE-NEXT" span="4">0x4004 0x510C0D5</button>
+        
+        <button label="TAPE-STOP" span="4">0x4004 0x5100015</button>
+        <button label="TAPE-PLAY" span="4">0x4004 0x5105045</button>
+        <button label="TAPE-DECKSELECT" span="4">0x4004 0x510A9BC</button>
+
+    </device>
+</irplus>

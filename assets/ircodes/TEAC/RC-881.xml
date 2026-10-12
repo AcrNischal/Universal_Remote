@@ -1,0 +1,39 @@
+<irplus>
+    <device manufacturer="TEAC" model="RC-881" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" backgroundColor="FF06A4DE" span="3">0x14E 0x837C</button>
+        <button label="RESET" span="3">0x14E 0x03FC</button>
+        <button label="DIMMER" span="3">0x14E 0x21DE</button>
+        <button label="SLEEP" span="3">0x14E 0xA15E</button>
+
+        <button label="TEST" span="3">0x14E 0x639C</button>
+        <button label="DELAY" span="3">0x14E 0x51AE</button>
+        <button label="BASS" span="3">0x14E 0x11EE</button>
+        <button label="TREBLE" span="3">0x14E 0x916E</button>
+
+        <button label="SURROUND" span="4">0x14E 0x53AC</button>
+        <button label="CENTER" span="4">0x14E 0xD32C</button>
+        <button label="SUBWOOFER" span="4">0x14E 0xB14E</button>
+
+        <button label="BALANCE-L" span="3">0x14E 0xB34C</button>
+        <button label="BALANCE-R" span="3">0x14E 0x33CC</button>
+        <button label="ADJUST-" span="3">0x14E 0xF10E</button>
+        <button label="ADJUST+" span="3">0x14E 0x718E</button>
+
+        <button label="SURROUNDMODE" span="4">0x14E 0x0BF4</button>
+        <button label="IN-NEXT" span="4">0x14E 0x4BB4</button>
+        <button label="STEREO" span="4">0x14E 0x49B6</button>
+
+        <button label="VOL-" backgroundColor="FF06A4DE" span="6">0x14E 0x8B74</button>
+        <button label="VOL+" backgroundColor="FF06A4DE" span="6">0x14E 0xC936</button>
+
+        <button label="&#xFF581;" backgroundColor="FF06A4DE" span="4">0x14E 0x6996</button>
+        <button label="IN-PREV" span="4">0x14E 0x4BB4</button>
+        <button label="NIGHT" span="4">0x14E 0x29D6</button>
+
+        <button label="IN-AUX" span="4">0x14E 0x629D</button>
+        <button label="IN-CD" span="4">0x14E 0x906F</button>
+        <button label="IN-TUNER" span="4">0x14E 0x10EF</button>
+
+    </device>
+</irplus>

@@ -1,0 +1,71 @@
+<irplus>
+    <device manufacturer="STRONG" model="SRT8540" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="6">0x4040 0x50AF</button>
+        <button label="MUTE" span="6">0x4040 0x9867</button>
+
+        <button label="1" span="4">0x4040 0x807F</button>
+        <button label="2" span="4">0x4040 0x40BF</button>
+        <button label="3" span="4">0x4040 0xC03F</button>
+
+        <button label="4" span="4">0x4040 0x20DF</button>
+        <button label="5" span="4">0x4040 0xA05F</button>
+        <button label="6" span="4">0x4040 0x609F</button>
+
+        <button label="7" span="4">0x4040 0xE01F</button>
+        <button label="8" span="4">0x4040 0x10EF</button>
+        <button label="9" span="4">0x4040 0x906F</button>
+
+        <button label="TV/R" span="4">0x4040 0xA25D</button>
+        <button label="0" span="4">0x4040 0x00FF</button>
+        <button label="HOME" span="4">0x4040 0x629D</button>
+
+        <button label="FAV" span="4">0x4040 0x58A7</button>
+        <button label="LAST" span="4">0x4040 0x28D7</button>
+        <button label="AUDIO" span="4">0x4040 0x22DD</button>
+
+        <button label="INFO" span="4">0x4040 0x16E9</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0x4040 0xD02F</button>
+        <button label="EPG" span="4">0x4040 0x02FD</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x4040 0x8877</button>
+        <button label="OK" span="4">0x4040 0xB04F</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x4040 0x08F7</button>
+
+        <button label="MENU" span="4">0x4040 0x6897</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x4040 0x708F</button>
+        <button label="SRC" span="4">0x4040 0xE619</button>
+
+        <button label="VOL+" span="4">0x4040 0x827D</button>
+        <button label="P+" span="4">0x4040 0x8A75</button>
+        <button label="CH+" span="4">0x4040 0xA857</button>
+
+        <space multiple="4"/>
+        <button label="LIST" span="4">0x4040 0xD827</button>
+        <space multiple="4"/>
+
+        <button label="VOL-" span="4">0x4040 0x42BD</button>
+        <button label="P-" span="4">0x4040 0x4AB5</button>
+        <button label="CH-" span="4">0x4040 0x18E7</button>
+
+        <button label="OPT" span="3">0x4040 0xAA55</button>
+        <button label="TEXT" span="3">0x4040 0xC23D</button>
+        <button label="SUB" span="3">0x4040 0xA659</button>
+        <button label="MAIL" span="3">0x4040 0x30CF</button>
+
+        <button label="&#xf04c;" alt="PAUSE" span="3">0x4040 0x2AD5</button>
+        <button label="&#xf04a;" alt="REW" span="3">0x4040 0x12ED</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x4040 0x48B7</button>
+        <button label="&#xf111;" alt="REC" span="3">0x4040 0x0AF5</button>
+
+        <button label="&#xf04b;" alt="PLAY" span="3">0x4040 0x1AE5</button>
+        <button label="&#xf049;" alt="PREV" span="3">0x4040 0x32CD</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0x4040 0xC837</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0x4040 0xF00F</button>
+
+        <button label="R" span="3">0x4040 0x8679</button>
+        <button label="G" span="3">0x4040 0x46B9</button>
+        <button label="Y" span="3">0x4040 0xC639</button>
+        <button label="B" span="3">0x4040 0x26D9</button>
+    </device>
+</irplus>

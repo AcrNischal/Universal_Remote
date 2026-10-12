@@ -1,0 +1,34 @@
+<irplus>
+    <device manufacturer="SANWU" model="HF183" columns="12" format="WINLIRC_SPACEENC" one-pulse="564" one-space="1692" zero-pulse="564" zero-space="564" header-pulse="9024" header-space="4512"
+        gap-space="108000" gap-pulse="564" bits="32" pre-bits="32">
+
+        <button label="&#61457;" labelSize="25.0" span="4" backgroundColor="FFFF0000">0x0000000000FFA25D</button>
+        <button label="&#61517;" labelSize="25.0" span="4" backgroundColor="FF0059FF">0x0000000000FF629D</button>
+        <button label="&#1045889;" labelSize="18.0" span="4" backgroundColor="FFFF0000">0x0000000000FFE21D</button>
+
+        <button label="MODE" labelSize="18.0" span="4" backgroundColor="FF007700">0x0000000000FF22DD</button>
+        <button label="&#1045837;" labelSize="26.0" span="4" backgroundColor="FF0059FF">0x0000000000FF02FD</button>
+        <button label="&#1045535;" labelSize="30.0" span="4" backgroundColor="FF007700">0x0000000000FFC23D</button>
+
+        <button label="&#1045675;" labelSize="30.0" span="4" backgroundColor="FF0059FF">0x0000000000FFE01F</button>
+        <button label="&#1045676;" labelSize="30.0" span="4" backgroundColor="FF0059FF">0x0000000000FFA857</button>
+        <button label="&#1045518;" labelSize="26.0" span="4" backgroundColor="FF0059FF">0x0000000000FF906F</button>
+
+        <button label="&#1045888;" labelSize="26.0" span="4" backgroundColor="FF0059FF">0x0000000000FF6897</button>
+        <button label="&#1045886;" labelSize="26.0" span="4" backgroundColor="FF0059FF">0x0000000000FF9867</button>
+        <button label="&#1045409;" labelSize="22.0" span="4">0x0000000000FFB04F</button>
+
+        <button label="&#1045412;" labelSize="22.0" span="4">0x0000000000FF30CF</button>
+        <button label="&#1045415;" labelSize="22.0" span="4">0x0000000000FF18E7</button>
+        <button label="&#1045418;" labelSize="22.0" span="4">0x0000000000FF7A85</button>
+
+        <button label="&#1045421;" labelSize="22.0" span="4">0x0000000000FF10EF</button>
+        <button label="&#1045424;" labelSize="22.0" span="4">0x0000000000FF38C7</button>
+        <button label="&#1045427;" labelSize="22.0" span="4">0x0000000000FF5AA5</button>
+
+        <button label="&#1045430;" labelSize="22.0" span="4">0x0000000000FF42BD</button>
+        <button label="&#1045433;" labelSize="22.0" span="4">0x0000000000FF4AB5</button>
+        <button label="&#1045436;" labelSize="22.0" span="4">0x0000000000FF52AD</button>
+
+    </device>
+</irplus>

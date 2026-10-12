@@ -1,0 +1,56 @@
+<irplus>
+    <device manufacturer="GOSPELL" model="DVB" columns="12" format="WINLIRC_NEC1">
+
+        <button label="CH+" span="4">0x807f 0x40bf</button>
+        <button label="&#xf0d8;" span="4">0x807f 0x02fd</button>
+        <button label="VOL+" span="4">0x807f 0x20df</button>
+
+        <button label="&#xf0d9;" span="4">0x807f 0x827d</button>
+        <button label="OK" span="4">0x807f 0x42bd</button>
+        <button label="&#xf0da;" span="4">0x807f 0xc23d</button>
+
+        <button label="CH-" span="4">0x807f 0xc03f</button>
+        <button label="&#xf0d7;" span="4">0x807f 0x22dd</button>
+        <button label="VOL-" span="4">0x807f 0xa05f</button>
+
+        <button label="1" span="4">0x807f 0x8877</button>
+        <button label="2" span="4">0x807f 0x48b7</button>
+        <button label="3" span="4">0x807f 0xc837</button>
+
+        <button label="4" span="4">0x807f 0x28d7</button>
+        <button label="5" span="4">0x807f 0xa857</button>
+        <button label="6" span="4">0x807f 0x6897</button>
+
+        <button label="7" span="4">0x807f 0xe817</button>
+        <button label="8" span="4">0x807f 0x18e7</button>
+        <button label="9" span="4">0x807f 0x9867</button>
+
+        <button label="INFO" span="4">0x807f 0xd827</button>
+        <button label="0" span="4">0x807f 0x58a7</button>
+        <button label="100+" span="4">0x807f 0x3ac5</button>
+
+        <button label="AUDIO" span="4">0x807f 0x7887</button>
+        <button label="16:9" span="4">0x807f 0xe01f</button>
+        <button label="FREEZE" span="4">0x807f 0x38c7</button>
+
+        <button label="SRC AV" span="4">0x807f 0xd02f</button>
+        <button label="SRC DVI" span="4">0x807f 0x906f</button>
+        <button label="SRC TV" span="4">0x807f 0x609f</button>
+
+        <button label="SRC SVIDEO" span="6">0x807f 0x30cf</button>
+        <button label="SRC COMP" span="6">0x807f 0x50af</button>
+
+        <button label="MENU" span="6">0x807f 0x629d</button>
+        <button label="&#xFF581;" span="6">0x807f 0x08f7</button>
+
+        <button label="POP" span="4">0x807f 0xf807</button>
+        <button label="LASTCH" span="4">0x807f 0x10ef</button>
+        <button label="SCAN" span="4">0x807f 0xba45</button>
+
+        <button label="PIP" span="3">0x807f 0xb04f</button>
+        <button label="PIP SRC" span="3">0x807f 0xb847</button>
+        <button label="PIP MOVE" span="3">0x807f 0xf00f</button>
+        <button label="PIP SWAP" span="3">0x807f 0x708f</button>
+
+    </device>
+</irplus>

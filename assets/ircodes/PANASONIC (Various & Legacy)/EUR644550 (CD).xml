@@ -1,0 +1,31 @@
+<irplus>
+    <device manufacturer="PANASONIC" model="EUR644550" columns="12" format="WINLIRC_SPACEENC" one-space="376"
+        one-pulse="493" zero-pulse="493" zero-space="1239" header-pulse="3562" header-space="1673" bits="16" pre-bits="32">
+        
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xBFFBFABC 0x0244</button>
+        <button label="FM MODE" span="4">0xBFFBFABC 0xD89E</button>
+        <button label="BAND" span="4">0xBFFBFABC 0xE2A4</button>
+
+        <button label="TUNER CH+" span="4">0xBFFBFABC 0x059E</button>
+        <button label="MEMORY" span="4">0xBFFBFABC 0x2E68</button>
+        <button label="TUNER CH-" span="4">0xBFFBFABC 0xE8AE</button>
+        
+        <button label="TUNER+" span="6">0xBFFBFABC 0x682E</button>
+        <button label="TUNER-" span="6">0xBFFBFABC 0xA8EE</button>
+
+        <button label="VOL-" span="6">0xBFFBFABC 0x7234</button>
+        <button label="VOL+" span="6">0xBFFBFABC 0xF2B4</button>
+
+        <button label="TAPE" span="6">0xBFFBFABC 0xCA8C</button>
+        <button label="CD" span="6">0xBFFBFABC 0x92D4</button>
+
+        <button label="&#xf04a;" alt="REW" span="4">0xBFFBFABC 0xDE98</button>
+        <button label="REPEAT" span="4">0xBFFBFABC 0x7E38</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0xBFFBFABC 0x5E18</button>
+
+        <button label="&#xf04d; CLEAR" span="4">0xBFFBFABC 0xFEB8</button>
+        <button label="&#xf04b; &#xf04c;" span="4">0xBFFBFABC 0x1E58</button>
+        <button label="XBS" span="4">0xBFFBFABC 0x5214</button>
+
+    </device>
+</irplus>

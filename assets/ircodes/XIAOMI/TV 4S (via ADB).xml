@@ -1,0 +1,58 @@
+<irplus>
+    <device manufacturer="XIAOMI" model="TV 4S" columns="12" format="ADB_SENDEVENT" metadata="127.0.0.1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="6">/dev/input/event2,4 4 786480,1 116 1,0 0 0,4 4 786480,1 116 0,0 0 0</button>
+        <button label="ASSISTANT" span="6">/dev/input/event2,4 4 786639,1 582 1,0 0 0,4 4 786639,1 582 0,0 0 0</button>
+
+        <button label="1" span="4">/dev/input/event2,4 4 458782,1 2 1,0 0 0,4 4 458782,1 2 0,0 0 0</button>
+        <button label="2" span="4">/dev/input/event2,4 4 458783,1 3 1,0 0 0,4 4 458783,1 3 0,0 0 0</button>
+        <button label="3" span="4">/dev/input/event2,4 4 458784,1 4 1,0 0 0,4 4 458784,1 4 0,0 0 0</button>
+        <button label="4" span="4">/dev/input/event2,4 4 458785,1 5 1,0 0 0,4 4 458785,1 5 0,0 0 0</button>
+        <button label="5" span="4">/dev/input/event2,4 4 458786,1 6 1,0 0 0,4 4 458786,1 6 0,0 0 0</button>
+        <button label="6" span="4">/dev/input/event2,4 4 458787,1 7 1,0 0 0,4 4 458787,1 7 0,0 0 0</button>
+        <button label="7" span="4">/dev/input/event2,4 4 458788,1 8 1,0 0 0,4 4 458788,1 8 0,0 0 0</button>
+        <button label="8" span="4">/dev/input/event2,4 4 458789,1 9 1,0 0 0,4 4 458789,1 9 0,0 0 0</button>
+        <button label="9" span="4">/dev/input/event2,4 4 458790,1 10 1,0 0 0,4 4 458790,1 10 0,0 0 0</button>
+
+        <button label="INPUT" span="4">/dev/input/event2,4 4 786610,1 167 1,0 0 0,4 4 786610,1 167 0,0 0 0</button>
+        <button label="0" span="4">/dev/input/event2,4 4 458791,1 11 1,0 0 0,4 4 458791,1 11 0,0 0 0</button>
+        <button label="TTX" span="4">/dev/input/event2,4 4 786975,1 136 1,0 0 0,4 4 786975,1 136 0,0 0 0</button>
+
+        <button label="CH LIST" span="6">/dev/input/event2,4 4 786872,1 393 1,0 0 0,4 4 786872,1 393 0,0 0 0</button>
+        <button label="SETTINGS" span="6">/dev/input/event2,4 4 786831,1 577 1,0 0 0,4 4 786831,1 577 0,0 0 0</button>
+
+        <button label="NETFLIX" labelColor="FFC84334" span="6">/dev/input/event2,4 4 786976,1 416 1,0 0 0,4 4 786976,1 416 0,0 0 0</button>
+        <button label="PRIME VIDEO" labelColor="FF00a8e0" span="6">/dev/input/event2,4 4 786608,1 207 1,0 0 0,4 4 786608,1 207 0,0 0 0</button>
+
+        <space multiple="4"/>
+        <button label="&#xf0d8;" span="4">/dev/input/event2,4 4 786498,1 103 1,0 0 0,4 4 786498,1 103 0,0 0 0</button>
+        <space multiple="4"/>
+
+        <button label="&#xf0d9;" span="4">/dev/input/event2,4 4 786500,1 105 1,0 0 0,4 4 786500,1 105 0,0 0 0</button>
+        <button label="OK" span="4">/dev/input/event2,4 4 786497,1 353 1,0 0 0,4 4 786497,1 353 0,0 0 0</button>
+        <button label="&#xf0da;" span="4">/dev/input/event2,4 4 786501,1 106 1,0 0 0,4 4 786501,1 106 0,0 0 0</button>
+
+        <space multiple="4"/>
+        <button label="&#xf0d7;" span="4">/dev/input/event2,4 4 786499,1 393 1,0 0 0,4 4 786499,1 393 0,0 0 0</button>
+        <space multiple="4"/>
+
+        <button label="MI" span="4">/dev/input/event2,4 4 786538,1 399 1,0 0 0,4 4 786538,1 399 0,0 0 0</button>
+        <button label="BACK" span="4">/dev/input/event2,4 4 786980,1 158 1,0 0 0,4 4 786980,1 158 0,0 0 0</button>
+        <button label="O" span="4">/dev/input/event2,4 4 786979,1 172 1,0 0 0,4 4 786979,1 172 0,0 0 0</button>
+
+        <button fillColor="FFC84334" label="R" span="4">/dev/input/event2,4 4 786615,1 166 1,0 0 0,4 4 786615,1 166 0,0 0 0</button>
+        <button label="VOL+" span="4">/dev/input/event2,4 4 786665,1 115 1,0 0 0,4 4 786665,1 115 0,0 0 0</button>
+        <button fillColor="FFD6A81F" label="Y" span="4">/dev/input/event2,4 4 786617,1 410 1,0 0 0,4 4 786617,1 410 0,0 0 0</button>
+
+        <button fillColor="FF1E7854" label="G" span="4">/dev/input/event2,4 4 786616,1 161 1,0 0 0,4 4 786616,1 161 0,0 0 0</button>
+        <button label="VOL-" span="4">/dev/input/event2,4 4 786665,1 114 1,0 0 0,4 4 786665,1 114 0,0 0 0</button>
+        <button fillColor="FF2A4C94" label="B" span="4">/dev/input/event2,4 4 786977,1 217 1,0 0 0,4 4 786977,1 217 0,0 0 0</button>
+
+        <button label="Set Xiaomi TV IP" span="12">SET_METADATA</button>
+        <button label="Reconnect ADB" span="12">RECONNECT_ADB</button>
+        <button label="Reset ADB" span="12">RESET_ADB</button>
+        <button label="To make it work you need to enable ADB in developer settings first! Then set the TV's IP and accept the authorization!" span="12">SET_METADATA</button>
+
+
+    </device>
+</irplus>

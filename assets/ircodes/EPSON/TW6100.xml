@@ -1,0 +1,54 @@
+<irplus>
+    <device manufacturer="EPSON" model="TW6100" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xC1AA 0x09F6</button>
+        <button label="STANDBY" span="4">0xC1AA 0x8976</button>
+        <button label="USB" span="4">0xC1AA 0x6E91</button>
+
+        <button label="HDMI1" span="4">0xC1AA 0xCE31</button>
+        <button label="HDMI2" span="4">0xC1AA 0xEE11</button>
+        <button label="WIRELESS HD" span="4">0xC1AA 0x1EE1</button>
+
+        <button label="COMPONENT" span="4">0xC1AA 0x8E71</button>
+        <button label="VIDEO" span="4">0xC1AA 0x0EF1</button>
+        <button label="PC" span="4">0xC1AA 0xB946</button>
+
+        <button label="&#xf049;" alt="PREV" span="4">0xC1AA 0xBA45</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0xC1AA 0x7A85</button>
+        <button label="&#xf050;" alt="NEXT" span="4">0xC1AA 0xFA05</button>
+
+        <button label="&#xf04a;" alt="REW" span="4">0xC1AA 0x5AA5</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0xC1AA 0xDA25</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0xC1AA 0x3AC5</button>
+
+        <button label="LINK MENU" span="4">0xC1AA 0x06F9</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0xC1AA 0x9A65</button>
+        <button label="&#xFF581;" span="4">0xC1AA 0xB54A</button>
+
+        <button label="HDMI LINK" span="4">0xC1AA 0x6A95</button>
+        <button label="VOL -" span="4">0xC1AA 0x9966</button>
+        <button label="VOL +" span="4">0xC1AA 0x19E6</button>
+
+        <button label="2D/3D" span="4">0xC1AA 0xC43B</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0xC1AA 0x0DF2</button>
+        <button label="COLOR MODE" span="4">0xC1AA 0xF10E</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0xC1AA 0xCD32</button>
+        <button label="ENTER" span="4">0xC1AA 0xA15E</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0xC1AA 0x8D72</button>
+
+        <button label="MENU" span="4">0xC1AA 0x59A6</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0xC1AA 0x4DB2</button>
+        <button label="ESC" span="4">0xC1AA 0x21DE</button>
+
+        <button label="DEFAULT" span="3">0xC1AA 0x9C63</button>
+        <button label="MEMORY" span="3">0xC1AA 0xD12E</button>
+        <button label="AUTO IRIS" span="3">0xC1AA 0xA45B</button>
+        <button label="RGB CMY" span="3">0xC1AA 0xBC43</button>
+
+        <button label="ASPECT" span="3">0xC1AA 0x51AE</button>
+        <button label="SPLIT" span="3">0xC1AA 0x41BE</button>
+        <button label="USER" span="3">0xC1AA 0xF906</button>
+        <button label="PATTERN" span="3">0xC1AA 0x6996</button>
+    </device>
+</irplus>

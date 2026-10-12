@@ -1,0 +1,56 @@
+<irplus>
+    <device manufacturer="HD DUO" model="Net3" columns="12" format="WINLIRC_SPACEENC" bits="32" pre-bits="32" toggle-bit-pos="0" gap-pulse="602" gap-space="106936" one-pulse="600" one-space="1625" zero-pulse="600" zero-space="519" header-pulse="8968" header-space="4413">
+
+        <button label="&#xf011;" alt="POWER" span="4">0xBEEC05FA</button>
+
+        <button label="1" span="4">0xBEEC807F</button>
+        <button label="2" span="4">0xBEEC40BF</button>
+        <button label="3" span="4">0xBEECC03F</button>
+
+        <button label="4" span="4">0xBEEC20DF</button>
+        <button label="5" span="4">0xBEECA05F</button>
+        <button label="6" span="4">0xBEEC609F</button>
+
+        <button label="7" span="4">0xBEECE01F</button>
+        <button label="8" span="4">0xBEEC10EF</button>
+        <button label="9" span="4">0xBEEC906F</button>
+
+        <button label="AUDIO" span="4">0xBEEC45BA</button>
+        <button label="0" span="4">0xBEEC00FF</button>
+        <button label="INFO" span="4">0xBEEC857A</button>
+
+        <button label="GUIDE" span="4">0xBEECE51A</button>
+        <button label="TEXT" span="4">0xBEECED12</button>
+        <button label="SUBTITLE" span="4">0xBEEC1DE2</button>
+
+        <button label="CH+CENTER" span="4">0xBEEC847B</button>
+        <button label="CH-CENTER" span="4">0xBEECA45B</button>
+        <button label="OK" span="4">0xBEECC43B</button>
+        <button label="VOL-CENTER" span="4">0xBEEC44BB</button>
+        <button label="VOL+CENTER" span="4">0xBEEC24DB</button>
+        <button label="SIGNAL" span="4">0xBEEC42BD</button>
+        <button label="MENU" span="4">0xBEEC659A</button>
+        <button label="EXIT" span="4">0xBEEC15EA</button>
+        <button label="PAGE-" span="4">0xBEEC46B9</button>
+        <button label="PAGE+" span="4">0xBEEC8679</button>
+        <button label="PLIST" span="4">0xBEECC23D</button>
+        <button label="PIP" span="4">0xBEEC827D</button>
+        <button label="SAT" span="4">0xBEEC55AA</button>
+        <button label="FAV" span="4">0xBEEC35CA</button>
+
+        <button label="R" alt="RED" span="4">0xBEEC03FC</button>
+        <button label="G" alt="GREEN" span="4">0xBEEC837C</button>
+        <button label="Y" alt="YELLOW" span="4">0xBEEC43BC</button>
+        <button label="B" alt="BLUE" span="4">0xBEECC33C</button>
+
+        <button label="SAT?" span="4">0xBEECD02F</button>
+        <button label="TIMER" span="4">0xBEECC53A</button>
+        <button label="TV/RADIO" span="4">0xBEECB04F</button>
+        <button label="RECALL" span="4">0xBEEC956A</button>
+
+        <button label="MULTISCREEN" span="4">0xBEEC9D62</button>
+        <button label="PAUSE?" span="4">0xBEEC0DF2</button>
+        <button label="BUSCA CANAL" span="4">0xBEEC8D72</button>
+        <button label="BEGIN" span="4">remote</button>
+    </device>
+</irplus>

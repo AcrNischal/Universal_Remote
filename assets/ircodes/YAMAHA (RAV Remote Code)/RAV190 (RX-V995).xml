@@ -1,0 +1,60 @@
+<irplus>
+    <device manufacturer="YAMAHA" model="RX-V995" columns="12" format="WINLIRC_NEC1">
+
+        <button label="ON" span="6">0xA15E 0x47B8</button>
+        <button label="STANDBY" span="6">0xA15E 0x8778</button>
+
+        <button label="VOL-" span="4">0xA15E 0x27D8</button>
+        <button label="&#xFF581;" span="4">0xA15E 0xC738</button>
+        <button label="VOL+" span="4">0xA15E 0xA758</button>
+
+        <button label="EFFECT" span="4">0xA15E 0x956A</button>
+        <button label="DECODER" span="4">0xA15E 0x1EE1</button>
+        <button label="PHONO" span="4">0xA15E 0xD728</button>
+
+        <button label="V-AUX" span="4">0xA15E 0x55AA</button>
+        <button label="VCR2" span="4">0xA15E 0x37C8</button>
+        <button label="TV/DBS" span="4">0xA15E 0xD52A</button>
+
+        <button label="DVD/LD" span="4">0xA15E 0x17E8</button>
+        <button label="VCR1" span="4">0xA15E 0x0FF0</button>
+        <button label="TUNER" span="4">0xA15E 0x9768</button>
+
+        <button label="CD" span="6">0xA15E 0x57A8</button>
+        <button label="TAPE/MD" span="6">0xA15E 0xE718</button>
+
+        <button label="1" span="4">0xA15E 0xEE11</button>
+        <button label="2" span="4">0xA15E 0x6E91</button>
+        <button label="3" span="4">0xA15E 0xAE51</button>
+        <button label="4" span="4">0xA15E 0x2ED1</button>
+        <button label="5" span="4">0xA15E 0xCE31</button>
+        <button label="6" span="4">0xA15E 0x4EB1</button>
+        <button label="7" span="4">0xA15E 0x8E71</button>
+        <button label="8" span="4">0xA15E 0x0EF1</button>
+        <button label="9" span="4">0xA15E 0xF609</button>
+
+        <space multiple="4"/>
+        <button label="0" span="4">0xA15E 0x7689</button>
+        <button label="UP" span="4">0xA15E 0xB748</button>
+
+        <button label="TUNER-" span="4">0xA15E 0x7788</button>
+        <button label="TEST" span="4">0xA15E 0x5EA1</button>
+        <button label="TUNER+" span="4">0xA15E 0xF708</button>
+
+        <button label="LEVEL" span="4">0xA15E 0x9E61</button>
+        <button label="SLEEP" span="4">0xA15E 0x15EA</button>
+        <button label="ONSCREEN" span="4">0xA15E 0xBC43</button>
+
+        <button label="SET-" span="6">0xA15E 0x06F9</button>
+        <button label="SET+" span="6">0xA15E 0x8679</button>
+
+        <button label="SET-" span="6">0xA15E 0x46B9</button>
+        <button label="SET+" span="6">0xA15E 0xC639</button>
+
+        <button label="PARAMETER-" span="6">0xA15E 0x5CA3</button>
+        <button label="PARAMETER+" span="6">0xA15E 0xDC23</button>
+
+        <button label="PARAMETER-" span="6">0xA15E 0x1CE3</button>
+        <button label="PARAMETER+" span="6">0xA15E 0x9C63</button>
+    </device>
+</irplus>

@@ -1,0 +1,69 @@
+<irplus>
+	<device manufacturer="VIZIO" model="VX37L" columns="12" format="WINLIRC_NEC1" 
+	    one-space="1684" one-pulse="547" zero-pulse="547" zero-space="565" header-pulse="8939" header-space="4447" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xFB04 0xF708</button>
+		<button label="TV" span="4">0xFB04 0x29D6</button>
+		<button label="HDMI" span="4">0xFB04 0x39C6</button>
+		
+		<button label="WIDE" span="3">0xFB04 0x8877</button>
+		<button label="MODE" span="3">0xFB04 0x9867</button>
+		<button label="SWAP" span="3">0xFB04 0x9966</button>
+		<button label="FREEZE" span="3">0xFB04 0x9A65</button>
+		
+		<button label="PIP" span="4">0xFB04 0x9F60</button>
+		<button label="PIPCH+" span="4">0xFB04 0x9B64</button>
+		<button label="PIPCH-" span="4">0xFB04 0x9C63</button>
+		
+		<button label="PIPIN" span="4">0xFB04 0x9D62</button>
+		<button label="PIPSIZE" span="4">0xFB04 0x9E61</button>
+		<button label="EXIT" span="4">0xFB04 0xB649</button>
+		
+		<button label="COMP" span="4">0xFB04 0xA55A</button>
+		<button label="AV" span="4">0xFB04 0xAE51</button>
+		<button label="RGB" span="4">0xFB04 0x6798</button>
+		
+		<button label="VOL+" span="4">0xFB04 0xFD02</button>
+		<button label="&#xf0d8;" span="4">0xFB04 0xBA45</button>
+		<button label="CH+" span="4">0xFB04 0xFF00</button>
+		
+		<button label="&#xf0d9;" span="4">0xFB04 0xB847</button>
+		<button label="OK" span="4">0xFB04 0xBB44</button>
+		<button label="&#xf0da;" span="4">0xFB04 0xB748</button>
+		
+		<button label="VOL-" span="4">0xFB04 0xFC03</button>
+		<button label="&#xf0d7;" span="4">0xFB04 0xB946</button>
+		<button label="CH-" span="4">0xFB04 0xFE01</button>
+		
+		<button label="ZOOMOUT" span="6">0xFB04 0xBE41</button>
+		<button label="ZOOMIN" span="6">0xFB04 0xBF40</button>
+		
+		<button label="MENU" span="4">0xFB04 0xBC43</button>
+		<button label="CC" span="4">0xFB04 0xC639</button>
+		<button label="INFO" span="4">0xFB04 0xE41B</button>
+		
+		<button label="ENTER" span="4">0xFB04 0x00FF</button>
+		<button label="INPUT" span="4">0xFB04 0xD02F</button>
+		<button label="GUIDE" span="4">0xFB04 0xE31C</button>
+		
+		<button label="LAST" span="4">0xFB04 0xE51A</button>
+		<button label="&#xFF581;" span="4">0xFB04 0xF609</button>
+		<button label="MTS" span="4">0xFB04 0xF50A</button>
+		
+		<button label="1" span="4">0xFB04 0xEE11</button>
+		<button label="2" span="4">0xFB04 0xED12</button>
+		<button label="3" span="4">0xFB04 0xEC13</button>
+		
+		<button label="4" span="4">0xFB04 0xEB14</button>
+		<button label="5" span="4">0xFB04 0xEA15</button>
+		<button label="6" span="4">0xFB04 0xE916</button>
+		
+		<button label="7" span="4">0xFB04 0xE817</button>
+		<button label="8" span="4">0xFB04 0xE718</button>
+		<button label="9" span="4">0xFB04 0xE619</button>
+		
+		<button label="SLEEP" span="4">0xFB04 0xF10E</button>
+		<button label="0" span="4">0xFB04 0xEF10</button>
+		<button label="AUDIO" span="4">0xFB04 0xF40B</button>
+	</device>
+</irplus>

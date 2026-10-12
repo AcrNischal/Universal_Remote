@@ -1,0 +1,80 @@
+<irplus>
+    <device manufacturer="DENON" model="RC-1159" columns="9" format="DENON_K_BINARY">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">00000100 00101100 00000000 00101000</button>
+        <button label="&#xf011; ON" span="3">00000100 00101000 00000000 00101100</button>
+        <button label="&#xf011; OFF" span="3">00000100 00100100 00000000 00100000</button>
+
+        <button label="FAVORITE" span="3">00000100 00100101 11000000 11100001</button>
+        <button label=" RADIO" span="3">00000100 00100111 11000000 11100011</button>
+        <button label="MUSIC SERVER" span="3">00000100 00100011 11000000 11100111</button>
+
+        <button label="ONLINE MUSIC" span="3">00000100 00101011 11000000 11101111</button>
+        <button label="USB / iPod" span="3">00000100 00101101 11000000 11101001</button>
+        <button label="TUNER AMP/TUNER" span="3">00001110 11001110 10000000 01000000</button>
+
+        <button label=" RADIO PRESET 1" span="3">00000100 00100000 00100000 00000100</button>
+        <button label=" RADIO PRESET 2" span="3">00000100 00101000 00100000 00001100</button>
+        <button label=" RADIO PRESET 3" span="3">00000100 00100100 00100000 00000000</button>
+
+        <button label="&#xf049;" alt="PREV" span="3">00000100 00101011 00000000 00101111</button>
+        <button label=" " span="3">00000100 00100101 00000000 00100001</button>
+        <button label="&#xf050;" alt="NEXT" span="3">00000100 00100011 00000000 00100111</button>
+
+        <button label="&#xf04a;" alt="REW" span="3">00000100 00101111 00000000 00101011</button>
+        <button label="&#xf04d;" alt="STOP" span="3">00000100 00101101 00000000 00101001</button>
+        <button label="&#xf04e;" alt="FWD" span="3">00000100 00100111 00000000 00100011</button>
+
+        <button label="TUNER" span="3">00001110 11000111 11000000 00001001</button>
+        <button label="PARTY MODE" span="3">00000100 00100010 00100000 00000110</button>
+        <button label="MENU" span="3">00000100 00100110 11000000 11100010</button>
+
+        <button label="PRESET+" span="3">00001110 11000110 10000000 01001000</button>
+        <button label="&#xf0d8;" span="3">00000100 00100000 01000000 01100100</button>
+        <button label="TUNING▲" span="3">00001110 11001001 10000000 01000111</button>
+
+        <button label="&#xf0d9;" span="3">00000100 00100100 01000000 01100000</button>
+        <button label="ENTER" span="3">00000100 00100010 01000000 01100110</button>
+        <button label="&#xf0da;" span="3">00000100 00101100 01000000 01101000</button>
+
+        <button label="PRESET-" span="3">00001110 11001010 10000000 01000100</button>
+        <button label="&#xf0d7;" span="3">00000100 00101000 01000000 01101100</button>
+        <button label="TUNING▼" span="3">00001110 11000101 10000000 01001011</button>
+
+        <button label="MODE" span="3">00000100 00101110 11000000 11101010</button>
+        <button label="HOME" span="3">00000100 00101010 11000000 11101110</button>
+        <button label="SEARCH" span="3">00000100 00100001 11000000 11100101</button>
+
+        <button label="1 ./" span="3">00000100 00101000 10000000 10101100</button>
+        <button label="2 ABC" span="3">00000100 00100100 10000000 10100000</button>
+        <button label="3 DEF" span="3">00000100 00101100 10000000 10101000</button>
+
+        <button label="4 GHI" span="3">00000100 00100010 10000000 10100110</button>
+        <button label="5 JKL" span="3">00000100 00101010 10000000 10101110</button>
+        <button label="6 MNO" span="3">00000100 00100110 10000000 10100010</button>
+
+        <button label="7 PQRS" span="3">00000100 00101110 10000000 10101010</button>
+        <button label="8 TUV" span="3">00000100 00100001 10000000 10100101</button>
+        <button label="9 WXYZ" span="3">00000100 00101001 10000000 10101101</button>
+
+        <button label="10" span="3">00000100 00100011 10000000 10100111</button>
+        <button label="0_" span="3">00000100 00101101 10000000 10101001</button>
+        <button label="CLEAR" span="3">00000100 00101111 01000000 01101011</button>
+
+        <button label="RANDOM" span="3">00000100 00100101 01000000 01100001</button>
+        <button label="REPEAT" span="3">00000100 00101101 01000000 01101001</button>
+        <button label="DIMMER" span="3">00000100 00101100 11000000 11101000</button>
+
+        <button label="DISPLAY" span="3">00000100 00100100 11000000 11100000</button>
+        <button label="&#xf04b;" alt="PLAY" span="3">00000100 00100001 00000000 00100101</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">00000100 00101001 00000000 00101101</button>
+
+        <button label="FM" span="3">00000100 00101001 00100000 00001101</button>
+        <button label="AM" span="3">00000100 00100101 00100000 00000001</button>
+        <button label="RHAPSODY" span="3">00000100 00101010 00100000 00001110</button>
+
+        <button label="NAPSTER" span="3">00000100 00100110 00100000 00000010</button>
+        <button label="PANDORA" span="3">00000100 00101110 00100000 00001010</button>
+        <button label="LAST.FM" span="3">00000100 00100001 00100000 00000101</button>
+    </device>
+</irplus>

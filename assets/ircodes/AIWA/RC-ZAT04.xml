@@ -1,0 +1,39 @@
+<irplus>
+    <device manufacturer="AIWA" model="RC-ZAT04" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="26" gap-pulse="593" gap-space="107818"
+        one-pulse="597" one-space="1650" zero-pulse="597" zero-space="525" header-pulse="9043" header-space="4448">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x381E3F 0x000FF</button>
+        <button label="EQ" span="4">0x381E3F 0x053AC</button>
+        <button label="MODE" span="4">0x381E3F 0x0F10E</button>
+
+        <button label="1" span="4">0x381E3F 0x0807F</button>
+        <button label="2" span="4">0x381E3F 0x040BF</button>
+        <button label="3" span="4">0x381E3F 0x0C03F</button>
+
+        <button label="4" span="4">0x381E3F 0x020DF</button>
+        <button label="5" span="4">0x381E3F 0x0A05F</button>
+        <button label="6" span="4">0x381E3F 0x0609F</button>
+
+        <button label="7" span="4">0x381E3F 0x0E01F</button>
+        <button label="8" span="4">0x381E3F 0x010EF</button>
+        <button label="9" span="4">0x381E3F 0x0906F</button>
+
+        <button label="0" span="4">0x381E3F 0x050AF</button>
+        <button label="+10" span="4">0x381E3F 0x0D02F</button>
+        <button label="REPEAT" span="4">0x381E3F 0x08A75</button>
+
+        <button label="BAND" span="4">0x381E3F 0x0C837</button>
+        <button label="FUNCTION" span="4">0x381E3F 0x0BB44</button>
+        <button label="DISPLAY" span="4">0x381E3F 0x001FE</button>
+
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x381E3F 0x0936C</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x381E3F 0x0A35C</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0x381E3F 0x023DC</button>
+
+        <button label="SKIP+" span="6">0x381E3F 0x0639C</button>
+        <button label="SKIP-" span="6">0x381E3F 0x0E31C</button>
+
+        <button label="VOL+" span="6">0x381E3F 0x08877</button>
+        <button label="VOL-" span="6">0x381E3F 0x048B7</button>
+    </device>
+</irplus>

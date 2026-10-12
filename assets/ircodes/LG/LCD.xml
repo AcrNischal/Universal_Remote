@@ -1,0 +1,18 @@
+<irplus manufacturer="LG" name="LCD TV">
+  <protocol>NEC</protocol>
+  <device>0x05</device>
+  <button label="Power" type="power" code="0x20DF10EF"/>
+  <button label="Mute" type="mute" code="0x20DF906F"/>
+  <button label="Vol +" type="vol_up" code="0x20DF40BF"/>
+  <button label="Vol -" type="vol_down" code="0x20DFC03F"/>
+  <button label="CH +" type="ch_up" code="0x20DF00FF"/>
+  <button label="CH -" type="ch_down" code="0x20DF807F"/>
+  <button label="Up" type="dpad_up" code="0x20DF02FD"/>
+  <button label="Down" type="dpad_down" code="0x20DF827D"/>
+  <button label="Left" type="dpad_left" code="0x20DFE01F"/>
+  <button label="Right" type="dpad_right" code="0x20DF609F"/>
+  <button label="OK" type="dpad_center" code="0x20DF22DD"/>
+  <button label="1" type="num" code="0x20DF8877"/>
+  <button label="2" type="num" code="0x20DF48B7"/>
+  <button label="3" type="num" code="0x20DFC837"/>
+</irplus>

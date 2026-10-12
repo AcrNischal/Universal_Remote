@@ -1,0 +1,70 @@
+<irplus>
+    <device manufacturer="DENON" model="RC-846" columns="20" format="WINLIRC_SPACEENC" bits="15" gap-pulse="315" gap-space="43714" one-pulse="315" one-space="734" zero-pulse="315" zero-space="1784" repeat="5">
+
+        <button label="MD " span="5">0x4D1C</button>
+        <button label="TAPE  L" span="5">0x6C57</button>
+        <button label="TAPE  R" span="5">0x6CE8</button>
+        <button label="&#xf011;" backgroundColor="FFC84334" span="5">0x67D7</button>
+
+        <button label="MD " span="5">0x4DE3</button>
+        <button label="TAPE " span="5">0x6E17</button>
+        <button label="TUNER PRESET+" span="5">0x6637</button>
+        <button label="VOL+" backgroundColor="FF01DFD7" span="5">0x6537</button>
+
+        <button label="CD " span="5">0x7597</button>
+        <button label="CD " span="5">0x7797</button>
+        <button label="TUNER PRESET-" span="5">0x6437</button>
+        <button label="VOL-" backgroundColor="FF01DFD7" span="5">0x6737</button>
+
+        <button label="CD " span="5">0x7617</button>
+        <button label="CD " span="10">0x7717</button>
+        <button label="CD D.SKIP" span="5">0x74A7</button>
+
+        <button label="FUNCTION" backgroundColor="FF01DFD7" span="4">0x6417</button>
+        <button label="TUNER" span="4">0x6597</button>
+        <button label="DIRECT" span="4">0x7457</button>
+        <button label="CD " span="4">0x7497</button>
+        <button label="CD " span="4">0x7697</button>
+
+        <button label="1" backgroundColor="FF01DFD7" span="4">0x76F7</button>
+        <button label="2" backgroundColor="FF01DFD7" span="4">0x74F7</button>
+        <button label="3" backgroundColor="FF01DFD7" span="4">0x7777</button>
+        <button label="CD REPEAT" span="4">0x7757</button>
+        <button label="CD RANDOM" span="4">0x76A7</button>
+
+        <button label="4" backgroundColor="FF01DFD7" span="4">0x7577</button>
+        <button label="5" backgroundColor="FF01DFD7" span="4">0x7677</button>
+        <button label="6" backgroundColor="FF01DFD7" span="4">0x7477</button>
+        <button label="CD PROGRAM" span="4">0x7537</button>
+        <button label="CD CANCEL" span="4">0x75D7</button>
+
+        <button label="7" backgroundColor="FF01DFD7" span="4">0x77B7</button>
+        <button label="8" backgroundColor="FF01DFD7" span="4">0x75B7</button>
+        <button label="9" backgroundColor="FF01DFD7" span="4">0x76B7</button>
+        <button label="CD EDIT" span="4">0x77C7</button>
+        <button label="CD TIME" span="4">0x74D7</button>
+
+        <button label="10" backgroundColor="FF01DFD7" span="4">0x74B7</button>
+        <button label="+10" backgroundColor="FF01DFD7" span="4">0x7737</button>
+        <button label="TAPE REC" backgroundColor="FFC84334" span="4">0x6C17</button>
+        <button label="TAPE " span="4">0x6C97</button>
+        <button label="TAPE " span="4">0x6E97</button>
+
+        <button label="SDB" span="4">0x76A3</button>
+        <button label="SLEEP" span="4">0x66C7</button>
+        <button label="MD REC" backgroundColor="FFC84334" span="4">0x4D63</button>
+        <button label="MD " span="4">0x4EA3</button>
+        <button label="MD " span="4">0x4DA3</button>
+
+        <button label="TUNER BAND" span="8">0x6453</button>
+        <button label="-" span="4">0x6693</button>
+        <button label="+" span="4">0x6593</button>
+        <button label="MEMO" span="4">0x65D3</button>
+
+        <button label="RDS" span="4">0x66D3</button>
+        <button label="PTY" span="4">0x6753</button>
+        <button label="CT" span="4">0x64D3</button>
+        <button label="PANEL" span="4">0x6613</button>
+        <button label="EON" span="4">0x6443</button>
+    </device>
+</irplus>

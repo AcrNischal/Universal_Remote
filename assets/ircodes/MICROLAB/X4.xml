@@ -1,0 +1,15 @@
+<irplus>
+    <device manufacturer="MICROLAB" model="X4" columns="1" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" backgroundColor="FFC84334">0xBF 0xF807</button>
+
+        <button label="CD">0xBF 0x20DF</button>
+
+        <button label="COAX">0xBF 0x609F</button>
+
+        <button label="VOL+">0xBF 0xC03F</button>
+
+        <button label="VOL-">0xBF 0x00FF</button>
+
+    </device>
+</irplus>

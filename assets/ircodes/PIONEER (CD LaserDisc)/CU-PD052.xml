@@ -1,0 +1,49 @@
+<irplus>
+    <device manufacturer="PIONEER" model="CU-PD052" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16"
+        gap-pulse="546" gap-space="25392" one-pulse="546" one-space="500" zero-pulse="546" zero-space="1565" header-pulse="8555" header-space="4201">
+
+        <button label="&#xf011;" alt="POWER" span="3">0xBA45 0xC738</button>
+        <button label="DISC 1" span="3">0xBA45 0x8778</button>
+        <button label="DISC 2" span="3">0xBA45 0x07F8</button>
+        <button label="DISC 3" span="3">0xBA45 0xF50A</button>
+
+        <button label="ADLC" span="3">0xBA45 0xAD52</button>
+        <button label="DISC 4" span="3">0xBA45 0x35CA</button>
+        <button label="DISC 5" span="3">0xBA45 0x15EA</button>
+        <button label="DISC 6" span="3">0xBA45 0x25DA</button>
+
+        <button label="&#xf04a; MANUAL" span="3">0xBA45 0x0FF0</button>
+        <button label="MANUAL &#xf04e;" span="3">0xBA45 0x8F70</button>
+        <button label="- OUTPUT" span="3">0xBA45 0x2FD0</button>
+        <button label="LEVEL +" span="3">0xBA45 0xAF50</button>
+
+        <button label="&#xf049; TRACK" span="3">0xBA45 0x7788</button>
+        <button label="TRACK &#xf050;" span="3">0xBA45 0xF708</button>
+        <button label="HI-LITE SCAN" span="3">0xBA45 0x857A</button>
+        <button label="RANDOM PLAY" span="3">0xBA45 0xAD52</button>
+
+        <button label="&#xf04d;" alt="STOP" span="3">0xBA45 0x9768</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">0xBA45 0xE718</button>
+        <button label="&#xf04b;" alt="PLAY" span="6">0xBA45 0x17E8</button>
+
+        <button label="1" span="3">0xBA45 0x7F80</button>
+        <button label="2" span="3">0xBA45 0xBF40</button>
+        <button label="3" span="3">0xBA45 0x3FC0</button>
+        <button label="+10" span="3">0xBA45 0xB54A</button>
+
+        <button label="4" span="3">0xBA45 0xDF20</button>
+        <button label="5" span="3">0xBA45 0x5FA0</button>
+        <button label="6" span="3">0xBA45 0x9F60</button>
+        <button label="+20" span="3">0xBA45 0x956A</button>
+
+        <button label="7" span="3">0xBA45 0x1FE0</button>
+        <button label="8" span="3">0xBA45 0xEF10</button>
+        <button label="9" span="3">0xBA45 0x6F90</button>
+        <button label="10" span="3">0xBA45 0xFF00</button>
+
+        <button label="PGM" span="3">0xBA45 0x4FB0</button>
+        <button label="CHECK" span="3">0xBA45 0x6D92</button>
+        <button label="CLEAR" span="3">0xBA45 0x5DA2</button>
+        <button label="DELETE" span="3">0xBA45 0x45BA</button>
+    </device>
+</irplus>

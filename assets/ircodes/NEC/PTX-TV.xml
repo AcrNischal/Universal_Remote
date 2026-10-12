@@ -1,0 +1,66 @@
+<irplus>
+    <device manufacturer="NEC" model="PTX-TV" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x18e7 0x10ef</button>
+        <button label="&#xFF581;" span="4">0x18e7 0x906f</button>
+        <button label="TV/AV" span="4">0x18e7 0x50af</button>
+
+        <button label="1" span="4">0x18e7 0x08f7</button>
+        <button label="2" span="4">0x18e7 0x8877</button>
+        <button label="3" span="4">0x18e7 0x48b7</button>
+
+        <button label="4" span="4">0x18e7 0xc837</button>
+        <button label="5" span="4">0x18e7 0x28d7</button>
+        <button label="6" span="4">0x18e7 0xa857</button>
+
+        <button label="7" span="4">0x18e7 0x6897</button>
+        <button label="8" span="4">0x18e7 0xe817</button>
+        <button label="9" span="4">0x18e7 0x18e7</button>
+
+        <button label="Guide" span="4">0x18e7 0x44bb</button>
+        <button label="0" span="4">0x18e7 0x58a7</button>
+        <button label="Recall" span="4">0x18e7 0x04fb</button>
+
+        <button label="CH+" span="4">0x18e7 0x00ff</button>
+        <button label="&#xf0d8;" span="4">0x18e7 0x8a75</button>
+        <button label="VOL+" span="4">0x18e7 0x40bf</button>
+
+        <button label="&#xf0d9;" span="4">0x18e7 0x4ab5</button>
+        <button label="OK" span="4">0x18e7 0xaa55</button>
+        <button label="&#xf0da;" span="4">0x18e7 0xca35</button>
+
+        <button label="CH-" span="4">0x18e7 0x807f</button>
+        <button label="&#xf0d7;" span="4">0x18e7 0x6a95</button>
+        <button label="VOL-" span="4">0x18e7 0xc03f</button>
+
+        <button label="Audio" span="4">0x18e7 0x38c7</button>
+        <button label="Video" span="4">0x18e7 0x20df</button>
+        <button label="Text" span="4">0x18e7 0xeb14</button>
+
+        <button label="Menu" span="3">0x18e7 0xbe41</button>
+        <button label="Exit" span="3">0x18e7 0x847b</button>
+        <button label="Display" span="3">0x18e7 0x24db</button>
+        <button label="Return TV" span="3">0x18e7 0x649b</button>
+
+        <button label="Sleep Timer" span="3">0x18e7 0xd827</button>
+        <button label="Subt List" span="3">0x18e7 0xb34c</button>
+        <button label="Txt Expand" span="3">0x18e7 0xe41b</button>
+        <button label="Back" span="3">0x18e7 0xf00f</button>
+
+        <button label="Update" span="3">0x18e7 0xc43b</button>
+        <button label="Reveal" span="3">0x18e7 0xa45b</button>
+        <button label="Txt Stop" span="3">0x18e7 0x738c</button>
+        <button label="Info" span="3">0x18e7 0xd42b</button>
+       
+        <button label="R" fillColor="FFC84334" span="3">0x18e7 0x5ba4</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x18e7 0xdb24</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x18e7 0x3bc4</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x18e7 0xbb44</button>
+
+        <button label="F1" span="3">0x18e7 0xb847</button>
+        <button label="F2" span="3">0x18e7 0x0bf4</button>
+        <button label="F3" span="3">0x18e7 0x54ab</button>
+        <button label="F4" span="3">0x18e7 0xf30c</button>
+
+    </device>
+</irplus>

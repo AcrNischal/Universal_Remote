@@ -1,0 +1,72 @@
+<irplus>
+    <device manufacturer="OCTAGON" model="SF1008HD" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16" 
+        gap-pulse="590" gap-space="108371" one-pulse="603" one-space="1656" zero-pulse="603" zero-space="522" header-pulse="9091" header-space="4456">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0x409F 0x50AF</button>
+        <button label="&#xFF581;" span="6">0x409F 0x30CF</button>
+
+        <button label="V.FORMAT" span="3">0x409F 0x708F</button>
+        <button label="SLEEP" span="3">0x409F 0x7887</button>
+        <button label="TV/RAD" span="3">0x409F 0x58A7</button>
+        <button label="RESOLUTION" span="3">0x409F 0xF00F</button>
+
+        <button label="PAGE+" span="3">0x409F 0xC23D</button>
+        <button label="PAGE-" span="3">0x409F 0x22DD</button>
+        <button label="SUBTITLE" span="3">0x409F 0xD02F</button>
+        <button label="TELETEXT" span="3">0x409F 0xB04F</button>
+
+        <button label="1" span="4">0x409F 0x8877</button>
+        <button label="2" span="4">0x409F 0x48B7</button>
+        <button label="3" span="4">0x409F 0xC837</button>
+        <button label="4" span="4">0x409F 0x28D7</button>
+        <button label="5" span="4">0x409F 0xA857</button>
+        <button label="6" span="4">0x409F 0x6897</button>
+        <button label="7" span="4">0x409F 0xE817</button>
+        <button label="8" span="4">0x409F 0x18E7</button>
+        <button label="9" span="4">0x409F 0x9867</button>
+
+        <button label="FAV" span="4">0x409F 0x827D</button>
+        <button label="0" span="4">0x409F 0x08F7</button>
+        <button label=" PLAYLIST" span="4">0x409F 0x02FD</button>
+
+        <button label="INFO" span="4">0x409F 0x609F</button>
+        <button label="&#xf0d8;" span="4">0x409F 0x00FF</button>
+        <button label="&#xf0e2;" alt="RECALL" span="4">0x409F 0x906F</button>
+
+        <button label="&#xf0d9;" span="4">0x409F 0xC03F</button>
+        <button label="OK" span="4">0x409F 0xF807</button>
+        <button label="&#xf0da;" span="4">0x409F 0x40BF</button>
+
+        <button label="MENU" span="4">0x409F 0x20DF</button>
+        <button label="&#xf0d7;" span="4">0x409F 0x807F</button>
+        <button label="EXIT" span="4">0x409F 0x38C7</button>
+
+        <button label="VOL+" span="4">0x409F 0x728D</button>
+        <button label="EPG" span="4">0x409F 0x10EF</button>
+        <button label="CH+" span="4">0x409F 0x7A85</button>
+
+        <button label="VOL-" span="4">0x409F 0xF20D</button>
+        <button label="EPG" span="4">0x409F 0x10EF</button>
+        <button label="CH-" span="4">0x409F 0xFA05</button>
+
+        <button label="" backgroundColor="FFC84334" span="3">0x409F 0xD22D</button>
+        <button label="" backgroundColor="FF1E7854" span="3">0x409F 0x52AD</button>
+        <button label=" ?" backgroundColor="FFD6A81F" span="3">0x409F 0x926D</button>
+        <button label="" backgroundColor="FF2A4C94" span="3">0x409F 0x12ED</button>
+
+        <button label="" span="3">0x409F 0x1AE5</button>
+        <button label="" span="3">0x409F 0xAA55</button>
+        <button label="" span="3">0x409F 0xE01F</button>
+        <button label="" span="3">0x409F 0x3AC5</button>
+        
+        <button label="" span="3">0x409F 0x0AF5</button>
+        <button label="" span="3">0x409F 0x2AD5</button>
+        <button label="" labelColor="FFC84334" span="3">0x409F 0x6A95</button>
+        <button label="" span="3">0x409F 0x32CD</button>
+        
+        <button label="" span="3">0x409F 0x42BD</button>
+        <button label="PIP" span="3">0x409F 0x8A75</button>
+        <button label="PIP Swap" span="3">0x409F 0x4AB5</button>
+        <button label="PIP S.List" span="3">0x409F 0xCA35</button>
+    </device>
+</irplus>

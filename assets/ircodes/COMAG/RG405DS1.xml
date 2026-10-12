@@ -1,0 +1,54 @@
+<irplus>
+    <device manufacturer="COMAG" model="RG405DS1" columns="12" format="WINLIRC_SPACEENC" gap-pulse="190" gap-space="121252"
+        one-space="7350" one-pulse="195" zero-pulse="195" zero-space="4823" pre-bits="11">
+
+        <space multiple="3"/>
+        <space multiple="3"/>
+        <space multiple="3"/>
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0x71E|0x51E</button>
+
+        <button label="TV/SAT" backgroundColor="FFC84334" span="3">0x710|0x510</button>
+        <button label="TV/RADIO" backgroundColor="FF1E7854" span="3">0x722|0x522</button>
+        <button label="ZOOM" backgroundColor="FFD6A81F" span="3">0x719|0x519</button>
+        <button label="LIST" backgroundColor="FF2A4C94" span="3">0x714|0x514</button>
+
+        <button label="AUDIO" span="3">0x732|0x532</button>
+        <button label="EPG" span="3">0x726|0x526</button>
+        <button label="TIMER" span="3">0x71A|0x51A</button>
+        <button label="TEXT" span="3">0x720|0x520</button>
+
+        <button label="EXIT" span="3">0x730|0x530</button>
+        <button label="MENU" span="3">0x727|0x527</button>
+        <button label="M/P" span="3">0x72F|0x52F</button>
+        <button label="&#xFF581;" span="3">0x737|0x537</button>
+
+        <button label="P+" span="4">0x723|0x523</button>
+        <button label="CH+" backgroundColor="FF468499" span="4">0x728|0x528</button>
+        <button label="FAV" span="4">0x718|0x518</button>
+
+        <button label="VOL-" backgroundColor="FF468499" span="4">0x731|0x531</button>
+        <button label="OK" backgroundColor="FF1E7854" span="4">0x729|0x529</button>
+        <button label="VOL+" backgroundColor="FF468499" span="4">0x721|0x521</button>
+
+        <button label="P-" span="4">0x71B|0x51B</button>
+        <button label="CH-" backgroundColor="FF468499" span="4">0x72A|0x52A</button>
+        <button label="RECALL" span="4">0x72E|0x52E</button>
+
+        <button label="1" span="4">0x735|0x535</button>
+        <button label="2" span="4">0x72D|0x52D</button>
+        <button label="3" span="4">0x725|0x525</button>
+
+        <button label="4" span="4">0x71D|0x51D</button>
+        <button label="5" span="4">0x734|0x534</button>
+        <button label="6" span="4">0x72C|0x52C</button>
+
+        <button label="7" span="4">0x724|0x524</button>
+        <button label="8" span="4">0x71C|0x51C</button>
+        <button label="9" span="4">0x733|0x533</button>
+
+        <button label="INFO" span="4">0x736|0x536</button>
+        <button label="0" span="4">0x72B|0x52B</button>
+        <button label="PAUSE" span="4">0x71F|0x51F</button>
+
+    </device>
+</irplus>

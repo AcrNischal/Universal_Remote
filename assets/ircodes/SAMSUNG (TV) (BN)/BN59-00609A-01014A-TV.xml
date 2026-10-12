@@ -1,0 +1,67 @@
+<irplus>
+	<device manufacturer="SAMSUNG" model="BN59-00609A" columns="12" format="WINLIRC_NECx1"
+        one-space="1654" one-pulse="569" zero-pulse="569" zero-space="558" header-pulse="4494" header-space="4531" bits="16" pre-bits="16">
+
+		<button label="&#xf011;" backgroundColor="FFC84334" span="6">0xE0E0 0x40BF</button>
+		<button label="SOURCE" span="6">0xE0E0 0x807F</button>
+
+		<button label="1" span="4">0xE0E0 0x20DF</button>
+		<button label="2" span="4">0xE0E0 0xA05F</button>
+		<button label="3" span="4">0xE0E0 0x609F</button>
+
+		<button label="4" span="4">0xE0E0 0x10EF</button>
+		<button label="5" span="4">0xE0E0 0x906F</button>
+		<button label="6" span="4">0xE0E0 0x50AF</button>
+
+		<button label="7" span="4">0xE0E0 0x30CF</button>
+		<button label="8" span="4">0xE0E0 0xB04F</button>
+		<button label="9" span="4">0xE0E0 0x708F</button>
+
+		<button label="-/--" span="4">0xE0E0 0xC43B</button>
+		<button label="0" span="4">0xE0E0 0x8877</button>
+		<button label="PRE-CH" span="4">0xE0E0 0xC837</button>
+
+		<button label="TV" span="3">0xE0E0 0xD827</button>
+		<button label="CHLIST" span="3">0xE0E0 0xD629</button>
+		<button label="SLEEP" span="3">0xE0E0 0xC03F</button>
+		<button label="HDMI" span="3">0xE0E0 0xD12E</button>
+
+		<button label="VOL+" span="6">0xE0E0 0xE01F</button>
+		<button label="CH+" span="6">0xE0E0 0x48B7</button>
+
+		<button label="VOL-" span="6">0xE0E0 0xD02F</button>
+		<button label="CH-" span="6">0xE0E0 0x08F7</button>
+
+		<button label="&#xFF581;" span="6">0xE0E0 0xF00F</button>
+		<button label="TTX/MIX" span="6">0xE0E0 0x34CB</button>
+
+		<button label="MENU" span="4">0xE0E0 0x58A7</button>
+		<button label="&#xf0d8;" span="4">0xE0E0 0x06F9</button>
+		<button label="EXIT" span="4">0xE0E0 0xB44B</button>
+
+		<button label="&#xf0d9;" span="4">0xE0E0 0xA659</button>
+		<button label="ENTER" span="4">0xE0E0 0x16E9</button>
+		<button label="&#xf0da;" span="4">0xE0E0 0x46B9</button>
+
+		<button label="RETURN" span="4">0xE0E0 0x1AE5</button>
+		<button label="&#xf0d7;" span="4">0xE0E0 0x8679</button>
+		<button label="INFO" span="4">0xE0E0 0xF807</button>
+
+		<button label="P.MODE" backgroundColor="FFC84334" span="3">0xE0E0 0x36C9</button>
+		<button label="S.MODE" backgroundColor="FF1E7854" span="3">0xE0E0 0x28D7</button>
+		<button label="STILL" backgroundColor="FFD6A81F" span="3">0xE0E0 0xA857</button>
+		<button label="P.SIZE" backgroundColor="FF2A4C94" span="3">0xE0E0 0x6897</button>
+
+		<button label="E.SAVING" span="3">0xE0E0 0xEE11</button>
+		<button label="PIP" span="3">0xE0E0 0x04FB</button>
+		<button label="PIP SRC" span="3">0xE0E0 0x24DB</button>
+		<button label="PIP P+" span="3">0xE0E0 0x4CB3</button>
+
+		<button label="DUAL" span="3">0xE0E0 0x00FF</button>
+		<button label="SRS" span="3">0xE0E0 0x7689</button>
+		<button label="PIP POS" span="3">0xE0E0 0x44BB</button>
+		<button label="PIP P-" span="3">0xE0E0 0xCC33</button>
+
+
+	</device>
+</irplus>

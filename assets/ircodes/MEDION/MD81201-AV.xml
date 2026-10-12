@@ -1,0 +1,26 @@
+<irplus>
+	<device manufacturer="MEDION" model="MD81201" columns="8" format="WINLIRC_NEC1" one-space="1546" one-pulse="687" zero-pulse="687" zero-space="435" header-pulse="9111" header-space="4373" bits="16" pre-bits="16">
+		<button label="&#xf011;" backgroundColor="FFC84334" span="8">0x1FE 0x48B7</button>
+		
+		<button label="EQUALIZER" span="4">0x1FE 0xB04F</button>
+		<button label="MODE" span="4">0x1FE 0xA05F</button>
+		
+		<button label="FIND" span="4">0x1FE 0x40BF</button>
+		<button label="FUNCTION" span="4">0x1FE 0x807F</button>
+		
+		<button label="CDPLAY" span="4">0x1FE 0x10EF</button>
+		<button label="CDSTOP" span="4">0x1FE 0xD827</button>
+		
+		<button label="TUNER" span="4">0x1FE 0x609F</button>
+		<button label="SLEEP" span="4">0x1FE 0xF00F</button>
+		
+		<button label="PROG" span="4">0x1FE 0x20DF</button>
+		<button label="MONO/STEREO" span="4">0x1FE 0xC03F</button>
+		
+		<button label="VOL+" span="4">0x1FE 0x30CF</button>
+		<button label="VOL-" span="4">0x1FE 0x00FF</button>
+		
+		<button label="CH+" span="4">0x1FE 0x708F</button>
+		<button label="CH-" span="4">0x1FE 0x9867</button>
+	</device>
+</irplus>

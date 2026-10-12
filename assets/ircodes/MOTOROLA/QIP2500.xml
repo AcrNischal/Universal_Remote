@@ -1,0 +1,75 @@
+<irplus>
+    <device manufacturer="MOTOROLA" model="QIP2500" columns="12" format="WINLIRC_SPACEENC" pre-bits="16" repeat="5"
+        gap-pulse="519" gap-space="99454" one-pulse="520" one-space="4460" zero-pulse="520" zero-space="2218" header-pulse="8979" header-space="4468">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x5006</button>
+        <button label="VOD" span="4">0x580A</button>
+        <button label="PPV" span="4">0x180E</button>
+
+        <button label="DVR &#xf04a;" span="4">0x7808</button>
+        <button label="DVR &#xf04b;" span="4">0xD802</button>
+        <button label="DVR &#xf04e;" span="4">0xB804</button>
+
+        <button label="DVR &#xf111;" span="4">0x8C03</button>
+        <button label="DVR &#xf04c;" span="4">0xF800</button>
+        <button label="DVR &#xf04d;" span="4">0x380C</button>
+
+        <button label="DVR REPLAY" span="4">0x3C08</button>
+        <button label="DVR LIST" span="4">0xBC00</button>
+        <button label="DVR LIVETV" span="4">0x7C0F</button>
+
+        <button label="VOL+" span="3">0xB00C</button>
+        <button label="VOL-" span="3">0x7004</button>
+        <button label="CH+" span="3">0xD00A</button>
+        <button label="CH-" span="3">0x3002</button>
+
+        <button label="&#xFF581;" span="3">0xF008</button>
+        <button label="FAV" span="3">0xA805</button>
+        <button label="HELP" span="3">0x4C0D</button>
+        <button label="INFO" span="3">0xCC05</button>
+
+        <button label="LAST" span="3">0xC803</button>
+        <button label="PAGE+" span="3">0x5C0C</button>
+        <button label="PAGE-" span="3">0xDC04</button>
+        <button label="EXIT" span="3">0x480B</button>
+
+        <button label="GUIDE" span="4">0x0C0B</button>
+        <button label="&#xf0d8;" span="4">0x2C09</button>
+        <button label="MENU" span="4">0x9806</button>
+
+        <button label="&#xf0d9;" span="4">0x6C0E</button>
+        <button label="OK" span="4">0x8807</button>
+        <button label="&#xf0da;" span="4">0xEC06</button>
+
+        <button label="DAY-" span="4">0x9C02</button>
+        <button label="&#xf0d7;" span="4">0xAC01</button>
+        <button label="DAY+" span="4">0x1C0A</button>
+
+        <button label="A ▲" span="4">0xE801</button>
+        <button label="B &#xf04d;" span="4">0xE40E</button>
+        <button label="C &#xf111;" span="4">0x1406</button>
+
+        <button label="1" span="4">0x800F</button>
+        <button label="2" span="4">0x4007</button>
+        <button label="3" span="4">0xC00B</button>
+
+        <button label="4" span="4">0x2003</button>
+        <button label="5" span="4">0xA00D</button>
+        <button label="6" span="4">0x6005</button>
+
+        <button label="7" span="4">0xE009</button>
+        <button label="8" span="4">0x1001</button>
+        <button label="9" span="4">0x900E</button>
+
+        <button label="INPUT" span="4">0x280D</button>
+        <button label="0" span="4">0x0000</button>
+        <button label="ASPECT" span="4">0x0203</button>
+
+        <button label="PIP &#xf011;" span="4">0x4403</button>
+        <button label="PIP SWAP" span="4">0xC40D</button>
+        <button label="PIP MOVE" span="4">0x2405</button>
+
+        <button label="PIP CH+" span="6">0xA409</button>
+        <button label="PIP CH-" span="6">0x6401</button>
+    </device>
+</irplus>

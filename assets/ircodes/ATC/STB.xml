@@ -1,0 +1,50 @@
+<irplus>
+    <device manufacturer="ATC" model="STB" columns="12" format="WINLIRC_SPACEENC" bits="8" pre-bits="8" repeatheader="true"
+          gap-pulse="1101" gap-space="52544" one-pulse="1100" one-space="2873" zero-pulse="1100" zero-space="884" header-pulse="5078" header-space="2860" repeat="2">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x60 0x00</button>
+        <space multiple="8"/>
+
+        <button label="1" span="4">0xF0 0x00</button>
+        <button label="2" span="4">0x88 0x00</button>
+        <button label="3" span="4">0x48 0x00</button>
+        
+        <button label="4" span="4">0xE8 0x00</button>
+        <button label="5" span="4">0x98 0x00</button>
+        <button label="6" span="4">0xD8 0x00</button>
+        
+        <button label="7" span="4">0x50 0x00</button>
+        <button label="8" span="4">0x90 0x00</button>
+        <button label="9" span="4">0x70 0x00</button>
+
+        <button label="CH-" span="4">0x08 0x00</button>
+        <button label="0" span="4">0x24 0x00</button>
+        <button label="CH+" span="4">0xD0 0x00</button>
+
+        <button label="BACK" span="4">0x84 0x00</button>
+        <button label="&#xf0d8;" span="4">0xC4 0x00</button>
+        <button label="HOME" span="4">0x54 0x00</button>
+
+        <button label="&#xf0d9;" span="4">0xB8 0x00</button>
+        <button label="OK" span="4">0x30 0x00</button>
+        <button label="&#xf0da;" span="4">0x80 0x00</button>
+
+        <button label="EXIT" span="4">0x58 0x00</button>
+        <button label="&#xf0d7;" span="4">0x04 0x00</button>
+        <button label="SETTINGS" span="4">0x44 0x00</button>
+        
+        <button label="R" fillColor="FFC84334" span="3">0xB0 0x00</button>
+        <button label="G" fillColor="FF1E7854" span="3">0xC8 0x00</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x64 0x00</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0xD4 0x00</button>
+
+        <button label="&#xf04a;" alt="REW" span="4">0xF8 0x00</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0x74 0x00</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0x38 0x00</button>
+        
+        <button label="&#xf04d;" alt="STOP" span="4">0x9C 0x00</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0xB4 0x00</button>
+        <button label="&#xf111;" alt="REC" labelColor="FFC84334" span="4">0xF4 0x00</button>
+        
+    </device>
+</irplus>

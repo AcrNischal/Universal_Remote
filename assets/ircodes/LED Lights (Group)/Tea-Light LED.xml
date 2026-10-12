@@ -1,0 +1,33 @@
+<irplus>
+    <device manufacturer="LED" model="LED-Tea-Light" columns="3" format="WINLIRC_NEC1">
+
+        <button label="ON" backgroundColor="FFFF0000">0x00FF 0x00FF</button>
+        <button label="OFF" backgroundColor="FF1C1C1C">0x00FF 0x807F</button>
+        <button label="FLASH" backgroundColor="8A8A8A8A">0x00FF 0x40BF</button>
+
+        <button label="STROBE" backgroundColor="8A8A8A8A">0x00FF 0x20DF</button>
+        <button label="FADE" backgroundColor="8A8A8A8A">0x00FF 0xA05F</button>
+        <button label="SMOOTH" backgroundColor="8A8A8A8A">0x00FF 0x609F</button>
+
+        <button label="&#61829; &#61543;" labelColor="FF000000" backgroundColor="FFFFFFFF">0x00FF 0x10EF</button>
+        <button label="&#61829; &#61544;" labelColor="FF000000" backgroundColor="FFFFFFFF">0x00FF 0x906F</button>
+        <button label="W" labelColor="FF000000" backgroundColor="FFFFFFFF">0x00FF 0x50AF</button>
+
+        <button label="R" backgroundColor="FFC84334">0x00FF 0x30CF</button>
+        <button label="G" backgroundColor="FF1E7854">0x00FF 0xB04F</button>
+        <button label="B" backgroundColor="FF2A4C94">0x00FF 0x708F</button>
+
+        <button label="." fillColor="FFFF6600">0x00FF 0x08F7</button>
+        <button label="." fillColor="FF00FF99">0x00FF 0x8877</button>
+        <button label="." fillColor="FF0066FF">0x00FF 0x48B7</button>
+
+        <button label="." fillColor="FFFF9900">0x00FF 0x28D7</button>
+        <button label="." fillColor="FF00FFCC">0x00FF 0xA857</button>
+        <button label="." fillColor="FF6666FF">0x00FF 0x6897</button>
+
+        <button label="." fillColor="FFFFCC00">0x00FF 0x18E7</button>
+        <button label="." fillColor="FF00FFFF">0x00FF 0x9867</button>
+        <button label="." fillColor="FF9900FF">0x00FF 0x58A7</button>
+
+    </device>
+</irplus>

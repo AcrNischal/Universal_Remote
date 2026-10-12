@@ -1,0 +1,25 @@
+<irplus>
+    <device manufacturer="GENIUS" model="SW-HF5.1 5000" columns="12" format="WINLIRC_NEC1">
+        <button label="RESET" span="6" backgroundColor="FF634242">0x03FC 0x6996</button>
+        <button label="&#1045889;" span="6" backgroundColor="FF634242">0x03FC 0x41BE</button>
+
+        <button label="CEN +" span="3" backgroundColor="FF424242">0x03FC 0x51AE</button>
+        <button label="VOL +" span="6" backgroundColor="FF2766DC">0x03FC 0xA956</button>
+        <button label="SUB +" span="3">0x03FC 0x29D6</button>
+
+        <button label="CEN -" span="3" backgroundColor="FF424242">0x03FC 0x11EE</button>
+        <button label="VOL -" span="6" backgroundColor="FF2766DC">0x03FC 0x817E</button>
+        <button label="SUB -" span="3">0x03FC 0x01FE</button>
+
+        <button label="DVD" span="4">0x03FC 0x718E</button>
+        <button label="FRONT +" span="4">0x03FC 0x619E</button>
+        <button label="REAR +" span="4">0x03FC 0xA15E</button>
+
+        <button label="TV" span="4">0x03FC 0x49B6</button>
+        <button label="FRONT -" span="4">0x03FC 0x21DE</button>
+        <button label="REAR -" span="4">0x03FC 0xB14E</button>
+
+        <button label="AUX 1" span="6" backgroundColor="FF262626">0x03FC 0x31CE</button>
+        <button label="AUX 2" span="6" backgroundColor="FF262626">0x03FC 0x09F6</button>
+    </device>
+</irplus>

@@ -1,0 +1,40 @@
+<irplus>
+    <device manufacturer="PHILIPS" model="FW-530C" columns="12" format="WINLIRC_RC5" repeat="2" bits="13" pre-bits="13" toggle-bit-pos="2"
+        gap-pulse="1" gap-space="113783" one-pulse="882" one-space="894" zero-pulse="882" zero-space="894" frequency="36000">
+
+        <button label="AUX" span="6">0x157F</button>
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="6">0x154C</button>
+
+        <button label="CD" span="4">0x153F</button>
+        <button label="TAPE1/2" span="4">0x14BF</button>
+        <button label="TUNER" span="4">0x147F</button>
+
+        <button label="1" span="4">0x1537</button>
+        <button label="2" span="4">0x1538</button>
+        <button label="3" span="4">0x1539</button>
+
+        <button label="DBB" span="3">0x1537</button>
+        <button label="DBB" span="3">0x0406</button>
+        <button label="DSC" span="3">0x040F</button>
+        <button label="INC SURR" span="3">0x0400</button>
+
+        <button label="REPEAT" span="4">0x151D</button>
+        <button label="SHUFFLE" span="4">0x151C</button>
+        <button label="PROGRAM" span="4">0x1524</button>
+
+        <button label="VOL-" span="6">0x1411</button>
+        <button label="VOL+" span="6">0x1410</button>
+
+        <button label="&#xf04a;" alt="REW" span="4">0x1532</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x1530</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0x1534</button>
+
+        <button label="&#xf049;" alt="PREV" span="4">0x1521</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0x1535</button>
+        <button label="&#xf050;" alt="NEXT" span="4">0x1520</button>
+
+        <button label="&#xf04d;" alt="STOP" span="6">0x1536</button>
+        <button label="SIDE" span="6">0x14AF</button>
+
+    </device>
+</irplus>

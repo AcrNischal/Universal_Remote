@@ -1,0 +1,51 @@
+<irplus>
+	<device manufacturer="OLEVIA" model="RC-LTL" columns="3" format="WINLIRC_SPACEENC" one-space="1631" one-pulse="614" zero-pulse="614" zero-space="517">
+		<button label="&#xf011;" backgroundColor="FFC84334">0x209D 0x00FF</button>
+		<button label="AUDIO">0x209D 0x9867</button>
+		<button label="LIGHTS">0x209D 0xC43B</button>
+		
+		<button label="ASPECT">0x209D 0xA45B</button>
+		<button label="AUTO">0x209D 0x24DB</button>
+		<button label="FREEZE">0x209D 0x946B</button>
+		
+		<button label="FAVORITES">0x209D 0xF807</button>
+		<button label="CC">0x209D 0x54AB</button>
+		<space/>
+		
+		<button label="1">0x209D 0x40BF</button>
+		<button label="2">0x209D 0xC03F</button>
+		<button label="3">0x209D 0x20DF</button>
+		
+		<button label="4">0x209D 0xA05F</button>
+		<button label="5">0x209D 0x609F</button>
+		<button label="6">0x209D 0xE01F</button>
+		
+		<button label="7">0x209D 0x10EF</button>
+		<button label="8">0x209D 0x906F</button>
+		<button label="9">0x209D 0x50AF</button>
+		
+		<button label="KPMINUS">0x209D 0xF00F</button>
+		<button label="0">0x209D 0x807F</button>
+		<button label="ENTER">0x209D 0x18E7</button>
+	
+		<button label="SLEEP">0x209D 0x14EB</button>
+		<button label="TIME">0x209D 0xD42B</button>
+		<button label="&#xFF581;">0x209D 0x58A7</button>
+		
+		<button label="MENU">0x209D 0xD827</button>
+		<button label="CYCLEWINDOWS">0x209D 0xB847</button>
+		<button label="DISPLAY">0x209D 0x04FB</button>
+		
+		<button label="VOL+">0x209D 0x6897</button>
+		<button label="&#xf0d8;">0x209D 0x08F7</button>
+		<button label="VOL-">0x209D 0xE817</button>
+		
+		<button label="&#xf0d9;">0x209D 0x48B7</button>
+		<button label="ENTER">0x209D 0x38C7</button>
+		<button label="&#xf0da;">0x209D 0xC837</button>
+		
+		<button label="CH+">0x209D 0x28D7</button>
+		<button label="&#xf0d7;">0x209D 0x8877</button>
+		<button label="CH-">0x209D 0xA857</button>
+	</device>
+</irplus>

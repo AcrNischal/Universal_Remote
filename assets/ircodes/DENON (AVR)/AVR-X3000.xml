@@ -1,0 +1,92 @@
+<irplus>
+	<device manufacturer="DENON" model="AVRX3000" columns="12" format="DENON_K_BINARY">
+
+		<button label="ALL ZONES ON" labelSize="15" backgroundColor="FF1E7854" span="3">0010 1010 0100 1100 0000 0010 1000 0100 0000 0000 1000 0110</button>
+		<button label="MAIN ZONE ON/OFF" labelSize="20" backgroundColor="FF414141" span="6">0010 1010 0100 1100 0000 0010 1000 1010 0000 0000 1000 1000</button>
+		<button label="ALL ZONES OFF" labelSize="15" backgroundColor="FFC84334" span="3">0010 1010 0100 1100 0000 0010 1000 1100 0000 0000 1000 1110</button>
+
+		<button label="CBL/SAT" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 1100 1011 0100 0011 1010</button>
+		<button label="DVD" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 0000 1011 0100 0011 0110</button>
+		<button label="Blu-ray" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 1000 1011 0100 0011 1110</button>
+		<button label="Game" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 1010 1011 0100 0011 1100</button>
+
+		<button label="Media Player" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 0110 1011 0100 0011 0000</button>
+		<button label="Front AUX" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 1001 1011 0100 0011 1111</button>
+		<button label="CD" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 0100 0011 0100 1011 0010</button>
+		<button label="TV Audio" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 0100 1011 0100 0011 0010</button>
+
+		<button label="Network" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 1110 0011 0100 1011 1000</button>
+		<button label="Internet Radio" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 1010 0111 0100 1111 1100</button>
+		<button label="Pandora" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 1011 1111 0100 0111 1101</button>
+		<button label="Media Server" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 1101 1101 0100 0101 1011</button>
+
+		<button label="SIRIUSXM" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="2">0010 1010 0100 1100 0000 0010 1000 0101 0011 0100 1011 0011</button>
+		<button label="Flickr" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="2">0010 1010 0100 1100 0000 0010 1000 1001 1101 0100 0101 1111</button>
+		<button label="Spotify" labelColor="FF000000" labelSize="9" backgroundColor="FFFFFFFF" span="2">0010 1010 0100 1100 0000 0010 1000 0011 1111 0100 0111 0101</button>
+		<button label="FM Tuner" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 1000 0011 0100 1011 1110</button>
+		<button label="iPod/USB" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 0111 0011 0100 1011 0001</button>
+
+		<button label="Vol +" labelSize="38" span="4">0010 1010 0100 1100 0000 0010 1000 0000 1110 1000 0110 1010</button>
+		<button label="Vol 40dB" labelSize="13" span="2">0010 1010 0100 1100 0000 0010 1000 0110 1110 1000 0110 1100</button>
+		<button label="Vol 60dB" labelSize="13" span="2">0010 1010 0100 1100 0000 0010 1000 1010 1110 1000 0110 0000</button>
+		<button label="&#xf0d8;" labelSize="40" backgroundColor="FF302C2C" span="4">0010 1010 0100 1100 0000 0010 1000 0110 1101 1100 0101 1000</button>
+
+		<button label="Vol -" labelSize="38" span="4">0010 1010 0100 1100 0000 0010 1000 1000 1110 1000 0110 0010</button>
+		<button label="&#xFF581;" labelSize="20" span="4">0010 1010 0100 1100 0000 0010 1000 0100 1110 1000 0110 1110</button>
+		<button label="&#xf0d7;" labelSize="40" backgroundColor="FF302C2C" span="4">0010 1010 0100 1100 0000 0010 1000 1110 1101 1100 0101 0000</button>
+
+		<button label="INFO" labelColor="FF000000" labelSize="15" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 0000 1110 0100 0110 0110</button>
+		<space multiple="1"/>
+		<button label="&#xf0d8;" labelSize="50" backgroundColor="FFAAAAAA" span="4">0010 1010 0100 1100 0000 0010 1000 1101 1000 0000 0000 1111</button>
+		<space multiple="1"/>
+		<button label="OPTION" labelColor="FF000000" labelSize="15" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 1010 1101 1100 0101 0100</button>
+
+		<button label="&#xf0d9;" labelSize="50" backgroundColor="FFAAAAAA" span="4">0010 1010 0100 1100 0000 0010 1000 1011 1000 0000 0000 1001</button>
+		<button label="ENTER" labelSize="20" backgroundColor="FFAAAAAA" span="4">0010 1010 0100 1100 0000 0010 1000 1111 1000 0000 0000 1101</button>
+		<button label="&#xf0da;" labelSize="50" backgroundColor="FFAAAAAA" span="4">0010 1010 0100 1100 0000 0010 1000 0111 1000 0000 0000 0101</button>
+
+		<button label="BACK" labelColor="FF000000" labelSize="15" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 0100 0100 0000 1100 0110</button>
+		<space multiple="1"/>
+		<button label="&#xf0d7;" labelSize="50" backgroundColor="FFAAAAAA" span="4">0010 1010 0100 1100 0000 0010 1000 0011 1000 0000 0000 0001</button>
+		<space multiple="1"/>
+		<button label="SETUP" labelColor="FF000000" labelSize="15" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 1100 0100 0000 1100 1110</button>
+
+		<button label="&#xf04a;" labelSize="30" backgroundColor="FF302C2C" span="4">0010 1010 0100 1100 0000 0010 1000 1100 0111 1100 1111 0010</button>
+		<button label="/" labelSize="30" backgroundColor="FF302C2C" span="4">0010 1010 0100 1100 0000 0010 1000 0000 0111 1100 1111 1110</button>
+		<button label="&#xf04e;" labelSize="30" backgroundColor="FF302C2C" span="4">0010 1010 0100 1100 0000 0010 1000 0010 0111 1100 1111 1100</button>
+
+		<button label="Repeat" labelSize="15" backgroundColor="FF302C2C" span="4">0010 1010 0100 1100 0000 0010 1000 0011 1101 1100 0101 1101</button>
+		<button label="&#xf04d;" labelSize="30" backgroundColor="FF302C2C" span="4">0010 1010 0100 1100 0000 0010 1000 1000 0111 1100 1111 0110</button>
+		<button label="Shuffle" labelSize="15" backgroundColor="FF302C2C" span="4">0010 1010 0100 1100 0000 0010 1000 1011 1101 1100 0101 0101</button>
+
+		<button label="QUICK SELECT 1" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 0010 0100 1000 1100 1000</button>
+		<button label="QUICK SELECT 2" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 1010 0100 1000 1100 0000</button>
+		<button label="QUICK SELECT 3" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 0110 0100 1000 1100 1100</button>
+		<button label="QUICK SELECT 4" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 1110 0100 1000 1100 0100</button>
+
+		<button label="FAV STATION 1" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 0100 1111 0000 0111 0110</button>
+		<button label="FAV STATION 2" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 1100 1111 0000 0111 1110</button>
+		<button label="FAV STATION 3" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 0010 1111 0000 0111 0000</button>
+		<button label="QUICK SELECT 5" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 0001 0100 1000 1100 1011</button>
+
+		<button label="STEREO" labelSize="10" backgroundColor="FFAAAAAA" span="3">0010 1010 0100 1100 0000 0010 1000 0000 1100 1000 0100 1010</button>
+		<button label="MULTI CH STEREO" labelSize="10" backgroundColor="FFAAAAAA" span="3">0010 1010 0100 1100 0000 0010 1000 1000 1010 1000 0010 0010</button>
+		<button label="DIRECT" labelSize="10" backgroundColor="FFAAAAAA" span="3">0010 1010 0100 1100 0000 0010 1000 0100 1100 1000 0100 1110</button>
+		<button label="PURE DIRECT" labelSize="10" backgroundColor="FFAAAAAA" span="3">0010 1010 0100 1100 0000 0010 1000 1100 1100 1000 0100 0110</button>
+
+		<button label="DOLBY/DTS MODES" labelSize="10" backgroundColor="FFAAAAAA" span="3">0010 1010 0100 1100 0000 0010 1000 0010 1100 1000 0100 1000</button>
+		<button label="DSP MODES" labelSize="10" backgroundColor="FFAAAAAA" span="3">0010 1010 0100 1100 0000 0010 1000 0000 1010 1000 0010 1010</button>
+		<button label="InstaPreview ON/OFF" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 1101 1010 1100 0010 0011</button>
+		<button label="VIDEO SELECT" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 0000 1110 0000 0110 0010</button>
+
+		<button label="INPUT AUDIO" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 0000 0110 1000 1110 1010</button>
+		<button label="AUDIO DECODE" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 0011 0110 1000 1110 1001</button>
+		<button label="DYN VOL OFF" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 0111 1000 0100 0000 0001</button>
+		<button label="DYN VOL SELECT" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 1000 0100 0100 1100 1110</button>
+
+		<button label="DYN EQ SELECT" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 1100 0100 0100 1100 1010</button>
+		<button label="AUDIO RESTORER" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 0010 0100 0100 1100 0100</button>
+		<button label="MultiEQ XT 32" labelColor="FF000000" labelSize="10" backgroundColor="FFFFFFFF" span="3">0010 1010 0100 1100 0000 0010 1000 0000 0111 0100 1111 0110</button>
+
+	</device>
+</irplus>

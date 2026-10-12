@@ -1,0 +1,8 @@
+<irplus>
+    <device manufacturer="SONY" model="RM-PJP1" columns="4" format="WINLIRC_SPACEENC" bits="16" pre-bits="4" frequency="40000"
+        gap-pulse="1" gap-space="45148" one-pulse="1157" one-space="637" zero-pulse="560" zero-space="637" header-pulse="2395" header-space="587" repeat="3">
+        <button label="&#xf0d9;" span="4">0x3 0xEB54</button>
+        <button label="B" span="4">0xB 0xEB54</button>
+        <button label="&#xf0da;" span="4">0xD 0xEB54</button>
+    </device>
+</irplus>

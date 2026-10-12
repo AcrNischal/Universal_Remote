@@ -1,0 +1,62 @@
+<irplus>
+    <device manufacturer="XORO" model="HRS8540" columns="12" format="WINLIRC_SPACEENC" bits="32" pre-bits="32" frequency="38000"
+         gap-pulse="557" gap-space="9088" one-pulse="573" one-space="1693" zero-pulse="573" zero-space="546" header-pulse="9082" header-space="4545">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="6">0x404050AF</button>
+        <button label="&#xFF581;" span="6">0x40409867</button>
+        
+        <button label="1" span="4">0x4040807F</button>
+        <button label="2" span="4">0x404040BF</button>
+        <button label="3" span="4">0x4040C03F</button>
+        
+        <button label="4" span="4">0x404020DF</button>
+        <button label="5" span="4">0x4040A05F</button>
+        <button label="6" span="4">0x4040609F</button>
+        
+        <button label="7" span="4">0x4040E01F</button>
+        <button label="8" span="4">0x404010EF</button>
+        <button label="9" span="4">0x4040906F</button>
+
+        <button label="TV/R" span="4">0x404038C7</button>
+        <button label="0" span="4">0x404000FF</button>
+        <button label="SLEEP" span="4">0x4040B847</button>
+
+        <button label="MENU" span="4">0x40406897</button>
+        <button label="CH+" span="4">0x4040D02F</button>
+        <button label="EPG" span="4">0x4040E817</button>
+
+        <button label="VOL-" span="4">0x40408877</button>
+        <button label="OK" span="4">0x4040B04F</button>
+        <button label="VOL+" span="4">0x404008F7</button>
+
+        <button label="FAV" span="4">0x404028D7</button>
+        <button label="CH-" span="4">0x4040708F</button>
+        <button label="EXIT" span="4">0x4040F807</button>
+
+        <button label="FIND" span="4" backgroundColor="FFC84334">0x404002FD</button>
+        <button label="PAGE+" span="4">0x40407887</button>
+        <button label="AUDIO" span="4" backgroundColor="FF1E7854">0x404042BD</button>
+
+        <button label="DISP" span="4" backgroundColor="FFD6A81F">0x4040C23D</button>
+        <button label="PAGE-" span="4">0x4040C837</button>
+        <button label="ZOOM" span="4" backgroundColor="FF2A4C94">0x4040827D</button>
+
+        <button label="INFO" span="4">0x4040d827</button>
+        <button label="RECALL" span="4">0x404048B7</button>
+        <button label="SUBTITLE" span="4">0x4040a25d</button>
+
+        <button label="GO TO" span="6">0x4040629d</button>
+        <button label="TELETEXT" span="6">0x404022dd</button>
+
+        <button label="&#xf04a;" alt="REW" span="3">0x40401ae5</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x40400af5</button>
+        <button label="&#xf04b;" alt="PLAY" span="3">0x404012ed</button>
+        <button label="&#xf04d;/USB" alt="STOP" span="3">0x40402ad5</button>
+
+        <button label="&#xf049;" alt="PREV" span="3">0x4040da25</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0x4040ca35</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">0x4040d22d</button>
+        <button label="&#xf111;" alt="REC" labelColor="FFC84334" span="3">0x4040ea15</button>
+
+    </device>
+</irplus>

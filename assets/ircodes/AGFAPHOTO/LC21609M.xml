@@ -1,0 +1,45 @@
+<irplus>
+    <device manufacturer="AGFAPHOTO" model="LC21609" columns="12" format="WINLIRC_NEC1" one-space="1578" one-pulse="652" zero-pulse="652" zero-space="466" header-pulse="9086" header-space="4384" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x1FE 0x41BE</button>
+        <space multiple="4"/>
+        <space multiple="4"/>
+
+        <button label="1" span="4">0x1FE 0x11EE</button>
+        <button label="2" span="4">0x1FE 0x916E</button>
+        <button label="3" span="4">0x1FE 0x51AE</button>
+        
+        <button label="4" span="4">0x1FE 0x31CE</button>
+        <button label="5" span="4">0x1FE 0xB14E</button>
+        <button label="6" span="4">0x1FE 0x718E</button>
+        
+        <button label="7" span="4">0x1FE 0x09F6</button>
+        <button label="8" span="4">0x1FE 0x8976</button>
+        <button label="9" span="4">0x1FE 0x49B6</button>
+        
+        <button label="AV" span="4">0x1FE 0xC936</button>
+        <button label="0" span="4">0x1FE 0xA956</button>
+        <button label="-" span="4">0x1FE 0x29D6</button>
+        
+        <button label="MENU" span="4">0x1FE 0xE916</button>
+        <button label="&#xFF581;" span="4">0x1FE 0x0BF4</button>
+        <button label="EXIT" span="4">0x1FE 0x33CC</button>
+
+        <button label="VOL+" span="4">0x1FE 0xF906</button>
+        <button label="&#xf0d8;" span="4">0x1FE 0x9966</button>
+        <button label="CH+" span="4">0x1FE 0xD926</button>
+
+        <button label="&#xf0d9;" span="4">0x1FE 0x39C6</button>
+        <button label="OK" span="4">0x1FE 0x59A6</button>
+        <button label="&#xf0da;" span="4">0x1FE 0x7986</button>
+
+        <button label="VOL-" span="4">0x1FE 0xD12E</button>
+        <button label="&#xf0d7;" span="4">0x1FE 0xB946</button>
+        <button label="CH-" span="4">0x1FE 0xF10E</button>
+        
+        <button label="F1" span="3">0x1FE 0x19E6</button>
+        <button label="F2" span="3">0x1FE 0x23DC</button>
+        <button label="F3" span="3">0x1FE 0x21DE</button>
+        <button label="F5" span="3">0x1FE 0xE31C</button>
+    </device>
+</irplus>

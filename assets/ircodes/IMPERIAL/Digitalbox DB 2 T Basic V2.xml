@@ -1,0 +1,48 @@
+<irplus>
+    <device manufacturer="IMPERIAL" model="DIGITALBOX DB 2" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0x20df 0xd02f</button>
+        <button label="&#xFF581;" span="6">0x20df 0x50af</button>
+
+        <button label="1" span="4">0x20df 0x807f</button>
+        <button label="2" span="4">0x20df 0x40bf</button>
+        <button label="3" span="4">0x20df 0xc03f</button>
+
+        <button label="4" span="4">0x20df 0x20df</button>
+        <button label="5" span="4">0x20df 0xa05f</button>
+        <button label="6" span="4">0x20df 0x609f</button>
+
+        <button label="7" span="4">0x20df 0xe01f</button>
+        <button label="8" span="4">0x20df 0x10ef</button>
+        <button label="9" span="4">0x20df 0x906f</button>
+
+        <button label="Page+" span="4">0x20df 0x8877</button>
+        <button label="0" span="4">0x20df 0x00ff</button>
+        <button label="Fav+" span="4">0x20df 0xe817</button>
+
+        <button label="Page-" span="4">0x20df 0x30cf</button>
+        <button label="&#xf0d8; CH" span="4">0x20df 0xa25d</button>
+        <button label="Fav-" span="4">0x20df 0x38c7</button>
+
+        <button label="&#xf0d9; VOL" span="4">0x20df 0x629d</button>
+        <button label="OK" span="4">0x20df 0x7887</button>
+        <button label="VOL &#xf0da;" span="4">0x20df 0xb04f</button>
+
+        <button label="Menu" span="4">0x20df 0x08f7</button>
+        <button label="&#xf0d7; CH" span="4">0x20df 0x926d</button>
+        <button label="Exit" span="4">0x20df 0x827d</button>
+
+        <button label="EPG" backgroundColor="FFC84334" span="3">0x20df 0x02fd</button>
+        <button label="AUDIO" backgroundColor="FF1E7854" span="3">0x20df 0xc23d</button>
+        <button label="SUB" backgroundColor="FFD6A81F" span="3">0x20df 0x22dd</button>
+        <button label="ZOOM" backgroundColor="FF2A4C94" span="3">0x20df 0xe21d</button>
+
+        <button label="TV/Radio" span="4">0x20df 0x9867</button>
+        <button label="Text" span="4">0x20df 0x52ad</button>
+        <button label="Info" span="4">0x20df 0xd827</button>
+
+        <button label="&#xf04d;" alt="STOP" span="6">0x20df 0x6897</button>
+        <button label="Video" span="6">0x20df 0x58a7</button>
+
+    </device>
+</irplus>

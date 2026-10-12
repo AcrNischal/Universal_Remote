@@ -1,0 +1,9 @@
+<irplus>
+    <device manufacturer="KRINNER" model="XMas" columns="12" format="WINLIRC_RAW" repeatgap="48500" repeat="2">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FF1E7854" span="12" labelSize="100.0">8663 4065 531 565 440 571 443 569 470 567 449 562 443 569 965 1091 930 1086 435</button>
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="12" labelSize="100.0">8662 4070  579  515  501  510 442  572  518  493  957 1092 1013 1019  518  511  529  483 443</button>
+        <button label="FLICKER" span="12" labelSize="75.0">8712 3993  604  483  521  517 934 1088 1017 1007  514  531 487  516  437  574  526  510 435</button>
+
+  </device>
+</irplus>

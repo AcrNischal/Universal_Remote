@@ -1,0 +1,15 @@
+<irplus>
+    <device manufacturer="MONOPRICE" model="HDX-C-501E" columns="3" format="WINLIRC_NEC1" one-space="1667" one-pulse="609" zero-pulse="609" zero-space="527" header-pulse="9104" header-space="4511" bits="16" pre-bits="16">
+        <button label="&#xf011;" backgroundColor="FFC84334">0xFF 0x00FF</button>
+        <button label="&#xf0d9;">0xFF 0x28D7</button>
+        <button label="&#xf0da;">0xFF 0x6897</button>
+
+        <button label="1">0xFF 0x10EF</button>
+        <button label="2">0xFF 0x906F</button>
+        <button label="3">0xFF 0x50AF</button>
+
+        <button label="4">0xFF 0x30CF</button>
+        <button label="5">0xFF 0x708F</button>
+        <space/>
+    </device>
+</irplus>

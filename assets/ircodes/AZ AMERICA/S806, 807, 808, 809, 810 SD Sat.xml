@@ -1,0 +1,60 @@
+<irplus>
+    <device manufacturer="AZ AMERICA" model="S806, 807, 808, 809, 810 SD Sat" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="3">0x80BF3BC4</button>
+        <button label="SAT" span="3">0x80BFC13E</button>
+        <button label="MUTE" span="3">0x80BF39C6</button>
+        <button label="INFO" span="3">0x80BF0BF4</button>
+
+        <button label="1" span="4">0x80BF49B6</button>
+        <button label="2" span="4">0x80BFC936</button>
+        <button label="3" span="4">0x80BF33CC</button>
+
+        <button label="4" span="4">0x80BF718E</button>
+        <button label="5" span="4">0x80BFF10E</button>
+        <button label="6" span="4">0x80BF13EC</button>
+
+        <button label="7" span="4">0x80BF51AE</button>
+        <button label="8" span="4">0x80BFD12E</button>
+        <button label="9" span="4">0x80BF23DC</button>
+
+        <button label="TV/RADIO" span="4">0x80BF9B64</button>
+        <button label="0" span="4">0x80BFE11E</button>
+        <button label="RECALL-PR" span="4">0x80BF41BE</button>
+
+        <button label="FIND" backgroundColor="FFC84334" span="3">0x80BF6996</button>
+        <button label="ZOOM" backgroundColor="FF29A58B" span="3">0x80BFC33C</button>
+        <button label="TXT" backgroundColor="FFF2B731" span="3">0x80BFC33C</button>
+        <button label="AUDIO" backgroundColor="FF2766DC" span="3">0x80BF21DE</button>
+
+        <button label="MENU" span="4">0x80BFA956</button>
+        <button label="CH+" span="4">0x80BF53AC</button>
+        <button label="EPG" span="4">0x80BF6B94</button>
+
+        <button label="VOL-" span="4">0x80BF9966</button>
+        <button label="OK" span="4">0x80BF738C</button>
+        <button label="VOL+" span="4">0x80BF837C</button>
+
+        <button label="PAGE+" span="4">0x80BFBB44</button>
+        <button label="CH-" span="4">0x80BF4BB4</button>
+        <button label="PAGE-" span="4">0x80BF31CE</button>
+
+        <button label="FAV" span="3">0x80BF11EE</button>
+        <button label="TV/AV" span="3">0x80BF5BA4</button>
+        <button label="EXIT" span="3">0x80BFA35C</button>
+        <button label="SLEEP" span="3">0x80BFB34C</button>
+
+        <button label="&#xf04c;" alt="PAUSE" span="3">0x80BFE31C</button>
+        <button label="&#xf04b;" alt="PLAY" span="3">0x80BF1BE4</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0x80BF2BD4</button>
+        <button label="&#xf111;" alt="REC" span="3">0x80BF01FE</button>
+
+        <button label="REW" span="3">0x80BF639C</button>
+        <button label="FWD" span="3">0x80BFAB54</button>
+        <button label="SLW REW" span="3">0x80BF619E</button>
+        <button label="SLW FWD" span="3">0x80BF09F6</button>
+
+        <button label="SHIFT" span="6">0x80BF8B74</button>
+        <button label="MULTISCREEN" span="6">0x80BF03FC</button>
+    </device>
+</irplus>

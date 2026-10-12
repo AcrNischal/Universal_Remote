@@ -1,0 +1,41 @@
+<irplus>
+	<device manufacturer="SCIENTIFIC-ATLANTA" model="RM9834" columns="3" format="WINLIRC_SPACEENC" one-space="2506" one-pulse="874" zero-pulse="874" zero-space="812" header-pulse="3427" header-space="3327" pre-bits="22">
+		
+		<button label="&#xf011;" backgroundColor="FFC84334">0x37C107</button>
+		<button label="INFO">0x36213B</button>
+		<button label="GUIDE">0x36C127</button>
+		
+		<button label="1">0x36113D</button>
+		<button label="2">0x37111D</button>
+		<button label="3">0x36912D</button>
+		
+		<button label="4">0x37910D</button>
+		<button label="5">0x365135</button>
+		<button label="6">0x375115</button>
+		
+		<button label="7">0x36D125</button>
+		<button label="8">0x37D105</button>
+		<button label="9">0x363139</button>
+		
+		<button label="CH+">0x377111</button>
+		<button label="0">0x373119</button>
+		<button label="CH-">0x36F121</button>
+		
+		<button label="VOL+">0x36093E</button>
+		<button label="&#xFF581;">0x36892E</button>
+		<button label="VOL-">0x37091E</button>
+		
+		<button label="LAST">0x36E123</button>
+		<button label="&#xf0d8;">0x36812F</button>
+		<button label="SLEEP">0x37211B</button>
+		
+		<button label="&#xf0d9;">0x37810F</button>
+		<button label="OK">0x366133</button>
+		<button label="&#xf0da;">0x364137</button>
+		
+		<button label="FAVORITES">0x37F101</button>
+		<button label="&#xf0d7;">0x37A10B</button>
+		<button label="MENU">0x36A12B</button>
+		
+	</device>
+</irplus>

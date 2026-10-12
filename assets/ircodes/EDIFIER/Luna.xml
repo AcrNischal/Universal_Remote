@@ -1,0 +1,7 @@
+<irplus>
+	<device manufacturer="EDIFIER" model="Luna" columns="1" format="WINLIRC_NEC1" one-space="1550" one-pulse="672" zero-pulse="672" zero-space="460" header-pulse="9100" header-space="4385" bits="16" pre-bits="16">
+		<button label="&#xf011;" backgroundColor="FFC84334">0x10EF 0x906F</button>
+		<button label="VOL+">0x10EF 0x6897</button>
+		<button label="VOL-">0x10EF 0xB04F</button>
+	</device>
+</irplus>

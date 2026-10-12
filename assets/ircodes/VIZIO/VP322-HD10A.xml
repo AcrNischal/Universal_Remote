@@ -1,0 +1,44 @@
+<irplus>
+	<device manufacturer="VIZIO" model="VP322-HD10A" columns="12" format="WINLIRC_NEC1">
+
+		<button label="Guide" span="6">0x20DF 0x38C7</button>
+		<button label="&#xf011;" backgroundColor="FFC84334" span="6">0x20DF 0x10EF</button>
+
+		<button label="TV" span="6">0x20DF 0x6B94</button>
+		<button label="AV" span="6">0x20DF 0x8A75</button>
+
+		<button label="COMP" span="4">0x20DF 0x5AA5</button>
+		<button label="&#xf0d8;" span="4">0x20DF 0xA25D</button>
+		<button label="HDMI" span="4">0x20DF 0x639C</button>
+
+		<button label="&#xf0d9;" span="4">0x20DF 0xE21D</button>
+		<button label="MENU" span="4">0x20DF 0xC23D</button>
+		<button label="&#xf0da;" span="4">0x20DF 0x12ED</button>
+
+		<button label="&#xFF581;" span="4">0x20DF 0x906F</button>
+		<button label="&#xf0d7;" span="4">0x20DF 0x629D</button>
+		<button label="LAST" span="4">0x20DF 0x58A7</button>
+
+		<button label="&#xf0d8; VOL" span="6">0x20DF 0x40BF</button>
+		<button label="&#xf0d8; CH" span="6">0x20DF 0x00FF</button>
+
+		<button label="&#xf0d7; VOL" span="6">0x20DF 0xC03F</button>
+		<button label="&#xf0d7; CH" span="6">0x20DF 0x807F</button>
+
+		<button label="1" span="4">0x20DF 0x8877</button>
+		<button label="2" span="4">0x20DF 0x48B7</button>
+		<button label="3" span="4">0x20DF 0xC837</button>
+
+		<button label="4" span="4">0x20DF 0x28D7</button>
+		<button label="5" span="4">0x20DF 0xA857</button>
+		<button label="6" span="4">0x20DF 0x6897</button>
+
+		<button label="7" span="4">0x20DF 0xE817</button>
+		<button label="8" span="4">0x20DF 0x18E7</button>
+		<button label="9" span="4">0x20DF 0x9867</button>
+
+		<button label="Input" span="4">0x20DF 0xF40B</button>
+		<button label="0" span="4">0x20DF 0x08F7</button>
+		<button label="-" span="4">0x20DF 0xFF00</button>
+	</device>
+</irplus>

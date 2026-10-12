@@ -1,0 +1,66 @@
+<irplus>
+    <device manufacturer="PANASONIC" model="N2QAJB000051" columns="12" format="WINLIRC_SPACEENC" one-space="1281"
+        gap-pulse="478" gap-space="74387" one-pulse="432" zero-pulse="432" zero-space="438" header-pulse="3461" header-space="1822" bits="16" pre-bits="32">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0x40040D00 0xBCB1</button>
+        <button label="SLEEP" span="3">0x40040D00 0xD7DA</button>
+        <button label="SETUP" span="3">0x40040D00 0x2924</button>
+        <button label="" span="3">0x40040D00 0x808D</button>
+
+        <button label="" span="3">0x40040D00 0x929F</button>
+        <button label="" span="3">0x40040D00 0x525F</button>
+        <button label="" span="3">0x40040D00 0x202D</button>
+        <button label="" span="3">0x40040D00 0xA0AD</button>
+
+        <button label="" span="4">0x40040D00 0x000D</button>
+        <button label="" span="4">0x40040D00 0x606D</button>
+        <button label="" span="4">0x40040D00 0x505D</button>
+
+        <button label="TOP MENU" span="4">0x40040D00 0xD9D4</button>
+        <button label="&#xf0d8;" span="4">0x40040D00 0xA1AC</button>
+        <button label="MENU" span="4">0x40040D00 0x010C</button>
+
+        <button label="&#xf0d9;" span="4">0x40040D00 0xE1EC</button>
+        <button label="ENTER" span="4">0x40040D00 0x414C</button>
+        <button label="&#xf0da;" span="4">0x40040D00 0x111C</button>
+
+        <button label="DISPLAY" span="4">0x40040D00 0x4944</button>
+        <button label="&#xf0d7;" span="4">0x40040D00 0x616C</button>
+        <button label="RETURN" span="4">0x40040D00 0x818C</button>
+
+        <button label="SUBTITLE" span="3">0x40040D00 0x8984</button>
+        <button label="AUDIO" span="3">0x40040D00 0xCCC1</button>
+        <button label="ANGLE" span="3">0x40040D00 0x0904</button>
+        <button label="QUICK REPLAY" span="3">0x40040D00 0xD1DC</button>
+
+        <button label="DISC" span="3">0x40040D00 0xEDE0</button>
+        <button label="DISC 1" span="3">0x40040D00 0x0805</button>
+        <button label="DISC 2" span="3">0x40040D00 0x8885</button>
+        <button label="DISC 3" span="3">0x40040D00 0x4845</button>
+
+        <button label="PROGRAM" span="3">0x40040D00 0x515C</button>
+        <button label="DISC 4" span="3">0x40040D00 0xC8C5</button>
+        <button label="DISC 5" span="3">0x40040D00 0x2825</button>
+        <button label="6" span="3">0x40040D00 0xA8A5</button>
+
+        <button label="SEQUENTIAL" span="3">0x40040D00 0xFDF0</button>
+        <button label="7" span="3">0x40040D00 0x6865</button>
+        <button label="8" span="3">0x40040D00 0xE8E5</button>
+        <button label="9" span="3">0x40040D00 0x1815</button>
+
+        <button label="FL SELECT" span="3">0x40040D00 0x6D60</button>
+        <button label="CANCEL" span="3">0x40040D00 0xC1CC</button>
+        <button label="0" span="3">0x40040D00 0x9895</button>
+        <button label="≥10" span="3">0x40040D00 0x919C</button>
+
+        <button label="A SRD" span="3">0x40040D00 0x7974</button>
+        <button label="BASS" span="3">0x40040D00 0x2B26</button>
+        <button label="CINEMA" span="3">0x40040D00 0x030E</button>
+        <button label="D ENH" span="3">0x40040D00 0xABA6</button>
+
+        <button label="RANDOM" span="3">0x40040D00 0xB2BF</button>
+        <button label="REPEAT" span="3">0x40040D00 0x313C</button>
+        <button label="A-B REPEAT" span="3">0x40040D00 0x121F</button>
+        <button label="POS MEMORY" span="3">0x40040D00 0x626F</button>
+    </device>
+</irplus>

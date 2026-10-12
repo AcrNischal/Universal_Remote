@@ -1,0 +1,47 @@
+<irplus>
+    <device manufacturer="POWERNET" model="P55" columns="12" format="WINLIRC_SPACEENC" bits="32" pre-bits="32" toggle-bit-pos="0" gap-pulse="603" gap-space="108277" one-pulse="601" one-space="1660" zero-pulse="601" zero-space="533" header-pulse="9062" header-space="4472">
+
+        <button label="&#xf011;" alt="POWER" span="4">0x102750AF</button>
+        <button label="MUTE" span="4">0x102730CF</button>
+        <button label="RED-TTX" span="4">0x1027D827</button>
+        <button label="GREEN-SUBT" span="4">0x1027F00F</button>
+        <button label="YLLOW-AUDIO" span="4">0x102742BD</button>
+        <button label="B" alt="BLUE" span="4">0x1027609F</button>
+        <button label="T.S" span="4">0x10271CE3</button>
+        <button label="FAV" span="4">0x1027A05F</button>
+        <button label="SLEEP" span="4">0x102714EB</button>
+        <button label="ATRASAR-VIDEO" span="4">0x10274CB3</button>
+        <button label="ADIANTAR-VIDEO" span="4">0x1027CC33</button>
+        <button label="ANTERIOR-VIDEO" span="4">0x10276C93</button>
+        <button label="PROXIMO-VIDEO" span="4">0x1027EC13</button>
+        <button label="&#xf111;" alt="REC" span="4">0x10272CD3</button>
+        <button label="PLAY-PAUSE" span="4">0x10270CF3</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x10278C73</button>
+        <button label="LIST" span="4">0x102704FB</button>
+        <button label="INFO" span="4">0x1027847B</button>
+        <button label="EXIT" span="4">0x1027E01F</button>
+        <button label="CH+CENTER" span="4">0x102700FF</button>
+        <button label="CH-CENTER" span="4">0x1027807F</button>
+        <button label="VOL+CENTER" span="4">0x102740BF</button>
+        <button label="VOL-CENTER" span="4">0x1027C03F</button>
+        <button label="OK" span="4">0x1027F807</button>
+        <button label="VOL+" span="4">0x102706F9</button>
+        <button label="VOL-" span="4">0x10278679</button>
+        <button label="ZOOM" span="4">0x1027C23D</button>
+        <button label="TV-RADIO" span="4">0x1027708F</button>
+        <button label="PAGE+" span="4">0x102758A7</button>
+        <button label="PAGE-" span="4">0x1027D02F</button>
+        <button label="1" span="4">0x10278877</button>
+        <button label="2" span="4">0x102748B7</button>
+        <button label="3" span="4">0x1027C837</button>
+        <button label="4" span="4">0x102728D7</button>
+        <button label="5" span="4">0x1027A857</button>
+        <button label="6" span="4">0x10276897</button>
+        <button label="7" span="4">0x1027E817</button>
+        <button label="8" span="4">0x102718E7</button>
+        <button label="9" span="4">0x10279867</button>
+        <button label="0" span="4">0x102708F7</button>
+        <button label="LAST" span="4">0x1027B847</button>
+        <button label="EPG" span="4">0x102724DB</button>
+    </device>
+</irplus>

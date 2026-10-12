@@ -1,0 +1,72 @@
+<irplus>
+    <device manufacturer="TARGA" model="DP-5200X" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x0ff 0x728d</button>
+        <button label="&#xFF581;" span="4">0x0ff 0x827d</button>
+        <button label="DVD/TV" span="4">0x0ff 0x30cf</button>
+
+        <button label="1" span="4">0x0ff 0xc23d</button>
+        <button label="2" span="4">0x0ff 0x807f</button>
+        <button label="3" span="4">0x0ff 0x40bf</button>
+        <button label="4" span="4">0x0ff 0x42bd</button>
+        <button label="5" span="4">0x0ff 0x00ff</button>
+        <button label="6" span="4">0x0ff 0xc03f</button>
+        <button label="7" span="4">0x0ff 0xe21d</button>
+        <button label="8" span="4">0x0ff 0xa05f</button>
+        <button label="9" span="4">0x0ff 0xe01f</button>
+
+        <button label="+10" span="4">0x0ff 0x20df</button>
+        <button label="0" span="4">0x0ff 0x629d</button>
+        <button label="C/CH" span="4">0x0ff 0x609f</button>
+
+        <button label="Top Menu" span="4">0x0ff 0x02fd</button>
+        <button label="&#xf0d8;" span="4">0x0ff 0xd02f</button>
+        <button label="Title" span="4">0x0ff 0x50af</button>
+
+        <button label="&#xf0d9;" span="4">0x0ff 0x5aa5</button>
+        <button label="OK" span="4">0x0ff 0x1ae5</button>
+        <button label="&#xf0da;" span="4">0x0ff 0x18e7</button>
+
+        <button label="Menu" span="4">0x0ff 0x52ad</button>
+        <button label="&#xf0d7;" span="4">0x0ff 0xd827</button>
+        <button label="Repeat" span="4">0x0ff 0x8a75</button>
+
+        <button label="Return" span="4">0x0ff 0xd22d</button>
+        <button label="VOL+" span="4">0x0ff 0x08f7</button>
+        <button label="Display" span="4">0x0ff 0x12ed</button>
+
+        <button label="Next" span="4">0x0ff 0xa857</button>
+        <button label="VOL-" span="4">0x0ff 0xc837</button>
+        <button label="Rep/A-B" span="4">0x0ff 0x4ab5</button>
+
+        <button label="Prev." span="3">0x0ff 0x6897</button>
+        <button label="Auto/Track" span="3">0x0ff 0x906f</button>
+        <button label="Random" span="3">0x0ff 0x20df</button>
+        <button label="Subtitles" span="3">0x0ff 0xa25d</button>
+
+        <button label="Slow-" span="3">0x0ff 0xca35</button>
+        <button label="Angle" span="3">0x0ff 0x22dd</button>
+        <button label="Program" span="3">0x0ff 0x48b7</button>
+        <button label="Slow+" span="3">0x0ff 0x8877</button>
+
+        <button label="Zoom" span="3">0x0ff 0x0af5</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0x0ff 0xe817</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">0x0ff 0x28d7</button>
+        <button label="Record" span="3">0x0ff 0x22dd</button>
+
+        <button label="&#xf04a;" alt="REW" span="4">0x0ff 0xea15</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0x0ff 0x6a95</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0x0ff 0x2ad5</button>
+
+        <button label="&#xf052;" alt="EJECT" span="3">0x0ff 0x30cf</button>
+        <button label="Audio" span="3">0x0ff 0x02fd</button>
+        <button label="Video" span="3">0x0ff 0x9867</button>
+        <button label="Search" span="3">0x0ff 0x10ef</button>
+
+        <button label="Clear" span="3">0x0ff 0x609f</button>
+        <button label="Pbc" span="3">0x0ff 0x906f</button>
+        <button label="R/L" span="3">0x0ff 0x8877</button>
+        <button label="Setup" span="3">0x0ff 0xda25</button>
+
+    </device>
+</irplus>

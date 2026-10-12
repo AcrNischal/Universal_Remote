@@ -1,0 +1,16 @@
+<irplus>
+    <device manufacturer="NATIONAL" model="RMT-9551" columns="12" format="WINLIRC_SPACEENC" toggle-bit-pos="0" one-pulse="935" one-space="2554"
+        zero-pulse="935" zero-space="804" header-pulse="3584" header-space="3403" gap-space="104987" gap-pulse="932" bits="24" pre-bits="24" repeat="1" repeatgap="40000" repeatheader="true" frequency="38000">
+
+        <space multiple="4"/>
+        <button label="&#xf011;" backgroundColor="FF9323E2" span="4">0xDC123E</button>
+        <space multiple="4"/>
+
+        <button label="SPEED" labelColor="FF424242" backgroundColor="FFB7B2B7" span="6">0xDFE201</button>
+        <button label="RHYTHM" labelColor="FF3D3D3D" backgroundColor="FFB5AFB5" span="6">0xDCE231</button>
+
+        <button label="TIMER" labelColor="FF3D3D3D" backgroundColor="FFB5AFB5" span="6">0xDDE221</button>
+        <button label="OSCIL" labelColor="FF3D3D3D" backgroundColor="FFB5AFB5" span="6">0xDEE211</button>
+
+    </device>
+</irplus>

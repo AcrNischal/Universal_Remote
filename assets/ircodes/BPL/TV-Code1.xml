@@ -1,0 +1,59 @@
+<irplus>
+    <device manufacturer="BPL" model="TV-Code1" columns="12" format="WINLIRC_RC5" bits="13" pre-bits="13" repeat="2" frequency="36000"
+        toggle-bit-pos="2" gap-pulse="1" gap-space="90886" one-pulse="889" one-space="889" zero-pulse="889" zero-space="889">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="3">0x180c</button>
+        <button label="&#xFF581;" span="3">0x180d</button>
+        <button label="INPUT" span="3">0x1839</button>
+        <button label="CBL/SAT" span="3">0x1838</button>
+
+        <button label="1" span="4">0x1801</button>
+        <button label="2" span="4">0x1802</button>
+        <button label="3" span="4">0x1803</button>
+        <button label="4" span="4">0x1804</button>
+        <button label="5" span="4">0x1805</button>
+        <button label="6" span="4">0x1806</button>
+        <button label="7" span="4">0x1807</button>
+        <button label="8" span="4">0x1808</button>
+        <button label="9" span="4">0x1809</button>
+
+        <button label="ASPECT" span="4">0x1833</button>
+        <button label="0" span="4">0x1800</button>
+        <button label="AUDIO" span="4">0x1823</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x1837</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x1836</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x1832</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x1834</button>
+
+        <button label="VOL+" span="4">0x1810</button>
+        <button label="DASH" span="4">0x180a</button>
+        <button label="CH+" span="4">0x1820</button>
+
+        <button label="VOL-" span="4">0x1811</button>
+        <button label="CH ENT" span="4">0x180b</button>
+        <button label="CH-" span="4">0x1821</button>
+
+        <button label="MENU" span="4">0x183b</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0x1820</button>
+        <button label="EXIT" span="4">0x183b</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x1811</button>
+        <button label="ENTER" span="4">0x1825</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x1810</button>
+
+        <button label="INFO" span="4">0x180f</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x1821</button>
+        <button label="LAST" span="4">0x1822</button>
+
+        <button label="TXT ON" span="3">0x183c</button>
+        <button label="TXT OFF" span="3">0x183f</button>
+        <button label="TXT EXP" span="3">0x182b</button>
+        <button label="TXT HOLD" span="3">0x1829</button>
+
+        <button label="TXT MIX" span="4">0x182e</button>
+        <button label="PIP" span="4">0x1825</button>
+        <button label="SUBTITLE" span="4">0x1836</button>
+
+    </device>
+</irplus>

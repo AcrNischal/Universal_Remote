@@ -1,0 +1,72 @@
+<irplus>
+    <device manufacturer="ORION" model="076RONV021" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x01c6 0xf00f</button>
+        <button label="&#xFF581;" span="4">0x01c6 0x708f</button>
+        <button label="TV/AV" span="4">0x01c6 0x48b7</button>
+
+        <button label="1" span="4">0x01c6 0x00ff</button>
+        <button label="2" span="4">0x01c6 0x807f</button>
+        <button label="3" span="4">0x01c6 0x40bf</button>
+
+        <button label="4" span="4">0x01c6 0xc03f</button>
+        <button label="5" span="4">0x01c6 0x20df</button>
+        <button label="6" span="4">0x01c6 0xa05f</button>
+
+        <button label="7" span="4">0x01c6 0x609f</button>
+        <button label="8" span="4">0x01c6 0xe01f</button>
+        <button label="9" span="4">0x01c6 0x10ef</button>
+
+        <button label="GUIDE" span="4">0x01c6 0x8976</button>
+        <button label="0" span="4">0x01c6 0x906f</button>
+        <button label="Recall" span="4">0x01c6 0x8877</button>
+
+        <button label="CH+" span="4">0x01c6 0x50af</button>
+        <button label="&#xf0d8;" span="4">0x01c6 0x01fe</button>
+        <button label="VOL+" span="4">0x01c6 0x30cf</button>
+
+        <button label="&#xf0d9;" span="4">0x01c6 0x2ad5</button>
+        <button label="OK" span="4">0x01c6 0xaa55</button>
+        <button label="&#xf0da;" span="4">0x01c6 0xca35</button>
+
+        <button label="CH-" span="4">0x01c6 0xd02f</button>
+        <button label="&#xf0d7;" span="4">0x01c6 0x817e</button>
+        <button label="VOL-" span="4">0x01c6 0xb04f</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x01C6 0x52AD</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x01C6 0xD22D</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x01C6 0x32CD</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x01C6 0xB24D</button>
+
+        <button label="MENU AUDIO" span="4">0x01c6 0x49b6</button>
+        <button label="MENU" span="4">0x01c6 0x58a7</button>
+        <button label="MENU VIDEO" span="4">0x01c6 0x29d6</button>
+
+        <button label="TEXT" span="4">0x01c6 0xa25d</button>
+        <button label="MENUOFF" span="4">0x01c6 0x09f6</button>
+        <button label="DISPLAY" span="4">0x01c6 0xe916</button>
+        
+        <button label="RETURNTV" span="3">0x01c6 0x6996</button>
+        <button label="SLEEPTIMER" span="3">0x01c6 0xc837</button>
+        <button label="SUBT LIST" span="3">0x01c6 0x1ae5</button>
+        <button label="TXTEXPAND" span="3">0x01c6 0xea15</button>
+        
+        <button label="BACK" span="3">0x01c6 0x9a65</button>
+        <button label="UPDATE" span="3">0x01c6 0x42bd</button>
+        <button label="REVEAL" span="3">0x01c6 0x7887</button>
+        <button label="TXTSTOP" span="3">0x01c6 0x02fd</button>
+        
+        <button label="INFO" span="4">0x01c6 0x08f7</button>
+        <button label="TTX ADAPT" span="4">0x01c6 0x6a95</button>
+        <button label="MONO" span="4">0x01c6 0xa857</button>
+    </device>
+</irplus>
+
+<!--
+
+Model Numbers
+0767R0NV021, LD1955D, LD2255D, 0767R0NV041, 19LD5550U, 22LD5550U, 26LD5550U, 26LD5550UA, LT-19HA22U, LT-22HG22U, LT-22HG2WU, LT-26HG22U, LT-32HG22U, TV-26RN10D, TV-37RN10D, TV19PL110D, TV19PL110D/A, TV19PL150D, TV22PL140D, TV22PL150D, TV22PL151D, TV32PL120D, TV32RN10D, TV-26 RN10D, TV-32 LF2, TV-32 LF3, TV-37 RN10D, TV19PL110D/C
+Manufacturer Numbers
+0767R0NV021, 0767R0NV041, 0767RONV021, 0767RONV041, 076E0PR011, 076E0PR021, 076R0NV010, 076R0NV021, 076R0NV041, 076R0NV051, 5341821, IRC81880
+
+-->

@@ -1,0 +1,50 @@
+<irplus>
+	<device manufacturer="MAJESTIC" model="DVX267" columns="12" format="WINLIRC_NEC1" one-space="1597" one-pulse="652"
+		zero-pulse="652" zero-space="489" header-pulse="9122" header-space="4502" bits="16" pre-bits="16">
+
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xFD 0x9A65</button>
+		<button label="F1" span="4">0xFD 0x22DD</button>
+		<button label="F2" span="4">0xFD 0x00FF</button>
+		
+		<button label="1" span="4">0xFD 0x4AB5</button>
+		<button label="2" span="4">0xFD 0x0AF5</button>
+		<button label="3" span="4">0xFD 0x08F7</button>
+		
+		<button label="4" span="4">0xFD 0x6A95</button>
+		<button label="5" span="4">0xFD 0x2AD5</button>
+		<button label="6" span="4">0xFD 0x28D7</button>
+		
+		<button label="7" span="4">0xFD 0x728D</button>
+		<button label="8" span="4">0xFD 0x32CD</button>
+		<button label="9" span="4">0xFD 0x30CF</button>
+		
+		<button label="AV" span="4">0xFD 0x9867</button>
+		<button label="0" span="4">0xFD 0xF00F</button>
+		<button label="-" span="4">0xFD 0xE817</button>
+		
+		<button label="MENU" span="4">0xFD 0x48B7</button>
+		<button label="&#xFF581;" span="4">0xFD 0xAA55</button>
+		<button label="EXIT" span="4">0xFD 0xA25D</button>
+		
+		<button label="VOL+" span="4">0xFD 0xB04F</button>
+		<button label="&#xf0d8;" span="4">0xFD 0x609F</button>
+		<button label="P+" span="4">0xFD 0xD02F</button>
+		
+		<button label="&#xf0d9;" span="4">0xFD 0x5AA5</button>
+		<button label="OK" span="4">0xFD 0x58A7</button>
+		<button label="&#xf0da;" span="4">0xFD 0xD827</button>
+		
+		<button label="VOL-" span="4">0xFD 0x8877</button>
+		<button label="&#xf0d7;" span="4">0xFD 0x6897</button>
+		<button label="P-" span="4">0xFD 0x10EF</button>
+		
+		<button label="&#xf04d;" alt="STOP" span="4">0xFD 0xA857</button>
+		<button label="&#xf04b;" alt="PLAY" span="4">0xFD 0xA05F</button>
+		<button label="&#xf111;" alt="REC" labelColor="FFC84334" span="4">0xFD 0xB24D</button>
+		
+		<button label="&#xf04a;" alt="REW" span="4">0xFD 0x52AD</button>
+		<button label="&#xf04c;" alt="PAUSE" span="4">0xFD 0xC03F</button>
+		<button label="&#xf04e;" alt="FWD" span="4">0xFD 0x12ED</button>
+		
+	</device>
+</irplus>

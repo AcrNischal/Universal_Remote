@@ -1,0 +1,52 @@
+<irplus>
+    <device manufacturer="ADB" model="iCAN-3000" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="26"
+        gap-pulse="681" gap-space="107962" one-pulse="668" one-space="1554" zero-pulse="668" zero-space="438" header-pulse="9093" header-space="4415" repeat="3">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x401DFF 0x30CF</button>
+        <button label="AV" span="4">0x401DFF 0xD827</button>
+        <button label="&#xFF581;" span="4">0x401DFF 0x58A7</button>
+        
+        <button label="1" span="4">0x401DFF 0x807F</button>
+        <button label="2" span="4">0x401DFF 0x40BF</button>
+        <button label="3" span="4">0x401DFF 0xC03F</button>
+        
+        <button label="4" span="4">0x401DFF 0x20DF</button>
+        <button label="5" span="4">0x401DFF 0xA05F</button>
+        <button label="6" span="4">0x401DFF 0x609F</button>
+        
+        <button label="7" span="4">0x401DFF 0xE01F</button>
+        <button label="8" span="4">0x401DFF 0x10EF</button>
+        <button label="9" span="4">0x401DFF 0x906F</button>
+
+        <button label="BACK" span="4">0x401DFF 0xF807</button>
+        <button label="0" span="4">0x401DFF 0x00FF</button>
+        <button label="MENU" span="4">0x401DFF 0x50AF</button>
+
+        <button label="VOL+" span="4">0x401DFF 0x08F7</button>
+        <button label="&#xf0d8;" span="4">0x401DFF 0xB847</button>
+        <button label="CH+" span="4">0x401DFF 0x708F</button>
+
+        <button label="&#xf0d9;" span="4">0x401DFF 0xA857</button>
+        <button label="OK" span="4">0x401DFF 0x6897</button>
+        <button label="&#xf0da;" span="4">0x401DFF 0x48B7</button>
+
+        <button label="VOL-" span="4">0x401DFF 0x8877</button>
+        <button label="&#xf0d7;" span="4">0x401DFF 0x38C7</button>
+        <button label="CH-" span="4">0x401DFF 0xF00F</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x401DFF 0x04FB</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x401DFF 0x847B</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x401DFF 0x44BB</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x401DFF 0xC43B</button>
+
+        <button label="EXIT" span="3">0x401DFF 0x28D7</button>
+        <button label="EPG" span="3">0x401DFF 0xC837</button>
+        <button label="PPV" span="3">0x401DFF 0x18E7</button>
+        <button label="TV/RAD" span="3">0x401DFF 0x9867</button>
+        
+        <button label="INFO" span="4">0x401DFF 0xB04F</button>
+        <button label="OPTIONS" span="4">0x401DFF 0xD02F</button>
+        <button label="TELETEXT" span="4">0x401DFF 0x7887</button>
+        
+    </device>
+</irplus>

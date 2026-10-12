@@ -1,0 +1,36 @@
+<irplus><!-- NS-11Q -->
+    <device manufacturer="PIONEER" model="AXD-7306" columns="4" format="WINLIRC_SPACEENC" bits="16" pre-bits="16" 
+        gap-pulse="615" gap-space="89380" one-pulse="614" one-space="1504" zero-pulse="614" zero-space="443" header-pulse="8553" header-space="4154">
+        
+        <button label="&#xf011;" backgroundColor="FF4758A6">0x659A 0x38C7</button>
+        <space/>
+        <button label="VOL-" backgroundColor="FF222222">0x659A 0xD02F</button>
+        <button label="VOL+" backgroundColor="FF222222">0x659A 0x50AF</button>
+        
+        <button label="CD" backgroundColor="FF4758A6">0x659A 0x22DD</button>
+        <button label="FM" backgroundColor="FF4758A6">0x659A 0x05FA</button>
+        <button label="AM" backgroundColor="FF4758A6">0x659A 0x05FA</button>
+        <button label="SOUND">0x659A 0x5BA4</button>
+
+        <button label="MD" backgroundColor="FF4758A6">0x659A 0x45BA</button>
+        <button label="TAPE" backgroundColor="FF4758A6">0x659A 0xE817</button>
+        <button label="AUX" backgroundColor="FF4758A6">0x659A 0x32CD</button>
+        <button label="TIMER">0x659A 0x738C</button>
+
+        <button label="&#xf04a;">0x659A 0x29D6</button>
+        <button label="&#xf04e;">0x659A 0xC936</button>
+        <button label="&#xf049;">0x659A 0x49B6</button>
+        <button label="&#xf050;" alt="NEXT">0x659A 0x8976</button>
+
+        <button label="&#xf04d;" alt="STOP">0x659A 0x09F6</button>
+        <button label="CANCEL">0x659A 0xCE31</button>
+        <button label="SET">0x659A 0x2ED1</button>
+        <button label="MENU">0x659A 0x4EB1</button>
+
+        <button label="DISP">0x659A 0xB946</button>
+        <space/>
+        <button label="GROUP-">0x659A 0x05FA</button>
+        <button label="GROUP+">0x659A 0x05FA</button>
+        
+    </device>
+</irplus>

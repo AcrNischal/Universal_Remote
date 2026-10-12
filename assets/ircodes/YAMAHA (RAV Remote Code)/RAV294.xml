@@ -1,0 +1,239 @@
+<irplus>
+	<device manufacturer="YAMAHA" model="RAV294" columns="12" format="WINLIRC_NEC1" one-space="1635" one-pulse="615" zero-pulse="615" zero-space="508" bits="32">
+		
+		<button label="&#xf011;" backgroundColor="FFC84334" span="3">0x7E8154AB</button>
+		<button label="SLEEP" span="3">0x5EA10CF3</button>
+		<button label="BD SRC POWER" span="3">0x3EC101FE</button>
+		<button label="CD SRC POWER" span="3">0x9E6106F9</button>
+		
+		<button label="RD SRC POWER" span="4">0x8B74D827</button>
+		<button label="USB SRC POWER" span="4">0xFE8004FB</button>
+		<button label="DOCK SRC POWER" span="4">0xFE8000FF</button>
+		
+		<button label="--Inputs--" span="12">0x5EA1E21C</button>
+		<button label="HDMI1" span="3">0x5EA1E21C</button>
+		<button label="HDMI2" span="3">0x5EA152AC</button>
+		<button label="HDMI3" span="3">0x5EA1B24C</button>
+		<button label="HDMI4" span="3">0x5EA10AF4</button>
+		
+		<button label="AV1" span="4">0x5EA1CA34</button>
+		<button label="AV2" span="4">0x5EA16A94</button>
+		<button label="AV3" span="4">0x5EA19A64</button>
+		
+		<button label="AV4" span="4">0x5EA13AC4</button>
+		<button label="AV5" span="4">0x5EA1FA04</button>
+		<button label="AV6" span="4">0x5EA146B8</button>
+		
+		<button label="AUDIO1" span="3">0x5EA1A658</button>
+		<button label="AUDIO2" span="3">0x5EA116E8</button>
+		<button label="V-AUX" span="3">0x5EA1AA55</button>
+		<button label="PHONO" span="3">0x5EA128D7</button>
+		
+		<button label="MULTI" span="3">0x5EA1E11E</button>
+		<button label="TUNER" span="3">0x5EA16897</button>
+		<button label="USB" span="3">0xFE80FC03</button>
+		<button label="DOCK" span="3">0xFE8052AD</button>
+		
+		<button label="PRESET+" span="3">0xFE80DA24</button>
+		<button label="FM" span="3">0xFE801AE4</button>
+		<button label="AM" span="3">0xFE80AA54</button>
+		<button label="TUNE+" span="3">0xFE808678</button>
+		
+		<button label="PRESET-" span="3">0xFE807A84</button>
+		<button label="MEMORY" span="6">0xFE80E618</button>
+		<button label="TUNE-" span="3">0xFE8026D8</button>
+		
+		<button label="DSPMovie" span="4">0x5EA111EE</button>
+		<button label="DSPMusic" span="4">0x5EA1916E</button>
+		<button label="DSPStereo" span="4">0x5EA129D6</button>
+		
+		<button label="DSPStraight" span="4">0x5EA16A95</button>
+		<button label="DSPDirect" span="4">0x5EA1BB44</button>
+		<button label="DSPSurround" span="4">0x5EA1B14E</button>
+
+		<button label="SceneBD" span="3">0x5EA100FE</button>
+		<button label="SceneTV" span="3">0x5EA1C03E</button>
+		<button label="SceneCD" span="3">0x5EA1609E</button>
+		<button label="SceneFM" span="3">0x5EA1906E</button>
+
+		<button label="VOL+" span="6">0x5EA158A7</button>
+		<button label="VOL-" span="6">0x5EA1D827</button>
+		
+		<button label="INFO" span="3">0x5EA1E41A</button>
+		<button label="OPTION" span="3">0x5EA1D628</button>
+		<button label="ON SCREEN PWR" span="3">0x5EA121DE</button>
+		<button label="&#xFF581;" span="3">0x5EA138C7</button>
+
+		<button label="NAV UP" span="4">0x5EA1B946</button>
+		<button label="NAV RETURN" span="4">0x5EA155AA</button>
+		<button label="NAV DOWN" span="4">0x5EA139C6</button>
+
+		<button label="NAV LEFT" span="4">0x5EA1F906</button>
+		<button label="NAV ENTER" span="4">0x5EA17B84</button>
+		<button label="NAV RIGHT" span="4">0x5EA17986</button>
+
+		<button label="BD NAV UP" span="4">0x3EC12DD2</button>
+		<button label="BD NAV RETURN" span="4">0x3EC1ED12</button>
+		<button label="BD NAV DOWN" span="4">0x3EC1CD32</button>
+
+		<button label="BD NAV LEFT" span="4">0x3EC1AD52</button>
+		<button label="BD NAV ENTER" span="4">0x3EC11DE2</button>
+		<button label="BD NAV RIGHT" span="4">0x3EC16D92</button>
+
+		<button label="USB NAV UP" span="4">0xFE80748B</button>
+		<button label="USB NAV RETURN" span="4">0xFE80CC33</button>
+		<button label="USB NAV DOWN" span="4">0xFE802CD3</button>
+
+		<button label="USB NAV LEFT" span="4">0xFE800CF3</button>
+		<button label="USB NAV ENTER" span="4">0xFE808C73</button>
+		<button label="USB NAV RIGHT" span="4">0xFE804CB3</button>
+
+		<button label="DOCK NAV UP" span="4">0xFE80708F</button>
+		<button label="DOCK NAV RETURN" span="4">0xFE80C837</button>
+		<button label="DOCK NAV DOWN" span="4">0xFE8028D7</button>
+
+		<button label="DOCK NAV LEFT" span="4">0xFE8008F7</button>
+		<button label="DOCK NAV ENTER" span="4">0xFE808877</button>
+		<button label="DOCK NAV RIGHT" span="4">0xFE8048B7</button>
+
+		<button label="DISPLAY" span="4">0xFE8006F9</button>
+		<button label="BD DISPLAY" span="4">0x3EC1659A</button>
+		<button label="CD DISPLAY" span="4">0x9E6150AF</button>
+		
+		<button label="USB DISPLAY" span="6">0xFE80AC53</button>
+		<button label="DOCK DISPLAY" span="6">0xFE80A857</button>
+
+		<button label="TOP MENU" span="3">0x5EA1758A</button>
+		<button label="BD TOP MENU" span="3">0x3EC18D72</button>
+		<button label="USB TOP MENU" span="3">0xFE80B44B</button>
+		<button label="DOCK TOP MENU" span="3">0xFE80B04F</button>
+		
+		<button label="KEY MENU" span="3">0x5EA1D52A</button>
+		<button label="BD MENU" span="3">0x3EC10BF4</button>
+		<button label="USB MENU" span="3">0xFE80F40B</button>
+		<button label="DOCK MENU" span="3">0xFE80F00F</button>
+
+		<button label="-BluRay-" labelColor="FF0066CC" backgroundColor="FF000000" span="12">0x5EA1F20D</button>
+		
+		<button label="REC" backgroundColor="FF0066CC" span="3">0x3EC1D12E</button>
+		<button label="PLAY" backgroundColor="FF0066CC" span="3">0x3EC141BE</button>
+		<button label="STOP" backgroundColor="FF0066CC" span="3">0x3EC1A15E</button>
+		<button label="PAUSE" backgroundColor="FF0066CC" span="3">0x3EC1C13E</button>
+		
+		<button label="BACK" backgroundColor="FF0066CC" span="3">0x3EC1619E</button>
+		<button label="FWD" backgroundColor="FF0066CC" span="3">0x3EC1E11E</button>
+		<button label="BACK SKIP" backgroundColor="FF0066CC" span="3">0x3EC19D62</button>
+		<button label="FWD SKIP" backgroundColor="FF0066CC" span="3">0x3EC15DA2</button>
+		
+		<button label="1" backgroundColor="FF0066CC" span="3">0x3EC129D6</button>
+		<button label="2" backgroundColor="FF0066CC" span="3">0x3EC1A956</button>
+		<button label="3" backgroundColor="FF0066CC" span="3">0x3EC16996</button>
+		<button label="4" backgroundColor="FF0066CC" span="3">0x3EC1E916</button>
+		
+		<button label="5" backgroundColor="FF0066CC" span="3">0x3EC119E6</button>
+		<button label="6" backgroundColor="FF0066CC" span="3">0x3EC19966</button>
+		<button label="7" backgroundColor="FF0066CC" span="3">0x3EC159A6</button>
+		<button label="8" backgroundColor="FF0066CC" span="3">0x3EC1D926</button>
+		
+		<button label="9" backgroundColor="FF0066CC" span="3">0x3EC139C6</button>
+		<button label="0" backgroundColor="FF0066CC" span="3">0x3EC1C936</button>
+		<button label="+10" backgroundColor="FF0066CC" span="3">0x3EC1B946</button>
+		<button label="ENT" backgroundColor="FF0066CC" span="3">0x3EC17986</button>
+
+		<button label="-CD-" labelColor="FFD6A81F" backgroundColor="FF000000" span="12">0x5EA1F20D</button>
+		
+		<button label="REC" labelColor="FFD6A81F" backgroundColor="FFAAAAAA" span="3">0x5EA1F20D</button>
+		<button label="PLAY" labelColor="FFD6A81F" backgroundColor="FFAAAAAA" span="3">0x5EA110EF</button>
+		<button label="STOP" labelColor="FFD6A81F" backgroundColor="FFAAAAAA" span="3">0x5EA1906F</button>
+		<button label="PAUSE" labelColor="FFD6A81F" backgroundColor="FFAAAAAA" span="3">0x5EA1906F</button>
+		
+		<button label="BACK" labelColor="FFD6A81F" backgroundColor="FFAAAAAA" span="3">0x5EA1B04F</button>
+		<button label="FWD" labelColor="FFD6A81F" backgroundColor="FFAAAAAA" span="3">0x5EA130CF</button>
+		<button label="BACK SKIP" labelColor="FFD6A81F" backgroundColor="FFAAAAAA" span="3">0x5EA1D02F</button>
+		<button label="FWD SKIP" labelColor="FFD6A81F" backgroundColor="FFAAAAAA" span="3">0x5EA150AF</button>
+		
+		<button label="1" labelColor="FFD6A81F" backgroundColor="FFAAAAAA" span="3">0x9E618877</button>
+		<button label="2" labelColor="FFD6A81F" backgroundColor="FFAAAAAA" span="3">0x9E6148B7</button>
+		<button label="3" labelColor="FFD6A81F" backgroundColor="FFAAAAAA" span="3">0x9E61C837</button>
+		<button label="4" labelColor="FFD6A81F" backgroundColor="FFAAAAAA" span="3">0x9E6128D7</button>
+		
+		<button label="5" labelColor="FFD6A81F" backgroundColor="FFAAAAAA" span="3">0x9E61A857</button>
+		<button label="6" labelColor="FFD6A81F" backgroundColor="FFAAAAAA" span="3">0x9E616897</button>
+		<button label="7" labelColor="FFD6A81F" backgroundColor="FFAAAAAA" span="3">0x9E61E817</button>
+		<button label="8" labelColor="FFD6A81F" backgroundColor="FFAAAAAA" span="3">0x9E6118E7</button>
+		
+		<button label="9" labelColor="FFD6A81F" backgroundColor="FFAAAAAA" span="3">0x9E619867</button>
+		<button label="0" labelColor="FFD6A81F" backgroundColor="FFAAAAAA" span="3">0x9E6108F7</button>
+		<button label="+10" labelColor="FFD6A81F" backgroundColor="FFAAAAAA" span="3">0x9E6158A7</button>
+		<button label="ENT" labelColor="FFD6A81F" backgroundColor="FFAAAAAA" span="3">0x9E61D02F</button>
+
+		<button label="-USB-" labelColor="FF006633" backgroundColor="FF000000" span="12">0x5EA1F20D</button>
+		
+		<button label="REC" labelColor="FF006633" backgroundColor="FFFFFFFF" span="3">0xFE806C93</button>
+		<button label="PLAY" labelColor="FF006633" backgroundColor="FFFFFFFF" span="3">0xFE807C83</button>
+		<button label="STOP" labelColor="FF006633" backgroundColor="FFFFFFFF" span="3">0xFE80BC43</button>
+		<button label="PAUSE" labelColor="FF006633" backgroundColor="FFFFFFFF" span="3">0xFE805CA3</button>
+
+		<button label="BACK" labelColor="FF006633" backgroundColor="FFFFFFFF" span="3">0xFE80EC13</button>
+		<button label="FWD" labelColor="FF006633" backgroundColor="FFFFFFFF" span="3">0xFE801CE3</button>
+		<button label="BACK SKIP" labelColor="FF006633" backgroundColor="FFFFFFFF" span="3">0xFE80DC23</button>
+		<button label="FWD SKIP" labelColor="FF006633" backgroundColor="FFFFFFFF" span="3">0xFE803CC3</button>
+
+		<button label="1" labelColor="FF006633" backgroundColor="FFFFFFFF" span="3">0xFE80847B</button>
+		<button label="2" labelColor="FF006633" backgroundColor="FFFFFFFF" span="3">0xFE8044BB</button>
+		<button label="3" labelColor="FF006633" backgroundColor="FFFFFFFF" span="3">0xFE80C43B</button>
+		<button label="4" labelColor="FF006633" backgroundColor="FFFFFFFF" span="3">0xFE8024DB</button>
+
+		<button label="5" labelColor="FF006633" backgroundColor="FFFFFFFF" span="3">0xFE80A45B</button>
+		<button label="6" labelColor="FF006633" backgroundColor="FFFFFFFF" span="3">0xFE80649B</button>
+		<button label="7" labelColor="FF006633" backgroundColor="FFFFFFFF" span="3">0xFE80E41B</button>
+		<button label="8" labelColor="FF006633" backgroundColor="FFFFFFFF" span="3">0xFE8014EB</button>
+
+		<button label="9" labelColor="FF006633" backgroundColor="FFFFFFFF" span="3">0xFE80946B</button>
+		<button label="0" labelColor="FF006633" backgroundColor="FFFFFFFF" span="3">0xFE8054AB</button>
+		<button label="+10" labelColor="FF006633" backgroundColor="FFFFFFFF" span="3">0xFE80D42B</button>
+		<button label="ENT" labelColor="FF006633" backgroundColor="FFFFFFFF" span="3">0xFE8034CB</button>
+
+		<button label="-DOCK-" labelColor="FF9933FF" backgroundColor="FF000000" span="12">0x5EA1F20D</button>
+
+		<button label="REC" backgroundColor="FF330066" span="3">0xFE806897</button>
+		<button label="PLAY" backgroundColor="FF330066" span="3">0xFE807887</button>
+		<button label="STOP" backgroundColor="FF330066" span="3">0xFE80B847</button>
+		<button label="PAUSE" backgroundColor="FF330066" span="3">0xFE8058A7</button>
+		
+		<button label="BACK" backgroundColor="FF330066" span="3">0xFE80E817</button>
+		<button label="FWD" backgroundColor="FF330066" span="3">0xFE8018E7</button>
+		<button label="BACK SKIP" backgroundColor="FF330066" span="3">0xFE80D827</button>
+		<button label="FWD SKIP" backgroundColor="FF330066" span="3">0xFE8038C7</button>
+		
+		<button label="1" backgroundColor="FF330066" span="3">0xFE80807F</button>
+		<button label="2" backgroundColor="FF330066" span="3">0xFE8040BF</button>
+		<button label="3" backgroundColor="FF330066" span="3">0xFE80C03F</button>
+		<button label="4" backgroundColor="FF330066" span="3">0xFE8020DF</button>
+		
+		<button label="5" backgroundColor="FF330066" span="3">0xFE80A05F</button>
+		<button label="6" backgroundColor="FF330066" span="3">0xFE80609F</button>
+		<button label="7" backgroundColor="FF330066" span="3">0xFE80E01F</button>
+		<button label="8" backgroundColor="FF330066" span="3">0xFE8010EF</button>
+		
+		<button label="9" backgroundColor="FF330066" span="3">0xFE80906F</button>
+		<button label="0" backgroundColor="FF330066" span="3">0xFE8050AF</button>
+		<button label="+10" backgroundColor="FF330066" span="3">0xFE80D02F</button>
+		<button label="ENT" backgroundColor="FF330066" span="3">0xFE8030CF</button>
+		
+		<button label="1" backgroundColor="FF404040" span="3">0x5EA1A758</button>
+		<button label="2" backgroundColor="FF404040" span="3">0x5EA16798</button>
+		<button label="3" backgroundColor="FF404040" span="3">0x5EA1E718</button>
+		<button label="4" backgroundColor="FF404040" span="3">0x5EA117E8</button>
+		
+		<button label="5" backgroundColor="FF404040" span="3">0x5EA19768</button>
+		<button label="6" backgroundColor="FF404040" span="3">0x5EA157A8</button>
+		<button label="7" backgroundColor="FF404040" span="3">0x5EA1D728</button>
+		<button label="8" backgroundColor="FF404040" span="3">0x5EA137C8</button>
+		
+		<button label="9" backgroundColor="FF404040" span="3">0x5EA18D72</button>
+		<button label="ENT" backgroundColor="FF404040" span="3">0x5EA1CD32</button>
+		<button label="0" backgroundColor="FF404040" span="3">0x5EA14DB2</button>
+		<space multiple="3"/>
+	</device>
+</irplus>

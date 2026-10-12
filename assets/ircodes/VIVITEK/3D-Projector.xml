@@ -1,0 +1,41 @@
+<irplus>
+    <device manufacturer="VIVITEK" model="Projector" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16"
+         gap-pulse="573" gap-space="36000" one-pulse="573" one-space="1694" zero-pulse="573" zero-space="573" header-pulse="9041" header-space="4507">
+
+        <button label="POWER" span="4">0x8c73 0x817e</button>
+        <button label="FREEZE" span="4">0x8c73 0x718e</button>
+        <button label="INPUT" span="4">0x8c73 0xc13e</button>
+
+        <button label="VOL-" span="4">0x8c73 0xf10e</button>
+        <button label="3D" span="4">0x8c73 0x03fc</button>
+        <button label="VOL+" span="4">0x8c73 0x31ce</button>
+
+        <button label="AUTO" span="4">0x8c73 0x619e</button>
+        <button label="&#xf0d8;" span="4">0x8c73 0x639c</button>
+        <button label="BLANK" span="4">0x8c73 0xd12e</button>
+
+        <button label="&#xf0d9;" span="4">0x8c73 0x13ec</button>
+        <button label="OK" span="4">0x8c73 0x53ac</button>
+        <button label="&#xf0da;" span="4">0x8c73 0x936c</button>
+
+        <button label="KEY -" span="4">0x8c73 0x21de</button>
+        <button label="&#xf0d7;" span="4">0x8c73 0xe31c</button>
+        <button label="KEY +" span="4">0x8c73 0xa15e</button>
+
+        <button label="MENU" span="4">0x8c73 0xe11e</button>
+        <button label="&#xf0d8; USB" span="4">0x8c73 0x837c</button>
+        <button label="&#xFF581;" span="4">0x8c73 0x916e</button>
+
+        <button label="&#xf0d9; USB" span="4">0x8c73 0xc33c</button>
+        <button label="OK USB" span="4">0x8c73 0xa35c</button>
+        <button label="&#xf0da; USB" span="4">0x8c73 0x23dc</button>
+
+        <button label="PAGE -" span="4">0x8c73 0x33cc</button>
+        <button label="&#xf0d7; USB" span="4">0x8c73 0x43bc</button>
+        <button label="PAGE +" span="4">0x8c73 0xd32c</button>
+
+        <button label="ZOOM-" span="4">0x8c73 0x51ae</button>
+        <button label="STATUS" span="4">0x8c73 0x11ee</button>
+        <button label="ZOOM+" span="4">0x8c73 0xb14e</button>
+    </device>
+</irplus>

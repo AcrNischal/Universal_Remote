@@ -1,0 +1,14 @@
+<irplus>
+    <device manufacturer="TECTRO" model="Air Conditioner TP20" columns="4" format="WINLIRC_NEC1" bits="16" pre-bits="16"
+        toggle-bit-pos="0" gap-pulse="647" gap-space="107952" one-pulse="647" one-space="1585" zero-pulse="647" zero-space="476" header-pulse="9065" header-space="4420">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x8F7 0x58A7</button>
+        <button label="EXIT" span="4">0x8F7 0x807F</button>
+        <button label="ACMODE" span="4">0x8F7 0x7887</button>
+        <button label="C/F" span="4">0x8F7 0x00FF</button>
+        <button label="FANSPEED" span="4">0x8F7 0x906F</button>
+        <button label="TEMP+" span="4">0x8F7 0x50AF</button>
+        <button label="TEMP-" span="4">0x8F7 0x20DF</button>
+
+    </device>
+</irplus>

@@ -1,0 +1,43 @@
+<irplus>
+    <device manufacturer="HARMAN KARDON" model="HD730" columns="12" format="WINLIRC_NEC1">
+
+        <button label="1" span="3">0xC152 0x38C7</button>
+        <button label="2" span="3">0xC152 0xB847</button>
+        <button label="3" span="3">0xC152 0x7887</button>
+        <button label="4" span="3">0xC152 0xF807</button>
+
+        <button label="5" span="3">0xC152 0x18E7</button>
+        <button label="6" span="3">0xC152 0x9867</button>
+        <button label="7" span="3">0xC152 0x58A7</button>
+        <button label="8" span="3">0xC152 0xD827</button>
+
+        <button label="9" span="3">0xC152 0x28D7</button>
+        <button label="0" span="3">0xC152 0xA857</button>
+        <space multiple="3"/>
+        <space multiple="3"/>
+
+        <button label="INTRO" span="3">0xC152 0x08F7</button>
+        <button label="PROG/REV" span="3">0xC152 0x6897</button>
+        <button label="TAPE SIZE" span="3">0xC152 0xE817</button>
+        <button label="EDIT" span="3">0xC152 0x708F</button>
+
+        <button label="REPEAT 1/ALL" span="4">0xC152 0x30CF</button>
+        <button label="REPEAT A/B" span="4">0xC152 0xB04F</button>
+        <button label="RANDOM" span="4">0xC152 0x8877</button>
+
+        <button label="DELETE" span="4">0xC152 0x50AF</button>
+        <button label="DISPLAY" span="4">0xC152 0x48B7</button>
+        <button label="TIME" span="4">0xC152 0xF00F</button>
+
+        <button label="&#xf049;" alt="PREV" span="3">0xC152 0x20DF</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0xC152 0xA05F</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0xC152 0xD02F</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">0xC152 0xE01F</button>
+
+        <button label="&#xf04a;" alt="REW" span="3">0xC152 0x00FF</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0xC152 0x807F</button>
+        <space multiple="3"/>
+        <button label="&#xf04b;" alt="PLAY" span="3">0xC152 0xC03F</button>
+
+    </device>
+</irplus>

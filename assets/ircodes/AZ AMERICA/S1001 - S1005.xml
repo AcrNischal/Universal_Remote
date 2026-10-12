@@ -1,0 +1,62 @@
+<irplus>
+    <device manufacturer="AZ AMERICA" model="S1001-S1005" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x807F 0x807F</button>
+        <button label="MUTE" span="4">0x807F 0x48B7</button>
+        <button label="SAT" span="4">0x807F 0xC23D</button>
+
+        <button label="TTX" backgroundColor="FFC84334" alt="RED" span="3">0x807F 0x8A75</button>
+        <button label="SUB" backgroundColor="FF29A58B" alt="GREEN" span="3">0x807F 0x4AB5</button>
+        <button label="ZOOM" backgroundColor="FFF2B731" alt="YELLOW" span="3">0x807F 0xCA35</button>
+        <button label="BLUE" backgroundColor="FF2766DC" alt="BLUE" span="3">0x807F 0x2AD5</button>
+
+        <button label="SLEEP" span="6">0x807F 0xEA15</button>
+        <button label="FORMAT" span="6">0x807F 0x926D</button>
+
+        <button label="EPG" span="4">0x807F 0x5AA5</button>
+        <button label="CH+" span="4">0x807F 0xE817</button>
+        <button label="INFO" span="4">0x807F 0x728D</button>
+
+        <button label="VOL-" span="4">0x807F 0x42BD</button>
+        <button label="OK" span="4">0x807F 0xA857</button>
+        <button label="VOL+" span="4">0x807F 0x827D</button>
+
+        <button label="MENU" span="4">0x807F 0xDA25</button>
+        <button label="CH-" span="4">0x807F 0x58A7</button>
+        <button label="EXIT" span="4">0x807F 0x6897</button>
+
+        <button label="VOL+" span="4">0x807F 0xB04F</button>
+        <button label="FAV" span="4">0x807F 0xAA55</button>
+        <button label="VOL-" span="4">0x807F 0x28D7</button>
+
+        <button label="PAGE+" span="4">0x807F 0x02FD</button>
+        <button label="AUDIO" span="4">0x807F 0xC03F</button>
+        <button label="PAGE-" span="4">0x807F 0x7887</button>
+
+        <button label="1" span="4">0x807F 0x00FF</button>
+        <button label="2" span="4">0x807F 0xE01F</button>
+        <button label="3" span="4">0x807F 0x609F</button>
+
+        <button label="4" span="4">0x807F 0x20DF</button>
+        <button label="5" span="4">0x807F 0xD02F</button>
+        <button label="6" span="4">0x807F 0x50AF</button>
+
+        <button label="7" span="4">0x807F 0x10EF</button>
+        <button label="8" span="4">0x807F 0xF00F</button>
+        <button label="9" span="4">0x807F 0x708F</button>
+
+        <button label="RECALL" span="4">0x807F 0x08F7</button>
+        <button label="0" span="4">0x807F 0xC837</button>
+        <button label="TV/RADIO" span="4">0x807F 0x906F</button>
+
+        <button label="&#xf04c;" alt="PAUSE" span="3">0x807F 0x18E7</button>
+        <button label="&#xf04b;" alt="PLAY" span="3">0x807F 0x22DD</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0x807F 0x629D</button>
+        <button label="&#xf111;" alt="REC" span="3">0x807F 0x30CF</button>
+
+        <button label="PREV" span="3">0x807F 0xF807</button>
+        <button label="NEXT" span="3">0x807F 0xE21D</button>
+        <button label="REW" span="3">0x807F 0xA25D</button>
+        <button label="FWD" span="3">0x807F 0x38C7</button>
+    </device>
+</irplus>

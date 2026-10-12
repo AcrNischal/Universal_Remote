@@ -1,0 +1,35 @@
+<irplus>
+    <device manufacturer="LILUCO" model="LED" columns="4" format="WINLIRC_NEC1">
+
+        <button label="-" backgroundColor="ffffffff" labelColor="ff000000">0xF7 0x807F</button>
+        <button label="+" backgroundColor="ffffffff" labelColor="ff000000">0xF7 0x00FF</button>
+        <button label="OFF">0xF7 0x40BF</button>
+        <button label="ON" backgroundColor="ffED2E33">0xF7 0xC03F</button>
+        
+        <button label="R" backgroundColor="ffED2E33">0xF7 0x20DF</button>
+        <button label="G" backgroundColor="ff02883F">0xF7 0xA05F</button>
+        <button label="B" backgroundColor="ff212EB0">0xF7 0x609F</button>
+        <button label="W" backgroundColor="ffffffff" labelColor="ff000000">0xF7 0xE01F</button>
+        
+        <button label="R" fillColor="ffFF5A45">0xF7 0x10EF</button>
+        <button label="G" fillColor="ff36C494">0xF7 0x906F</button>
+        <button label="B" fillColor="ff3D6FE2">0xF7 0x50AF</button>
+        <button label="FLASH">0xF7 0xD02F</button>
+        
+        <button label="R" fillColor="ffFD6B46">0xF7 0x30CF</button>
+        <button label="G" fillColor="ff53A3AA">0xF7 0xB04F</button>
+        <button label="B" fillColor="ff36365C">0xF7 0x708F</button>
+        <button label="STROBE">0xF7 0xF00F</button>
+        
+        <button label="R" fillColor="ffFF995B">0xF7 0x08F7</button>
+        <button label="G" fillColor="ff008B9D">0xF7 0x8877</button>
+        <button label="B" fillColor="ff723C6E">0xF7 0x48B7</button>
+        <button label="FADE">0xF7 0xC837</button>
+        
+        <button label="R" fillColor="ffF9D57F">0xF7 0x28D7</button>
+        <button label="G" fillColor="ff047AA8">0xF7 0xA857</button>
+        <button label="B" fillColor="ffEA44A8">0xF7 0x6897</button>
+        <button label="SMOOTH">0xF7 0xE817</button>
+        
+    </device>
+</irplus>

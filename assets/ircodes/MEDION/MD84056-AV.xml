@@ -1,0 +1,51 @@
+<irplus>
+	<device manufacturer="MEDION" model="MD84056" columns="12" format="WINLIRC_SPACEENC" one-space="1648" one-pulse="601" zero-pulse="601" zero-space="529" header-pulse="9093" header-space="4525" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" backgroundColor="FFC84334" span="3">0xFF 0x0AF5</button>
+		<button label="&#xFF581;" span="3">0xFF 0x20DF</button>
+		<button label="SETUP" span="3">0xFF 0xF00F</button>
+		<button label="SUBT" span="3">0xFF 0x18E7</button>
+		
+		<button label="&#xf049;" span="3">0xFF 0x7887</button>
+		<button label="&#xf04c;" span="3">0xFF 0xF807</button>
+		<button label="&#xf04b;" span="3">0xFF 0xF807</button>
+		<button label="&#xf050;" span="3">0xFF 0x38C7</button>
+		
+		<button label="&#xf04a;" span="3">0xFF 0xC03F</button>
+		<button label="&#xf04d;" span="3">0xFF 0xC23D</button>
+		<button label="&#xf052;" span="3">0xFF 0x8A75</button>
+		<button label="&#xf04e;" span="3">0xFF 0xF20D</button>
+		
+		<button label="MENU" span="4">0xFF 0x08F7</button>
+		<button label="AUDIO" span="4">0xFF 0x48B7</button>
+		<button label="TITLE" span="4">0xFF 0x58A7</button>
+		
+		<button label="PCB" span="4">0xFF 0xD02F</button>
+		<button label="&#xf0d8;" span="4">0xFF 0x9867</button>
+		<button label="VOL+" span="4">0xFF 0xC837</button>
+		
+		<button label="&#xf0d9;" span="4">0xFF 0x6897</button>
+		<button label="OK" span="4">0xFF 0xA857</button>
+		<button label="&#xf0da;" span="4">0xFF 0x28D7</button>
+		
+		<button label="DEFAULT" span="4">0xFF 0xD22D</button>
+		<button label="&#xf0d7;" span="4">0xFF 0x8877</button>
+		<button label="VOL-" span="4">0xFF 0xB847</button>
+		
+		<button label="1" span="4">0xFF 0x02FD</button>
+		<button label="2" span="4">0xFF 0x827D</button>
+		<button label="3" span="4">0xFF 0x42BD</button>
+		
+		<button label="4" span="4">0xFF 0x22DD</button>
+		<button label="5" span="4">0xFF 0xA25D</button>
+		<button label="6" span="4">0xFF 0x629D</button>
+		
+		<button label="7" span="4">0xFF 0x12ED</button>
+		<button label="8" span="4">0xFF 0x926D</button>
+		<button label="9" span="4">0xFF 0x52AD</button>
+		
+		<space multiple="4"/>
+		<button label="0" span="4">0xFF 0xB24D</button>
+		<space multiple="4"/>
+	</device>
+</irplus>

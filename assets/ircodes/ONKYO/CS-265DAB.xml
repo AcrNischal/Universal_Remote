@@ -1,0 +1,49 @@
+<irplus>
+    <device manufacturer="ONKYO" model="CS-265DAB" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#61457;" span="3" backgroundColor="FFD6A81F">0x4B20 0xD32C</button>
+        <button label="sleep" span="3" backgroundColor="FF888888">0x4BC0 0xBA45</button>
+        <button label="DIMMER" span="3" backgroundColor="FF888888">0x4BC0 0xA956</button>
+        <button label="&#61522;" span="3" backgroundColor="FF888888">0x4BC0 0x8976</button>
+
+        <button label="CD" span="4" labelColor="FF000000" backgroundColor="FFFFFFFF">0x4BC0 0x906F</button>
+        <button label="USB" span="4" labelColor="FF000000" backgroundColor="FFFFFFFF">0x4BA0 0x7986</button>
+        <button label="&#62099;" span="4" backgroundColor="FF2A4C94">0x4b78 0x8a70</button>
+
+        <button label="TUNER" span="4" labelColor="FF000000" backgroundColor="FFFFFFFF">0x4BC0 0xD02F</button>
+        <button label="LINE" span="4" labelColor="FF000000" backgroundColor="FFFFFFFF">0x4BC0 0x609F</button>
+        <button label="DISPLAY" span="4" backgroundColor="FF888888">0x4B20 0x1AE5</button>
+
+        <button label="MENU" span="3" backgroundColor="FF888888">0x4B20 0x28D7</button>
+        <button label="&#61656;" span="3" backgroundColor="FF888888">0x4BC0 0x41BE</button>
+        <button label="TIMER" span="3" backgroundColor="FF888888">0x4B20 0x12ED</button>
+        <button label="Muting" span="3" backgroundColor="FF888888">0x4Bc0 0xA05F</button>
+
+        <button label="&#61657;" span="3" backgroundColor="FF888888">0x4BC0 0x21DE</button>
+        <button label="Enter" span="3" backgroundColor="FF888888">0x4B20 0xE817</button>
+        <button label="&#61658;" span="3" backgroundColor="FF888888">0x4BC0 0xA15E</button>
+        <button label="VOL +" span="3" backgroundColor="FFC84334">0x4BC0 0x40BF</button>
+
+        <button label="Folder" span="3" backgroundColor="FF888888">0x4B20 0x817E</button>
+        <button label="&#61655;" span="3" backgroundColor="FF888888">0x4BC0 0xC13E</button>
+        <button label="Mode" span="3" backgroundColor="FF888888">0x4B20 0x10EF</button>
+        <button label="VOL -" span="3" backgroundColor="FFC84334">0x4BC0 0xC03F</button>
+
+        <button label="&#61513;" span="4" backgroundColor="FF888888">0x4BC0 0x7887</button>
+        <button label="&#61515; &#61516;" span="4" backgroundColor="FF888888">0x4B58 0x22DD</button>
+        <button label="&#61520;" span="4" backgroundColor="FF888888">0x4BC0 0xB847</button>
+
+        <button label="&#61514; Tuning" span="4" backgroundColor="FF888888">0x4BC0 0xD12E</button>
+        <button label="&#61517;" span="4" backgroundColor="FF888888">0x4BC0 0x38C7</button>
+        <button label="Tuning &#61518;" span="4" backgroundColor="FF888888">0x4BC0 0x51AE</button>
+
+        <button label="Clear" span="3" backgroundColor="FF888888">0x4BC0 0x7986</button>
+        <button label="Clock Call" span="3" backgroundColor="FF888888">0x4BC0 0x6996</button>
+        <button label="Tone" span="3" backgroundColor="FF888888">0x4B20 0x926D</button>
+        <button label="S.Bass" span="3" backgroundColor="FF888888">0x4BC0 0xD926</button>
+
+        <space multiple="6"/>
+        <button label="&#61473;" span="3" backgroundColor="FF888888">0x4B20 0x6A95</button>
+        <button label="&#61556;" span="3" backgroundColor="FF888888">0x4B20 0xEA15</button>
+    </device>
+</irplus>

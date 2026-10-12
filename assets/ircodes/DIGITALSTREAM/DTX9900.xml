@@ -1,0 +1,48 @@
+<irplus>
+    <device manufacturer="DIGITALSTREAM" model="DTX9900" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x482C 0x00FF</button>
+        <space multiple="8"/>
+
+        <button label="EPG" span="4">0x482C 0x7887</button>
+        <button label="&#xf0d8;" span="4">0x482C 0x40BF</button>
+        <button label="FAV" span="4">0x482C 0xF807</button>
+
+        <button label="&#xf0d9;" span="4">0x482C 0x20DF</button>
+        <button label="OK" backgroundColor="FF2A4C94" span="4">0x482C 0x807F</button>
+        <button label="&#xf0da;" span="4">0x482C 0xA05F</button>
+
+        <button label="BACK" span="4">0x482C 0xB847</button>
+        <button label="&#xf0d7;" span="4">0x482C 0xC03F</button>
+        <button label="PREV" span="4">0x482C 0x04FB</button>
+
+        <button label="VOL+" span="4">0x482C 0x609F</button>
+        <button label="MENU" backgroundColor="FF2A4C94" span="4">0x482C 0xD827</button>
+        <button label="CHANNEL+" span="4">0x482C 0x10EF</button>
+
+        <button label="VOL-" span="4">0x482C 0xE01F</button>
+        <button label="INFO" span="4">0x482C 0x14EB</button>
+        <button label="CHANNEL-" span="4">0x482C 0x906F</button>
+
+        <button label="&#xFF581;" span="3">0x482C 0x44BB</button>
+        <button label="AUDIO" span="3">0x482C 0xC43B</button>
+        <button label="ZOOM" span="3">0x482C 0x24DB</button>
+        <button label="CC" span="3">0x482C 0xA45B</button>
+
+        <button label="1" span="4">0x482C 0x8877</button>
+        <button label="2" span="4">0x482C 0x48B7</button>
+        <button label="3" span="4">0x482C 0xC837</button>
+
+        <button label="4" span="4">0x482C 0x28D7</button>
+        <button label="5" span="4">0x482C 0xA857</button>
+        <button label="6" span="4">0x482C 0x6897</button>
+
+        <button label="7" span="4">0x482C 0xE817</button>
+        <button label="8" span="4">0x482C 0x18E7</button>
+        <button label="9" span="4">0x482C 0x9867</button>
+
+        <button label="METER" span="4">0x482C 0x34CB</button>
+        <button label="0" span="4">0x482C 0x08F7</button>
+        <button label="." span="4">0x482C 0x58A7</button>
+    </device>
+</irplus>

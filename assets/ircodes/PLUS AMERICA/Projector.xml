@@ -1,0 +1,37 @@
+<irplus>
+    <device manufacturer="PLUS AMERICA" model="Projector" columns="12" format="WINLIRC_NEC1" frequency="38381">
+       
+        <button label="&#xf011;" alt="POWER" span="6">0x61a8 0x28d7</button>
+        <button label="ASPECT" span="6">0x61a8 0x08f7</button>
+
+        <button label="RGB" span="4">0x61a8 0x20df</button>
+        <button label="VIDEO" span="4">0x61a8 0xc03f</button>
+        <button label="AUTO" span="4">0x61a8 0x609f</button>
+
+        <button label="MENU" span="4">0x61a8 0x629d</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0x61a8 0x7a85</button>
+        <button label="QUICK" span="4">0x61a8 0x2cd3</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x61a8 0xba45</button>
+        <button label="ENTER" span="4">0x61a8 0xe817</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0x61a8 0x3ac5</button>
+
+        <button label="CANCEL" span="4">0x61a8 0xa45b</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0x61a8 0xfa05</button>
+        <button label="FREEZE" span="4">0x61a8 0x32cd</button>
+
+        <button label="&#xFF581;" span="4">0x61a8 0xe21d</button>
+        <button label="ECO" span="4">0x61a8 0x0cf3</button>
+        <button label="TIMER" span="4">0x61a8 0x4cb3</button>
+
+        <button label="KEYSTONE -" span="6">0x61a8 0x31ce</button>
+        <button label="KEYSTONE +" span="6">0x61a8 0xd12e</button>
+
+        <button label="VOL+" span="6">0x61a8 0x12ed</button>
+        <button label="ZOOM+" span="6">0x61a8 0x916e</button>
+
+        <button label="VOL-" span="6">0x61a8 0x926d</button>
+        <button label="ZOOM-" span="6">0x61a8 0x51ae</button>
+
+    </device>
+</irplus>

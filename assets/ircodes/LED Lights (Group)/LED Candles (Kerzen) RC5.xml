@@ -1,0 +1,10 @@
+<irplus>
+    <device manufacturer="LED Lights" model="Candles RC5" columns="4" format="WINLIRC_RC5" bits="13" toggle-bit-pos="2" frequency="36000" repeat="3">
+
+        <button label="ON" span="4">0x1009</button>
+        <button label="OFF" span="4">0x1008</button>
+        <button label="FLICKER" span="4">0x100A</button>
+        <button label="TIMER" span="4">0x1011</button>
+
+    </device>
+</irplus>

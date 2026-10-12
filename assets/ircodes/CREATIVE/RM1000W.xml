@@ -1,0 +1,50 @@
+<irplus>
+	<device manufacturer="CREATIVE" model="RM1000W" columns="12" format="WINLIRC_NEC1" one-space="1687" one-pulse="563" zero-pulse="563" zero-space="562" header-pulse="9000" header-space="4500" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x8322 0x619E</button>
+        <button label="&#xf0d8;" span="4">0x8322 0x7B84</button>
+        <button label="VOL+" span="4">0x8322 0x629D</button>
+
+        <button label="&#xf0d9;" span="4">0x8322 0x8778</button>
+        <button label="OK" span="4">0x8322 0x817E</button>
+        <button label="&#xf0da;" span="4">0x8322 0x758A</button>
+
+        <button label="&#xFF581;" span="4">0x8322 0x6E91</button>
+        <button label="&#xf0d7;" span="4">0x8322 0x8D72</button>
+        <button label="VOL-" span="4">0x8322 0x639C</button>
+
+        <button label="1" span="4">0x8322 0x8B74</button>
+        <button label="2" span="4">0x8322 0x8F70</button>
+        <button label="3" span="4">0x8322 0x906F</button>
+
+        <button label="4" span="4">0x8322 0x8A75</button>
+        <button label="5" span="4">0x8322 0x847B</button>
+        <button label="6" span="4">0x8322 0x7887</button>
+
+        <button label="7" span="4">0x8322 0x8976</button>
+        <button label="8" span="4">0x8322 0x837C</button>
+        <button label="9" span="4">0x8322 0x7788</button>
+
+        <button label="CMSS" span="4">0x8322 0x718E</button>
+        <button label="0" span="4">0x8322 0x807F</button>
+        <button label="STEP" span="4">0x8322 0x7E81</button>
+
+        <button label="&#xf04d;" alt="STOP" span="3">0x8322 0x857A</button>
+        <button label="&#xf04b;" alt="PLAY" span="3">0x8322 0x7986</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">0x8322 0x7986</button>
+        <button label="SLOW" span="3">0x8322 0x7D82</button>
+
+        <button label="&#xf049;" alt="PREV" span="4">0x8322 0x7F80</button>
+        <button label="&#xf111;" alt="REC" labelColor="FFC84334" span="4">0x8322 0x738C</button>
+        <button label="&#xf050;" alt="NEXT" span="4">0x8322 0x7A85</button>
+
+        <button label="EAX" span="4">0x8322 0x8C73</button>
+        <button label="OPTION" span="4">0x8322 0x827D</button>
+        <button label="DISPLAY" span="4">0x8322 0x7689</button>
+
+        <button label="RETURN" span="4">0x8322 0x8E71</button>
+        <button label="START" span="4">0x8322 0x8877</button>
+        <button label="CLOSE" span="4">0x8322 0x7C83</button>
+
+	</device>
+</irplus>

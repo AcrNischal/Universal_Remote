@@ -1,0 +1,56 @@
+<irplus>
+    <device manufacturer="PIONEER" model="CU-AZ019" columns="16" format="WINLIRC_SPACEENC" toggle-bit-pos="0" one-pulse="556" one-space="1567" zero-pulse="556" zero-space="506" header-pulse="8656" header-space="4152" gap-space="102014" gap-pulse="552" bits="32" pre-bits="32">
+        <button label="&#61457;" labelSize="25.0" span="4" backgroundColor="FFFF7A42">0x659A38C7</button>
+        <button label="&#1046366;" labelSize="30.0" span="4">0x659A7887</button>
+        <button label="&#1046365;" labelSize="30.0" span="4">0x659AD02F</button>
+        <button label="&#1046364;" labelSize="30.0" span="4">0x659A50AF</button>
+
+        <button label="&#1044998;" labelSize="30.0" span="4">0x659A9966</button>
+        <button label="LSS" labelSize="20.0" span="4">0x659A33CC</button>
+        <button label="SNOOZE" labelSize="18.0" span="4">0x659AB34C</button>
+        <button label="SLEEP" labelSize="18.0" span="4">0x659A9867</button>
+
+        <button label="DECK 1" labelSize="20.0" span="4" labelColor="FF00F900" backgroundColor="FF000000"> </button>
+        <button label="&#1045885;" labelSize="30.0" span="4" labelColor="FF00FF00" backgroundColor="FF000000"> </button>
+        <button label="DECK 2" labelSize="20.0" span="4" labelColor="FF00FFFF" backgroundColor="FF000000"> </button>
+        <button label="&#1045885;" labelSize="30.0" span="4" labelColor="FF00FFFF" backgroundColor="FF000000"> </button>
+
+        <button label="&#1045717;" labelSize="30.0" span="4" labelColor="FF00FF00">0x857ADA25</button>
+        <button label="&#1045719;" labelSize="30.0" span="4" labelColor="FF00FF00">0x857ABA45</button>
+        <button label="&#1045717;" labelSize="30.0" span="4" labelColor="FF00FFFF">0x857AA857</button>
+        <button label="&#1045719;" labelSize="30.0" span="4" labelColor="FF00FFFF">0x857AE817</button>
+
+        <button label="&#1045599;" labelSize="30.0" span="4" labelColor="FF00FF00">0x857AEA15</button>
+        <button label="&#1045009;" labelSize="30.0" span="4" labelColor="FF00FF00">0x857A6A95</button>
+        <button label="&#1045599;" labelSize="30.0" span="4" labelColor="FF00FFFF">0x857A8877</button>
+        <button label="&#1045009;" labelSize="30.0" span="4" labelColor="FF00FFFF">0x857A08F7</button>
+
+        <button label="&#1044782;" labelSize="25.0" span="4" labelColor="FF00FF00">0x857A3AC5</button>
+        <button label="&#1044698;" labelSize="25.0" span="4" labelColor="FFFF0000">0x857A28D7</button>
+        <button label="&#1045476;" labelSize="30.0" span="4" labelColor="FF00FFFF">0x857A18E7</button>
+        <button label="&#1044782;" labelSize="25.0" span="4" labelColor="FF00FFFF">0x857A6897</button>
+
+        <button label="TUNER" labelSize="20.0" span="4" labelColor="FFFFFF00" backgroundColor="FF000000">0x659AB04F</button>
+        <button label="&#1045561;" labelSize="25.0" span="4" labelColor="FFFFFF00" backgroundColor="FF000000"> </button>
+        <button label="CD" labelSize="20.0" span="4" labelColor="FFFF00FF" backgroundColor="FF000000"> </button>
+        <button label="&#1044517;" labelSize="30.0" span="4" labelColor="FFFF00FF" backgroundColor="FF000000"> </button>
+
+        <button label="CH -" labelSize="25.0" span="4">0x25DA8877</button>
+        <button label="CH +" labelSize="25.0" span="4">0x25DA08F7</button>
+        <button label="CD" labelSize="25.0" span="4" backgroundColor="FF424242">0x45BAB847</button>
+        <button label="&#61515;" labelSize="25.0" span="4">0x45BAE817</button>
+
+        <button label="GEQ" labelSize="18.0" span="4">0x659AFB04</button>
+        <button label="PAT CALL" labelSize="12.0" span="4">0x659A3BC4</button>
+        <button label="&#1045675;" labelSize="35.0" span="4">0x45BA8877</button>
+        <button label="&#1045676;" labelSize="35.0" span="4">0x45BA08F7</button>
+
+        <button label="LVL -" labelSize="20.0" span="4">0x659A1BE4</button>
+        <button label="LVL +" labelSize="20.0" span="4">0x659AEB14</button>
+        <button label="&#61516;" labelSize="25.0" span="4">0x45BA18E7</button>
+        <button label="&#61517;" labelSize="25.0" span="4">0x45BA6897</button>
+
+        <button label="MODE" labelSize="18.0" span="4">0x659A9B64</button>
+        <button label="SURROUND" labelSize="20.0" span="4">0x659A7A85</button>
+    </device>
+</irplus>

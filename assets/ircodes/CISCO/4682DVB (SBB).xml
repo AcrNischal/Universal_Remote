@@ -1,0 +1,60 @@
+<irplus>
+    <device manufacturer="CISCO" model="4682DVB" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="4">0x80bf 0x3bc4</button>
+        <button label="TV" span="4">0x80bf 0xc33c</button>
+        <button label="TV/SAT" span="4">0x80bf 0xc13e</button>
+
+        <button label="1" span="4">0x80bf 0x49b6</button>
+        <button label="2" span="4">0x80bf 0xc936</button>
+        <button label="3" span="4">0x80bf 0x33cc</button>
+
+        <button label="4" span="4">0x80bf 0x718e</button>
+        <button label="5" span="4">0x80bf 0xf10e</button>
+        <button label="6" span="4">0x80bf 0x13ec</button>
+
+        <button label="7" span="4">0x80bf 0x51ae</button>
+        <button label="8" span="4">0x80bf 0xd12e</button>
+        <button label="9" span="4">0x80bf 0x23dc</button>
+
+        <button label="Text" span="4">0x80bf 0x41be</button>
+        <button label="0" span="4">0x80bf 0xe11e</button>
+        <button label="Exit" span="4">0x80bf 0xa35c</button>
+
+        <button label="Menu" span="4">0x80bf 0x19e6</button>
+        <button label="&#xf0d8;" span="4">0x80bf 0x53ac</button>
+        <button label="Guide" span="4">0x80bf 0x5ba4</button>
+
+        <button label="&#xf0d9;" span="4">0x80bf 0x9966</button>
+        <button label="OK" span="4">0x80bf 0x738c</button>
+        <button label="&#xf0da;" span="4">0x80bf 0x837c</button>
+
+        <button label="Epg" span="4">0x80bf 0xb34c</button>
+        <button label="&#xf0d7;" span="4">0x80bf 0x4bb4</button>
+        <button label="FAV" span="4">0x80bf 0xf30c</button>
+
+        <button label="VOL+" span="4">0x80bf 0x01fe</button>
+        <button label="&#xFF581;" span="4">0x80bf 0x39c6</button>
+        <button label="CH+" span="4">0x80bf 0x619e</button>
+
+        <button label="VOL-" span="4">0x80bf 0x817e</button>
+        <button label="Video" span="4">0x80bf 0x6b94</button>
+        <button label="CH-" span="4">0x80bf 0xa15e</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x80bf 0x916e</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x80bf 0x21de</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x80bf 0x9b64</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x80bf 0x6996</button>
+
+        <button label="Audio" span="3">0x80bf 0x11ee</button>
+        <button label="Subs/List" span="3">0x80bf 0x31ce</button>
+        <button label="Zoom" span="3">0x80bf 0xbb44</button>
+        <button label="Back" span="3">0x80bf 0xe916</button>
+
+        <button label="Opt?" span="3">0x80bf 0x8976</button>
+        <button label="App" span="3">0x80bf 0xb14e</button>
+        <button label="Info" span="3">0x80bf 0x0bf4</button>
+        <button label="Sleep Timer" span="3">0x80bf 0xa956</button>
+
+    </device>
+</irplus>

@@ -1,0 +1,41 @@
+<irplus>
+    <device manufacturer="MITSUBISHI" model="CT21AM2" columns="12" format="WINLIRC_SPACEENC"
+    bits="8" pre-bits="8" toggle-bit-pos="0" gap-pulse="549" gap-space="53758" one-pulse="564" one-space="1878"
+    zero-pulse="564" zero-space="662" repeat="3">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xE2 0x40</button>
+        <button label="&#xFF581;" span="4">0xE2 0x4C</button>
+        <button label="TV/AV" span="4">0xE2 0x5C</button>
+
+        <button label="1" span="4">0xE2 0x00</button>
+        <button label="2" span="4">0xE2 0x10</button>
+        <button label="3" span="4">0xE2 0x08</button>
+
+        <button label="4" span="4">0xE2 0x18</button>
+        <button label="5" span="4">0xE2 0x04</button>
+        <button label="6" span="4">0xE2 0x14</button>
+
+        <button label="7" span="4">0xE2 0x0C</button>
+        <button label="8" span="4">0xE2 0x1C</button>
+        <button label="9" span="4">0xE2 0x80</button>
+
+        <button label="-/--" span="4">0xE2 0x88</button>
+        <button label="0" span="4">0xE2 0x90</button>
+        <button label="DISPLAY" span="4">0xE2 0xF8</button>
+
+        <button label="CH+" span="4">0xE2 0x50</button>
+        <button label="&#xf0d8;" span="4">0xE2 0x26</button>
+        <button label="VOL+" span="4">0xE2 0x44</button>
+
+        <button label="&#xf0d9;" span="6">0xE2 0x92</button>
+        <button label="&#xf0da;" span="6">0xE2 0x82</button>
+
+        <button label="CH-" span="4">0xE2 0x48</button>
+        <button label="&#xf0d7;" span="4">0xE2 0x36</button>
+        <button label="VOL-" span="4">0xE2 0x54</button>
+
+        <button label="MENU" span="6">0xE2 0x4A</button>
+        <button label="CLEAR" span="6">0xE2 0xF8</button>
+
+    </device>
+</irplus>

@@ -1,0 +1,65 @@
+<irplus><!-- DVD757 DVD758 DVD1930CI -->
+    <device manufacturer="DENON" model="RC-1017" columns="12" format="WINLIRC_SPACEENC" bits="15" pre-bits="15" gap-pulse="349" gap-space="65002" one-pulse="349" one-space="1689" zero-pulse="349" zero-space="647" repeat="3">
+
+        <button label="&#xf011; ON" backgroundColor="FFC84334" span="3">0x0A34</button>
+        <button label="&#xf011; OFF" backgroundColor="FFC84334" span="3">0x300C</button>
+        <button label="MODE" span="3">0x08E4</button>
+        <button label="" span="3">0x0824</button>
+
+        <button label="A-B REPEAT" span="3">0x0974</button>
+        <button label="1" span="3">0x0904</button>
+        <button label="2" span="3">0x0B04</button>
+        <button label="3" span="3">0x0884</button>
+
+        <button label="REPEAT" span="3">0x08A4</button>
+        <button label="4" span="3">0x0A84</button>
+        <button label="5" span="3">0x0984</button>
+        <button label="6" span="3">0x0B84</button>
+
+        <button label="RANDOM" span="3">0x0954</button>
+        <button label="7" span="3">0x0844</button>
+        <button label="8" span="3">0x0A44</button>
+        <button label="9" span="3">0x0944</button>
+
+        <button label="ZOOM" span="3">0x13E4</button>
+        <button label="CLEAR" span="3">0x0B14</button>
+        <button label="0" span="3">0x0A04</button>
+        <button label="10+" span="3">0x08C4</button>
+
+        <button label="ANGLE" span="3">0x0BC4</button>
+        <button label="SUBTITLE" span="3">0x0AC4</button>
+        <button label="AUDIO" span="3">0x09C4</button>
+        <button label="DISPLAY" span="3">0x0B94</button>
+
+        <button label="MENU" span="4">0x0A24</button>
+        <button label="" span="4">0x08D4</button>
+        <button label="TOP MENU" span="4">0x0AF4</button>
+
+        <button label="" span="4">0x0BD4</button>
+        <button label="ENTER" span="4">0x0B74</button>
+        <button label="" span="4">0x09D4</button>
+
+        <button label="RETURN" span="4">0x0924</button>
+        <button label="" span="4">0x0AD4</button>
+        <button label="SETUP" span="4">0x08F4</button>
+
+        <button label="" span="3">0x0A64</button>
+        <button label="SEARCH MODE" span="3">0x11E4</button>
+        <button label="" span="3">0x0AE4</button>
+        <button label="" span="3">0x0864</button>
+
+        <button label="" span="3">0x0B64</button>
+        <button label="" alt="STOP" span="3">0x0A14</button>
+        <button label="" alt="PLAY" span="3">0x0814</button>
+        <button label="" span="3">0x0964</button>
+
+        <button label="GROUP" span="6">0x33FC</button>
+        <button label="PAGE+" span="6">0x31FC</button>
+
+        <button label="SACD SETUP" span="6">0x09F8</button>
+        <button label="PAGE-" span="6">0x32FC</button>
+    </device>
+</irplus>
+
+
+

@@ -1,0 +1,41 @@
+<irplus>
+    <device manufacturer="SONY" model="RMT-C205AD" columns="12" format="WINLIRC_SPACEENC" bits="15" gap-pulse="1" gap-space="44857" frequency="40000"
+        one-pulse="1290" one-space="503" zero-pulse="693" zero-space="503" header-pulse="2486" header-space="504" repeat="3" repeatheader="true">
+
+        <button label="STANDBY" span="4">0x4322</button>
+        <button label="SLEEP" span="4">0x0322</button>
+        <button label="OPERATE" labelColor="FF1E7854" span="4">0x5422</button>
+
+        <button label="1" span="4">0x0026</button>
+        <button label="2" span="4">0x4026</button>
+        <button label="3" span="4">0x2026</button>
+
+        <button label="4" span="4">0x6026</button>
+        <button label="5" span="4">0x1026</button>
+        <button label="6" span="4">0x5026</button>
+
+        <button label="7" span="4">0x3026</button>
+        <button label="8" span="4">0x7026</button>
+        <button label="9" span="4">0x0826</button>
+
+        <button label="MODE" span="4">0x4422</button>
+        <button label="0/10" span="4">0x1826</button>
+        <button label=">10" span="4">0x5826</button>
+
+        <button label="FUNCTION" span="4">0x7122</button>
+        <button label="TIMER/CLOCK" span="4">0x2322</button>
+        <button label="VOL+" span="4">0x2422</button>
+
+        <button label="DISPLAY/ENTER" span="8">0x0426</button>
+        <button label="VOL-" span="4">0x6422</button>
+
+        <button label="&#xf04b;" alt="PLAY" span="4">0x2626</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x4E26</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x0E26</button>
+
+        <button label="BAND" span="4">0x7B26</button>
+        <button label="&#xf04a;/-" alt="REW" span="4">0x1726</button>
+        <button label="&#xf04e;/+" alt="FWD" span="4">0x6726</button>
+
+    </device>
+</irplus>

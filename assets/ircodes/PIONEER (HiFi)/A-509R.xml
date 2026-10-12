@@ -1,0 +1,43 @@
+<irplus>
+    <device manufacturer="PIONEER" model="A-509R" columns="30" format="WINLIRC_NEC1" one-space="1487" one-pulse="647"
+        zero-pulse="647" zero-space="420" header-pulse="8656" header-space="4152" pre-bits="32">
+
+        <button label="&#xf011; CD" span="10">0x45BA38C7</button>
+        <button label="&#xf011; TUNER" span="10">0x25DA38C7</button>
+        <button label="&#xf011; TAPE" span="10">0x857A38C7</button>
+
+        <button label="VOL+" span="10">0xA55A50AF</button>
+        <button label="TAPE SELECT" span="10">0x857A32CD</button>
+        <button label="VOL-" span="10">0xA55AD02F</button>
+
+        <button label="TAPE2 PLAY LEFT" span="6">0x857AA857</button>
+        <button label="TAPE2 PLAY RIGHT" span="6">0x857AE817</button>
+        <button label="TAPE2 STOP" span="6">0x857A6897</button>
+        <button label="TAPE2 PREV" span="6">0x857A8877</button>
+        <button label="TAPE2 NEXT" span="6">0x857A08F7</button>
+
+        <button label="TAPE1 PLAY LEFT" span="6">0x857ADA25</button>
+        <button label="TAPE1 PLAY RIGHT" span="6">0x857ABA45</button>
+        <button label="TAPE1 STOP" span="6">0x857A3AC5</button>
+        <button label="TAPE1 PREV" span="6">0x857AEA15</button>
+        <button label="TAPE1 NEXT" span="6">0x857A6A95</button>
+
+        <button label="CD BACK" span="6">0x857AEA15</button>
+        <button label="CD BACK" span="6">0x45BA8877</button>
+        <button label="CD NEXT" span="6">0x45BA08F7</button>
+        <button label="CD STOP" span="6">0x45BA6897</button>
+        <button label="CD PLAY" span="6">0x45BAE817</button>
+
+        <button label="TUNER+" span="10">0x25DA08F7</button>
+        <button label="DISC SELECT" span="10">0x45BAB847</button>
+        <button label="TUNER-" span="10">0x25DA8877</button>
+
+        <button label="FCT CD" span="10">0xA55A32CD</button>
+        <button label="FCT TUNER" span="10">0xA55AE21D</button>
+        <button label="FCT PHONO" span="10">0xA55AB24D</button>
+
+        <button label="FCT TAPE1" span="10">0xA55A728D</button>
+        <button label="FCT TAPE2" span="10">0xA55AB847</button>
+        <button label="FCT LINE" span="10">0xA55AF20D</button>
+    </device>
+</irplus>

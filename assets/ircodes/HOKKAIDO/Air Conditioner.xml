@@ -1,0 +1,83 @@
+<irplus>
+    <device manufacturer="HOKKAIDO" model="Air Conditioner" columns="12" format="WINLIRC_SPACEENC" bits="32" pre-bits="16" gap-pulse="585" gap-space="92168"
+        one-pulse="585" one-space="1568" zero-pulse="585" zero-space="497" header-pulse="4420" header-space="4346" repeat="2" repeatheader="true">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="12">0xB24D 0x7B84E01F</button>
+
+        <button label="FAN°C LOW" span="4">0xB24D 0x9F60E41B</button>
+        <button label="FAN°C MED" span="4">0xB24D 0x5FA0E41B</button>
+        <button label="FAN°C HIGH" span="4">0xB24D 0x3FC0E41B</button>
+
+        <button label="COOL 17°C LOW" span="4">0xB24D 0x9F6000FF</button>
+        <button label="COOL 17°C MED" span="4">0xB24D 0x5FA000FF</button>
+        <button label="COOL 17°C HIGH" span="4">0xB24D 0x3FC000FF</button>
+
+        <button label="COOL 18°C LOW" span="4">0xB24D 0x9F6010EF</button>
+        <button label="COOL 18°C MED" span="4">0xB24D 0x5FA010EF</button>
+        <button label="COOL 18°C HIGH" span="4">0xB24D 0x3FC010EF</button>
+
+        <button label="COOL 19°C LOW" span="4">0xB24D 0x9F6030CF</button>
+        <button label="COOL 19°C MED" span="4">0xB24D 0x5FA030CF</button>
+        <button label="COOL 19°C HIGH" span="4">0xB24D 0x3FC030CF</button>
+
+        <button label="COOL 20°C LOW" span="4">0xB24D 0x9F6020DF</button>
+        <button label="COOL 20°C MED" span="4">0xB24D 0x5FA020DF</button>
+        <button label="COOL 20°C HIGH" span="4">0xB24D 0x3FC020DF</button>
+
+        <button label="COOL 21°C LOW" span="4">0xB24D 0x9F60609F</button>
+        <button label="COOL 21°C MED" span="4">0xB24D 0x5FA0609F</button>
+        <button label="COOL 21°C HIGH" span="4">0xB24D 0x3FC0609F</button>
+
+        <button label="COOL 22°C LOW" span="4">0xB24D 0x9F60708F</button>
+        <button label="COOL 22°C MED" span="4">0xB24D 0x5FA0708F</button>
+        <button label="COOL 22°C HIGH" span="4">0xB24D 0x3FC0708F</button>
+
+        <button label="COOL 23°C LOW" span="4">0xB24D 0x9F6050AF</button>
+        <button label="COOL 23°C MED" span="4">0xB24D 0x5FA050AF</button>
+        <button label="COOL 23°C HIGH" span="4">0xB24D 0x3FC050AF</button>
+
+        <button label="COOL 24°C LOW" span="4">0xB24D 0x9F6040BF</button>
+        <button label="COOL 24°C MED" span="4">0xB24D 0x5FA040BF</button>
+        <button label="COOL 24°C HIGH" span="4">0xB24D 0x3FC040BF</button>
+
+        <button label="COOL 25°C LOW" span="4">0xB24D 0x9F60C03F</button>
+        <button label="COOL 25°C MED" span="4">0xB24D 0x5FA0C03F</button>
+        <button label="COOL 25°C HIGH" span="4">0xB24D 0x3FC0C03F</button>
+
+        <button label="HEAT 17°C LOW" span="4">0xB24D 0x9F600CF3</button>
+        <button label="HEAT 17°C MED" span="4">0xB24D 0x5FA00CF3</button>
+        <button label="HEAT 17°C HIGH" span="4">0xB24D 0x3FC00CF3</button>
+
+        <button label="HEAT 18°C LOW" span="4">0xB24D 0x9F601CE3</button>
+        <button label="HEAT 18°C MED" span="4">0xB24D 0x5FA01CE3</button>
+        <button label="HEAT 18°C HIGH" span="4">0xB24D 0x3FC01CE3</button>
+
+        <button label="HEAT 19°C LOW" span="4">0xB24D 0x9F603CC3</button>
+        <button label="HEAT 19°C MED" span="4">0xB24D 0x5FA03CC3</button>
+        <button label="HEAT 19°C HIGH" span="4">0xB24D 0x3FC03CC3</button>
+
+        <button label="HEAT 20°C LOW" span="4">0xB24D 0x9F602CD3</button>
+        <button label="HEAT 20°C MED" span="4">0xB24D 0x5FA02CD3</button>
+        <button label="HEAT 20°C HIGH" span="4">0xB24D 0x3FC02CD3</button>
+
+        <button label="HEAT 21°C LOW" span="4">0xB24D 0x9F606C93</button>
+        <button label="HEAT 21°C MED" span="4">0xB24D 0x5FA06C93</button>
+        <button label="HEAT 21°C HIGH" span="4">0xB24D 0x3FC06C93</button>
+
+        <button label="HEAT 22°C LOW" span="4">0xB24D 0x9F607C83</button>
+        <button label="HEAT 22°C MED" span="4">0xB24D 0x5FA07C83</button>
+        <button label="HEAT 22°C HIGH" span="4">0xB24D 0x3FC07C83</button>
+
+        <button label="HEAT 23°C LOW" span="4">0xB24D 0x9F605CA3</button>
+        <button label="HEAT 23°C MED" span="4">0xB24D 0x5FA05CA3</button>
+        <button label="HEAT 23°C HIGH" span="4">0xB24D 0x3FC05CA3</button>
+
+        <button label="HEAT 24°C LOW" span="4">0xB24D 0x9F604CB3</button>
+        <button label="HEAT 24°C MED" span="4">0xB24D 0x5FA04CB3</button>
+        <button label="HEAT 24°C HIGH" span="4">0xB24D 0x3FC04CB3</button>
+
+        <button label="HEAT 25°C LOW" span="4">0xB24D 0x9F60CC33</button>
+        <button label="HEAT 25°C MED" span="4">0xB24D 0x5FA0CC33</button>
+        <button label="HEAT 25°C HIGH" span="4">0xB24D 0x3FC0CC33</button>
+    </device>
+</irplus>

@@ -1,0 +1,49 @@
+<irplus>
+	<device manufacturer="MEDION" model="MD-5410" columns="3" format="WINLIRC_SPACEENC" one-space="7360" one-pulse="239" zero-pulse="239" zero-space="4843" bits="11">
+		
+		<button label="&#xf011;" backgroundColor="FFC84334">0x55E</button>
+		<button label="&#xf052;" alt="EJECT">0x566</button>
+		<button label="&#xFF581;">0x558</button>
+		
+		<button label="1">0x575</button>
+		<button label="2">0x56D</button>
+		<button label="3">0x565</button>
+		
+		<button label="4">0x55D</button>
+		<button label="5">0x574</button>
+		<button label="6">0x56C</button>
+		
+		<button label="7">0x564</button>
+		<button label="8">0x55C</button>
+		<button label="9">0x573</button>
+		
+		<button label="INFO">0x560</button>
+		<button label="0">0x56B</button>
+		<button label="CLEAR">0x563</button>
+		
+		<button label="CAMERA">0x56E</button>
+		<button label="MENU">0x557</button>
+		<button label="TITLE">0x567</button>
+
+        <button label="INDEX">0x55F</button>
+        <button label="&#xf0d8;">0x568</button>
+        <button label="ZOOM">0x552</button>
+
+        <button label="&#xf0d9;">0x571</button>
+        <button label="OK">0x569</button>
+        <button label="&#xf0da;">0x561</button>
+
+        <button label="EXIT">0x570</button>
+        <button label="&#xf0d7;">0x56A</button>
+        <button label="&#xf04c;" alt="PAUSE">0x55A</button>
+
+        <button label="&#xf04a;" alt="REW">0x577</button>
+        <button label="&#xf04b;" alt="PLAY">0x559</button>
+        <button label="&#xf04e;" alt="FWD">0x572</button>
+
+        <button label="&#xf049;" alt="PREV">0x555</button>
+        <button label="&#xf04d;" alt="STOP">0x562</button>
+        <button label="&#xf050;" alt="NEXT">0x556</button>
+
+	</device>
+</irplus>

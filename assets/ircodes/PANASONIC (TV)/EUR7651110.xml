@@ -1,0 +1,77 @@
+<irplus><!--  TX-20LA1F, TX-25MK1 -->
+	<device manufacturer="Panasonic" model="EUR7651110" columns="12" format="WINLIRC_SPACEENC" bits="32" pre-bits="16"
+		gap-pulse="403" gap-space="74341" one-pulse="370" one-space="1338" zero-pulse="370" zero-space="485"
+		header-pulse="3412" header-space="1788" repeat="4">
+
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x4004 0x0100BCBD</button>
+		<button label="CH+" labelColor="FF000000" backgroundColor="FFA8A8A8" span="4">0x4004 0x01002C2D</button>
+		<button label="?" span="4">0x4004 0x01004C4D</button>
+
+		<button label="VOL-" labelColor="FF000000" backgroundColor="FFA8A8A8" span="6">0x4004 0x01008485</button>
+		<button label="VOL+" labelColor="FF000000" backgroundColor="FFA8A8A8" span="6">0x4004 0x01000405</button>
+		
+		<button label="PICTURE" span="4">0x4004 0x01006061</button>
+		<button label="CH-" labelColor="FF000000" backgroundColor="FFA8A8A8" span="4">0x4004 0x0100ACAD</button>
+		<button label="SOUND" span="4">0x4004 0x0100E0E1</button>
+
+		<button label="+INFO" span="3">0x4004 0x01009C9D</button>
+		<button label="HELP" span="3">0x4004 0x01003534</button>
+		<button label="SETUP" span="3">0x4004 0x01004A4B</button>
+		<button label="TV/AV" span="3">0x4004 0x0100A0A1</button>
+		
+		<button label="R" fillColor="FFC84334" span="3">0x4004 0x01000E0F</button>
+		<button label="G" fillColor="FF1E7854" span="3">0x4004 0x01008E8F</button>
+		<button label="Y" fillColor="FFD6A81F" span="3">0x4004 0x01004E4F</button>
+		<button label="B" fillColor="FF2A4C94" span="3">0x4004 0x0100CECF</button>
+		
+		<button label="TV/TEXT" span="3">0x4004 0x0180C041</button>
+		<button label="F.P." span="3">0x4004 0x0180A021</button>
+		<button label="INDEX" span="3">0x4004 0x01801091</button>
+		<button label="HOLD" span="3">0x4004 0x01809011</button>
+		
+		<button label="1" span="4">0x4004 0x01000809</button>
+		<button label="2" span="4">0x4004 0x01008889</button>
+		<button label="3" span="4">0x4004 0x01004849</button>
+		
+		<button label="4" span="4">0x4004 0x0100C8C9</button>
+		<button label="5" span="4">0x4004 0x01002829</button>
+		<button label="6" span="4">0x4004 0x0100A8A9</button>
+		
+		<button label="7" span="4">0x4004 0x01006869</button>
+		<button label="8" span="4">0x4004 0x0100E8E9</button>
+		<button label="9" span="4">0x4004 0x01001819</button>
+		
+		<button label="C" span="4">0x4004 0x01005C5D</button>
+		<button label="0" span="4">0x4004 0x01009899</button>
+		<button label="-/--" span="4">0x4004 0x0100DCDD</button>
+		
+		<button label="N.N./STEREO" span="4">0x4004 0x01008C8D</button>
+		<button label="ASPECT" span="4">0x4004 0x01207B5A</button>
+		<button label="DIRECT TV REC" span="4">0x4004 0x01909100</button>
+
+		<button label="" span="3">0x4004 0x09004049</button>
+		<button label="" span="3">0x4004 0x09005059</button>
+		<button label="" span="3">0x4004 0x09000009</button>
+		<button label="" span="3">0x4004 0x0900C0C9</button>
+		
+		<button label="" labelColor="FFC84334" backgroundColor="FFFFFFFF" span="3">0x4004 0x09001019</button>
+		<button label="&#xf011;" backgroundColor="FFC84334" span="3">0x4004 0x0900BCB5</button>
+		<button label="VCR" span="6">0x4004 0x0900BCB5</button>
+
+		<button label="N" span="3">0x4004 0x01003031</button>
+		<button label="❚❚/" span="3">0x4004 0x09006069</button>
+		<button label="Channel-" span="3">0x4004 0x0900ACA5</button>
+		<button label="Channel+" span="3">0x4004 0x09002C25</button>
+
+		<button label="" labelColor="FFC84334" backgroundColor="FFFFFFFF" span="3">0x4004 0x0D00101D</button>
+		<button label="&#xf011;" backgroundColor="FFC84334" span="3">0x4004 0x0D00BCB1</button>
+		<button label="DVD" span="3">0x4004 0x0100ABAA</button>
+		<button label="STR" span="3">0x4004 0x0100ABAA</button>
+
+		<button label="N" span="3">0x4004 0x01003031</button>
+		<button label="❚❚/" span="3">0x4004 0x0D00606D</button>
+		<button label="Channel-" span="3">0x4004 0x0D00ACA1</button>
+		<button label="Channel+" span="3">0x4004 0x0D002C21</button>
+
+	</device>
+</irplus>

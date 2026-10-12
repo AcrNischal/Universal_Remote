@@ -1,0 +1,74 @@
+<irplus>
+    <device manufacturer="KENWOOD" model="RC-R0517" columns="12" format="WINLIRC_NEC1">
+
+        <button label="AUTO MEM ANGLE" backgroundColor="FF888888" span="3">0x6D30 0xC33C</button>
+        <button label="MEMORY REPEAT" backgroundColor="FF888888" span="3">0x6D30 0x9867</button>
+        <button label="DVD &#xf011;" backgroundColor="FFC84334" span="3">0x6D30 0x8976</button>
+        <button label="RECV &#xf011;" backgroundColor="FFC84334" span="3">0x1D00 0xB946</button>
+
+        <button label="RDS DISP AUDIO" backgroundColor="FF888888" span="3">0x6D30 0x936C</button>
+        <button label="PTY SUBTITLE" backgroundColor="FF888888" span="3">0x6D30 0xA35C</button>
+        <button label="DIMMER" backgroundColor="FF888888" span="3">0x1D40B847</button>
+        <button label="ACTIVE EQ" backgroundColor="FF888888" span="3">0x1D60 0x12ED</button>
+
+        <button label="1" backgroundColor="FF2A4C94" span="3">0x6D30 0x807F</button>
+        <button label="2" backgroundColor="FF2A4C94" span="3">0x6D30 0x40BF</button>
+        <button label="3" backgroundColor="FF2A4C94" span="3">0x6D30 0xC03F</button>
+        <button label="BASS BOOST" backgroundColor="FF888888" span="3">0x1D40 0xEA15</button>
+
+        <button label="4" backgroundColor="FF2A4C94" span="3">0x6D30 0x20DF</button>
+        <button label="5" backgroundColor="FF2A4C94" span="3">0x6D30 0xA05F</button>
+        <button label="6" backgroundColor="FF2A4C94" span="3">0x6D30 0x609F</button>
+        <button label="TONE" backgroundColor="FF888888" span="3">0x1D80 0xAB54</button>
+
+        <button label="7" backgroundColor="FF2A4C94" span="3">0x6D30 0xE01F</button>
+        <button label="8" backgroundColor="FF2A4C94" span="3">0x6D30 0x10EF</button>
+        <button label="9" backgroundColor="FF2A4C94" span="3">0x6D30 0x906F</button>
+        <button label="SOUND" backgroundColor="FF888888" span="3">0x1D80 0xEA15</button>
+
+        <button label="+10" backgroundColor="FF2A4C94" span="3">0x6D30 0x50AF</button>
+        <button label="0" backgroundColor="FF2A4C94" span="3">0x6D30 0x00FF</button>
+        <button label="EASY SETUP" backgroundColor="FF888888" span="3">0x1D60 0xC23D</button>
+        <button label="SETUP" backgroundColor="FF888888" span="3">0x1DC0 0x9867</button>
+
+        <button label="LISTEN MODE" backgroundColor="FF888888" span="3">0x1D00 0xFB04</button>
+        <button label="PURE AUDIO MODE" backgroundColor="FF888888" span="3">0x1DE018E7</button>
+        <button label="MULTI CONTROL &#xf0d7;" backgroundColor="FF888888" span="3">0x1D80 0x2AD5</button>
+        <button label="MULTI CONTROL &#xf0d8;" backgroundColor="FF888888" span="3">0x1D80 0xAA55</button>
+
+        <button label="TOP MENU" backgroundColor="FF2A4C94" span="3">0x6D30 0x837C</button>
+        <button label="&#xf0d8;" backgroundColor="FF2A4C94" span="3">0x6D30 0x6B94</button>
+        <button label="MENU" backgroundColor="FF2A4C94" span="3">0x6D30 0x43BC</button>
+        <button label="VOL+" backgroundColor="FF888888" span="3">0x1D00 0xD926</button>
+
+        <button label="&#xf0d9;" backgroundColor="FF2A4C94" span="3">0x6D30 0x1BE4</button>
+        <button label="ENTER" backgroundColor="FF2A4C94" span="3">0x6D30 0xCB34</button>
+        <button label="&#xf0da;" backgroundColor="FF2A4C94" span="3">0x6D30 0x9B64</button>
+        <space multiple="3"/>
+
+        <button label="RETURN" backgroundColor="FF2A4C94" span="3">0x6D30 0x23DC</button>
+        <button label="&#xf0d7;" backgroundColor="FF2A4C94" span="3">0x6D30 0xEB14</button>
+        <button label="ON SCREEN" backgroundColor="FF2A4C94" span="3">0x6D30 0xFA05</button>
+        <button label="VOL-" backgroundColor="FF888888" span="3">0x1D00 0x59A6</button>
+
+        <button label="" backgroundColor="FF2A4C94" span="3">0x6D30 0x48B7</button>
+        <button label="" backgroundColor="FF2A4C94" span="3">0x6D30 0xC837</button>
+        <button label="" backgroundColor="FF2A4C94" span="3">0x6D30 0x8877</button>
+        <button label="&#xFF581;" backgroundColor="FF888888" span="3">0x1D00 0x39C6</button>
+
+        <button label="" backgroundColor="FF2A4C94" span="3">0x6D30 0x6897</button>
+        <button label="" backgroundColor="FF2A4C94" span="3">0x6D30 0xE817</button>
+        <button label="" backgroundColor="FF2A4C94" span="3">0x6D30 0x28D7</button>
+        <button label="" backgroundColor="FF2A4C94" span="3">0x6D30 0xA857</button>
+
+        <button label="TUNER" backgroundColor="FF888888" span="3">0x1D00 0x8976</button>
+        <button label="CD/DVD" backgroundColor="FF888888" span="3">0x1D00 0x49B6</button>
+        <button label="MD/TAPE" backgroundColor="FF888888" span="3">0x1D00 0xA956</button>
+        <button label="AV AUX" backgroundColor="FF888888" span="3">0x1D00 0xC936</button>
+
+        <button label="VIDEO1" backgroundColor="FF888888" span="3">0x1D00 0x6996</button>
+        <button label="VIDEO2" backgroundColor="FF888888" span="3">0x1D00 0x40BF</button>
+        <button label="DVD 6CH" backgroundColor="FF888888" span="3">0x1DC0 0x01FE</button>
+        <button label="AUX" backgroundColor="FF888888" span="3">0x1D00 0x51AE</button>
+    </device>
+</irplus>

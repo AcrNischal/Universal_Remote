@@ -1,0 +1,55 @@
+<irplus>
+	<device manufacturer="SONY" model="RMT-B104P" columns="12" format="WINLIRC_SPACEENC" one-space="557" one-pulse="1234" gap-pulse="1" gap-space="44934"
+		zero-pulse="637" zero-space="557" header-pulse="2441" header-space="556" bits="8" pre-bits="12" repeat="3" frequency="40000">
+		
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xA8B 0x47</button>
+		<button label="ANGLE" span="4">0xA6B 0x47</button>
+		<button label="HOME" span="4">0x42B 0x47</button>
+
+		<button label="1" span="4">0x00B 0x47</button>
+		<button label="2" span="4">0x80B 0x47</button>
+		<button label="3" span="4">0x40B 0x47</button>
+
+		<button label="4" span="4">0xC0B 0x47</button>
+		<button label="5" span="4">0x20B 0x47</button>
+		<button label="6" span="4">0xA0B 0x47</button>
+
+		<button label="7" span="4">0x60B 0x47</button>
+		<button label="8" span="4">0xE0B 0x47</button>
+		<button label="9" span="4">0x10B 0x47</button>
+
+		<button label="AUDIO" span="4">0x26B 0x47</button>
+		<button label="0" span="4">0x90B 0x47</button>
+		<button label="SUBTITLE" span="4">0xC6B 0x47</button>
+
+		<button label="R" fillColor="FFC84334" span="3">0xE6B 0x47</button>
+		<button label="G" fillColor="FF1E7854" span="3">0x16B 0x47</button>
+		<button label="Y" fillColor="FFD6A81F" span="3">0x96B 0x47</button>
+		<button label="B" fillColor="FF2A4C94" span="3">0x66B 0x47</button>
+
+		<button label="MENU" span="4">0x34B 0x47</button>
+		<button label="&#xf0d8;" span="4">0x9CB 0x47</button>
+		<button label="POP UP/MENU" span="4">0x94B 0x47</button>
+
+		<button label="&#xf0d9;" span="4">0xDCB 0x47</button>
+		<button label="OK" span="4">0xBCB 0x47</button>
+		<button label="&#xf0da;" span="4">0x3CB 0x47</button>
+
+		<button label="RETURN" span="4">0xC2B 0x47</button>
+		<button label="&#xf0d7;" span="4">0x5CB 0x47</button>
+		<button label="OPTIONS" span="4">0xFCB 0x47</button>
+
+		<button label="" span="3">0xEAB 0x47</button>
+		<button label="" span="3">0x6EB 0x47</button>
+		<button label="" span="3">0xAEB 0x47</button>
+		<button label="" span="3">0x6AB 0x47</button>
+
+		<button label="" span="3">0xD8B 0x47</button>
+		<button label="" span="6">0x58B 0x47</button>
+		<button label="" span="3">0x38B 0x47</button>
+
+		<button label="DISPLAY" span="4">0x82B 0x47</button>
+		<button label="" span="4">0x98B 0x47</button>
+		<button label="" span="4">0x18B 0x47</button>
+	</device>
+</irplus>

@@ -1,0 +1,31 @@
+<irplus>
+    <device manufacturer="YAMAHA" model="RS-CD5" columns="3" format="WINLIRC_NEC1" one-space="1676" one-pulse="577" zero-pulse="577" zero-space="548" header-pulse="9046" header-space="4502" bits="16" pre-bits="16">
+        <button label="&#xf052;" alt="EJECT">0x9E61 0x807F</button>
+        <button label="TIME DISPLAY">0x9E61 0x50AF</button>
+        <button label="PROGRAM">0x9E61 0x30CF</button>
+
+        <button label="1">0x9E61 0x8877</button>
+        <button label="2">0x9E61 0x48B7</button>
+        <button label="3">0x9E61 0xC837</button>
+
+        <button label="4">0x9E61 0x28D7</button>
+        <button label="5">0x9E61 0xA857</button>
+        <button label="6">0x9E61 0x6897</button>
+
+        <button label="7">0x9E61 0xE817</button>
+        <button label="8">0x9E61 0x18E7</button>
+        <button label="9">0x9E61 0x9867</button>
+
+        <button label="KP-">0x9E61 0x20DF</button>
+        <button label="0">0x9E61 0x08F7</button>
+        <button label="KP+">0x9E61 0xE01F</button>
+
+        <button label="INDEX-">0x9E61 0xA05F</button>
+        <button label="10">0x9E61 0x58A7</button>
+        <button label="INDEX+">0x9E61 0x609F</button>
+
+        <button label="AGAIN">0x9E61 0x10EF</button>
+        <button label="PLAY">0x9E61 0x40BF</button>
+        <button label="PAUSE/STOP">0x9E61 0xC03F</button>
+    </device>
+</irplus>

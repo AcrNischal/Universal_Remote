@@ -1,0 +1,75 @@
+<irplus>
+	<device manufacturer="DENON" model="RC-861" columns="12" format="WINLIRC_NEC1" one-space="1613"
+	     one-pulse="634" zero-pulse="634" zero-space="482" header-pulse="9074" header-space="4386" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" backgroundColor="FFC84334" span="3">0x4040 0x32CD</button>
+		<button label="VOL+" span="3">0x4040 0x926D</button>
+		<button label="VOL-" span="3">0x4040 0xF807</button>
+		<button label="&#xFF581;" span="3">0x4040 0xF20D</button>
+		
+		<button label="FM/AM" span="3">0x4040 0x00FF</button>
+		<button label="TAPE" span="3">0x4040 0x10EF</button>
+		<button label="CD" span="3">0x4040 0x08F7</button>
+		<button label="MD" span="3">0x4040 0x02FD</button>
+		
+		<button label="AUX" span="4">0x4040 0x18E7</button>
+		<button label="RDS" span="4">0x4040 0x807F</button>
+		<button label="PTY" span="4">0x4040 0x906F</button>
+		
+		<button label="CT" span="4">0x4040 0x8877</button>
+		<button label="RT" span="4">0x4040 0x9867</button>
+		<button label="FMMODE" span="4">0x4040 0x827D</button>
+		
+		<button label="1" span="4">0x4040 0x40BF</button>
+		<button label="2" span="4">0x4040 0x50AF</button>
+		<button label="3" span="4">0x4040 0x48B7</button>
+		
+		<button label="4" span="4">0x4040 0x58A7</button>
+		<button label="5" span="4">0x4040 0x42BD</button>
+		<button label="6" span="4">0x4040 0xC03F</button>
+		
+		<button label="7" span="4">0x4040 0xD02F</button>
+		<button label="8" span="4">0x4040 0xC837</button>
+		<button label="9" span="4">0x4040 0xD827</button>
+		
+		<button label="+10" span="4">0x4040 0x20DF</button>
+		<button label="0" span="4">0x4040 0xC23D</button>
+		<button label="+100" span="4">0x4040 0x30CF</button>
+
+		<button label="CLOCK" span="3">0x4040 0x28D7</button>
+		<button label="TIMER" span="3">0x4040 0x38C7</button>
+		<button label="SLEEP" span="3">0x4040 0x22DD</button>
+		<button label="SET" span="3">0x4040 0xA25D</button>
+		
+		<button label="MDREC" span="3">0x4040 0xA05F</button>
+		<button label="PICKREC" span="3">0x4040 0xB04F</button>
+		<button label="CHKSPC" span="3">0x4040 0xA857</button>
+		<button label="CLEAR" span="3">0x4040 0xB847</button>
+		
+		<button label="ENTER" span="3">0x4040 0x629D</button>
+		<button label="RECMUTE" span="3">0x4040 0x609F</button>
+		<button label="REVMODE" span="3">0x4040 0x708F</button>
+		<button label="DOLBY" span="3">0x4040 0x6897</button>
+		
+		<button label="5M SRS" span="3">0x4040 0xE21D</button>
+		<button label="EDIT" span="3">0x4040 0xE01F</button>
+		<button label="EDITCNC" span="3">0x4040 0xF00F</button>
+		<button label="TITLEINP" span="3">0x4040 0x7887</button>
+		
+		<button label="TITLESEARCH" span="4">0x4040 0x12ED</button>
+		<button label="REPEAT" span="4">0x4040 0x52AD</button>
+		<button label="RND" span="4">0x4040 0xD22D</button>
+		
+		<button label="PROG" span="3">0x4040 0xE817</button>
+		<button label="BASS" span="3">0x4040 0x0AF5</button>
+		<button label="EQMODE" span="3">0x4040 0x728D</button>
+		<button label="TIMEDISP" span="3">0x4040 0xB24D</button>
+
+        <button label="&#xf04a;" alt="REW" span="4">0x4040 0x6A95</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x4040 0xEA15</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0x4040 0x8A75</button>
+
+        <button label="&#xf049;" alt="PREV" span="6">0x4040 0x4AB5</button>
+        <button label="&#xf050;" alt="NEXT" span="6">0x4040 0xCA35</button>
+	</device>
+</irplus>

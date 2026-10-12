@@ -1,0 +1,33 @@
+<irplus>
+    <device manufacturer="AEG" model="BSS 4814 Soundbar" columns="12" format="WINLIRC_NEC1"
+        bits="32" pre-bits="32" gap-pulse="564" gap-space="108000"
+        one-pulse="564" one-space="1692" zero-pulse="564" zero-space="564" header-pulse="9024" header-space="4512">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x40BF 0x02FD</button>
+        <button label="&#xFF581;" span="4">0x40BF 0x906F</button>
+        <button label="INPUT" span="4">0x40BF 0x807F</button>
+
+        <button label="RESET" span="4">0x40BF 0x00FF</button>
+        <button label="MOVIE" span="4">0x40BF 0x30CF</button>
+        <button label="MUSIC" span="4">0x40BF 0xB04F</button>
+
+        <button label="TREBLE+" span="3">0x40BF 0xA05F</button>
+        <button label="TREBLE-" span="3">0x40BF 0xD02F</button>
+        <button label="BASS-" span="3">0x40BF 0x22DD</button>
+        <button label="BASS+" span="3">0x40BF 0x20DF</button>
+
+        <button label="&#xf049;" alt="PREV" span="3">0x40BF 0x0AF5</button>
+        <button label="&#xf04a;" alt="REW" span="3">0x40BF 0x18E7</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x40BF 0x28D7</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0x40BF 0x08F7</button>
+
+        <button label="CH-" span="3">0x40BF 0x1AE5</button>
+        <button label="CH+" span="3">0x40BF 0x2AD5</button>
+        <button label="VOL-" span="3">0x40BF 0x3AC5</button>
+        <button label="VOL+" span="3">0x40BF 0x38C7</button>
+
+        <button label="BACK" span="4">0x40BF 0x8877</button>
+        <button label="ST/MONO" span="4">0x40BF 0x9867</button>
+        <button label="NORMAL" span="4">0x40BF 0x32CD</button>
+    </device>
+</irplus>

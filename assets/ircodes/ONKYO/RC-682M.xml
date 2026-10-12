@@ -1,0 +1,52 @@
+<irplus>
+	<device manufacturer="ONKYO" model="RC-682M" columns="12" format="WINLIRC_SPACEENC" one-space="1599" one-pulse="652" zero-pulse="652" zero-space="476" bits="16" pre-bits="16">
+		
+		<button label="1" span="4">0x4BD4 0x708F</button>
+		<button label="2" span="4">0x4BD4 0xF00F</button>
+		<button label="3" span="4">0x4BD4 0x08F7</button>
+		
+		<button label="4" span="4">0x4BD4 0x8877</button>
+		<button label="5" span="4">0x4BD4 0x48B7</button>
+		<button label="6" span="4">0x4BD4 0xC837</button>
+		
+		<button label="7" span="4">0x4BD4 0x28D7</button>
+		<button label="8" span="4">0x4BD4 0xA857</button>
+		<button label="9" span="4">0x4BD4 0x6897</button>
+		
+		<button label="CLR" span="4">0x4BD4 0xD22D</button>
+		<button label="0" span="4">0x4BD4 0xE817</button>
+		<button label="10" span="4">0x4BD4 0x18E7</button>
+		
+		<button label="CH-" span="4">0x4BD4 0x2BD4</button>
+		<button label="&#xf0d8;" span="4">0x4BD4 0x0AF5</button>
+		<button label="CH+" span="4">0x4BD4 0xCB34</button>
+		
+		<button label="&#xf0d9;" span="4">0x4BD4 0x4AB5</button>
+		<button label="ENTER" span="4">0x4BD4 0x10EF</button>
+		<button label="&#xf0da;" span="4">0x4BD4 0xCA35</button>
+		
+		<button label="RETURN" span="4">0x4BD4 0x906F</button>
+		<button label="&#xf0d7;" span="4">0x4BD4 0x8A75</button>
+		<button label="PREVMENU" span="4">0x4BD4 0xF20D</button>
+		
+		<button label="&#xf04c;" alt="PAUSE" span="4">0x4BD4 0xF807</button>
+		<button label="&#xf04b;" alt="PLAY" span="4">0x4BD4 0xD827</button>
+		<button label="&#xf04d;" alt="STOP" span="4">0x4BD4 0x38C7</button>
+		
+		<button label="&#xf04a;" alt="REW" span="4">0x4BD4 0xB04F</button>
+		<button label="GUIDE" span="4">0x4BD4 0x728D</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0x4BD4 0x30CF</button>
+
+        <button label="&#xf049;" alt="PREV" span="4">0x4BD4 0x7887</button>
+        <button label="SETUP" span="4">0x4BD4 0xB24D</button>
+		<button label="&#xf050;" alt="NEXT" span="4">0x4BD4 0xB847</button>
+
+        <button label="LEVEL+" span="4">0x4BD4 0x22DD</button>
+        <button label="TESTTONE" span="4">0x4BD4 0xAA55</button>
+        <button label="LEVEL-" span="4">0x4BD4 0x50AF</button>
+
+        <button label="CHSEL" span="4">0x4BD4 0x2AD5</button>
+        <button label="DISPLAY" span="4">0x4BD4 0x609F</button>
+		<button label="PLAYMODE" span="4">0x4BD4 0x1AE5</button>
+	</device>
+</irplus>

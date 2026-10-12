@@ -1,0 +1,8 @@
+<irplus>
+    <device manufacturer="GENIUS" model="SW-5.1-HT" columns="2" format="WINLIRC_RAW" gap-space="53989" gap-pulse="471">
+        <button label="&#1045541;" labelSize="50.0" span="4" backgroundColor="FFC60000">1318 359 1317 369 480 1206 472 1215 1324 363 475 1213 1347 339 478 1208 471 1215 473 1213 475 1210 478</button>
+        <button label="&#1045889;" labelSize="50.0" span="4" backgroundColor="FF2D2838">1310 365 1292 395 475 1213 475 1212 1316 370 479 1207 473 1213 1326 361 477 1210 479 1207 471 1216 473</button>
+        <button label="&#1045364;" labelSize="50.0" span="4" backgroundColor="FF00B5B5">1306 372 1316 370 480 1207 1321 366 475 1212 477 1209 480 1207 1320 366 473 1214 475 1211 477 1209 480</button>
+        <button label="&#1045525;" labelSize="50.0" span="4" backgroundColor="FF02B5B5">1342 336 1321 365 473 1213 1326 361 477 1211 477 1208 1320 367 471 1215 475 1211 478 1208 482 1204 484</button>
+    </device>
+</irplus>

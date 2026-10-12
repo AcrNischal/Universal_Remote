@@ -1,0 +1,37 @@
+<irplus>
+	<device manufacturer="SEG" model="SR-201" columns="3" format="WINLIRC_SPACEENC" one-space="532" one-pulse="587" zero-pulse="587" zero-space="1659" header-pulse="9038" header-space="4448" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" backgroundColor="FFC84334">0xBD40 0x6798</button>
+		<button label="STORE">0xBD40 0xC738</button>
+		<space/>
+		
+		<button label="1">0xBD40 0x3FC0</button>
+		<button label="2">0xBD40 0xBF40</button>
+		<button label="3">0xBD40 0x7F80</button>
+		
+		<button label="4">0xBD40 0x1FE0</button>
+		<button label="5">0xBD40 0x9F60</button>
+		<button label="6">0xBD40 0x5FA0</button>
+		
+		<button label="7">0xBD40 0x2FD0</button>
+		<button label="8">0xBD40 0xAF50</button>
+		<button label="9">0xBD40 0x6F90</button>
+		
+		<button label="CH+">0xBD40 0xFF00</button>
+		<button label="0">0xBD40 0x0FF0</button>
+		<button label="CH-">0xBD40 0xDF20</button>
+		
+		<button label="&#xFF581;">0xBD40 0xEF10</button>
+		<button label="AUDIO">0xBD40 0x9768</button>
+		<button label="DECODER">0xBD40 0xD728</button>
+		
+		<button label="VIDEO">0xBD40 0x8778</button>
+		<button label="H/B">0xBD40 0x07F8</button>
+		<button label="RECALL">0xBD40 0xE718</button>
+
+		<button label="TUNE-">0xBD40 0x47B8</button>
+		<button label="ERASE">0xBD40 0xCF30</button>
+		<button label="TUNE+">0xBD40 0x4FB0</button>
+
+	</device>
+</irplus>

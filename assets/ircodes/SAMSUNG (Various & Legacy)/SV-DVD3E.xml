@@ -1,0 +1,61 @@
+<irplus>
+    <device manufacturer="SAMSUNG" model="SV-DVD3E" columns="12" format="WINLIRC_NECx1" bits="16" pre-bits="16" gap-pulse="618" gap-space="49103"
+        one-pulse="618" one-space="1605" zero-pulse="618" zero-space="483" header-pulse="4543" header-space="4423">
+
+        <button label="STANDBY/ON" span="4">0xA0A0 0x40BF</button>
+        <button label="&#xf052;" alt="EJECT" span="4">0xA0A0 0x4CB3</button>
+        <button label="MODE/REPEAT" span="4">0xA0A0 0x6699</button>
+
+        <button label="ZOOM" span="4">0xA0A0 0x5CA3</button>
+        <button label="TV/VCR" span="4">0xA0A0 0x807F</button>
+        <button label="CLOCK/COUNTER" span="4">0xA0A0 0x8C73</button>
+
+        <button label="ANGLE" span="4">0xA0A0 0x2AD5</button>
+        <button label="3D SOUND" span="4">0xA0A0 0x649B</button>
+        <button label="CLEAR" span="4">0xA0A0 0xB847</button>
+        
+        <button label="1" span="4">0xA0A0 0x20DF</button>
+        <button label="2" span="4">0xA0A0 0xA05F</button>
+        <button label="3" span="4">0xA0A0 0x609F</button>
+        <button label="4" span="4">0xA0A0 0x10EF</button>
+        <button label="5" span="4">0xA0A0 0x906F</button>
+        <button label="6" span="4">0xA0A0 0x50AF</button>
+        <button label="7" span="4">0xA0A0 0x30CF</button>
+        <button label="8" span="4">0xA0A0 0xB04F</button>
+        <button label="9" span="4">0xA0A0 0x708F</button>
+
+        <button label="DVD" span="4">0xA0A0 0xAA55</button>
+        <button label="0" span="4">0xA0A0 0x8877</button>
+        <button label="VCR" span="4">0xA0A0 0x14EB</button>
+
+        <button label="INPUT SEL" span="4">0xA0A0 0x9A65</button>
+        <button label="DIGEST" span="4">0xA0A0 0x00FF</button>
+        <button label="DISPLAY" span="4">0xA0A0 0x7887</button>
+
+        <button label="TRACK+" span="3">0xA0A0 0xC639</button>
+        <button label="TRACK-" span="3">0xA0A0 0x02FD</button>
+        <button label="PROG+" span="3">0xA0A0 0x48B7</button>
+        <button label="PROG-" span="3">0xA0A0 0x08F7</button>
+
+        <button label="FB/PREV" span="3">0xA0A0 0x18E7</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0xA0A0 0xA857</button>
+        <button label="PLAY/PAUSE" span="3">0xA0A0 0x9867</button>
+        <button label="FF/NEXT" span="3">0xA0A0 0x58A7</button>
+
+        <button label="AUDIO" span="4">0xA0A0 0x16E9</button>
+        <button label="&#xf111;" alt="RECORD" span="4">0xA0A0 0x28D7</button>
+        <button label="DISC MENU" span="4">0xA0A0 0xF807</button>
+
+        <button label="TITLE" span="4">0xA0A0 0x06F9</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0xA0A0 0x34CB</button>
+        <button label="RETURN" span="4">0xA0A0 0xBC43</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0xA0A0 0xE817</button>
+        <button label="SETUP/ENTER" span="4">0xA0A0 0xC23D</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0xA0A0 0xC837</button>
+
+        <button label="SUBTITLE" span="4">0xA0A0 0x44BB</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0xA0A0 0xB44B</button>
+        <button label="MARK" span="4">0xA0A0 0xD42B</button>
+    </device>
+</irplus>

@@ -1,0 +1,49 @@
+<irplus>
+    <device manufacturer="PANASONIC" model="N2QAGB000001" columns="12" format="WINLIRC_SPACEENC" bits="24" pre-bits="24" frequency="37000"
+         gap-pulse="404" gap-space="74601" one-pulse="404" one-space="1305" zero-pulse="404" zero-space="435" header-pulse="3481" header-space="1676">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0x400405 0x38BC81</button>
+        <button label="AUTO OFF" span="3">0x400405 0x381924</button>
+        <button label="SLEEP" span="3">0x400405 0x386954</button>
+        <button label="RDS DISP" span="3">0x400405 0x20AA8F</button>
+
+        <button label="1" span="3" labelColor="FF1E7854">0x400405 0x380835</button>
+        <button label="2" span="3" labelColor="FF1E7854">0x400405 0x3888B5</button>
+        <button label="3" span="3" labelColor="FF1E7854">0x400405 0x384875</button>
+        <button label="DISC" span="3" labelColor="FF1E7854">0x400405 0x502570</button>
+
+        <button label="4" span="3" labelColor="FF1E7854">0x400405 0x38C8F5</button>
+        <button label="5" span="3" labelColor="FF1E7854">0x400405 0x382815</button>
+        <button label="6" span="3">0x400405 0x38A895</button>
+        <button label=">=10" span="3">0x400405 0x38211C</button>
+
+        <button label="7" span="3">0x400405 0x386855</button>
+        <button label="8" span="3">0x400405 0x38E8D5</button>
+        <button label="9" span="3">0x400405 0x381825</button>
+        <button label="0" span="3">0x400405 0x3898A5</button>
+
+        <button label="PROGRAM" span="3">0x400405 0x505104</button>
+        <button label="CANCEL" span="3">0x400405 0x50C590</button>
+        <button label="REPEAT" span="3">0x400405 0x50E2B7</button>
+        <button label="RANDOM" span="3">0x400405 0x50B2E7</button>
+
+        <button label="AUX" span="3" labelColor="FF1E7854">0x400405 0x00595C</button>
+        <button label="TUNER" span="3" labelColor="FF1E7854">0x400405 0x202500</button>
+        <button label="TAPE" span="3" labelColor="FF1E7854">0x400405 0x10697C</button>
+        <button label="CD" span="3" labelColor="FF1E7854">0x400405 0x00292C</button>
+
+        <button label="EQ" span="3">0x400405 0x08C1CC</button>
+        <button label="3D AI" span="3">0x400405 0x088C81</button>
+        <button label=" / " span="3" backgroundColor="FF1E7854">0x400405 0x3892AF</button>
+        <button label=" / " span="3" backgroundColor="FF1E7854">0x400405 0x38526F</button>
+
+        <button label="MUTING" span="3">0x400405 0x004C49</button>
+        <button label="" span="3" backgroundColor="FF1E7854">0x400405 0x38605D</button>
+        <button label="" span="3" backgroundColor="FF1E7854">0x400405 0x38003D</button>
+        <button label="" span="3" backgroundColor="FF1E7854">0x400405 0x38506D</button>
+
+        <button label="VOL-" span="6">0x400405 0x008481</button>
+        <button label="VOL+" span="6">0x400405 0x000401</button>
+
+    </device>
+</irplus>

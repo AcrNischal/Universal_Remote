@@ -1,0 +1,24 @@
+<irplus>
+    <device manufacturer="FUNAI" model="N9479" columns="12" format="WINLIRC_SPACEENC" bits="24" pre-bits="24" gap-pulse="966" gap-space="33647" one-pulse="966" one-space="770" zero-pulse="966" zero-space="2510" header-pulse="3582" header-space="3396">
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xEBE141</button>
+        <button label="&#xf052;" alt="EJECT" span="4">0xE9016F</button>
+        <button label="MEMO" span="4">0xEB514A</button>
+
+        <button label="TRACK-" span="4">0xEBB144</button>
+        <button label="RESET" span="4">0xE8317C</button>
+        <button label="TRACK+" span="4">0xEBD142</button>
+
+        <button label="DISPLAY" span="4">0xEA7158</button>
+        <button label="AUTOREPEAT" span="4">0xCB9346</button>
+        <button label="PIC SELECT" span="4">0xC99366</button>
+
+        <button label="&#xf04a;" alt="REW" span="4">0xEB314C</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0xEAB154</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0xEB7148</button>
+
+        <button label="&#xf04d;" alt="STOP" span="3">0xEB114E</button>
+        <button label="&#xf111;" alt="REC" labelColor="FFC84334" span="3">0xEA9156</button>
+        <button label="SPEED" span="3">0xC88377</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">0xE8B174</button>
+    </device>
+</irplus>

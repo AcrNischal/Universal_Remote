@@ -1,0 +1,65 @@
+<irplus>
+    <device manufacturer="MEDION" model="MD82480" columns="16" format="WINLIRC_NEC1" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x807F 0xA35C</button>
+        <button label="DISPLAY" span="4">0x807F 0xE31C</button>
+        <button label="&#xFF581;" span="4">0x807F 0x8976</button>
+        <button label="&#xf052;" alt="EJECT" span="4">0x807F 0xAB54</button>
+
+        <button label="DVD" span="4">0x807F 0x817E</button>
+        <button label="1" span="4">0x807F 0xC13E</button>
+        <button label="2" span="4">0x807F 0x837C</button>
+        <button label="3" span="4">0x807F 0xE916</button>
+
+        <button label="TUNER" span="4">0x807F 0x41BE</button>
+        <button label="4" span="4">0x807F 0x01FE</button>
+        <button label="5" span="4">0x807F 0x03FC</button>
+        <button label="6" span="4">0x807F 0x29D6</button>
+
+        <button label="USB/CARD" span="4">0x807F 0xB14E</button>
+        <button label="7" span="4">0x807F 0xF10E</button>
+        <button label="8" span="4">0x807F 0xB34C</button>
+        <button label="9" span="4">0x807F 0x2BD4</button>
+
+        <button label="LINE-IN" span="4">0x807F 0x31CE</button>
+        <button label="CLEAR" span="4">0x807F 0x33CC</button>
+        <button label="0" span="4">0x807F 0x916E</button>
+        <button label="INFO" span="4">0x807F 0xD32C</button>
+
+        <button label="&#xf04b;" alt="PLAY" span="4">0x807F 0x11EE</button>
+        <button label="&#xf049; CH-" alt="PREV" span="4">0x807F 0x8B74</button>
+        <button label="&#xf050; CH+" alt="NEXT" span="4">0x807F 0x13EC</button>
+        <button label="VOL+" span="4">0x807F 0xD12E</button>
+
+        <button label="&#xf04d;" alt="STOP" span="4">0x807F 0x09F6</button>
+        <button label="&#xf04a;" alt="REW" span="4">0x807F 0xC936</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0x807F 0x4BB4</button>
+        <button label="VOL-" span="4">0x807F 0x936C</button>
+
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x807F 0xA956</button>
+        <button label="MEMORY" span="4">0x807F 0x0BF4</button>
+        <button label="&#xf0d8;" span="4">0x807F 0xE11E</button>
+        <button label="DISC-MENU" span="4">0x807F 0xEB14</button>
+
+        <button label="HDMI" span="4">0x807F 0xCB34</button>
+        <button label="&#xf0d9; TUNER-" span="4">0x807F 0x51AE</button>
+        <button label="ENTER" span="4">0x807F 0x53AC</button>
+        <button label="TUNER+ &#xf0da;" span="4">0x807F 0x49B6</button>
+
+        <button label="AUDIO" span="4">0x807F 0x619E</button>
+        <button label="TITLE" span="4">0x807F 0x21DE</button>
+        <button label="&#xf0d7;" span="4">0x807F 0x23DC</button>
+        <button label="RETURN" span="4">0x807F 0x639C</button>
+
+        <button label="ANGLE" span="4">0x807F 0xF30C</button>
+        <button label="SUBTITLE" span="4">0x807F 0xC33C</button>
+        <button label="SETUP" span="4">0x807F 0x43BC</button>
+        <button label="REPEAT" span="4">0x807F 0x738C</button>
+
+        <button label="ZOOM" span="4">0x807F 0x6996</button>
+        <button label="EQ" span="4">0x807F 0xA15E</button>
+        <button label="SURROUND" span="4">0x807F 0x718E</button>
+        <button label="MEGA-BASS" span="4">0x807F 0x6B94</button>
+
+    </device>
+</irplus>

@@ -1,0 +1,30 @@
+<irplus>
+    <device manufacturer="AURUS" model="Aurus" columns="12" format="WINLIRC_NEC1">
+        <button label="&#61457;" labelSize="25.0" span="4" backgroundColor="FFC84334">0x02fd 0xc03f</button>
+        <button label="MENU" labelSize="18.0" span="4">0x02fd 0x38c7</button>
+        <button label="SOURCE" labelSize="18.0" span="4">0x02fd 0x7887</button>
+
+        <button label="1" labelSize="25.0" span="4">0x02fd 0x00ff</button>
+        <button label="2" labelSize="25.0" span="4">0x02fd 0x807f</button>
+        <button label="3" labelSize="25.0" span="4" backgroundColor="FF3F3F3F">0x02fd 0x40bf</button>
+
+        <button label="4" labelSize="25.0" span="4">0x02fd 0x20df</button>
+        <button label="5" labelSize="25.0" span="4">0x02fd 0xa05f</button>
+        <button label="6" labelSize="25.0" span="4">0x02fd 0x609f</button>
+
+        <button label="7" labelSize="25.0" span="4">0x02fd 0x10ef</button>
+        <button label="8" labelSize="25.0" span="4">0x02fd 0x906f</button>
+        <button label="9" labelSize="25.0" span="4">0x02fd 0x50af</button>
+
+        <button label="VOL-" labelSize="18.0" span="4">0x02fd 0x58a7</button>
+        <button label="0" labelSize="25.0" span="4">0x02fd 0xb04f</button>
+        <button label="VOL+" labelSize="18.0" span="4">0x02fd 0x6897</button>
+
+        <button label="SOUND" labelSize="25.0" span="4">0x02fd 0x08f7</button>
+        <button label="ENTER" labelSize="25.0" span="4">0x02fd 0x827d</button>
+        <button label="MUTE" labelSize="25.0" span="4">0x02fd 0xa857</button>
+
+        <button label="&#1046046;" labelSize="25.0" span="4" backgroundColor="FF428442">0x02fd 0x02fd</button>
+        <button label="&#1045839;" labelSize="12.0" span="4" backgroundColor="FF428442">0x02fd 0xa25d</button>
+    </device>
+</irplus>

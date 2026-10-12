@@ -1,0 +1,125 @@
+<irplus>
+    <device manufacturer="DENON" model="RC-1076" columns="12" format="DENON_BINARY">
+
+        <button label="&#xf011; On" backgroundColor="FFC84334" span="4">01000 100001 11</button>
+        <button label="&#xf011; Off" backgroundColor="FFC84334" span="4">01000 010001 11</button>
+        <button label="INPUT MODE" span="4">00110 011011 01</button>
+
+        <button label="MAIN ZONE ON" span="3">01000 100111 10</button>
+        <button label="MAIN ZONE OFF" span="3">01000 010111 10</button>
+        <button label="MULTI ZONE ON" span="3">01000 110111 10</button>
+        <button label="MULTI ZONE OFF" span="3">01000 001111 10</button>
+
+        <button label="PHONO" span="3">01000 110000 11</button>
+        <button label="CD" span="3">01000 001000 11</button>
+        <button label="TUNER" span="3">01000 101000 11</button>
+        <button label="AUX" span="3">01000 011001 11</button>
+
+        <button label="DBS/SAT" span="3">01000 000100 11</button>
+        <button label="TV" span="3">01000 100100 11</button>
+        <button label="HDP" span="3">01000 010100 11</button>
+        <button label="V-AUX" span="3">01000 001100 11</button>
+
+        <button label="VCR1" span="3">01000 101100 11</button>
+        <button label="VCR2/DVR" span="3">01000 011100 11</button>
+        <button label="CDR/TAPE" span="3">01000 010010 11</button>
+        <button label="DVD" span="3">01000 110001 11</button>
+
+        <button label="OSD" span="4">01000 111110 11</button>
+        <button label="&#xf0d8;" labelColor="FF000000" backgroundColor="FFDEF5E1" span="4">00110 110001 01</button>
+        <button label="VIDEO SELECT" span="4">01000 000110 11</button>
+
+        <button label="&#xf0d9;" labelColor="FF000000" backgroundColor="FFDEF5E1" span="4">00110 111111 10</button>
+        <button label="ENTER" labelColor="FF000000" backgroundColor="FFDEF5E1" span="4">01000 000001 11</button>
+        <button label="&#xf0da;" labelColor="FF000000" backgroundColor="FFDEF5E1" span="4">01000 101110 11</button>
+
+        <button label="PURE DIRECT" span="4">01000 010101 10</button>
+        <button label="&#xf0d7;" labelColor="FF000000" backgroundColor="FFDEF5E1" span="4">00110 001001 01</button>
+        <button label="STATUS" span="4">01000 011110 11</button>
+
+        <button label="DOLBY/DTS" span="3">01000 001001 11</button>
+        <button label="DSP/SIMUL" span="3">01000 011001 11</button>
+        <button label="TEST TONE" span="3">01000 010101 11</button>
+        <button label="SPEAKER" span="3">01000 101101 11</button>
+
+        <button label="SYS SETUP" span="4">00110 000001 01</button>
+        <button label="SURR PARAM" span="4">00110 100001 01</button>
+        <button label="5CH/7CH/STEREO" span="4">00110 000101 01</button>
+
+        <button label="VOL-" span="4">01000 010011 11</button>
+        <button label="&#xFF581;" span="4">01000 000011 11</button>
+        <button label="VOL+" span="4">01000 100011 11</button>
+
+        <button label="VOL- (MULTI)" span="6">00110 011100 01</button>
+        <button label="VOL+ (MULTI)" span="6">00110 101100 01</button>
+
+        <button label="SAT (MULTI)" span="3">00110 010100 01</button>
+        <button label="PHONO (MULTI)" span="3">00110 111100 01</button>
+        <button label="CD (MULTI)" span="3">00110 000010 01</button>
+        <button label="TUNER (MULTI)" span="3">00110 100010 01</button>
+
+        <button label="HDP (MULTI)" span="3">00110 010010 01</button>
+        <button label="V.AUX (MULTI)" span="3">00110 110010 01</button>
+        <button label="VCR1 (MULTI)" span="3">00110 001010 01</button>
+        <button label="VCR2 (MULTI)" span="3">00110 100110 01</button>
+
+        <button label="AUX (MULTI)" span="3">00110 000110 01</button>
+        <button label="TV (MULTI)" span="3">00110 110110 01</button>
+        <button label="CDR/TAPE (MULTI)" span="3">00110 001110 01</button>
+        <button label="DVD (MULTI)" span="3">00110 011111 01</button>
+
+        <button label="1" span="4">00010 010000 01</button>
+        <button label="2" span="4">00010 110000 01</button>
+        <button label="3" span="4">00010 001000 01</button>
+
+        <button label="4" span="4">00010 101000 01</button>
+        <button label="5" span="4">00010 011000 01</button>
+        <button label="6" span="4">00010 111000 01</button>
+
+        <button label="7" span="4">00010 000100 01</button>
+        <button label="8" span="4">00010 100100 01</button>
+        <button label="9" span="4">00010 010100 01</button>
+
+        <button label="+10" span="4">00010 001100 01</button>
+        <button label="0" span="4">00010 100000 01</button>
+        <button label="SUBS" span="4">00010 101100 01</button>
+
+        <button label="AUDIO" span="4">00010 011100 01</button>
+        <button label="MENU" span="4">00010 100010 01</button>
+        <button label="RETURN" span="4">00010 010010 01</button>
+
+        <button label="DVD &#xf011;" span="6">00010 100011 01</button>
+        <button label="DVD DISPLAY" span="6">00010 111001 01</button>
+
+        <button label="DVD STOP" span="4">00010 100001 01</button>
+        <button label="DVD PLAY" span="4">00010 000001 01</button>
+        <button label="DVD PAUSE" span="4">00010 101110 01</button>
+
+        <button label="DVD REW" span="4">00010 110110 01</button>
+        <button label="&#xf0d8; DVD" labelColor="FF000000" backgroundColor="FFDEF5E1" span="4">00010 001101 01</button>
+        <button label="DVD FWD" span="4">00010 010110 01</button>
+
+        <button label="&#xf0d9; DVD" labelColor="FF000000" backgroundColor="FFDEF5E1" span="4">00010 111111 01</button>
+        <button label="ENTER" labelColor="FF000000" backgroundColor="FFDEF5E1" span="4">00010 000001 11</button>
+        <button label="&#xf0da; DVD" labelColor="FF000000" backgroundColor="FFDEF5E1" span="4">00010 011101 01</button>
+
+        <button label="DVD PREV" span="4">00010 100110 01</button>
+        <button label="&#xf0d7; DVD" labelColor="FF000000" backgroundColor="FFDEF5E1" span="4">00010 101101 01</button>
+        <button label="DVD NEXT" span="4">00010 000110 01</button>
+
+        <button label="CINEMA MODE" span="3">00100 101010 01</button>
+        <button label="MUSIC MODE" span="3">00100 011010 01</button>
+        <button label="NIGHT MODE" span="3">00100 000110 01</button>
+        <button label="ROOM EQ" span="3">00100 101110 01</button>
+
+        <button label="MD STOP" span="4">01100 100001 11</button>
+        <button label="MD PLAY" span="4">01100 010001 11</button>
+        <button label="MD PAUSE" span="4">01100 110001 11</button>
+
+        <button label="MD REW" span="3">01100 001101 11</button>
+        <button label="MD FWD" span="3">01100 110101 11</button>
+        <button label="MD PREV" span="3">01100 010101 11</button>
+        <button label="MD NEXT" span="3">01100 100101 11</button>
+
+    </device>
+</irplus>

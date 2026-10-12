@@ -1,0 +1,73 @@
+<irplus>
+  <device manufacturer="HUMAX" model="DTT4000" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16">
+
+      <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x000c 0x00ff</button>
+      <button label="&#xFF581;" span="4">0x000c 0x18e7</button>
+      <button label="TV/AV" span="4">0x000c 0x40bf</button>
+
+      <button label="1" span="4">0x000c 0xc03f</button>
+      <button label="2" span="4">0x000c 0x20df</button>
+      <button label="3" span="4">0x000c 0xa05f</button>
+
+      <button label="4" span="4">0x000c 0x609f</button>
+      <button label="5" span="4">0x000c 0xe01f</button>
+      <button label="6" span="4">0x000c 0x10ef</button>
+
+      <button label="7" span="4">0x000c 0x906f</button>
+      <button label="8" span="4">0x000c 0x50af</button>
+      <button label="9" span="4">0x000c 0xd02f</button>
+
+      <button label="Guide" span="4">0x000c 0xd827</button>
+      <button label="0" span="4">0x000c 0x30cf</button>
+      <button label="Recall" span="4">0x000c 0xe619</button>
+
+      <button label="CH+" span="4">0x000c 0x08f7</button>
+      <button label="&#xf0d8;" span="4">0x000c 0x8877</button>
+      <button label="VOL+" span="4">0x000c 0xf807</button>
+
+      <button label="&#xf0d9;" span="4">0x000c 0x48b7</button>
+      <button label="OK" span="4">0x000c 0xc837</button>
+      <button label="&#xf0da;" span="4">0x000c 0x28d7</button>
+
+      <button label="CH-" span="4">0x000c 0xf00f</button>
+      <button label="&#xf0d7;" span="4">0x000c 0xa857</button>
+      <button label="VOL-" span="4">0x000c 0x02fd</button>
+
+      <button label="Menu" span="3">0x000c 0x708f</button>
+      <button label="Text" span="3">0x000c 0xc639</button>
+      <button label="Exit" span="3">0x000c 0x6897</button>
+      <button label="Display" span="3">0x000c 0xb04f</button>
+
+      <button label="Return TV" span="3">0x000c 0xb649</button>
+      <button label="Sleep Timer" span="3">0x000c 0x46b9</button>
+      <button label="Subt List" span="3">0x000c 0xb24d</button>
+      <button label="Txt Expand" span="3">0x000c 0x9669</button>
+
+      <button label="Back" span="3">0x000c 0x827d</button>
+      <button label="Update" span="3">0x000c 0xd629</button>
+      <button label="Reveal" span="3">0x000c 0x42bd</button>
+      <button label="Txt Stop" span="3">0x000c 0x16e9</button>
+
+      <button label="R" fillColor="FFC84334" span="3">0x000c 0x38c7</button>
+      <button label="G" fillColor="FF1E7854" span="3">0x000c 0xb847</button>
+      <button label="Y" fillColor="FFD6A81F" span="3">0x000c 0x58a7</button>
+      <button label="B" fillColor="FF2A4C94" span="3">0x000c 0x7887</button>
+
+      <button label="Audio" span="4">0x000c 0x26d9</button>
+      <button label="Video" span="4">0x000c 0xa25d</button>
+      <button label="Info" span="4">0x000c 0xc23d</button>
+
+      <button label="F1" span="4">0x000c 0xf609</button>
+      <button label="F2" span="4">0x000c 0xa659</button>
+      <button label="F3" span="4">0x000c 0x36c9</button>
+
+      <button label="F4" span="4">0x000c 0x22dd</button>
+      <button label="F5" span="4">0x000c 0x6699</button>
+      <button label="F6" span="4">0x000c 0x56a9</button>
+
+      <button label="F7" span="4">0x000c 0x7689</button>
+      <button label="F8" span="4">0x000c 0x06f9</button>
+      <button label="F9" span="4">0x000c 0x8679</button>
+
+  </device>
+</irplus>

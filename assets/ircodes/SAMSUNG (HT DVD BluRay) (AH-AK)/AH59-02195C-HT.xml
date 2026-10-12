@@ -1,0 +1,81 @@
+<irplus>
+    <device manufacturer="SAMSUNG" model="AH59-02195C" columns="12" format="WINLIRC_NECx1"
+        one-space="1664" one-pulse="573" zero-pulse="573" zero-space="516" header-pulse="4491"
+        header-space="4509" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xC2CA 0x807F</button>
+        <button label="&#xf052;" alt="EJECT" span="4">0xC2CA 0x0CF3</button>
+        <button label="DIMMER" span="4">0xC2CA 0x18E7</button>
+
+        <button label="BD" backgroundColor="FF2A4C94" span="4">0xC2CA 0x9867</button>
+        <button label="TUNER" span="4">0xC2CA 0x906F</button>
+        <button label="AUX" span="4">0xC2CA 0x8877</button>
+
+        <button label="1" span="4">0xC2CA 0x827D</button>
+        <button label="2" span="4">0xC2CA 0x42BD</button>
+        <button label="3" span="4">0xC2CA 0xC23D</button>
+
+        <button label="4" span="4">0xC2CA 0x22DD</button>
+        <button label="5" span="4">0xC2CA 0xA25D</button>
+        <button label="6" span="4">0xC2CA 0x629D</button>
+
+        <button label="7" span="4">0xC2CA 0xE21D</button>
+        <button label="8" span="4">0xC2CA 0xFC03</button>
+        <button label="9" span="4">0xC2CA 0xEC13</button>
+
+        <button label="AUDIO" span="4">0xC2CA 0x609F</button>
+        <button label="0" span="4">0xC2CA 0xF40B</button>
+        <button label="SUBTITLE" span="4">0xC2CA 0x708F</button>
+
+        <button label="" backgroundColor="FF0066CC" span="3">0xC2CA 0xD827</button>
+        <button label="STEP" backgroundColor="FF0066CC" span="3">0xC2CA 0xBC43</button>
+        <button label="" backgroundColor="FF0066CC" span="3">0xC2CA 0xBE41</button>
+        <button label="" backgroundColor="FF0066CC" span="3">0xC2CA 0xC837</button>
+
+        <button label="" backgroundColor="FF0066CC" span="3">0xC2CA 0x2ED1</button>
+        <button label="" backgroundColor="FF0066CC" span="3">0xC2CA 0xD02F</button>
+        <button label="" backgroundColor="FF0066CC" span="3">0xC2CA 0xC03F</button>
+        <button label="" backgroundColor="FF0066CC" span="3">0xC2CA 0xAE51</button>
+
+        <button label="VOL+" span="4">0xC2CA 0xCC33</button>
+        <button label="&#xFF581;" span="4">0xC2CA 0x9C63</button>
+        <button label="CH+" span="4">0xC2CA 0xC43B</button>
+       
+        <button label="VOL-" span="4">0xC2CA 0xDC23</button>
+        <button label="V-SOUND" span="4">0xC2CA 0x24DB</button>
+        <button label="CH-" span="4">0xC2CA 0xD42B</button>
+
+        <button label="MENU" span="4">0xC2CA 0x6C93</button>
+        <button label="&#xf0d8;" span="4">0xC2CA 0xB04F</button>
+        <button label="RETURN" span="4">0xC2CA 0x38C7</button>
+
+        <button label="&#xf0d9;" span="4">0xC2CA 0xA45B</button>
+        <button label="ENTER" span="4">0xC2CA 0xA05F</button>
+        <button label="&#xf0da;" span="4">0xC2CA 0xB847</button>
+
+        <button label="INFO" span="4">0xC2CA 0x649B</button>
+        <button label="&#xf0d7;" span="4">0xC2CA 0xA857</button>
+        <button label="EXIT" span="4">0xC2CA 0x7E81</button>
+
+        <button label="A" backgroundColor="FFC84334" span="3">0xC2CA 0xDA25</button>
+        <button label="B" backgroundColor="FF1E7854" span="3">0xC2CA 0x2AD5</button>
+        <button label="C" backgroundColor="FFD6A81F" span="3">0xC2CA 0xAA55</button>
+        <button label="D" backgroundColor="FF2A4C94" span="3">0xC2CA 0xEE11</button>
+
+        <button label="POPUP/TITLE MENU" span="3">0xC2CA 0xCA35</button>
+        <button label="DISC MENU" span="3">0xC2CA 0x5AA5</button>
+        <button label="ZOOM" span="3">0xC2CA 0xF00F</button>
+        <button label="PIP" span="3">0xC2CA 0x10EF</button>
+
+        <button label="TUNER MEMORY" span="3">0xC2CA 0xB44B</button>
+        <button label="MO/ST" span="3">0xC2CA 0x6A95</button>
+        <button label="REPEAT A/B" span="3">0xC2CA 0x8A75</button>
+        <button label="REPEAT" span="3">0xC2CA 0x6699</button>
+
+        <button label="CANCEL" span="3">0xC2CA 0xE817</button>
+        <button label="SLEEP" span="3">0xC2CA 0x847B</button>
+        <button label="SLOW" span="3">0xC2CA 0xAC53</button>
+        <button label="DSP" span="3">0xC2CA 0x5EA1</button>
+
+    </device>
+</irplus>

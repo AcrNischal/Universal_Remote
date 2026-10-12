@@ -1,0 +1,26 @@
+<irplus>
+	<device manufacturer="LOGITECH" model="Z906" columns="12" format="WINLIRC_NEC1" one-space="1629" one-pulse="624"
+		zero-pulse="624" zero-space="498" header-pulse="9067" header-space="4444" bits="16" pre-bits="16">
+
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x4005 0x01FE</button>
+		<button label="INPUT" backgroundColor="FFA3A3A5" span="4">0x4005 0x10EF</button>
+		<button label="&#xFF581;" backgroundColor="FFA3A5A8" span="4">0x4005 0x57A8</button>
+		
+		<button label="+" backgroundColor="FF93968E" span="6">0x4005 0x55AA</button>
+		<button label="-" backgroundColor="FFA0A5A0" span="6">0x4005 0x56A9</button>
+		
+		<button label="LEVEL" backgroundColor="FF9EA39B" span="6">0x4005 0x50AF</button>
+		<button label="EFFECT" backgroundColor="FFA5AAA3" span="6">0x4005 0x708F</button>
+
+		<button label="INPUT1" span="4">0x4005 0x20DF</button>
+		<button label="INPUT2" span="4">0x4005 0x41BE</button>
+		<button label="INPUT3" span="4">0x4005 0x30CF</button>
+
+		<button label="INPUT4" span="6">0x4005 0x31CE</button>
+		<button label="INPUT5" span="6">0x4005 0x40BF</button>
+
+		<button label="AUX" span="6">0x4005 0x42BD</button>
+		<button label="TEST" span="6">0x4005 0x807F</button>
+
+	</device>
+</irplus>

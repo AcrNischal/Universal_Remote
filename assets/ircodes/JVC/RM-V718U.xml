@@ -1,0 +1,32 @@
+<irplus>
+    <device manufacturer="JVC" model="RM-V718U" columns="12" format="WINLIRC_SPACEENC" bits="8" pre-bits="8" gap-pulse="512" gap-space="46449"
+        one-pulse="512" one-space="1593" zero-pulse="512" zero-space="540" header-pulse="8397" header-space="4215" repeat="2" repeatheader="false">
+        
+        <button label="SNAPSHOT" span="6">0xCB 0xBA</button>
+        <button label="START/STOP" backgroundColor="FFC84334" span="6">0xCB 0x9A</button>
+
+        <button label="SLOW BACK" span="4">0xCB 0xA0</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0xCB 0xB0</button>
+        <button label="SLOW FORW" span="4">0xCB 0x10</button>
+
+        <button label="&#xf04a;" alt="REW" span="4">0xCB 0xE0</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0xCB 0x30</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0xCB 0x60</button>
+
+        <button label="AUDIO" span="4">0xCB 0xE8</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0xCB 0xC0</button>
+        <button label="DISPLAY" span="4">0xCB 0xF4</button>
+
+        <button label="ZOOM T" span="4">0xCB 0x4A</button>
+        <button label="SHIFT &#xf0d8;" span="4">0xCB 0xE9</button>
+        <button label="ZOOM W" span="4">0xCB 0x8A</button>
+
+        <button label="&#xf0d9; SHIFT" span="6">0xCB 0x59</button>
+        <button label="SHIFT &#xf0da;" span="6">0xCB 0x99</button>
+
+        <button label="EFFECT" span="4">0xCB 0x9D</button>
+        <button label="SHIFT &#xf0d7;" span="4">0xCB 0x19</button>
+        <button label="EFFECT ON/OFF" span="4">0xCB 0x1D</button>
+
+    </device>
+</irplus>

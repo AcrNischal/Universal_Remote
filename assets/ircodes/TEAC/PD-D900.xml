@@ -1,0 +1,43 @@
+<irplus>
+    <device manufacturer="TEAC" model="PD-D900" columns="12" format="WINLIRC_NEC1" one-space="474" one-pulse="646" zero-pulse="646" zero-space="1604" header-pulse="9133" header-space="4394" bits="16" pre-bits="16">
+
+        <button label="DISC1" span="3">0x9E79 0x27D8</button>
+        <button label="DISC2" span="3">0x9E79 0xC738</button>
+        <button label="DISC3" span="3">0x9E79 0x47B8</button>
+        <button label="DISC4" span="3">0x9E79 0x8778</button>
+        
+        <button label="DISC5" span="4">0x9E79 0x07F8</button>
+        <button label="SHUFFLE" span="4">0x9E79 0x9F60</button>
+        <button label="DISC-SKIP" span="4">0x9E79 0xBF40</button>
+        
+        <button label="1" span="4">0x9E79 0xB748</button>
+        <button label="2" span="4">0x9E79 0x37C8</button>
+        <button label="3" span="4">0x9E79 0x7788</button>
+        
+        <button label="4" span="4">0x9E79 0xF708</button>
+        <button label="5" span="4">0x9E79 0x0FF0</button>
+        <button label="6" span="4">0x9E79 0xE718</button>
+        
+        <button label="7" span="4">0x9E79 0x17E8</button>
+        <button label="8" span="4">0x9E79 0xD728</button>
+        <button label="9" span="4">0x9E79 0x57A8</button>
+
+        <button label="MEMORY" span="4">0x9E79 0x2FD0</button>
+        <button label="0" span="4">0x9E79 0x9768</button>
+        <button label="CLEAR" span="4">0x9E79 0x6798</button>
+
+        <button label="TIME" span="3">0x9E79 0xAF50</button>
+        <button label="REPEAT" span="3">0x9E79 0x8F70</button>
+        <button label="INTROCHECK" span="3">0x9E79 0x1FE0</button>
+        <button label="MEMORYCHK" span="3">0x9E79 0xA758</button>
+
+        <button label="&#xf04a;" alt="REW" span="3">0x9E79 0x4FB0</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x9E79 0xCF30</button>
+        <button label="&#xf049;" alt="PREV" span="3">0x9E79 0xDF20</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0x9E79 0xFF00</button>
+
+        <button label="&#xf04b;" alt="PLAY" span="4">0x9E79 0xEF10</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x9E79 0x5FA0</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x9E79 0x6F90</button>
+    </device>
+</irplus>

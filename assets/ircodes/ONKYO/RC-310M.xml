@@ -1,0 +1,46 @@
+<irplus>
+    <device manufacturer="ONKYO" model="RC-310M" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xF011;" alt="POWER" backgroundColor="FFC84334" span="4">0x4BB6 0x20DF</button>
+        <button label="SLEEP" span="4">0x4BB6 0xBA45</button>
+        <button label="SET" span="4">0x4BB6 0x59A6</button>
+
+        <button label="DIMMER" span="4">0x4BB6 0xA956</button>
+        <button label="A" span="4">0x4BB6 0x9A65</button>
+        <button label="B" span="4">0x4BB6 0x5AA5</button>
+
+        <button label="CH SEL" span="4">0x4B36 0x22DD</button>
+        <button label="LEVEL +" span="4">0x4B36 0x42BD</button>
+        <button label="SUR MODE +" span="4">0x4BB6 0x32CD</button>
+
+        <space multiple="4"/>
+        <button label="LEVEL -" span="4">0x4B36 0xC23D</button>
+        <button label="SUR MODE -" span="4">0x4B36 0xA25D</button>
+
+        <button label="VOL-" span="4">0x4BB6 0xC03F</button>
+        <button label="&#xFF581;" span="4">0x4BB6 0xA05F</button>
+        <button label="VOL+" span="4">0x4BB6 0x40BF</button>
+
+        <space multiple="4"/>
+        <button label="&#xF0D8;" span="4">0x4BB6 0x41BE</button>
+        <space multiple="4"/>
+
+        <button label="&#xF0D9;" span="4">0x4BB6 0x21DE</button>
+        <button label="ENTER" span="4">0x4BB6 0xE916</button>
+        <button label="&#xF0DA;" span="4">0x4BB6 0xA15E</button>
+
+        <space multiple="4"/>
+        <button label="&#xF0D7;" span="4">0x4BB6 0xC13E</button>
+        <space multiple="4"/>
+
+        <button label="TAPE1" span="3">0x4BB6 0x10EF</button>
+        <button label="TAPE2" span="3">0x4BB6 0xE01F</button>
+        <button label="TUNER" span="3">0x4BB6 0xD02F</button>
+        <button label="CD" span="3">0x4BB6 0x906F</button>
+
+        <button label="&#xF0D9; VIDEO" span="3">0x4B36 0xB847</button>
+        <button label="VIDEO &#xF0DA;" span="3">0x4B36 0x38C7</button>
+        <button label="&#xF0D9; AUDIO" span="3">0x4B36 0xD827</button>
+        <button label="AUDIO &#xF0DA;" span="3">0x4B36 0x58A7</button>
+    </device>
+</irplus>

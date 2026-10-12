@@ -1,0 +1,40 @@
+<irplus>
+	<device manufacturer="ELMO" model="PRC-100S" columns="12" format="WINLIRC_NEC1" one-space="1685" one-pulse="564" zero-pulse="564" zero-space="562" header-pulse="8976" header-space="4524" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x4FB 0x807F</button>
+		<button label="BACKLIT" span="4">0x4FB 0x40BF</button>
+		<button label="RESET" span="4">0x4FB 0xC03F</button>
+		
+		<button label="PRESET" span="6">0x4FB 0x609F</button>
+		<button label="ID" span="6">0x4FB 0xE01F</button>
+
+        <button label="1" span="4">0x4FB 0x50AF</button>
+        <button label="2" span="4">0x4FB 0x708F</button>
+        <button label="3" span="4">0x4FB 0x48B7</button>
+
+        <button label="4" span="4">0x4FB 0xD02F</button>
+        <button label="5" span="4">0x4FB 0xF00F</button>
+        <button label="6" span="4">0x4FB 0xC837</button>
+
+        <button label="IRISOPEN" span="4">0x4FB 0x20DF</button>
+        <button label="IRISCLOSE" span="4">0x4FB 0x10EF</button>
+        <button label="IRISAUTO" span="4">0x4FB 0x30CF</button>
+
+        <button label="FOCUSIN" span="4">0x4FB 0x906F</button>
+        <button label="FOCUSFAR" span="4">0x4FB 0xB04F</button>
+        <button label="FOCUSAUTO" span="4">0x4FB 0x8877</button>
+
+        <button label="MENU" span="4">0x4FB 0x9867</button>
+        <button label="&#xf0d8;" span="4">0x4FB 0x58A7</button>
+        <button label="WIDE" span="4">0x4FB 0x38C7</button>
+
+        <button label="&#xf0d9;" span="4">0x4FB 0xB847</button>
+        <button label="HOME" span="4">0x4FB 0x7887</button>
+        <button label="&#xf0da;" span="4">0x4FB 0xF807</button>
+
+        <button label="TELE" span="4">0x4FB 0x18E7</button>
+        <button label="&#xf0d7;" span="4">0x4FB 0x6897</button>
+        <button label="CURSOR" span="4">0x4FB 0xE817</button>
+        
+	</device>
+</irplus>

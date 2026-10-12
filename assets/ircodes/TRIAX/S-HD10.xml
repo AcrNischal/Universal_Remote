@@ -1,0 +1,59 @@
+<irplus>
+	<device manufacturer="Triax" model="S-HD 10" columns="12" format="WINLIRC_NEC1"
+		toggle-bit-pos="2" one-space="1656" one-pulse="604" zero-pulse="604" zero-space="524" header-pulse="9080" header-space="4478" bits="16" pre-bits="16">
+
+		<button label="&#xf011;" backgroundColor="FFC84334" span="6">0x9F 0x7887</button>
+		<button label="?" span="6">0x9F 0x48B7</button>
+
+		<button label="1" span="4">0x9F 0x50AF</button>
+		<button label="2" span="4">0x9F 0x906F</button>
+		<button label="3" span="4">0x9F 0x10EF</button>
+
+		<button label="4" span="4">0x9F 0x609F</button>
+		<button label="5" span="4">0x9F 0xA05F</button>
+		<button label="6" span="4">0x9F 0x20DF</button>
+
+		<button label="7" span="4">0x9F 0x40BF</button>
+		<button label="8" span="4">0x9F 0x807F</button>
+		<button label="9" span="4">0x9F 0x00FF</button>
+
+		<button label="TV/R" span="4">0x9F 0x42BD</button>
+		<button label="0" span="4">0x9F 0xC23D</button>
+		<button label="TEXT" span="4">0x9F 0xE21D</button>
+
+		<button label="V-FMT" backgroundColor="FFC84334" span="3">0x9F 0x708F</button>
+		<button label="G" fillColor="FF1E7854" span="3">0x9F 0xF00F</button>
+		<button label="Y" fillColor="FFD6A81F" span="3">0x9F 0xF20D</button>
+		<button label="TIMER" backgroundColor="FF2A4C94" span="3">0x9F 0x58A7</button>
+
+		<button label="MENU" span="4">0x9F 0xE01F</button>
+		<button label="CH+" span="4">0x9F 0xC837</button>
+		<button label="EPG" span="4">0x9F 0xD02F</button>
+
+		<button label="VOL-" span="4">0x9F 0x22DD</button>
+		<button label="OK" span="4">0x9F 0x0AF5</button>
+		<button label="VOL+" span="4">0x9F 0xEA15</button>
+
+		<button label="FAV" span="4">0x9F 0xDA25</button>
+		<button label="CH-" span="4">0x9F 0x827D</button>
+		<button label="BACK" span="4">0x9F 0x6897</button>
+
+		<button label="SUB" span="6">0x9F 0xC03F</button>
+		<button label="AUDIO" span="6">0x9F 0xD22D</button>
+
+		<button label="" labelColor="FFC84334" span="3">0x9F 0xCA35</button>
+		<button label="" span="3">0x9F 0x02FD</button>
+		<button label="" span="3">0x9F 0x1AE5</button>
+		<button label="❚❚" span="3">0x9F 0x3AC5</button>
+
+		<button label="" span="3">0x9F 0x2AD5</button>
+		<button label="" span="3">0x9F 0xD827</button>
+		<button label="" span="3">0x9F 0xB24D</button>
+		<button label="" span="3">0x9F 0x52AD</button>
+
+		<button label="ℹ" span="3">0x9F 0x7A85</button>
+		<button label="USB" span="3">0x9F 0x18E7</button>
+		<button label="Option" span="3">0x9F 0x9A65</button>
+		<button label="MOVIE" span="3">0x9F 0x9867</button>
+	</device>
+</irplus>

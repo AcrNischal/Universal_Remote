@@ -1,0 +1,36 @@
+<irplus>
+    <device manufacturer="IN-TECH" model="MKV READER" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16">
+        
+        <button label="" span="3" backgroundColor="FFC84334">0x00ff 0x12ed</button>
+        <button label="Setup" span="3">0x00ff 0x20df</button>
+        <button label="&#xff581;" span="3">0x00ff 0xd02f</button>
+        <button label="Tv-mode" span="3">0x00ff 0x30cf</button>
+        
+        <button label="⏰" span="3">0xFF 0x906F</button>
+        <button label="16:9/4:3" span="3">0xFF 0xB847</button>
+        <button label="Video Info" span="3">0xFF 0xA857</button>
+        <button label="Subtitle" span="3">0xFF 0xB04F</button>
+        
+        <button label="&#x1f3e0;" span="3">0xFF 0xE817</button>
+        <space multiple="9"/>
+        
+        <button label="&#x1f50a;" span="3">0xFF 0x8877</button>
+        <button label="" span="3" backgroundColor="FFFF9933">0x00ff 0x22dd</button>
+        <space multiple="6"/>
+        
+        <button label="" span="3" backgroundColor="FFFF9933">0x00ff 0x708f</button>
+        <button label="Enter" span="3" backgroundColor="FF00CC00">0xFF 0x8A75</button>
+        <button label="" span="3" backgroundColor="FFFF9933">0xFF 0x58A7</button>
+        <button label="Repeat" span="3">0xFF 0xC03F</button>
+
+        <space multiple="3"/>
+        <button label="" span="3" backgroundColor="FFFF9933">0x00ff 0xf00f</button>
+        <button label="" span="3" backgroundColor="FF00CC00">0xFF 0x50AF</button>
+        <button label="" span="3" backgroundColor="FF00CC00">0xFF 0x40BF</button>
+        
+        <button label="" span="3">0xFF 0xA25D</button>
+        <button label="" span="3">0xFF 0x10EF</button>
+        <button label="" span="3">0xFF 0x807F</button>
+        <button label="" span="3">0xFF 0x00FF</button>
+    </device>
+</irplus>

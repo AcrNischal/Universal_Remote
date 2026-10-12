@@ -1,0 +1,72 @@
+<irplus>
+	<device manufacturer="PANASONIC" model="SA-PM25-45" columns="12" format="WINLIRC_SPACEENC" one-space="1242" one-pulse="488" zero-pulse="488" zero-space="376" header-pulse="3535" header-space="1664" pre-bits="48" gap-pulse="488" gap-space="488">
+		
+		<button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x40040538BC81</button>
+		<button label="CLOCK" span="4">0x40040538A994</button>
+		<button label="DISPLAY" span="4">0x40040538AA97</button>
+		
+		<button label="PROGRAM" span="3">0x400405505104</button>
+		<button label="1" span="3">0x400405380835</button>
+		<button label="2" span="3">0x4004053888B5</button>
+		<button label="3" span="3">0x400405384875</button>
+		
+		<button label="RANDOM" span="3">0x40040550B2E7</button>
+		<button label="4" span="3">0x40040538C8F5</button>
+		<button label="5" span="3">0x400405382815</button>
+		<button label="6" span="3">0x40040538A895</button>
+		
+		<button label="REPEAT" span="3">0x40040550E2B7</button>
+		<button label="7" span="3">0x400405386855</button>
+		<button label="8" span="3">0x40040538E8D5</button>
+		<button label="9" span="3">0x400405381825</button>
+		
+		<button label="CANCEL" span="3">0x40040550C590</button>
+		<button label="Delete" span="3">0x400405507F2A</button>
+		<button label="0" span="3">0x4004053898A5</button>
+		<button label="GT10" span="3">0x40040538211C</button>
+		
+		<button label="InCD" span="4">0x400405505005</button>
+		<button label="InTuner" span="4">0x400405505005</button>
+		<button label="InMusic" span="4">0x40040538D3EE</button>
+		
+		<button label="InputUsb" span="6">0x40040500595C</button>
+		<button label="InTape" span="6">0x40040510796C</button>
+		
+		<button label="VOL-" span="4">0x400405008481</button>
+		<button label="&#xFF581;" span="4">0x400405004C49</button>
+		<button label="VOL+" span="4">0x400405000401</button>
+		
+		<button label="TREBLE-" span="3">0x40040500A4A1</button>
+		<button label="TREBLE+" span="3">0x400405002421</button>
+		<button label="BASS-" span="3">0x40040500C4C1</button>
+		<button label="BASS+" span="3">0x400405004441</button>
+		
+		<button label="Album-" span="3">0x40040550BFEA</button>
+		<button label="Album+" span="3">0x400405503F6A</button>
+		<button label="&#xf049;" span="3">0x4004053892AF</button>
+		<button label="&#xf050;" span="3">0x40040538526F</button>
+		
+		<button label="&#xf04b;" alt="PLAY" span="6">0x400405202500</button>
+		<button label="&#xf04d;" alt="STOP" span="6">0x40040538003D</button>
+		
+		<button label="UsbPlay" span="4">0x40040538D3EE</button>
+		<button label="UsbPause" span="4">0x40040538D3EE</button>
+		<button label="DISC" span="4">0x400405502570</button>
+		
+		<button label="BASS" span="6">0x40040500EBEE</button>
+		<button label="SURR" span="6">0x400405000C09</button>
+		
+		<button label="CLEAR" span="4">0x40040538003D</button>
+		<button label="AutoOff" span="4">0x400405381924</button>
+		<button label="Timer" span="4">0x40040538A994</button>
+		
+		<button label="Select" span="4">0x40040538DFE2</button>
+		<button label="TimerRec" span="4">0x40040538D9E4</button>
+		<button label="Dimmer" span="4">0x40040538E9D4</button>
+		
+		<button label="TapePlay" span="4">0x40040510796C</button>
+		<button label="pause" span="4">0x400405505005</button>
+		<button label="Sleep" span="4">0x400405386954</button>
+		
+	</device>
+</irplus>

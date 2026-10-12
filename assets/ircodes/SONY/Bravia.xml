@@ -1,0 +1,18 @@
+<irplus manufacturer="SONY" name="Bravia 4K">
+  <protocol>SONY</protocol>
+  <device>0x01</device>
+  <button label="Power" type="power" code="0xA90"/>
+  <button label="Mute" type="mute" code="0x2C90"/>
+  <button label="Vol +" type="vol_up" code="0x490"/>
+  <button label="Vol -" type="vol_down" code="0xC90"/>
+  <button label="CH +" type="ch_up" code="0x090"/>
+  <button label="CH -" type="ch_down" code="0x890"/>
+  <button label="Up" type="dpad_up" code="0x2F80"/>
+  <button label="Down" type="dpad_down" code="0xAF80"/>
+  <button label="Left" type="dpad_left" code="0x6F80"/>
+  <button label="Right" type="dpad_right" code="0xEF80"/>
+  <button label="OK" type="dpad_center" code="0x5F80"/>
+  <button label="1" type="num" code="0x0000"/>
+  <button label="2" type="num" code="0x1000"/>
+  <button label="3" type="num" code="0x2000"/>
+</irplus>

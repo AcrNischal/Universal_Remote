@@ -1,0 +1,31 @@
+<irplus>
+    <device manufacturer="XORO" model="AudioDevice" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x00ff 0x50af</button>
+        <button label="INET TV" span="4">0x00ff 0xe21d</button>
+        <button label="INET RADIO" span="4">0x00ff 0xc23d</button>
+
+        <button label="FAVORITE" span="6">0x00ff 0x42bd</button>
+        <button label="REPEAT" span="6">0x00ff 0x708f</button>
+
+        <button label="EQ" span="4">0x00ff 0xe01f</button>
+        <button label="VOL+" span="4">0x00ff 0x00ff</button>
+        <button label="&#xFF581;" span="4">0x00ff 0x30cf</button>
+
+        <button label="LEFT/PREV" span="4">0x00ff 0xc03f</button>
+        <button label="ENTER" span="4">0x00ff 0xf807</button>
+        <button label="RIGHT/NEXT" span="4">0x00ff 0x40bf</button>
+
+        <button label="PAGE-" span="4">0x00ff 0x58a7</button>
+        <button label="VOL-" span="4">0x00ff 0x807f</button>
+        <button label="PAGE+" span="4">0x00ff 0x08f7</button>
+
+        <button label="HOME" span="4">0x00ff 0x6897</button>
+        <button label="STOP" span="4">0x00ff 0x20df</button>
+        <button label="TVOUT" span="4">0x00ff 0xd827</button>
+
+        <button label="MENUSUB" span="4">0x00ff 0x02fd</button>
+        <button label="RETURN" span="4">0x00ff 0x906f</button>
+        <button label="PLAY" span="4">0x00ff 0x10ef</button>
+     </device>
+</irplus>

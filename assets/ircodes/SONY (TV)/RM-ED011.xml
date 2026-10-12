@@ -1,0 +1,47 @@
+<irplus>
+    <device manufacturer="SONY" model="RM-ED011" columns="12" format="WINLIRC_SPACEENC" bits="12" pre-bits="12" repeat="3" repeatheader="true" frequency="40000"
+         gap-pulse="1" gap-space="44813" one-pulse="1257" one-space="532" zero-pulse="660" zero-space="532" header-pulse="2453" header-space="529">
+
+        <button label="I+?" span="4">0x5D0</button>
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xA90</button>
+        <button label="ANALOG" span="4">0x1D0</button>
+
+        <button label="AUDIO" span="4">0xE90</button>
+        <button label="&#xf0d8;" alt="UP" span="4">0x2F0</button>
+        <button label="INPUT" span="4">0xA50</button>
+
+        <button label="&#xf0d9;" alt="LEFT" span="4">0x2D0</button>
+        <button label="OK" span="4">0xA70</button>
+        <button label="&#xf0da;" alt="RIGHT" span="4">0xCD0</button>
+
+        <button label="HOME" span="4">0x070</button>
+        <button label="&#xf0d7;" alt="DOWN" span="4">0xAF0</button>
+        <button label="&#xFF581;" span="4">0x290</button>
+
+        <button label="V1" span="3">0x338</button>
+        <button label="V2" span="3">0xB38</button>
+        <button label="V3" span="3">0x738</button>
+        <button label="V4" span="3">0xF38</button>
+
+        <button label="1" span="4">0x010</button>
+        <button label="2" span="4">0x810</button>
+        <button label="3" span="4">0x410</button>
+        <button label="4" span="4">0xC10</button>
+        <button label="5" span="4">0x210</button>
+        <button label="6" span="4">0xA10</button>
+        <button label="7" span="4">0x610</button>
+        <button label="8" span="4">0xE10</button>
+        <button label="9" span="4">0x110</button>
+
+        <button label="TOGGLE" span="4">0xDD0</button>
+        <button label="0" span="4">0x910</button>
+        <button label="TEXT" span="4">0xFD0</button>
+
+        <button label="VOL+" span="6">0x490</button>
+        <button label="CH+" span="6">0x090</button>
+
+        <button label="VOL+" span="6">0xC90</button>
+        <button label="CH-" span="6">0x890</button>
+
+    </device>
+</irplus>

@@ -1,0 +1,39 @@
+<irplus>
+    <device manufacturer="LEXICON" model="750-10978" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16" gap-pulse="550" gap-space="38500"
+        one-pulse="550" one-space="1650" zero-pulse="550" zero-space="550" header-pulse="8800" header-space="4400">
+
+        <button label="ON" span="6">0x41D0 0x18E7</button>
+        <button label="OFF" span="6">0x41D0 0x9867</button>
+      
+        <button label="VOLUME" span="4">0x41D0 0xE817</button>
+        <button label="&#xFF581;" span="4">0x41D0 0xA857</button>
+        <button label="VOLUME" span="4">0x41D0 0x6897</button>
+      
+        <button label="TV" span="4">0x41D0 0x08F7</button>
+        <button label="VCR1" span="4">0x41D0 0xC837</button>
+        <button label="VCR2" span="4">0x41D0 0x48B7</button>
+
+        <button label="V-DISC" span="4">0x41D0 0x8877</button>
+        <button label="TAPE" span="4">0x41D0 0x30CF</button>
+        <button label="CD" span="4">0x41D0 0x708F</button>
+      
+        <button label="TUNER" span="6">0x41D0 0xB04F</button>
+        <button label="AUX" span="6">0x41D0 0xF00F</button>
+
+        <button label="EFFECT" span="3">0x41D0 0x58A7</button>
+        <button label="EFFECT" span="3">0x41D0 0xD827</button>
+        <button label="BYPASS" span="3">0x41D0 0xF807</button>
+        <button label="RECORD ZONE2" span="3">0x41D0 0x28D7</button>
+
+        <button label="MENU" span="3">0x41D0 0x807F</button>
+        <button label="MENU" span="3">0x41D0 0xB847</button>
+        <button label="MENU DONE" span="3">0x41D0 0x50AF</button>
+        <button label="MENU SELECT" span="3">0x41D0 0x10EF</button>
+
+        <button label="BALANCE" span="3">0x41D0 0x7887</button>
+        <button label="BALANCE-L" span="3">0x41D0 0x609F</button>
+        <button label="BALANCE-R" span="3">0x41D0 0x20DF</button>
+        <button label="BALANCE" span="3">0x41D0 0xA05F</button>
+
+    </device>
+</irplus>

@@ -1,0 +1,21 @@
+<irplus>
+    <device manufacturer="MICROLAB" model="PRO2" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#61457;" labelSize="18.0" span="6" backgroundColor="FFC11C1C">0x00ff 0x00ff</button>
+        <button label="&#xFF581;" labelSize="18.0" span="6" backgroundColor="FF309330">0x00ff 0x40bf</button>
+
+        <button label="INPUT SEL" labelSize="12.0" span="6">0x00ff 0x20df</button>
+        <button label="3D" labelSize="18.0" span="6">0x00ff 0x609f</button>
+
+        <button label="BALANCE-R" labelSize="12.0" span="4">0x00ff 0x10ef</button>
+        <button label="TREBLE+" labelSize="12.0" span="4">0x00ff 0x906f</button>
+        <button label="BASS+" labelSize="12.0" span="4">0x00ff 0x50af</button>
+
+        <button label="BALANCE-L" labelSize="12.0" span="4">0x00ff 0x30cf</button>
+        <button label="TREBLE-" labelSize="12.0" span="4">0x00ff 0xb04f</button>
+        <button label="BASS-" labelSize="12.0" span="4">0x00ff 0x708f</button>
+
+        <button label="VOL-" labelSize="18.0" span="6">0x00ff 0x08f7</button>
+        <button label="VOL+" labelSize="18.0" span="6">0x00ff 0x8877</button>
+    </device>
+</irplus>

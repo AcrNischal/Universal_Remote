@@ -1,0 +1,38 @@
+<irplus>
+	<device manufacturer="LEXMAN" model="LED" columns="4" format="WINLIRC_NEC1">
+
+		<button label="OFF" labelSize="20.0" backgroundColor="8A8A8A8A" span="2">0x00ff 0x7887</button>
+		<button label="ON" labelColor="FF000000" labelSize="20.0" backgroundColor="FFFFFFFF" span="2">0x00ff 0xf807</button>
+
+        <button label="R" labelSize="25.0" backgroundColor="FFC84334">0x00ff 0x18e7</button>
+		<button label="G" labelSize="25.0" backgroundColor="FF1E7854">0x00ff 0x9867</button>
+		<button label="B" labelSize="25.0" backgroundColor="FF2A4C94">0x00ff 0x58a7</button>
+		<button label="." fillColor="FFFFFFFF">0x00ff 0xd827</button>
+
+        <button label="." fillColor="FFFF6600">0x00ff 0x20df</button>
+		<button label="." fillColor="FF00FF99">0x00ff 0xa05f</button>
+		<button label="." fillColor="FF0066FF">0x00ff 0x609f</button>
+		<button label="." fillColor="E5E5E5E5">0x00ff 0xe01f</button>
+
+        <button label="." fillColor="FFFF9900">0x00ff 0x10ef</button>
+		<button label="." fillColor="FF00FFCC">0x00ff 0x906f</button>
+		<button label="." fillColor="FF6666FF">0x00ff 0x50af</button>
+		<button label="." fillColor="CCCCCCCC">0x00ff 0xd02f</button>
+
+        <button label="." fillColor="FFFFCC00">0x00ff 0x30cf</button>
+		<button label="." fillColor="FF00FFFF">0x00ff 0xb04f</button>
+		<button label="." fillColor="FF9900FF">0x00ff 0x708f</button>
+		<button label="." fillColor="BDBDBDBD">0x00ff 0xf00f</button>
+
+        <button label="." fillColor="FFD6A81F">0x00ff 0x08f7</button>
+		<button label="." fillColor="FF33FFFF">0x00ff 0x8877</button>
+		<button label="." fillColor="FF9900CC">0x00ff 0x48b7</button>
+		<button label="." fillColor="ADADADAD">0x00ff 0xc837</button>
+
+        <button label="W" labelColor="FF000000" labelSize="15.0" backgroundColor="FFFFFFFF">0x00ff 0x28d7</button>
+		<button label="AUTO" labelColor="FF000000" labelSize="15.0" backgroundColor="FFFFFFFF">0x00ff 0xa857</button>
+		<button label="SAVE" labelColor="FF000000" labelSize="15.0" backgroundColor="FFFFFFFF">0x00ff 0x6897</button>
+		<button label="MODE" labelColor="FF000000" labelSize="15.0" backgroundColor="FFFFFFFF">0x00ff 0xe817</button>
+		
+	</device>
+</irplus>

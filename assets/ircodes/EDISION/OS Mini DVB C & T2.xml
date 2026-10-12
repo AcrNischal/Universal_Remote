@@ -1,0 +1,63 @@
+<irplus>
+    <device manufacturer="EDISION" model="OS Mini DVB C + T2" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16">
+
+        <button label="&#61457;" span="4" backgroundColor="FFD12C2C">0x00ff 0x50af</button>
+        <button label="TV / Radio" span="4">0x00ff 0x847b</button>
+        <button label="&#xFF581;" span="4">0x00ff 0x30cf</button>
+
+        <button label="1" span="4">0x00ff 0x8877</button>
+        <button label="2" span="4">0x00ff 0x48b7</button>
+        <button label="3" span="4">0x00ff 0xc837</button>
+        <button label="4" span="4">0x00ff 0x28d7</button>
+        <button label="5" span="4">0x00ff 0xa857</button>
+        <button label="6" span="4">0x00ff 0x6897</button>
+        <button label="7" span="4">0x00ff 0xe817</button>
+        <button label="8" span="4">0x00ff 0x18e7</button>
+        <button label="9" span="4">0x00ff 0x9867</button>
+
+        <button label="Text" span="4">0x00ff 0x0cf3</button>
+        <button label="0" span="4">0x00ff 0x08f7</button>
+        <button label="Movie Center" span="4">0x00ff 0x24db</button>
+
+        <button label="Menu" span="4">0x00ff 0xe01f</button>
+        <button label="Exit" span="4">0x00ff 0xc23d</button>
+        <button label="History Zap" span="4">0x00ff 0x7887</button>
+
+        <button label="VOL+" span="4">0x00ff 0x10ef</button>
+        <button label="&#61656;" span="4">0x00ff 0x00ff</button>
+        <button label="CH+" span="4">0x00ff 0xd42b</button>
+
+        <button label="&#61657;" span="4">0x00ff 0xc03f</button>
+        <button label="OK" span="4">0x00ff 0xf807</button>
+        <button label="&#61658;" span="4">0x00ff 0x40bf</button>
+
+        <button label="VOL-" span="4">0x00ff 0x906f</button>
+        <button label="&#61655;" span="4">0x00ff 0x807f</button>
+        <button label="CH-" span="4">0x00ff 0x34cb</button>
+
+        <button label="R" span="3" fillColor="FFC84334">0x00ff 0xd827</button>
+        <button label="G" span="3" fillColor="FF1E7854">0x00ff 0xf00f</button>
+        <button label="Y" span="3" fillColor="FFD6A81F">0x00ff 0x42bd</button>
+        <button label="B" span="3" fillColor="FF2A4C94">0x00ff 0x609f</button>
+
+        <button label="EPG" span="3">0x00ff 0x708f</button>
+        <button label="Fav/Last" span="3">0x00ff 0xa05f</button>
+        <button label="Audio" span="3">0x00ff 0x58a7</button>
+        <button label="Subs/List" span="3">0x00ff 0x8c73</button>
+
+        <button label="Audio" span="3">0x00ff 0x2cd3</button>
+        <button label="Help" span="3">0x00ff 0x20df</button>
+        <button label="Video" span="3">0x00ff 0xd02f</button>
+        <button label="List" span="3">0x00ff 0xc43b</button>
+
+        <button label="Info" span="3">0x00ff 0xb847</button>
+        <button label="Timer" span="3">0x00ff 0xb04f</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0x00ff 0x1ce3</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">0x00ff 0x9c63</button>
+
+        <button label="&#xf111;" alt="REC" span="3">0x00ff 0x04fb</button>
+        <button label="&#xf04a;" alt="REW" span="3">0x00ff 0x4cb3</button>
+        <button label="&#xf04b;" alt="PLAY" span="3">0x00ff 0xcc33</button>
+        <button label="&#xf04e;" alt="FWD" span="3">0x00ff 0x0af5</button>
+    </device>
+</irplus>

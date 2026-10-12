@@ -1,0 +1,60 @@
+<irplus>
+	<device manufacturer="MEDION" model="RC-5112" columns="12" format="WINLIRC_RC5" one-space="848" one-pulse="946" zero-pulse="946" zero-space="848" pre-bits="13" toggle-bit-pos="2" frequency="36000">
+
+		<button label="&#xf011;" backgroundColor="FFC84334" span="6">0x104C</button>
+		<button label="&#xFF581;" span="6">0x104D</button>
+		
+		<button label="&#xf049;" span="3">0x105D</button>
+		<button label="&#xf04c;" span="3">0x1071</button>
+		<button label="&#xf04b;" span="3">0x1059</button>
+		<button label="&#xf050;" span="3">0x105E</button>
+		
+		<button label="&#xf04a;" span="3">0x105B</button>
+		<button label="&#xf04d;" span="3">0x1058</button>
+		<button label="&#xf111;" labelColor="FFC84334" span="3">0x1073</button>
+		<button label="&#xf04e;" span="3">0x105C</button>
+		
+		<button label="MENU" span="3">0x1070</button>
+		<button label="EXIT" span="3">0x1065</button>
+		<button label="INFO" span="3">0x1052</button>
+		<button label="SUBT" span="3">0x105F</button>
+		
+		<button label="FAV" span="3">0x1068</button>
+		<button label="EPG" span="3">0x106F</button>
+		<button label="LANG" span="3">0x104F</button>
+		<button label="INTERNET" span="3">0x106E</button>
+		
+		<button label="CH+" span="4">0x1060</button>
+		<button label="&#xf0d8;" span="4">0x1054</button>
+		<button label="VOL+" span="4">0x1050</button>
+		
+		<button label="&#xf0d9;" span="4">0x1055</button>
+		<button label="OK" span="4">0x1075</button>
+		<button label="&#xf0da;" span="4">0x1056</button>
+		
+		<button label="CH-" span="4">0x1061</button>
+		<button label="&#xf0d7;" span="4">0x1053</button>
+		<button label="VOL-" span="4">0x1051</button>
+		
+		<button label="R" fillColor="FFC84334" span="3">0x1077</button>
+		<button label="1" span="3">0x1041</button>
+		<button label="2" span="3">0x1042</button>
+		<button label="3" span="3">0x1043</button>
+		
+		<button label="G" fillColor="FF1E7854" span="3">0x1076</button>
+		<button label="4" span="3">0x1044</button>
+		<button label="5" span="3">0x1045</button>
+		<button label="6" span="3">0x1046</button>
+		
+		<button label="Y" fillColor="FFD6A81F" span="3">0x1072</button>
+		<button label="7" span="3">0x1047</button>
+		<button label="8" span="3">0x1048</button>
+		<button label="9" span="3">0x1049</button>
+		
+		<button label="B" fillColor="FF2A4C94" span="3">0x1074</button>
+		<button label="DISP" span="3">0x107C</button>
+		<button label="0" span="3">0x1040</button>
+		<button label="&#xf0e2;" alt="RECALL" span="3">0x1062</button>
+		
+	</device>
+</irplus>

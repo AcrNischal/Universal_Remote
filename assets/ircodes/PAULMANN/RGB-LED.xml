@@ -1,0 +1,58 @@
+<irplus>
+	<device manufacturer="PAULMANN" model="RGB-LED" columns="12" format="WINLIRC_NEC1" one-space="1578" one-pulse="652" zero-pulse="652" zero-space="466" header-pulse="9086" header-space="4384" bits="16" pre-bits="16">
+		<button label="&#xf0d8;" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xFF 0x3AC5</button>
+		<button label="&#xf0d7;" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xFF 0xBA45</button>
+		<button label="" backgroundColor="FF000000" span="3">0xFF 0x827D</button>
+		<button label="&#xf011;" backgroundColor="FFFF0000" span="3">0xFF 0x02FD</button>
+
+		<button label="R" labelColor="FF000000" backgroundColor="FFFF0000" span="3">0xFF 0x1AE5</button>
+		<button label="G" labelColor="FF000000" backgroundColor="FF00C616" span="3">0xFF 0x9A65</button>
+		<button label="B" labelColor="FF000000" backgroundColor="FF0000CC" span="3">0xFF 0xA25D</button>
+		<button label="WHITE" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xFF 0x22DD</button>
+
+		<button label="R1" fillColor="FFFF5900" span="3">0xff 0x2ad5</button>
+		<button label="G1" fillColor="FF00BC54" span="3">0xff 0xaa55</button>
+		<button label="B1" fillColor="FF0028FF" span="3">0xff 0x926d</button>
+		<button label="X1" fillColor="FFFFCED1" span="3">0xff 0x12ed</button>
+
+		<button label="R2" fillColor="FFFF8200" span="3">0xff 0x0af5</button>
+		<button label="G2" fillColor="FF00726D" span="3">0xff 0x8a75</button>
+		<button label="B2" fillColor="FF1E005E" span="3">0xff 0xb24d</button>
+		<button label="X2" fillColor="FFFFDBFF" span="3">0xff 0x32cd</button>
+		
+		<button label="R3" fillColor="FFFFC600" span="3">0xff 0x38c7</button>
+		<button label="G3" fillColor="FF0070AF" span="3">0xff 0xb847</button>
+		<button label="B3" fillColor="FF3A0056" span="3">0xff 0x7887</button>
+		<button label="X3" fillColor="FFB2FFBC" span="3">0xff 0xf807</button>
+		
+		<button label="R4" fillColor="FFFFFF00" span="3">0xff 0x18e7</button>
+		<button label="G4" fillColor="FF0042BC" span="3">0xff 0x9867</button>
+		<button label="B4" fillColor="FFAD3F91" span="3">0xff 0x58a7</button>
+		<button label="X4" fillColor="FFAACCFF" span="3">0xff 0xd827</button>
+		
+		<button label="R+" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xFF 0x28D7</button>
+		<button label="G+" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xFF 0xA857</button>
+		<button label="B+" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xFF 0x6897</button>
+		<button label="QUICK" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xFF 0xE817</button>
+		
+		<button label="R-" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xFF 0x08F7</button>
+		<button label="G-" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xFF 0x8877</button>
+		<button label="B-" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xFF 0x48B7</button>
+		<button label="SLOW" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xFF 0xC837</button>
+		
+		<button label="DIY1" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xFF 0x30CF</button>
+		<button label="DIY2" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xff 0xb04f</button>
+		<button label="DIY3" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xff 0x708f</button>
+		<button label="AUTO" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xFF 0xF00F</button>
+		
+		<button label="DIY4" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xff 0x10ef</button>
+		<button label="DIY5" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xff 0x906f</button>
+		<button label="DIY6" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xff 0x50af</button>
+		<button label="FLASH" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xFF 0xD02F</button>
+		
+		<button label="JUMP3" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xFF 0x20DF</button>
+		<button label="JUMP7" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xFF 0xA05F</button>
+		<button label="FADE3" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xFF 0x609F</button>
+		<button label="FADE7" labelColor="FF000000" backgroundColor="FFFFFFFF" span="3">0xFF 0xE01F</button>
+	</device>
+</irplus>

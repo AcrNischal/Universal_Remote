@@ -1,0 +1,37 @@
+<irplus>
+    <device manufacturer="PHILIPS" model="FW-362" columns="12" format="WINLIRC_RC5"
+        bits="13" pre-bits="13" gap-pulse="1" frequency="36000"
+        gap-space="113729" one-pulse="908" one-space="868" zero-pulse="908" zero-space="868" toggle-bit-pos="2">
+        
+        <button label="TV &#xf011;" span="3">0x100C</button>
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0x154C</button>
+        <button label="TV VCR" span="3">0x103F</button>
+        <button label="TUNER" span="3">0x147F</button>
+
+        <button label="CD" span="3">0x1D3F</button>
+        <button label="AUX" span="3">0x157F</button>
+        <button label="TAPE1" span="3">0x1CAC</button>
+        <button label="TAPE2" span="3">0x14AE</button>
+
+        <button label="VOL-" span="6">0x1411</button>
+        <button label="VOL+" span="6">0x1410</button>
+
+        <button label="" span="4">0x1175</button>
+        <button label="" span="4">0x1170</button>
+        <button label="" span="4">0x1176</button>
+
+        <button label="" span="3">0x1021</button>
+        <button label="" span="3">0x1020</button>
+        <button label="" span="3">0x1011</button>
+        <button label="" span="3">0x1010</button>
+
+        <button label="DSC" span="4">0x040F</button>
+        <button label="INCR. SOUND" span="4">0x0400</button>
+        <button label="DBB" span="4">0x0406</button>
+        
+        <button label="DISC UP" span="4">0x1D1E</button>
+        <button label="SHUFFLE" span="4">0x151C</button>
+        <button label="SIDE" span="4">0x1CAF</button>
+
+    </device>
+</irplus>

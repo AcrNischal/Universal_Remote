@@ -1,0 +1,59 @@
+<irplus>
+    <device manufacturer="HUMAX" model="RS-636" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16"
+        toggle-bit-pos="0" gap-pulse="688" gap-space="107904" one-pulse="687" one-space="1546" zero-pulse="687" zero-space="435" header-pulse="9111" header-space="4373">
+
+        <button label="TV/RADIO" span="4">0x92 0xB04F</button>
+        <button label="INPUT" span="4">0x92 0x40BF</button>
+        <button label="&#xf011;" backgroundColor="FFD6A81F" span="4">0x92 0x00FF</button>
+
+        <button label="1" span="4">0x92 0xC03F</button>
+        <button label="2" span="4">0x92 0x20DF</button>
+        <button label="3" span="4">0x92 0xA05F</button>
+
+        <button label="4" span="4">0x92 0x609F</button>
+        <button label="5" span="4">0x92 0xE01F</button>
+        <button label="6" span="4">0x92 0x10EF</button>
+
+        <button label="7" span="4">0x92 0x906F</button>
+        <button label="8" span="4">0x92 0x50AF</button>
+        <button label="9" span="4">0x92 0xD02F</button>
+
+        <button label="EPG" span="4">0x92 0xD827</button>
+        <button label="0" span="4">0x92 0x30CF</button>
+        <button label="OPT+" span="4">0x92 0x42BD</button>
+
+        <button label="BACK" span="4">0x92 0x6897</button>
+        <button label="&#xf0d8;" span="4">0x92 0x8877</button>
+        <button label="LAST" span="4">0x92 0x827D</button>
+
+        <button label="&#xf0d9;" span="4">0x92 0x48B7</button>
+        <button label="OK" span="4">0x92 0xC837</button>
+        <button label="&#xf0da;" span="4">0x92 0x28D7</button>
+
+        <space multiple="4"/>
+        <button label="&#xf0d7;" span="4">0x92 0xA857</button>
+        <space multiple="4"/>
+
+        <button label="R" fillColor="FFC84334" span="3">0x92 0x38C7</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x92 0xB847</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x92 0x58A7</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x92 0x7887</button>
+
+        <button label="P-" span="3">0x92 0xF00F</button>
+        <button label="P+" span="3">0x92 0x08F7</button>
+        <button label="VOL-" span="3">0x92 0x02FD</button>
+        <button label="VOL+" span="3">0x92 0xF807</button>
+
+        <button label="MENU" span="4">0x92 0x708F</button>
+        <button label="INFO" span="4">0x92 0xC23D</button>
+        <button label="&#xFF581;" span="4">0x92 0x18E7</button>
+
+        <button label="LIST" span="4">0x92 0xB24D</button>
+        <button label="TEXT" span="4">0x92 0x629D</button>
+        <button label="PAGE+" span="4">0x92 0x926D</button>
+
+        <button label="WIDE" span="4">0x92 0x728D</button>
+        <button label="FORMAT" span="4">0x92 0xF20D</button>
+        <button label="PAGE-" span="4">0x92 0x52AD</button>
+    </device>
+</irplus>

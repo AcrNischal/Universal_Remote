@@ -1,0 +1,66 @@
+<irplus>
+    <device manufacturer="ARCAM" model="AVR400" columns="12" format="WINLIRC_RC5" bits="13" toggle-bit-pos="2" frequency="36000">
+
+        <button label="&#xf011; On" span="4">0x147B</button>
+        <button label="&#xf011; Off" span="4">0x147C</button>
+        <button label="Standby" span="4">0x140C</button>
+
+        <button label="Phono" span="4">0x1401</button>
+        <button label="AV" span="4">0x1402</button>
+        <button label="Tuner" span="4">0x1403</button>
+      
+        <button label="BD" span="4">0x1404</button>
+        <button label="Display (ARC)" span="4">0x1405</button>
+        <button label="VCR" span="4">0x1406</button>
+      
+        <button label="CD" span="4">0x1407</button>
+        <button label="Aux" span="4">0x1408</button>
+        <button label="MCH" span="4">0x1409</button>
+      
+        <button label="SAT" span="3">0x1400</button>
+        <button label="PVR" span="3">0x1422</button>
+        <button label="iPod" span="3">0x1412</button>
+        <button label="NET" span="3">0x140B</button>
+
+        <button label="Random" span="4">0x1430</button>
+        <button label="&#xf0d8;" span="4">0x1456</button>
+        <button label="Repeat" span="4">0x1431</button>
+
+        <button label="&#xf0d9;" span="4">0x1451</button>
+        <button label="OK" span="4">0x1457</button>
+        <button label="&#xf0da;" span="4">0x1450</button>
+
+        <button label="MODE" span="4">0x1420</button>
+        <button label="&#xf0d7;" span="4">0x1455</button>
+        <button label="MENU" span="4">0x1452</button>
+
+        <button label="VOL-" span="4">0x1411</button>
+        <button label="&#xFF581;" span="4">0x140D</button>
+        <button label="VOL+" span="4">0x1410</button>
+
+        <button label="CH- (PREV)" span="4">0x1439</button>
+        <button label="VFD BRIGHT. (DISP)" span="4">0x143B</button>
+        <button label="CH+ (NEXT)" span="4">0x1438</button>
+
+        <button label="NEXT ZONE" span="3">0x145F</button>
+        <button label="FLLOW-ZONE1" span="3">0x1414</button>
+        <button label="RESOLUTIONS" span="3">0x142F</button>
+        <button label="ASP.RATIO" span="3">0x1413</button>
+
+        <button label="DIRECT/REW" span="3">0x140A</button>
+        <button label="EQ/PLAY" span="3">0x141E</button>
+        <button label="EFFECT/PAUSE" span="3">0x1446</button>
+        <button label="BASS/FWD" span="3">0x1427</button>
+
+        <button label="TRIM/EJECT" span="3">0x1425</button>
+        <button label="SYNC/STOP" span="3">0x1432</button>
+        <button label="SUB/RECORD" span="3">0x1433</button>
+        <button label="TREBLE/SRCH" span="3">0x140E</button>
+
+        <button label="FAV+/SETUP" backgroundColor="FFC84334" span="3">0x1429</button>
+        <button label="FAV-/TITLE" backgroundColor="FF1E7854" span="3">0x142A</button>
+        <button label="HOME/AUDIO" backgroundColor="FFD6A81F" span="3">0x142B</button>
+        <button label="INFO/SUBT" backgroundColor="FF2A4C94" span="3">0x1437</button>
+
+    </device>
+</irplus>

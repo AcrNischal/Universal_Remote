@@ -1,0 +1,37 @@
+<irplus>
+	<device manufacturer="EMTEC" model="N200" columns="3" format="WINLIRC_NEC1">
+
+		<button label="&#xf011;" backgroundColor="FFC84334">0x00F9 0xEA15</button>
+		<space/>
+		<button label="&#xFF581;">0x00F9 0xDA25</button>
+
+		<button label="HOME">0x00F9 0xE21D</button>
+		<button label="OPT">0x00F9 0x6897</button>
+		<button label="RET">0x00F9 0xF20D</button>
+
+		<button label="VOL+">0x00F9 0xE817</button>
+		<button label="&#xf0d8;">0x00F9 0xC23D</button>
+		<button label="">0x00F9 0xD02F</button>
+
+		<button label="&#xf0d9;">0x00F9 0x609F</button>
+		<button label="OK">0x00F9 0x40BF</button>
+		<button label="&#xf0da;">0x00F9 0x708F</button>
+
+		<button label="VOL-">0x00F9 0x2AD5</button>
+		<button label="&#xf0d7;">0x00F9 0x50AF</button>
+		<button label="">0x00F9 0xF00F</button>
+
+		<button label="">0x00F9 0xE01F</button>
+		<button label=" ">0x00F9 0x0AF5</button>
+		<button label="">0x00F9 0xC03F</button>
+
+		<button label="SEARCH">0x00F9 0x0CF3</button>
+		<button label="&#xf04d;" alt="STOP">0x00F9 0xC837</button>
+		<button label="TV SYS">0x00F9 0x807F</button>
+
+		<space/>
+		<button label="">0x00F9 0x8C73</button>
+		<space/>
+
+ 	</device>
+</irplus>

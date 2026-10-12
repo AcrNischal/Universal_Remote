@@ -1,0 +1,47 @@
+<irplus>
+    <device manufacturer="HAUPPAUGE" model="DSR-0095" columns="20" format="WINLIRC_RC5" bits="13" toggle-bit-pos="2" frequency="36000">
+
+        <button label="" span="4">0x1F7B</button>
+        <button label="" span="4">0x1F5B</button>
+        <button label="" labelColor="FFC84334" span="4">0x1F77</button>
+        <button label="&#xf0d8;" span="4">0x1F54</button>
+        <button label="INFO" span="4">0x1F4D</button>
+
+        <button label="LIVE" span="4">0x1F5C</button>
+        <button label="" span="4">0x1F70</button>
+        <button label="&#xf0d9;" span="4">0x1F56</button>
+        <button label="OK" span="4">0x1F65</button>
+        <button label="&#xf0da;" span="4">0x1F57</button>
+
+        <button label="" span="4">0x1F64</button>
+        <button label="" span="4">0x1F75</button>
+        <button label="" span="4">0x1F5E</button>
+        <button label="&#xf0d7;" span="4">0x1F55</button>
+        <button label="CH+" span="4">0x1F60</button>
+
+        <button label="" span="4">0x1F72</button>
+        <button label="" span="4">0x1F76</button>
+        <button label="" span="4">0x1F74</button>
+        <button label="EXIT" span="4">0x1F5F</button>
+        <button label="CH-" span="4">0x1F61</button>
+
+        <button label="1" span="4">0x1F41</button>
+        <button label="2" span="4">0x1F42</button>
+        <button label="3" span="4">0x1F43</button>
+        <button label="ENTER" span="4">0x1F65</button>
+        <button label="JUMP" span="4">0x1F52</button>
+
+        <button label="4" span="4">0x1F44</button>
+        <button label="5" span="4">0x1F45</button>
+        <button label="6" span="4">0x1F46</button>
+        <button label="CC" span="4">0x1F4E</button>
+        <button label="VOL+" span="4">0x1F50</button>
+
+        <button label="7" span="4">0x1F47</button>
+        <button label="8" span="4">0x1F48</button>
+        <button label="9" span="4">0x1F49</button>
+        <button label="0" span="4">0x1F40</button>
+        <button label="VOL-" span="4">0x1F51</button>
+
+    </device>
+</irplus>

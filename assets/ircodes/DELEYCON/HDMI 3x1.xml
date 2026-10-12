@@ -1,0 +1,15 @@
+<irplus>
+    <device manufacturer="deleyCON" model="MK107" columns="6" format="WINLIRC_SPACEENC" bits="32" pre-bits="32"
+        toggle-bit-pos="0" gap-pulse="567" gap-space="107958" one-pulse="587" one-space="1692"
+        zero-pulse="587" zero-space="527" header-pulse="9077" header-space="4476">
+
+        <button label="&#xf0d8;" alt="UP" labelSize="50.0" span="3" backgroundColor="FF1E7854">0x00FF00FF</button>
+        <button label="&#xf0d7;" alt="DOWN" labelSize="50.0" span="3" backgroundColor="FF1E7854">0x00FF20DF</button>
+
+        <button label="1" labelSize="50.0" span="2">0x00FF609F</button>
+        <button label="2" labelSize="50.0" span="2">0x00FF50AF</button>
+        <button label="3" labelSize="50.0" span="2">0x00FF708F</button>
+
+        <button label="MEMORY" labelSize="50.0" span="6" backgroundColor="FFC84334">0x00FF6897</button>
+    </device>
+</irplus>

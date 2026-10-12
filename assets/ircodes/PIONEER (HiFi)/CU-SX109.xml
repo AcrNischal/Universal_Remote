@@ -1,0 +1,55 @@
+<irplus>
+    <device manufacturer="PIONEER" model="CU-SX109" columns="12" format="WINLIRC_SPACEENC"
+        one-space="1636" one-pulse="495" zero-pulse="495" zero-space="570" header-pulse="8522" header-space="4270" pre-bits="32">
+
+        <button label="ReceiverON" span="4">0xA55A38C7</button>
+        <button label="CDON" span="4">0x45BA38C7</button>
+        <button label="TapeON" span="4">0x857A38C7</button>
+
+        <button label="1" span="4">0x25DA807F</button>
+        <button label="2" span="4">0x25DA40BF</button>
+        <button label="3" span="4">0x25DAC03F</button>
+
+        <button label="4" span="4">0x25DA20DF</button>
+        <button label="5" span="4">0x25DAA05F</button>
+        <button label="6" span="4">0x25DA609F</button>
+
+        <button label="7" span="4">0x25DAE01F</button>
+        <button label="8" span="4">0x25DA10EF</button>
+        <button label="9" span="4">0x25DA906F</button>
+
+        <button label="VOL+" span="4">0xA55A50AF</button>
+        <button label="0" span="4">0x25DA00FF</button>
+        <button label="VOL-" span="4">0xA55AD02F</button>
+
+        <button label="Direct" span="4">0xA55ABA45</button>
+        <button label="Monitor" span="4">0xA55AB847</button>
+        <button label="function" span="4">0xA55AAA55</button>
+
+        <button label="muting" span="4">0xA55A48B7</button>
+        <button label="fmam" span="4">0x25DAC837</button>
+        <button label="mpx" span="4">0x25DA7887</button>
+
+        <button label="displaymode" span="4">0x25DA52AD</button>
+        <button label="directaccess" span="4">0x25DAC23D</button>
+        <button label="class" span="4">0x25DA02FD</button>
+
+        <button label="tapepause" span="4">0x857A7A85</button>
+        <button label="tapestop" span="4">0x857A3AC5</button>
+        <button label="tapeff" span="4">0x857A6A95</button>
+
+        <button label="taperw" span="4">0x857AEA15</button>
+        <button label="tapeforward" span="4">0x857ABA45</button>
+        <button label="tapereverse" span="4">0x857ADA25</button>
+
+        <button label="cddiscp" span="3">0x45BAB847</button>
+        <button label="cddiscm" span="3">0x45BA837C</button>
+        <button label="cdnext" span="3">0x45BA08F7</button>
+        <button label="cdpre" span="3">0x45BA8877</button>
+
+        <button label="cdplay" span="3">0x45BAE817</button>
+        <button label="cdpause" span="3">0x45BA18E7</button>
+        <button label="cdstop" span="3">0x45BA6897</button>
+        <button label="cdbest" span="3">0x45BA43BC</button>
+    </device>
+</irplus>

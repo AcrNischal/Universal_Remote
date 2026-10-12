@@ -1,0 +1,29 @@
+<irplus>
+    <device manufacturer="TEUFEL" model="Cinebar21" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x40bf 0xea15</button>
+        <space multiple="4"/>
+        <button label="&#xFF581;" backgroundColor="FFC84334" span="4">0x40bf 0x28d7</button>
+
+        <button label="AUX" backgroundColor="FF555555" span="4">0x40bf 0xca35</button>
+        <button label="OPTICAL" backgroundColor="FF555555" span="4">0x40bf 0x8877</button>
+        <button label="COAXIAL" backgroundColor="FF555555" span="4">0x40bf 0x08f7</button>
+
+        <space multiple="4"/>
+        <button label="SUB+" labelColor="FF000000" backgroundColor="FF999999" span="4">0x40bf 0xb04f</button>
+        <space multiple="4"/>
+
+        <button label="-" alt="PREV" labelColor="FF000000" backgroundColor="FF999999" span="4">0x40bf 0x728d</button>
+        <button label="TONE" alt="PLAY/PAUSE" labelColor="FF000000" backgroundColor="FF999999" span="4">0x40bf 0x9867</button>
+        <button label="+" labelColor="FF000000" backgroundColor="FF999999" span="4">0x40bf 0x30cf</button>
+
+        <space multiple="4"/>
+        <button label="SUB-" labelColor="FF000000" backgroundColor="FF999999" span="4">0x40bf 0xf20d</button>
+        <space multiple="4"/>
+
+        <button label="LIP SYNC" span="4">0x40bf 0xd22d</button>
+        <button label="DIMMER" span="4">0x40bf 0x906f</button>
+        <button label="SURROUND" span="4">0x40bf 0x10ef</button>
+
+    </device>
+</irplus>

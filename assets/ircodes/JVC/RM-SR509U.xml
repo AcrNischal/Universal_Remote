@@ -1,0 +1,68 @@
+<irplus>
+	<device manufacturer="JVC" model="RM-SR509U" columns="12" format="WINLIRC_SPACEENC" one-space="1594" one-pulse="512" zero-pulse="512" zero-space="541" header-pulse="8412" header-space="4228" pre-bits="16" repeat="2" repeatheader="false" gap-pulse="1" gap-space="46839">
+
+            <button label="&#xf011; AUDIO" span="3">0xC5E8</button>
+            <button label="&#xf011; VCR" span="3">0xC2D0</button>
+            <button label="&#xf011; TV" span="3">0xC0E8</button>
+            <button label="SLEEP" span="3">0xC5C0</button>
+
+            <button label="PHONO" span="3">0xC53C</button>
+            <button label="CD" span="3">0xC5BC</button>
+            <button label="TAPE1" span="3">0xC5FC</button>
+            <button label="TAPE2" span="3">0xC5E0</button>
+
+            <button label="FM" span="3">0xC510</button>
+            <button label="AM" span="3">0xC590</button>
+            <button label="VCR" span="3">0xC588</button>
+            <button label="VIDEO" span="3">0xC548</button>
+
+            <button label="RADIO PRESET+" span="3">0xC598</button>
+            <button label="RADIO PRESET-" span="3">0xC518</button>
+            <button label="PHONO &#xf04b;" span="3">0xCD30</button>
+            <button label="PHONO &#xf04d;" span="3">0xCD40</button>
+
+            <button label="SURR ON/OFF" span="3">0xC5A0</button>
+            <button label="SURR MODE" span="3">0xC51A</button>
+            <button label="REAR-" span="3">0xC5F2</button>
+            <button label="REAR+" span="3">0xC572</button>
+
+            <button label="DELAY" span="3">0xC512</button>
+            <button label="TEST" span="3">0xC5EB</button>
+            <button label="CENTER-" span="3">0xC59B</button>
+            <button label="CENTER+" span="3">0xC51B</button>
+
+            <button label="VCR &#xf04b;" span="3">0xC230</button>
+            <button label="VCR &#xf111;" span="3">0xC233</button>
+            <button label="VCR &#xf04d;" span="3">0xC2C0</button>
+            <button label="VCR &#xf04c;" span="3">0xC2B0</button>
+
+            <button label="VCR &#xf04a;" span="3">0xC2E0</button>
+            <button label="VCR &#xf04e;" span="3">0xC260</button>
+            <button label="VCR CH+" span="3">0xC298</button>
+            <button label="VCR CH-" span="3">0xC218</button>
+
+            <button label="TAPE &#xf04b;" span="3">0xC130</button>
+            <button label="TAPE &#xf111;" span="3">0xC133</button>
+            <button label="TAPE &#xf049;" span="3">0xC118</button>
+            <button label="TAPE &#xf050;" span="3">0xC198</button>
+
+            <button label="TAPE &#xf04d;" span="3">0xC1C0</button>
+            <button label="TAPE &#xf04c;" span="3">0xC1B0</button>
+            <button label="TAPE &#xf04a;" span="3">0xC1E0</button>
+            <button label="TAPE &#xf04e;" span="3">0xC160</button>
+
+            <button label="CD &#xf04b;" span="3">0xCD9E</button>
+            <button label="CD &#xf049;" span="3">0xCD5E</button>
+            <button label="CD &#xf050;" span="3">0xCDDE</button>
+            <button label="CD &#xf04d;" span="3">0xCD3E</button>
+
+            <button label="CD &#xf04c;" span="4">0xCDBE</button>
+            <button label="CD &#xf04a;" span="4">0xCD7E</button>
+            <button label="CD &#xf04e;" span="4">0xCD1E</button>
+
+            <button label="FADE" span="4">0xC538</button>
+            <button label="VOL-" span="4">0xC5F8</button>
+            <button label="VOL+" span="4">0xC578</button>
+
+    </device>
+</irplus>

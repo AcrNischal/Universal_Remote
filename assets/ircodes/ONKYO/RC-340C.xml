@@ -1,0 +1,43 @@
+<irplus>
+    <device manufacturer="ONKYO" model="RC-340C" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16" gap-pulse="624" gap-space="108157" one-pulse="624" one-space="1629" zero-pulse="624" zero-space="503" header-pulse="9095" header-space="4443">
+        <button label="&#xf052;" alt="EJECT" span="3">0x4B34 0xD02F</button>
+        <button label="DISPLAY" span="3">0x4B34 0x50AF</button>
+        <space multiple="3"/>
+        <space multiple="3"/>
+        
+        <button label="REPEAT" span="3">0x4B34 0x609F</button>
+        <button label="&#xf04c;" alt="PAUSE" span="3">0x4B34 0xF807</button>
+        <button label="&#xf04d;" alt="STOP" span="3">0x4B34 0x38C7</button>
+        <button label="&#xf04b;" alt="PLAY" span="3">0x4B34 0xD827</button>
+        
+        <button label="REV SEEK" span="3">0x4B34 0x807F</button>
+        <button label="FWD SEEK" span="3">0x4B34 0x00FF</button>
+        <button label="REV SKIP" span="3">0x4B34 0x7887</button>
+        <button label="FWD SKIP" span="3">0x4B34 0xB847</button>
+        
+        <button label="1" span="3">0x4B34 0x08F7</button>
+        <button label="2" span="3">0x4B34 0x8877</button>
+        <button label="3" span="3">0x4B34 0x48B7</button>
+        <button label="MEMORY" span="3">0x4B34 0x906F</button>
+
+        <button label="4" span="3">0x4B34 0xC837</button>
+        <button label="5" span="3">0x4B34 0x18E7</button>
+        <button label="6" span="3">0x4B34 0x9867</button>
+        <button label="CLEAR" span="3">0x4B34 0x10EF</button>
+
+        <button label="7" span="3">0x4B34 0x58A7</button>
+        <button label="8" span="3">0x4B34 0x30CF</button>
+        <button label="9" span="3">0x4B34 0xB04F</button>
+        <button label="TIME EDIT" span="3">0x4B34 0xB24D</button>
+
+        <button label="+10" span="3">0x4B34 0xF00F</button>
+        <button label="0" span="3">0x4B34 0x708F</button>
+        <button label="NEXT SEL" span="3">0x4B34 0xA05F</button>
+        <space multiple="3"/>
+        
+        <button label="PEAK SEARCH" span="3">0x4B34 0xBA45</button>
+        <button label="A-B" span="3">0x4B34 0xE01F</button>
+        <button label="SHUFFLE" span="3">0x4B34 0x629D</button>
+        <space multiple="3"/>
+    </device>
+</irplus>

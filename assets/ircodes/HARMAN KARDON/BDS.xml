@@ -1,0 +1,86 @@
+<irplus>
+    <device manufacturer="HARMAN KARDON" model="BDS" columns="12" format="WINLIRC_NEC1">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0x616E 0x0DF2</button>
+        <button label="&#xf052;" span="3">0x616E 0xFB04</button>
+        <button label="USB" span="3">0x616E 0xAD52</button>
+        <button label="TUNER" span="3">0x616E 0xCD32</button>
+
+        <button label="COMPONENT" span="3">0x616E 0x758A</button>
+        <button label="HDMI1" span="3">0x616E 0xD52A</button>
+        <button label="HDMI2" span="3">0x616E 0x35CA</button>
+        <button label="HDMI3" span="3">0x616E 0xB54A</button>
+
+        <button label="DISC" span="4">0x616E 0x4DB2</button>
+        <button label="&#xf0D8;" span="4">0x616E 0x3DC2</button>
+        <button label="IPOD" span="4">0x616E 0xAD52</button>
+
+        <button label="&#xf0D9;" span="4">0x616E 0xBD42</button>
+        <button label="OK" span="4">0x616E 0x7D82</button>
+        <button label="&#xf0DA;" span="4">0x616E 0xFD02</button>
+
+        <button label="BRIDGE" span="4">0x616E 0xAD52</button>
+        <button label="&#xf0D7;" span="4">0x616E 0x837C</button>
+        <button label="AUX" span="4">0x616E 0x6D92</button>
+
+        <button label="1" span="4">0x616E 0x2BD4</button>
+        <button label="2" span="4">0x616E 0xAB54</button>
+        <button label="3" span="4">0x616E 0x6B94</button>
+
+        <button label="4" span="4">0x616E 0xEB14</button>
+        <button label="5" span="4">0x616E 0x1BE4</button>
+        <button label="6" span="4">0x616E 0x9B64</button>
+
+        <button label="7" span="4">0x616E 0x5BA4</button>
+        <button label="8" span="4">0x616E 0xDB24</button>
+        <button label="9" span="4">0x616E 0x3BC4</button>
+
+        <button label="REPEAT" span="4">0x616E 0x2DD2</button>
+        <button label="0" span="4">0x616E 0xBB44</button>
+        <button label="DISPLAY" span="4">0x616E 0x1DE2</button>
+
+        <button label="HOME" span="4">0x616E 0x9D62</button>
+        <button label="SURROUND" span="4">0x616E 0xF50A</button>
+        <button label="OPTIONS" span="4">0x616E 0xDD22</button>
+
+        <button label="CLEAR" span="4">0x616E 0x7B84</button>
+        <button label="EXIT" span="4">0x616E 0x03FC</button>
+        <button label="POPUP" span="4">0x616E 0x43BC</button>
+
+        <button label="TUNER PRS+" span="6">0x616E 0xF30C</button>
+        <button label="TUNER PRS-" span="6">0x616E 0x0BF4</button>
+
+        <button label="&#xf049;" span="6">0x616E 0x13EC</button>
+        <button label="&#xf050;" span="6">0x616E 0x936C</button>
+
+        <button label="&#xf04A;" span="6">0x616E 0xB34C</button>
+        <button label="&#xf04E;" span="6">0x616E 0x738C</button>
+
+        <button label="&#xf04D;" span="4">0x616E 0x33CC</button>
+        <button label="&#xf04B;" span="4">0x616E 0x53AC</button>
+        <button label="&#xf04C;" span="4">0x616E 0xD32C</button>
+
+        <button label="MENU TOP" span="3">0x616E 0xC33C</button>
+        <button label="FIND" span="3">0x616E 0x8D72</button>
+        <button label="REPEAT A-B" span="3">0x616E 0xED12</button>
+        <button label="MODE SCROLL" span="3">0x616E 0xF50A</button>
+
+        <button label="TUNER-" span="4">0x616E 0x837C</button>
+        <button label="MENU SETUP" span="4">0x616E 0x5DA2</button>
+        <button label="TUNER+" span="4">0x616E 0x3DC2</button>
+
+        <button label="VOL+" span="4">0x616E 0x8B74</button>
+        <button label="&#xFF581;" span="4">0x616E 0xCB34</button>
+        <button label="CH-" span="4">0x616E 0x0BF4</button>
+
+        <button label="VOL-" span="4">0x616E 0x4BB4</button>
+        <space multiple="4"/>
+        <button label="CH+" span="4">0x616E 0xF30C</button>
+
+        <button label="PROGRAM" backgroundColor="FFC84334" span="3">0x616E 0x23DC</button>
+        <button label="BOOKMARK" backgroundColor="FF1E7854" span="3">0x616E 0xA35C</button>
+        <button label="THUMBNAIL" backgroundColor="FFD6A81F" span="3">0x616E 0x639C</button>
+        <button label="ZOOM" backgroundColor="FF2A4C94" span="3">0x616E 0xE31C</button>
+
+    </device>
+</irplus>

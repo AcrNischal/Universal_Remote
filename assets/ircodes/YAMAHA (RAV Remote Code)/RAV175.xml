@@ -1,0 +1,70 @@
+<irplus>
+    <device manufacturer="YAMAHA" model="RAV175" columns="12" format="YAMAHA_NEC_HEX">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">7A-1D</button>
+        <button label="STANDBY" span="6">7A-1E</button>
+
+        <button label="1" span="4">7A-15</button>
+        <button label="2" span="4">7A-16</button>
+        <button label="3" span="4">7A-18</button>
+
+        <button label="4" span="4">7A-17</button>
+        <button label="5" span="4">7A-54</button>
+        <button label="6" span="4">7A-0F</button>
+
+        <button label="7" span="4">7A-14</button>
+        <button label="8" span="4">7A-55</button>
+        <button label="9" span="4">7A-13</button>
+
+        <button label="0" span="4">7A-87</button>
+        <button label="ENTER" span="4">7A-12</button>
+        <button label="CLEAR" span="4">7A-85</button>
+
+        <button label="CH-" span="6">7A-11</button>
+        <button label="CH+" span="6">7A-10</button>
+
+        <button label="CD/CH-" span="6">7A-50</button>
+        <button label="CD/CH+" span="6">7A-4F</button>
+
+        <button label="VOL-" span="4">7A-1B</button>
+        <button label="&#xFF581;" span="4">7A-1C</button>
+        <button label="VOL+" span="4">7A-1A</button>
+
+        <button label="DISPLAY-AMP" span="4">7A-C2</button>
+        <button label="DISPLAY-CD" span="4">7A-0B</button>
+        <button label="SLEEP" span="4">7A-57</button>
+
+        <button label="MENU" span="3">7A-9C</button>
+        <button label="TITLE" span="3">7A-86</button>
+        <button label="TV-INPUT" span="3">7A-06</button>
+        <button label="REC" span="3">7A-04</button>
+
+        <button label="PLAY-CD" span="3">7A-08</button>
+        <button label="PLAY-MD" span="3">7A-07</button>
+        <button label="PAUSE-CD" span="3">7A-09</button>
+        <button label="PAUSE-DSP" span="3">7A-98</button>
+
+        <button label="&#xf049;" alt="PREV" span="3">7A-53</button>
+        <button label="&#xf04a;" alt="REW" span="3">7A-59</button>
+        <button label="&#xf04e;" alt="FWD" span="3">7A-58</button>
+        <button label="&#xf050;" alt="NEXT" span="3">7A-52</button>
+
+        <button label="DSP 1" span="4">7A-88</button>
+        <button label="DSP 2" span="4">7A-89</button>
+        <button label="DSP 3" span="4">7A-8A</button>
+
+        <button label="DSP 4" span="4">7A-8B</button>
+        <button label="DSP 5" span="4">7A-8C</button>
+        <button label="DSP 6" span="4">7A-8D</button>
+
+        <button label="DSP 7" span="4">7A-8E</button>
+        <button label="DSP 8" span="4">7A-8F</button>
+        <button label="DSP 9" span="4">7A-90</button>
+
+        <space multiple="4"/>
+        <button label="DSP 0" span="4">7A-91</button>
+        <space multiple="4"/>
+
+
+    </device>
+</irplus>

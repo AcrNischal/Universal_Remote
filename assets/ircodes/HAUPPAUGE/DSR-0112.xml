@@ -1,0 +1,47 @@
+<irplus>
+    <device manufacturer="HAUPPAUGE" model="DSR-0112" columns="20" format="WINLIRC_RC5" bits="13" toggle-bit-pos="2" repeat="2" frequency="36000">
+
+        <button label="BACK" span="4">0x175F</button>
+        <button label="&#xf0d8;" alt="UP" backgroundColor="FF2A4C94" span="4">0x1754</button>
+        <button label="TV" span="4">0x175C</button>
+        <button label="HOME" span="4">0x177B</button>
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x177D</button>
+
+        <button label="&#xf0d9;" alt="LEFT" backgroundColor="FF2A4C94" span="4">0x1756</button>
+        <button label="OK" backgroundColor="FF2A4C94" span="4">0x1765</button>
+        <button label="&#xf0da;" alt="RIGHT" backgroundColor="FF2A4C94" span="4">0x1757</button>
+        <button label="" span="4">0x1764</button>
+        <button label="" span="4">0x175E</button>
+
+        <button label="&#xf111;" alt="RECORD" labelColor="FFC84334" span="4">0x1777</button>
+        <button label="&#xf0d7;" alt="DOWN" backgroundColor="FF2A4C94" span="4">0x1755</button>
+        <button label="&#xf04d;" alt="STOP" span="4">0x1776</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x1770</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0x1775</button>
+
+        <button label="1" span="4">0x1741</button>
+        <button label="2" span="4">0x1742</button>
+        <button label="3" span="4">0x1743</button>
+        <button label="" span="4">0x1772</button>
+        <button label="" span="4">0x1774</button>
+
+        <button label="4" span="4">0x1744</button>
+        <button label="5" span="4">0x1745</button>
+        <button label="6" span="4">0x1746</button>
+        <button label="CH+" span="4">0x1760</button>
+        <button label="VOL+" span="4">0x1750</button>
+
+        <button label="7" span="4">0x1747</button>
+        <button label="8" span="4">0x1748</button>
+        <button label="9" span="4">0x1749</button>
+        <button label="CH-" span="4">0x1761</button>
+        <button label="VOL-" span="4">0x1751</button>
+
+        <button label="TEXT" span="4">0x174A</button>
+        <button label="0" span="4">0x1740</button>
+        <button label="MENU" span="4">0x174D</button>
+        <button label="&#xf0e2; CH" alt="RECALL" span="4">0x1752</button>
+        <button label="&#xFF581;" span="4">0x174F</button>
+
+    </device>
+</irplus>

@@ -1,0 +1,51 @@
+<irplus>
+    <device manufacturer="RADIX" model="3700S" columns="12" format="WINLIRC_NEC1" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x51af 0x00ff</button>
+        <button label="&#xFF581;" span="4">0x51af 0x9867</button>
+        <button label="TV/SAT" span="4">0x51af 0xb847</button>
+
+        <button label="1" span="4">0x51af 0xc03f</button>
+        <button label="2" span="4">0x51af 0x40bf</button>
+        <button label="3" span="4">0x51af 0x807f</button>
+        
+        <button label="4" span="4">0x51af 0xe01f</button>
+        <button label="5" span="4">0x51af 0x609f</button>
+        <button label="6" span="4">0x51af 0xa05f</button>
+        
+        <button label="7" span="4">0x51af 0xd02f</button>
+        <button label="8" span="4">0x51af 0x50af</button>
+        <button label="9" span="4">0x51af 0x906f</button>
+
+        <button label="FAV" span="4">0x51af 0x18e7</button>
+        <button label="0" span="4">0x51af 0x708f</button>
+        <button label="Info" span="4">0x51af 0xf807</button>
+
+        <button label="CH++" span="4">0x51af 0x58a7</button>
+        <button label="&#xf0d8;" span="4">0x51af 0x58a7</button>
+        <button label="VOL+" span="4">0x51af 0xc837</button>
+
+        <button label="&#xf0d9;" span="6">0x51af 0x8877</button>
+        <button label="&#xf0da;" span="6">0x51af 0xb04f</button>
+
+        <button label="CH-" span="4">0x51af 0xd827</button>
+        <button label="&#xf0d7;" span="4">0x51af 0xd827</button>
+        <button label="VOL-" span="4">0x00 0x00ff</button>
+
+        <button label="Text" span="3">0x51af 0x7887</button>
+        <button label="Audio" span="3">0x51af 0x38c7</button>
+        <button label="Video" span="3">0x51af 0xc837</button>
+        <button label="Zoom" span="3">0x51af 0x20df</button>
+
+        <button label="Back" span="3">0x51af 0x10ef</button>
+        <button label="Epg" span="3">0x51af 0x6897</button>
+        <button label="Opt?" span="3">0x51af 0x48b7</button>
+        <button label="SAT" span="3">0x51af 0xe817</button>
+
+        <button label="R" fillColor="FFC84334" span="3">0x51af 0xa857</button>
+        <button label="G" fillColor="FF1E7854" span="3">0x51af 0x30cf</button>
+        <button label="Y" fillColor="FFD6A81F" span="3">0x51af 0x28d7</button>
+        <button label="B" fillColor="FF2A4C94" span="3">0x51af 0x08f7</button>
+
+    </device>
+</irplus>

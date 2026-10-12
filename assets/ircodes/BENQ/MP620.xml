@@ -1,0 +1,27 @@
+<irplus>
+    <device manufacturer="BENQ" model="MP620" columns="12" format="WINLIRC_NEC1" one-space="1685" one-pulse="555"
+        zero-pulse="555" zero-space="567" header-pulse="9024" header-space="4491" bits="16" pre-bits="16">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="6">0xC 0x40BF</button>
+        <button label="PLAYPAUSE" span="6">0xC 0xC03F</button>
+
+        <button label="PAGE+" span="6">0xC 0xA05F</button>
+        <button label="PAGE-" span="6">0xC 0x609F</button>
+
+        <button label="MENU" span="4">0xC 0xF00F</button>
+        <button label="&#xf0d8;" span="4">0xC 0xD02F</button>
+        <button label="AUTO" span="4">0xC 0x10EF</button>
+
+        <button label="&#xf0d9;" span="4">0xC 0xB04F</button>
+        <button label="PRESET" span="4">0xC 0x08F7</button>
+        <button label="&#xf0da;" span="4">0xC 0x708F</button>
+
+        <button label="BLANK" span="4">0xC 0xE01F</button>
+        <button label="&#xf0d7;" span="4">0xC 0x30CF</button>
+        <button label="SOURCE" span="4">0xC 0x20DF</button>
+
+        <button label="KEY-SMALLER" span="4">0xC 0x50AF</button>
+        <button label="KEY-AUTO" span="4">0xC 0x8877</button>
+        <button label="KEY-LARGER" span="4">0xC 0x906F</button>
+    </device>
+</irplus>

@@ -1,0 +1,54 @@
+<irplus>
+    <device manufacturer="SONY" model="RM-U264" columns="12" format="WINLIRC_SPACEENC" bits="12" pre-bits="12" repeatheader="true" frequency="40000"
+        gap-pulse="1" gap-space="25061" one-pulse="1300" one-space="500" zero-pulse="700" zero-space="500" header-pulse="2530" header-space="480" repeat="4">
+
+        <button label="VIDEO" span="3">0x441</button>
+        <button label="TV" span="3">0x561</button>
+        <button label="TAPE/MD" span="3">0xC41</button>
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0xA81</button>
+
+        <button label="CD" span="4">0xA41</button>
+        <button label="TUNER" span="4">0x841</button>
+        <button label="PHONO" span="4">0x041</button>
+        
+        <button label="TUNER P-" span="4">0x896</button>
+        <button label="TUNER P+" span="4">0x096</button>
+        <button label="SHIFT" span="4">0xCD6</button>
+        
+        <button label="CD " span="4">0x4D1</button>
+        <button label="CD " span="4">0x9D1</button>
+        <button label="CD " span="4">0x1D1</button>
+        
+        <button label="CD " span="4">0x0D1</button>
+        <button label="CD " span="4">0x8D1</button>
+        <button label="D SKIP" span="4">0x7D1</button>
+        
+        <button label="MD " span="4">0x55E</button>
+        <button label="MD " span="4">0x95E</button>
+        <button label="MD " span="4">0x15E</button>
+        
+        <button label="MD " span="6">0x05E</button>
+        <button label="MD " span="6">0x85E</button>
+        
+        <button label="TAPE A &#xf0d9;" span="4">0xEC1</button>
+        <button label="TAPE A &#xf0da;" span="4">0x4C1</button>
+        <button label="TAPE A " span="4">0x1C1</button>
+        
+        <button label="TAPE A " span="6">0xCC1</button>
+        <button label="TAPE A " span="6">0x2C1</button>
+        
+        <button label="TAPE B &#xf0d9;" span="4">0x04E</button>
+        <button label="TAPE B &#xf0da;" span="4">0x58E</button>
+        <button label="TAPE B " span="4">0x18E</button>
+        
+        <button label="TAPE B " span="6">0xD8E</button>
+        <button label="TAPE B " span="6">0x38E</button>
+        
+        <button label="BASS" span="6">0x8C6</button>
+        <button label="VOL+" span="6">0x481</button>
+        
+        <button label="&#xFF581;" span="6">0x281</button>
+        <button label="VOL-" span="6">0xC81</button>
+        
+    </device>
+</irplus>

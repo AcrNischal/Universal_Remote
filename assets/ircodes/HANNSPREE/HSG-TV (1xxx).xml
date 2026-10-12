@@ -1,0 +1,64 @@
+<irplus><!-- HSG 1112 1113 1116 1117 1131 1188 1074 1076 1086 1210 1211 1233 -->
+	<device manufacturer="HANNSPREE" model="HSG1116" format="WINLIRC_NEC1" columns="12">
+
+		 <button label="⊙AV" span="4">0xCC33 0x718E</button>
+		 <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0xCC33 0xC13E</button>
+		 <button label="LIST" span="4">0xCC33 0x36C9</button>
+
+		 <button label="1" span="4">0xCC33 0x01FE</button>
+		 <button label="2" span="4">0xCC33 0x817E</button>
+		 <button label="3" span="4">0xCC33 0x41BE</button>
+
+		 <button label="4" span="4">0xCC33 0x21DE</button>
+		 <button label="5" span="4">0xCC33 0xA15E</button>
+		 <button label="6" span="4">0xCC33 0x619E</button>
+
+		 <button label="7" span="4">0xCC33 0x11EE</button>
+		 <button label="8" span="4">0xCC33 0x916E</button>
+		 <button label="9" span="4">0xCC33 0x51AE</button>
+
+		 <button label="INFO" span="4">0xCC33 0x29D6</button>
+		 <button label="0" span="4">0xCC33 0x31CE</button>
+		 <button label="LAST" span="4">0xCC33 0xB14E</button>
+
+		 <button label="MENU" span="4">0xCC33 0x8976</button>
+		 <button label="&#xf0d8;" span="4">0xCC33 0x59A6</button>
+		 <button label="EXIT" span="4">0xCC33 0x19E6</button>
+
+		 <button label="&#xf0d9;" span="4">0xCC33 0x09F6</button>
+		 <button label="OK" span="4">0xCC33 0x4BB4</button>
+		 <button label="&#xf0da;" span="4">0xCC33 0x49B6</button>
+
+		 <button label="EPG" span="4">0xCC33 0xEB14</button>
+		 <button label="&#xf0d7;" span="4">0xCC33 0xD926</button>
+		 <button label="AUDIO" span="4">0xCC33 0x6996</button>
+
+		 <button label="CH+" span="4">0xCC33 0xF10E</button>
+		 <button label="&#xFF581;" span="4">0xCC33 0xE916</button>
+		 <button label="VOL+" span="4">0xCC33 0xE11E</button>
+
+		 <button label="CH-" span="4">0xCC33 0xC936</button>
+		 <button label="SIZE" span="4">0xCC33 0x16E9</button>
+		 <button label="VOL-" span="4">0xCC33 0xD12E</button>
+
+		 <button label="G" fillColor="FF1E7854" span="3">0xCC33 0x53AC</button>
+		 <button label="Y" fillColor="FFD6A81F" span="3">0xCC33 0xD32C</button>
+		 <button label="B" fillColor="FF2A4C94" span="3">0xCC33 0x33CC</button>
+		 <button label="R" fillColor="FFC84334" span="3">0xCC33 0x936C</button>
+
+		 <button label="IDX" span="3">0xCC33 0xA659</button>
+		 <button label="MIX" span="3">0xCC33 0x6699</button>
+		 <button label="HOLD" span="3">0xCC33 0x9669</button>
+		 <button label="RLV" span="3">0xCC33 0x56A9</button>
+
+		 <button label="SOUND" span="3">0xCC33 0x857A</button>
+		 <button label="PIC" span="3">0xCC33 0x06F9</button>
+		 <button label="TEXT" span="3">0xCC33 0xA956</button>
+		 <button label="LIST" span="3">0xCC33 0xA956</button>
+
+		 <button label="FREEZE" span="4">0xCC33 0x13EC</button>
+		 <button label="SLEEP" span="4">0xCC33 0x23DC</button>
+		 <button label="ASPECT" span="4">0xCC33 0x0BF4</button>
+
+ 	</device>
+ </irplus>

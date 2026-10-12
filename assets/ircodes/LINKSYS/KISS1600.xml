@@ -1,0 +1,69 @@
+<irplus>
+    <device manufacturer="LINKSYS" model="KISS1600" columns="12" format="WINLIRC_RC5" bits="13" pre-bits="13" toggle-bit-pos="2"
+        gap-pulse="1" gap-space="90886" frequency="36000">
+
+        <button label="&#xf011;" backgroundColor="FFC84334" span="3">0x1598</button>
+        <button label="&#xFF581;" span="3">0x158e</button>
+        <button label="DVD/TV" span="3">0x15a8</button>
+        <button label="&#xf052;" alt="EJECT" span="3">0x158e</button>
+
+        <button label="1" span="4">0x1581</button>
+        <button label="2" span="4">0x1582</button>
+        <button label="3" span="4">0x1583</button>
+
+        <button label="4" span="4">0x1584</button>
+        <button label="5" span="4">0x1585</button>
+        <button label="6" span="4">0x1586</button>
+
+        <button label="7" span="4">0x1587</button>
+        <button label="8" span="4">0x1588</button>
+        <button label="9" span="4">0x1589</button>
+
+        <button label="+10" span="4">0x158a</button>
+        <button label="0" span="4">0x1580</button>
+        <button label="C/CH" span="4">0x15a5</button>
+
+        <button label="TOP MENU" span="4">0x15a2</button>
+        <button label="&#xf0d8;" span="4">0x158e</button>
+        <button label="TITLE" span="4">0x14a6</button>
+
+        <button label="&#xf0d9;" span="4">0x1590</button>
+        <button label="OK" span="4">0x1591</button>
+        <button label="&#xf0da;" span="4">0x1592</button>
+
+        <button label="MENU" span="4">0x159a</button>
+        <button label="&#xf0d7;" span="4">0x1594</button>
+        <button label="REPEAT" span="4">0x15a1</button>
+
+        <button label="VOL-" span="6">0x1593</button>
+        <button label="VOL+" span="6">0x158d</button>
+
+        <button label="REP/A-B" span="3">0x15a0</button>
+        <button label="AUTO/TRACK" span="3">0x15a3</button>
+        <button label="SUBTITLE" span="3">0x1598</button>
+        <button label="RETURN" span="3">0x158c</button>
+
+        <button label="DISPLAY" span="3">0x1597</button>
+        <button label="ZOOM" span="3">0x1599</button>
+        <button label="MARK" span="3">0x14b0</button>
+        <button label="PROG" span="3">0x159c</button>
+
+        <button label="SLOW-" span="3">0x14b0</button>
+        <button label="SLOW+" span="3">0x159d</button>
+        <button label="&#xf049;" alt="PREV" span="3">0x1595</button>
+        <button label="&#xf050;" alt="NEXT" span="3">0x158f</button>
+
+        <button label="&#xf04d;" alt="STOP" span="4">0x159e</button>
+        <button label="&#xf04c;" alt="PAUSE" span="4">0x159f</button>
+        <button label="&#xf111;" alt="RECORD" span="4">0x14a7</button>
+
+        <button label="&#xf04a;" alt="REW" span="4">0x158d</button>
+        <button label="&#xf04b;" alt="PLAY" span="4">0x159b</button>
+        <button label="&#xf04e;" alt="FWD" span="4">0x158f</button>
+
+        <button label="ERASE" span="3">0x15a3</button>
+        <button label="AUDIO" span="3">0x14a4</button>
+        <button label="SETUP" span="3">0x15a0</button>
+        <button label="ANGLE" span="3">0x14a7</button>
+    </device>
+</irplus>

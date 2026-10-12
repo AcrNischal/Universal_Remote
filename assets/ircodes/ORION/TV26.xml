@@ -1,0 +1,60 @@
+<irplus>
+	<device manufacturer="ORION" model="TV26" columns="3" format="WINLIRC_NEC1" one-space="1567" one-pulse="685" zero-pulse="685" zero-space="437" header-pulse="9132" header-space="4373" bits="16" pre-bits="16">
+		
+		<button label="&#xf011;" backgroundColor="FFC84334">0x8E71 0x52AD</button>
+		<button label="INPUT">0x8E71 0xCE31</button>
+		<button label="MENU">0x8E71 0xCA35</button>
+		
+		<button label="CANCEL">0x8E71 0xB24D</button>
+		<button label="ANGLE">0x8E71 0xF20D</button>
+		<button label="ASPECT">0x8E71 0x36C9</button>
+		
+		<button label="INFO">0x8E71 0x32CD</button>
+		<button label="GUIDE">0x8E71 0x8D72</button>
+		<button label="AUDIO">0x8E71 0x728D</button>
+		
+		<button label="CHLIST">0x8E71 0x5AA5</button>
+		<button label="DVDMENU">0x8E71 0xAA55</button>
+		<button label="&#xf052;" alt="EJECT">0x8E71 0xD22D</button>
+		
+		<button label="VOL+">0x8E71 0xF609</button>
+		<button label="&#xf0d8;" backgroundColor="FFAAAAAA">0x8E71 0x6A95</button>
+		<button label="CH+">0x8E71 0xB649</button>
+		
+		<button label="&#xf0d9;" backgroundColor="FFAAAAAA">0x8E71 0x1AE5</button>
+		<button label="OK" backgroundColor="FFAAAAAA">0x8E71 0x5AA5</button>
+		<button label="&#xf0da;" backgroundColor="FFAAAAAA">0x8E71 0x9A65</button>
+	    
+		<button label="VOL-">0x8E71 0x0EF1</button>
+		<button label="&#xf0d7;" backgroundColor="FFAAAAAA">0x8E71 0xEA15</button>
+		<button label="CH-">0x8E71 0x7689</button>
+		
+		<button label="&#xFF581;">0x8E71 0x56A9</button>
+		<button label="LIST">0x8E71 0x8E71</button>
+		<button label="&#xf0e2;" alt="RECALL">0x8E71 0x3EC1</button>
+		
+		<button label="&#xf04a;" alt="REW">0x8E71 0xC639</button>
+		<button label="&#xf04b;" alt="PLAY">0x8E71 0x06F9</button>
+		<button label="&#xf04e;" alt="FWD">0x8E71 0x46B9</button>
+		
+		<button label="FREEZE">0x8E71 0x8A75</button>
+		<button label="&#xf04c;" alt="PAUSE">0x8E71 0x16E9</button>
+		<button label="&#xf04d;" alt="STOP">0x8E71 0x8679</button>
+		
+		<button label="1">0x8E71 0x827D</button>
+		<button label="2">0x8E71 0x42BD</button>
+		<button label="3">0x8E71 0xC23D</button>
+		
+		<button label="4">0x8E71 0x22DD</button>
+		<button label="5">0x8E71 0xA25D</button>
+		<button label="6">0x8E71 0x629D</button>
+		
+		<button label="7">0x8E71 0xE21D</button>
+		<button label="8">0x8E71 0x12ED</button>
+		<button label="9">0x8E71 0x926D</button>
+		
+		<button label="TVDVD">0x8E71 0x9669</button>
+		<button label="0">0x8E71 0x02FD</button>
+		<button label="TOPMENU">0x8E71 0x4AB5</button>
+	</device>
+</irplus>

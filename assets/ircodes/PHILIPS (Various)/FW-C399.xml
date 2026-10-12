@@ -1,0 +1,40 @@
+<irplus>
+    <device manufacturer="PHILIPS" model="FW-C399" columns="12" format="WINLIRC_RC5" bits="13" pre-bits="13" toggle-bit-pos="2" gap-pulse="1"
+        gap-space="116077" one-pulse="915" one-space="861" zero-pulse="915" zero-space="861" repeat="3" frequency="36000">
+
+        <space multiple="8"/>
+        <button label="&#xf011;" alt="POWER" backgroundColor="FFC84334" span="4">0x150C</button>
+
+        <button label="CD" span="4">0x153F</button>
+        <button label="TAPE1/2" span="4">0x14BF</button>
+        <button label="TUNER" span="4">0x147F</button>
+
+        <button label="INC.SURR" span="4">0x0400</button>
+        <button label="AUX" span="4">0x157F</button>
+        <button label="MAX" span="4">0x0423</button>
+
+        <button label="CD1" span="4">0x1537</button>
+        <button label="CD2" span="4">0x1538</button>
+        <button label="CD3" span="4">0x1539</button>
+
+        <button label="&#xFF581;" span="4">0x150D</button>
+        <button label="SLEEP" span="4">0x1426</button>
+        <button label="SHUFFLE" span="4">0x151C</button>
+
+        <button label="VOL-" span="4">0x1411</button>
+        <button label=" " span="4">0x14B5</button>
+        <button label="VOL+" span="4">0x1410</button>
+
+        <button label="" span="4">0x14A1</button>
+        <button label="OK" span="4">0x152C</button>
+        <button label="" span="4">0x14A0</button>
+
+        <button label="" span="4">0x14B2</button>
+        <button label="" span="4">0x14B6</button>
+        <button label="" span="4">0x14B4</button>
+
+        <button label="DSC" span="4">0x040F</button>
+        <button label="VEC" span="4">0x042B</button>
+        <button label="DBB" span="4">0x0406</button>
+    </device>
+</irplus>

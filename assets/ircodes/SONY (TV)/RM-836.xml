@@ -1,0 +1,58 @@
+<irplus>
+    <device manufacturer="SONY" model="RM-836" columns="12" format="WINLIRC_SPACEENC" bits="12" pre-bits="12" repeat="3" repeatheader="true" frequency="40000"
+        gap-pulse="1" gap-space="50000" one-pulse="1200" one-space="600" zero-pulse="600" zero-space="600" header-pulse="2400" header-space="600">
+
+        <button label="TV" span="3">0x1D0</button>
+        <button label="TV OFF" span="3">0xA90</button>
+        <button label="CLOCK" span="3">0xD50</button>
+        <button label="I+" span="3">0x5D0</button>
+
+        <button label="&#xFF581;" span="3">0x290</button>
+        <button label="TELETEXT" span="3">0xFD0</button>
+        <button label="INPUT+" span="3">0xA50</button>
+        <button label="OUTPUT+" span="3">0x670</button>
+
+        <button label="PIP-ENABLE" span="4">0xDB0</button>
+        <button label="PIP-FULLSCREEN" span="4">0xFB0</button>
+        <button label="PIP-POSITION" span="4">0x7B0</button>
+
+        <button label="1" span="4">0x010</button>
+        <button label="2" span="4">0x810</button>
+        <button label="3" span="4">0x410</button>
+
+        <button label="4" span="4">0xC10</button>
+        <button label="5" span="4">0x210</button>
+        <button label="6" span="4">0xA10</button>
+
+        <button label="7" span="4">0x610</button>
+        <button label="8" span="4">0xE10</button>
+        <button label="9" span="4">0x110</button>
+
+        <button label="-/--" span="4">0xB90</button>
+        <button label="0" span="4">0x910</button>
+        <button label="C" span="4">0x710</button>
+
+        <button label="SOUND" span="4">0x470</button>
+        <button label="MENU" span="4">0x070</button>
+        <button label="IMAGE" span="4">0x870</button>
+
+        <button label="F1" span="4">0x3B0</button>
+        <button label="&#xf0d8;" labelColor="FF1E7854" span="4">0xB38</button>
+        <button label="F2" span="4">0x8B8</button>
+
+        <button label="&#xf0d9;" labelColor="FFC84334" span="4">0x338</button>
+        <button label="ENTER" span="4">0xA70</button>
+        <button label="&#xf0da;" labelColor="FFD6A81F" span="4">0x738</button>
+
+        <button label="F3" span="4">0x8B8</button>
+        <button label="&#xf0d7;" labelColor="FF2A4C94" span="4">0xF38</button>
+        <button label="F4" span="4">0xE70</button>
+
+        <button label="VOL+" span="6">0x490</button>
+        <button label="PROG+" span="6">0x090</button>
+        <button label="VOL-" span="6">0xC90</button>
+        <button label="PROG-" span="6">0x890</button>
+
+
+    </device>
+</irplus>

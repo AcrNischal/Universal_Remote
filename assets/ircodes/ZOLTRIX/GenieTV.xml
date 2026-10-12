@@ -1,0 +1,35 @@
+<irplus>
+    <device manufacturer="ZOLTRIX" model="GenieTV" columns="12" format="WINLIRC_SPACEENC" bits="16" pre-bits="16"
+        gap-pulse="644" gap-space="108051" one-pulse="630" one-space="1627" zero-pulse="630" zero-space="491" header-pulse="9109" header-space="4404">
+
+        <button label="CH+" span="6">0x3F 0xB04F</button>
+        <button label="VOL+" span="6">0x3F 0x08F7</button>
+
+        <button label="CH-" span="6">0x3F 0x906F</button>
+        <button label="VOL-" span="6">0x3F 0x30CF</button>
+
+        <button label="RADIO" span="6">0x3F 0x8877</button>
+        <button label="TV" span="6">0x3F 0x28D7</button>
+
+        <button label="SOURCE" span="4">0x3F 0x708F</button>
+        <button label="FULL SCREEN" span="4">0x3F 0x50AF</button>
+        <button label="&#xFF581;" span="4">0x3F 0x609F</button>
+
+        <button label="1" span="4">0x3F 0x40BF</button>
+        <button label="2" span="4">0x3F 0xA05F</button>
+        <button label="3" span="4">0x3F 0x10EF</button>
+
+        <button label="4" span="4">0x3F 0x48B7</button>
+        <button label="5" span="4">0x3F 0x807F</button>
+        <button label="6" span="4">0x3F 0x20DF</button>
+
+        <button label="7" span="4">0x3F 0xC837</button>
+        <button label="8" span="4">0x3F 0xE01F</button>
+        <button label="9" span="4">0x3F 0x00FF</button>
+
+        <button label="SHIFT" span="4">0x3F 0xF00F</button>
+        <button label="0" span="4">0x3F 0xD02F</button>
+        <button label="MINIMIZE" span="4">0x3F 0xC03F</button>
+
+    </device>
+</irplus>
