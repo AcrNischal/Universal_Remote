@@ -1,14 +1,39 @@
+import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import '../models/remote_model.dart';
 import 'remote_explorer_screen.dart';
 
-class HomeTab extends StatelessWidget {
+class HomeTab extends StatefulWidget {
   final Function(RemoteConfig) onRemoteSaved;
 
   const HomeTab({Key? key, required this.onRemoteSaved}) : super(key: key);
 
   @override
+  State<HomeTab> createState() => _HomeTabState();
+}
+
+class _HomeTabState extends State<HomeTab> {
+  final List<String> _allBrands = [
+    'samsung', 'lg', 'sony', 'panasonic', 'philips',
+    'toshiba', 'sharp', 'tcl', 'xiaomi', 'hisense',
+    'yamaha', 'pioneer', 'denon', 'onkyo', 'sansui',
+  ];
+
+  late List<String> _randomizedBrands;
+  bool _showAll = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _randomizedBrands = List.from(_allBrands)..shuffle(Random());
+  }
+
+  @override
   Widget build(BuildContext context) {
+    // 3 items per row * 3 rows = 9 items initially visible
+    final displayedBrands = _showAll ? _randomizedBrands : _randomizedBrands.take(9).toList();
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Universal Remote'),
@@ -81,7 +106,7 @@ class HomeTab extends StatelessWidget {
                                 context,
                                 MaterialPageRoute(
                                   builder: (context) => RemoteExplorerScreen(
-                                    onRemoteSaved: onRemoteSaved,
+                                    onRemoteSaved: widget.onRemoteSaved,
                                   ),
                                 ),
                               );
@@ -105,26 +130,132 @@ class HomeTab extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                _buildCategoryCard(context, 'TV', Icons.tv, Colors.blue, onRemoteSaved),
-                _buildCategoryCard(context, 'AC', Icons.ac_unit, Colors.cyan, onRemoteSaved),
-                _buildCategoryCard(context, 'Audio', Icons.speaker, Colors.orange, onRemoteSaved),
-                _buildCategoryCard(context, 'STB', Icons.settings_input_antenna, Colors.purple, onRemoteSaved),
+                _buildCategoryCard(context, 'TV', Icons.tv, Colors.blue),
+                _buildCategoryCard(context, 'AC', Icons.ac_unit, Colors.cyan),
+                _buildCategoryCard(context, 'Audio', Icons.speaker, Colors.orange),
+                _buildCategoryCard(context, 'STB', Icons.settings_input_antenna, Colors.purple),
               ],
             ),
+            const SizedBox(height: 28),
+
+            // Popular Brands Grid (3 in a row)
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                const Text(
+                  'Popular Brands',
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                ),
+                TextButton.icon(
+                  onPressed: () {
+                    setState(() {
+                      _randomizedBrands.shuffle(Random());
+                    });
+                  },
+                  icon: const Icon(Icons.shuffle, size: 16),
+                  label: const Text('Shuffle'),
+                ),
+              ],
+            ),
+            const SizedBox(height: 8),
+            GridView.builder(
+              shrinkWrap: true,
+              physics: const NeverScrollableScrollPhysics(),
+              itemCount: displayedBrands.length,
+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 3,
+                crossAxisSpacing: 10,
+                mainAxisSpacing: 10,
+                childAspectRatio: 1.5, // Slightly rectangle (less height)
+              ),
+              itemBuilder: (context, index) {
+                final brand = displayedBrands[index];
+                final displayName = brand.toUpperCase();
+                return InkWell(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => RemoteExplorerScreen(
+                          onRemoteSaved: widget.onRemoteSaved,
+                          initialSearchQuery: displayName,
+                        ),
+                      ),
+                    );
+                  },
+                  borderRadius: BorderRadius.circular(14),
+                  child: Container(
+                    padding: const EdgeInsets.all(8),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(14),
+                      border: Border.all(color: Colors.grey.shade300),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withOpacity(0.03),
+                          blurRadius: 4,
+                          offset: const Offset(0, 2),
+                        ),
+                      ],
+                    ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Expanded(
+                          child: Container(
+                            width: double.infinity,
+                            padding: const EdgeInsets.all(6),
+                            decoration: BoxDecoration(
+                              color: Colors.grey.shade50, // Very light color background for logo
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            child: SvgPicture.asset(
+                              'assets/popularbrands/$brand.svg',
+                              placeholderBuilder: (context) => const Icon(Icons.business, color: Colors.blueAccent),
+                            ),
+                          ),
+                        ),
+                        const SizedBox(height: 4),
+                        Text(
+                          displayName,
+                          style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 11),
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
+                    ),
+                  ),
+                );
+              },
+            ),
+            const SizedBox(height: 12),
+
+            // See More / See Less Brands Button
+            if (_allBrands.length > 9)
+              Center(
+                child: TextButton.icon(
+                  onPressed: () {
+                    setState(() {
+                      _showAll = !_showAll;
+                    });
+                  },
+                  icon: Icon(_showAll ? Icons.expand_less : Icons.expand_more),
+                  label: Text(_showAll ? 'Show Less Brands' : 'See More Brands'),
+                ),
+              ),
           ],
         ),
       ),
     );
   }
 
-  Widget _buildCategoryCard(BuildContext context, String label, IconData icon, Color color, Function(RemoteConfig) onSaved) {
+  Widget _buildCategoryCard(BuildContext context, String label, IconData icon, Color color) {
     return InkWell(
       onTap: () {
         Navigator.push(
           context,
           MaterialPageRoute(
             builder: (context) => RemoteExplorerScreen(
-              onRemoteSaved: onSaved,
+              onRemoteSaved: widget.onRemoteSaved,
             ),
           ),
         );
@@ -138,12 +269,14 @@ class HomeTab extends StatelessWidget {
           borderRadius: BorderRadius.circular(14),
           border: Border.all(color: color.withOpacity(0.3)),
         ),
-        child: Column(
-          children: [
-            Icon(icon, color: color, size: 30),
-            const SizedBox(height: 8),
-            Text(label, style: TextStyle(fontWeight: FontWeight.bold, color: color, fontSize: 13)),
-          ],
+        child: ButtonTheme(
+          child: Column(
+            children: [
+              Icon(icon, color: color, size: 30),
+              const SizedBox(height: 8),
+              Text(label, style: TextStyle(fontWeight: FontWeight.bold, color: color, fontSize: 13)),
+            ],
+          ),
         ),
       ),
     );
