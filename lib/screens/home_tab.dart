@@ -110,8 +110,8 @@ class _HomeTabState extends State<HomeTab> {
                           const SizedBox(height: 16),
                           ElevatedButton.icon(
                             style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.white,
-                              foregroundColor: Colors.blueAccent,
+                              backgroundColor: isDarkMode ? Colors.grey[850] : Colors.white,
+                              foregroundColor: isDarkMode ? Colors.white : Colors.blueAccent,
                               elevation: 2,
                               padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),

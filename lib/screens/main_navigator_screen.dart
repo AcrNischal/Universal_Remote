@@ -82,6 +82,21 @@ class _MainNavigatorScreenState extends State<MainNavigatorScreen> {
     );
   }
 
+  void _updateRemote(RemoteConfig oldConfig, RemoteConfig newConfig) {
+    setState(() {
+      final index = _savedRemotes.indexWhere((r) => r.filePath == oldConfig.filePath);
+      if (index != -1) {
+        _savedRemotes[index] = newConfig;
+      } else {
+        _savedRemotes.add(newConfig);
+      }
+    });
+    _saveRemotesToPrefs();
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text('Updated "${newConfig.name}"!')),
+    );
+  }
+
   void _resetData() async {
     setState(() {
       _savedRemotes.clear();
@@ -105,7 +120,11 @@ class _MainNavigatorScreenState extends State<MainNavigatorScreen> {
   Widget build(BuildContext context) {
     final List<Widget> tabs = [
       HomeTab(onRemoteSaved: _addRemote),
-      SavedRemotesTab(savedRemotes: _savedRemotes, onRemoveRemote: _removeRemote),
+      SavedRemotesTab(
+        savedRemotes: _savedRemotes,
+        onRemoveRemote: _removeRemote,
+        onRemoteUpdated: _updateRemote,
+      ),
       SettingsTab(
         themeNotifier: widget.themeNotifier,
         onRemoteImported: _addRemote,

@@ -5,11 +5,13 @@ import 'remote_screen.dart';
 class SavedRemotesTab extends StatelessWidget {
   final List<RemoteConfig> savedRemotes;
   final Function(RemoteConfig) onRemoveRemote;
+  final Function(RemoteConfig, RemoteConfig) onRemoteUpdated;
 
   const SavedRemotesTab({
     Key? key,
     required this.savedRemotes,
     required this.onRemoveRemote,
+    required this.onRemoteUpdated,
   }) : super(key: key);
 
   @override
@@ -66,7 +68,10 @@ class SavedRemotesTab extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => RemoteScreen(remoteConfig: remote),
+                          builder: (context) => RemoteScreen(
+                            remoteConfig: remote,
+                            onRemoteUpdated: (updated) => onRemoteUpdated(remote, updated),
+                          ),
                         ),
                       );
                     },

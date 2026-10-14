@@ -1,19 +1,70 @@
 // Remote Screen UI
 import 'dart:async';
+import 'dart:math';
 import 'package:flutter/material.dart';
 import '../models/remote_model.dart';
 import '../services/ir_blaster_service.dart';
 
+class WiggleWidget extends StatefulWidget {
+  final Widget child;
+  final bool isWiggling;
+
+  const WiggleWidget({Key? key, required this.child, required this.isWiggling}) : super(key: key);
+
+  @override
+  State<WiggleWidget> createState() => _WiggleWidgetState();
+}
+
+class _WiggleWidgetState extends State<WiggleWidget> with SingleTickerProviderStateMixin {
+  late AnimationController _controller;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(
+      duration: const Duration(milliseconds: 140),
+      vsync: this,
+    )..repeat(reverse: true);
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    if (!widget.isWiggling) {
+      return widget.child;
+    }
+    return AnimatedBuilder(
+      animation: _controller,
+      builder: (context, child) {
+        final angle = sin(_controller.value * 2 * pi) * 0.04;
+        return Transform.rotate(
+          angle: angle,
+          child: child,
+        );
+      },
+      child: widget.child,
+    );
+  }
+}
+
 class RemoteScreen extends StatefulWidget {
   final RemoteConfig remoteConfig;
+  final Function(RemoteConfig)? onRemoteUpdated;
 
-  const RemoteScreen({Key? key, required this.remoteConfig}) : super(key: key);
+  const RemoteScreen({Key? key, required this.remoteConfig, this.onRemoteUpdated}) : super(key: key);
 
   @override
   State<RemoteScreen> createState() => _RemoteScreenState();
 }
 
 class _RemoteScreenState extends State<RemoteScreen> {
+  late RemoteConfig _currentConfig;
+  bool _isEditing = false;
   bool _hasIrEmitter = false;
   bool _checkingIr = true;
   bool _isLedActive = false;
@@ -21,6 +72,7 @@ class _RemoteScreenState extends State<RemoteScreen> {
   @override
   void initState() {
     super.initState();
+    _currentConfig = widget.remoteConfig;
     _checkIrEmitter();
   }
 
@@ -35,6 +87,11 @@ class _RemoteScreenState extends State<RemoteScreen> {
   }
 
   void _onButtonPressed(BuildContext context, RemoteButton button) async {
+    if (_isEditing) {
+      _showEditButtonDialog(context, button);
+      return;
+    }
+
     setState(() {
       _isLedActive = true;
     });
@@ -62,9 +119,189 @@ class _RemoteScreenState extends State<RemoteScreen> {
     }
   }
 
+  void _showEditButtonDialog(BuildContext context, [RemoteButton? existingButton]) {
+    final isEditingExisting = existingButton != null;
+    final labelController = TextEditingController(text: isEditingExisting ? existingButton.label : '');
+    final codeController = TextEditingController(text: isEditingExisting ? existingButton.code : '');
+    String btnType = isEditingExisting ? existingButton.type : 'general';
+    String selectedNumLabel = (btnType == 'num' && isEditingExisting) ? existingButton.label : '0';
+    int codeFormatIndex = (isEditingExisting && existingButton.code.contains(' ')) ? 1 : 0;
+
+    showDialog(
+      context: context,
+      builder: (context) => StatefulBuilder(
+        builder: (context, setDialogState) => AlertDialog(
+          title: Text(isEditingExisting ? 'Edit Button: ${existingButton.label}' : 'Add New Button'),
+          content: SizedBox(
+            width: MediaQuery.of(context).size.width * 0.8,
+            child: SingleChildScrollView(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  DropdownButtonFormField<String>(
+                    value: btnType,
+                    decoration: const InputDecoration(labelText: 'Button Function Type', border: OutlineInputBorder()),
+                    items: const [
+                      DropdownMenuItem(value: 'general', child: Text('General')),
+                      DropdownMenuItem(value: 'power', child: Text('Power')),
+                      DropdownMenuItem(value: 'vol_up', child: Text('Volume Up')),
+                      DropdownMenuItem(value: 'vol_down', child: Text('Volume Down')),
+                      DropdownMenuItem(value: 'ch_up', child: Text('Channel Up')),
+                      DropdownMenuItem(value: 'ch_down', child: Text('Channel Down')),
+                      DropdownMenuItem(value: 'mute', child: Text('Mute')),
+                      DropdownMenuItem(value: 'num', child: Text('Number')),
+                      DropdownMenuItem(value: 'dpad_up', child: Text('D-Pad Up')),
+                      DropdownMenuItem(value: 'dpad_down', child: Text('D-Pad Down')),
+                      DropdownMenuItem(value: 'dpad_left', child: Text('D-Pad Left')),
+                      DropdownMenuItem(value: 'dpad_right', child: Text('D-Pad Right')),
+                      DropdownMenuItem(value: 'dpad_center', child: Text('D-Pad OK')),
+                    ],
+                    onChanged: (val) {
+                      setDialogState(() {
+                        btnType = val ?? 'general';
+                      });
+                    },
+                  ),
+                  const SizedBox(height: 12),
+                  btnType == 'num'
+                      ? DropdownButtonFormField<String>(
+                          value: selectedNumLabel,
+                          decoration: const InputDecoration(labelText: 'Button Label (Number)', border: OutlineInputBorder()),
+                          items: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+                              .map((digit) => DropdownMenuItem(value: digit, child: Text('Number $digit')))
+                              .toList(),
+                          onChanged: (val) => setDialogState(() => selectedNumLabel = val ?? '0'),
+                        )
+                      : TextField(
+                          controller: labelController,
+                          decoration: const InputDecoration(labelText: 'Button Label', border: OutlineInputBorder()),
+                        ),
+                  const SizedBox(height: 12),
+                  Wrap(
+                    crossAxisAlignment: WrapCrossAlignment.center,
+                    spacing: 6,
+                    runSpacing: 4,
+                    children: [
+                      const Text('Format:', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 12)),
+                      ChoiceChip(
+                        label: const Text('Standard IR', style: TextStyle(fontSize: 11)),
+                        selected: codeFormatIndex == 0,
+                        visualDensity: VisualDensity.compact,
+                        materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                        onSelected: (selected) => setDialogState(() => codeFormatIndex = 0),
+                      ),
+                      ChoiceChip(
+                        label: const Text('Pronto Hex', style: TextStyle(fontSize: 11)),
+                        selected: codeFormatIndex == 1,
+                        visualDensity: VisualDensity.compact,
+                        materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                        onSelected: (selected) => setDialogState(() => codeFormatIndex = 1),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 8),
+                  TextField(
+                    controller: codeController,
+                    maxLines: codeFormatIndex == 1 ? 3 : 1,
+                    decoration: InputDecoration(
+                      labelText: codeFormatIndex == 1 ? 'Pronto Hex (0000 006D ...)' : 'IR Hex Code (0xE0E040BF)',
+                      border: const OutlineInputBorder(),
+                    ),
+                    style: const TextStyle(fontFamily: 'monospace', fontSize: 12),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          actions: [
+            if (isEditingExisting)
+              TextButton(
+                style: TextButton.styleFrom(foregroundColor: Colors.red),
+                onPressed: () {
+                  Navigator.pop(context);
+                  setState(() {
+                    final updatedButtons = List<RemoteButton>.from(_currentConfig.buttons)..remove(existingButton);
+                    _currentConfig = RemoteConfig(
+                      manufacturer: _currentConfig.manufacturer,
+                      name: _currentConfig.name,
+                      filePath: _currentConfig.filePath,
+                      protocol: _currentConfig.protocol,
+                      deviceCode: _currentConfig.deviceCode,
+                      buttons: updatedButtons,
+                    );
+                  });
+                  widget.onRemoteUpdated?.call(_currentConfig);
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(content: Text('Button deleted')),
+                  );
+                },
+                child: const Text('Delete'),
+              ),
+            TextButton(
+              style: TextButton.styleFrom(foregroundColor: Colors.orange),
+              onPressed: () async {
+                final code = codeController.text.trim();
+                if (code.isNotEmpty) {
+                  await IrBlasterService.transmitHex(code);
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(content: Text('Test transmitted: $code'), duration: const Duration(milliseconds: 600)),
+                  );
+                }
+              },
+              child: const Text('Test'),
+            ),
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: const Text('Cancel'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                final label = btnType == 'num' ? selectedNumLabel : labelController.text.trim();
+                final code = codeController.text.trim();
+                if (label.isEmpty || code.isEmpty) {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(content: Text('Please enter label and IR code')),
+                  );
+                  return;
+                }
+
+                Navigator.pop(context);
+                setState(() {
+                  final updatedButtons = List<RemoteButton>.from(_currentConfig.buttons);
+                  if (isEditingExisting) {
+                    final index = updatedButtons.indexOf(existingButton);
+                    if (index != -1) {
+                      updatedButtons[index] = RemoteButton(label: label, code: code, type: btnType);
+                    }
+                  } else {
+                    updatedButtons.add(RemoteButton(label: label, code: code, type: btnType));
+                  }
+                  _currentConfig = RemoteConfig(
+                    manufacturer: _currentConfig.manufacturer,
+                    name: _currentConfig.name,
+                    filePath: _currentConfig.filePath,
+                    protocol: _currentConfig.protocol,
+                    deviceCode: _currentConfig.deviceCode,
+                    buttons: updatedButtons,
+                  );
+                });
+                widget.onRemoteUpdated?.call(_currentConfig);
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(content: Text('Button saved successfully!')),
+                );
+              },
+              child: const Text('Save'),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
-    final remoteConfig = widget.remoteConfig;
+    final remoteConfig = _currentConfig;
     final isDarkMode = Theme.of(context).brightness == Brightness.dark;
 
     final powerButton = remoteConfig.buttons.where((b) => b.type == 'power' || b.label.toLowerCase().contains('power')).firstOrNull;
@@ -103,21 +340,36 @@ class _RemoteScreenState extends State<RemoteScreen> {
       appBar: AppBar(
         title: Text(remoteConfig.name),
         elevation: 1,
-        actions: _checkingIr ? [] : <Widget>[
-          Padding(
-            padding: const EdgeInsets.only(right: 16.0),
-            child: Center(
-              child: Tooltip(
-                message: _hasIrEmitter ? 'IR Blaster Ready' : 'Simulation Mode (No IR Hardware)',
-                child: Icon(
-                  _hasIrEmitter ? Icons.settings_remote : Icons.warning_amber_rounded,
-                  color: _hasIrEmitter ? Colors.green[400] : Colors.orange[400],
+        actions: [
+          IconButton(
+            icon: Icon(_isEditing ? Icons.check : Icons.edit),
+            tooltip: _isEditing ? 'Done Editing' : 'Edit Remote',
+            onPressed: () => setState(() => _isEditing = !_isEditing),
+          ),
+          if (!_checkingIr) ...[
+            Padding(
+              padding: const EdgeInsets.only(right: 16.0),
+              child: Center(
+                child: Tooltip(
+                  message: _hasIrEmitter ? 'IR Blaster Ready' : 'Simulation Mode (No IR Hardware)',
+                  child: Icon(
+                    _hasIrEmitter ? Icons.settings_remote : Icons.warning_amber_rounded,
+                    color: _hasIrEmitter ? Colors.green[400] : Colors.orange[400],
+                  ),
                 ),
               ),
             ),
-          ),
+          ],
         ],
       ),
+      floatingActionButton: _isEditing
+          ? FloatingActionButton.extended(
+              onPressed: () => _showEditButtonDialog(context),
+              icon: const Icon(Icons.add),
+              label: const Text('Add Button'),
+              backgroundColor: Colors.blueAccent,
+            )
+          : null,
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),
         child: Center(
@@ -170,10 +422,16 @@ class _RemoteScreenState extends State<RemoteScreen> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       if (powerButton != null)
-                        _buildStyledButton(context, powerButton, color: Colors.red[700]!, textColor: Colors.white, icon: Icons.power_settings_new),
+                        WiggleWidget(
+                          isWiggling: _isEditing,
+                          child: _buildStyledButton(context, powerButton, color: Colors.red[700]!, textColor: Colors.white, icon: Icons.power_settings_new),
+                        ),
                       if (powerButton != null && muteButton != null) const SizedBox(width: 20),
                       if (muteButton != null)
-                        _buildStyledButton(context, muteButton, color: Colors.orange[800]!, textColor: Colors.white, icon: Icons.volume_off),
+                        WiggleWidget(
+                          isWiggling: _isEditing,
+                          child: _buildStyledButton(context, muteButton, color: Colors.orange[800]!, textColor: Colors.white, icon: Icons.volume_off),
+                        ),
                     ],
                   ),
                   const SizedBox(height: 20),
@@ -189,9 +447,11 @@ class _RemoteScreenState extends State<RemoteScreen> {
                               children: [
                                 const Text('VOL', style: TextStyle(color: Colors.grey, fontSize: 11, fontWeight: FontWeight.bold)),
                                 const SizedBox(height: 6),
-                                if (volUp != null) _buildStyledButton(context, volUp, color: Colors.blue[700]!, textColor: Colors.white, icon: Icons.add, compact: true),
+                                if (volUp != null)
+                                  WiggleWidget(isWiggling: _isEditing, child: _buildStyledButton(context, volUp, color: Colors.blue[700]!, textColor: Colors.white, icon: Icons.add, compact: true)),
                                 const SizedBox(height: 6),
-                                if (volDown != null) _buildStyledButton(context, volDown, color: Colors.blue[700]!, textColor: Colors.white, icon: Icons.remove, compact: true),
+                                if (volDown != null)
+                                  WiggleWidget(isWiggling: _isEditing, child: _buildStyledButton(context, volDown, color: Colors.blue[700]!, textColor: Colors.white, icon: Icons.remove, compact: true)),
                               ],
                             ),
                           ),
@@ -202,9 +462,11 @@ class _RemoteScreenState extends State<RemoteScreen> {
                               children: [
                                 const Text('CH', style: TextStyle(color: Colors.grey, fontSize: 11, fontWeight: FontWeight.bold)),
                                 const SizedBox(height: 6),
-                                if (chUp != null) _buildStyledButton(context, chUp, color: Colors.indigo[700]!, textColor: Colors.white, icon: Icons.keyboard_arrow_up, compact: true),
+                                if (chUp != null)
+                                  WiggleWidget(isWiggling: _isEditing, child: _buildStyledButton(context, chUp, color: Colors.indigo[700]!, textColor: Colors.white, icon: Icons.keyboard_arrow_up, compact: true)),
                                 const SizedBox(height: 6),
-                                if (chDown != null) _buildStyledButton(context, chDown, color: Colors.indigo[700]!, textColor: Colors.white, icon: Icons.keyboard_arrow_down, compact: true),
+                                if (chDown != null)
+                                  WiggleWidget(isWiggling: _isEditing, child: _buildStyledButton(context, chDown, color: Colors.indigo[700]!, textColor: Colors.white, icon: Icons.keyboard_arrow_down, compact: true)),
                               ],
                             ),
                           ),
@@ -219,11 +481,11 @@ class _RemoteScreenState extends State<RemoteScreen> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             if (volDown != null) ...[
-                              Expanded(child: _buildStyledButton(context, volDown, color: Colors.blue[700]!, textColor: Colors.white, icon: Icons.remove)),
+                              Expanded(child: WiggleWidget(isWiggling: _isEditing, child: _buildStyledButton(context, volDown, color: Colors.blue[700]!, textColor: Colors.white, icon: Icons.remove))),
                               const SizedBox(width: 12),
                             ],
                             if (volUp != null)
-                              Expanded(child: _buildStyledButton(context, volUp, color: Colors.blue[700]!, textColor: Colors.white, icon: Icons.add)),
+                              Expanded(child: WiggleWidget(isWiggling: _isEditing, child: _buildStyledButton(context, volUp, color: Colors.blue[700]!, textColor: Colors.white, icon: Icons.add))),
                           ],
                         ),
                       ],
@@ -237,11 +499,11 @@ class _RemoteScreenState extends State<RemoteScreen> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             if (chDown != null) ...[
-                              Expanded(child: _buildStyledButton(context, chDown, color: Colors.indigo[700]!, textColor: Colors.white, icon: Icons.keyboard_arrow_down)),
+                              Expanded(child: WiggleWidget(isWiggling: _isEditing, child: _buildStyledButton(context, chDown, color: Colors.indigo[700]!, textColor: Colors.white, icon: Icons.keyboard_arrow_down))),
                               const SizedBox(width: 12),
                             ],
                             if (chUp != null)
-                              Expanded(child: _buildStyledButton(context, chUp, color: Colors.indigo[700]!, textColor: Colors.white, icon: Icons.keyboard_arrow_up)),
+                              Expanded(child: WiggleWidget(isWiggling: _isEditing, child: _buildStyledButton(context, chUp, color: Colors.indigo[700]!, textColor: Colors.white, icon: Icons.keyboard_arrow_up))),
                           ],
                         ),
                       ],
@@ -251,71 +513,74 @@ class _RemoteScreenState extends State<RemoteScreen> {
 
                   // D-Pad Area
                   if (dpadUp != null || dpadDown != null || dpadLeft != null || dpadRight != null || dpadCenter != null)
-                    Container(
-                      width: 190,
-                      height: 190,
-                      decoration: BoxDecoration(
-                        color: isDarkMode ? Colors.grey[800] : Colors.grey[200],
-                        shape: BoxShape.circle,
-                        boxShadow: [
-                          BoxShadow(color: Colors.black.withOpacity(0.08), blurRadius: 6),
-                        ],
-                        border: Border.all(color: isDarkMode ? Colors.grey[700]! : Colors.grey.shade300),
-                      ),
-                      child: Stack(
-                        alignment: Alignment.center,
-                        children: [
-                          if (dpadUp != null)
-                            Positioned(
-                              top: 2,
-                              child: IconButton(
-                                icon: Icon(Icons.arrow_drop_up, size: 36, color: isDarkMode ? Colors.white70 : Colors.black87),
-                                onPressed: () => _onButtonPressed(context, dpadUp),
-                              ),
-                            ),
-                          if (dpadDown != null)
-                            Positioned(
-                              bottom: 2,
-                              child: IconButton(
-                                icon: Icon(Icons.arrow_drop_down, size: 36, color: isDarkMode ? Colors.white70 : Colors.black87),
-                                onPressed: () => _onButtonPressed(context, dpadDown),
-                              ),
-                            ),
-                          if (dpadLeft != null)
-                            Positioned(
-                              left: 2,
-                              child: IconButton(
-                                icon: Icon(Icons.arrow_left, size: 36, color: isDarkMode ? Colors.white70 : Colors.black87),
-                                onPressed: () => _onButtonPressed(context, dpadLeft),
-                              ),
-                            ),
-                          if (dpadRight != null)
-                            Positioned(
-                              right: 2,
-                              child: IconButton(
-                                icon: Icon(Icons.arrow_right, size: 36, color: isDarkMode ? Colors.white70 : Colors.black87),
-                                onPressed: () => _onButtonPressed(context, dpadRight),
-                              ),
-                            ),
-                          if (dpadCenter != null)
-                            GestureDetector(
-                              onTap: () => _onButtonPressed(context, dpadCenter),
-                              child: Container(
-                                width: 60,
-                                height: 60,
-                                decoration: const BoxDecoration(
-                                  color: Colors.blueAccent,
-                                  shape: BoxShape.circle,
+                    WiggleWidget(
+                      isWiggling: _isEditing,
+                      child: Container(
+                        width: 190,
+                        height: 190,
+                        decoration: BoxDecoration(
+                          color: isDarkMode ? Colors.grey[800] : Colors.grey[200],
+                          shape: BoxShape.circle,
+                          boxShadow: [
+                            BoxShadow(color: Colors.black.withOpacity(0.08), blurRadius: 6),
+                          ],
+                          border: Border.all(color: isDarkMode ? Colors.grey[700]! : Colors.grey.shade300),
+                        ),
+                        child: Stack(
+                          alignment: Alignment.center,
+                          children: [
+                            if (dpadUp != null)
+                              Positioned(
+                                top: 2,
+                                child: IconButton(
+                                  icon: Icon(Icons.arrow_drop_up, size: 36, color: isDarkMode ? Colors.white70 : Colors.black87),
+                                  onPressed: () => _onButtonPressed(context, dpadUp),
                                 ),
-                                child: Center(
-                                  child: Text(
-                                    dpadCenter.label,
-                                    style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 13),
+                              ),
+                            if (dpadDown != null)
+                              Positioned(
+                                bottom: 2,
+                                child: IconButton(
+                                  icon: Icon(Icons.arrow_drop_down, size: 36, color: isDarkMode ? Colors.white70 : Colors.black87),
+                                  onPressed: () => _onButtonPressed(context, dpadDown),
+                                ),
+                              ),
+                            if (dpadLeft != null)
+                              Positioned(
+                                left: 2,
+                                child: IconButton(
+                                  icon: Icon(Icons.arrow_left, size: 36, color: isDarkMode ? Colors.white70 : Colors.black87),
+                                  onPressed: () => _onButtonPressed(context, dpadLeft),
+                                ),
+                              ),
+                            if (dpadRight != null)
+                              Positioned(
+                                right: 2,
+                                child: IconButton(
+                                  icon: Icon(Icons.arrow_right, size: 36, color: isDarkMode ? Colors.white70 : Colors.black87),
+                                  onPressed: () => _onButtonPressed(context, dpadRight),
+                                ),
+                              ),
+                            if (dpadCenter != null)
+                              GestureDetector(
+                                onTap: () => _onButtonPressed(context, dpadCenter),
+                                child: Container(
+                                  width: 60,
+                                  height: 60,
+                                  decoration: const BoxDecoration(
+                                    color: Colors.blueAccent,
+                                    shape: BoxShape.circle,
+                                  ),
+                                  child: Center(
+                                    child: Text(
+                                      dpadCenter.label,
+                                      style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 13),
+                                    ),
                                   ),
                                 ),
                               ),
-                            ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
                   const SizedBox(height: 24),
@@ -327,7 +592,7 @@ class _RemoteScreenState extends State<RemoteScreen> {
                       child: Text('Number Pad', style: TextStyle(color: Colors.grey, fontSize: 12, fontWeight: FontWeight.bold)),
                     ),
                     const SizedBox(height: 8),
-                    _buildNumberPad(context, numButtons, isDarkMode),
+                    WiggleWidget(isWiggling: _isEditing, child: _buildNumberPad(context, numButtons, isDarkMode)),
                     const SizedBox(height: 20),
                   ],
 
@@ -343,22 +608,25 @@ class _RemoteScreenState extends State<RemoteScreen> {
                       runSpacing: 8,
                       alignment: WrapAlignment.center,
                       children: otherButtons.map((btn) {
-                        return SizedBox(
-                          width: 100,
-                          height: 40,
-                          child: ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: isDarkMode ? Colors.grey[800] : Colors.grey[200],
-                              foregroundColor: isDarkMode ? Colors.white : Colors.black87,
-                              elevation: 1,
-                              padding: const EdgeInsets.symmetric(horizontal: 4),
-                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
-                            ),
-                            onPressed: () => _onButtonPressed(context, btn),
-                            child: Text(
-                              btn.label,
-                              overflow: TextOverflow.ellipsis,
-                              style: TextStyle(fontSize: 12, fontWeight: FontWeight.w500, color: isDarkMode ? Colors.white : Colors.black87),
+                        return WiggleWidget(
+                          isWiggling: _isEditing,
+                          child: SizedBox(
+                            width: 100,
+                            height: 40,
+                            child: ElevatedButton(
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor: isDarkMode ? Colors.grey[800] : Colors.grey[200],
+                                foregroundColor: isDarkMode ? Colors.white : Colors.black87,
+                                elevation: 1,
+                                padding: const EdgeInsets.symmetric(horizontal: 4),
+                                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+                              ),
+                              onPressed: () => _onButtonPressed(context, btn),
+                              child: Text(
+                                btn.label,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w500, color: isDarkMode ? Colors.white : Colors.black87),
+                              ),
                             ),
                           ),
                         );
