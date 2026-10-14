@@ -1,7 +1,8 @@
 <p align="center">
+  <p align="center">
+    <img src="assets/icon/app_icon.png" width="100" alt="Universal Remote Logo">
+  </p>
   <h1 align="center">📱 Universal Remote</h1>
-
-<img src="assets/icon/app_icon.png" alt="Universal Remote">
   <p align="center"><b>A feature-rich, cross-platform Smart IR Remote application built with Flutter.</b></p>
   <p align="center">
     <img src="https://img.shields.io/badge/Flutter-3.9+-blue.svg" alt="Flutter">
@@ -66,3 +67,7 @@
    ```
 
 ---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
