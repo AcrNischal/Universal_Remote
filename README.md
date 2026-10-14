@@ -1,15 +1,13 @@
-<p align="center">
-  <p align="center">
-    <img src="assets/icon/app_icon.png" width="100" alt="Universal Remote Logo">
-  </p>
-  <h1 align="center">📱 Universal Remote</h1>
-  <p align="center"><b>A feature-rich, cross-platform Smart IR Remote application built with Flutter.</b></p>
-  <p align="center">
+<div align="center">
+  <img src="assets/icon/app_icon.png" width="72" alt="Universal Remote Logo">
+  <h1>📱 Universal Remote</h1>
+  <p><b>A feature-rich, cross-platform Smart IR Remote application built with Flutter.</b></p>
+  <p>
     <img src="https://img.shields.io/badge/Flutter-3.9+-blue.svg" alt="Flutter">
     <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-green.svg" alt="Platform">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
   </p>
-</p>
+</div>
 
 ---
 
