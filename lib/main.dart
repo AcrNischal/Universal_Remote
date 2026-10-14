@@ -1,10 +1,24 @@
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'splash_screen.dart';
 import 'screens/main_navigator_screen.dart';
+import 'services/ir_blaster_service.dart';
 
 final ValueNotifier<ThemeMode> themeNotifier = ValueNotifier(ThemeMode.light);
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  try {
+    final prefs = await SharedPreferences.getInstance();
+    final isDark = prefs.getBool('is_dark_theme') ?? false;
+    themeNotifier.value = isDark ? ThemeMode.dark : ThemeMode.light;
+
+    final isAudioAux = prefs.getBool('is_audio_aux_transmission') ?? false;
+    TransmissionSettings.mode.value = isAudioAux ? TransmissionMode.audioAux : TransmissionMode.hardware;
+  } catch (e) {
+    // ignore
+  }
+
   runApp(const UniversalRemoteApp());
 }
 

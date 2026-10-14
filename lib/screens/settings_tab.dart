@@ -2,6 +2,7 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:xml/xml.dart';
 import '../models/remote_model.dart';
 import '../services/ir_blaster_service.dart';
@@ -26,6 +27,33 @@ class SettingsTab extends StatefulWidget {
 class _SettingsTabState extends State<SettingsTab> {
   double _blasterSpeedMs = 200.0;
   final TextEditingController _xmlController = TextEditingController();
+
+  @override
+  void initState() {
+    super.initState();
+    _loadSettings();
+  }
+
+  Future<void> _loadSettings() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      setState(() {
+        _blasterSpeedMs = prefs.getDouble('blaster_speed_ms') ?? 200.0;
+      });
+    } catch (e) {
+      // ignore
+    }
+  }
+
+  Future<void> _saveBlasterSpeed(double val) async {
+    setState(() => _blasterSpeedMs = val);
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setDouble('blaster_speed_ms', val);
+    } catch (e) {
+      // ignore
+    }
+  }
 
   void _showSyntaxDialog(BuildContext context) {
     showDialog(
@@ -234,9 +262,12 @@ class _SettingsTabState extends State<SettingsTab> {
             style: ElevatedButton.styleFrom(backgroundColor: Colors.red, foregroundColor: Colors.white),
             onPressed: () {
               widget.onResetData();
+              setState(() {
+                _blasterSpeedMs = 200.0;
+              });
               Navigator.pop(context);
               ScaffoldMessenger.of(context).showSnackBar(
-                const SnackBar(content: Text('App data has been reset.')),
+                const SnackBar(content: Text('App data and settings have been reset.')),
               );
             },
             child: const Text('Reset'),
@@ -301,8 +332,14 @@ class _SettingsTabState extends State<SettingsTab> {
                   title: const Text('Audio Jack / Aux Blaster', style: TextStyle(fontWeight: FontWeight.w600)),
                   subtitle: Text(isAudioAux ? 'Transmitting via audio waveform' : 'Transmitting via built-in Hardware IR'),
                   value: isAudioAux,
-                  onChanged: (value) {
+                  onChanged: (value) async {
                     TransmissionSettings.mode.value = value ? TransmissionMode.audioAux : TransmissionMode.hardware;
+                    try {
+                      final prefs = await SharedPreferences.getInstance();
+                      await prefs.setBool('is_audio_aux_transmission', value);
+                    } catch (e) {
+                      // ignore
+                    }
                   },
                 );
               },
@@ -369,7 +406,7 @@ class _SettingsTabState extends State<SettingsTab> {
                     max: 3000,
                     divisions: 29,
                     label: '${_blasterSpeedMs.toInt()} ms',
-                    onChanged: (val) => setState(() => _blasterSpeedMs = val),
+                    onChanged: (val) => _saveBlasterSpeed(val),
                   ),
                 ],
               ),
@@ -391,8 +428,14 @@ class _SettingsTabState extends State<SettingsTab> {
               title: const Text('Dark Theme', style: TextStyle(fontWeight: FontWeight.w600)),
               subtitle: Text(isDarkMode ? 'Currently using Dark Mode' : 'Currently using Light Mode'),
               value: isDarkMode,
-              onChanged: (value) {
+              onChanged: (value) async {
                 widget.themeNotifier.value = value ? ThemeMode.dark : ThemeMode.light;
+                try {
+                  final prefs = await SharedPreferences.getInstance();
+                  await prefs.setBool('is_dark_theme', value);
+                } catch (e) {
+                  // ignore
+                }
               },
             ),
           ),

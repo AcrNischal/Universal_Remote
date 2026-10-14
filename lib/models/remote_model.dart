@@ -9,6 +9,18 @@ class RemoteButton {
     required this.type,
   });
 
+  Map<String, dynamic> toJson() => {
+        'label': label,
+        'code': code,
+        'type': type,
+      };
+
+  factory RemoteButton.fromJson(Map<String, dynamic> json) => RemoteButton(
+        label: json['label'] ?? 'Button',
+        code: json['code'] ?? '',
+        type: json['type'] ?? 'general',
+      );
+
   factory RemoteButton.fromXml(dynamic xmlElement) {
     final labelAttr = xmlElement.getAttribute('label') ?? 'Button';
     final altAttr = xmlElement.getAttribute('alt');
@@ -108,6 +120,24 @@ class RemoteConfig {
     required this.deviceCode,
     required this.buttons,
   });
+
+  Map<String, dynamic> toJson() => {
+        'manufacturer': manufacturer,
+        'name': name,
+        'filePath': filePath,
+        'protocol': protocol,
+        'deviceCode': deviceCode,
+        'buttons': buttons.map((b) => b.toJson()).toList(),
+      };
+
+  factory RemoteConfig.fromJson(Map<String, dynamic> json) => RemoteConfig(
+        manufacturer: json['manufacturer'] ?? 'UNKNOWN',
+        name: json['name'] ?? 'Remote',
+        filePath: json['filePath'] ?? '',
+        protocol: json['protocol'] ?? 'IR',
+        deviceCode: json['deviceCode'] ?? '',
+        buttons: (json['buttons'] as List?)?.map((b) => RemoteButton.fromJson(b)).toList() ?? [],
+      );
 }
 
 class ManufacturerGroup {

@@ -1,10 +1,45 @@
+import 'dart:convert';
 import 'package:flutter/services.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:xml/xml.dart';
 import '../models/remote_model.dart';
 
 class IrParserService {
+  static List<ManufacturerGroup>? _cachedGroups;
+
   static Future<List<ManufacturerGroup>> loadAllRemotes() async {
+    if (_cachedGroups != null) {
+      return _cachedGroups!;
+    }
+
     try {
+      final prefs = await SharedPreferences.getInstance();
+      final cachedJsonString = prefs.getString('cached_all_remotes_json');
+
+      if (cachedJsonString != null && cachedJsonString.isNotEmpty) {
+        try {
+          final List<dynamic> decodedList = jsonDecode(cachedJsonString);
+          Map<String, List<RemoteConfig>> manufacturerMap = {};
+          for (var item in decodedList) {
+            final config = RemoteConfig.fromJson(item);
+            manufacturerMap.putIfAbsent(config.manufacturer, () => []).add(config);
+          }
+
+          if (manufacturerMap.isNotEmpty) {
+            final sortedKeys = manufacturerMap.keys.toList()..sort();
+            _cachedGroups = sortedKeys
+                .map((key) => ManufacturerGroup(
+                      manufacturer: key,
+                      models: manufacturerMap[key]!..sort((a, b) => a.name.compareTo(b.name)),
+                    ))
+                .toList();
+            return _cachedGroups!;
+          }
+        } catch (e) {
+          // Fall back to parsing assets
+        }
+      }
+
       final AssetManifest assetManifest = await AssetManifest.loadFromAssetBundle(rootBundle);
       final List<String> allAssets = assetManifest.listAssets();
 
@@ -13,6 +48,7 @@ class IrParserService {
           .toList();
 
       Map<String, List<RemoteConfig>> manufacturerMap = {};
+      List<RemoteConfig> allConfigs = [];
 
       for (String path in xmlPaths) {
         try {
@@ -49,6 +85,7 @@ class IrParserService {
             );
 
             manufacturerMap.putIfAbsent(folderManufacturer.toUpperCase(), () => []).add(remoteConfig);
+            allConfigs.add(remoteConfig);
           }
         } catch (e) {
           // Skip malformed XML files
@@ -57,27 +94,39 @@ class IrParserService {
 
       if (manufacturerMap.isEmpty) {
         manufacturerMap = _getFallbackRemotes();
+        allConfigs = manufacturerMap.values.expand((element) => element).toList();
+      } else {
+        try {
+          final jsonString = jsonEncode(allConfigs.map((c) => c.toJson()).toList());
+          await prefs.setString('cached_all_remotes_json', jsonString);
+        } catch (e) {
+          // ignore cache save errors
+        }
       }
 
       // Sort manufacturers/categories alphabetically
       final sortedKeys = manufacturerMap.keys.toList()..sort();
 
-      return sortedKeys
+      _cachedGroups = sortedKeys
           .map((key) => ManufacturerGroup(
                 manufacturer: key,
                 models: manufacturerMap[key]!..sort((a, b) => a.name.compareTo(b.name)),
               ))
           .toList();
+
+      return _cachedGroups!;
     } catch (e) {
       print('Error loading AssetManifest: $e');
+      if (_cachedGroups != null) return _cachedGroups!;
       final fallback = _getFallbackRemotes();
       final sortedKeys = fallback.keys.toList()..sort();
-      return sortedKeys
+      _cachedGroups = sortedKeys
           .map((key) => ManufacturerGroup(
                 manufacturer: key,
                 models: fallback[key]!,
               ))
           .toList();
+      return _cachedGroups!;
     }
   }
 

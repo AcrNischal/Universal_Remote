@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'services/ir_parser_service.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -11,6 +12,9 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
+    // Pre-load all remotes during splash screen
+    IrParserService.loadAllRemotes();
+
     // Navigate to home screen after 3 seconds
     Future.delayed(const Duration(seconds: 3), () {
       Navigator.pushReplacementNamed(context, '/home');
@@ -29,7 +33,7 @@ class _SplashScreenState extends State<SplashScreen> {
             children: [
               const Spacer(),
               // Logo
-              Center(
+              const Center(
                 child: Icon(
                   Icons.tv_rounded,
                   size: 100,
@@ -46,7 +50,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 ),
               ),
               const Spacer(),
-              // Powered by DragUpTech at the bottom
+              // powered by DragUpTech at the bottom
               const Text(
                 'powered by DragUpTech',
                 style: TextStyle(
