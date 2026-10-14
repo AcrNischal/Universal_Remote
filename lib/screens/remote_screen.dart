@@ -65,6 +65,7 @@ class _RemoteScreenState extends State<RemoteScreen> {
   @override
   Widget build(BuildContext context) {
     final remoteConfig = widget.remoteConfig;
+    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
 
     final powerButton = remoteConfig.buttons.where((b) => b.type == 'power' || b.label.toLowerCase().contains('power')).firstOrNull;
     final muteButton = remoteConfig.buttons.where((b) => b.type == 'mute' || b.label.toLowerCase().contains('mute')).firstOrNull;
@@ -101,8 +102,6 @@ class _RemoteScreenState extends State<RemoteScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(remoteConfig.name),
-        backgroundColor: Colors.white,
-        foregroundColor: Colors.black87,
         elevation: 1,
         actions: _checkingIr ? [] : <Widget>[
           Padding(
@@ -112,14 +111,13 @@ class _RemoteScreenState extends State<RemoteScreen> {
                 message: _hasIrEmitter ? 'IR Blaster Ready' : 'Simulation Mode (No IR Hardware)',
                 child: Icon(
                   _hasIrEmitter ? Icons.settings_remote : Icons.warning_amber_rounded,
-                  color: _hasIrEmitter ? Colors.green[700] : Colors.orange[800],
+                  color: _hasIrEmitter ? Colors.green[400] : Colors.orange[400],
                 ),
               ),
             ),
           ),
         ],
       ),
-      backgroundColor: Colors.grey[100],
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),
         child: Center(
@@ -128,16 +126,16 @@ class _RemoteScreenState extends State<RemoteScreen> {
             child: Container(
               padding: const EdgeInsets.all(20),
               decoration: BoxDecoration(
-                color: Colors.white,
+                color: isDarkMode ? Colors.grey[850] : Colors.white,
                 borderRadius: BorderRadius.circular(28),
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.black.withOpacity(0.08),
+                    color: Colors.black.withOpacity(isDarkMode ? 0.3 : 0.08),
                     blurRadius: 16,
                     spreadRadius: 4,
                   ),
                 ],
-                border: Border.all(color: Colors.grey.shade300, width: 1),
+                border: Border.all(color: isDarkMode ? Colors.grey[700]! : Colors.grey.shade300, width: 1),
               ),
               child: Column(
                 children: [
@@ -158,14 +156,14 @@ class _RemoteScreenState extends State<RemoteScreen> {
                   // Small Vendor & Model Name
                   Text(
                     remoteConfig.manufacturer.toUpperCase(),
-                    style: TextStyle(color: Colors.grey[500], fontSize: 10, letterSpacing: 1.2, fontWeight: FontWeight.bold),
+                    style: TextStyle(color: Colors.grey[400], fontSize: 10, letterSpacing: 1.2, fontWeight: FontWeight.bold),
                   ),
                   const SizedBox(height: 2),
                   Text(
                     remoteConfig.name,
-                    style: const TextStyle(color: Colors.black87, fontSize: 13, fontWeight: FontWeight.w600),
+                    style: TextStyle(color: isDarkMode ? Colors.white : Colors.black87, fontSize: 13, fontWeight: FontWeight.w600),
                   ),
-                  const Divider(color: Colors.grey, height: 24),
+                  Divider(color: isDarkMode ? Colors.grey[700] : Colors.grey, height: 24),
 
                   // Power & Mute
                   Row(
@@ -180,7 +178,7 @@ class _RemoteScreenState extends State<RemoteScreen> {
                   ),
                   const SizedBox(height: 20),
 
-                  // Volume & Channel Layout (Equal length, hide if absent)
+                  // Volume & Channel Layout
                   if ((volUp != null || volDown != null) && (chUp != null || chDown != null)) ...[
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -257,12 +255,12 @@ class _RemoteScreenState extends State<RemoteScreen> {
                       width: 190,
                       height: 190,
                       decoration: BoxDecoration(
-                        color: Colors.grey[200],
+                        color: isDarkMode ? Colors.grey[800] : Colors.grey[200],
                         shape: BoxShape.circle,
                         boxShadow: [
                           BoxShadow(color: Colors.black.withOpacity(0.08), blurRadius: 6),
                         ],
-                        border: Border.all(color: Colors.grey.shade300),
+                        border: Border.all(color: isDarkMode ? Colors.grey[700]! : Colors.grey.shade300),
                       ),
                       child: Stack(
                         alignment: Alignment.center,
@@ -271,7 +269,7 @@ class _RemoteScreenState extends State<RemoteScreen> {
                             Positioned(
                               top: 2,
                               child: IconButton(
-                                icon: const Icon(Icons.arrow_drop_up, size: 36, color: Colors.black87),
+                                icon: Icon(Icons.arrow_drop_up, size: 36, color: isDarkMode ? Colors.white70 : Colors.black87),
                                 onPressed: () => _onButtonPressed(context, dpadUp),
                               ),
                             ),
@@ -279,7 +277,7 @@ class _RemoteScreenState extends State<RemoteScreen> {
                             Positioned(
                               bottom: 2,
                               child: IconButton(
-                                icon: const Icon(Icons.arrow_drop_down, size: 36, color: Colors.black87),
+                                icon: Icon(Icons.arrow_drop_down, size: 36, color: isDarkMode ? Colors.white70 : Colors.black87),
                                 onPressed: () => _onButtonPressed(context, dpadDown),
                               ),
                             ),
@@ -287,7 +285,7 @@ class _RemoteScreenState extends State<RemoteScreen> {
                             Positioned(
                               left: 2,
                               child: IconButton(
-                                icon: const Icon(Icons.arrow_left, size: 36, color: Colors.black87),
+                                icon: Icon(Icons.arrow_left, size: 36, color: isDarkMode ? Colors.white70 : Colors.black87),
                                 onPressed: () => _onButtonPressed(context, dpadLeft),
                               ),
                             ),
@@ -295,7 +293,7 @@ class _RemoteScreenState extends State<RemoteScreen> {
                             Positioned(
                               right: 2,
                               child: IconButton(
-                                icon: const Icon(Icons.arrow_right, size: 36, color: Colors.black87),
+                                icon: Icon(Icons.arrow_right, size: 36, color: isDarkMode ? Colors.white70 : Colors.black87),
                                 onPressed: () => _onButtonPressed(context, dpadRight),
                               ),
                             ),
@@ -322,14 +320,14 @@ class _RemoteScreenState extends State<RemoteScreen> {
                     ),
                   const SizedBox(height: 24),
 
-                  // Number Pad (Perfectly Centered, including '0')
+                  // Number Pad
                   if (numButtons.isNotEmpty) ...[
                     const Align(
                       alignment: Alignment.centerLeft,
                       child: Text('Number Pad', style: TextStyle(color: Colors.grey, fontSize: 12, fontWeight: FontWeight.bold)),
                     ),
                     const SizedBox(height: 8),
-                    _buildNumberPad(context, numButtons),
+                    _buildNumberPad(context, numButtons, isDarkMode),
                     const SizedBox(height: 20),
                   ],
 
@@ -350,8 +348,8 @@ class _RemoteScreenState extends State<RemoteScreen> {
                           height: 40,
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.grey[200],
-                              foregroundColor: Colors.black87,
+                              backgroundColor: isDarkMode ? Colors.grey[800] : Colors.grey[200],
+                              foregroundColor: isDarkMode ? Colors.white : Colors.black87,
                               elevation: 1,
                               padding: const EdgeInsets.symmetric(horizontal: 4),
                               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
@@ -360,7 +358,7 @@ class _RemoteScreenState extends State<RemoteScreen> {
                             child: Text(
                               btn.label,
                               overflow: TextOverflow.ellipsis,
-                              style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w500),
+                              style: TextStyle(fontSize: 12, fontWeight: FontWeight.w500, color: isDarkMode ? Colors.white : Colors.black87),
                             ),
                           ),
                         );
@@ -376,7 +374,7 @@ class _RemoteScreenState extends State<RemoteScreen> {
     );
   }
 
-  Widget _buildNumberPad(BuildContext context, List<RemoteButton> numButtons) {
+  Widget _buildNumberPad(BuildContext context, List<RemoteButton> numButtons, bool isDarkMode) {
     final mainNumbers = numButtons.where((b) => int.tryParse(b.label) != null && int.parse(b.label) > 0).toList()
       ..sort((a, b) => int.parse(a.label).compareTo(int.parse(b.label)));
     final zeroButton = numButtons.where((b) => b.label == '0').firstOrNull;
@@ -398,13 +396,13 @@ class _RemoteScreenState extends State<RemoteScreen> {
                     height: 40,
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.grey[200],
-                        foregroundColor: Colors.black87,
+                        backgroundColor: isDarkMode ? Colors.grey[800] : Colors.grey[200],
+                        foregroundColor: isDarkMode ? Colors.white : Colors.black87,
                         elevation: 1,
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
                       ),
                       onPressed: () => _onButtonPressed(context, btn),
-                      child: Text(btn.label, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                      child: Text(btn.label, style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: isDarkMode ? Colors.white : Colors.black87)),
                     ),
                   ),
                 ),
@@ -429,13 +427,13 @@ class _RemoteScreenState extends State<RemoteScreen> {
                   height: 40,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.grey[200],
-                      foregroundColor: Colors.black87,
+                      backgroundColor: isDarkMode ? Colors.grey[800] : Colors.grey[200],
+                      foregroundColor: isDarkMode ? Colors.white : Colors.black87,
                       elevation: 1,
                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
                     ),
                     onPressed: () => _onButtonPressed(context, zeroButton),
-                    child: const Text('0', style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                    child: Text('0', style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: isDarkMode ? Colors.white : Colors.black87)),
                   ),
                 ),
               ...otherNumbers.map((btn) => Padding(
@@ -445,13 +443,13 @@ class _RemoteScreenState extends State<RemoteScreen> {
                       height: 40,
                       child: ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.grey[200],
-                          foregroundColor: Colors.black87,
+                          backgroundColor: isDarkMode ? Colors.grey[800] : Colors.grey[200],
+                          foregroundColor: isDarkMode ? Colors.white : Colors.black87,
                           elevation: 1,
                           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
                         ),
                         onPressed: () => _onButtonPressed(context, btn),
-                        child: Text(btn.label, style: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold)),
+                        child: Text(btn.label, style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold, color: isDarkMode ? Colors.white : Colors.black87)),
                       ),
                     ),
                   )),

@@ -31,12 +31,29 @@ class _HomeTabState extends State<HomeTab> {
 
   @override
   Widget build(BuildContext context) {
+    final isDarkMode = Theme.of(context).brightness == Brightness.dark;
     // 3 items per row * 3 rows = 9 items initially visible
     final displayedBrands = _showAll ? _randomizedBrands : _randomizedBrands.take(9).toList();
 
     return Scaffold(
       appBar: AppBar(
         title: const Text('Universal Remote'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.add_circle_outline),
+            tooltip: 'Add Remote',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => RemoteExplorerScreen(
+                    onRemoteSaved: widget.onRemoteSaved,
+                  ),
+                ),
+              );
+            },
+          ),
+        ],
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),
@@ -187,12 +204,12 @@ class _HomeTabState extends State<HomeTab> {
                   child: Container(
                     padding: const EdgeInsets.all(8),
                     decoration: BoxDecoration(
-                      color: Colors.white,
+                      color: isDarkMode ? Colors.grey[850] : Colors.white,
                       borderRadius: BorderRadius.circular(14),
-                      border: Border.all(color: Colors.grey.shade300),
+                      border: Border.all(color: isDarkMode ? Colors.grey[700]! : Colors.grey.shade300),
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.black.withOpacity(0.03),
+                          color: Colors.black.withOpacity(isDarkMode ? 0.3 : 0.03),
                           blurRadius: 4,
                           offset: const Offset(0, 2),
                         ),
@@ -206,7 +223,7 @@ class _HomeTabState extends State<HomeTab> {
                             width: double.infinity,
                             padding: const EdgeInsets.all(6),
                             decoration: BoxDecoration(
-                              color: Colors.grey.shade50, // Very light color background for logo
+                              color: isDarkMode ? Colors.grey[800] : Colors.grey.shade50,
                               borderRadius: BorderRadius.circular(10),
                             ),
                             child: SvgPicture.asset(
@@ -218,7 +235,7 @@ class _HomeTabState extends State<HomeTab> {
                         const SizedBox(height: 4),
                         Text(
                           displayName,
-                          style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 11),
+                          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 11, color: isDarkMode ? Colors.white70 : Colors.black87),
                           overflow: TextOverflow.ellipsis,
                         ),
                       ],

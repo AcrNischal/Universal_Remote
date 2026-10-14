@@ -168,7 +168,7 @@ class _RemoteExplorerScreenState extends State<RemoteExplorerScreen> {
                               ),
                         label: Text(cat['name']),
                         labelStyle: TextStyle(
-                          color: isSelected ? Colors.white : Colors.black87,
+                          color: isSelected ? Colors.white : (Theme.of(context).brightness == Brightness.dark ? Colors.white70 : Colors.black87),
                           fontWeight: FontWeight.bold,
                           fontSize: 13,
                         ),
