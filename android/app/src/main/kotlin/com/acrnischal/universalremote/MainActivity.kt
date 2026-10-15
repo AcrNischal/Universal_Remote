@@ -1,4 +1,4 @@
-package com.example.universal_remote
+package com.acrnischal.universalremote
 
 import android.content.Context
 import android.hardware.ConsumerIrManager
