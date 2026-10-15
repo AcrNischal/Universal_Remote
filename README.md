@@ -49,7 +49,7 @@
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AcrNischal/Universal-Remote.git
+   git clone https://github.com/AcrNischal/Universal_Remote.git
    ```
 2. Navigate to the project directory:
    ```bash
