@@ -1,0 +1,31 @@
+AntiFeatures: []
+Categories:
+  - Utilities
+  - System
+License: MIT
+AuthorName: AcrNischal
+SourceCode: https://github.com/AcrNischal/Universal-Remote
+IssueTracker: https://github.com/AcrNischal/Universal-Remote/issues
+
+Name: Universal Remote
+Summary: Control electronic devices with IR blaster or audio aux
+Description: |-
+  Universal Remote is an advanced open-source Flutter application designed to turn your mobile device into a powerful universal remote control supporting over 1,600+ pre-indexed IR database remotes.
+
+RepoType: git
+Repo: https://github.com/AcrNischal/Universal-Remote.git
+
+Builds:
+  - versionName: 1.0.0+1
+    versionCode: 1
+    commit: v1.0.0
+    Srclibs:
+      - flutter@stable
+    subdir: .
+    prebuild:
+      - flutter config --no-analytics
+    build:
+      - flutter build apk --release --no-pub
+    output: build/app/outputs/flutter-apk/app-release.apk
+
+MaintainerNotes: ''

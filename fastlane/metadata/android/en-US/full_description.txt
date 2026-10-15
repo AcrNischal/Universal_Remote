@@ -1,0 +1,10 @@
+Universal Remote is an advanced, open-source Flutter application designed to turn your mobile device into a powerful universal remote control.
+
+### Key Features:
+- **1,600+ Pre-Indexed IR Remotes**: Browse and control TVs, Air Conditioners, Set-Top Boxes, Soundbars, and DVD players across popular brands (Samsung, LG, Sony, Panasonic, Philips, etc.).
+- **Instant Remote Loading & Caching**: Fast background parsing with local SharedPreferences caching and splash screen pre-loading for instant startup.
+- **Saved Remotes & Settings Persistence**: Save favorite remotes and persist user preferences including Dark Mode, transmission modes, and blaster speed.
+- **Remote Designer with Live Preview**: Build custom remotes with a fully interactive remote layout preview and popup test modal.
+- **Standard IR & Pronto Hex Support**: Seamlessly toggle between Standard IR hex codes and Pronto Hex codes.
+- **Edit & Shake Mode**: Edit buttons, test signals, and customize layouts with a wiggling animation mode.
+- **Dual Transmission Modes**: Support for hardware IR blasters and headphone jack / audio aux waveform generation.
