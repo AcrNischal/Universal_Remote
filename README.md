@@ -32,17 +32,13 @@
 
 ## 📸 Screenshots
 
-| Home (Light) | Home (Dark) |
-| :---: | :---: |
-| ![Home](https://github.com/AcrNischal/AcrNischal/blob/main/Universal_Remote/home.jpg) | ![Home Dark](https://github.com/AcrNischal/AcrNischal/blob/main/Universal_Remote/home_dark.jpg) |
+| Home (Light) | Home (Dark) | All Remotes List |
+| :---: | :---: | :---: |
+| <img src="https://github.com/AcrNischal/AcrNischal/blob/main/Universal_Remote/home.jpg" width="220" alt="Home"> | <img src="https://github.com/AcrNischal/AcrNischal/blob/main/Universal_Remote/home_dark.jpg" width="220" alt="Home Dark"> | <img src="https://github.com/AcrNischal/AcrNischal/blob/main/Universal_Remote/all_remotes_list.jpg" width="220" alt="All Remotes List"> |
 
-| All Remotes List | Remote Preview |
-| :---: | :---: |
-| ![All Remotes List](https://github.com/AcrNischal/AcrNischal/blob/main/Universal_Remote/all_remotes_list.jpg) | ![Remote Preview](https://github.com/AcrNischal/AcrNischal/blob/main/Universal_Remote/remote_preview.jpg) |
-
-| Design Own Remote | Settings |
-| :---: | :---: |
-| ![Design Own Remote](https://github.com/AcrNischal/AcrNischal/blob/main/Universal_Remote/design_own_remote.jpg) | ![Settings](https://github.com/AcrNischal/AcrNischal/blob/main/Universal_Remote/settings.jpg) |
+| Remote Preview | Design Own Remote | Settings |
+| :---: | :---: | :---: |
+| <img src="https://github.com/AcrNischal/AcrNischal/blob/main/Universal_Remote/remote_preview.jpg" width="220" alt="Remote Preview"> | <img src="https://github.com/AcrNischal/AcrNischal/blob/main/Universal_Remote/design_own_remote.jpg" width="220" alt="Design Own Remote"> | <img src="https://github.com/AcrNischal/AcrNischal/blob/main/Universal_Remote/settings.jpg" width="220" alt="Settings"> |
 
 ---
 
