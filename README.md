@@ -30,6 +30,22 @@
 
 ---
 
+## 📸 Screenshots
+
+| Home (Light) | Home (Dark) |
+| :---: | :---: |
+| ![Home](https://github.com/AcrNischal/AcrNischal/blob/main/Universal_Remote/home.jpg) | ![Home Dark](https://github.com/AcrNischal/AcrNischal/blob/main/Universal_Remote/home_dark.jpg) |
+
+| All Remotes List | Remote Preview |
+| :---: | :---: |
+| ![All Remotes List](https://github.com/AcrNischal/AcrNischal/blob/main/Universal_Remote/all_remotes_list.jpg) | ![Remote Preview](https://github.com/AcrNischal/AcrNischal/blob/main/Universal_Remote/remote_preview.jpg) |
+
+| Design Own Remote | Settings |
+| :---: | :---: |
+| ![Design Own Remote](https://github.com/AcrNischal/AcrNischal/blob/main/Universal_Remote/design_own_remote.jpg) | ![Settings](https://github.com/AcrNischal/AcrNischal/blob/main/Universal_Remote/settings.jpg) |
+
+---
+
 ## 🛠️ Tech Stack & Dependencies
 
 - **Framework**: Flutter (Dart)
