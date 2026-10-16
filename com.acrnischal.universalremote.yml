@@ -43,7 +43,6 @@ Builds:
       - $$flutter$$/bin/flutter build apk --release --android-skip-build-dependency-validation
 
 AutoUpdateMode: Version
-UpdateCheckMode: Version
-UpdateCheckData: pubspec.yaml|version:\s*([0-9.]+)\+(\d+)
+UpdateCheckMode: Tags
 CurrentVersion: 1.0.0
 CurrentVersionCode: 1
