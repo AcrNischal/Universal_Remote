@@ -1,6 +1,5 @@
-AntiFeatures: []
 Categories:
-  - Utilities
+  - Connectivity
   - System
 License: MIT
 AuthorName: AcrNischal
@@ -9,8 +8,9 @@ IssueTracker: https://github.com/AcrNischal/Universal_Remote/issues
 
 Name: Universal Remote
 Summary: Control electronic devices with IR blaster or audio aux
-Description: |-
-  Universal Remote is an advanced open-source Flutter application designed to turn your mobile device into a powerful universal remote control supporting over 1,600+ pre-indexed IR database remotes.
+Description: Universal Remote is an advanced open-source Flutter application designed
+  to turn your mobile device into a powerful universal remote control supporting over
+  1,600+ pre-indexed IR database remotes.
 
 RepoType: git
 Repo: https://github.com/AcrNischal/Universal_Remote.git
@@ -19,20 +19,31 @@ Builds:
   - versionName: 1.0.0
     versionCode: 1
     commit: v1.0.0
-    subdir: .
+    output: build/app/outputs/flutter-apk/app-release.apk
     srclibs:
       - flutter@stable
+    rm:
+      - ios
+      - linux
+      - macos
+      - web
+      - windows
     prebuild:
       - git -C $$flutter$$ checkout -f stable
       - export PUB_CACHE=$(pwd)/.pub-cache
+      - export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
+      - sed -i '/org.gradle.java.home/d' android/gradle.properties
       - $$flutter$$/bin/flutter config --no-analytics
       - $$flutter$$/bin/flutter pub get
+    scandelete:
+      - .pub-cache
     build:
       - export PUB_CACHE=$(pwd)/.pub-cache
-      - $$flutter$$/bin/flutter build apk --release
-    output: build/app/outputs/flutter-apk/app-release.apk
+      - export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
+      - $$flutter$$/bin/flutter build apk --release --android-skip-build-dependency-validation
 
 AutoUpdateMode: Version
-UpdateCheckMode: Tags
+UpdateCheckMode: Version
+UpdateCheckData: pubspec.yaml|version:\s*([0-9.]+)\+(\d+)
 CurrentVersion: 1.0.0
 CurrentVersionCode: 1
