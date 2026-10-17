@@ -5,6 +5,7 @@ License: MIT
 AuthorName: AcrNischal
 SourceCode: https://github.com/AcrNischal/Universal_Remote
 IssueTracker: https://github.com/AcrNischal/Universal_Remote/issues
+Changelog: https://github.com/AcrNischal/Universal_Remote/releases
 
 Name: Universal Remote
 Summary: Control electronic devices with IR blaster or audio aux
@@ -16,7 +17,7 @@ RepoType: git
 Repo: https://github.com/AcrNischal/Universal_Remote.git
 
 Builds:
-  - versionName: 1.0.0
+  - versionName: v1.0.0
     versionCode: 1
     commit: v1.0.0
     output: build/app/outputs/flutter-apk/app-release.apk
