@@ -14,8 +14,8 @@ Repo: https://github.com/AcrNischal/Universal_Remote.git
 
 Builds:
   - versionName: 1.0.0
-    versionCode: 1
-    commit: v1.0.0
+    versionCode: 11
+    commit: d9824cad2d27b53b7e65c2fda6565c402c2109be
     output: build/app/outputs/flutter-apk/app-release.apk
     srclibs:
       - flutter@stable
@@ -47,4 +47,4 @@ VercodeOperation:
   - '%c * 10 + 3'
 UpdateCheckData: pubspec.yaml|version:\s.+\+(\d+)|.|version:\s(.+)\+
 CurrentVersion: 1.0.0
-CurrentVersionCode: 1
+CurrentVersionCode: 13
